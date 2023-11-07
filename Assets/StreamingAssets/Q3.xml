@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Thomas Jahn</Director>
+      <_cadrCinemaName>Knockin on Heavens Door</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Достучаться до небес</Info>
+          <TranslateInfo>Достучаться до небес</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Босиком по мостовой</Info>
+          <TranslateInfo>Босиком по мостовой</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Люди в черном 1</Info>
+          <TranslateInfo>Люди в черном 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Люди в черном 2</Info>
+          <TranslateInfo>Люди в черном 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Guy Ritchie</Director>
+      <_cadrCinemaName>Snatch</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Револьвер</Info>
+          <TranslateInfo>Револьвер</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Джентльмены</Info>
+          <TranslateInfo>Джентльмены</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Карты, деньги, два ствола</Info>
+          <TranslateInfo>Карты, деньги, два ствола</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Большой куш</Info>
+          <TranslateInfo>Большой куш</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Leonid Gaidai</Director>
+      <_cadrCinemaName>brilliantovaya-ruka</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Человек с бульвара Капуцинов</Info>
+          <TranslateInfo>Человек с бульвара Капуцинов</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>12 стульев</Info>
+          <TranslateInfo>12 стульев</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Бриллиантовая рука</Info>
+          <TranslateInfo>Бриллиантовая рука</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Обыкновенное чудо</Info>
+          <TranslateInfo>Обыкновенное чудо</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Lasse Hallstrom</Director>
+      <_cadrCinemaName>Hatiko</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Белый плен</Info>
+          <TranslateInfo>Белый плен</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Марли и я</Info>
+          <TranslateInfo>Марли и я</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Собачья жизнь</Info>
+          <TranslateInfo>Собачья жизнь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Хатико</Info>
+          <TranslateInfo>Хатико</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Leonid Gaidai</Director>
+      <_cadrCinemaName>kavkazskaya-plennica</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Кавказская пленница</Info>
+          <TranslateInfo>Кавказская пленница</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Человек с бульвара Капуцинов</Info>
+          <TranslateInfo>Человек с бульвара Капуцинов</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Берегись автомобиля</Info>
+          <TranslateInfo>Берегись автомобиля</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>12 стульев</Info>
+          <TranslateInfo>12 стульев</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Gor Verbinski</Director>
+      <_cadrCinemaName>The Curse of The Black Pear</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Пираты Карибского моря: Проклятие Черной жемчужины</Info>
+          <TranslateInfo>Пираты Карибского моря: Проклятие Черной жемчужины</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Пираты Карибского моря: Сундук мертвеца</Info>
+          <TranslateInfo>Пираты Карибского моря: Сундук мертвеца</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Пираты Карибского моря: На краю света</Info>
+          <TranslateInfo>Пираты Карибского моря: На краю света</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Пираты Карибского моря: На странных берегах</Info>
+          <TranslateInfo>Пираты Карибского моря: На странных берегах</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Как зовут персонажа справа?</Info>
+      <NoteFilm />
+      <Director>Gaidai</Director>
+      <_cadrCinemaName>12-stulev-1971</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Остап Бендер</Info>
+          <TranslateInfo>Остап Бендер</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Тихон</Info>
+          <TranslateInfo>Тихон</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Киса Воробьянинов</Info>
+          <TranslateInfo>Киса Воробьянинов</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Отец Федор</Info>
+          <TranslateInfo>Отец Федор</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Ridley Scott</Director>
+      <_cadrCinemaName>Gladiator</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Робин Гуд</Info>
+          <TranslateInfo>Робин Гуд</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Игры разума</Info>
+          <TranslateInfo>Игры разума</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Бен Гур</Info>
+          <TranslateInfo>Бен Гур</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Гладиатор</Info>
+          <TranslateInfo>Гладиатор</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Balabanov</Director>
+      <_cadrCinemaName>Brother 1</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Брат 1</Info>
+          <TranslateInfo>Брат 1</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Брат 2</Info>
+          <TranslateInfo>Брат 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Сестры</Info>
+          <TranslateInfo>Сестры</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Война</Info>
+          <TranslateInfo>Война</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Chris Columbus</Director>
+      <_cadrCinemaName>Home-Alone-1</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Один дома 2</Info>
+          <TranslateInfo>Один дома 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Один дома 1</Info>
+          <TranslateInfo>Один дома 1</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Один дома 3</Info>
+          <TranslateInfo>Один дома 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Хью Хефнер</Info>
+          <TranslateInfo>Хью Хефнер</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

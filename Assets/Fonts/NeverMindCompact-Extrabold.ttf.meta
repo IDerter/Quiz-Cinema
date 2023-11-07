@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: f45bd87ba88bccc4c8b27989568b8b6c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - NeverMind Compact
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a254740363bcf3d47b363985e26574fc, type: 3}
+  - {fileID: 12800000, guid: 2126d4709796f3a47950b0548e71ced7, type: 3}
+  - {fileID: 12800000, guid: 10d28b85f68f7164e90bf0e5875be2da, type: 3}
+  - {fileID: 12800000, guid: 8344474aa6199f742be68c43463aa415, type: 3}
+  - {fileID: 12800000, guid: a0ecd521aadc97743965fb92f5f3202d, type: 3}
+  - {fileID: 12800000, guid: 11bafcbbf29c42843a5008be7dc8d688, type: 3}
+  - {fileID: 12800000, guid: 2295c5efc4adaf54ebe45b5e9755a297, type: 3}
+  - {fileID: 12800000, guid: b1334860c5ab6e24c84af9a4601574f7, type: 3}
+  - {fileID: 12800000, guid: 706f94ab01882ee42b574f15de897703, type: 3}
+  - {fileID: 12800000, guid: 827dee2bab179ba4d9e5c9dd018a9846, type: 3}
+  - {fileID: 12800000, guid: 74fcaad169e85e94684f88488e064a53, type: 3}
+  - {fileID: 12800000, guid: 63ef27e8036f62547a7595d63cd80909, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

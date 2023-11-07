@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 706f94ab01882ee42b574f15de897703
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - NeverMind Compact
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 10d28b85f68f7164e90bf0e5875be2da, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
