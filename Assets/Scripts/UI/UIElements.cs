@@ -52,5 +52,11 @@ namespace QuizCinema
 
         [SerializeField] private RectTransform _finishUIElements;
         public RectTransform FinishUIElements => _finishUIElements;
+
+        [SerializeField] private GameObject _buttonFinishNextLvl;
+        public GameObject EnableButtonFinishNextLvl => _buttonFinishNextLvl;
+
+        [SerializeField] private GameObject _buttonFinishReloadLvl;
+        public GameObject EnableButtonFinishReloadLvl => _buttonFinishReloadLvl;
     }
 }

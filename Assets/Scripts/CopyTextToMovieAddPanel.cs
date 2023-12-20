@@ -25,9 +25,10 @@ namespace QuizCinema
             _uIManager.OnCorrectAnswer -= OnCorrectAnswers;
         }
 
-        private void OnCorrectAnswers(AnswerData answer)
+        private void OnCorrectAnswers(List<AnswerData> answer)
         {
-            _textCinemaName.text = answer.InfoText.text;
+            // TODO //
+            _textCinemaName.text = answer[0].InfoText.text;
         }
 
         private void OnCreateAnswers(Question question)

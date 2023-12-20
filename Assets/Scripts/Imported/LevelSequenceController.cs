@@ -34,15 +34,16 @@ namespace SpaceShooter
             _maxScore = PlayerPrefs.GetInt("MaxScore");
         }
 
-        public void StartEpisode(Episode episode)
+        public void StartEpisode(Episode episode, int currentLevelIndex, string episodeName)
         {
             CurrentEpisode = episode;
-            CurrentLevel = 0;
+            // CurrentLevel = 0;
+            CurrentLevel = currentLevelIndex;
 
             LevelStatisics = new PlayerStatistics();
             LevelStatisics.Reset();
 
-            SceneManager.LoadScene(episode.Levels[CurrentLevel]);
+            SceneManager.LoadScene(episodeName);
         }
 
         public void RestartLevel()

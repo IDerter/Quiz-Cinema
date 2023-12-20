@@ -54,15 +54,17 @@ namespace QuizCinema
             }
         }
 
-        private void UpdateButtonCadr(AnswerData obj)
+        private void UpdateButtonCadr(AnswerData obj, bool pressed)
         {
-            Debug.Log("UpdateButtonCadr");
-            _buttonConfirm.sprite = _buttonTouchedSprite;
-
+            Debug.Log("UpdateButtonCadr" + pressed);
             if (_buttonConfirm.TryGetComponent<Button>(out var button))
             {
                 button.interactable = true;
             }
+            
+            _buttonConfirm.sprite = pressed ? _buttonTouchedSprite : _buttonUnTouchedSprite;
+
+
             answerData = obj;
         }
 

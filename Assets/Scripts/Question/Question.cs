@@ -28,6 +28,8 @@ namespace QuizCinema
         /// Index = 3 - image questionsd
         /// </summary>
         public int IndexPrefab = 0;
+        public AnswerType _answerType = AnswerType.Single;
+        public AnswerType GetAnswerType => _answerType;
 
         public string Info = String.Empty;
 
@@ -44,7 +46,6 @@ namespace QuizCinema
 
         public int Timer = 0;
 
-        public AnswerType GetAnswerType = AnswerType.Single;
 
         public int AddScore = 0;
 

@@ -3,6 +3,7 @@
   <Questions>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>В какой год переместились герои фильма?</Info>
       <NoteFilm />
       <Director>Zemekis</Director>
@@ -31,11 +32,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Молодость какого персонажа показана в фильме Крестный отец 2?</Info>
       <NoteFilm />
       <Director>Coppola</Director>
@@ -64,48 +65,48 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
-      <IndexPrefab>0</IndexPrefab>
-      <Info>Угадай фильм по кадру</Info>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Сколько людей входило в отряд братства кольца?</Info>
       <NoteFilm />
-      <Director>Leonid Gaidai  </Director>
-      <_cadrCinemaName>Avengers Infinity War</_cadrCinemaName>
+      <Director>Jackson</Director>
+      <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Мстители: Война бесконечности</Info>
-          <TranslateInfo>Мстители: Война бесконечности</TranslateInfo>
+          <Info>2</Info>
+          <TranslateInfo>2</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Мстители: Финал</Info>
-          <TranslateInfo>Мстители: Финал</TranslateInfo>
+          <Info>9</Info>
+          <TranslateInfo>9</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Железный человек</Info>
-          <TranslateInfo>Железный человек</TranslateInfo>
+          <Info>11</Info>
+          <TranslateInfo>11</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Мстители: Эра Альтрона</Info>
-          <TranslateInfo>Мстители: Эра Альтрона</TranslateInfo>
+          <Info>5</Info>
+          <TranslateInfo>5</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
-      <AddScore>50</AddScore>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Постер из какого фильма перед вами?</Info>
       <NoteFilm />
       <Director>Jonathan Demme</Director>
-      <_cadrCinemaName>The Silence of the Lambs</_cadrCinemaName>
+      <_cadrCinemaName>The Silence of the Lambs Poster</_cadrCinemaName>
       <Answers>
         <Answer>
           <Info>Эффект бабочки</Info>
@@ -119,7 +120,7 @@
         </Answer>
         <Answer>
           <Info>Молчание ягнят</Info>
-          <TranslateInfo>The Silence of the Lambs</TranslateInfo>
+          <TranslateInfo>Молчание ягнят</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
@@ -130,206 +131,209 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>60</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
-      <Director>Leonid Gaidai  </Director>
+      <Director>Paul King</Director>
       <_cadrCinemaName>Paddington 1</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Кавказская пленница</Info>
-          <TranslateInfo />
+          <Info>Чебурашка</Info>
+          <TranslateInfo>Чебурашка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Приключение Паддингтона</Info>
+          <TranslateInfo>Приключение Паддингтона</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Человек с бульвара Капуцинов</Info>
-          <TranslateInfo />
+          <Info>Приключения Паддингтона 2</Info>
+          <TranslateInfo>Приключения Паддингтона 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Берегись автомобиля</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>12 стульев</Info>
-          <TranslateInfo />
+          <Info>Вонка</Info>
+          <TranslateInfo>Вонка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
-      <IndexPrefab>0</IndexPrefab>
-      <Info>Угадай фильм по кадру</Info>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Укрощение строптивого</Info>
       <NoteFilm />
-      <Director>Gor Verbinski  </Director>
-      <_cadrCinemaName>The Curse of The Black Pear</_cadrCinemaName>
+      <Director>Castellano  Pipolo</Director>
+      <_cadrCinemaName>The Taming of the Scoundrel</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Пираты Карибского моря: Проклятие Черной жемчужины</Info>
-          <TranslateInfo />
+          <Info>Madly in Love</Info>
+          <TranslateInfo>Безумно влюблённый</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Taming of the Scoundrel</Info>
+          <TranslateInfo>Укрощение строптивого</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Пираты Карибского моря: Сундук мертвеца</Info>
-          <TranslateInfo />
+          <Info>Most Beautiful Wife</Info>
+          <TranslateInfo>Самая красивая жена</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Пираты Карибского моря: На краю света</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Пираты Карибского моря: На странных берегах</Info>
-          <TranslateInfo />
+          <Info>The Con Artists</Info>
+          <TranslateInfo>Блеф</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите фильмы с участие Леонардо ДиКаприо</Info>
+      <NoteFilm />
+      <Director>Leonardo DiCaprio</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Дневник памяти</Info>
+          <TranslateInfo>Дневник памяти</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Великий Гэтсби</Info>
+          <TranslateInfo>Великий Гэтсбиа</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Воин</Info>
+          <TranslateInfo>Воин</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Дневник Баскетболиста</Info>
+          <TranslateInfo>Дневник Баскетболиста</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
     <Question>
-      <IndexPrefab>0</IndexPrefab>
-      <Info>Угадай фильм по кадру</Info>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>По словам одного актера Кристиан Бейл для роли в этом фильме сбросил больше 30 кг.
+Перед этим Бейл набрал вес для роли в фильме Адама Маккея «Власть», и на то, чтобы его сбросить, у актёра было порядка семи месяцев.
+Когда же друг актера спросил у Бейла, как ему это удалось, тот ответил, что просто перестал есть. 
+Также Кристиан брал уроки вождения в специализированной автошколе бывшего гонщика Боба Бондюрана.
+Как называется этот фильм?</Info>
       <NoteFilm />
-      <Director>Kemeron  </Director>
-      <_cadrCinemaName>Titanic</_cadrCinemaName>
+      <Director>James Mangold</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Чтец</Info>
-          <TranslateInfo />
+          <Info>Власть</Info>
+          <TranslateInfo>Власть</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Титаник</Info>
-          <TranslateInfo />
+          <Info>Бэтмен: Начало</Info>
+          <TranslateInfo>Бэтмен: Начало</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Машинист</Info>
+          <TranslateInfo>Машинист</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Форд против Феррари</Info>
+          <TranslateInfo>Форд против Феррари</TranslateInfo>
           <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Терминатор</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Аватар</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
     <Question>
-      <IndexPrefab>0</IndexPrefab>
-      <Info>Угадай фильм по кадру</Info>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Железный Человек</Info>
       <NoteFilm />
-      <Director>Ridley Scott  </Director>
-      <_cadrCinemaName>Gladiator</_cadrCinemaName>
+      <Director>Jon Favreau</Director>
+      <_cadrCinemaName>Iron Man</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Робин Гуд</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Игры разума</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Бен Гур</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Гладиатор</Info>
-          <TranslateInfo />
+          <Info>Iron Man</Info>
+          <TranslateInfo>Железный Человек</TranslateInfo>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Avengers Infinity War</Info>
+          <TranslateInfo>Мстители: Война бесконечности</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Avengers Endgame</Info>
+          <TranslateInfo>Мстители: Финал</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Avengers Age of Ultron</Info>
+          <TranslateInfo>Мстители: Эра Альтрона</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
-      <AddScore>50</AddScore>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
     </Question>
     <Question>
-      <IndexPrefab>0</IndexPrefab>
-      <Info>Угадай фильм по кадру</Info>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Загадочная история Бенджамина Баттона </Info>
       <NoteFilm />
-      <Director>Balabanov  </Director>
-      <_cadrCinemaName>Brother 1</_cadrCinemaName>
+      <Director>Fincher</Director>
+      <_cadrCinemaName>The Curious Case of Benjamin Button</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Брат 1</Info>
-          <TranslateInfo />
+          <Info>Mr. and Mrs.Smith</Info>
+          <TranslateInfo>Мистер и Миссис Смит</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Burn After Reading</Info>
+          <TranslateInfo>После прочтения сжечь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Curious Case of Benjamin Button</Info>
+          <TranslateInfo>Загадочная история Бенджамина Баттона </TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Брат 2</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Сестры</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Война</Info>
-          <TranslateInfo />
+          <Info>Inglourious Basterds</Info>
+          <TranslateInfo>Бесславные ублюдки</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
-      <AddScore>50</AddScore>
-    </Question>
-    <Question>
-      <IndexPrefab>0</IndexPrefab>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
-      <Director>Chris Columbus  </Director>
-      <_cadrCinemaName>Home-Alone-1</_cadrCinemaName>
-      <Answers>
-        <Answer>
-          <Info>Один дома 2</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Один дома 1</Info>
-          <TranslateInfo />
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Один дома 3</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Хью Хефнер</Info>
-          <TranslateInfo />
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
-      <AddScore>50</AddScore>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
     </Question>
   </Questions>
 </Data>

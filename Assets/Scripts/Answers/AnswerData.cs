@@ -24,6 +24,10 @@ namespace QuizCinema
         [SerializeField] private Image _currentImage;
         public Image GetCurrentImage => _currentImage;
 
+        [Header("DisplayCorrect")]
+        [SerializeField] private Sprite _unCorrectAnswer;
+        [SerializeField] private Sprite _CorrectAnswer;
+
 
         private RectTransform _rect;
         public RectTransform Rect
@@ -47,7 +51,13 @@ namespace QuizCinema
 
         private void Start()
         {
-            _currentImage = GetComponent<Image>();
+           // _currentImage = GetComponent<Image>();
+
+           /* if (_unCorrectAnswer != null)
+            {
+                GetComponent<Image>().sprite = _unCorrectAnswer;
+            }
+           */
         }
 
 

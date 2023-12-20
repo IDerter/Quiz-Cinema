@@ -3,6 +3,7 @@
   <Questions>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Thomas Jahn</Director>
@@ -31,11 +32,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Guy Ritchie</Director>
@@ -64,11 +65,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Leonid Gaidai</Director>
@@ -97,11 +98,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Lasse Hallstrom</Director>
@@ -130,11 +131,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>60</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Leonid Gaidai</Director>
@@ -163,11 +164,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Gor Verbinski</Director>
@@ -196,11 +197,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Как зовут персонажа справа?</Info>
       <NoteFilm />
       <Director>Gaidai</Director>
@@ -229,11 +230,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Ridley Scott</Director>
@@ -262,11 +263,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Balabanov</Director>
@@ -295,11 +296,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Chris Columbus</Director>
@@ -328,7 +329,6 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
   </Questions>

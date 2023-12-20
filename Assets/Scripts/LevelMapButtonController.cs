@@ -21,6 +21,11 @@ namespace QuizCinema
             SceneManager.LoadScene(_sceneLevelMap);
         }
 
+        public void LoadSceneByName(string scene)
+        {
+            SceneManager.LoadScene(scene);
+        }
+
         public void Quit()
         {
             Application.Quit();

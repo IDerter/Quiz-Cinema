@@ -60,8 +60,10 @@ namespace QuizCinema
                 if (_cadrs[i] != null)
                 {
 
-                    Sprite sprite = Resources.Load($"Type{question.IndexPrefab}/{question.Answers[i].Info}", typeof(Sprite)) as Sprite;
-                    _cadrs[i].sprite = sprite;
+                    Sprite sprite = Resources.Load($"{question.Answers[i].Info}", typeof(Sprite)) as Sprite;
+
+                    _cadrs[i].GetComponent<CadrsAnswers>().GetCurrentImage.sprite = sprite;
+                   // _cadrs[i].sprite = sprite;
                     _cadrs[i].gameObject.SetActive(false);
                 }
             }

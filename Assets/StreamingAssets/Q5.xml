@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Плакат с какой актрисой висел в камере Энди Дифрейна, героя "Побега из Шоушенка"?</Info>
+      <NoteFilm />
+      <Director>Darabont</Director>
+      <_cadrCinemaName>The Shawshank Redemption</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Marilyn Monroe</Info>
+          <TranslateInfo>Мэрилин Монро</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Ingrid Bergman</Info>
+          <TranslateInfo>Ингрид Бергман</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Rita Hayworth</Info>
+          <TranslateInfo>Рита Хейворт</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Loretta Young</Info>
+          <TranslateInfo>Лоретта Янг</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите фильмы у которых есть литературный источник</Info>
+      <NoteFilm />
+      <Director>Zemekis</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Форрест Гамп</Info>
+          <TranslateInfo>Форрест Гамп</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Побег из Шоушенка</Info>
+          <TranslateInfo>Побег из Шоушенка</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1 + 1</Info>
+          <TranslateInfo>1 + 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Интерстеллар</Info>
+          <TranslateInfo>Интерстеллар</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Терминал</Info>
+      <NoteFilm />
+      <Director>Steven Spielberg</Director>
+      <_cadrCinemaName>Terminal</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Up in the Air</Info>
+          <TranslateInfo>Мне бы в небо</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Catch me if you can</Info>
+          <TranslateInfo>Поймай меня, если сможешь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Airplane</Info>
+          <TranslateInfo>Аэроплан</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Terminal</Info>
+          <TranslateInfo>Терминал</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Обои с персонажем из какого фильма перед вами?</Info>
+      <NoteFilm />
+      <Director>Fincher</Director>
+      <_cadrCinemaName>Fight club wallpaper</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Тайлер Дерден</Info>
+          <TranslateInfo>Тайлер Дерден</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Fight club wallpaper</Info>
+          <TranslateInfo>Бойцовский клуб</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Исчезнувшая</Info>
+          <TranslateInfo>Исчезнувшая</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Семь</Info>
+          <TranslateInfo>Семь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>В каком году был основан первый кинотеатр?</Info>
+      <NoteFilm />
+      <Director>Lumiere brothers</Director>
+      <_cadrCinemaName>First film</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>1915</Info>
+          <TranslateInfo>1915</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1907</Info>
+          <TranslateInfo>1907</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1904</Info>
+          <TranslateInfo>1904</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1895</Info>
+          <TranslateInfo>1895</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Человек-паук 1</Info>
+      <NoteFilm />
+      <Director>Sam Raimi</Director>
+      <_cadrCinemaName>Spider Man 1</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Spider Man 2</Info>
+          <TranslateInfo>Человек-паук 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Spider Man 1</Info>
+          <TranslateInfo>Человек-паук 1</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>New Spider Man</Info>
+          <TranslateInfo>Новый Человек-паук</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Spider man 3</Info>
+          <TranslateInfo>Человек-паук 3: Враг в отражении</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по описанию подготовки актера к главной роли:
+Аль Пачино подошел к своей роли со всей серьезностью. Чтобы убедительно сыграть слепого, он долгое время общался с людьми, которые потеряли зрение в результате травмы.
+Они научили его приемам, которыми пользуются сами, чтобы сесть на стул, налить жидкость и т. д.
+Пока актер работал над фильмом, он оставался «слепым» даже вне съемочной площадки: не смотрел на собеседника, ни на чем не фокусировал свой взгляд и везде ходил с тростью.
+</Info>
+      <NoteFilm>За роль полковника Слэйда Аль Пачино наконец-то получил свой долгожданный и единственный «Оскар» за лучшую мужскую роль.
+ До этого он номинировался 6 раз, но академики год за годом лишали актера этой престижной награды.</NoteFilm>
+      <Director>Martin Brest</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Лицо со шрамом</Info>
+          <TranslateInfo>Лицо со шрамом</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Схватка</Info>
+          <TranslateInfo>Схватка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Крестный отец 3</Info>
+          <TranslateInfo>Крестный отец 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Запах женщины</Info>
+          <TranslateInfo>Запах женщины</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по факту: 
+Продюсерский штаб «New Line Cinema» долго не хотел запускать фильм в производство из-за его концовки. 
+Обсуждался целый ряд альтернативных вариантов финала (не менее пяти), однако решающее слово осталось за Брэдом Питтом.
+Он отказался принимать участие в съемках, если концовка фильма подвергнется изменению.</Info>
+      <NoteFilm />
+      <Director>Fincher</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Семь</Info>
+          <TranslateInfo>Семь</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Подозрительный лица</Info>
+          <TranslateInfo>Подозрительный лица</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Титаник</Info>
+          <TranslateInfo>Титаник</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>12 обезьян</Info>
+          <TranslateInfo>12 обезьян</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Harold Ramis</Director>
+      <_cadrCinemaName>Groundhog-Day</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Трудности перевода</Info>
+          <TranslateInfo>Трудности перевода</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>День сурка</Info>
+          <TranslateInfo>День сурка</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Охотники за привидениями 1</Info>
+          <TranslateInfo>Охотники за привидениями 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Охотники за привидениями 2</Info>
+          <TranslateInfo>Охотники за привидениями 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Красотка</Info>
+      <NoteFilm />
+      <Director>Garry Marshall</Director>
+      <_cadrCinemaName>Pretty Woman</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Notting Hill</Info>
+          <TranslateInfo>Ноттинг-Хилл</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Eat, Pray, Love</Info>
+          <TranslateInfo>Ешь, молись, люби</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Pretty Woman</Info>
+          <TranslateInfo>Красотка</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Erin Brockovich</Info>
+          <TranslateInfo>Эрин Брокович</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

@@ -6,13 +6,15 @@ using TowerDefense;
 using SpaceShooter;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
     public class UIManager : MonoBehaviour, IDependency<Score>, IDependency<AnswerData>
     {
         public event Action<Question> OnCreateAnswers;
-        public event Action<AnswerData> OnCorrectAnswer;
+        public event Action<List<AnswerData>> OnCorrectAnswer;
+        public event Action<AnswerData> OnCorrectSpriteActivate;
 
         public enum ResolutionScreenType { Correct, Incorrect, Finish }
 
@@ -30,6 +32,7 @@ namespace QuizCinema
 
 
         private List<AnswerData> _currentAnswer = new List<AnswerData>();
+        private List<AnswerData> _correctAnswer = new List<AnswerData>();
         private int _resStateParaHash = 0;
 
         private IEnumerator IE_DisplayTimedResolution;
@@ -84,39 +87,32 @@ namespace QuizCinema
         {
             UpdateScoreUI();
 
+            var index = question.IndexPrefab;
+
             for (int i = 0; i < _answerPrefab.Length; i++)
             {
                 _uIElements.QuestionInfoTextObject[i].transform.parent.gameObject.SetActive(false);
-                _uIElements.CadrCinema[i].gameObject.SetActive(false);
+                _uIElements.CadrCinema[i].transform.parent.gameObject.SetActive(false);
                 _uIElements.AnswerContentArea[i].transform.parent.parent.gameObject.SetActive(false);
             }
 
-            var index = question.IndexPrefab;
-
-            _uIElements.QuestionInfoTextObject[index].transform.parent.gameObject.SetActive(true);
-            _uIElements.CadrCinema[index].gameObject.SetActive(true);
-            _uIElements.AnswerContentArea[index].transform.parent.parent.gameObject.SetActive(true);
-
-            _uIElements.QuestionInfoTextObject[index].text = question.Info;
-
-            Sprite sprite = Resources.Load($"{question._cadrCinemaName}", typeof(Sprite)) as Sprite;
-
-            if (index == 0)
-            {
-                sprite = Resources.Load($"Type{index}/{question._cadrCinemaName}", typeof(Sprite)) as Sprite;
-            }
-
-            if (index == 3)
-            {
-                sprite = Resources.Load($"Type{index}/{question._cadrCinemaName}", typeof(Sprite)) as Sprite;
-            }
-
-            _uIElements.CadrCinema[index].sprite = sprite;
+            ActivateUIObjects(index, question);
 
             if (!_questionMethods.IsFinished)
             {
                 CreateAnswers(question);
             }
+        }
+
+        private void ActivateUIObjects(int index, Question question)
+        {
+            _uIElements.QuestionInfoTextObject[index].transform.parent.gameObject.SetActive(true);
+            _uIElements.CadrCinema[index].transform.parent.gameObject.SetActive(true);
+            _uIElements.AnswerContentArea[index].transform.parent.parent.gameObject.SetActive(true);
+            _uIElements.QuestionInfoTextObject[index].text = question.Info;
+
+            Sprite sprite = Resources.Load($"{question._cadrCinemaName}", typeof(Sprite)) as Sprite;
+            _uIElements.CadrCinema[index].sprite = sprite;
         }
 
         private void DisplayResolution(ResolutionScreenType type, int score)
@@ -137,6 +133,12 @@ namespace QuizCinema
                 IE_DisplayTimedResolution = DisplayTimedResolution();
                 StartCoroutine(IE_DisplayTimedResolution);  
             }
+
+            if (_typeAnswer == ResolutionScreenType.Finish)
+            {
+                _uIElements.FinishUIElements.gameObject.SetActive(true);
+            }
+
         }
 
         private IEnumerator DisplayTimedResolution()
@@ -150,6 +152,7 @@ namespace QuizCinema
         private void UpdateResUI(ResolutionScreenType type, int score)
         {
             var currentEpisode = LevelSequenceController.Instance.CurrentEpisode;
+            var sceneName = SceneManager.GetActiveScene().name;
 
             _uIElements.CountCurrentAnswer.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
 
@@ -167,20 +170,32 @@ namespace QuizCinema
                     _uIElements.ResolutionStateInfoText.text = "Final Score!";
 
                     StartCoroutine(CalculateScore());
-                    _uIElements.FinishUIElements.gameObject.SetActive(true);
-                    _uIElements.HighScoreText.gameObject.SetActive(true);
-                    _uIElements.HighScoreText.text = (MapCompletion.Instance.GetEpisodeScore(currentEpisode) > MapCompletion.Instance.TotalScoreLvls ? "new " : string.Empty) 
-                        + "Highscore: " + MapCompletion.Instance.GetEpisodeScore(currentEpisode).ToString();
-                    _uIElements.CountCorrectAnswer.text = "Кол-во правильных ответов: " + _gameManager.CountCorrectAnswer + " \nКол-во неправильных ответов: "
-                        + (_questionMethods.GetLengthQuestions - _gameManager.CountCorrectAnswer);
+                    //_uIElements.FinishUIElements.gameObject.SetActive(true); // 
+                    UpdateFinishScreen(sceneName);
 
-                    var numberLvl = MapCompletion.Instance.GetEpisodeNumber(currentEpisode);
-
-                    _uIElements.TextSuccessLvl.text = (MapCompletion.Instance.GetEpisodeStars(currentEpisode) > 0 ? "ПРОЙДЕН" : $"НЕ ПРОЙДЕН");
-                    _uIElements.TextFinalLvl.text = $"Уровень {numberLvl}";
-                    
                     break;
+            }
+        }
 
+        private void UpdateFinishScreen(string sceneName)
+        {
+            _uIElements.HighScoreText.gameObject.SetActive(true);
+            _uIElements.HighScoreText.text = MapCompletion.Instance.GetLvlScore(sceneName).ToString();
+            _uIElements.CountCorrectAnswer.text = "Кол-во правильных ответов: " + _gameManager.CountCorrectAnswer + " \nКол-во неправильных ответов: "
+                + (_questionMethods.GetFinishedLengthQuestions - _gameManager.CountCorrectAnswer);
+
+            var numberLvl = MapCompletion.Instance.GetLvlNumber(sceneName) + 1; // т.к нумерация с 0 (у номера 1 индекс 0)
+            _uIElements.TextFinalLvl.text = $"Уровень {numberLvl}";
+
+            if (MapCompletion.Instance.GetLvlScore(sceneName) > 1)
+            {
+                _uIElements.EnableButtonFinishNextLvl.SetActive(true);
+                _uIElements.TextSuccessLvl.text = "ПРОЙДЕН";
+            }
+            else
+            {
+                _uIElements.EnableButtonFinishReloadLvl.SetActive(true);
+                _uIElements.TextSuccessLvl.text = "НЕ ПРОЙДЕН";
             }
         }
 
@@ -207,9 +222,26 @@ namespace QuizCinema
 
         private void CreateAnswers(Question question)
         {
+            _correctAnswer.Clear();
+
             EraseAnswers();
 
             var index = question.IndexPrefab;
+
+            var listIndexCorrectAnswer = question.GetCorrectAnswers();
+
+            UpdateCorrectAnswerList(question);
+
+            OnCorrectAnswer?.Invoke(_correctAnswer);
+
+            OnCreateAnswers?.Invoke(question);
+        }
+
+        private void UpdateCorrectAnswerList(Question question)
+        {
+            var index = question.IndexPrefab;
+
+            var listIndexCorrectAnswer = question.GetCorrectAnswers();
 
             for (int i = 0; i < question.Answers.Length; i++)
             {
@@ -217,14 +249,24 @@ namespace QuizCinema
                 newAnswer.UpdateData(question.Answers[i].TranslateInfo, i);
 
                 _currentAnswer.Add(newAnswer);
+                Debug.Log(question._cadrCinemaName);
 
-                if (question.GetCorrectAnswers()[0] == i)
+                if (question.GetAnswerType == AnswerType.Single)
                 {
-                    OnCorrectAnswer?.Invoke(newAnswer);
+                    if (listIndexCorrectAnswer[0] == i)
+                        _correctAnswer.Add(newAnswer);
+                }
+                else if (question.GetAnswerType == AnswerType.Multiply)
+                {
+                    for (int j = 0; j < listIndexCorrectAnswer.Count; j++)
+                    {
+                        if (i == listIndexCorrectAnswer[j])
+                        {
+                            _correctAnswer.Add(newAnswer);
+                        }
+                    }
                 }
             }
-
-            OnCreateAnswers?.Invoke(question);
         }
 
         private void EraseAnswers()

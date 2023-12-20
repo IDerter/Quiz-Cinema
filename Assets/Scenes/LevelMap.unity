@@ -175,8 +175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levels:
-  - {fileID: 949537430}
-  - {fileID: 452103201}
+  - {fileID: 949537431}
+  - {fileID: 452103205}
   _branchLevels: []
 --- !u!1 &30521351
 GameObject:
@@ -392,9 +392,10 @@ GameObject:
   - component: {fileID: 452103200}
   - component: {fileID: 452103203}
   - component: {fileID: 452103202}
-  - component: {fileID: 452103201}
+  - component: {fileID: 452103204}
+  - component: {fileID: 452103205}
   m_Layer: 5
-  m_Name: Lvl2
+  m_Name: Bar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -422,24 +423,6 @@ RectTransform:
   m_AnchoredPosition: {x: -248, y: -418.125}
   m_SizeDelta: {x: 581.4652, y: 314}
   m_Pivot: {x: 1, y: 0.5}
---- !u!114 &452103201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452103199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa20115e27cc644eb293efeb7a9a8c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _episode: {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}
-  _resultPanel: {fileID: 1102510184}
-  _resultImages:
-  - {fileID: 1715062247}
-  - {fileID: 1505881354}
-  - {fileID: 1216504755}
 --- !u!114 &452103202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,6 +461,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452103199}
   m_CullTransparentMesh: 1
+--- !u!114 &452103204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452103199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eda46a4d08bcde4ca0cdc85dddae2fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &452103205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452103199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa20115e27cc644eb293efeb7a9a8c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _episode: {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}
+  _resultPanel: {fileID: 1102510184}
+  _resultImages:
+  - {fileID: 1715062247}
+  - {fileID: 1505881354}
+  - {fileID: 1216504755}
 --- !u!1 &740453539
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,7 +549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lvl2
+  m_text: Bar2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -773,16 +786,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 452103201}
-        m_TargetAssemblyTypeName: TowerDefense.MapLevel, Assembly-CSharp
-        m_MethodName: LoadLevel
-        m_Mode: 1
+      - m_Target: {fileID: 452103204}
+        m_TargetAssemblyTypeName: QuizCinema.LevelMapButtonController, Assembly-CSharp
+        m_MethodName: LoadSceneByName
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Bar2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &870488403
@@ -1100,8 +1113,9 @@ GameObject:
   - component: {fileID: 949537429}
   - component: {fileID: 949537428}
   - component: {fileID: 949537430}
+  - component: {fileID: 949537431}
   m_Layer: 5
-  m_Name: Lvl1
+  m_Name: Bar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1176,6 +1190,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 949537426}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eda46a4d08bcde4ca0cdc85dddae2fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &949537431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949537426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4aa20115e27cc644eb293efeb7a9a8c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1218,12 +1244,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 0
   _completionData:
-  - _episode: {fileID: 11400000, guid: 97c344234f0594b4cbfcb635ccae5e00, type: 2}
+  - _episodeID: 0
     _stars: 0
     _scoreLvl: 0
-  - _episode: {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}
+    _lvlName: 
+    _maxScoreLvl: 0
+  - _episodeID: 0
     _stars: 0
     _scoreLvl: 0
+    _lvlName: 
+    _maxScoreLvl: 0
   _totalStars: 0
   _totalScoreLvls: 0
 --- !u!114 &991324367
@@ -1616,7 +1646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lvl1
+  m_text: Bar1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2082,15 +2112,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 949537430}
-        m_TargetAssemblyTypeName: TowerDefense.MapLevel, Assembly-CSharp
-        m_MethodName: LoadLevel
-        m_Mode: 1
+        m_TargetAssemblyTypeName: QuizCinema.LevelMapButtonController, Assembly-CSharp
+        m_MethodName: LoadSceneByName
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Bar1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1846509234

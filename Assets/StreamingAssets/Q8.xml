@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по интересному факту из него:
+Готовясь к роли Киану Ривз много времени провел с различными адвокатами Нью-Йорка. Так же актер прочитал множество статей и выдержек об известных судебных процессах.
+По сценарию героям Киану Ривза и Шарлиз Терон в районе 30 лет. На момент съемок Ривзу был 31 год, а Терон 21. 
+Именно поэтому режиссер Тэйлор Хэкфорт долго сомневался подписывать ли Шарлиз Терон на одну из главных ролей. 
+Режиссер считал, что актриса слишком молода для этой роли. В итоге создатели решили поиграть с прическами актрисы, которые делали её старше.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Taylor Hackford</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Sweet November</Info>
+          <TranslateInfo>Сладкий ноябрь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Constantine</Info>
+          <TranslateInfo>Константин: Повелитель тьмы</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Point Break</Info>
+          <TranslateInfo>На гребне волны</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Devil's Advocate</Info>
+          <TranslateInfo>Адвокат дьявола</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Миссия невыполнима 2</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>John McTiernan</Director>
+      <_cadrCinemaName>Mission Impossible 2</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Mission Impossible Ghost Protocol</Info>
+          <TranslateInfo>Миссия невыполнима: Протокол Фантом</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mission Impossible</Info>
+          <TranslateInfo>Миссия: невыполнима</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mission Impossible 2</Info>
+          <TranslateInfo>Миссия: невыполнима 2</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mission Impossible 3</Info>
+          <TranslateInfo>Миссия: невыполнима 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма, где снялся Орландо Блум</Info>
+      <NoteFilm />
+      <Director>Wolfgang Petersen</Director>
+      <_cadrCinemaName>Troy</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>King Arthur Legend of the Sword</Info>
+          <TranslateInfo>Меч Короля Артура</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Troy</Info>
+          <TranslateInfo>Троя</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mr. and Mrs.Smith</Info>
+          <TranslateInfo>Мистер и миссис Смит</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Dracula Untold</Info>
+          <TranslateInfo>Дракула</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Alan Parker</Director>
+      <_cadrCinemaName>The Life of David Gale</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>American Beauty</Info>
+          <TranslateInfo>Красота по-американски</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Life of David Gale</Info>
+          <TranslateInfo>Жизнь Дэвида Гейла</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Seven</Info>
+          <TranslateInfo>Семь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Baby Driver</Info>
+          <TranslateInfo>Малыш на драйве</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по фактам:
+32-й фильм в кинематографической вселенной Marvel.
+Космо в этом фильме - самка, дань уважения советской собаке Лайке, одному из первых животных, побывавших в космосе.
+По словам режиссера, красочные скафандры Guardians были вдохновлены скафандрами из фильма "2001: Космическая одиссея" (1968)
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Peter Weir</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Guardians of the Galaxy Vol. 3</Info>
+          <TranslateInfo>Стражи Галактики. Часть 3</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Guardians of the Galaxy Vol. 2</Info>
+          <TranslateInfo>Стражи Галактики. Часть 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Ant-Man and the Wasp: Quantumania</Info>
+          <TranslateInfo>Человек-муравей и Оса: Квантомания</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Marvels</Info>
+          <TranslateInfo>Капитан Марвел 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Стражи Галактики 2</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>James Gann</Director>
+      <_cadrCinemaName>Guardians of the Galaxy Vol. 2</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Guardians of the Galaxy Vol. 3</Info>
+          <TranslateInfo>Стражи Галактики. Часть 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Guardians of the Galaxy</Info>
+          <TranslateInfo>Стражи Галактики</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Guardians of the Galaxy Vol. 2</Info>
+          <TranslateInfo>Стражи Галактики. Часть 2</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Avengers Infinity War var 2</Info>
+          <TranslateInfo>Мстители: Война бесконечности</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Угадай фильм по отрывку синопсиса:
+Лидер местной банды скинхедов Дерек Виньярд прочно удерживает авторитет в своём районе. 
+Убеждённый в своей правоте, он беспощадно расправляется с теми, кто имеет не белый цвет кожи. 
+Независимость и смелость Дерека вызывают восхищение у его младшего брата Дэнни, который уже тоже сделал свой выбор.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>-</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>12 Years a Slave</Info>
+          <TranslateInfo>12 лет рабства</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Fight club</Info>
+          <TranslateInfo>Бойцовский клуб</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>A Clockwork Orange</Info>
+          <TranslateInfo>Заводной апельсин</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>American History X</Info>
+          <TranslateInfo>Американская история Икс</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Сколько вышло фильмов Миссии невыполнима к 2023 году?</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Christopher McQuarrie</Director>
+      <_cadrCinemaName>Mission Impossible – Dead Reckoning Part One</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>7</Info>
+          <TranslateInfo>7</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>6</Info>
+          <TranslateInfo>6</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>8</Info>
+          <TranslateInfo>4</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>9</Info>
+          <TranslateInfo>9</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Ron Howard</Director>
+      <_cadrCinemaName>Rush</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Gran Turismo</Info>
+          <TranslateInfo>Гран Туризмо</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Rush</Info>
+          <TranslateInfo>Гонка</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Death Race</Info>
+          <TranslateInfo>Смертельная гонка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Ford v Ferrari</Info>
+          <TranslateInfo>Ford против Ferrari</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите всех актеров кто играл роль Ганнибала Лектера</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Thomas Harris</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Johnny Depp</Info>
+          <TranslateInfo>Джонни Депп</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Anthony Hopkins</Info>
+          <TranslateInfo>Энтони Хопкинс</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1 + 1</Info>
+          <TranslateInfo>1 + 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mads Mikkelsen</Info>
+          <TranslateInfo>Мадс Миккельсен</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

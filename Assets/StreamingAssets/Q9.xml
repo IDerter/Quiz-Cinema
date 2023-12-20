@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по актерам/актрисам и их персонажам:
+Рэйф Файнс - мсье Густав, Тони Револори - Зеро Мустафа
+Сирша Ронан - Агата, Тильда Суинтон - Мадам Д.
+Уиллем Дефо -	Джоплинг, Эдвард Нортон - инспектор Хенкельс
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Wes Anderson</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Lovely Bones</Info>
+          <TranslateInfo>Милые кости</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Grand Budapest Hotel</Info>
+          <TranslateInfo>Отель «Гранд Будапешт»</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The French Dispatch</Info>
+          <TranslateInfo>Французский вестник</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Lady Bird</Info>
+          <TranslateInfo>Леди Берд</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Французский вестник</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Wes Anderson</Director>
+      <_cadrCinemaName>The French Dispatch</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Asteroid City</Info>
+          <TranslateInfo>Город астероидов</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Moonrise Kingdom</Info>
+          <TranslateInfo>Королевство полной луны</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Royal Tenenbaums</Info>
+          <TranslateInfo>Семейка Тененбаум</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The French Dispatch</Info>
+          <TranslateInfo>Французский вестник</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Звёздные войны: Эпизод VI - Возвращение джедая</Info>
+      <NoteFilm />
+      <Director>Richard Marquand</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Star Wars. Episode VI Return of the Jedi</Info>
+          <TranslateInfo>Звёздные войны. Эпизод VI: Возвращение джедая</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Star Wars. Episode IV A New Hope</Info>
+          <TranslateInfo>Звёздные войны. Эпизод IV: Новая надежда</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Star Wars Episode III - Revenge of the Sith</Info>
+          <TranslateInfo>Звёздные войны: Эпизод 3 — Месть ситхов</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Star Wars. Episode V The Empire Strikes Back</Info>
+          <TranslateInfo>Звёздные войны: Эпизод 5 — Империя наносит ответный удар</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Ridley Scott</Director>
+      <_cadrCinemaName>Alien</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Alien 3</Info>
+          <TranslateInfo>Чужой 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Aliens</Info>
+          <TranslateInfo>Чужие</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Alien</Info>
+          <TranslateInfo>Чужой</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Thing</Info>
+          <TranslateInfo>Нечто</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по фактам:
+По просьбе Скорсезе Джо Пеши сам придумал и снял сцену, где его герой Томми ДеВито выходит из себя под любимую фразу «Думаешь, я забавный?»
+Кинокомпания Warner Bros. отказывалась продюсировать фильм, если в одной из ведущих ролей не будет ни одной суперзвезды Голливуда. 
+Тогда Скорсезе вспомнил о близком друге Роберте Де Ниро, показал ему сценарий, и спросил, кого он хочет видеть в роли Джимми Конуэя. 
+Де Ниро прочитал и ответил: «Самого себя». Вскоре Warner Bros. согласилась финансировать фильм.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Peter Weir</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Godfather Part II</Info>
+          <TranslateInfo>Крёстный отец 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Goodfellas</Info>
+          <TranslateInfo>Славные парни</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Once Upon a Time in America</Info>
+          <TranslateInfo>Однажды в Америке</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Taxi Driver</Info>
+          <TranslateInfo>Таксист</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Вечное сияние чистого разума</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Michel Gondry</Director>
+      <_cadrCinemaName>Eternal Sunshine of the Spotless Mind</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Eternal Sunshine of the Spotless Mind</Info>
+          <TranslateInfo>Вечное сияние чистого разума</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Bruce Almighty</Info>
+          <TranslateInfo>Брюс Всемогущий</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Yes Man</Info>
+          <TranslateInfo>Всегда говори «да»</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Me, Myself and Irene</Info>
+          <TranslateInfo>Я, снова я и Ирэн</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Угадай фильм по слогану:
+Как остановить убийцу, если он уже за решеткой?
+Фильм 2009 года с Джерардом Батлером
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>-</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Silence of the Lambs</Info>
+          <TranslateInfo>Молчание ягнят</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>300</Info>
+          <TranslateInfo>300 спартанцев</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Zodiac</Info>
+          <TranslateInfo>Зодиак</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Law Abiding Citizen</Info>
+          <TranslateInfo>Законопослушный гражданин</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Сколько Питер Джексон снял фильмов о Средиземье?</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Jackson</Director>
+      <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>3</Info>
+          <TranslateInfo>3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>6</Info>
+          <TranslateInfo>6</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>5</Info>
+          <TranslateInfo>5</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>4</Info>
+          <TranslateInfo>4</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Jackson</Director>
+      <_cadrCinemaName>The Lord of the Rings The Return of the King</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Lord of the Rings The Fellowship of the ring</Info>
+          <TranslateInfo>Властелин колец: Братство Кольца</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Lord of the Rings The Return of the King</Info>
+          <TranslateInfo>Властелин колец: Возвращение короля</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Lord of the Rings: The Two Towers</Info>
+          <TranslateInfo>Властелин колец: Две крепости</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Hobbit: An Unexpected Journey</Info>
+          <TranslateInfo>Хоббит: Нежданное путешествие</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите тех актеров кто появлялся во всех фильмах про Средиземье Питера Джексона</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Jackson</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Ian McKellen</Info>
+          <TranslateInfo>Иэн Маккеллен</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Viggo Mortensen</Info>
+          <TranslateInfo>Вигго Мортенсен</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Orlando Bloom</Info>
+          <TranslateInfo>Орландо Блум</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Martin Freeman</Info>
+          <TranslateInfo>Мартин Фриман</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

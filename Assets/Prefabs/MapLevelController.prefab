@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5732681921516635371}
   - component: {fileID: 5732681921516635380}
   - component: {fileID: 5732681921516635381}
+  - component: {fileID: 5732681921366584381}
+  - component: {fileID: 5732681921366584382}
   m_Layer: 0
   m_Name: MapLevelController
   m_TagString: Untagged
@@ -63,11 +65,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
   _completionData:
-  - _episode: {fileID: 11400000, guid: 97c344234f0594b4cbfcb635ccae5e00, type: 2}
+  - _episodeID: 1
     _stars: 0
     _scoreLvl: 0
-  - _episode: {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
     _stars: 0
     _scoreLvl: 0
+    _lvlName: Lvl1_2
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_3
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_4
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_5
+    _maxScoreLvl: 0
+  - _episodeID: 2
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl2_1
+    _maxScoreLvl: 0
+  - _episodeID: 2
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl2_2
+    _maxScoreLvl: 0
+  - _episodeID: 2
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl2_3
+    _maxScoreLvl: 0
   _totalStars: 0
   _totalScoreLvls: 0
+--- !u!114 &5732681921366584381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5732681921516635382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ccc0fa76775094f8005ad9cefa0e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 1
+  _completionDataCinema: []
+--- !u!114 &5732681921366584382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5732681921516635382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ae734c5cc7f64488974c31d6baff05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 1
+  _episodes:
+  - {fileID: 11400000, guid: 97c344234f0594b4cbfcb635ccae5e00, type: 2}
+  - {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}

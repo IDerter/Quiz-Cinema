@@ -6,9 +6,10 @@ using UnityEngine;
 
 namespace QuizCinema
 {
-    public class QuestionMethods : MonoBehaviour
+    public class QuestionMethods : SingletonBase<QuestionMethods>
     {
         public event Action<Question> UpdateQuestionUI;
+        public event Action<List<AnswerData>> CurrentAnswerList;
 
         [SerializeField] private GameManager _gameManager;
 
@@ -20,11 +21,12 @@ namespace QuizCinema
 
         private List<int> _finishedQuestions = new List<int>();
         public List<int> FinishedQuestions => _finishedQuestions;
-        public int GetLengthQuestions => _finishedQuestions.Count();
+        public int GetFinishedLengthQuestions => _finishedQuestions.Count();
 
         private int _currentIndexQuestion = 0;
         public int CurrentIndexQuestion { get { return _currentIndexQuestion; } set { _currentIndexQuestion = value; } }
         public bool IsFinished => _finishedQuestions.Count < _data.Questions.Length ? false : true;
+        public int GetLengthQuestions => _data.Questions.Length;
         private void OnEnable()
         {
             AnswerData.UpdateQuestionAnswer += UpdateAnswers;
@@ -67,7 +69,13 @@ namespace QuizCinema
                     Debug.Log("Add Multiply");
                     _pickedAnswers.Add(newAnswer);
                 }
+                if (_pickedAnswers.Count == _data.Questions[_currentIndexQuestion].GetCorrectAnswers().Count)
+                {
+                    _gameManager.Accept();
+                }
             }
+
+            CurrentAnswerList?.Invoke(_pickedAnswers);
         }
 
         public void EraseAnswers()

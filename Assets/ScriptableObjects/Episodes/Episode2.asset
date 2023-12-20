@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c77d202a1a8ce14faae151a64051f91, type: 3}
   m_Name: Episode2
   m_EditorClassIdentifier: 
-  _episodeName: Lvl3
+  _episodeName: Bar2
   _levels:
-  - Lvl3
+  - Lvl2_1
+  - Lvl2_2
+  - Lvl2_3
+  - Lvl2_4
+  - Lvl2_5
   _previewImage: {fileID: 0}

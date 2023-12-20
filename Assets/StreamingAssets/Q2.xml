@@ -3,6 +3,7 @@
   <Questions>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Сюжет картины завязан на ограблении,
 после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
@@ -33,11 +34,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Действие фильма происходит в 1969 году в Лос-Анджелесе, где бывшая звезда ТВ-вестернов Рик Далтон и его дублер
 Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии
@@ -68,11 +69,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Комик Элви Сингер с юмором и иронией рассказывает о своей жизни, о людях, которые его окружают. 
 Он скептически анализирует свои неудачи в личной жизни, в которой было несколько любимых женщин.
@@ -103,11 +104,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Некогда известный теннисист Крис переживает не лучшие времена. 
 Надо как-то устраиваться в жизни, а тут еще он на свою беду встречает Нолу, типичную роковую женщину.
@@ -138,11 +139,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>60</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Киборги сходятся в напряженной схватке за жизнь подростка, от которого зависит судьба человечества. Культовый научно-фантастический боевик Джеймса Кэмерона получил 4 премии «Оскар»
 1991 г. - США</NoteFilm>
@@ -172,11 +173,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Подросток Марти с помощью машины времени, сооруженной его другом профессором доком Брауном, попадает из 80-х в далекие 50-е.
 Там он встречается со своими будущими родителями, еще подростками, и другом-профессором, совсем молодым.
@@ -207,15 +208,15 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
       <Info>Выберите всех актеров игравших Вито Корлеоне</Info>
       <NoteFilm />
       <Director>Coppolo</Director>
-      <_cadrCinemaName>Annie Hall</_cadrCinemaName>
+      <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
           <Info>Марлон Брандо</Info>
@@ -240,11 +241,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Главный герой — профессиональный убийца Леон, живёт уединённой жизнью в Маленькой Италии, районе Нью-Йорка. 
 Однажды он встречает живущую по соседству Матильду Ландо, девочку-подростка.
@@ -275,11 +276,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.
 2008 г. - США</NoteFilm>
@@ -309,11 +310,11 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>Кобб — талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна, когда человеческий разум наиболее уязвим
 2010 г. - США</NoteFilm>
@@ -343,7 +344,6 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
   </Questions>

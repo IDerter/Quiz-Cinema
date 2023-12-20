@@ -120,18 +120,24 @@ namespace QuizCinema
         public void Accept()
         {
             UpdateTimer(false); 
-            bool isCorrect =_questionMethods.CheckAnswers();
 
-            if (isCorrect) 
+            bool isCorrect =_questionMethods.CheckAnswers();
+          
+
+
+            if (isCorrect)
+            {
                 OnCorrectAnswer?.Invoke();
-            else 
+                _countCorrectAnswer++;
+            }
+            else
+            {
                 OnUnCorrectAnswer?.Invoke();
+            }
 
             _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);
 
             _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore : -_questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
-
-            FinishGame();
 
             if(IE_WaitTillNextRound != null)
             {
@@ -140,22 +146,34 @@ namespace QuizCinema
 
             AudioManager.Instance.PlaySound((isCorrect) ? "CorrectSFX" : "IncorrectSFX");
 
-            var type = (_questionMethods.IsFinished) ? UIManager.ResolutionScreenType.Finish : (isCorrect) ? UIManager.ResolutionScreenType.Correct : UIManager.ResolutionScreenType.Incorrect;
+            var type = (isCorrect) ? UIManager.ResolutionScreenType.Correct : UIManager.ResolutionScreenType.Incorrect;
             UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
 
-           // _timerAnimator.SetInteger(_timerStateParaHash, 1);
+            // _timerAnimator.SetInteger(_timerStateParaHash, 1);
             //_timerAnimator.enabled = false;
         }
 
         public void NextQuestion()
         {
-            //_timerAnimator.enabled = true;
+            bool isCorrect = _questionMethods.CheckAnswers();
             Debug.Log(_questionMethods.IsFinished);
+
+            Debug.Log(_questionMethods.GetLengthQuestions + "длина + " + _countCurrentAnswer);
+            if (_questionMethods.GetLengthQuestions > _countCurrentAnswer)
+                _countCurrentAnswer++;
 
             if (!_questionMethods.IsFinished)
             {
                 IE_WaitTillNextRound = WaitTillNextRound();
                 StartCoroutine(IE_WaitTillNextRound);
+            }
+            else
+            {
+                Debug.Log(_countCurrentAnswer + " текущее кол-во вопросов!");
+
+                FinishGame();
+                var type = UIManager.ResolutionScreenType.Finish; 
+                UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
             }
             
             //_questionMethods.Display(); //TODO
@@ -175,15 +193,18 @@ namespace QuizCinema
                 }
                 PlayerPrefs.SetInt(GameUtility.SavePrefLvlKey, _lvl.Level);
 
+                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5) + " - сколько нужно ответить на 2 звезды");
+                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0) + " - сколько нужно ответить на 1 звезду");
+
                 if (_countCorrectAnswer == _questionMethods.FinishedQuestions.Count)
                 {
                     levelCountStars = 3;
                 }
-                else if (_countCorrectAnswer >= _questionMethods.FinishedQuestions.Count / 2)
+                else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5))
                 {
                     levelCountStars = 2;
                 }
-                else if (_countCorrectAnswer >= _questionMethods.FinishedQuestions.Count / 4)
+                else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0))
                 {
                     levelCountStars = 1;
                 }
@@ -230,16 +251,6 @@ namespace QuizCinema
 
                 AudioManager.Instance.PlaySound("CountdownSFX");
 
-                if (timeLeft < totalTime / 2 && timeLeft > totalTime / 4)
-                {
-                   // _timerText.color = _timeHalfwayOutColor;
-                }
-                if (timeLeft < totalTime / 4)
-                {
-                    // _timerText.color = _timeAlmostOutColor;
-                    //_timerAnimator.enabled = true;
-                }
-
                 _timerText.text = timeLeft.ToString();
                 yield return new WaitForSeconds(1f);
             }
@@ -249,18 +260,9 @@ namespace QuizCinema
         IEnumerator WaitTillNextRound()
         {
             yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
-            Debug.Log("прошло время корутины");
-            bool isCorrect = _questionMethods.CheckAnswers();
 
-            _countCurrentAnswer++;
-            if (isCorrect)
-            {
-                _countCorrectAnswer++;
-            }
-            Debug.Log("Добавили счетчики");
             UpdateTimer(false);
             _questionMethods.Display();
-            Debug.Log("Display");
         }
     }
 }

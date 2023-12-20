@@ -5,9 +5,10 @@ using UnityEngine;
 
 namespace QuizCinema
 {
-    public class Score : MonoBehaviour
+    public class Score : SingletonBase<Score>
     {
         public event Action UpdateScore;
+
         [SerializeField] private GameManager _gameManager;
 
         [Header("Score")]
@@ -16,12 +17,12 @@ namespace QuizCinema
         public int CurrentLvlScore { get { return _currentLvlScore; } set { _currentLvlScore = value; }}
 
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _currentLvlScore = 0;
+
         }
-
-
 
         public void UpdateScoreGame(int add)
         {

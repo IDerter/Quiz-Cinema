@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <Info>Назовите фильм по описанию его создания:
+Изначально Джеймс Кэмерон планировал выпустить картину на экраны в 1999 году. 
+Однако, учитывая сложность и масштабность спецэффектов, которые собирался создать Кэмерон, бюджет фильма должен был составить около $400 миллионов. 
+Даже несмотря на гигантский кассовый успех «Титаника» (1997) ни одна студия не могла позволить себе выделить такие средства. 
+Проект лег на полку, где находился около 10 лет.</Info>
+      <NoteFilm />
+      <Director>Steven Spielberg</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Avatar</Info>
+          <TranslateInfo>Аватар</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>E.T. the Extra-Terrestrial</Info>
+          <TranslateInfo>Инопланетянин</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Ready Player One</Info>
+          <TranslateInfo>Первому игроку приготовиться</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Jurassic Park</Info>
+          <TranslateInfo>Парк юрского периода</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Выберите кадр из фильма Люди в черном 1</Info>
+      <NoteFilm />
+      <Director>Barry Sonnenfeld</Director>
+      <_cadrCinemaName>Men in Black 1</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Men in Black 3</Info>
+          <TranslateInfo>Люди в черном 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Men in Black 2</Info>
+          <TranslateInfo>Люди в черном 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Men in Black 1</Info>
+          <TranslateInfo>Люди в черном 1</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Men in Black 4</Info>
+          <TranslateInfo>Люди в черном 4</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Выберите кадр из фильма Отпуск по обмену</Info>
+      <NoteFilm></NoteFilm>
+      <Director>Nancy Meyers</Director>
+      <_cadrCinemaName>The Holiday</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Talented Mr. Ripley</Info>
+          <TranslateInfo>Талантливый мистер Рипли</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mask</Info>
+          <TranslateInfo>Маска</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Holiday</Info>
+          <TranslateInfo>Отпуск по обмену</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Reader</Info>
+          <TranslateInfo>Чтец</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Обои с персонажем из какого фильма перед вами?</Info>
+      <NoteFilm />
+      <Director>Fincher</Director>
+      <_cadrCinemaName>Fight club wallpaper</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Тайлер Дерден</Info>
+          <TranslateInfo>Тайлер Дерден</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Fight club wallpaper</Info>
+          <TranslateInfo>Бойцовский клуб</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Исчезнувшая</Info>
+          <TranslateInfo>Исчезнувшая</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Семь</Info>
+          <TranslateInfo>Семь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <Info>
+Кен Кизи написал свою книгу под впечатлением от работы в Калифорнийском госпитале для ветеранов.
+Самым сложным моментом создания фильма явилось то, что ни одна серьезная киностудия не хотела браться за столь сомнительный проект. 
+Кирк Дуглас встретил Милоша Формана в Праге, где рассказал ему о своих планах и сразу же предложил ему стать режиссером.
+Факты из какого фильма перед вами?
+      </Info>
+		<NoteFilm />
+      <Director>Milos Forman</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>One Flew Over the Cuckoo's Nest</Info>
+          <TranslateInfo>Пролетая над гнездом кукушки </TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Amadeus</Info>
+          <TranslateInfo>Амадей</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Man on the Moon</Info>
+          <TranslateInfo>Человек на Луне</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Flowers for Algernon</Info>
+          <TranslateInfo>Цветы для Эджернона</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Выберите кадр из фильма Мальчик в полосатой пижаме</Info>
+      <NoteFilm />
+      <Director>Mark Herman</Director>
+      <_cadrCinemaName>Striped pajamas</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>La Vita e bella</Info>
+          <TranslateInfo>Жизнь прекрасна</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Sobibor</Info>
+          <TranslateInfo>Собибор</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Schindler's List</Info>
+          <TranslateInfo>Список Шиндлера</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Striped pajamas</Info>
+          <TranslateInfo>Мальчик в полосатой пижаме</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <Info>
+Угадай фильм по фактам:
+Картины, которые зрители видят в комнате главной героини, а также воображаемый крокодил, с которым дружит героиня,
+придумал и написал немецкий художник Михаэль Сова, известный своими причудливыми и сюрреалистическими изображениями животных.
+Основные натурные сцены фильма снимались в Париже. 
+Художникам и декораторам пришлось изрядно потрудиться, чтобы очистить стены парижских домов от всевозможных граффити.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Jean-Pierre Jeunet</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Midnight in Paris</Info>
+           <TranslateInfo>Полночь в париже</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>From Paris with Love</Info>
+           <TranslateInfo>Из Парижа с любовью</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Amelie</Info>
+           <TranslateInfo >Амели</TranslateInfo >
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Da Vinci Code</Info>
+           <TranslateInfo >Код Да Винчи</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <Info>Какое количество фильмов входит в серию "Гарри Поттер"?</Info>
+      <NoteFilm />
+      <Director>Rouling</Director>
+      <_cadrCinemaName>Harry Potter and the Deathly Hallows 2</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>7</Info>
+          <TranslateInfo>7</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>8</Info>
+          <TranslateInfo>8</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>11</Info>
+          <TranslateInfo>11</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>9</Info>
+          <TranslateInfo>9</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm />
+      <Director>Shawn-Levy</Director>
+      <_cadrCinemaName>Night at the museum</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Jaws</Info>
+           <TranslateInfo >Челюсти</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Jurassic World</Info>
+           <TranslateInfo >Мир юрского периода</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Jurassic Park</Info>
+           <TranslateInfo>Парк Юрского периода</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Night at the museum</Info>
+           <TranslateInfo >Ночь в музее</TranslateInfo >
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Угадай кадр из фильма Темный рыцарь: Возрождение Легенды</Info>
+      <NoteFilm />
+      <Director>Nolan</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Dark Knight</Info>
+           <TranslateInfo >Тёмный рыцарь</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Dark Knight Rises</Info>
+           <TranslateInfo >Темный рыцарь: Возрождение Легенды</TranslateInfo >
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Batman Begins</Info>
+           <TranslateInfo >Бэтмен: Начало</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Batman VS Supeman</Info>
+           <TranslateInfo >Бэтмен против Супермена</TranslateInfo >
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>
