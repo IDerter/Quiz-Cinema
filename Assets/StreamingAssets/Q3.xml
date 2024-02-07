@@ -4,7 +4,7 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
+      <Info>Угадай фильм по кадру </Info>
       <NoteFilm />
       <Director>Thomas Jahn</Director>
       <_cadrCinemaName>Knockin on Heavens Door</_cadrCinemaName>

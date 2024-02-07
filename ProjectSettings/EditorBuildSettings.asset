@@ -39,6 +39,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Journey/Bar2/Lvl2_5.unity
     guid: 9815c1d093cf56e409a302e22772c5b0
   - enabled: 1
+    path: Assets/Scenes/Journey/Bar3/Lvl3_1.unity
+    guid: 4b07ae4d602c1f94db5e5ca714abd440
+  - enabled: 1
+    path: Assets/Scenes/Journey/Bar3/Lvl3_2.unity
+    guid: 87f2373b196251d4797a27f16eba6527
+  - enabled: 1
+    path: Assets/Scenes/Journey/Bar3/Lvl3_3.unity
+    guid: 09af19bb1cc13ce41809494a3cc0814c
+  - enabled: 1
+    path: Assets/Scenes/Journey/Bar3/Lvl3_4.unity
+    guid: e1449a79bd86ef44fb622a1d9d03f34b
+  - enabled: 1
+    path: Assets/Scenes/Journey/Bar3/Lvl3_5.unity
+    guid: 8aa34e69f42d4284d9e461f093063b93
+  - enabled: 1
     path: Assets/Scenes/LevelMap.unity
     guid: d280b5c1cf2e20043bbed7737674170a
   - enabled: 1
@@ -47,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Journey/Bar2.unity
     guid: b771b9d8a1b4cd549b708a6ca6d357d9
+  - enabled: 1
+    path: Assets/Scenes/Journey/Bar3.unity
+    guid: ff6a24b6a732be949a7af055aacc2845
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6ae554ea42c908f4ca9620fdefdaae19, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: d800d62b31446154f9e1ff25d383662e, type: 2}

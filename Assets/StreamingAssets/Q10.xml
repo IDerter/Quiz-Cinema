@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по актерам/актрисам и их персонажам:
+Аль Пачино - Тони Монтана,
+Мишель Пфайффер - Эльвира Хэнкок
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Brian De Palma</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Heat</Info>
+          <TranslateInfo>Схватка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Scarface</Info>
+          <TranslateInfo>Лицо со шрамом</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Godfather</Info>
+          <TranslateInfo>Крестный отец</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Irishman</Info>
+          <TranslateInfo>Ирландец</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма с Джонни Деппом</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Lasse Hallstrom</Director>
+      <_cadrCinemaName>Chocolat</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Fantastic Beasts The Secrets of Dumbledore</Info>
+          <TranslateInfo>Фантастические твари Тайны Дамблдора</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>22 Jump Street</Info>
+          <TranslateInfo>Мачо и ботан 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>A Nightmare оn Elm Street 2 Freddy's Revenge</Info>
+          <TranslateInfo>Кошмар на улице Вязов 2: Месть Фредди</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Chocolat</Info>
+          <TranslateInfo>Шоколад</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Умница Уилл Хантинг</Info>
+      <NoteFilm />
+      <Director>Gus Van Sant</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Good Will Hunting</Info>
+          <TranslateInfo>Умница Уилл Хантинг</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Jumanji</Info>
+          <TranslateInfo>Джуманджи</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Night at the Museum with Robin Williams</Info>
+          <TranslateInfo>Ночь в музее</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mrs Doubtfire</Info>
+          <TranslateInfo>Миссис Даутфайр</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Park Chan Wook</Director>
+      <_cadrCinemaName>Oldboy</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Train to Busan</Info>
+          <TranslateInfo>Поезд в Пусан</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Decision to Leave</Info>
+          <TranslateInfo>Решение уйти</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Oldboy</Info>
+          <TranslateInfo>Олдбой</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Memories of Murder</Info>
+          <TranslateInfo>Воспоминания об убийстве</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по трем фактам:
+1) Художник Стюарт Крэйг, обладатель трех «Оскаров», взял за основу дизайн станций лондонского метро начала XX века.
+Крейгу понравилось, как проектировщики старых станций имитировали классическую архитектуру, при этом используя керамическую плитку для облицовки стен.
+Этот прием был позаимствован при работе над декорациями фильма; на облицовку стен атриума ушло более 30 000 плиток.
+2) Сцена поцелуя Гарри Поттера и Чанг была снята лишь с 24 дубля.
+3) Сама Джоан Роулинг решительно настояла, чтоб эльфа-домовика Кикимера оставили, так как это важно для дальнейшего повествования.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>David Yates</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Harry Potter and the Half-Blood Prince</Info>
+          <TranslateInfo>Гарри Поттер и Принц-полукровка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Harry Potter and the Order of the Phoenix</Info>
+          <TranslateInfo>Гарри Поттер и Орден Феникса</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Harry Potter and the Prisoner of Azkaban</Info>
+          <TranslateInfo>Гарри Поттер и узник Азкабана</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Harry Potter and the Goblet of Fire</Info>
+          <TranslateInfo>Гарри Поттер и Кубок огня</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Бойфренд из будущего</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Richard Curtis</Director>
+      <_cadrCinemaName>About Time</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>About Time</Info>
+          <TranslateInfo>Бойфренд из будущего</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Notebook</Info>
+          <TranslateInfo>Дневник Памяти</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>A Walk to Remember</Info>
+          <TranslateInfo>Спеши любить</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Crazy, Stupid, Love</Info>
+          <TranslateInfo>Эта дурацкая любовь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Угадай фильм по отрывку из негативной рецензии:
+Сценарий явно слизан с 'Достучаться до небес': два старика, которым так и так в скором времени придется уходить в мир иной всего лишь навсего узнали приблизительную дату смерти. 
+В то время как в 'Достучаться до небес' тоже самое происходит с молодыми ребятами, у которых все еще впереди. Т. е. вся идея теряет свою актуальность.
+Сценаристы даже не потрудились над какой-нибудь философской зацепкой. По их мнению все что нужно в жизни - это оторваться напоследок
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Rob Reiner</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Knockin' On Heaven's Door</Info>
+          <TranslateInfo>Достучаться до небес</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Magic of Belle Isle</Info>
+          <TranslateInfo>Третий акт</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Me Before You</Info>
+          <TranslateInfo>До встречи с тобой</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Bucket List</Info>
+          <TranslateInfo>Пока не сыграл в ящик</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Какое число получится, если сложить значение из фильма: Найта Шьямалана с Брюсом Уилисом в главной роли
+и значение из фильма Дэвида Финчера с Бредом Питтом и Морганом Фриманом?</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Night Shyamalan</Director>
+      <_cadrCinemaName>The Sixth Sense</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>14</Info>
+          <TranslateInfo>14</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>13</Info>
+          <TranslateInfo>13</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>11</Info>
+          <TranslateInfo>11</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>12</Info>
+          <TranslateInfo>12</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Bong Joon-ho</Director>
+      <_cadrCinemaName>Parasite</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Okja</Info>
+          <TranslateInfo>Окча</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Parasite</Info>
+          <TranslateInfo>Паразиты</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Memories of Murder</Info>
+          <TranslateInfo>Воспоминания об убийстве</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mickey 17</Info>
+          <TranslateInfo>Микки 17</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите всех актеров/актрис, кто снимался в первой части Города Грехов </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Robert Rodriguez</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Jessica Alba</Info>
+          <TranslateInfo>Джессика Альба</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Sean Penn</Info>
+          <TranslateInfo>Шон Пенн</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Bruce Willis</Info>
+          <TranslateInfo>Брюс Уиллис</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Jennifer Lopez</Info>
+          <TranslateInfo>Дженнифер Лопес</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по фактам из него:
+Фильм основан на серии комиксов «Hellblazer» 1988 года. Впервые Джон появился в комиксе Алана Мура Swamp Thing.
+В комиксе главный действующий герой был родом из Ливерпуля, а в кинофильме он стал уроженцем Калифорнии. 
+Во многом такое решение было обусловлено выбором актера, исполняющего главную роль. Киану Ривз типичный американец и правдоподобно сыграть британца у него навряд ли бы получилось.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Francis Lawrence</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Hunger Games</Info>
+          <TranslateInfo>Голодные игры</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Constantine</Info>
+          <TranslateInfo>Константин: Повелитель тьмы</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Matrix</Info>
+          <TranslateInfo>Матрица</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>John Wick</Info>
+          <TranslateInfo>Джон Уик</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма, где не снимался Клинт Иствуд</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Joel and Ethan Coen</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Gran Torino</Info>
+          <TranslateInfo>Гран Торино</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Million Dollar Baby</Info>
+          <TranslateInfo>Малышка на миллион</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Good, the Bad and the Ugly</Info>
+          <TranslateInfo>Хороший, плохой, злой</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>True Grit</Info>
+          <TranslateInfo>Железная хватка</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Иллюзионист</Info>
+      <NoteFilm />
+      <Director>Neil Burger</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Illusionist</Info>
+          <TranslateInfo>Иллюзионист</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Now you see me</Info>
+          <TranslateInfo>Иллюзия обмана</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Now you see me 2</Info>
+          <TranslateInfo>Иллюзия обмана 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Prestige</Info>
+          <TranslateInfo>Престиж</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Danny Boyle</Director>
+      <_cadrCinemaName>Slumdog Millionaire</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Who Wants to Be a Millionaire?</Info>
+          <TranslateInfo>Кто хочет стать миллионером?</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Lion</Info>
+          <TranslateInfo>Лев</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Slumdog Millionaire</Info>
+          <TranslateInfo>Миллионер из трущоб</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Green Knight</Info>
+          <TranslateInfo>Легенда о Зелёном рыцаре</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по описанию:
+Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми. 
+Волей судьбы к нему попадает волшебная маска,
+и Стенли Ипкис приобретает способность превращаться в неуязвимое мультяшное существо с озорным характером.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Chuck Russell</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Bruce Almighty</Info>
+          <TranslateInfo>Брюс Всемогущий</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Mask</Info>
+          <TranslateInfo>Маска</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Liar Liar</Info>
+          <TranslateInfo>Лжец, лжец</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Who Framed Roger Rabbit</Info>
+          <TranslateInfo>Кто подставил кролика Роджера</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Нефть</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Paul Thomas Anderson</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>There Will Be Blood</Info>
+          <TranslateInfo>Нефть</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Gangs of New York</Info>
+          <TranslateInfo>Банды Нью-Йорка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>A Walk to Remember</Info>
+          <TranslateInfo>Спеши любить</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Crazy, Stupid, Love</Info>
+          <TranslateInfo>Эта дурацкая любовь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Угадай фильм по фактам со съемок:
+Более 80% кадров были сняты вживую. 
+Компьютерная графика использовалась по минимуму: для улучшения пейзажа Намибии, удаления попавшего в кадр оборудования, 
+использовавшегося во время съемок трюков, и для протеза руки героини Шарлиз Терон.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>George Miller</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Avatar</Info>
+          <TranslateInfo>Аватар</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Devil's Advocate</Info>
+          <TranslateInfo>Адвокат дьявола</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Monster</Info>
+          <TranslateInfo>Монстр</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mad Max: Fury Road</Info>
+          <TranslateInfo>Безумный Макс: Дорога ярости</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Какое число содержится в названии сиквела фильма о Чудо-женщине?</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Patty Jenkins</Director>
+      <_cadrCinemaName>Wonder Woman</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>2</Info>
+          <TranslateInfo>2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>2077</Info>
+          <TranslateInfo>2077</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1984</Info>
+          <TranslateInfo>1984</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>2003</Info>
+          <TranslateInfo>2003</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Fincher</Director>
+      <_cadrCinemaName>Gone Girl</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>I Care a Lot</Info>
+          <TranslateInfo>Аферистка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Gone Girl</Info>
+          <TranslateInfo>Исчезнувшая</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Saltburn</Info>
+          <TranslateInfo>Солтберн</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Good Will Hunting</Info>
+          <TranslateInfo>Умница Уилл Хантинг</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите всех молодых актеров, кто снимался в фильме: "Что Гложет Гилберта Грейпа?"</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Robert Rodriguez</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Leonardo DiCaprio</Info>
+          <TranslateInfo>Леонардо ДиКаприо</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Brad Pitt</Info>
+          <TranslateInfo>Бред Питт</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Johnny Depp</Info>
+          <TranslateInfo>Джонни Депп</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Tobey Maguire</Info>
+          <TranslateInfo>Тоби Магуайр</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>
