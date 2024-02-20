@@ -5,33 +5,33 @@
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>
-Назовите фильм по фактам из него:
-Фильм основан на серии комиксов «Hellblazer» 1988 года. Впервые Джон появился в комиксе Алана Мура Swamp Thing.
-В комиксе главный действующий герой был родом из Ливерпуля, а в кинофильме он стал уроженцем Калифорнии. 
-Во многом такое решение было обусловлено выбором актера, исполняющего главную роль. Киану Ривз типичный американец и правдоподобно сыграть британца у него навряд ли бы получилось.
+Назовите фильм цитате главного героя, где ИКС - это замена фамилии персонажа:
+Леонардо ДиКаприо хотел сыграть ИКС, потому что ему понравилась «идея человека, который был абсолютно ничем, и создал себя, отталкиваясь только от собственного воображения». 
+«ИКС — один из знаковых персонажей, потому что он может быть интерпретирован по-разному: 
+безнадежный романтик, одержимый сумасшедший или опасный гангстер, цепляющийся за богатство» — говорит ДиКаприо.
       </Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Francis Lawrence</Director>
+      <Director>Baz Luhrmann</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>The Hunger Games</Info>
-          <TranslateInfo>Голодные игры</TranslateInfo>
+          <Info>The Revenant</Info>
+          <TranslateInfo>Выживший</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Constantine</Info>
-          <TranslateInfo>Константин: Повелитель тьмы</TranslateInfo>
+          <Info>The Great Gatsby</Info>
+          <TranslateInfo>Великий Гэтсби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Matrix</Info>
-          <TranslateInfo>Матрица</TranslateInfo>
+          <Info>Catch Me If You Can</Info>
+          <TranslateInfo>Поймай меня, если сможешь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>John Wick</Info>
-          <TranslateInfo>Джон Уик</TranslateInfo>
+          <Info>The Wolf of Wall Street</Info>
+          <TranslateInfo>Волк с Уолл-стрит</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -42,29 +42,29 @@
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Выберите кадр из фильма, где не снимался Клинт Иствуд</Info>
+      <Info>Выберите кадр из фильма, где не снимался Патрик Суэйзи</Info>
       <NoteFilm>-</NoteFilm>
       <Director>Joel and Ethan Coen</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Gran Torino</Info>
-          <TranslateInfo>Гран Торино</TranslateInfo>
+          <Info>Dirty Dancing</Info>
+          <TranslateInfo>Грязные танцы</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Million Dollar Baby</Info>
-          <TranslateInfo>Малышка на миллион</TranslateInfo>
+          <Info>Ghost</Info>
+          <TranslateInfo>Привидение</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Good, the Bad and the Ugly</Info>
-          <TranslateInfo>Хороший, плохой, злой</TranslateInfo>
+          <Info>Point Break</Info>
+          <TranslateInfo>На гребне волны</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>True Grit</Info>
-          <TranslateInfo>Железная хватка</TranslateInfo>
+          <Info>Step Up</Info>
+          <TranslateInfo>Шаг вперед</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -75,29 +75,29 @@
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Выберите кадр из фильма Иллюзионист</Info>
+      <Info>Выберите кадр из фильма Трансформеры (2007 года)</Info>
       <NoteFilm />
-      <Director>Neil Burger</Director>
+      <Director>Michael Bay</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>The Illusionist</Info>
-          <TranslateInfo>Иллюзионист</TranslateInfo>
+          <Info>Transformers</Info>
+          <TranslateInfo>Трансформеры</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Now you see me</Info>
-          <TranslateInfo>Иллюзия обмана</TranslateInfo>
+          <Info>Transformers Revenge of the Fallen</Info>
+          <TranslateInfo>Трансформеры: Месть падших</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Now you see me 2</Info>
-          <TranslateInfo>Иллюзия обмана 2</TranslateInfo>
+          <Info>Transformers: Dark of the Moon</Info>
+          <TranslateInfo>Трансформеры 3: Тёмная сторона Луны</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Prestige</Info>
-          <TranslateInfo>Престиж</TranslateInfo>
+          <Info>Transformers Age of Extinction</Info>
+          <TranslateInfo>Трансформеры 4: Эпоха истребления</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -110,27 +110,27 @@
       <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Danny Boyle</Director>
-      <_cadrCinemaName>Slumdog Millionaire</_cadrCinemaName>
+      <Director>Cloud Atlas directors</Director>
+      <_cadrCinemaName>Cloud Atlas</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Who Wants to Be a Millionaire?</Info>
-          <TranslateInfo>Кто хочет стать миллионером?</TranslateInfo>
+          <Info>The Terminal</Info>
+          <TranslateInfo>Терминал</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Lion</Info>
-          <TranslateInfo>Лев</TranslateInfo>
+          <Info>Cast Away</Info>
+          <TranslateInfo>Изгой</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Slumdog Millionaire</Info>
-          <TranslateInfo>Миллионер из трущоб</TranslateInfo>
+          <Info>Cloud Atlas</Info>
+          <TranslateInfo>Облачный атлас</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Green Knight</Info>
-          <TranslateInfo>Легенда о Зелёном рыцаре</TranslateInfo>
+          <Info>Saving Private Ryan</Info>
+          <TranslateInfo>Спасти рядового Райана</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -143,32 +143,31 @@
       <_answerType>Single</_answerType>
       <Info>
 Назовите фильм по описанию:
-Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми. 
-Волей судьбы к нему попадает волшебная маска,
-и Стенли Ипкис приобретает способность превращаться в неуязвимое мультяшное существо с озорным характером.
+История получеловека-полуатланта Артура Карри, которому предстоит выяснить, 
+достоин ли он быть тем, кем ему суждено по рождению — царём подводного мира.
       </Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Chuck Russell</Director>
+      <Director>James Wan</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Bruce Almighty</Info>
-          <TranslateInfo>Брюс Всемогущий</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>The Mask</Info>
-          <TranslateInfo>Маска</TranslateInfo>
+          <Info>Aquaman</Info>
+          <TranslateInfo>Аквамен</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Liar Liar</Info>
-          <TranslateInfo>Лжец, лжец</TranslateInfo>
+          <Info>Titanic</Info>
+          <TranslateInfo>Титаник</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Who Framed Roger Rabbit</Info>
-          <TranslateInfo>Кто подставил кролика Роджера</TranslateInfo>
+          <Info>The Shape of Water</Info>
+          <TranslateInfo>Форма воды</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Avatar: The Way of Water</Info>
+          <TranslateInfo>Аватар: Путь воды</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -179,29 +178,29 @@
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Выберите кадр из фильма Нефть</Info>
+      <Info>Выберите кадр из фильма Барби</Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Paul Thomas Anderson</Director>
+      <Director>Greta Gerwig</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>There Will Be Blood</Info>
-          <TranslateInfo>Нефть</TranslateInfo>
+          <Info>Barbie</Info>
+          <TranslateInfo>Барби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Gangs of New York</Info>
-          <TranslateInfo>Банды Нью-Йорка</TranslateInfo>
+          <Info>Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)</Info>
+          <TranslateInfo>Хищные птицы: Потрясающая история Харли Квинн</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>A Walk to Remember</Info>
-          <TranslateInfo>Спеши любить</TranslateInfo>
+          <Info>Babylon</Info>
+          <TranslateInfo>Вавилон</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Crazy, Stupid, Love</Info>
-          <TranslateInfo>Эта дурацкая любовь</TranslateInfo>
+          <Info>Focus</Info>
+          <TranslateInfo>Фокус</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -213,33 +212,33 @@
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>
-Угадай фильм по фактам со съемок:
-Более 80% кадров были сняты вживую. 
-Компьютерная графика использовалась по минимуму: для улучшения пейзажа Намибии, удаления попавшего в кадр оборудования, 
-использовавшегося во время съемок трюков, и для протеза руки героини Шарлиз Терон.
+Угадай фильм по списку достижений:
+Второй раз за всю историю кино главный приз киноакадемики отдают сиквелу (до этого премии удостаивался «Крестный отец 2» (1974)). 
+Повторился рекорд, установленный ранее картинами «Бен Гур» (1959) и «Титаник» (1997) — 11 наград Оскар.
+В феврале 2004 года фильм стал вторым в истории кинематографа, собравшим более миллиарда долларов (первопроходцем был «Титаник» (1997)).
       </Info>
       <NoteFilm>-</NoteFilm>
-      <Director>George Miller</Director>
+      <Director>Jackson</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Avatar</Info>
-          <TranslateInfo>Аватар</TranslateInfo>
+          <Info>The Lord of the Rings: The Fellowship of the Ring</Info>
+          <TranslateInfo>Властелин колец: Братсво кольца</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Devil's Advocate</Info>
-          <TranslateInfo>Адвокат дьявола</TranslateInfo>
+          <Info>The Lord of the Rings: The Two Towers</Info>
+          <TranslateInfo>Властелин колец: Две крепости</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Monster</Info>
-          <TranslateInfo>Монстр</TranslateInfo>
+          <Info>The Lord of the Rings: The Rings of Power</Info>
+          <TranslateInfo>Властелин колец: Кольца власти</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Mad Max: Fury Road</Info>
-          <TranslateInfo>Безумный Макс: Дорога ярости</TranslateInfo>
+          <Info>The Lord of the Rings: The Return of the King</Info>
+          <TranslateInfo>Властелин колец: Возвращение короля</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -248,31 +247,34 @@
       <AddScore>50</AddScore>
     </Question>
     <Question>
-      <IndexPrefab>1</IndexPrefab>
+      <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Какое число содержится в названии сиквела фильма о Чудо-женщине?</Info>
-      <NoteFilm>-</NoteFilm>
-      <Director>Patty Jenkins</Director>
-      <_cadrCinemaName>Wonder Woman</_cadrCinemaName>
+      <Info>Режиссер «Логана» Джеймс Мэнголд в одном из интервью подчеркнул, что его фильм является самостоятельным произведением
+и что «совсем не обязательно подавать чизкейк в конце каждого обеда».
+А что режиссер сравнивал с чизкейком?</Info>
+      <NoteFilm>Сцены после титров, обычно намекающие на продолжение — фишка фильмов MCU, к которой относится и «Логан».
+Таким образом Мэнголд объяснял, почему в этом фильме такой сцены нет.</NoteFilm>
+      <Director>James Mangold</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>2</Info>
-          <TranslateInfo>2</TranslateInfo>
+          <Info>Gift</Info>
+          <TranslateInfo>Подарок</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>2077</Info>
-          <TranslateInfo>2077</TranslateInfo>
+          <Info>Sequel</Info>
+          <TranslateInfo>Продолжение</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>1984</Info>
-          <TranslateInfo>1984</TranslateInfo>
+          <Info>Post-credits scene</Info>
+          <TranslateInfo>Сцена после титров</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>2003</Info>
-          <TranslateInfo>2003</TranslateInfo>
+          <Info>Check</Info>
+          <TranslateInfo>Счет</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -285,27 +287,27 @@
       <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Fincher</Director>
-      <_cadrCinemaName>Gone Girl</_cadrCinemaName>
+      <Director>David Yates</Director>
+      <_cadrCinemaName>Fantastic Beasts and Where to Find Them</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>I Care a Lot</Info>
-          <TranslateInfo>Аферистка</TranslateInfo>
+          <Info>Fantastic Beasts: The Crimes of Grindelwald</Info>
+          <TranslateInfo>Фантастические твари: Преступления Грин-де-Вальда</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Gone Girl</Info>
-          <TranslateInfo>Исчезнувшая</TranslateInfo>
+          <Info>Fantastic Beasts and Where to Find Them</Info>
+          <TranslateInfo>Фантастические твари и где они обитают</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Saltburn</Info>
-          <TranslateInfo>Солтберн</TranslateInfo>
+          <Info>Fantastic Beasts: The Secrets of Dumbledore</Info>
+          <TranslateInfo>Фантастические твари: Тайны Дамблдора</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Good Will Hunting</Info>
-          <TranslateInfo>Умница Уилл Хантинг</TranslateInfo>
+          <Info>Harry Potter and the Deathly Hallows: Part II</Info>
+          <TranslateInfo>Гарри Поттер и Дары Смерти — Часть 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -316,29 +318,29 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
-      <Info>Выберите всех молодых актеров, кто снимался в фильме: "Что Гложет Гилберта Грейпа?"</Info>
+      <Info>Выберите всех актеров/актрис, кто снимался в фильме: "Миссия невыполнима: Последствия"</Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Robert Rodriguez</Director>
+      <Director>Christopher McQuarrie</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Leonardo DiCaprio</Info>
-          <TranslateInfo>Леонардо ДиКаприо</TranslateInfo>
+          <Info>Tom Cruise</Info>
+          <TranslateInfo>Том Круз</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Brad Pitt</Info>
-          <TranslateInfo>Бред Питт</TranslateInfo>
+          <Info>Daniel Craig</Info>
+          <TranslateInfo>Дэниел Крейг</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Johnny Depp</Info>
-          <TranslateInfo>Джонни Депп</TranslateInfo>
+          <Info>Rebecca Ferguson</Info>
+          <TranslateInfo>Ребекка Фергюсон</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Tobey Maguire</Info>
-          <TranslateInfo>Тоби Магуайр</TranslateInfo>
+          <Info>Lea Seydoux</Info>
+          <TranslateInfo>Леа Сейду</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>

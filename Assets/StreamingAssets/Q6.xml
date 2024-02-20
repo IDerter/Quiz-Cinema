@@ -40,7 +40,7 @@
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>
-      <Info>Выберите кадр из фильма Люди в черном 1</Info>
+      <Info>Выберите кадр из фильма</Info>
       <NoteFilm />
       <Director>Barry Sonnenfeld</Director>
       <_cadrCinemaName>Men in Black 1</_cadrCinemaName>

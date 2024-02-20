@@ -72,27 +72,27 @@
       <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
-      <Director>Leonid Gaidai</Director>
-      <_cadrCinemaName>brilliantovaya-ruka</_cadrCinemaName>
+      <Director>Dunkan Jones</Director>
+      <_cadrCinemaName>Warcraft</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Человек с бульвара Капуцинов</Info>
-          <TranslateInfo>Человек с бульвара Капуцинов</TranslateInfo>
+          <Info>The Hobbit: The Battle of the Five Armies</Info>
+          <TranslateInfo>Хоббит: Битва пяти воинств</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>12 стульев</Info>
-          <TranslateInfo>12 стульев</TranslateInfo>
+          <Info>The Hobbit: An Unexpected Journey</Info>
+          <TranslateInfo>Хоббит: Нежданное путешествие</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Бриллиантовая рука</Info>
-          <TranslateInfo>Бриллиантовая рука</TranslateInfo>
+          <Info>Warcraft</Info>
+          <TranslateInfo>Варкрафт</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Обыкновенное чудо</Info>
-          <TranslateInfo>Обыкновенное чудо</TranslateInfo>
+          <Info>The Hobbit: The Desolation of Smaug</Info>
+          <TranslateInfo>Хоббит: Пустошь Смауга</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -138,27 +138,27 @@
       <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
-      <Director>Leonid Gaidai</Director>
-      <_cadrCinemaName>kavkazskaya-plennica</_cadrCinemaName>
+      <Director>Andres Muschietti</Director>
+      <_cadrCinemaName>It</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Кавказская пленница</Info>
-          <TranslateInfo>Кавказская пленница</TranslateInfo>
+          <Info>It</Info>
+          <TranslateInfo>Оно</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Человек с бульвара Капуцинов</Info>
-          <TranslateInfo>Человек с бульвара Капуцинов</TranslateInfo>
+          <Info>Misery</Info>
+          <TranslateInfo>Мизери</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Берегись автомобиля</Info>
-          <TranslateInfo>Берегись автомобиля</TranslateInfo>
+          <Info>Pet Sematary</Info>
+          <TranslateInfo>Кладбище домашних животных</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>12 стульев</Info>
-          <TranslateInfo>12 стульев</TranslateInfo>
+          <Info>Friday the 13th</Info>
+          <TranslateInfo>Пятница 13-е</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -202,29 +202,29 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Как зовут персонажа справа?</Info>
+      <Info>Как зовут персонажа?</Info>
       <NoteFilm />
-      <Director>Gaidai</Director>
-      <_cadrCinemaName>12-stulev-1971</_cadrCinemaName>
+      <Director>James Cameron</Director>
+      <_cadrCinemaName>Terminator</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Остап Бендер</Info>
-          <TranslateInfo>Остап Бендер</TranslateInfo>
+          <Info>T-1800</Info>
+          <TranslateInfo>T-1800</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Тихон</Info>
-          <TranslateInfo>Тихон</TranslateInfo>
+          <Info>T-1000</Info>
+          <TranslateInfo>T-1000</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Киса Воробьянинов</Info>
-          <TranslateInfo>Киса Воробьянинов</TranslateInfo>
+          <Info>T-800</Info>
+          <TranslateInfo>T-800</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Отец Федор</Info>
-          <TranslateInfo>Отец Федор</TranslateInfo>
+          <Info>T-2000</Info>
+          <TranslateInfo>T-2000</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -270,27 +270,27 @@
       <_answerType>Single</_answerType>
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
-      <Director>Balabanov</Director>
-      <_cadrCinemaName>Brother 1</_cadrCinemaName>
+      <Director>Alejandro Gonzalez Iñarritu</Director>
+      <_cadrCinemaName>The Revenant</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Брат 1</Info>
-          <TranslateInfo>Брат 1</TranslateInfo>
+          <Info>The Revenant</Info>
+          <TranslateInfo>Выживший</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Брат 2</Info>
-          <TranslateInfo>Брат 2</TranslateInfo>
+          <Info>Only the Brave</Info>
+          <TranslateInfo>Дело храбрых</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Сестры</Info>
-          <TranslateInfo>Сестры</TranslateInfo>
+          <Info>Gone</Info>
+          <TranslateInfo>Игра на выживание</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Война</Info>
-          <TranslateInfo>Война</TranslateInfo>
+          <Info>Into the Wild</Info>
+          <TranslateInfo>В диких условиях</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>

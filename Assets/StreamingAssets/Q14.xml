@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Угадайте актера по именам/кличкам персонажей из разных фильмов: 
+Мистер Белый(Бешеные псы), Винстен Вульф(Криминальное чтиво)
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Tarantino</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Michael Madsen</Info>
+          <TranslateInfo>Майкл Мэдсен</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Tim Roth</Info>
+          <TranslateInfo>Тим Рот</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Steve Buscemi</Info>
+          <TranslateInfo>Стив Бушеми</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Harvey Keitel</Info>
+          <TranslateInfo>Харви Кейтель</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Дэдпул 1</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>George Lucas</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Deadpool 2</Info>
+          <TranslateInfo>Дэдпул 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Free Guy</Info>
+          <TranslateInfo>Главный герой</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Proposal</Info>
+          <TranslateInfo>Предложение</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Deadpool</Info>
+          <TranslateInfo>Дэдпул</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма, который снят не по комиксам Marvel</Info>
+      <NoteFilm />
+      <Director>Nolan</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Avengers Infinity War var 2</Info>
+          <TranslateInfo>Мстители: Война бесконечности</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Dark Knight Joker</Info>
+          <TranslateInfo>Темный рыцарь</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Blade</Info>
+          <TranslateInfo>Блэйд</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Fantastic Four</Info>
+          <TranslateInfo>Фантастическая четвёрка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Ridley Scott</Director>
+      <_cadrCinemaName>The Martian</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Interstellar</Info>
+          <TranslateInfo>Интерстеллар</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>2001: A Space Odyssey</Info>
+          <TranslateInfo>Космическая одиссея 2001 года</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Martian</Info>
+          <TranslateInfo>Марсианин</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mission to Mars</Info>
+          <TranslateInfo>Миссия на Марс</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Назовите фильм по отрывку рецензии, где ИКС замена имени героя:
+Кто-то наверху — непонятно зачем — наделил его нечеловеческой силой и умением летать. 
+От свалившейся на него сверхчеловеческой ответственности ИКС не погружается в гламурную печаль, как Бэтмен, а отдыхает по-простому — с литровым «пузырем». 
+И при этом, пусть и нехотя, кое-как выполняет свои супергеройские обязанности. Летит с похмелья на место действия, сбивая по пути головой рекламные щиты и углы небоскребов
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Peter Berg</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Hancock</Info>
+          <TranslateInfo>Хэнкок</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Bruce Almighty</Info>
+          <TranslateInfo>Брюс всемогущий</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Hulk</Info>
+          <TranslateInfo>Халк</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Thor</Info>
+          <TranslateInfo>Тор</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Выберите кадр из фильма Первому игроку приготовиться</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Steven Spielberg</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Ready Player One</Info>
+          <TranslateInfo>Первому игроку приготовиться</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Blade Runner 2049</Info>
+          <TranslateInfo>Бегущий по лезвию 2049</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Tron Legacy</Info>
+          <TranslateInfo>Трон: Наследие</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Oblivion</Info>
+          <TranslateInfo>Обливион</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>
+Угадай фильм по краткому описанию сюжета:
+Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга. 
+Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени. 
+Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Scott Derrickson</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Iron Man</Info>
+          <TranslateInfo>Железный человек</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Doctor Dolittle</Info>
+          <TranslateInfo>Доктор Дулиттл</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Crash</Info>
+          <TranslateInfo>Автокатастрофа</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Doctor Strange</Info>
+          <TranslateInfo>Доктор Стрэндж</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Стив Бушеми признавался, что после того, как он сыграл ТАКОГО, ему регулярно приходится переплачивать, чтобы доказать — в жизни он совсем другой.
+Во время холодной войны ТАКИМИ в США называли людей, которых подозревали в симпатиях к коммунистам.
+Какое слово заменено словом ТАКОЙ?</Info>
+      <NoteFilm>Стив Бушеми прославился ролью мистера Розового в фильме Квентина Тарантино «Бешеные псы». 
+Мистер Розовый запомнился в числе прочего тем, что никогда не давал чаевые. Бушеми говорит, что теперь ему приходится давать на чай больше, 
+чтобы люди перестали ассоциировать его с героем фильма. На самом деле привычка не оставлять чаевые была у самого Тарантино. 
+Розовыми в США пренебрежительно называли тех, кто мог не быть коммунистом (то есть красным), но сочувствовал коммунистическим идеям.</NoteFilm>
+      <Director>Tarantino</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Orange</Info>
+          <TranslateInfo>Оранжевый</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Brown</Info>
+          <TranslateInfo>Коричневый</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Pink</Info>
+          <TranslateInfo>Розовый</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Blue</Info>
+          <TranslateInfo>Синий</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Edward Zwick</Director>
+      <_cadrCinemaName>The Last Samurai</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Blood Diamond</Info>
+          <TranslateInfo>Кровавый алмаз</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Last Samurai</Info>
+          <TranslateInfo>Последний самурай</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Seven Samurai</Info>
+          <TranslateInfo>Семь самураев</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>47 Ronin</Info>
+          <TranslateInfo>47 ронинов</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите всех актеров/актрис, кто снимался в фильме: "Звёздные войны. Эпизод II: Атака клонов"</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>George Lucas</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Natalie Portman</Info>
+          <TranslateInfo>Натали Портман</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Morgan Freeman</Info>
+          <TranslateInfo>Морган Фримен</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Christopher Lee</Info>
+          <TranslateInfo>Кристофер Ли</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Liam Neeson</Info>
+          <TranslateInfo>Лиам Нисон</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>
