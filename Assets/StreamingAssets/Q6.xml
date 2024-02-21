@@ -107,29 +107,29 @@
 
     <Question>
       <IndexPrefab>0</IndexPrefab>
-      <Info>Обои с персонажем из какого фильма перед вами?</Info>
+      <Info>Постер из какой серии фильмов перед вами?</Info>
       <NoteFilm />
       <Director>Fincher</Director>
-      <_cadrCinemaName>Fight club wallpaper</_cadrCinemaName>
+      <_cadrCinemaName>Twilight poster</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Тайлер Дерден</Info>
-          <TranslateInfo>Тайлер Дерден</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Fight club wallpaper</Info>
-          <TranslateInfo>Бойцовский клуб</TranslateInfo>
+          <Info>Twilight</Info>
+          <TranslateInfo>Сумерки</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Исчезнувшая</Info>
-          <TranslateInfo>Исчезнувшая</TranslateInfo>
+          <Info>Harry Potter</Info>
+          <TranslateInfo>Гарри Поттер</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Семь</Info>
-          <TranslateInfo>Семь</TranslateInfo>
+          <Info>The Lord of the Rings</Info>
+          <TranslateInfo>Властелин колец</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Vampire Diaries</Info>
+          <TranslateInfo>Дневники вампира</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>

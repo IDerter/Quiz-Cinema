@@ -49,17 +49,6 @@ namespace QuizCinema
         private bool _checked = false;
         public bool Checked => _checked;
 
-        private void Start()
-        {
-           // _currentImage = GetComponent<Image>();
-
-           /* if (_unCorrectAnswer != null)
-            {
-                GetComponent<Image>().sprite = _unCorrectAnswer;
-            }
-           */
-        }
-
 
         public void UpdateData(string info, int index)
         {

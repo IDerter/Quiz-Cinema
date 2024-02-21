@@ -46,22 +46,22 @@
       <_cadrCinemaName>The Hateful Eight</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Однажды в Голливуде</Info>
-          <TranslateInfo>Однажды в Голливуде</TranslateInfo>
+          <Info>Once Upon a Time in... Hollywood</Info>
+          <TranslateInfo>Однажды в… Голливуде</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Омерзительная восьмерка</Info>
+          <Info>The Hateful Eight</Info>
           <TranslateInfo>Омерзительная восьмерка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Джанго Освобожденный</Info>
+          <Info>Django Unchained</Info>
           <TranslateInfo>Джанго Освобожденный</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Страх и ненависть в Лас-Вегасе</Info>
+          <Info>Fear and Loathing in Las Vegas</Info>
           <TranslateInfo>Страх и ненависть в Лас-Вегасе</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>

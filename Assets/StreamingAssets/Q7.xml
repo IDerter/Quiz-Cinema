@@ -40,6 +40,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <Info>Выберите кадр из фильма Крепкий Орешек 1</Info>
@@ -73,6 +74,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <Info>Выберите кадр из фильма Гарри Поттер и Тайная комната</Info>
@@ -140,6 +142,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <Info>
@@ -212,6 +215,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <Info>

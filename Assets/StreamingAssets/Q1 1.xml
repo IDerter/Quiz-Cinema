@@ -4,9 +4,11 @@
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <Info>Выберите кадр из фильма Титаник</Info>
-      <NoteFilm>Американская эпическая романтическая драма и фильм-катастрофа, в котором показана гибель легендарного лайнера «Титаник».
-1997 г. - США</NoteFilm>
-      <Director>Kemeron</Director>
+      <NoteFilm>
+        Американская эпическая романтическая драма и фильм-катастрофа, в котором показана гибель легендарного лайнера «Титаник».
+        1997 г. - США
+      </NoteFilm>
+      <Director>James Cameron</Director>
       <_cadrCinemaName>Titanic</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -37,31 +39,35 @@
     </Question>
     <Question>
       <IndexPrefab>2</IndexPrefab>
-      <Info>Угадай фильм по цитате: 
-— Тебе не кажется неправильным вешать женщину?
-— Пока не придумали курок, который они не могут спустить, если ты палач, будешь вешать и женщин.</Info>
-      <NoteFilm>Американский вестерн действие которого происходит вскоре после Гражданской войны в США.
-2015 г. - США </NoteFilm>
+      <Info>
+        Угадай фильм по цитате:
+        — Тебе не кажется неправильным вешать женщину?
+        — Пока не придумали курок, который они не могут спустить, если ты палач, будешь вешать и женщин.
+      </Info>
+      <NoteFilm>
+        Американский вестерн действие которого происходит вскоре после Гражданской войны в США.
+        2015 г. - США
+      </NoteFilm>
       <Director>Tarantino</Director>
       <_cadrCinemaName>The Hateful Eight</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Однажды в Голливуде</Info>
-          <TranslateInfo>Однажды в Голливуде</TranslateInfo>
+          <Info>Once Upon a Time in... Hollywood</Info>
+          <TranslateInfo>Однажды в… Голливуде</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Омерзительная восьмерка</Info>
+          <Info>The Hateful Eight</Info>
           <TranslateInfo>Омерзительная восьмерка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Джанго Освобожденный</Info>
+          <Info>Django Unchained</Info>
           <TranslateInfo>Джанго Освобожденный</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Страх и ненависть в Лас-Вегасе</Info>
+          <Info>Fear and Loathing in Las Vegas</Info>
           <TranslateInfo>Страх и ненависть в Лас-Вегасе</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -84,7 +90,7 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>django unchained</Info>
+          <Info>Django unchained</Info>
           <TranslateInfo>Джанго Освобожденный</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
@@ -215,22 +221,22 @@
       <_cadrCinemaName>Interstellar</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Большая игра</Info>
+          <Info>Molly's Game</Info>
           <TranslateInfo>Большая игра</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Интерстеллар</Info>
+          <Info>Interstellar</Info>
           <TranslateInfo>Интерстеллар</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Довод</Info>
+          <Info>Tenet</Info>
           <TranslateInfo>Довод</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Прислуга</Info>
+          <Info>The Help</Info>
           <TranslateInfo>Прислуга</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -248,22 +254,22 @@
       <_cadrCinemaName>Fight club</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Американская история Х</Info>
+          <Info>American History X</Info>
           <TranslateInfo>Американская история Х</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Карты, деньги, два ствола</Info>
+          <Info>Lock, Stock and Two Smoking Barrels</Info>
           <TranslateInfo>Карты, деньги, два ствола</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Бойцовский клуб</Info>
+          <Info>Fight club</Info>
           <TranslateInfo>Бойцовский клуб</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Пролетая над гнездом кукушки</Info>
+          <Info>One Flew Over the Cuckoo's Nest</Info>
           <TranslateInfo>Пролетая над гнездом кукушки</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -281,22 +287,22 @@
       <_cadrCinemaName>Pulp Fiction</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Бесславные ублюдки</Info>
+          <Info>Inglourious Basterds</Info>
           <TranslateInfo>Бесславные ублюдки</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Криминальное чтиво</Info>
+          <Info>Pulp Fiction</Info>
           <TranslateInfo>Криминальное чтиво</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Большой куш</Info>
+          <Info>Snatch</Info>
           <TranslateInfo>Большой куш</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Однажды в Голливуде</Info>
+          <Info>Once Upon a Time in... Hollywood</Info>
           <TranslateInfo>Однажды в Голливуде</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -314,23 +320,23 @@
       <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Властелин колец: Братство кольца</Info>
+          <Info>The Lord of the Rings: The Fellowship of the Ring</Info>
           <TranslateInfo>Властелин колец: Братство кольца</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Властелин колец: Две крепости</Info>
+          <Info>The Lord of the Rings: The Two Towers</Info>
           <TranslateInfo>Властелин колец: Две крепости</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Властелин колец: Возвращение короля</Info>
+          <Info>The Lord of the Rings: The Return of the King</Info>
           <TranslateInfo>Властелин колец: Возвращение короля</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Хроники Нарнии</Info>
-          <TranslateInfo>Хроники Нарнии</TranslateInfo>
+          <Info>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</Info>
+          <TranslateInfo>Хроники Нарнии: Лев, колдунья и волшебный шкаф</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>

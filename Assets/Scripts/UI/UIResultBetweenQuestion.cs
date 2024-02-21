@@ -172,6 +172,7 @@ namespace QuizCinema
 
                     var check = !concatList.Any();
                     _panelMultiplyMainTextQuestion.SetActive(true);
+
                     if (check)
                     {
                         Debug.Log("Прав ответ!");

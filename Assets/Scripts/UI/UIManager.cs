@@ -30,6 +30,8 @@ namespace QuizCinema
 
         [SerializeField] private UIElements _uIElements;
 
+        private List<int> _finishedAnswers = new List<int>();
+        public List<int> FinishedAnswers => _finishedAnswers;
 
         private List<AnswerData> _currentAnswer = new List<AnswerData>();
         private List<AnswerData> _correctAnswer = new List<AnswerData>();
@@ -237,14 +239,30 @@ namespace QuizCinema
             OnCreateAnswers?.Invoke(question);
         }
 
+        public static void Shuffle<T>(T[] arr)
+        {
+            System.Random rand = new System.Random();
+
+            for (int i = arr.Length - 1; i >= 1; i--)
+            {
+                int j = rand.Next(i + 1);
+
+                T tmp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = tmp;
+            }
+        }
+
         private void UpdateCorrectAnswerList(Question question)
         {
             var index = question.IndexPrefab;
 
+            Shuffle(question.Answers);
             var listIndexCorrectAnswer = question.GetCorrectAnswers();
 
             for (int i = 0; i < question.Answers.Length; i++)
             {
+
                 AnswerData newAnswer = Instantiate(_answerPrefab[index], _uIElements.AnswerContentArea[index]);
                 newAnswer.UpdateData(question.Answers[i].TranslateInfo, i);
 

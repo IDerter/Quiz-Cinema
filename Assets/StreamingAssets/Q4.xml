@@ -43,22 +43,22 @@
       <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Майкл Корлеоне</Info>
+          <Info>Michael Corleone</Info>
           <TranslateInfo>Майкл Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Вито Корлеоне</Info>
+          <Info>Vito Corleone</Info>
           <TranslateInfo>Вито Корлеоне</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Сонни Корлеоне</Info>
+          <Info>Sonny Corleone</Info>
           <TranslateInfo>Сонни Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Фредерико Корлеоне</Info>
+          <Info>Frederico Corleone</Info>
           <TranslateInfo>Фредерико Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -109,22 +109,22 @@
       <_cadrCinemaName>The Silence of the Lambs Poster</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Эффект бабочки</Info>
+          <Info>The Butterfly Effect</Info>
           <TranslateInfo>Эффект бабочки</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Красный дракон</Info>
+          <Info>Red Dragon</Info>
           <TranslateInfo>Красный дракон</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Молчание ягнят</Info>
+          <Info>The Silence of the Lambs</Info>
           <TranslateInfo>Молчание ягнят</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Не дыши</Info>
+          <Info>Don't Breathe</Info>
           <TranslateInfo>Не дыши</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -142,22 +142,22 @@
       <_cadrCinemaName>Paddington 1</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Чебурашка</Info>
+          <Info>Cheburashka</Info>
           <TranslateInfo>Чебурашка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Приключение Паддингтона</Info>
+          <Info>Paddington</Info>
           <TranslateInfo>Приключение Паддингтона</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Приключения Паддингтона 2</Info>
+          <Info>Paddington 2</Info>
           <TranslateInfo>Приключения Паддингтона 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Вонка</Info>
+          <Info>Wonka</Info>
           <TranslateInfo>Вонка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -208,22 +208,22 @@
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Дневник памяти</Info>
+          <Info>The Notebook</Info>
           <TranslateInfo>Дневник памяти</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Великий Гэтсби</Info>
-          <TranslateInfo>Великий Гэтсбиа</TranslateInfo>
+          <Info>The Great Gatsby</Info>
+          <TranslateInfo>Великий Гэтсби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Воин</Info>
+          <Info>Warrior</Info>
           <TranslateInfo>Воин</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Дневник Баскетболиста</Info>
+          <Info>The Basketball Diaries</Info>
           <TranslateInfo>Дневник Баскетболиста</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
@@ -245,22 +245,22 @@
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Власть</Info>
+          <Info>Vice</Info>
           <TranslateInfo>Власть</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Бэтмен: Начало</Info>
+          <Info>Batman Begins</Info>
           <TranslateInfo>Бэтмен: Начало</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Машинист</Info>
+          <Info>The Machinist</Info>
           <TranslateInfo>Машинист</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Форд против Феррари</Info>
+          <Info>Ford v Ferrari</Info>
           <TranslateInfo>Форд против Феррари</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>

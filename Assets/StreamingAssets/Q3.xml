@@ -10,22 +10,22 @@
       <_cadrCinemaName>Knockin on Heavens Door</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Достучаться до небес</Info>
+          <Info>Knockin' On Heaven's Door</Info>
           <TranslateInfo>Достучаться до небес</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Босиком по мостовой</Info>
+          <Info>Barefoot</Info>
           <TranslateInfo>Босиком по мостовой</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Люди в черном 1</Info>
+          <Info>Men in Black</Info>
           <TranslateInfo>Люди в черном 1</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Люди в черном 2</Info>
+          <Info>Men in Black II</Info>
           <TranslateInfo>Люди в черном 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -43,22 +43,22 @@
       <_cadrCinemaName>Snatch</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Револьвер</Info>
+          <Info>Revolver</Info>
           <TranslateInfo>Револьвер</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Джентльмены</Info>
+          <Info>The Gentlemen</Info>
           <TranslateInfo>Джентльмены</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Карты, деньги, два ствола</Info>
+          <Info>Lock, Stock and Two Smoking Barrels</Info>
           <TranslateInfo>Карты, деньги, два ствола</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Большой куш</Info>
+          <Info>Snatch</Info>
           <TranslateInfo>Большой куш</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
@@ -106,26 +106,26 @@
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Lasse Hallstrom</Director>
-      <_cadrCinemaName>Hatiko</_cadrCinemaName>
+      <_cadrCinemaName>Hachi A Dog's Tale</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Белый плен</Info>
+          <Info>Eight Below</Info>
           <TranslateInfo>Белый плен</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Марли и я</Info>
+          <Info>Marley and Me</Info>
           <TranslateInfo>Марли и я</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Собачья жизнь</Info>
+          <Info>A Dog's Purpose</Info>
           <TranslateInfo>Собачья жизнь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Хатико</Info>
-          <TranslateInfo>Хатико</TranslateInfo>
+          <Info>Hachi A Dog's Tale</Info>
+          <TranslateInfo>Хатико: Самый верный друг</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -172,25 +172,25 @@
       <Info>Угадай фильм по кадру</Info>
       <NoteFilm />
       <Director>Gor Verbinski</Director>
-      <_cadrCinemaName>The Curse of The Black Pear</_cadrCinemaName>
+      <_cadrCinemaName>Pirates of the Caribbean The Curse of The Black Pearl</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Пираты Карибского моря: Проклятие Черной жемчужины</Info>
+          <Info>Pirates of the Caribbean The Curse of The Black Pearl</Info>
           <TranslateInfo>Пираты Карибского моря: Проклятие Черной жемчужины</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Пираты Карибского моря: Сундук мертвеца</Info>
+          <Info>Pirates of the Caribbean: Dead Man's Chest</Info>
           <TranslateInfo>Пираты Карибского моря: Сундук мертвеца</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Пираты Карибского моря: На краю света</Info>
+          <Info>Pirates of the Caribbean: At World's End</Info>
           <TranslateInfo>Пираты Карибского моря: На краю света</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Пираты Карибского моря: На странных берегах</Info>
+          <Info>Pirates of the Caribbean: On Stranger Tides</Info>
           <TranslateInfo>Пираты Карибского моря: На странных берегах</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -241,22 +241,22 @@
       <_cadrCinemaName>Gladiator</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Робин Гуд</Info>
+          <Info>Robin Hood</Info>
           <TranslateInfo>Робин Гуд</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Игры разума</Info>
+          <Info>A Beautiful Mind</Info>
           <TranslateInfo>Игры разума</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Бен Гур</Info>
+          <Info>Ben-Hur</Info>
           <TranslateInfo>Бен Гур</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Гладиатор</Info>
+          <Info>Gladiator</Info>
           <TranslateInfo>Гладиатор</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
@@ -307,22 +307,22 @@
       <_cadrCinemaName>Home-Alone-1</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Один дома 2</Info>
-          <TranslateInfo>Один дома 2</TranslateInfo>
+          <Info>Home Alone 2: Lost in New York</Info>
+          <TranslateInfo>Один дома 2: Затерянный в Нью-Йорке</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Один дома 1</Info>
+          <Info>Home Alone 1</Info>
           <TranslateInfo>Один дома 1</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Один дома 3</Info>
+          <Info>Home Alone 3</Info>
           <TranslateInfo>Один дома 3</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Хью Хефнер</Info>
+          <Info>Hugh Hefner</Info>
           <TranslateInfo>Хью Хефнер</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>

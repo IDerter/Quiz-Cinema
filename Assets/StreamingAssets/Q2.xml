@@ -210,12 +210,13 @@
       <Timer>10</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <Info>Выберите всех актеров игравших Вито Корлеоне</Info>
-      <NoteFilm />
-      <Director>Coppolo</Director>
+      <NoteFilm> </NoteFilm>
+      <Director>Francis Ford Coppola</Director>
       <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -242,6 +243,7 @@
       <UseTimer>true</UseTimer>
       <Timer>10</Timer>
       <AddScore>50</AddScore>
+    
     </Question>
     <Question>
       <IndexPrefab>0</IndexPrefab>

@@ -43,12 +43,12 @@
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Форрест Гамп</Info>
+          <Info>Forrest Gump</Info>
           <TranslateInfo>Форрест Гамп</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Побег из Шоушенка</Info>
+          <Info>The Shawshank Redemption</Info>
           <TranslateInfo>Побег из Шоушенка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
@@ -58,7 +58,7 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Интерстеллар</Info>
+          <Info>Interstellar</Info>
           <TranslateInfo>Интерстеллар</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -109,7 +109,7 @@
       <_cadrCinemaName>Fight club wallpaper</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Тайлер Дерден</Info>
+          <Info>Tyler Durden</Info>
           <TranslateInfo>Тайлер Дерден</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -119,12 +119,12 @@
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Исчезнувшая</Info>
+          <Info>Gone Girl</Info>
           <TranslateInfo>Исчезнувшая</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Семь</Info>
+          <Info>Seven</Info>
           <TranslateInfo>Семь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -213,22 +213,22 @@
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Лицо со шрамом</Info>
+          <Info>Scarface</Info>
           <TranslateInfo>Лицо со шрамом</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Схватка</Info>
+          <Info>Heat</Info>
           <TranslateInfo>Схватка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Крестный отец 3</Info>
+          <Info>The Godfather Part III</Info>
           <TranslateInfo>Крестный отец 3</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Запах женщины</Info>
+          <Info>Scent of a Woman</Info>
           <TranslateInfo>Запах женщины</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
@@ -249,22 +249,22 @@
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Семь</Info>
+          <Info>Seven</Info>
           <TranslateInfo>Семь</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Подозрительный лица</Info>
+          <Info>The Usual Suspects</Info>
           <TranslateInfo>Подозрительный лица</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Титаник</Info>
+          <Info>Titanic</Info>
           <TranslateInfo>Титаник</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>12 обезьян</Info>
+          <Info>12 Monkeys</Info>
           <TranslateInfo>12 обезьян</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -282,22 +282,22 @@
       <_cadrCinemaName>Groundhog-Day</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Трудности перевода</Info>
+          <Info>Lost in Translation</Info>
           <TranslateInfo>Трудности перевода</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>День сурка</Info>
+          <Info>Groundhog Day</Info>
           <TranslateInfo>День сурка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Охотники за привидениями 1</Info>
+          <Info>Ghostbusters</Info>
           <TranslateInfo>Охотники за привидениями 1</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Охотники за привидениями 2</Info>
+          <Info>Ghostbusters II</Info>
           <TranslateInfo>Охотники за привидениями 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
