@@ -26,10 +26,13 @@ namespace TowerDefense
 
         public virtual int Initialize()
         {
-            
-            int score = Convert.ToInt32(Math.Round((double)(MapCompletion.Instance.TotalStars / _episode.Levels.Length)));
+            var indexEpisode = int.Parse(_episode.EpisodeName.Substring(_episode.EpisodeName.Length - 1));
 
-            _resultPanel?.SetActive(score > 1);
+            var starsEpisode = MapCompletion.Instance.GetEpisodeStars(indexEpisode);
+
+            int score = Convert.ToInt32(Math.Round((double)(starsEpisode / _episode.Levels.Length)));
+
+            _resultPanel?.SetActive(score > 0);
 
             if (_resultImages.Length >= score)
             {

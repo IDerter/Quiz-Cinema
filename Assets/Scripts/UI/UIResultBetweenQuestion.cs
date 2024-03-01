@@ -102,8 +102,8 @@ namespace QuizCinema
 
         private void Start()
         {
-            _uiManager.OnCreateAnswers += OnCreateAnswers;
-            _uiManager.OnCorrectAnswer += OnCorrectAnswer;
+            AnswersMethods.Instance.OnCreateAnswers += OnCreateAnswers;
+            AnswersMethods.Instance.OnCorrectAnswer += OnCorrectAnswer;
 
             AnswerData.UpdateQuestionAnswer += UpdateQuestionAnswer;
             QuestionMethods.Instance.CurrentAnswerList += UpdateCurrentAnswerList;
@@ -117,8 +117,8 @@ namespace QuizCinema
 
         private void OnDestroy()
         {
-            _uiManager.OnCreateAnswers -= OnCreateAnswers;
-            _uiManager.OnCorrectAnswer -= OnCorrectAnswer;
+            AnswersMethods.Instance.OnCreateAnswers -= OnCreateAnswers;
+            AnswersMethods.Instance.OnCorrectAnswer -= OnCorrectAnswer;
 
             AnswerData.UpdateQuestionAnswer -= UpdateQuestionAnswer;
             QuestionMethods.Instance.CurrentAnswerList -= UpdateCurrentAnswerList;

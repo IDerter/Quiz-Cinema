@@ -8,7 +8,7 @@ namespace TowerDefense
 {
     public class MapCompletion : SingletonBase<MapCompletion>
     {
-        private const string _fileName = "save.dat";
+        private const string _fileName = "savelvls.dat";
         public string FileName => _fileName;
 
         [Serializable]
@@ -164,6 +164,20 @@ namespace TowerDefense
                 }
             }
             return 0;
+        }
+
+        public int GetEpisodeStars (int idEpisode)
+        {
+            var starsEpisode = 0;
+
+            foreach (var data in _completionData)
+            {
+                if (data.EpisodeID == idEpisode)
+                {
+                    starsEpisode += data.Stars;
+                }
+            }
+            return starsEpisode;
         }
 
         public int GetLvlNumber(string episodeName)

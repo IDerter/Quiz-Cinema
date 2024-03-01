@@ -38,6 +38,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <Info>Выберите кадр из фильма</Info>
@@ -71,6 +72,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <Info>Выберите кадр из фильма Отпуск по обмену</Info>
@@ -138,6 +140,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <Info>
@@ -210,6 +213,7 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <Info>
@@ -313,10 +317,11 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <Info>Угадай кадр из фильма Темный рыцарь: Возрождение Легенды</Info>

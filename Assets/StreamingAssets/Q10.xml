@@ -35,9 +35,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -71,6 +72,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -104,6 +106,7 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -137,46 +140,47 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
+
     <Question>
       <IndexPrefab>2</IndexPrefab>
-      <_answerType>Single</_answerType>
       <Info>
-Назовите фильм по трем фактам:
-1) Художник Стюарт Крэйг, обладатель трех «Оскаров», взял за основу дизайн станций лондонского метро начала XX века.
-Крейгу понравилось, как проектировщики старых станций имитировали классическую архитектуру, при этом используя керамическую плитку для облицовки стен.
-Этот прием был позаимствован при работе над декорациями фильма; на облицовку стен атриума ушло более 30 000 плиток.
-2) Сцена поцелуя Гарри Поттера и Чанг была снята лишь с 24 дубля.
-3) Сама Джоан Роулинг решительно настояла, чтоб эльфа-домовика Кикимера оставили, так как это важно для дальнейшего повествования.
+Назовите фильм по интересному факту из него:
+Во время съемок актриса Эллен Берстин по сценарию должна была говорить о том, какого ей чувствовать себя старой.
+Мэттью Либатик – американский кинооператор, случайно отвел камеру от актрисы. Даррен Аронофски был этим очень недоволен, но вскоре он узнал причину происходящего.
+Оплошность произошла из-за того, что Мэттью настолько впечатлился словами Эллен, что расплакался. Слезы попали на объектив камеры, поэтому оператор убрал ее.
+Мэттью решил просто запороть дубль, однако Даррен включил в финальную версию именно этот кадр.
       </Info>
-      <NoteFilm>-</NoteFilm>
-      <Director>David Yates</Director>
+      <NoteFilm />
+      <Director>Darren Aronofsky</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Harry Potter and the Half-Blood Prince</Info>
-          <TranslateInfo>Гарри Поттер и Принц-полукровка</TranslateInfo>
+          <Info>Black Swan</Info>
+          <TranslateInfo>Черный лебедь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Harry Potter and the Order of the Phoenix</Info>
-          <TranslateInfo>Гарри Поттер и Орден Феникса</TranslateInfo>
+          <Info>A Man Called Ove: A Novel</Info>
+          <TranslateInfo>Вторая жизнь Уве</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mother!</Info>
+          <TranslateInfo>Мама!</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Requiem for a Dream</Info>
+          <TranslateInfo>Реквием по мечте</TranslateInfo>
           <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Harry Potter and the Prisoner of Azkaban</Info>
-          <TranslateInfo>Гарри Поттер и узник Азкабана</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Harry Potter and the Goblet of Fire</Info>
-          <TranslateInfo>Гарри Поттер и Кубок огня</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
-      <AddScore>40</AddScore>
+      <Timer>60</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -210,6 +214,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -245,9 +250,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -279,9 +285,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -315,6 +322,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>

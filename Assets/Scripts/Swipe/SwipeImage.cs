@@ -19,11 +19,7 @@ namespace QuizCinema
 
         private void Awake()
         {
-            _uiManager.OnCreateAnswers += OnCreateAnswers;
-
-            Debug.Log("Подписались на ONCREATEANSW");
-            
-
+            AnswersMethods.Instance.OnCreateAnswers += OnCreateAnswers;
 
             SwipeDetection.OnSwipeInput += OnSwipeInput;
         }
@@ -80,7 +76,7 @@ namespace QuizCinema
         private void OnDestroy()
         {
             SwipeDetection.OnSwipeInput -= OnSwipeInput;
-            _uiManager.OnCreateAnswers -= OnCreateAnswers;
+            AnswersMethods.Instance.OnCreateAnswers -= OnCreateAnswers;
         }
 
         private void OnSwipeInput(Vector2 direction)
@@ -114,6 +110,21 @@ namespace QuizCinema
                 _cadrs[_currentIndex]?.gameObject.SetActive(true);
             }
             
+        }
+
+        public void ShowCadr(int index)
+        {
+            _cadrs[_currentIndex]?.gameObject.SetActive(false);
+            SetAlphaTranslucent();
+            StartCoroutine(DelayShowCadr(index));
+        }
+
+        private IEnumerator DelayShowCadr(int index)
+        {
+            yield return new WaitForSeconds(0.1f);
+            _currentIndex = index;
+            SetAlphaNotTransparent();
+            _cadrs[index]?.gameObject.SetActive(true);
         }
 
         private void SetAlphaNotTransparent()

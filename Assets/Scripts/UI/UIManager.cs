@@ -10,11 +10,8 @@ using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
-    public class UIManager : MonoBehaviour, IDependency<Score>, IDependency<AnswerData>
+    public class UIManager : MonoBehaviour, IDependency<Score>
     {
-        public event Action<Question> OnCreateAnswers;
-        public event Action<List<AnswerData>> OnCorrectAnswer;
-        public event Action<AnswerData> OnCorrectSpriteActivate;
 
         public enum ResolutionScreenType { Correct, Incorrect, Finish }
 
@@ -34,7 +31,11 @@ namespace QuizCinema
         public List<int> FinishedAnswers => _finishedAnswers;
 
         private List<AnswerData> _currentAnswer = new List<AnswerData>();
+        public List<AnswerData> GetCurrentAnswerList { get { return _currentAnswer; } set { _currentAnswer = value; } }
+
         private List<AnswerData> _correctAnswer = new List<AnswerData>();
+        public List<AnswerData> GetCorrectAnswerList { get { return _correctAnswer; } set { _correctAnswer = value; } }
+
         private int _resStateParaHash = 0;
 
         private IEnumerator IE_DisplayTimedResolution;
@@ -42,17 +43,12 @@ namespace QuizCinema
         private ResolutionScreenType _typeAnswer;
 
         public void Construct(Score obj) => _score = obj;
-        public void Construct(AnswerData obj) 
-        {
-            var index = obj.AnswerIndex;
-            _answerPrefab[index] = obj;   
-        }
 
 
 
         private void OnEnable()
         {
-            _questionMethods.UpdateQuestionUI += UpdateQuestionUI;
+            _questionMethods.OnUpdateQuestionUI += UpdateQuestionUI;
             _gameManager.UpdateDisplayScreenResolution += DisplayResolution;
             _score.UpdateScore += UpdateScoreUI;
 
@@ -60,29 +56,20 @@ namespace QuizCinema
 
         private void OnDisable()
         {
-            _questionMethods.UpdateQuestionUI -= UpdateQuestionUI;
+            _questionMethods.OnUpdateQuestionUI -= UpdateQuestionUI;
             _gameManager.UpdateDisplayScreenResolution -= DisplayResolution;
             _score.UpdateScore -= UpdateScoreUI;
         }
 
-        private void Awake()
-        {
-           // _uIElements = _settingUIManager.UIGameElements;
-           
-        }
 
 
         private void Start()
         {
-            //UpdateScoreUI();
             _resStateParaHash = Animator.StringToHash("ScreenState");
 
             _answerPrefab = _settingUIManager.AnswersPrefabs;
-          //  for (int i = 0; i < _questionInfoTextObject.Length; i++)
-          //  {
-          ///     _questionInfoTextObject[i] = _settingUIManager.QuestionInfoTextObject[i].GetComponentInChildren<TextMeshProUGUI>();
-          //  }
         }
+
 
 
         private void UpdateQuestionUI(Question question)
@@ -102,7 +89,8 @@ namespace QuizCinema
 
             if (!_questionMethods.IsFinished)
             {
-                CreateAnswers(question);
+                AnswersMethods.Instance.CreateAnswers(question);
+                Debug.Log("Âûחûגאול CreateAnswers");
             }
         }
 
@@ -222,79 +210,7 @@ namespace QuizCinema
             }
         }
 
-        private void CreateAnswers(Question question)
-        {
-            _correctAnswer.Clear();
-
-            EraseAnswers();
-
-            var index = question.IndexPrefab;
-
-            var listIndexCorrectAnswer = question.GetCorrectAnswers();
-
-            UpdateCorrectAnswerList(question);
-
-            OnCorrectAnswer?.Invoke(_correctAnswer);
-
-            OnCreateAnswers?.Invoke(question);
-        }
-
-        public static void Shuffle<T>(T[] arr)
-        {
-            System.Random rand = new System.Random();
-
-            for (int i = arr.Length - 1; i >= 1; i--)
-            {
-                int j = rand.Next(i + 1);
-
-                T tmp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = tmp;
-            }
-        }
-
-        private void UpdateCorrectAnswerList(Question question)
-        {
-            var index = question.IndexPrefab;
-
-            Shuffle(question.Answers);
-            var listIndexCorrectAnswer = question.GetCorrectAnswers();
-
-            for (int i = 0; i < question.Answers.Length; i++)
-            {
-
-                AnswerData newAnswer = Instantiate(_answerPrefab[index], _uIElements.AnswerContentArea[index]);
-                newAnswer.UpdateData(question.Answers[i].TranslateInfo, i);
-
-                _currentAnswer.Add(newAnswer);
-                Debug.Log(question._cadrCinemaName);
-
-                if (question.GetAnswerType == AnswerType.Single)
-                {
-                    if (listIndexCorrectAnswer[0] == i)
-                        _correctAnswer.Add(newAnswer);
-                }
-                else if (question.GetAnswerType == AnswerType.Multiply)
-                {
-                    for (int j = 0; j < listIndexCorrectAnswer.Count; j++)
-                    {
-                        if (i == listIndexCorrectAnswer[j])
-                        {
-                            _correctAnswer.Add(newAnswer);
-                        }
-                    }
-                }
-            }
-        }
-
-        private void EraseAnswers()
-        {
-            foreach(var answer in _currentAnswer)
-            {
-                Destroy(answer.gameObject);
-            }
-            _currentAnswer.Clear();
-        }
+       
 
         private void UpdateScoreUI()
         {

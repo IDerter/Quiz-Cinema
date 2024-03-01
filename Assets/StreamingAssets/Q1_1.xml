@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Выберите кадр из фильма Титаник</Info>
+      <NoteFilm>Американская эпическая романтическая драма и фильм-катастрофа, в котором показана гибель легендарного лайнера «Титаник».
+1997 г. - США</NoteFilm>
+      <Director>James Cameron</Director>
+      <_cadrCinemaName>Titanic</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Titanic</Info>
+          <TranslateInfo>Титаник</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Back to the Future 1</Info>
+          <TranslateInfo>Назад в будущее 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>brilliantovaya-ruka</Info>
+          <TranslateInfo>Бриллиантовая рука</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Brother 1</Info>
+          <TranslateInfo>Брат 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <Info>Угадай фильм по цитате: 
+— Тебе не кажется неправильным вешать женщину?
+— Пока не придумали курок, который они не могут спустить, если ты палач, будешь вешать и женщин.</Info>
+      <NoteFilm>Американский вестерн действие которого происходит вскоре после Гражданской войны в США.
+2015 г. - США </NoteFilm>
+      <Director>Tarantino</Director>
+      <_cadrCinemaName>The Hateful Eight</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Once Upon a Time in... Hollywood</Info>
+          <TranslateInfo>Однажды в… Голливуде</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Hateful Eight</Info>
+          <TranslateInfo>Омерзительная восьмерка</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Django Unchained</Info>
+          <TranslateInfo>Джанго Освобожденный</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Fear and Loathing in Las Vegas</Info>
+          <TranslateInfo>Страх и ненависть в Лас-Вегасе</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите всех актеров кто играл роль Ганнибала Лектера</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Thomas Harris</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Johnny Depp</Info>
+          <TranslateInfo>Джонни Депп</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Anthony Hopkins</Info>
+          <TranslateInfo>Энтони Хопкинс</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1 + 1</Info>
+          <TranslateInfo>1 + 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Mads Mikkelsen</Info>
+          <TranslateInfo>Мадс Миккельсен</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <Info>Сколько вышло фильмов Миссии невыполнима к 2023 году?</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Christopher McQuarrie</Director>
+      <_cadrCinemaName>Mission Impossible – Dead Reckoning Part One</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>7</Info>
+          <TranslateInfo>7</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>6</Info>
+          <TranslateInfo>6</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>8</Info>
+          <TranslateInfo>4</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>9</Info>
+          <TranslateInfo>9</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    
+  </Questions>
+</Data>

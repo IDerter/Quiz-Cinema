@@ -10,19 +10,19 @@ namespace QuizCinema
         [SerializeField] private TextMeshProUGUI _textCinemaName;
         [SerializeField] private TextMeshProUGUI _textCinemaInfo;
 
-        [SerializeField] private UIManager _uIManager;
+        
 
 
         private void Start()
         {
-            _uIManager.OnCreateAnswers += OnCreateAnswers;
-            _uIManager.OnCorrectAnswer += OnCorrectAnswers;
+            AnswersMethods.Instance.OnCreateAnswers += OnCreateAnswers;
+            AnswersMethods.Instance.OnCorrectAnswer += OnCorrectAnswers;
         }
 
         private void OnDestroy()
         {
-            _uIManager.OnCreateAnswers -= OnCreateAnswers;
-            _uIManager.OnCorrectAnswer -= OnCorrectAnswers;
+            AnswersMethods.Instance.OnCreateAnswers -= OnCreateAnswers;
+            AnswersMethods.Instance.OnCorrectAnswer -= OnCorrectAnswers;
         }
 
         private void OnCorrectAnswers(List<AnswerData> answer)

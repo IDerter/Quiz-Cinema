@@ -36,9 +36,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -72,6 +73,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -105,6 +107,7 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -138,6 +141,7 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -149,7 +153,7 @@
 Де Ниро прочитал и ответил: «Самого себя». Вскоре Warner Bros. согласилась финансировать фильм.
       </Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Peter Weir</Director>
+      <Director>Scorsese</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -174,9 +178,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -210,6 +215,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -219,7 +225,7 @@
 Фильм 2009 года с Джерардом Батлером
       </Info>
       <NoteFilm>-</NoteFilm>
-      <Director>-</Director>
+      <Director>Gary Gray</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -247,6 +253,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -280,6 +287,7 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -313,6 +321,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
