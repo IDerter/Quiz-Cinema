@@ -4,29 +4,34 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Плакат с какой актрисой висел в камере Энди Дифрейна, героя "Побега из Шоушенка"?</Info>
-      <NoteFilm />
-      <Director>Darabont</Director>
-      <_cadrCinemaName>The Shawshank Redemption</_cadrCinemaName>
+      <Info>
+Назовите фильм цитате главного героя, где ИКС - это замена фамилии персонажа:
+Леонардо ДиКаприо хотел сыграть ИКС, потому что ему понравилась «идея человека, который был абсолютно ничем, и создал себя, отталкиваясь только от собственного воображения».
+«ИКС — один из знаковых персонажей, потому что он может быть интерпретирован по-разному:
+безнадежный романтик, одержимый сумасшедший или опасный гангстер, цепляющийся за богатство» — говорит ДиКаприо.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Baz Luhrmann</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Marilyn Monroe</Info>
-          <TranslateInfo>Мэрилин Монро</TranslateInfo>
+          <Info>The Revenant</Info>
+          <TranslateInfo>Выживший</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Ingrid Bergman</Info>
-          <TranslateInfo>Ингрид Бергман</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Rita Hayworth</Info>
-          <TranslateInfo>Рита Хейворт</TranslateInfo>
+          <Info>The Great Gatsby</Info>
+          <TranslateInfo>Великий Гэтсби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Loretta Young</Info>
-          <TranslateInfo>Лоретта Янг</TranslateInfo>
+          <Info>Catch Me If You Can</Info>
+          <TranslateInfo>Поймай меня, если сможешь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Wolf of Wall Street</Info>
+          <TranslateInfo>Волк с Уолл-стрит</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -34,6 +39,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
@@ -67,6 +73,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -100,6 +107,7 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -133,39 +141,46 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
+
     <Question>
-      <IndexPrefab>1</IndexPrefab>
+      <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>В каком году был основан первый кинотеатр?</Info>
-      <NoteFilm />
-      <Director>Lumiere brothers</Director>
-      <_cadrCinemaName>First film</_cadrCinemaName>
+      <Info>
+Угадай фильм по краткому описанию сюжета:
+Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга.
+Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени.
+Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
+      </Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Scott Derrickson</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>1915</Info>
-          <TranslateInfo>1915</TranslateInfo>
+          <Info>Iron Man</Info>
+          <TranslateInfo>Железный человек</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>1907</Info>
-          <TranslateInfo>1907</TranslateInfo>
+          <Info>Doctor Dolittle</Info>
+          <TranslateInfo>Доктор Дулиттл</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>1904</Info>
-          <TranslateInfo>1904</TranslateInfo>
+          <Info>Crash</Info>
+          <TranslateInfo>Автокатастрофа</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>1895</Info>
-          <TranslateInfo>1895</TranslateInfo>
+          <Info>Doctor Strange</Info>
+          <TranslateInfo>Доктор Стрэндж</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>30</Timer>
-      <AddScore>40</AddScore>
+      <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -199,6 +214,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -234,9 +250,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -270,9 +287,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -303,9 +321,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>

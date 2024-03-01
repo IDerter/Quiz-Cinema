@@ -59,20 +59,21 @@ namespace QuizCinema
         public void Reset()
         {
             _checked = false;
-            UpdateUI();
+            UpdateUI(_checked);
         }
 
         public virtual void SwitchCase()
         {
             _checked = !_checked;
-            UpdateUI();
+            UpdateUI(_checked);
             
             UpdateQuestionAnswer?.Invoke(this);
             Debug.Log("Switch case");
         }
 
-        private void UpdateUI()
+        public void UpdateUI(bool _checked)
         {
+            _toogle.gameObject.SetActive(true);
             _toogle.sprite = (_checked) ? _checkedToggle : _uncheckedToggle;
 
         }

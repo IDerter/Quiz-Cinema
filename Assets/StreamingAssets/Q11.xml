@@ -36,9 +36,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -72,6 +73,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -105,6 +107,7 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -138,44 +141,41 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-    <Question>
-      <IndexPrefab>2</IndexPrefab>
+    
+     <Question>
+      <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>
-Назовите фильм по описанию:
-Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми. 
-Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
-мультяшное существо с озорным характером.
-      </Info>
-      <NoteFilm>-</NoteFilm>
-      <Director>Chuck Russell</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Info>Молодость какого персонажа показана в фильме Крестный отец 2?</Info>
+      <NoteFilm />
+      <Director>Coppola</Director>
+      <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Bruce Almighty</Info>
-          <TranslateInfo>Брюс Всемогущий</TranslateInfo>
+          <Info>Michael Corleone</Info>
+          <TranslateInfo>Майкл Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Mask</Info>
-          <TranslateInfo>Маска</TranslateInfo>
+          <Info>Vito Corleone</Info>
+          <TranslateInfo>Вито Корлеоне</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Liar Liar</Info>
-          <TranslateInfo>Лжец, лжец</TranslateInfo>
+          <Info>Sonny Corleone</Info>
+          <TranslateInfo>Сонни Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Who Framed Roger Rabbit</Info>
-          <TranslateInfo>Кто подставил кролика Роджера</TranslateInfo>
+          <Info>Frederico Corleone</Info>
+          <TranslateInfo>Фредерико Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>30</Timer>
-      <AddScore>40</AddScore>
+      <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -209,6 +209,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -244,9 +245,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -280,6 +282,7 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -313,6 +316,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>

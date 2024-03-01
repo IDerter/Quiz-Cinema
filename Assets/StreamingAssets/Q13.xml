@@ -37,9 +37,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -59,7 +60,7 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Star Wars: Episode II - Attack of the Clones</Info>
+          <Info>Star Wars Episode II - Attack of the Clones</Info>
           <TranslateInfo>Звёздные войны: Эпизод 2 – Атака клонов</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
@@ -73,6 +74,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -106,6 +108,7 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -139,6 +142,7 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -175,6 +179,7 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -208,44 +213,41 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+
     <Question>
-      <IndexPrefab>2</IndexPrefab>
+      <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>
-Угадай фильм по краткому описанию сюжета:
-Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга. 
-Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени. 
-Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
-      </Info>
-      <NoteFilm>-</NoteFilm>
-      <Director>Jackson</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Info>В каком году был основан первый кинотеатр?</Info>
+      <NoteFilm />
+      <Director>Lumiere brothers</Director>
+      <_cadrCinemaName>First film</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Iron Man</Info>
-          <TranslateInfo>Железный человек</TranslateInfo>
+          <Info>1915</Info>
+          <TranslateInfo>1915</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Doctor Dolittle</Info>
-          <TranslateInfo>Доктор Дулиттл</TranslateInfo>
+          <Info>1907</Info>
+          <TranslateInfo>1907</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Crash</Info>
-          <TranslateInfo>Автокатастрофа</TranslateInfo>
+          <Info>1904</Info>
+          <TranslateInfo>1904</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Doctor Strange</Info>
-          <TranslateInfo>Доктор Стрэндж</TranslateInfo>
+          <Info>1895</Info>
+          <TranslateInfo>1895</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>30</Timer>
-      <AddScore>50</AddScore>
+      <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -281,9 +283,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -317,6 +320,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>

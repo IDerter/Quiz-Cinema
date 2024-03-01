@@ -40,6 +40,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -73,6 +74,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -106,6 +108,7 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -139,6 +142,7 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -149,7 +153,7 @@
 По словам режиссера, красочные скафандры Guardians были вдохновлены скафандрами из фильма "2001: Космическая одиссея" (1968)
       </Info>
       <NoteFilm>-</NoteFilm>
-      <Director>Peter Weir</Director>
+      <Director>James Gunn</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -177,12 +181,13 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Выберите кадр из фильма Стражи Галактики 2</Info>
       <NoteFilm>-</NoteFilm>
-      <Director>James Gann</Director>
+      <Director>James Gunn</Director>
       <_cadrCinemaName>Guardians of the Galaxy Vol. 2</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -220,7 +225,7 @@
 Независимость и смелость Дерека вызывают восхищение у его младшего брата Дэнни, который уже тоже сделал свой выбор.
       </Info>
       <NoteFilm>-</NoteFilm>
-      <Director>-</Director>
+      <Director>Tony Kaye</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -248,6 +253,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -281,6 +287,7 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -314,6 +321,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>

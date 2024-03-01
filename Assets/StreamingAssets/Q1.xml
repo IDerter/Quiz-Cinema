@@ -4,8 +4,10 @@
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <Info>Выберите кадр из фильма Титаник</Info>
-      <NoteFilm>Американская эпическая романтическая драма и фильм-катастрофа, в котором показана гибель легендарного лайнера «Титаник».
-1997 г. - США</NoteFilm>
+      <NoteFilm>
+Американская эпическая романтическая драма и фильм-катастрофа, в котором показана гибель легендарного лайнера «Титаник».
+1997 г. - США
+      </NoteFilm>
       <Director>James Cameron</Director>
       <_cadrCinemaName>Titanic</_cadrCinemaName>
       <Answers>
@@ -35,13 +37,18 @@
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
-      <Info>Угадай фильм по цитате: 
+      <Info>
+Угадай фильм по цитате:
 — Тебе не кажется неправильным вешать женщину?
-— Пока не придумали курок, который они не могут спустить, если ты палач, будешь вешать и женщин.</Info>
-      <NoteFilm>Американский вестерн действие которого происходит вскоре после Гражданской войны в США.
-2015 г. - США </NoteFilm>
+— Пока не придумали курок, который они не могут спустить, если ты палач, будешь вешать и женщин.
+      </Info>
+      <NoteFilm>
+Американский вестерн действие которого происходит вскоре после Гражданской войны в США.
+2015 г. - США
+      </NoteFilm>
       <Director>Tarantino</Director>
       <_cadrCinemaName>The Hateful Eight</_cadrCinemaName>
       <Answers>
@@ -67,10 +74,285 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <GetAnswerType>Single</GetAnswerType>
       <AddScore>40</AddScore>
     </Question>
-
+    
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Выберите кадр из фильма Джанго освобожденный</Info>
+      <NoteFilm>Художественный фильм 2012 года режиссёра Квентина Тарантино в жанре спагетти-вестерн  </NoteFilm>
+      <Director>Tarantino</Director>
+      <_cadrCinemaName>django unchained</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Green mile</Info>
+          <TranslateInfo>Зеленая миля</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Django unchained</Info>
+          <TranslateInfo>Джанго Освобожденный</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Leon</Info>
+          <TranslateInfo>Леон</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Lord of the Rings The Fellowship of the ring</Info>
+          <TranslateInfo>Властелин колец: Братсво кольца</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Выберите кадр из фильма Остров проклятых</Info>
+      <NoteFilm>Американский детективный триллер режиссёра Мартина Скорсезе по одноимённому роману Денниса Лихэйна, вышедший 19 февраля 2010 года в США.</NoteFilm>
+      <Director>Scorsese</Director>
+      <_cadrCinemaName>Shutter Island</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Leon</Info>
+          <TranslateInfo>Леон</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Match Point</Info>
+          <TranslateInfo>Матч Поинт</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Knockin on Heavens Door</Info>
+          <TranslateInfo>Достучаться до небес</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Shutter Island</Info>
+          <TranslateInfo>Остров проклятых</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Выберите кадр из фильма Начало</Info>
+      <NoteFilm>Научно-фантастический триллер Кристофера Нолана, основанный на идее осознанных сновидений
+2010 г. - США
+      </NoteFilm>
+      <Director>Nolan</Director>
+      <_cadrCinemaName>Inception</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Once Upon a Time in Hollywood</Info>
+          <TranslateInfo>Однажды в Голливуде</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Inception</Info>
+          <TranslateInfo>Начало</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Harry Potter and the Deathly Hallows 2</Info>
+          <TranslateInfo>Гарри Поттер и Дары Смерти 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Annie Hall</Info>
+          <TranslateInfo>Энни Холл</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <Info>Выберите кадр из фильма Зеленая миля</Info>
+      <NoteFilm>Американский фэнтезийный драматический фильм 1999 года режиссёра и сценариста Фрэнка Дарабонта, основанный на одноимённом романе Стивена Кинга</NoteFilm>
+      <Director>Darabont</Director>
+      <_cadrCinemaName>Green mile</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Forrest Gump</Info>
+          <TranslateInfo>Форрест Гамп</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Back to the Future 1</Info>
+          <TranslateInfo>Назад в будущее 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Green mile</Info>
+          <TranslateInfo>Зеленая миля</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Shawshank Redemption</Info>
+          <TranslateInfo>Побег из Шоушенка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>Научно-фантастический фильм, снятый Кристофером Ноланом по сценарию, написанному в соавторстве с Джонатаном Ноланом
+2014 г. - США
+      </NoteFilm>
+      <Director>Nolan</Director>
+      <_cadrCinemaName>Interstellar</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Molly's Game</Info>
+          <TranslateInfo>Большая игра</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Interstellar</Info>
+          <TranslateInfo>Интерстеллар</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Tenet</Info>
+          <TranslateInfo>Довод</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Help</Info>
+          <TranslateInfo>Прислуга</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>Американский психологический триллер 1999 года режиссёра Дэвида Финчера по мотивам одноимённого романа Чака Паланика, вышедшего тремя годами ранее</NoteFilm>
+      <Director>Fincher</Director>
+      <_cadrCinemaName>Fight club</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>American History X</Info>
+          <TranslateInfo>Американская история Х</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Lock, Stock and Two Smoking Barrels</Info>
+          <TranslateInfo>Карты, деньги, два ствола</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Fight club</Info>
+          <TranslateInfo>Бойцовский клуб</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>One Flew Over the Cuckoo's Nest</Info>
+          <TranslateInfo>Пролетая над гнездом кукушки</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>Двое бандитов Винсент Вега и Джулс Винфилд проводят время в философских беседах в перерыве между разборками с должниками своего криминального босса</NoteFilm>
+      <Director>Tarantino</Director>
+      <_cadrCinemaName>Pulp Fiction</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Inglourious Basterds</Info>
+          <TranslateInfo>Бесславные ублюдки</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Pulp Fiction</Info>
+          <TranslateInfo>Криминальное чтиво</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Snatch</Info>
+          <TranslateInfo>Большой куш</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Once Upon a Time in... Hollywood</Info>
+          <TranslateInfo>Однажды в Голливуде</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <NoteFilm>Приключенческий фильм в жанре эпического фэнтези 2001 года режиссёра Питера Джексона,основанный на первой части романа «Властелин колец» Дж. Р. Р. Толкина «Братство Кольца»</NoteFilm>
+      <Director>Jackson</Director>
+      <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>The Lord of the Rings: The Fellowship of the Ring</Info>
+          <TranslateInfo>Властелин колец: Братство кольца</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Lord of the Rings: The Two Towers</Info>
+          <TranslateInfo>Властелин колец: Две крепости</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Lord of the Rings: The Return of the King</Info>
+          <TranslateInfo>Властелин колец: Возвращение короля</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</Info>
+          <TranslateInfo>Хроники Нарнии: Лев, колдунья и волшебный шкаф</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
   </Questions>
 </Data>

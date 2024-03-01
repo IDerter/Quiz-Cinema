@@ -14,6 +14,7 @@ namespace QuizCinema
     public class GameManager : MonoBehaviour, IDependency<QuestionMethods>, IDependency<Score>, IDependency<LvlData>, IDependency<TextMeshProUGUI>
     {
         public event Action<UIManager.ResolutionScreenType, int> UpdateDisplayScreenResolution;
+        public event Action OnFinishGame;
 
         public event Action OnCorrectAnswer;
         public event Action OnUnCorrectAnswer;
@@ -22,6 +23,8 @@ namespace QuizCinema
         [SerializeField] private QuestionMethods _questionMethods;
         [SerializeField] private Score _score;
         [SerializeField] private Animator _timerAnimator;
+        public Animator TimerAnimator { get { return _timerAnimator; } set { value = _timerAnimator; } }
+
         [SerializeField] private Animator _loadingScreenAnimator;
 
         [SerializeField] private TextMeshProUGUI _timerText;
@@ -34,8 +37,11 @@ namespace QuizCinema
 
         private int _loadingScreenStateParaHash = 0;
         private int _timerStateParaHash = 0;
+        public int GetTimerStateParaHash => _timerStateParaHash;
 
         private IEnumerator IE_StartTimer = null;
+        public IEnumerator GetStartTimer { get { return IE_StartTimer; } set { value = IE_StartTimer; } }
+
         private IEnumerator IE_WaitTillNextRound = null;
 
         private WWW www;
@@ -44,7 +50,10 @@ namespace QuizCinema
         public int CountCorrectAnswer { get { return _countCorrectAnswer; } set { _countCorrectAnswer = value; } }
         [SerializeField] private int _countCurrentAnswer = 1;
         public int CountCurrenttAnswer { get { return _countCurrentAnswer; } set { _countCurrentAnswer = value; } }
+
         #endregion
+        private bool _isActivateBoost50Percent = false;
+        public bool IsActivateBoost50Percent { get { return _isActivateBoost50Percent; } set { _isActivateBoost50Percent = value; } }
 
         public void Construct(QuestionMethods obj) 
         { 
@@ -122,7 +131,7 @@ namespace QuizCinema
             UpdateTimer(false); 
 
             bool isCorrect =_questionMethods.CheckAnswers();
-          
+            Debug.Log(isCorrect + " Правильный ответ!");
 
 
             if (isCorrect)
@@ -135,11 +144,19 @@ namespace QuizCinema
                 OnUnCorrectAnswer?.Invoke();
             }
 
-            _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);
+            //TODOне забудь заменить _currentIndexNotRandom обратно на CurrentIndexQuestion в этом скрипте и потом в QUESTUINMETHODS!!!
+            // !!! !!!!
+            //  _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);
 
-            _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore : -_questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
+            //  _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore : -_questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
 
-            if(IE_WaitTillNextRound != null)
+            _questionMethods.FinishedQuestions.Add(_questionMethods._currentIndexNotRandom);
+
+              _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore : -_questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
+
+
+
+            if (IE_WaitTillNextRound != null)
             {
                 StopCoroutine(IE_WaitTillNextRound);
             }
@@ -147,7 +164,7 @@ namespace QuizCinema
             AudioManager.Instance.PlaySound((isCorrect) ? "CorrectSFX" : "IncorrectSFX");
 
             var type = (isCorrect) ? UIManager.ResolutionScreenType.Correct : UIManager.ResolutionScreenType.Incorrect;
-            UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
+            UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
 
             // _timerAnimator.SetInteger(_timerStateParaHash, 1);
             //_timerAnimator.enabled = false;
@@ -171,13 +188,17 @@ namespace QuizCinema
             {
                 Debug.Log(_countCurrentAnswer + " текущее кол-во вопросов!");
 
+                OnFinishGame?.Invoke();
+
                 FinishGame();
+
                 var type = UIManager.ResolutionScreenType.Finish; 
-                UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
+                UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
             }
             
             //_questionMethods.Display(); //TODO
         }
+
 
         private void FinishGame()
         {
@@ -241,7 +262,7 @@ namespace QuizCinema
 
         IEnumerator StartTimer()
         {
-            var totalTime = _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].Timer;
+            var totalTime = _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].Timer;
             var timeLeft = totalTime;
             _timerText.color = _timerDefaultColor;
 
@@ -262,7 +283,9 @@ namespace QuizCinema
             yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
 
             UpdateTimer(false);
+            _questionMethods._currentIndexNotRandom++; // TODO потом убрать
             _questionMethods.Display();
+
         }
     }
 }

@@ -8,7 +8,7 @@ namespace QuizCinema
 {
     public class QuestionMethods : SingletonBase<QuestionMethods>
     {
-        public event Action<Question> UpdateQuestionUI;
+        public event Action<Question> OnUpdateQuestionUI;
         public event Action<List<AnswerData>> CurrentAnswerList;
 
         [SerializeField] private GameManager _gameManager;
@@ -27,6 +27,8 @@ namespace QuizCinema
         public int CurrentIndexQuestion { get { return _currentIndexQuestion; } set { _currentIndexQuestion = value; } }
         public bool IsFinished => _finishedQuestions.Count < _data.Questions.Length ? false : true;
         public int GetLengthQuestions => _data.Questions.Length;
+
+        public int _currentIndexNotRandom = 0;
         private void OnEnable()
         {
             AnswerData.UpdateQuestionAnswer += UpdateAnswers;
@@ -39,9 +41,14 @@ namespace QuizCinema
             ConfirmAnswer.OnAcceptAnswer -= UpdateAnswers;
         }
 
+        private void Start()
+        {
+            _currentIndexNotRandom = 0;
+        }
+
         public void UpdateAnswers(AnswerData newAnswer)
         {
-            if (_data.Questions[_currentIndexQuestion].GetAnswerType == AnswerType.Single)
+            if (_data.Questions[_currentIndexNotRandom].GetAnswerType == AnswerType.Single)
             {
                 foreach (var answer in _pickedAnswers.ToList())
                 {
@@ -69,7 +76,7 @@ namespace QuizCinema
                     Debug.Log("Add Multiply");
                     _pickedAnswers.Add(newAnswer);
                 }
-                if (_pickedAnswers.Count == _data.Questions[_currentIndexQuestion].GetCorrectAnswers().Count)
+                if (_pickedAnswers.Count == _data.Questions[_currentIndexNotRandom].GetCorrectAnswers().Count)
                 {
                     _gameManager.Accept();
                 }
@@ -87,9 +94,14 @@ namespace QuizCinema
         public Question GetRandomQuestion()
         {
             int randomIndex = GetRandomQuestionIndex();
-            _currentIndexQuestion = randomIndex;
+            _currentIndexNotRandom = randomIndex;
 
-            return _data.Questions[_currentIndexQuestion];
+            return _data.Questions[_currentIndexNotRandom];
+        }
+
+        public Question GetNotRandomQuestion(int index)
+        {
+            return _data.Questions[index];
         }
 
         public int GetRandomQuestionIndex()
@@ -100,7 +112,7 @@ namespace QuizCinema
                 do
                 {
                     random = UnityEngine.Random.Range(0, _data.Questions.Length);
-                } while (_finishedQuestions.Contains(random) || _currentIndexQuestion == random);
+                } while (_finishedQuestions.Contains(random) || _currentIndexNotRandom == random);
             }
             return random;
         }
@@ -118,7 +130,7 @@ namespace QuizCinema
         {
             if (_pickedAnswers.Count > 0)
             {
-                List<int> correctAnswersList = _data.Questions[_currentIndexQuestion].GetCorrectAnswers();
+                List<int> correctAnswersList = _data.Questions[_currentIndexNotRandom].GetCorrectAnswers();
                 List<int> pickedAnswersList = _pickedAnswers.Select(x => x.AnswerIndex).ToList();
 
                 var firstList = correctAnswersList.Except(pickedAnswersList).ToList();
@@ -132,9 +144,13 @@ namespace QuizCinema
         {
             EraseAnswers();
 
-            var question = GetRandomQuestion();
+            // var question = GetRandomQuestion();
+            var question = GetNotRandomQuestion(_currentIndexNotRandom);
 
-            UpdateQuestionUI?.Invoke(question);
+           // if (_finishedQuestions.Count < _data.Questions.Length)
+           //     _currentIndexNotRandom++;
+
+            OnUpdateQuestionUI?.Invoke(question);
 
             if (question.UseTimer)
             {

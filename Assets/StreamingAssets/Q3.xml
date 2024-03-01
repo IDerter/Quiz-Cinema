@@ -31,9 +31,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -64,9 +65,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -97,9 +99,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -130,9 +133,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -163,9 +167,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -196,42 +201,44 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+
     <Question>
-      <IndexPrefab>0</IndexPrefab>
+      <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Как зовут персонажа?</Info>
-      <NoteFilm />
-      <Director>James Cameron</Director>
-      <_cadrCinemaName>Terminator</_cadrCinemaName>
+      <Info>Выберите кадр из фильма Барби</Info>
+      <NoteFilm>-</NoteFilm>
+      <Director>Greta Gerwig</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>T-1800</Info>
-          <TranslateInfo>T-1800</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>T-1000</Info>
-          <TranslateInfo>T-1000</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>T-800</Info>
-          <TranslateInfo>T-800</TranslateInfo>
+          <Info>Barbie</Info>
+          <TranslateInfo>Барби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>T-2000</Info>
-          <TranslateInfo>T-2000</TranslateInfo>
+          <Info>Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)</Info>
+          <TranslateInfo>Хищные птицы: Потрясающая история Харли Квинн</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Babylon</Info>
+          <TranslateInfo>Вавилон</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Focus</Info>
+          <TranslateInfo>Фокус</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -262,9 +269,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -295,9 +303,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -328,7 +337,7 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
   </Questions>

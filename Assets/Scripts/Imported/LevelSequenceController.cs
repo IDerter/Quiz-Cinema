@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -65,14 +66,17 @@ namespace SpaceShooter
 
             Debug.Log(CurrentEpisode.Levels.Length + " " + CurrentLevel);
             //CalculateLevelStatistics();
+            var correctIndex = CurrentLevel - (int.Parse(CurrentEpisode.EpisodeName.Substring(CurrentEpisode.EpisodeName.Length - 1)) - 1) * CurrentEpisode.Levels.Length;
+            Debug.Log(correctIndex + " " + int.Parse(CurrentEpisode.EpisodeName.Substring(CurrentEpisode.EpisodeName.Length - 1)));
 
-            if (CurrentEpisode.Levels.Length <= CurrentLevel)
+            if (CurrentEpisode.Levels.Length * int.Parse(CurrentEpisode.EpisodeName.Substring(CurrentEpisode.EpisodeName.Length - 1))  <= CurrentLevel) // ÍÀÄÎ ÐÅØÈÒÜ ÂÎÏÐÎÑ ÓÌÍÎÆÀÒÜ ÍÓÆÍÎ ÍÀ 3
             {
+                Debug.Log(CurrentEpisode.Levels.Length * int.Parse(CurrentEpisode.EpisodeName.Substring(CurrentEpisode.EpisodeName.Length - 1)));
                 SceneManager.LoadScene(_mapMenuSceneNickname);
             }
             else
             {
-                SceneManager.LoadScene(CurrentEpisode.Levels[CurrentLevel]);
+                SceneManager.LoadScene(CurrentEpisode.Levels[correctIndex]);
             }
         }
 

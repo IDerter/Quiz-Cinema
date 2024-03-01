@@ -4,41 +4,37 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>
-Назовите фильм цитате главного героя, где ИКС - это замена фамилии персонажа:
-Леонардо ДиКаприо хотел сыграть ИКС, потому что ему понравилась «идея человека, который был абсолютно ничем, и создал себя, отталкиваясь только от собственного воображения». 
-«ИКС — один из знаковых персонажей, потому что он может быть интерпретирован по-разному: 
-безнадежный романтик, одержимый сумасшедший или опасный гангстер, цепляющийся за богатство» — говорит ДиКаприо.
-      </Info>
-      <NoteFilm>-</NoteFilm>
-      <Director>Baz Luhrmann</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Info>Плакат с какой актрисой висел в камере Энди Дифрейна, героя "Побега из Шоушенка"?</Info>
+      <NoteFilm />
+      <Director>Darabont</Director>
+      <_cadrCinemaName>The Shawshank Redemption</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>The Revenant</Info>
-          <TranslateInfo>Выживший</TranslateInfo>
+          <Info>Marilyn Monroe</Info>
+          <TranslateInfo>Мэрилин Монро</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Great Gatsby</Info>
-          <TranslateInfo>Великий Гэтсби</TranslateInfo>
+          <Info>Ingrid Bergman</Info>
+          <TranslateInfo>Ингрид Бергман</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Rita Hayworth</Info>
+          <TranslateInfo>Рита Хейворт</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Catch Me If You Can</Info>
-          <TranslateInfo>Поймай меня, если сможешь</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>The Wolf of Wall Street</Info>
-          <TranslateInfo>Волк с Уолл-стрит</TranslateInfo>
+          <Info>Loretta Young</Info>
+          <TranslateInfo>Лоретта Янг</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -72,6 +68,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -105,6 +102,7 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -138,69 +136,33 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
+
     <Question>
       <IndexPrefab>2</IndexPrefab>
-      <_answerType>Single</_answerType>
-      <Info>
-Назовите фильм по описанию:
-История получеловека-полуатланта Артура Карри, которому предстоит выяснить, 
-достоин ли он быть тем, кем ему суждено по рождению — царём подводного мира.
-      </Info>
-      <NoteFilm>-</NoteFilm>
-      <Director>James Wan</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_answerType>Multiply</_answerType>
+      <Info>Выберите всех актеров игравших Вито Корлеоне</Info>
+      <NoteFilm> </NoteFilm>
+      <Director>Francis Ford Coppola</Director>
+      <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
-          <Info>Aquaman</Info>
-          <TranslateInfo>Аквамен</TranslateInfo>
+          <Info>Marlon Brando</Info>
+          <TranslateInfo>Марлон Брандо</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Titanic</Info>
-          <TranslateInfo>Титаник</TranslateInfo>
+          <Info>Al Pacino</Info>
+          <TranslateInfo>Аль Пачино</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>The Shape of Water</Info>
-          <TranslateInfo>Форма воды</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Avatar: The Way of Water</Info>
-          <TranslateInfo>Аватар: Путь воды</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
-      <AddScore>40</AddScore>
-    </Question>
-    <Question>
-      <IndexPrefab>3</IndexPrefab>
-      <_answerType>Single</_answerType>
-      <Info>Выберите кадр из фильма Барби</Info>
-      <NoteFilm>-</NoteFilm>
-      <Director>Greta Gerwig</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
-      <Answers>
-        <Answer>
-          <Info>Barbie</Info>
-          <TranslateInfo>Барби</TranslateInfo>
+          <Info>Robert De Niro</Info>
+          <TranslateInfo>Роберт Де Ниро</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)</Info>
-          <TranslateInfo>Хищные птицы: Потрясающая история Харли Квинн</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Babylon</Info>
-          <TranslateInfo>Вавилон</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Focus</Info>
-          <TranslateInfo>Фокус</TranslateInfo>
+          <Info>Clint Eastwood</Info>
+          <TranslateInfo>Клинт Иствуд</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -208,6 +170,41 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+      
+      <Question>
+        <IndexPrefab>0</IndexPrefab>
+        <_answerType>Single</_answerType>
+        <Info>Как зовут персонажа?</Info>
+        <NoteFilm />
+        <Director>James Cameron</Director>
+        <_cadrCinemaName>Terminator</_cadrCinemaName>
+        <Answers>
+          <Answer>
+            <Info>T-1800</Info>
+            <TranslateInfo>T-1800</TranslateInfo>
+            <IsCorrect>false</IsCorrect>
+          </Answer>
+          <Answer>
+            <Info>T-1000</Info>
+            <TranslateInfo>T-1000</TranslateInfo>
+            <IsCorrect>false</IsCorrect>
+          </Answer>
+          <Answer>
+            <Info>T-800</Info>
+            <TranslateInfo>T-800</TranslateInfo>
+            <IsCorrect>true</IsCorrect>
+          </Answer>
+          <Answer>
+            <Info>T-2000</Info>
+            <TranslateInfo>T-2000</TranslateInfo>
+            <IsCorrect>false</IsCorrect>
+          </Answer>
+        </Answers>
+        <UseTimer>true</UseTimer>
+        <Timer>30</Timer>
+        <AddScore>50</AddScore>
+      </Question>
+      
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -243,9 +240,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+      
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -279,9 +277,10 @@
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
-      <Timer>30</Timer>
+      <Timer>60</Timer>
       <AddScore>40</AddScore>
     </Question>
+      
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -315,6 +314,7 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+      
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
