@@ -5,7 +5,7 @@
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>В какой год переместились герои фильма?</Info>
-      <NoteFilm />
+      <NoteFilm>В фильме «Назад в будущее 2» героям Марти Макфлаю и его подруге Дженнифер необходимо отправиться в 2015 год, чтобы спасти своих будущих детей.</NoteFilm>
       <Director>Zemekis</Director>
       <_cadrCinemaName>Back to the Future 2</_cadrCinemaName>
       <Answers>
@@ -44,7 +44,8 @@
 Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
 мультяшное существо с озорным характером.
       </Info>
-      <NoteFilm>-</NoteFilm>
+      <NoteFilm>Комедия с Джимом Керри в главной роли, снятая по мотивам одноимённой серии комиксов издательства Dark Horse.
+1994 г. - США</NoteFilm>
       <Director>Chuck Russell</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
@@ -78,9 +79,9 @@
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Сколько людей входило в отряд братства кольца?</Info>
-      <NoteFilm />
+      <NoteFilm>Приключенческий фильм 2001 года Питера Джексона, основанный на первой части романа «Властелин колец» Дж. Р. Р. Толкина «Братство Кольца».</NoteFilm>
       <Director>Jackson</Director>
-      <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
+      <_cadrCinemaName>Lord of the Rings: The Fellowship of the ring</_cadrCinemaName>
       <Answers>
         <Answer>
           <Info>2</Info>
@@ -112,7 +113,7 @@
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Постер из какого фильма перед вами?</Info>
-      <NoteFilm />
+      <NoteFilm>Психологический триллер 1991 года режиссёра Джонатана Демми о серийном убийце Ганнибале Лектере.</NoteFilm>
       <Director>Jonathan Demme</Director>
       <_cadrCinemaName>The Silence of the Lambs Poster</_cadrCinemaName>
       <Answers>
@@ -145,8 +146,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Семейная комедия о приключениях медвежонка Паддингтона в Великобритании.
+2014 г. - Великобритания</NoteFilm>
       <Director>Paul King</Director>
       <_cadrCinemaName>Paddington 1</_cadrCinemaName>
       <Answers>
@@ -157,7 +159,7 @@
         </Answer>
         <Answer>
           <Info>Paddington</Info>
-          <TranslateInfo>Приключение Паддингтона</TranslateInfo>
+          <TranslateInfo>Приключения Паддингтона</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
@@ -180,7 +182,8 @@
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Выберите кадр из фильма Укрощение строптивого</Info>
-      <NoteFilm />
+      <NoteFilm>Итальянская романтическая комедия с Адриано Челентано и Орнеллой Мути.
+1980 г. - Италия</NoteFilm>
       <Director>Castellano  Pipolo</Director>
       <_cadrCinemaName>The Taming of the Scoundrel</_cadrCinemaName>
       <Answers>
@@ -214,7 +217,8 @@
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <Info>Выберите фильмы с участие Леонардо ДиКаприо</Info>
-      <NoteFilm />
+      <NoteFilm>Дневники баскетболиста. 1995 г. Режиссёр - Скотт Калверт.
+Великий Гэтсби. 2013 г. Режиссёр - Баз Лурман.</NoteFilm>
       <Director>Leonardo DiCaprio</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
@@ -235,7 +239,7 @@
         </Answer>
         <Answer>
           <Info>The Basketball Diaries</Info>
-          <TranslateInfo>Дневник Баскетболиста</TranslateInfo>
+          <TranslateInfo>Дневники Баскетболиста</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -247,12 +251,13 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>По словам одного актера Кристиан Бейл для роли в этом фильме сбросил больше 30 кг.
+      <Info>По словам одного актёра Кристиан Бейл для роли в этом фильме сбросил больше 30 кг.
 Перед этим Бейл набрал вес для роли в фильме Адама Маккея «Власть», и на то, чтобы его сбросить, у актёра было порядка семи месяцев.
 Когда же друг актера спросил у Бейла, как ему это удалось, тот ответил, что просто перестал есть. 
 Также Кристиан брал уроки вождения в специализированной автошколе бывшего гонщика Боба Бондюрана.
 Как называется этот фильм?</Info>
-      <NoteFilm />
+      <NoteFilm>Биографическая драма о противостоянии в мире гоночного спорта. В центре сюжета - гонка «Ле-Ман'66».
+2019 г. - США</NoteFilm>
       <Director>James Mangold</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
@@ -286,7 +291,7 @@
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Выберите кадр из фильма Железный Человек</Info>
-      <NoteFilm />
+      <NoteFilm>Супергеройский фильм 2008 года по мотивам комиксов Marvel о приключениях супергероя Железного человека с Робертом Дауни-младшим в главной роли.</NoteFilm>
       <Director>Jon Favreau</Director>
       <_cadrCinemaName>Iron Man</_cadrCinemaName>
       <Answers>
@@ -320,7 +325,8 @@
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Выберите кадр из фильма Загадочная история Бенджамина Баттона </Info>
-      <NoteFilm />
+      <NoteFilm>Бенджамин Баттон живёт свою жизнь задом наперёд, постепенно раскрывая загадку своего необычного существования.
+	  2008 г. - США</NoteFilm>
       <Director>Fincher</Director>
       <_cadrCinemaName>The Curious Case of Benjamin Button</_cadrCinemaName>
       <Answers>
@@ -336,7 +342,8 @@
         </Answer>
         <Answer>
           <Info>The Curious Case of Benjamin Button</Info>
-          <TranslateInfo>Загадочная история Бенджамина Баттона </TranslateInfo>
+          <TranslateInfo>
+Загадочная история Бенджамина Баттона </TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>

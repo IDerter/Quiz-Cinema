@@ -4,8 +4,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру </Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру </Info>
+      <NoteFilm>Смертельно больные Мартин и Руди, надеясь исполнить свои последние желания, едут к морю на угнанной машине.
+1997г. - Германия </NoteFilm>
       <Director>Thomas Jahn</Director>
       <_cadrCinemaName>Knockin on Heavens Door</_cadrCinemaName>
       <Answers>
@@ -38,8 +39,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Четверо друзей планируют ограбление бриллиантов, но всё идет не по плану.
+Фильм Гая Ричи 2000 года.</NoteFilm>
       <Director>Guy Ritchie</Director>
       <_cadrCinemaName>Snatch</_cadrCinemaName>
       <Answers>
@@ -72,8 +74,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Художественный фильм на основе одноимённой серии компьютерных игр и книг. 
+2016 г. - США</NoteFilm>
       <Director>Dunkan Jones</Director>
       <_cadrCinemaName>Warcraft</_cadrCinemaName>
       <Answers>
@@ -106,8 +109,8 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Художественный фильм, основанный на реальной истории пса по имени Хатико, который в течение 9 лет ждал возвращения хозяина.</NoteFilm>
       <Director>Lasse Hallstrom</Director>
       <_cadrCinemaName>Hachi A Dog's Tale</_cadrCinemaName>
       <Answers>
@@ -140,8 +143,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Фильм ужасов на основе одноимённого романа американского писателя Стивена Кинга.
+2017 г. США</NoteFilm>
       <Director>Andres Muschietti</Director>
       <_cadrCinemaName>It</_cadrCinemaName>
       <Answers>
@@ -174,14 +178,15 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>
+Первый фильм из серии «Пираты Карибского моря», поставленный режиссёром Гором Вербински в 2003 году.</NoteFilm>
       <Director>Gor Verbinski</Director>
       <_cadrCinemaName>Pirates of the Caribbean The Curse of The Black Pearl</_cadrCinemaName>
       <Answers>
         <Answer>
           <Info>Pirates of the Caribbean The Curse of The Black Pearl</Info>
-          <TranslateInfo>Пираты Карибского моря: Проклятие Черной жемчужины</TranslateInfo>
+          <TranslateInfo>Пираты Карибского моря: Проклятие Чёрной жемчужины</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
@@ -209,7 +214,7 @@
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Выберите кадр из фильма Барби</Info>
-      <NoteFilm>-</NoteFilm>
+      <NoteFilm>Фильм Греты Гервиг 2023 года о приключениях куклы Барби в реальном мире.</NoteFilm>
       <Director>Greta Gerwig</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
@@ -242,8 +247,8 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Эпический исторический фильм Ридли Скотта о гладиаторе времён Римской Империи, который борется за свою свободу.</NoteFilm>
       <Director>Ridley Scott</Director>
       <_cadrCinemaName>Gladiator</_cadrCinemaName>
       <Answers>
@@ -276,8 +281,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Тяжелораненый охотник брошен своим отрядом в глуши посреди земель американского Дикого Запада XIX века.
+Фильм Алехандро Иньяритту 2015 года.</NoteFilm>
       <Director>Alejandro Gonzalez Iñarritu</Director>
       <_cadrCinemaName>The Revenant</_cadrCinemaName>
       <Answers>
@@ -310,8 +316,8 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm />
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Семейная рождественская комедия о маленьком, но самостоятельном мальчике, забытом родителями дома в канун Рождества.</NoteFilm>
       <Director>Chris Columbus</Director>
       <_cadrCinemaName>Home-Alone-1</_cadrCinemaName>
       <Answers>
