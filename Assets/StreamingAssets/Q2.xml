@@ -4,9 +4,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
+      <Info>Угадайте фильм по кадру</Info>
       <NoteFilm>Сюжет картины завязан на ограблении,
-после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
+после которого преступники собираются на заброшенном складе на окраине города и пытаются выяснить, кто их подставил.
 1992 г. - США</NoteFilm>
       <Director>Tarantino</Director>
       <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
@@ -40,10 +40,8 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm>Действие фильма происходит в 1969 году в Лос-Анджелесе, где бывшая звезда ТВ-вестернов Рик Далтон и его дублер
-Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии
-2019 г. - США</NoteFilm>
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Лос-Анджелес, 1969 год. Бывшая звезда ТВ-вестернов Рик Далтон и его дублёр пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</NoteFilm>
       <Director>Tarantino</Director>
       <_cadrCinemaName>Once Upon a Time in Hollywood</_cadrCinemaName>
       <Answers>
@@ -76,8 +74,8 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm>-</NoteFilm>
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Научно-фантастический фильм об участнике марсианской миссии Марке Уотни, который должен выжить на планете Марс до прибытия спасательной миссии. </NoteFilm>
       <Director>Ridley Scott</Director>
       <_cadrCinemaName>The Martian</_cadrCinemaName>
       <Answers>
@@ -111,7 +109,7 @@
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <Info>Выберите кадр из фильма Дэдпул 1</Info>
-      <NoteFilm>-</NoteFilm>
+      <NoteFilm>Комедийный супергеройский фильм с Райаном Рейнольдсом в главной роли, снятый режиссёром Тимом Миллером на основе комиксов издательства Marvel о персонаже Дэдпуле.</NoteFilm>
       <Director>George Lucas</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
@@ -144,9 +142,8 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm>Киборги сходятся в напряженной схватке за жизнь подростка, от которого зависит судьба человечества. Культовый научно-фантастический боевик Джеймса Кэмерона получил 4 премии «Оскар»
-1991 г. - США</NoteFilm>
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Киборги сходятся в напряженной схватке за жизнь подростка, от которого зависит судьба человечества. Культовый научно-фантастический боевик Джеймса Кэмерона, получивший 4 премии «Оскар».</NoteFilm>
       <Director>James Cameron</Director>
       <_cadrCinemaName>Terminator 2 Judgment Day</_cadrCinemaName>
       <Answers>
@@ -179,9 +176,8 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm>Подросток Марти с помощью машины времени, сооруженной его другом профессором доком Брауном, попадает из 80-х в далекие 50-е.
-Там он встречается со своими будущими родителями, еще подростками, и другом-профессором, совсем молодым.
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Подросток Марти меняет ход истории своей семьи, попав в прошлое с помощью машины времени, изобретённой его другом - профессором доком Брауном.
 1985 г. - США </NoteFilm>
       <Director>Zemekis</Director>
       <_cadrCinemaName>Back to the Future 1</_cadrCinemaName>
@@ -220,7 +216,8 @@
 История получеловека-полуатланта Артура Карри, которому предстоит выяснить,
 достоин ли он быть тем, кем ему суждено по рождению — царём подводного мира.
       </Info>
-      <NoteFilm>-</NoteFilm>
+      <NoteFilm>Супергеройский фильм режиссёра Джеймса Вана на основе вселенной комиксов DC.
+2018 г. - США</NoteFilm>
       <Director>James Wan</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
@@ -253,10 +250,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm>Главный герой — профессиональный убийца Леон, живёт уединённой жизнью в Маленькой Италии, районе Нью-Йорка. 
-Однажды он встречает живущую по соседству Матильду Ландо, девочку-подростка.
-1994 г. - Франция</NoteFilm>
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Главный герой, профессиональный убийца Леон, живёт уединённой жизнью. 
+Однажды он встречает живущую по соседству Матильду Ландо, девочку-подростка.</NoteFilm>
       <Director>Besson</Director>
       <_cadrCinemaName>Leon</_cadrCinemaName>
       <Answers>
@@ -289,15 +285,14 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm>Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.
-2008 г. - США</NoteFilm>
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.</NoteFilm>
       <Director>Nolan</Director>
       <_cadrCinemaName>The Dark Knight</_cadrCinemaName>
       <Answers>
         <Answer>
           <Info>The Dark Knight</Info>
-          <TranslateInfo>Темный рыцарь</TranslateInfo>
+          <TranslateInfo>Тёмный рыцарь</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
@@ -324,9 +319,9 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
-      <Info>Угадай фильм по кадру</Info>
-      <NoteFilm>«Третий лишний» — американская комедия Сета Макфарлейна (его полнометражный дебют), в главных ролях Марк Уолберг и Мила Кунис.
-Мировая премьера состоялась 29 июня 2012 года.</NoteFilm>
+      <Info>Угадайте фильм по кадру</Info>
+      <NoteFilm>Комедия Сета Макфарлейна с Марком Уолбергом и Милой Кунис в главных ролях.
+2012 г. - США</NoteFilm>
       <Director>Seth MacFarlane</Director>
       <_cadrCinemaName>Ted</_cadrCinemaName>
       <Answers>
