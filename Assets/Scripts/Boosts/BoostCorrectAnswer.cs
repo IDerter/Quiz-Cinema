@@ -53,12 +53,5 @@ namespace QuizCinema
             SwitchInteractable(false, _buttonBoost);
         }
 
-        protected override void SwitchInteractable(bool value, GameObject buttonGameobject)
-        {
-            if (buttonGameobject.TryGetComponent<Button>(out Button button))
-            {
-                button.interactable = value;
-            }
-        }
     }
 }
