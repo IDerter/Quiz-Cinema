@@ -35,7 +35,7 @@ namespace TowerDefense
         [SerializeField] private int _totalStars;
         public int TotalStars => _totalStars;
         [SerializeField] private int _totalScoreLvls;
-        public int TotalScoreLvls => _totalScoreLvls;
+        public int TotalScoreLvls { get { return _totalScoreLvls; } set { _totalScoreLvls = value; } }
         
 
         private new void Awake()

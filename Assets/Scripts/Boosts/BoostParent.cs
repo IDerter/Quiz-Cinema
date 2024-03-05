@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace QuizCinema
 {
@@ -28,6 +29,12 @@ namespace QuizCinema
         protected virtual void OnCreateAnswers(Question obj) { }
 
 
-        protected virtual void SwitchInteractable(bool value, GameObject buttonGameobject) { }
+        protected virtual void SwitchInteractable(bool value, GameObject buttonGameobject) 
+        {
+            if (buttonGameobject.TryGetComponent<Button>(out Button button))
+            {
+                button.interactable = value;
+            }
+        }
     }
 }
