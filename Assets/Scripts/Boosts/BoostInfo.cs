@@ -14,27 +14,36 @@ namespace QuizCinema
         {
             _panelInfoBoost.SetActive(false);
 
+            if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
+            {
+                _boostSO = boost.GetBoostSO;
+            }
+
            _currentQuestion = question;
             Debug.Log("ЗАХОДИМ В ONCREATEANSWERS В BOOSTInfo!");
             _buttonBoost.SetActive(true);
-            SwitchInteractable(true, _buttonBoost);
+            //SwitchInteractable(true, _buttonBoost);
         }
 
-        public void ShowQuestionInfo()
+        public override void ActivateBoost()
         {
+            base.ActivateBoost();
+            Debug.Log("Активируем буст INFO");
+
+
             _panelInfoBoost.SetActive(true);
             var e = _panelInfoBoost.GetComponentInChildren<TextMeshProUGUI>();
-            if (e.TryGetComponent<TextMeshProUGUI>(out var text)) {
+            if (e.TryGetComponent<TextMeshProUGUI>(out var text))
+            {
                 e.text = _currentQuestion.NoteFilm.ToString();
             }
             Debug.Log(_currentQuestion.NoteFilm.ToString());
             SwitchInteractable(false, _buttonBoost);
 
-            //  if( _panelInfoBoost.GetComponentInChildren<TextMeshProUGUI>().TryGetComponent(out TextMeshProUGUI text))
-            //   {
-            //      text.text = _currentQuestion.NoteFilm.ToString();
-            //  }
+            BoostsManager.UseBoost(_boostSO);
         }
+
+       
 
         public void CloseQuestionInfo()
         {

@@ -14,10 +14,12 @@ namespace TowerDefense
 
         private const string _sceneLevelMap = "LevelMap";
         private const string _sceneMainMenu = "MainMenu";
+        private const string _sceneMagazine = "Magazine";
 
         private void Start()
         {
-            _buttonContinue.interactable = FileHandler.HasFile(MapCompletion.Instance.FileName);
+            if (_buttonContinue != null)
+               _buttonContinue.interactable = FileHandler.HasFile(MapCompletion.Instance.FileName);
         }
 
 
@@ -40,6 +42,16 @@ namespace TowerDefense
         public void Continue()
         {
             SceneManager.LoadScene(_sceneLevelMap);
+        }
+
+        public void OpenSceneMagazine()
+        {
+            SceneManager.LoadScene(_sceneMagazine);
+        }
+
+        public void OpenMainMenu()
+        {
+            SceneManager.LoadScene(_sceneMainMenu);
         }
 
         public void Quit()

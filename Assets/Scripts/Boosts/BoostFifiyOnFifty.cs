@@ -12,9 +12,14 @@ namespace QuizCinema {
 
         protected override void OnCreateAnswers(Question question)
         {
+            if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
+            {
+                _boostSO = boost.GetBoostSO;
+            }
+
             _currentQuestion = question;
 
-            SwitchInteractable(true, _buttonBoost);
+           // SwitchInteractable(true, _buttonBoost);
 
             if (_currentQuestion.IndexPrefab == 3 || _currentQuestion.GetAnswerType == AnswerType.Multiply)
             {
@@ -26,8 +31,10 @@ namespace QuizCinema {
             }
         }
 
-        public void RemoveHalfAnswers()
+        public override void ActivateBoost()
         {
+            base.ActivateBoost();
+
             var currentAnswer = AnswersMethods.Instance.GetCurrentAnswerList;
 
             var listIndexCorrectAnswer = _currentQuestion.GetCorrectAnswers();
@@ -43,11 +50,11 @@ namespace QuizCinema {
                         currentAnswerIndex++;
                     }
                 }
-               
+
             }
 
             SwitchInteractable(false, _buttonBoost);
+            BoostsManager.UseBoost(_boostSO);
         }
-
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,14 +13,21 @@ namespace QuizCinema
 
         protected override void OnCreateAnswers(Question question)
         {
+            if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
+            {
+                _boostSO = boost.GetBoostSO;
+            }
+
             _currentQuestion = question;
 
             _buttonBoost.SetActive(true);
-            SwitchInteractable(true, _buttonBoost);
+           // SwitchInteractable(true, _buttonBoost);
         }
 
-        public void ShowCorrectAnswer()
+        public override void ActivateBoost()
         {
+            base.ActivateBoost();
+
             var currentAnswer = AnswersMethods.Instance.GetCurrentAnswerList;
 
             var listIndexCorrectAnswer = _currentQuestion.GetCorrectAnswers();
@@ -42,7 +50,7 @@ namespace QuizCinema
 
                 if (_currentQuestion.GetAnswerType == AnswerType.Multiply)
                 {
-                    if ((listIndexCorrectAnswer[0] == i  || listIndexCorrectAnswer[1] == i) && _currentQuestion.IndexPrefab != 3)
+                    if ((listIndexCorrectAnswer[0] == i || listIndexCorrectAnswer[1] == i) && _currentQuestion.IndexPrefab != 3)
                     {
                         currentAnswer[i].UpdateUI(true);
                         Debug.Log("Multiply");
@@ -51,7 +59,7 @@ namespace QuizCinema
             }
 
             SwitchInteractable(false, _buttonBoost);
+            BoostsManager.UseBoost(_boostSO);
         }
-
     }
 }
