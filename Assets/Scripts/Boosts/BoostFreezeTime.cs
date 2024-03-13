@@ -17,13 +17,20 @@ namespace QuizCinema
 
         protected override void OnCreateAnswers(Question question)
         {
+            if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
+            {
+                _boostSO = boost.GetBoostSO;
+            }
+
             _buttonBoost.SetActive(true);
-            SwitchInteractable(true, _buttonBoost);
+            //SwitchInteractable(true, _buttonBoost);
             Debug.Log("ÇÀÕÎÄÈÌ Â ONCREATEANSWERS Â BOOSTFREEZE!");
         }
 
-        public void ApplyFreezeTime()
+        public override void ActivateBoost()
         {
+            base.ActivateBoost();
+
             _gameManager.StopCoroutine(_gameManager.GetStartTimer);
 
             SwitchInteractable(false, _buttonBoost);
@@ -31,6 +38,7 @@ namespace QuizCinema
             _buttonPress = true;
 
             StartCoroutine(StartFreezeTime());
+            BoostsManager.UseBoost(_boostSO);
         }
 
         IEnumerator StartFreezeTime()

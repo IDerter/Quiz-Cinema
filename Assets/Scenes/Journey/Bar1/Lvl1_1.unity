@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 271807103, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 4462214292053662314}
+    - target: {fileID: 412482337, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 4462214292053662314}
     - target: {fileID: 4149649758060230444, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -174,9 +182,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4462214292053662321, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 4462214292053662314}
+    - target: {fileID: 4462214292053662322, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 4462214292053662314}
+    - target: {fileID: 4462214292053662323, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 4462214292053662314}
+    - target: {fileID: 4462214292053662325, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 4462214292053662314}
+    - target: {fileID: 4462214292053662327, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 4462214292053662314}
     - target: {fileID: 8876940638087169836, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
       propertyPath: m_Name
       value: AllLvl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+--- !u!114 &4462214292053662314 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1896487114, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
+  m_PrefabInstance: {fileID: 4462214292053662313}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8419bfc116c7bbc4db0e59429bc2071e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

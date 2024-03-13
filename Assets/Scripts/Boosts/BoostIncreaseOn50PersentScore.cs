@@ -30,21 +30,28 @@ namespace QuizCinema
 
         protected override void OnCreateAnswers(Question question)
         {
+            if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
+            {
+                _boostSO = boost.GetBoostSO;
+            }
+
             if (_buttonPress == false)
             {
                 _buttonBoost.SetActive(true);
-                SwitchInteractable(true, _buttonBoost);
+              //  SwitchInteractable(true, _buttonBoost);
                 Debug.Log("ÇÀÕÎÄÈÌ Â ONCREATEANSWERS Â BOOSTFREEZE!");
             }
         }
 
-        public void ApplyInscreaseScore50Percent()
+        public override void ActivateBoost()
         {
+            base.ActivateBoost();
+
             _buttonPress = true;
 
             _gameManager.IsActivateBoost50Percent = true;
             SwitchInteractable(false, _buttonBoost);
-
+            BoostsManager.UseBoost(_boostSO);
         }
     }
 }

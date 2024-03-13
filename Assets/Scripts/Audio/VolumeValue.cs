@@ -9,10 +9,14 @@ namespace QuizCinema
     public class VolumeValue : MonoBehaviour
     {
         [SerializeField] private AudioMixerGroup _audioMixerGroup;
+        [SerializeField] private AudioMixerGroup _SFXAudioMixer;
+        [SerializeField] private AudioMixerGroup _musicAudioMixer;
+
 
         [SerializeField] private Toggle _toogleMusic;
         [SerializeField] private Toggle _toogleSFX;
         [SerializeField] private Slider _silderMasterVolume;
+        [SerializeField] private Slider _silderMusicVolume;
 
         private float minVolumeValue = -80f;
         private float maxVolumeValue = 0f;
@@ -20,10 +24,11 @@ namespace QuizCinema
         private void Start()
         {
             Debug.Log("Load volume data");
-            _toogleMusic.isOn = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
+           // _toogleMusic.isOn = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
             _toogleSFX.isOn = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
 
             _silderMasterVolume.value = PlayerPrefs.GetFloat("MasterVolumeSave", 1);
+            _silderMusicVolume.value = PlayerPrefs.GetFloat("MusicVolumeSave", 1);
         }
 
         private void OnEnable()
@@ -36,7 +41,7 @@ namespace QuizCinema
             Time.timeScale = 1;
         }
 
-        public void ToogleMusic(bool enabled)
+      /*  public void ToogleMusic(bool enabled)
         {
             if (enabled)
             {
@@ -49,6 +54,7 @@ namespace QuizCinema
 
             PlayerPrefs.SetInt("MusicEnabled", enabled ? 1 : 0);
         }
+      */
 
         public void ToogleSFX(bool enabled)
         {
@@ -62,6 +68,13 @@ namespace QuizCinema
             }
 
             PlayerPrefs.SetInt("SFXEnabled", enabled ? 1 : 0);
+        }
+
+        public void SliderMusic(float volume)
+        {
+            _musicAudioMixer.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, volume));
+
+            PlayerPrefs.SetFloat("MusicVolumeSave", volume);
         }
 
         public void ChangeVolume(float volume)

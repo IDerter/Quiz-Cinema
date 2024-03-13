@@ -8,13 +8,18 @@ namespace QuizCinema
 {
     public abstract class BoostParent : MonoBehaviour
     {
+        public static event Action OnActivateBoost;
+
         [SerializeField] protected GameManager _gameManager;
         [SerializeField] protected AnswersMethods _answersMethods;
 
         [SerializeField] protected GameObject _buttonBoost;
 
+        protected BoostSO _boostSO;
+
         protected bool _buttonPress = false;
         public bool ButtonPress { get { return _buttonPress; } set { _buttonPress = value; } }
+
 
         private void OnEnable()
         {
@@ -26,7 +31,14 @@ namespace QuizCinema
             _answersMethods.OnCreateAnswers -= OnCreateAnswers;
         }
 
-        protected virtual void OnCreateAnswers(Question obj) { }
+        protected virtual void OnCreateAnswers(Question obj) 
+        {
+        }
+
+        public virtual void ActivateBoost() 
+        {
+            OnActivateBoost?.Invoke();
+        }
 
 
         protected virtual void SwitchInteractable(bool value, GameObject buttonGameobject) 

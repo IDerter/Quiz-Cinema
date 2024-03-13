@@ -3,11 +3,14 @@ using UnityEngine;
 using SpaceShooter;
 using System;
 using QuizCinema;
+using UnityEngine.Events;
 
 namespace TowerDefense
 {
     public class MapCompletion : SingletonBase<MapCompletion>
     {
+        public static event Action OnScoreUpdate;
+
         private const string _fileName = "savelvls.dat";
         public string FileName => _fileName;
 
@@ -36,7 +39,10 @@ namespace TowerDefense
         public int TotalStars => _totalStars;
         [SerializeField] private int _totalScoreLvls;
         public int TotalScoreLvls { get { return _totalScoreLvls; } set { _totalScoreLvls = value; } }
-        
+
+        [SerializeField] private int _moneyShop;
+        public int MoneyShop { get { return _moneyShop; } set { _moneyShop = value; } }
+
 
         private new void Awake()
         {
@@ -62,6 +68,8 @@ namespace TowerDefense
             {
                 ResetEpisodeResult();
             }
+
+            _totalScoreLvls -= _moneyShop;
             Debug.Log(_totalStars);
         }
 
@@ -118,6 +126,9 @@ namespace TowerDefense
                 Saver<EpisodeScore[]>.Save(_fileName, Instance._completionData);
                 Debug.Log("Произошел сейв" + levelScore);
             }
+
+            Instance._totalScoreLvls -= Instance._moneyShop;
+            OnScoreUpdate?.Invoke();
         }
 
         public static void ResetEpisodeResult()
@@ -131,6 +142,7 @@ namespace TowerDefense
                     {
                         item.Stars = 0;
                         item.ScoreLvl = 0;
+                        item.MaxScoreLvl = 0;
 
                         Saver<EpisodeScore[]>.Save(_fileName, Instance._completionData);
                         Debug.Log("Произошел ResetEpisdoeResult");
@@ -138,6 +150,9 @@ namespace TowerDefense
                 }
                 Instance._totalStars = 0;
                 Instance._totalScoreLvls = 0;
+                Instance._moneyShop = 0;
+
+                OnScoreUpdate?.Invoke();
             }
         }
 
