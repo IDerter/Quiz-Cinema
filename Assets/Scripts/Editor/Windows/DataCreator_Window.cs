@@ -83,7 +83,9 @@ namespace QuizCinema
 
             Rect buttonRect = new Rect(bodyRect.x + bodyRect.width - 85, bodyRect.y + bodyRect.height + 15,
                 85, 30);
+
             bool pressed = GUI.Button(buttonRect, "Create", EditorStyles.miniButtonRight); 
+            
             if (pressed)
             {
                 if (string.IsNullOrEmpty(path))
@@ -93,6 +95,7 @@ namespace QuizCinema
 
                 Data.Write(data, path);
             }
+          
             buttonRect.x -= buttonRect.width;
             pressed = GUI.Button(buttonRect, "Fetch", EditorStyles.miniButtonLeft);
             if (pressed)
@@ -110,7 +113,7 @@ namespace QuizCinema
                     serializedObject.Update();
                 }
             }
-
+            /*
             buttonRect.x -= buttonRect.width * 3;
             pressed = GUI.Button(buttonRect, "CopyTextInfo", EditorStyles.miniButtonLeft);
             if (pressed)
@@ -132,22 +135,70 @@ namespace QuizCinema
 
                 Debug.Log(serializedObject.ToString());
                 Debug.Log(questionProp.ToString());
-                /*path = EditorUtility.OpenFilePanel("Select", "Assets/StreamingAssets", "xml");
-                if (!string.IsNullOrEmpty(path))
-                {
-                    var d = Data.Fetch(out bool result, path);
-                    if (result)
-                    {
-                        data = d;
-                    }
-
-                    serializedObject.ApplyModifiedProperties();
-                    serializedObject.Update();
-                }
-                */
             }
+            */
 
-            #endregion
+            buttonRect.x -= buttonRect.width * 2;
+            buttonRect.width = 100f;
+            pressed = GUI.Button(buttonRect, "Questions", EditorStyles.miniButtonLeft);
+            if (pressed)
+            {
+                var newData = data;
+                var mas = newData.Questions;
+                Debug.Log(mas.Length);
+                for (int i = 0; i < mas.Length; i++)
+                {
+                    mas[i].ListInfoQuestion.Add(mas[i].Info);
+                }
+                newData.Questions = mas;
+                data = newData;
+                Data.Write(data, path);
+            }
+            serializedObject.ApplyModifiedProperties();
+            serializedObject.Update();
+
+            buttonRect.x -= buttonRect.width;
+            pressed = GUI.Button(buttonRect, "NoteFilm", EditorStyles.miniButtonLeft);
+            if (pressed)
+            {
+                var newData = data;
+                var mas = newData.Questions;
+                Debug.Log(mas.Length);
+                for (int i = 0; i < mas.Length; i++)
+                {
+                    mas[i].ListNoteFilm.Add(mas[i].NoteFilm);
+                }
+                newData.Questions = mas;
+                data = newData;
+                Data.Write(data, path);
+            }
+            serializedObject.ApplyModifiedProperties();
+            serializedObject.Update();
+
+
+            buttonRect.x -= buttonRect.width;
+            pressed = GUI.Button(buttonRect, "Answers", EditorStyles.miniButtonLeft);
+            if (pressed)
+            {
+                var newData = data;
+                var mas = newData.Questions;
+                Debug.Log(mas.Length);
+                for (int i = 0; i < mas.Length; i++)
+                {
+                    for (int j = 0; j < mas[i].Answers.Length; j++)
+                    {
+                        Debug.Log(mas[i].Answers[j].Info);
+                        mas[i].Answers[j].InfoList.Add(mas[i].Answers[j].Info);
+                        mas[i].Answers[j].InfoList.Add(mas[i].Answers[j].TranslateInfo);
+                    }
+                }
+                newData.Questions = mas;
+                data = newData;
+                Data.Write(data, path);
+                serializedObject.ApplyModifiedProperties();
+                serializedObject.Update();
+                #endregion
+            }
         }
     }
 }

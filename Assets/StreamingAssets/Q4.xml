@@ -4,27 +4,39 @@
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>В какой год переместились герои фильма?</string>
+        <string>В какой год переместились герои фильма?</string>
+      </ListInfoQuestion>
       <Info>В какой год переместились герои фильма?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Zemekis</Director>
       <_cadrCinemaName>Back to the Future 2</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>1955</Info>
           <TranslateInfo>1955</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>1985</Info>
           <TranslateInfo>1985</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>2000</Info>
           <TranslateInfo>2000</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>2015</Info>
           <TranslateInfo>2015</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -34,36 +46,57 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Назовите фильм по описанию:
+Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
+Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
+мультяшное существо с озорным характером.
+      </string>
+        <string>
+Назовите фильм по описанию:
+Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
+Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
+мультяшное существо с озорным характером.
+      </string>
+      </ListInfoQuestion>
       <Info>
 Назовите фильм по описанию:
 Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
 Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
 мультяшное существо с озорным характером.
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Chuck Russell</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Bruce Almighty</Info>
           <TranslateInfo>Брюс Всемогущий</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Mask</Info>
           <TranslateInfo>Маска</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Liar Liar</Info>
           <TranslateInfo>Лжец, лжец</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Who Framed Roger Rabbit</Info>
           <TranslateInfo>Кто подставил кролика Роджера</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -73,31 +106,42 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Сколько людей входило в отряд братства кольца?</string>
+        <string>Сколько людей входило в отряд братства кольца?</string>
+      </ListInfoQuestion>
       <Info>Сколько людей входило в отряд братства кольца?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Jackson</Director>
       <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>2</Info>
           <TranslateInfo>2</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>9</Info>
           <TranslateInfo>9</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>11</Info>
           <TranslateInfo>11</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>5</Info>
           <TranslateInfo>5</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -107,31 +151,42 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Постер из какого фильма перед вами?</string>
+        <string>Постер из какого фильма перед вами?</string>
+      </ListInfoQuestion>
       <Info>Постер из какого фильма перед вами?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Jonathan Demme</Director>
       <_cadrCinemaName>The Silence of the Lambs Poster</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>The Butterfly Effect</Info>
           <TranslateInfo>Эффект бабочки</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Red Dragon</Info>
           <TranslateInfo>Красный дракон</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Silence of the Lambs</Info>
           <TranslateInfo>Молчание ягнят</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Don't Breathe</Info>
           <TranslateInfo>Не дыши</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -141,31 +196,42 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Угадай фильм по кадру</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Paul King</Director>
       <_cadrCinemaName>Paddington 1</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Cheburashka</Info>
           <TranslateInfo>Чебурашка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Paddington</Info>
           <TranslateInfo>Приключение Паддингтона</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Paddington 2</Info>
           <TranslateInfo>Приключения Паддингтона 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Wonka</Info>
           <TranslateInfo>Вонка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -175,31 +241,42 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите кадр из фильма Укрощение строптивого</string>
+        <string>Выберите кадр из фильма Укрощение строптивого</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Укрощение строптивого</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Castellano  Pipolo</Director>
       <_cadrCinemaName>The Taming of the Scoundrel</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Madly in Love</Info>
           <TranslateInfo>Безумно влюблённый</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Taming of the Scoundrel</Info>
           <TranslateInfo>Укрощение строптивого</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Most Beautiful Wife</Info>
           <TranslateInfo>Самая красивая жена</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Con Artists</Info>
           <TranslateInfo>Блеф</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -209,31 +286,42 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите фильмы с участие Леонардо ДиКаприо</string>
+        <string>Выберите фильмы с участие Леонардо ДиКаприо</string>
+      </ListInfoQuestion>
       <Info>Выберите фильмы с участие Леонардо ДиКаприо</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Leonardo DiCaprio</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>The Notebook</Info>
           <TranslateInfo>Дневник памяти</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Great Gatsby</Info>
           <TranslateInfo>Великий Гэтсби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Warrior</Info>
           <TranslateInfo>Воин</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Basketball Diaries</Info>
           <TranslateInfo>Дневник Баскетболиста</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -243,35 +331,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>По словам одного актера Кристиан Бейл для роли в этом фильме сбросил больше 30 кг.
+Перед этим Бейл набрал вес для роли в фильме Адама Маккея «Власть», и на то, чтобы его сбросить, у актёра было порядка семи месяцев.
+Когда же друг актера спросил у Бейла, как ему это удалось, тот ответил, что просто перестал есть. 
+Также Кристиан брал уроки вождения в специализированной автошколе бывшего гонщика Боба Бондюрана.
+Как называется этот фильм?</string>
+        <string>По словам одного актера Кристиан Бейл для роли в этом фильме сбросил больше 30 кг.
+Перед этим Бейл набрал вес для роли в фильме Адама Маккея «Власть», и на то, чтобы его сбросить, у актёра было порядка семи месяцев.
+Когда же друг актера спросил у Бейла, как ему это удалось, тот ответил, что просто перестал есть. 
+Также Кристиан брал уроки вождения в специализированной автошколе бывшего гонщика Боба Бондюрана.
+Как называется этот фильм?</string>
+      </ListInfoQuestion>
       <Info>По словам одного актера Кристиан Бейл для роли в этом фильме сбросил больше 30 кг.
 Перед этим Бейл набрал вес для роли в фильме Адама Маккея «Власть», и на то, чтобы его сбросить, у актёра было порядка семи месяцев.
 Когда же друг актера спросил у Бейла, как ему это удалось, тот ответил, что просто перестал есть. 
 Также Кристиан брал уроки вождения в специализированной автошколе бывшего гонщика Боба Бондюрана.
 Как называется этот фильм?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>James Mangold</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Vice</Info>
           <TranslateInfo>Власть</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Batman Begins</Info>
           <TranslateInfo>Бэтмен: Начало</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Machinist</Info>
           <TranslateInfo>Машинист</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Ford v Ferrari</Info>
           <TranslateInfo>Форд против Феррари</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -281,31 +388,42 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите кадр из фильма Железный Человек</string>
+        <string>Выберите кадр из фильма Железный Человек</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Железный Человек</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Jon Favreau</Director>
       <_cadrCinemaName>Iron Man</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Iron Man</Info>
           <TranslateInfo>Железный Человек</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Avengers Infinity War</Info>
           <TranslateInfo>Мстители: Война бесконечности</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Avengers Endgame</Info>
           <TranslateInfo>Мстители: Финал</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Avengers Age of Ultron</Info>
           <TranslateInfo>Мстители: Эра Альтрона</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -315,31 +433,42 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите кадр из фильма Загадочная история Бенджамина Баттона </string>
+        <string>Выберите кадр из фильма Загадочная история Бенджамина Баттона </string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Загадочная история Бенджамина Баттона </Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Fincher</Director>
       <_cadrCinemaName>The Curious Case of Benjamin Button</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Mr. and Mrs.Smith</Info>
           <TranslateInfo>Мистер и Миссис Смит</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Burn After Reading</Info>
           <TranslateInfo>После прочтения сжечь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Curious Case of Benjamin Button</Info>
           <TranslateInfo>Загадочная история Бенджамина Баттона </TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Inglourious Basterds</Info>
           <TranslateInfo>Бесславные ублюдки</TranslateInfo>
           <IsCorrect>false</IsCorrect>

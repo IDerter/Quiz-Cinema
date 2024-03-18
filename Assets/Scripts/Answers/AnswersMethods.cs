@@ -71,7 +71,7 @@ namespace QuizCinema
             {
 
                 AnswerData newAnswer = Instantiate(_answerPrefab[index], _uIElements.AnswerContentArea[index]);
-                newAnswer.UpdateData(question.Answers[i].TranslateInfo, i);
+                newAnswer.UpdateData(question.Answers[i].InfoList[PlayerPrefs.GetInt("IndexLanguageSave")], i);
 
                 _currentAnswer.Add(newAnswer);
                 Debug.Log(question._cadrCinemaName);

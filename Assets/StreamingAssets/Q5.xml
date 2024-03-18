@@ -4,32 +4,54 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Назовите фильм цитате главного героя, где ИКС - это замена фамилии персонажа:
+Леонардо ДиКаприо хотел сыграть ИКС, потому что ему понравилась «идея человека, который был абсолютно ничем, и создал себя, отталкиваясь только от собственного воображения».
+«ИКС — один из знаковых персонажей, потому что он может быть интерпретирован по-разному:
+безнадежный романтик, одержимый сумасшедший или опасный гангстер, цепляющийся за богатство» — говорит ДиКаприо.
+      </string>
+        <string>
+Назовите фильм цитате главного героя, где ИКС - это замена фамилии персонажа:
+Леонардо ДиКаприо хотел сыграть ИКС, потому что ему понравилась «идея человека, который был абсолютно ничем, и создал себя, отталкиваясь только от собственного воображения».
+«ИКС — один из знаковых персонажей, потому что он может быть интерпретирован по-разному:
+безнадежный романтик, одержимый сумасшедший или опасный гангстер, цепляющийся за богатство» — говорит ДиКаприо.
+      </string>
+      </ListInfoQuestion>
       <Info>
 Назовите фильм цитате главного героя, где ИКС - это замена фамилии персонажа:
 Леонардо ДиКаприо хотел сыграть ИКС, потому что ему понравилась «идея человека, который был абсолютно ничем, и создал себя, отталкиваясь только от собственного воображения».
 «ИКС — один из знаковых персонажей, потому что он может быть интерпретирован по-разному:
 безнадежный романтик, одержимый сумасшедший или опасный гангстер, цепляющийся за богатство» — говорит ДиКаприо.
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Baz Luhrmann</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>The Revenant</Info>
           <TranslateInfo>Выживший</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Great Gatsby</Info>
           <TranslateInfo>Великий Гэтсби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Catch Me If You Can</Info>
           <TranslateInfo>Поймай меня, если сможешь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Wolf of Wall Street</Info>
           <TranslateInfo>Волк с Уолл-стрит</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -39,31 +61,42 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите фильмы у которых есть литературный источник</string>
+        <string>Выберите фильмы у которых есть литературный источник</string>
+      </ListInfoQuestion>
       <Info>Выберите фильмы у которых есть литературный источник</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Zemekis</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Forrest Gump</Info>
           <TranslateInfo>Форрест Гамп</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Shawshank Redemption</Info>
           <TranslateInfo>Побег из Шоушенка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>1 + 1</Info>
           <TranslateInfo>1 + 1</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Interstellar</Info>
           <TranslateInfo>Интерстеллар</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -73,31 +106,42 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите кадр из фильма Терминал</string>
+        <string>Выберите кадр из фильма Терминал</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Терминал</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Steven Spielberg</Director>
       <_cadrCinemaName>Terminal</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Up in the Air</Info>
           <TranslateInfo>Мне бы в небо</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Catch me if you can</Info>
           <TranslateInfo>Поймай меня, если сможешь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Airplane</Info>
           <TranslateInfo>Аэроплан</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Terminal</Info>
           <TranslateInfo>Терминал</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -107,31 +151,42 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Обои с персонажем из какого фильма перед вами?</string>
+        <string>Обои с персонажем из какого фильма перед вами?</string>
+      </ListInfoQuestion>
       <Info>Обои с персонажем из какого фильма перед вами?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Fincher</Director>
       <_cadrCinemaName>Fight club wallpaper</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Tyler Durden</Info>
           <TranslateInfo>Тайлер Дерден</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Fight club wallpaper</Info>
           <TranslateInfo>Бойцовский клуб</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Gone Girl</Info>
           <TranslateInfo>Исчезнувшая</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Seven</Info>
           <TranslateInfo>Семь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -141,36 +196,57 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Угадай фильм по краткому описанию сюжета:
+Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга.
+Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени.
+Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
+      </string>
+        <string>
+Угадай фильм по краткому описанию сюжета:
+Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга.
+Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени.
+Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
+      </string>
+      </ListInfoQuestion>
       <Info>
 Угадай фильм по краткому описанию сюжета:
 Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга.
 Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени.
 Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Scott Derrickson</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Iron Man</Info>
           <TranslateInfo>Железный человек</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Doctor Dolittle</Info>
           <TranslateInfo>Доктор Дулиттл</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Crash</Info>
           <TranslateInfo>Автокатастрофа</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Doctor Strange</Info>
           <TranslateInfo>Доктор Стрэндж</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -180,31 +256,42 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите кадр из фильма Человек-паук 1</string>
+        <string>Выберите кадр из фильма Человек-паук 1</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Человек-паук 1</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Sam Raimi</Director>
       <_cadrCinemaName>Spider Man 1</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Spider Man 2</Info>
           <TranslateInfo>Человек-паук 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Spider Man 1</Info>
           <TranslateInfo>Человек-паук 1</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>New Spider Man</Info>
           <TranslateInfo>Новый Человек-паук</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Spider man 3</Info>
           <TranslateInfo>Человек-паук 3: Враг в отражении</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -214,36 +301,57 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Угадай фильм по описанию подготовки актера к главной роли:
+Аль Пачино подошел к своей роли со всей серьезностью. Чтобы убедительно сыграть слепого, он долгое время общался с людьми, которые потеряли зрение в результате травмы.
+Они научили его приемам, которыми пользуются сами, чтобы сесть на стул, налить жидкость и т. д.
+Пока актер работал над фильмом, он оставался «слепым» даже вне съемочной площадки: не смотрел на собеседника, ни на чем не фокусировал свой взгляд и везде ходил с тростью.
+</string>
+        <string>Угадай фильм по описанию подготовки актера к главной роли:
+Аль Пачино подошел к своей роли со всей серьезностью. Чтобы убедительно сыграть слепого, он долгое время общался с людьми, которые потеряли зрение в результате травмы.
+Они научили его приемам, которыми пользуются сами, чтобы сесть на стул, налить жидкость и т. д.
+Пока актер работал над фильмом, он оставался «слепым» даже вне съемочной площадки: не смотрел на собеседника, ни на чем не фокусировал свой взгляд и везде ходил с тростью.
+</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по описанию подготовки актера к главной роли:
 Аль Пачино подошел к своей роли со всей серьезностью. Чтобы убедительно сыграть слепого, он долгое время общался с людьми, которые потеряли зрение в результате травмы.
 Они научили его приемам, которыми пользуются сами, чтобы сесть на стул, налить жидкость и т. д.
 Пока актер работал над фильмом, он оставался «слепым» даже вне съемочной площадки: не смотрел на собеседника, ни на чем не фокусировал свой взгляд и везде ходил с тростью.
 </Info>
+      <ListNoteFilm>
+        <string>За роль полковника Слэйда Аль Пачино наконец-то получил свой долгожданный и единственный «Оскар» за лучшую мужскую роль.
+ До этого он номинировался 6 раз, но академики год за годом лишали актера этой престижной награды.</string>
+        <string>За роль полковника Слэйда Аль Пачино наконец-то получил свой долгожданный и единственный «Оскар» за лучшую мужскую роль.
+ До этого он номинировался 6 раз, но академики год за годом лишали актера этой престижной награды.</string>
+      </ListNoteFilm>
       <NoteFilm>За роль полковника Слэйда Аль Пачино наконец-то получил свой долгожданный и единственный «Оскар» за лучшую мужскую роль.
  До этого он номинировался 6 раз, но академики год за годом лишали актера этой престижной награды.</NoteFilm>
       <Director>Martin Brest</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Scarface</Info>
           <TranslateInfo>Лицо со шрамом</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Heat</Info>
           <TranslateInfo>Схватка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Godfather Part III</Info>
           <TranslateInfo>Крестный отец 3</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Scent of a Woman</Info>
           <TranslateInfo>Запах женщины</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -253,34 +361,51 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Угадай фильм по факту: 
+Продюсерский штаб «New Line Cinema» долго не хотел запускать фильм в производство из-за его концовки. 
+Обсуждался целый ряд альтернативных вариантов финала (не менее пяти), однако решающее слово осталось за Брэдом Питтом.
+Он отказался принимать участие в съемках, если концовка фильма подвергнется изменению.</string>
+        <string>Угадай фильм по факту: 
+Продюсерский штаб «New Line Cinema» долго не хотел запускать фильм в производство из-за его концовки. 
+Обсуждался целый ряд альтернативных вариантов финала (не менее пяти), однако решающее слово осталось за Брэдом Питтом.
+Он отказался принимать участие в съемках, если концовка фильма подвергнется изменению.</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по факту: 
 Продюсерский штаб «New Line Cinema» долго не хотел запускать фильм в производство из-за его концовки. 
 Обсуждался целый ряд альтернативных вариантов финала (не менее пяти), однако решающее слово осталось за Брэдом Питтом.
 Он отказался принимать участие в съемках, если концовка фильма подвергнется изменению.</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Fincher</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Seven</Info>
           <TranslateInfo>Семь</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>The Usual Suspects</Info>
           <TranslateInfo>Подозрительный лица</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Titanic</Info>
           <TranslateInfo>Титаник</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>12 Monkeys</Info>
           <TranslateInfo>12 обезьян</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -290,31 +415,42 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Угадай фильм по кадру</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Harold Ramis</Director>
       <_cadrCinemaName>Groundhog-Day</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Lost in Translation</Info>
           <TranslateInfo>Трудности перевода</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Groundhog Day</Info>
           <TranslateInfo>День сурка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Ghostbusters</Info>
           <TranslateInfo>Охотники за привидениями 1</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Ghostbusters II</Info>
           <TranslateInfo>Охотники за привидениями 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -324,31 +460,42 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Выберите кадр из фильма Красотка</string>
+        <string>Выберите кадр из фильма Красотка</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Красотка</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Garry Marshall</Director>
       <_cadrCinemaName>Pretty Woman</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList />
           <Info>Notting Hill</Info>
           <TranslateInfo>Ноттинг-Хилл</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Eat, Pray, Love</Info>
           <TranslateInfo>Ешь, молись, люби</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Pretty Woman</Info>
           <TranslateInfo>Красотка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList />
           <Info>Erin Brockovich</Info>
           <TranslateInfo>Эрин Брокович</TranslateInfo>
           <IsCorrect>false</IsCorrect>
