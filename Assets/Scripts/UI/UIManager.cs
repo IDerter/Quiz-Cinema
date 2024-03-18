@@ -99,7 +99,8 @@ namespace QuizCinema
             _uIElements.QuestionInfoTextObject[index].transform.parent.gameObject.SetActive(true);
             _uIElements.CadrCinema[index].transform.parent.gameObject.SetActive(true);
             _uIElements.AnswerContentArea[index].transform.parent.parent.gameObject.SetActive(true);
-            _uIElements.QuestionInfoTextObject[index].text = question.Info;
+
+            _uIElements.QuestionInfoTextObject[index].text = question.ListInfoQuestion[PlayerPrefs.GetInt("IndexLanguageSave")];
 
             Sprite sprite = Resources.Load($"{question._cadrCinemaName}", typeof(Sprite)) as Sprite;
             _uIElements.CadrCinema[index].sprite = sprite;

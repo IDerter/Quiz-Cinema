@@ -298,7 +298,7 @@ namespace QuizCinema
         {
             Debug.Log("SetCorrectQuestionText");
 
-            string questionText = question.Info;
+            string questionText = question.ListInfoQuestion[PlayerPrefs.GetInt("IndexLanguageSave")];
             string correctText = null;
 
             var mas = questionText.Split('\n');
@@ -321,7 +321,7 @@ namespace QuizCinema
 
             _copyTextQuestion.text = correctText;
 
-            _textCinemaInfo.text = question.NoteFilm;
+            _textCinemaInfo.text = question.ListNoteFilm[PlayerPrefs.GetInt("IndexLanguageSave")];
             Sprite sprite = Resources.Load($"Directors/{question.Director}", typeof(Sprite)) as Sprite;
 
             _directorName = question.Director;

@@ -55,8 +55,8 @@ namespace QuizCinema
             {
                 if (_cadrs[i] != null)
                 {
-
-                    Sprite sprite = Resources.Load($"{question.Answers[i].Info}", typeof(Sprite)) as Sprite;
+                    Debug.Log(question.Answers[i].InfoList[PlayerPrefs.GetInt("IndexLanguageSave")] + " index lan SAVE! ");
+                    Sprite sprite = Resources.Load($"{question.Answers[i].InfoList[0]}", typeof(Sprite)) as Sprite; // картинки в 3 типе вопросов всегда подгружаем на английском
 
                     _cadrs[i].GetComponent<CadrsAnswers>().GetCurrentImage.sprite = sprite;
                    // _cadrs[i].sprite = sprite;

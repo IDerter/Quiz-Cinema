@@ -11,6 +11,8 @@ namespace QuizCinema
     [Serializable()]
     public class Answer
     {
+        public List<string> InfoList;
+
         public string Info;
 
         public string TranslateInfo;
@@ -31,7 +33,11 @@ namespace QuizCinema
         public AnswerType _answerType = AnswerType.Single;
         public AnswerType GetAnswerType => _answerType;
 
+        public List<string> ListInfoQuestion;
+
         public string Info = String.Empty;
+
+        public List<string> ListNoteFilm;
 
         public string NoteFilm = String.Empty;
 
