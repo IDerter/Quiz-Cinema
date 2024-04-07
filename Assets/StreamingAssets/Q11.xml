@@ -4,32 +4,66 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the movie based on facts from it:
+The film is based on the 1988 Hellblazer comic book series. John first appeared in Alan Moore's Swamp Thing.
+In the comics, the main character was from Liverpool, but in the film he became a native of California.
+This decision was largely due to the choice of the actor playing the main role. Keanu Reeves is a typical American and he would hardly be able to play a Briton believably.
+      </string>
+        <string>
+Назовите фильм по фактам из него:
+Фильм основан на серии комиксов «Hellblazer» 1988 года. Впервые Джон появился в комиксе Алана Мура Swamp Thing.
+В комиксе главный действующий герой был родом из Ливерпуля, а в кинофильме он стал уроженцем Калифорнии. 
+Во многом такое решение было обусловлено выбором актера, исполняющего главную роль. Киану Ривз типичный американец и правдоподобно сыграть британца у него навряд ли бы получилось.
+      </string>
+      </ListInfoQuestion>
       <Info>
 Назовите фильм по фактам из него:
 Фильм основан на серии комиксов «Hellblazer» 1988 года. Впервые Джон появился в комиксе Алана Мура Swamp Thing.
 В комиксе главный действующий герой был родом из Ливерпуля, а в кинофильме он стал уроженцем Калифорнии. 
 Во многом такое решение было обусловлено выбором актера, исполняющего главную роль. Киану Ривз типичный американец и правдоподобно сыграть британца у него навряд ли бы получилось.
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Francis Lawrence</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>The Hunger Games</string>
+            <string>Голодные игры</string>
+          </InfoList>
           <Info>The Hunger Games</Info>
           <TranslateInfo>Голодные игры</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Constantine</string>
+            <string>Константин: Повелитель тьмы</string>
+          </InfoList>
           <Info>Constantine</Info>
           <TranslateInfo>Константин: Повелитель тьмы</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Matrix</string>
+            <string>Матрица</string>
+          </InfoList>
           <Info>The Matrix</Info>
           <TranslateInfo>Матрица</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>John Wick</string>
+            <string>Джон Уик</string>
+          </InfoList>
           <Info>John Wick</Info>
           <TranslateInfo>Джон Уик</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -39,31 +73,54 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a scene from a movie that didn't star Clint Eastwood</string>
+        <string>Выберите кадр из фильма, где не снимался Клинт Иствуд</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма, где не снимался Клинт Иствуд</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Joel and Ethan Coen</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Gran Torino</string>
+            <string>Гран Торино</string>
+          </InfoList>
           <Info>Gran Torino</Info>
           <TranslateInfo>Гран Торино</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Million Dollar Baby</string>
+            <string>Малышка на миллион</string>
+          </InfoList>
           <Info>Million Dollar Baby</Info>
           <TranslateInfo>Малышка на миллион</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Good, the Bad and the Ugly</string>
+            <string>Хороший, плохой, злой</string>
+          </InfoList>
           <Info>The Good, the Bad and the Ugly</Info>
           <TranslateInfo>Хороший, плохой, злой</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>True Grit</string>
+            <string>Железная хватка</string>
+          </InfoList>
           <Info>True Grit</Info>
           <TranslateInfo>Железная хватка</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -73,31 +130,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the film The Illusionist</string>
+        <string>Выберите кадр из фильма Иллюзионист</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Иллюзионист</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Neil Burger</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>The Illusionist</string>
+            <string>Иллюзионист</string>
+          </InfoList>
           <Info>The Illusionist</Info>
           <TranslateInfo>Иллюзионист</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Now you see me</string>
+            <string>Иллюзия обмана</string>
+          </InfoList>
           <Info>Now you see me</Info>
           <TranslateInfo>Иллюзия обмана</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Now you see me 2</string>
+            <string>Иллюзия обмана 2</string>
+          </InfoList>
           <Info>Now you see me 2</Info>
           <TranslateInfo>Иллюзия обмана 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Prestige</string>
+            <string>Престиж</string>
+          </InfoList>
           <Info>The Prestige</Info>
           <TranslateInfo>Престиж</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -107,31 +187,54 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Danny Boyle</Director>
       <_cadrCinemaName>Slumdog Millionaire</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Who Wants to Be a Millionaire?</string>
+            <string>Кто хочет стать миллионером?</string>
+          </InfoList>
           <Info>Who Wants to Be a Millionaire?</Info>
           <TranslateInfo>Кто хочет стать миллионером?</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Lion</string>
+            <string>Лев</string>
+          </InfoList>
           <Info>Lion</Info>
           <TranslateInfo>Лев</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Slumdog Millionaire</string>
+            <string>Миллионер из трущоб</string>
+          </InfoList>
           <Info>Slumdog Millionaire</Info>
           <TranslateInfo>Миллионер из трущоб</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Green Knight</string>
+            <string>Легенда о Зелёном рыцаре</string>
+          </InfoList>
           <Info>The Green Knight</Info>
           <TranslateInfo>Легенда о Зелёном рыцаре</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -141,31 +244,54 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-    
-     <Question>
+    <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Which character's early life is shown in The Godfather Part II?</string>
+        <string>Молодость какого персонажа показана в фильме Крестный отец 2?</string>
+      </ListInfoQuestion>
       <Info>Молодость какого персонажа показана в фильме Крестный отец 2?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Coppola</Director>
       <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Michael Corleone</string>
+            <string>Майкл Корлеоне</string>
+          </InfoList>
           <Info>Michael Corleone</Info>
           <TranslateInfo>Майкл Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Vito Corleone</string>
+            <string>Вито Корлеоне</string>
+          </InfoList>
           <Info>Vito Corleone</Info>
           <TranslateInfo>Вито Корлеоне</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Sonny Corleone</string>
+            <string>Сонни Корлеоне</string>
+          </InfoList>
           <Info>Sonny Corleone</Info>
           <TranslateInfo>Сонни Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Frederico Corleone</string>
+            <string>Фредерико Корлеоне</string>
+          </InfoList>
           <Info>Frederico Corleone</Info>
           <TranslateInfo>Фредерико Корлеоне</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -175,31 +301,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie "There Will Be Blood"</string>
+        <string>Выберите кадр из фильма Нефть</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Нефть</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Paul Thomas Anderson</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>There Will Be Blood</string>
+            <string>Нефть</string>
+          </InfoList>
           <Info>There Will Be Blood</Info>
           <TranslateInfo>Нефть</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Gangs of New York</string>
+            <string>Банды Нью-Йорка</string>
+          </InfoList>
           <Info>Gangs of New York</Info>
           <TranslateInfo>Банды Нью-Йорка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>A Walk to Remember</string>
+            <string>Спеши любить</string>
+          </InfoList>
           <Info>A Walk to Remember</Info>
           <TranslateInfo>Спеши любить</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Crazy, Stupid, Love</string>
+            <string>Эта дурацкая любовь</string>
+          </InfoList>
           <Info>Crazy, Stupid, Love</Info>
           <TranslateInfo>Эта дурацкая любовь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -209,36 +358,69 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Guess the film based on facts from the filming:
+More than 80% of the footage was filmed live.
+Computer graphics were used to a minimum: to improve the landscape of Namibia, remove equipment that got into the frame,
+used during the filming of stunts, and for the prosthetic hand of the heroine Charlize Theron.
+      </string>
+        <string>
+Угадай фильм по фактам со съемок:
+Более 80% кадров были сняты вживую. 
+Компьютерная графика использовалась по минимуму: для улучшения пейзажа Намибии, удаления попавшего в кадр оборудования, 
+использовавшегося во время съемок трюков, и для протеза руки героини Шарлиз Терон.
+      </string>
+      </ListInfoQuestion>
       <Info>
 Угадай фильм по фактам со съемок:
 Более 80% кадров были сняты вживую. 
 Компьютерная графика использовалась по минимуму: для улучшения пейзажа Намибии, удаления попавшего в кадр оборудования, 
 использовавшегося во время съемок трюков, и для протеза руки героини Шарлиз Терон.
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>George Miller</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Avatar</string>
+            <string>Аватар</string>
+          </InfoList>
           <Info>Avatar</Info>
           <TranslateInfo>Аватар</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Devil's Advocate</string>
+            <string>Адвокат дьявола</string>
+          </InfoList>
           <Info>The Devil's Advocate</Info>
           <TranslateInfo>Адвокат дьявола</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Monster</string>
+            <string>Монстр</string>
+          </InfoList>
           <Info>Monster</Info>
           <TranslateInfo>Монстр</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Mad Max: Fury Road</string>
+            <string>Безумный Макс: Дорога ярости</string>
+          </InfoList>
           <Info>Mad Max: Fury Road</Info>
           <TranslateInfo>Безумный Макс: Дорога ярости</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -248,31 +430,54 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>What number is in the title of the Wonder Woman sequel?</string>
+        <string>Какое число содержится в названии сиквела фильма о Чудо-женщине?</string>
+      </ListInfoQuestion>
       <Info>Какое число содержится в названии сиквела фильма о Чудо-женщине?</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Patty Jenkins</Director>
       <_cadrCinemaName>Wonder Woman</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>2</string>
+            <string>2</string>
+          </InfoList>
           <Info>2</Info>
           <TranslateInfo>2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>2077</string>
+            <string>2077</string>
+          </InfoList>
           <Info>2077</Info>
           <TranslateInfo>2077</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>1984</string>
+            <string>1984</string>
+          </InfoList>
           <Info>1984</Info>
           <TranslateInfo>1984</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>2003</string>
+            <string>2003</string>
+          </InfoList>
           <Info>2003</Info>
           <TranslateInfo>2003</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -282,31 +487,54 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Fincher</Director>
       <_cadrCinemaName>Gone Girl</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>I Care a Lot</string>
+            <string>Аферистка</string>
+          </InfoList>
           <Info>I Care a Lot</Info>
           <TranslateInfo>Аферистка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Gone Girl</string>
+            <string>Исчезнувшая</string>
+          </InfoList>
           <Info>Gone Girl</Info>
           <TranslateInfo>Исчезнувшая</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Saltburn</string>
+            <string>Солтберн</string>
+          </InfoList>
           <Info>Saltburn</Info>
           <TranslateInfo>Солтберн</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Good Will Hunting</string>
+            <string>Умница Уилл Хантинг</string>
+          </InfoList>
           <Info>Good Will Hunting</Info>
           <TranslateInfo>Умница Уилл Хантинг</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -316,31 +544,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Select all the young actors who starred in the film: "What's Eating Gilbert Grape?"</string>
+        <string>Выберите всех молодых актеров, кто снимался в фильме: "Что Гложет Гилберта Грейпа?"</string>
+      </ListInfoQuestion>
       <Info>Выберите всех молодых актеров, кто снимался в фильме: "Что Гложет Гилберта Грейпа?"</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Robert Rodriguez</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Leonardo DiCaprio</string>
+            <string>Леонардо ДиКаприо</string>
+          </InfoList>
           <Info>Leonardo DiCaprio</Info>
           <TranslateInfo>Леонардо ДиКаприо</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Brad Pitt</string>
+            <string>Бред Питт</string>
+          </InfoList>
           <Info>Brad Pitt</Info>
           <TranslateInfo>Бред Питт</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Johnny Depp</string>
+            <string>Джонни Депп</string>
+          </InfoList>
           <Info>Johnny Depp</Info>
           <TranslateInfo>Джонни Депп</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Tobey Maguire</string>
+            <string>Тоби Магуайр</string>
+          </InfoList>
           <Info>Tobey Maguire</Info>
           <TranslateInfo>Тоби Магуайр</TranslateInfo>
           <IsCorrect>false</IsCorrect>

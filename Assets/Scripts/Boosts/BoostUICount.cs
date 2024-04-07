@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace QuizCinema
@@ -11,11 +12,20 @@ namespace QuizCinema
     public class BoostUICount : MonoBehaviour
     {
         [SerializeField] protected AnswersMethods _answersMethods;
-        [SerializeField] private BoostSO _boostSO;
-        public BoostSO GetBoostSO => _boostSO;
+        [SerializeField] protected BoostSO _boostSO;
+        public BoostSO GetSetBoostSO { get { return _boostSO; } set { _boostSO = value; } }
 
-        [SerializeField] private TextMeshProUGUI _textCountBoost;
-        private Button _buttonBoost;
+        [SerializeField] protected TextMeshProUGUI _textCountBoost;
+        public TextMeshProUGUI TextCountBoost { get { return _textCountBoost; } set { _textCountBoost = value; } }
+
+        [SerializeField] protected Text _textDesriptionBoost;
+        public Text TextDesctiption { get { return _textDesriptionBoost; } set {  _textDesriptionBoost = value; } }
+
+        protected Button _buttonBoost;
+
+        protected const string _shopSceneName = "Shop";
+        private Question _question;
+
 
         private void OnEnable()
         {
@@ -26,11 +36,15 @@ namespace QuizCinema
         private void OnCreateAnswers(Question obj)
         {
             CheckButtonInteractable();
+            _question = obj;
         }
 
-        private void OnPressButtonBoost()
+        protected virtual void OnPressButtonBoost()
         {
-            _textCountBoost.text = BoostsManager.GetCountBoost(_boostSO).ToString();
+            _textCountBoost.text = BoostsManager.GetCountInInventoryBoost(_boostSO).ToString();
+
+            CheckButtonInteractable();
+            Debug.Log("OnPressButtonBoost");
         }
 
         private void OnDestroy()
@@ -48,17 +62,17 @@ namespace QuizCinema
             CheckButtonInteractable();
         }
 
-        private void CheckButtonInteractable()
+        protected virtual void CheckButtonInteractable()
         {
-            _textCountBoost.text = BoostsManager.GetCountBoost(_boostSO).ToString();
+            int countBoost = BoostsManager.GetCountInInventoryBoost(_boostSO);
+            _textCountBoost.text = countBoost.ToString();
 
-            Debug.Log(BoostsManager.GetCountBoost(_boostSO).ToString());
-
-            if (BoostsManager.GetCountBoost(_boostSO) > 0)
+            if (countBoost > 0)
             {
                 if (_buttonBoost != null) _buttonBoost.interactable = true;
             }
             else if (_buttonBoost != null) _buttonBoost.interactable = false;
+          
         }
 
     }

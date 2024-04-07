@@ -18,41 +18,219 @@ namespace QuizCinema
             public string boostCorrectAnswerName;
             public int countBoost = 0;
             public int costAllBost = 0;
+            public int countInInventory = 0;
         }
-        [SerializeField] private BoostSave[] save;
+        [SerializeField] private BoostSave[] _save;
+        [SerializeField] private BoostSave[] _mainSave;
+
+        [Serializable]
+        public class ListBoostsSave
+        {
+            public string[] _listBoosts = new string[3];
+        }
+        [SerializeField] private ListBoostsSave _saveBoosts;
+        public ListBoostsSave SaveListBoosts { get { return _saveBoosts; } set { _saveBoosts = value; } }
+        [SerializeField] private ListBoostsSave _mainSaveBoosts;
+
+        public ListBoostsSave MainSaveListBoosts { get { return _mainSaveBoosts; } set { _mainSaveBoosts = value; } }
+
+        private const string _fileNameListBoost = "boostList.dat";
+        public string FileNameList => _fileNameListBoost;
 
 
-       
         private new void Awake()
         {
             base.Awake();
-            Saver<BoostSave[]>.TryLoad(fileName, ref save);
+            LoadData();
+            Debug.Log("Load Data Boost Manager");
+        }
+
+        public virtual void LoadData()
+        {
+            bool flagSave = Saver<BoostSave[]>.TryLoad(fileName, ref _save);
+            bool flagListSave = Saver<ListBoostsSave>.TryLoad(_fileNameListBoost, ref _saveBoosts);
+            
+            
+
+            if (flagSave)
+            {
+                for (int i = 0; i < _save.Length; i++)
+                {
+                    _mainSave[i] = _save[i];
+                }
+            }
+
+            if (flagListSave)
+            {
+                for (int i = 0; i < _saveBoosts._listBoosts.Length; i++)
+                {
+                    _mainSaveBoosts._listBoosts[i] = _saveBoosts._listBoosts[i];
+                }
+            }
+
+        }
+
+
+
+        private void Start()
+        {
+            if (BoostInventory.Instance != null)
+                BoostInventory.Instance.OnSaveListBoosts += OnSaveListBoosts;
+        }
+
+        private void OnDestroy()
+        {
+            if (BoostInventory.Instance != null)
+                BoostInventory.Instance.OnSaveListBoosts -= OnSaveListBoosts;
+        }
+
+        public void ResetBoostSave()
+        {
+            foreach (var boost in Instance._mainSave)
+            {
+                boost.countBoost = 0;
+                boost.countInInventory = 0;
+                boost.costAllBost = 0;
+
+                Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
+            }
+
+            foreach (var boost in Instance._save)
+            {
+                boost.countBoost = 0;
+                boost.countInInventory = 0;
+                boost.costAllBost = 0;
+
+                Saver<BoostSave[]>.Save(fileName, Instance._save);
+            }
+        }
+
+        public void ResetListSaveBoosts()
+        {
+            for (int i = 0; i < Instance._saveBoosts._listBoosts.Length; i++)
+            {
+                Instance._saveBoosts._listBoosts[i] = "";
+                Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
+            }
+
+            for (int i = 0; i < Instance._mainSaveBoosts._listBoosts.Length; i++)
+            {
+                Instance._mainSaveBoosts._listBoosts[i] = "";
+                Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._mainSaveBoosts);
+            }
+        }
+
+        private void OnSaveListBoosts()
+        {
+            Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._mainSaveBoosts);
+            Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
+            Debug.Log("Save List Boosts");
+            OnPressButtonBoost?.Invoke();
         }
 
         public static void BuyBoost(BoostSO asset)
         {
-            foreach (var boost in Instance.save)
+            foreach (var boost in Instance._mainSave)
             {
                 if (asset.name.ToString() == boost.boostCorrectAnswerName)
                 {
                     boost.countBoost += 1;
                     boost.costAllBost = boost.countBoost * asset.cost;
-                    Saver<BoostSave[]>.Save(fileName, Instance.save);
+
+                    Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
+
+                    Instance.OnSaveListBoosts();
+                }
+            }
+           
+
+          /*  foreach (var boost in Instance._save)
+            {
+                if (asset.name.ToString() == boost.boostCorrectAnswerName)
+                {
+                    boost.countBoost += 1;
+                    boost.costAllBost = boost.countBoost * asset.cost;
+
+                    Saver<BoostSave[]>.Save(fileName, Instance._save);
+
+                    Instance.OnSaveListBoosts();
+                }
+            }
+          */
+        }
+
+        public static void TakeFromInventory(BoostSO asset, BoostUICount[] listBoosts)
+        {
+            foreach (var boost in Instance._mainSave)
+            {
+                if (asset.name.ToString() == boost.boostCorrectAnswerName)
+                {
+                    //boost.countBoost -= 1;
+                    //Instance._saveBoosts._listBoosts = listBoosts;
+                    boost.countInInventory += 1;
+                   // Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
+
+                    Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
+                    Saver<BoostSave[]>.Save(fileName, Instance._save);
+
+                    Instance.OnSaveListBoosts();
+                }
+            }
+        }
+
+        public static void ReturnFromInventory(BoostSO asset, BoostUICount[] listBoosts)
+        {
+            foreach (var boost in Instance._mainSave)
+            {
+                if (asset.name.ToString() == boost.boostCorrectAnswerName)
+                {
+                    // boost.countBoost += 1;
+                    boost.countInInventory -= 1;
+                    //Instance._saveBoosts._listBoosts = listBoosts;
+
+                    //Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
+
+                    Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
+                    Saver<BoostSave[]>.Save(fileName, Instance._save);
+
+                    Instance.OnSaveListBoosts();
                 }
             }
         }
 
         public static void UseBoost(BoostSO asset)
         {
-            foreach (var boost in Instance.save)
+            foreach (var boost in Instance._mainSave)
             {
-                if (asset.name.ToString() == boost.boostCorrectAnswerName)
+                if (asset.name.ToString() == boost.boostCorrectAnswerName && GetCountBoost(asset) > 0)
                 {
                     boost.countBoost -= 1;
-                    boost.costAllBost = boost.countBoost * asset.cost;
-                    Saver<BoostSave[]>.Save(fileName, Instance.save);
+                    boost.countInInventory -= 1;
 
+                    boost.costAllBost = boost.countBoost * asset.cost;
+                    DeleteSaveInventoryBoost(asset);
+
+                    Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
+                    Saver<BoostSave[]>.Save(fileName, Instance._save);
+
+                    Debug.Log("Use Boost");
                     OnPressButtonBoost?.Invoke();
+                    break;
+                }
+            }
+        }
+
+        public static void DeleteSaveInventoryBoost(BoostSO asset)
+        {
+            var listBoost = Instance._mainSaveBoosts._listBoosts;
+            for (int i = 0; i < listBoost.Length; i++)
+            {
+                if (listBoost[i] == asset.name)
+                {
+                    Instance._mainSaveBoosts._listBoosts[i] = null;
+                    Instance._saveBoosts._listBoosts[i] = null;
+                    Instance.OnSaveListBoosts();
+                    break;
                 }
             }
         }
@@ -60,7 +238,7 @@ namespace QuizCinema
         public static int GetCostBoost(BoostSO asset)
         {
             int result = 0;
-            foreach (var boost in Instance.save)
+            foreach (var boost in Instance._mainSave)
             {
                 if (asset.name.ToString() == boost.boostCorrectAnswerName)
                 {
@@ -73,11 +251,23 @@ namespace QuizCinema
 
         public static int GetCountBoost(BoostSO asset)
         {
-            foreach (var boost in Instance.save)
+            foreach (var boost in Instance._mainSave)
             {
                 if (boost.boostCorrectAnswerName == asset.name.ToString())
                 {
                     return boost.countBoost;
+                }
+            }
+            return 0;
+        }
+
+        public static int GetCountInInventoryBoost(BoostSO asset)
+        {
+            foreach (var boost in Instance._mainSave)
+            {
+                if (boost.boostCorrectAnswerName == asset.name.ToString())
+                {
+                    return boost.countInInventory;
                 }
             }
             return 0;

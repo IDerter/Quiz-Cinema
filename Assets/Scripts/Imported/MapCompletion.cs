@@ -33,6 +33,8 @@ namespace TowerDefense
         }
 
         [SerializeField] private EpisodeScore[] _completionData;
+        [SerializeField] private EpisodeScore[] _completionDataUnity;
+
         private Episode _currentEpisode;
         //[SerializeField] private StorageEpisode _storageEpisode;
         [SerializeField] private int _totalStars;
@@ -47,9 +49,13 @@ namespace TowerDefense
         private new void Awake()
         {
             base.Awake();
-            LoadData();
+            SaveNewInUnityProgress();
         }
 
+        private void Start()
+        {
+            LoadData();
+        }
 
         public virtual void LoadData()
         {
@@ -58,7 +64,7 @@ namespace TowerDefense
 
             if (flag)
             {
-                foreach (var episodeScore in _completionData)
+                foreach (var episodeScore in _completionDataUnity)
                 {
                     _totalStars += episodeScore.Stars;
                     _totalScoreLvls += episodeScore.ScoreLvl;
@@ -73,6 +79,28 @@ namespace TowerDefense
             Debug.Log(_totalStars);
         }
 
+        public void SaveNewInUnityProgress()
+        {
+            bool flag = Saver<EpisodeScore[]>.TryLoad(_fileName, ref _completionData);
+            
+
+            Debug.Log(flag + " произошло попытка получения сохранение!");
+
+            if (flag)
+            {
+                for (int i = 0; i < _completionData.Length; i++)
+                {
+                    Debug.Log(_completionDataUnity[i].LvlName + _completionData[i].LvlName);
+                    _completionDataUnity[i] = _completionData[i];
+                    
+                }
+            }
+            else
+            {
+                ResetEpisodeResult();
+            }
+        }
+
         public static void SaveEpisodeResult(int levelStars, int levelScore)
         {
             Debug.Log("StartSave");
@@ -82,9 +110,9 @@ namespace TowerDefense
             {
                 int i = 0;
                 
-                foreach (var item in Instance._completionData)
+                foreach (var item in Instance._completionDataUnity)
                 {
-                    Debug.Log(i + " index of levels");
+                    Debug.Log(i + " index of levels" + item.LvlName);
                     Episode episode = StorageEpisode.Instance.GetEpisodes[item.EpisodeID - 1];
                     Debug.Log(episode.Levels.Length);
                     if (i >= 5)
@@ -105,7 +133,36 @@ namespace TowerDefense
                  
                 }
             }
+
+            if (Instance)
+            {
+                int i = 0;
+
+                foreach (var item in Instance._completionData)
+                {
+                    Debug.Log(i + " index of levels");
+                    Episode episode = StorageEpisode.Instance.GetEpisodes[item.EpisodeID - 1];
+                    Debug.Log(episode.Levels.Length);
+                    if (i >= 5)
+                        i = 0;
+
+                    if (episode == LevelSequenceController.Instance.CurrentEpisode && episode.Levels[i] == currentSceneName)
+                    {
+                        if (episode.Levels.Length > i)
+                            item.LvlName = currentSceneName;
+
+                        var score = item.ScoreLvl;
+                        item.MaxScoreLvl = score > item.MaxScoreLvl ? score : item.MaxScoreLvl;
+                        Debug.Log($"Current score {score} MaxScore {item.MaxScoreLvl}");
+                    }
+                    i++;
+
+                }
+            }
+
+
         }
+
 
         private static void SaveStarsAndScoreLvls(EpisodeScore item, int levelStars, int levelScore)
         {
@@ -114,7 +171,7 @@ namespace TowerDefense
                 Instance._totalStars += levelStars - item.Stars; // к примеру было 2 звезды. станет _totalStars += 3 - 2
                 item.Stars = levelStars;
 
-                Saver<EpisodeScore[]>.Save(_fileName, Instance._completionData);
+                Saver<EpisodeScore[]>.Save(_fileName, Instance._completionDataUnity);
                 Debug.Log("Произошел сейв" + levelStars);
             }
 
@@ -123,7 +180,7 @@ namespace TowerDefense
                 Instance._totalScoreLvls += levelScore - item.ScoreLvl; // к примеру было 2 очка. станет _totalScore += 3 - 2
                 item.ScoreLvl = levelScore;
 
-                Saver<EpisodeScore[]>.Save(_fileName, Instance._completionData);
+                Saver<EpisodeScore[]>.Save(_fileName, Instance._completionDataUnity);
                 Debug.Log("Произошел сейв" + levelScore);
             }
 
@@ -133,6 +190,28 @@ namespace TowerDefense
 
         public static void ResetEpisodeResult()
         {
+            if (Instance)
+            {
+                foreach (var item in Instance._completionDataUnity)
+                {
+
+                    if (item.Stars > 0 || item.ScoreLvl > 0)
+                    {
+                        item.Stars = 0;
+                        item.ScoreLvl = 0;
+                        item.MaxScoreLvl = 0;
+
+                        Saver<EpisodeScore[]>.Save(_fileName, Instance._completionDataUnity);
+                        Debug.Log("Произошел ResetEpisdoeResult");
+                    }
+                }
+                Instance._totalStars = 0;
+                Instance._totalScoreLvls = 0;
+                Instance._moneyShop = 0;
+
+                OnScoreUpdate?.Invoke();
+            }
+
             if (Instance)
             {
                 foreach (var item in Instance._completionData)
@@ -158,7 +237,7 @@ namespace TowerDefense
 
         public int GetLvlStars(string episode)
         {
-            foreach (var data in _completionData)
+            foreach (var data in _completionDataUnity)
             {
                 if (data.LvlName == episode)
                 {
@@ -171,7 +250,7 @@ namespace TowerDefense
 
         public int GetLvlScore(string episodeName)
         {
-            foreach (var data in _completionData)
+            foreach (var data in _completionDataUnity)
             {
                 if (data.LvlName == episodeName)
                 {
@@ -185,7 +264,7 @@ namespace TowerDefense
         {
             var starsEpisode = 0;
 
-            foreach (var data in _completionData)
+            foreach (var data in _completionDataUnity)
             {
                 if (data.EpisodeID == idEpisode)
                 {
@@ -198,7 +277,7 @@ namespace TowerDefense
         public int GetLvlNumber(string episodeName)
         {
             int i = 0;
-            foreach (var data in _completionData)
+            foreach (var data in _completionDataUnity)
             {
                 if (data.LvlName == episodeName)
                 {
@@ -211,7 +290,7 @@ namespace TowerDefense
 
         public int GetLvlMaxScore(string episodeName)
         {
-            foreach (var data in _completionData)
+            foreach (var data in _completionDataUnity)
             {
                 if (data.LvlName == episodeName)
                 {

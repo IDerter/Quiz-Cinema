@@ -8,6 +8,8 @@ namespace QuizCinema
 {
     public class LevelMapButtonController : MonoBehaviour
     {
+        public event Action OnDropInventory;
+
         private const string _sceneLevelMap = "LevelMap";
         private const string _sceneMainMenu = "MainMenu";
 

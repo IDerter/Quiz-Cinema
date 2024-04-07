@@ -4,31 +4,63 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the film based on actors/actresses and their characters:
+Al Pacino - Tony Montana
+Michelle Pfeiffer - Elvira Hancock
+      </string>
+        <string>
+Назовите фильм по актерам/актрисам и их персонажам:
+Аль Пачино - Тони Монтана,
+Мишель Пфайффер - Эльвира Хэнкок
+      </string>
+      </ListInfoQuestion>
       <Info>
 Назовите фильм по актерам/актрисам и их персонажам:
 Аль Пачино - Тони Монтана,
 Мишель Пфайффер - Эльвира Хэнкок
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Brian De Palma</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Heat</string>
+            <string>Схватка</string>
+          </InfoList>
           <Info>Heat</Info>
           <TranslateInfo>Схватка</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Scarface</string>
+            <string>Лицо со шрамом</string>
+          </InfoList>
           <Info>Scarface</Info>
           <TranslateInfo>Лицо со шрамом</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Godfather</string>
+            <string>Крестный отец</string>
+          </InfoList>
           <Info>The Godfather</Info>
           <TranslateInfo>Крестный отец</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Irishman</string>
+            <string>Ирландец</string>
+          </InfoList>
           <Info>The Irishman</Info>
           <TranslateInfo>Ирландец</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -38,31 +70,54 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from a movie with Johnny Depp</string>
+        <string>Выберите кадр из фильма с Джонни Деппом</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма с Джонни Деппом</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Lasse Hallstrom</Director>
       <_cadrCinemaName>Chocolat</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Fantastic Beasts The Secrets of Dumbledore</string>
+            <string>Фантастические твари Тайны Дамблдора</string>
+          </InfoList>
           <Info>Fantastic Beasts The Secrets of Dumbledore</Info>
           <TranslateInfo>Фантастические твари Тайны Дамблдора</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>22 Jump Street</string>
+            <string>Мачо и ботан 2</string>
+          </InfoList>
           <Info>22 Jump Street</Info>
           <TranslateInfo>Мачо и ботан 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>A Nightmare оn Elm Street 2 Freddy's Revenge</string>
+            <string>Кошмар на улице Вязов 2: Месть Фредди</string>
+          </InfoList>
           <Info>A Nightmare оn Elm Street 2 Freddy's Revenge</Info>
           <TranslateInfo>Кошмар на улице Вязов 2: Месть Фредди</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Chocolat</string>
+            <string>Шоколад</string>
+          </InfoList>
           <Info>Chocolat</Info>
           <TranslateInfo>Шоколад</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -72,31 +127,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Good Will Hunting</string>
+        <string>Выберите кадр из фильма Умница Уилл Хантинг</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Умница Уилл Хантинг</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Gus Van Sant</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Good Will Hunting</string>
+            <string>Умница Уилл Хантинг</string>
+          </InfoList>
           <Info>Good Will Hunting</Info>
           <TranslateInfo>Умница Уилл Хантинг</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Jumanji</string>
+            <string>Джуманджи</string>
+          </InfoList>
           <Info>Jumanji</Info>
           <TranslateInfo>Джуманджи</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Night at the Museum with Robin Williams</string>
+            <string>Ночь в музее</string>
+          </InfoList>
           <Info>Night at the Museum with Robin Williams</Info>
           <TranslateInfo>Ночь в музее</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Mrs Doubtfire</string>
+            <string>Миссис Даутфайр</string>
+          </InfoList>
           <Info>Mrs Doubtfire</Info>
           <TranslateInfo>Миссис Даутфайр</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -106,31 +184,54 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Park Chan Wook</Director>
       <_cadrCinemaName>Oldboy</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Train to Busan</string>
+            <string>Поезд в Пусан</string>
+          </InfoList>
           <Info>Train to Busan</Info>
           <TranslateInfo>Поезд в Пусан</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Decision to Leave</string>
+            <string>Решение уйти</string>
+          </InfoList>
           <Info>Decision to Leave</Info>
           <TranslateInfo>Решение уйти</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Oldboy</string>
+            <string>Олдбой</string>
+          </InfoList>
           <Info>Oldboy</Info>
           <TranslateInfo>Олдбой</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Memories of Murder</string>
+            <string>Воспоминания об убийстве</string>
+          </InfoList>
           <Info>Memories of Murder</Info>
           <TranslateInfo>Воспоминания об убийстве</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -140,9 +241,25 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-
     <Question>
       <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the movie based on an interesting fact from it:
+During filming, actress Ellen Burstyn was scripted to talk about how old she felt.
+Matthew Libatique, an American cinematographer, accidentally moved the camera away from the actress. Darren Aronofsky was very unhappy about this, but he soon learned the reason for what was happening.
+The gaffe occurred because Matthew was so impressed by Ellen's words that he burst into tears. Tears got on the camera lens, so the operator removed it.
+Matthew decided to simply screw up the take, but Darren included this particular shot in the final version.
+      </string>
+        <string>
+Назовите фильм по интересному факту из него:
+Во время съемок актриса Эллен Берстин по сценарию должна была говорить о том, какого ей чувствовать себя старой.
+Мэттью Либатик – американский кинооператор, случайно отвел камеру от актрисы. Даррен Аронофски был этим очень недоволен, но вскоре он узнал причину происходящего.
+Оплошность произошла из-за того, что Мэттью настолько впечатлился словами Эллен, что расплакался. Слезы попали на объектив камеры, поэтому оператор убрал ее.
+Мэттью решил просто запороть дубль, однако Даррен включил в финальную версию именно этот кадр.
+      </string>
+      </ListInfoQuestion>
       <Info>
 Назовите фильм по интересному факту из него:
 Во время съемок актриса Эллен Берстин по сценарию должна была говорить о том, какого ей чувствовать себя старой.
@@ -150,26 +267,46 @@
 Оплошность произошла из-за того, что Мэттью настолько впечатлился словами Эллен, что расплакался. Слезы попали на объектив камеры, поэтому оператор убрал ее.
 Мэттью решил просто запороть дубль, однако Даррен включил в финальную версию именно этот кадр.
       </Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Darren Aronofsky</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Black Swan</string>
+            <string>Черный лебедь</string>
+          </InfoList>
           <Info>Black Swan</Info>
           <TranslateInfo>Черный лебедь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>A Man Called Ove: A Novel</string>
+            <string>Вторая жизнь Уве</string>
+          </InfoList>
           <Info>A Man Called Ove: A Novel</Info>
           <TranslateInfo>Вторая жизнь Уве</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Mother!</string>
+            <string>Мама!</string>
+          </InfoList>
           <Info>Mother!</Info>
           <TranslateInfo>Мама!</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Requiem for a Dream</string>
+            <string>Реквием по мечте</string>
+          </InfoList>
           <Info>Requiem for a Dream</Info>
           <TranslateInfo>Реквием по мечте</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -177,34 +314,56 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>60</Timer>
-      <GetAnswerType>Single</GetAnswerType>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Future Boyfriend</string>
+        <string>Выберите кадр из фильма Бойфренд из будущего</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Бойфренд из будущего</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Richard Curtis</Director>
       <_cadrCinemaName>About Time</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>About Time</string>
+            <string>Бойфренд из будущего</string>
+          </InfoList>
           <Info>About Time</Info>
           <TranslateInfo>Бойфренд из будущего</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Notebook</string>
+            <string>Дневник Памяти</string>
+          </InfoList>
           <Info>The Notebook</Info>
           <TranslateInfo>Дневник Памяти</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>A Walk to Remember</string>
+            <string>Спеши любить</string>
+          </InfoList>
           <Info>A Walk to Remember</Info>
           <TranslateInfo>Спеши любить</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Crazy, Stupid, Love</string>
+            <string>Эта дурацкая любовь</string>
+          </InfoList>
           <Info>Crazy, Stupid, Love</Info>
           <TranslateInfo>Эта дурацкая любовь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -214,36 +373,69 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Guess the movie based on an excerpt from a negative review:
+The scenario is clearly copied from 'Knockin' on Heaven's Door': two old men, who will soon have to leave for another world, have just found out the approximate date of death.
+While in 'Knocking on Heaven's Door' the same thing happens to young guys who still have everything ahead of them. That is, the whole idea loses its relevance.
+The writers didn't even bother with any kind of philosophical hook. In their opinion, all you need in life is to have a blast
+      </string>
+        <string>
+Угадай фильм по отрывку из негативной рецензии:
+Сценарий явно слизан с 'Достучаться до небес': два старика, которым так и так в скором времени придется уходить в мир иной всего лишь навсего узнали приблизительную дату смерти. 
+В то время как в 'Достучаться до небес' тоже самое происходит с молодыми ребятами, у которых все еще впереди. Т. е. вся идея теряет свою актуальность.
+Сценаристы даже не потрудились над какой-нибудь философской зацепкой. По их мнению все что нужно в жизни - это оторваться напоследок
+      </string>
+      </ListInfoQuestion>
       <Info>
 Угадай фильм по отрывку из негативной рецензии:
 Сценарий явно слизан с 'Достучаться до небес': два старика, которым так и так в скором времени придется уходить в мир иной всего лишь навсего узнали приблизительную дату смерти. 
 В то время как в 'Достучаться до небес' тоже самое происходит с молодыми ребятами, у которых все еще впереди. Т. е. вся идея теряет свою актуальность.
 Сценаристы даже не потрудились над какой-нибудь философской зацепкой. По их мнению все что нужно в жизни - это оторваться напоследок
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Rob Reiner</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Knockin' On Heaven's Door</string>
+            <string>Достучаться до небес</string>
+          </InfoList>
           <Info>Knockin' On Heaven's Door</Info>
           <TranslateInfo>Достучаться до небес</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Magic of Belle Isle</string>
+            <string>Третий акт</string>
+          </InfoList>
           <Info>The Magic of Belle Isle</Info>
           <TranslateInfo>Третий акт</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Me Before You</string>
+            <string>До встречи с тобой</string>
+          </InfoList>
           <Info>Me Before You</Info>
           <TranslateInfo>До встречи с тобой</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Bucket List</string>
+            <string>Пока не сыграл в ящик</string>
+          </InfoList>
           <Info>The Bucket List</Info>
           <TranslateInfo>Пока не сыграл в ящик</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -253,32 +445,57 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>What number do you get if you add up the value from the movie: Night Shyamalan starring Bruce Willis?
+and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?</string>
+        <string>Какое число получится, если сложить значение из фильма: Найта Шьямалана с Брюсом Уилисом в главной роли
+и значение из фильма Дэвида Финчера с Бредом Питтом и Морганом Фриманом?</string>
+      </ListInfoQuestion>
       <Info>Какое число получится, если сложить значение из фильма: Найта Шьямалана с Брюсом Уилисом в главной роли
 и значение из фильма Дэвида Финчера с Бредом Питтом и Морганом Фриманом?</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Night Shyamalan</Director>
       <_cadrCinemaName>The Sixth Sense</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>14</string>
+            <string>14</string>
+          </InfoList>
           <Info>14</Info>
           <TranslateInfo>14</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>13</string>
+            <string>13</string>
+          </InfoList>
           <Info>13</Info>
           <TranslateInfo>13</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>11</string>
+            <string>11</string>
+          </InfoList>
           <Info>11</Info>
           <TranslateInfo>11</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>12</string>
+            <string>12</string>
+          </InfoList>
           <Info>12</Info>
           <TranslateInfo>12</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -288,31 +505,54 @@
       <Timer>60</Timer>
       <AddScore>40</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Bong Joon-ho</Director>
       <_cadrCinemaName>Parasite</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Okja</string>
+            <string>Окча</string>
+          </InfoList>
           <Info>Okja</Info>
           <TranslateInfo>Окча</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Parasite</string>
+            <string>Паразиты</string>
+          </InfoList>
           <Info>Parasite</Info>
           <TranslateInfo>Паразиты</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Memories of Murder</string>
+            <string>Воспоминания об убийстве</string>
+          </InfoList>
           <Info>Memories of Murder</Info>
           <TranslateInfo>Воспоминания об убийстве</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Mickey 17</string>
+            <string>Микки 17</string>
+          </InfoList>
           <Info>Mickey 17</Info>
           <TranslateInfo>Микки 17</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -322,31 +562,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Select all the actors/actresses who starred in the first part of Sin City</string>
+        <string>Выберите всех актеров/актрис, кто снимался в первой части Города Грехов </string>
+      </ListInfoQuestion>
       <Info>Выберите всех актеров/актрис, кто снимался в первой части Города Грехов </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Robert Rodriguez</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Jessica Alba</string>
+            <string>Джессика Альба</string>
+          </InfoList>
           <Info>Jessica Alba</Info>
           <TranslateInfo>Джессика Альба</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Sean Penn</string>
+            <string>Шон Пенн</string>
+          </InfoList>
           <Info>Sean Penn</Info>
           <TranslateInfo>Шон Пенн</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Bruce Willis</string>
+            <string>Брюс Уиллис</string>
+          </InfoList>
           <Info>Bruce Willis</Info>
           <TranslateInfo>Брюс Уиллис</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Jennifer Lopez</string>
+            <string>Дженнифер Лопес</string>
+          </InfoList>
           <Info>Jennifer Lopez</Info>
           <TranslateInfo>Дженнифер Лопес</TranslateInfo>
           <IsCorrect>false</IsCorrect>

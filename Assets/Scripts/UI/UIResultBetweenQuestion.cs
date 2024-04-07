@@ -153,7 +153,7 @@ namespace QuizCinema
 
                 _textQuestionUnCorrectPanel.CopyTextUncorrectAnswer.text = answers[0].InfoText.text;
 
-                _imageQuestionUnCorrect.UnCorrectImage.sprite = answers[0].GetCurrentImage.sprite;
+                _imageQuestionUnCorrect.UnCorrectImage.sprite = answers[0].CurrentImage.sprite;
             }
             else
             {
@@ -245,8 +245,8 @@ namespace QuizCinema
                 _textQuestionUnCorrectPanel.CopyTextCorrectAnswer.text = _correctAnswerSingle.InfoText.text;
                 _textQuestionCorrectPanel.CopyTextCorrectAnswer.text = _correctAnswerSingle.InfoText.text;
 
-                _imageQuestionUnCorrect.CorrectImage.sprite = _correctAnswerSingle.GetCurrentImage.sprite;
-                _imageQuestionCorrect.CorrectImage.sprite = _correctAnswerSingle.GetCurrentImage.sprite;
+                _imageQuestionUnCorrect.CorrectImage.sprite = _correctAnswerSingle.CurrentImage.sprite;
+                _imageQuestionCorrect.CorrectImage.sprite = _correctAnswerSingle.CurrentImage.sprite;
 
                 _textCinemaName.text = _correctAnswerSingle.InfoText.text;
             }
