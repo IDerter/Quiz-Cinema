@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelMap.unity
     guid: d280b5c1cf2e20043bbed7737674170a
   - enabled: 1
-    path: Assets/Scenes/Magazine.unity
+    path: Assets/Scenes/Shop.unity
     guid: 29dadfcb2b338924f9f2e8315c7f380a
   - enabled: 1
     path: Assets/Scenes/Journey/Bar1.unity

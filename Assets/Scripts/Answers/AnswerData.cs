@@ -22,7 +22,7 @@ namespace QuizCinema
         [SerializeField] private Sprite _uncheckedToggle;
         [SerializeField] private Sprite _checkedToggle;
         [SerializeField] private Image _currentImage;
-        public Image GetCurrentImage => _currentImage;
+        public Image CurrentImage { get { return _currentImage; } set { _currentImage = value; } }
 
         [Header("DisplayCorrect")]
         [SerializeField] private Sprite _unCorrectAnswer;

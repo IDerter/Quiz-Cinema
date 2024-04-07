@@ -10,11 +10,13 @@ namespace QuizCinema {
 
         private const int _countRemoveAnswer = 2;
 
+        private const int _indexPrefabImageQuestions = 3;
+
         protected override void OnCreateAnswers(Question question)
         {
             if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
             {
-                _boostSO = boost.GetBoostSO;
+                _boostSO = boost.GetSetBoostSO;
             }
 
             _currentQuestion = question;
@@ -24,10 +26,6 @@ namespace QuizCinema {
             if (_currentQuestion.IndexPrefab == 3 || _currentQuestion.GetAnswerType == AnswerType.Multiply)
             {
                 _buttonBoost.SetActive(false);
-            }
-            else
-            {
-                _buttonBoost.SetActive(true);
             }
         }
 
@@ -39,14 +37,22 @@ namespace QuizCinema {
 
             var listIndexCorrectAnswer = _currentQuestion.GetCorrectAnswers();
 
+            int indexPrefab = _currentQuestion.IndexPrefab;
+
             int currentAnswerIndex = 0;
             for (int i = 0; i < _currentQuestion.Answers.Length; i++)
             {
                 if (_currentQuestion.GetAnswerType == AnswerType.Single)
                 {
-                    if (listIndexCorrectAnswer[0] != i && currentAnswerIndex < _countRemoveAnswer)
+                    if (listIndexCorrectAnswer[0] != i && currentAnswerIndex < _countRemoveAnswer && indexPrefab != _indexPrefabImageQuestions)
                     {
                         currentAnswer[i].gameObject.SetActive(false);
+                        currentAnswerIndex++;
+                    }
+
+                    else if (listIndexCorrectAnswer[0] != i && currentAnswerIndex < _countRemoveAnswer)
+                    {
+                        currentAnswer[i].CurrentImage.enabled = false;
                         currentAnswerIndex++;
                     }
                 }

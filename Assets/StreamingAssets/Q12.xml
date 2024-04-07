@@ -4,27 +4,51 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Which actress's poster hung in the cell of Andy Defrain, the hero of "The Shawshank Redemption"?</string>
+        <string>Плакат с какой актрисой висел в камере Энди Дифрейна, героя "Побега из Шоушенка"?</string>
+      </ListInfoQuestion>
       <Info>Плакат с какой актрисой висел в камере Энди Дифрейна, героя "Побега из Шоушенка"?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Darabont</Director>
       <_cadrCinemaName>The Shawshank Redemption</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Marilyn Monroe</string>
+            <string>Мэрилин Монро</string>
+          </InfoList>
           <Info>Marilyn Monroe</Info>
           <TranslateInfo>Мэрилин Монро</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Ingrid Bergman</string>
+            <string>Ингрид Бергман</string>
+          </InfoList>
           <Info>Ingrid Bergman</Info>
           <TranslateInfo>Ингрид Бергман</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Rita Hayworth</string>
+            <string>Рита Хейворт</string>
+          </InfoList>
           <Info>Rita Hayworth</Info>
           <TranslateInfo>Рита Хейворт</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Loretta Young</string>
+            <string>Лоретта Янг</string>
+          </InfoList>
           <Info>Loretta Young</Info>
           <TranslateInfo>Лоретта Янг</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -34,31 +58,54 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a scene from a movie that did not star Patrick Swayze</string>
+        <string>Выберите кадр из фильма, где не снимался Патрик Суэйзи</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма, где не снимался Патрик Суэйзи</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Joel and Ethan Coen</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Dirty Dancing</string>
+            <string>Грязные танцы</string>
+          </InfoList>
           <Info>Dirty Dancing</Info>
           <TranslateInfo>Грязные танцы</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Ghost</string>
+            <string>Привидение</string>
+          </InfoList>
           <Info>Ghost</Info>
           <TranslateInfo>Привидение</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Point Break</string>
+            <string>На гребне волны</string>
+          </InfoList>
           <Info>Point Break</Info>
           <TranslateInfo>На гребне волны</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Step Up</string>
+            <string>Шаг вперед</string>
+          </InfoList>
           <Info>Step Up</Info>
           <TranslateInfo>Шаг вперед</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -68,31 +115,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Transformers (2007)</string>
+        <string>Выберите кадр из фильма Трансформеры (2007 года)</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Трансформеры (2007 года)</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Michael Bay</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Transformers</string>
+            <string>Трансформеры</string>
+          </InfoList>
           <Info>Transformers</Info>
           <TranslateInfo>Трансформеры</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Transformers Revenge of the Fallen</string>
+            <string>Трансформеры: Месть падших</string>
+          </InfoList>
           <Info>Transformers Revenge of the Fallen</Info>
           <TranslateInfo>Трансформеры: Месть падших</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Transformers Dark of the Moon</string>
+            <string>Трансформеры 3: Тёмная сторона Луны</string>
+          </InfoList>
           <Info>Transformers: Dark of the Moon</Info>
           <TranslateInfo>Трансформеры 3: Тёмная сторона Луны</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Transformers Age of Extinction</string>
+            <string>Трансформеры 4: Эпоха истребления</string>
+          </InfoList>
           <Info>Transformers Age of Extinction</Info>
           <TranslateInfo>Трансформеры 4: Эпоха истребления</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -102,31 +172,54 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Cloud Atlas directors</Director>
       <_cadrCinemaName>Cloud Atlas</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>The Terminal</string>
+            <string>Терминал</string>
+          </InfoList>
           <Info>The Terminal</Info>
           <TranslateInfo>Терминал</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Cast Away</string>
+            <string>Изгой</string>
+          </InfoList>
           <Info>Cast Away</Info>
           <TranslateInfo>Изгой</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Cloud Atlas</string>
+            <string>Облачный атлас</string>
+          </InfoList>
           <Info>Cloud Atlas</Info>
           <TranslateInfo>Облачный атлас</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Saving Private Ryan</string>
+            <string>Спасти рядового Райана</string>
+          </InfoList>
           <Info>Saving Private Ryan</Info>
           <TranslateInfo>Спасти рядового Райана</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -136,31 +229,54 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Select all the actors who played Vito Corleone</string>
+        <string>Выберите всех актеров игравших Вито Корлеоне</string>
+      </ListInfoQuestion>
       <Info>Выберите всех актеров игравших Вито Корлеоне</Info>
-      <NoteFilm> </NoteFilm>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
       <Director>Francis Ford Coppola</Director>
       <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Marlon Brando</string>
+            <string>Марлон Брандо</string>
+          </InfoList>
           <Info>Marlon Brando</Info>
           <TranslateInfo>Марлон Брандо</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Al Pacino</string>
+            <string>Аль Пачино</string>
+          </InfoList>
           <Info>Al Pacino</Info>
           <TranslateInfo>Аль Пачино</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Robert De Niro</string>
+            <string>Роберт Де Ниро</string>
+          </InfoList>
           <Info>Robert De Niro</Info>
           <TranslateInfo>Роберт Де Ниро</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Clint Eastwood</string>
+            <string>Клинт Иствуд</string>
+          </InfoList>
           <Info>Clint Eastwood</Info>
           <TranslateInfo>Клинт Иствуд</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -170,70 +286,126 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-      
-      <Question>
-        <IndexPrefab>0</IndexPrefab>
-        <_answerType>Single</_answerType>
-        <Info>Как зовут персонажа?</Info>
-        <NoteFilm />
-        <Director>James Cameron</Director>
-        <_cadrCinemaName>Terminator</_cadrCinemaName>
-        <Answers>
-          <Answer>
-            <Info>T-1800</Info>
-            <TranslateInfo>T-1800</TranslateInfo>
-            <IsCorrect>false</IsCorrect>
-          </Answer>
-          <Answer>
-            <Info>T-1000</Info>
-            <TranslateInfo>T-1000</TranslateInfo>
-            <IsCorrect>false</IsCorrect>
-          </Answer>
-          <Answer>
-            <Info>T-800</Info>
-            <TranslateInfo>T-800</TranslateInfo>
-            <IsCorrect>true</IsCorrect>
-          </Answer>
-          <Answer>
-            <Info>T-2000</Info>
-            <TranslateInfo>T-2000</TranslateInfo>
-            <IsCorrect>false</IsCorrect>
-          </Answer>
-        </Answers>
-        <UseTimer>true</UseTimer>
-        <Timer>30</Timer>
-        <AddScore>50</AddScore>
-      </Question>
-      
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>What is the character's name?</string>
+        <string>Как зовут персонажа?</string>
+      </ListInfoQuestion>
+      <Info>Как зовут персонажа?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>James Cameron</Director>
+      <_cadrCinemaName>Terminator</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>T-1800</string>
+            <string>T-1800</string>
+          </InfoList>
+          <Info>T-1800</Info>
+          <TranslateInfo>T-1800</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>T-1000</string>
+            <string>T-1000</string>
+          </InfoList>
+          <Info>T-1000</Info>
+          <TranslateInfo>T-1000</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>T-800</string>
+            <string>T-800</string>
+          </InfoList>
+          <Info>T-800</Info>
+          <TranslateInfo>T-800</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>T-2000</string>
+            <string>T-2000</string>
+          </InfoList>
+          <Info>T-2000</Info>
+          <TranslateInfo>T-2000</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Guess the movie based on the list of achievements:
+For the second time in the history of cinema, film academics give the main prize to a sequel (previously, The Godfather 2 (1974) received the prize).
+The record previously set by the films “Ben Hur” (1959) and “Titanic” (1997) was repeated - 11 Oscar awards.
+In February 2004, the film became the second in cinema history to gross over a billion dollars (Titanic (1997) was the first).
+      </string>
+        <string>
+Угадай фильм по списку достижений:
+Второй раз за всю историю кино главный приз киноакадемики отдают сиквелу (до этого премии удостаивался «Крестный отец 2» (1974)). 
+Повторился рекорд, установленный ранее картинами «Бен Гур» (1959) и «Титаник» (1997) — 11 наград Оскар.
+В феврале 2004 года фильм стал вторым в истории кинематографа, собравшим более миллиарда долларов (первопроходцем был «Титаник» (1997)).
+      </string>
+      </ListInfoQuestion>
       <Info>
 Угадай фильм по списку достижений:
 Второй раз за всю историю кино главный приз киноакадемики отдают сиквелу (до этого премии удостаивался «Крестный отец 2» (1974)). 
 Повторился рекорд, установленный ранее картинами «Бен Гур» (1959) и «Титаник» (1997) — 11 наград Оскар.
 В феврале 2004 года фильм стал вторым в истории кинематографа, собравшим более миллиарда долларов (первопроходцем был «Титаник» (1997)).
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Jackson</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>The Lord of the Rings: The Fellowship of the Ring</string>
+            <string>Властелин колец: Братсво кольца</string>
+          </InfoList>
           <Info>The Lord of the Rings: The Fellowship of the Ring</Info>
           <TranslateInfo>Властелин колец: Братсво кольца</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Lord of the Rings: The Two Towers</string>
+            <string>Властелин колец: Две крепости</string>
+          </InfoList>
           <Info>The Lord of the Rings: The Two Towers</Info>
           <TranslateInfo>Властелин колец: Две крепости</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Lord of the Rings: The Rings of Power</string>
+            <string>Властелин колец: Кольца власти</string>
+          </InfoList>
           <Info>The Lord of the Rings: The Rings of Power</Info>
           <TranslateInfo>Властелин колец: Кольца власти</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Lord of the Rings: The Return of the King</string>
+            <string>Властелин колец: Возвращение короля</string>
+          </InfoList>
           <Info>The Lord of the Rings: The Return of the King</Info>
           <TranslateInfo>Властелин колец: Возвращение короля</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -243,34 +415,63 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-      
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Logan director James Mangold emphasized in an interview that his film is an independent work
+and that “it’s not necessary to serve cheesecake at the end of every meal.”
+What did the director compare to cheesecake?</string>
+        <string>Режиссер «Логана» Джеймс Мэнголд в одном из интервью подчеркнул, что его фильм является самостоятельным произведением
+и что «совсем не обязательно подавать чизкейк в конце каждого обеда».
+А что режиссер сравнивал с чизкейком?</string>
+      </ListInfoQuestion>
       <Info>Режиссер «Логана» Джеймс Мэнголд в одном из интервью подчеркнул, что его фильм является самостоятельным произведением
 и что «совсем не обязательно подавать чизкейк в конце каждого обеда».
 А что режиссер сравнивал с чизкейком?</Info>
+      <ListNoteFilm>
+        <string>Post-credit scenes, usually hinting at a sequel, are a feature of MCU films, which includes Logan.
+Thus Mangold explained why there is no such scene in this film.</string>
+        <string>Сцены после титров, обычно намекающие на продолжение — фишка фильмов MCU, к которой относится и «Логан».
+Таким образом Мэнголд объяснял, почему в этом фильме такой сцены нет.</string>
+      </ListNoteFilm>
       <NoteFilm>Сцены после титров, обычно намекающие на продолжение — фишка фильмов MCU, к которой относится и «Логан».
 Таким образом Мэнголд объяснял, почему в этом фильме такой сцены нет.</NoteFilm>
       <Director>James Mangold</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Gift</string>
+            <string>Подарок</string>
+          </InfoList>
           <Info>Gift</Info>
           <TranslateInfo>Подарок</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Sequel</string>
+            <string>Продолжение</string>
+          </InfoList>
           <Info>Sequel</Info>
           <TranslateInfo>Продолжение</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Post-credits scene</string>
+            <string>Сцена после титров</string>
+          </InfoList>
           <Info>Post-credits scene</Info>
           <TranslateInfo>Сцена после титров</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Check</string>
+            <string>Счет</string>
+          </InfoList>
           <Info>Check</Info>
           <TranslateInfo>Счет</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -280,31 +481,54 @@
       <Timer>60</Timer>
       <AddScore>40</AddScore>
     </Question>
-      
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>David Yates</Director>
       <_cadrCinemaName>Fantastic Beasts and Where to Find Them</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Fantastic Beasts: The Crimes of Grindelwald</string>
+            <string>Фантастические твари: Преступления Грин-де-Вальда</string>
+          </InfoList>
           <Info>Fantastic Beasts: The Crimes of Grindelwald</Info>
           <TranslateInfo>Фантастические твари: Преступления Грин-де-Вальда</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Fantastic Beasts and Where to Find Them</string>
+            <string>Фантастические твари и где они обитают</string>
+          </InfoList>
           <Info>Fantastic Beasts and Where to Find Them</Info>
           <TranslateInfo>Фантастические твари и где они обитают</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Fantastic Beasts: The Secrets of Dumbledore</string>
+            <string>Фантастические твари: Тайны Дамблдора</string>
+          </InfoList>
           <Info>Fantastic Beasts: The Secrets of Dumbledore</Info>
           <TranslateInfo>Фантастические твари: Тайны Дамблдора</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Harry Potter and the Deathly Hallows: Part II</string>
+            <string>Гарри Поттер и Дары Смерти — Часть 2</string>
+          </InfoList>
           <Info>Harry Potter and the Deathly Hallows: Part II</Info>
           <TranslateInfo>Гарри Поттер и Дары Смерти — Часть 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -314,31 +538,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-      
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Select all the actors/actresses who starred in the movie: "Mission: Impossible - Fallout"</string>
+        <string>Выберите всех актеров/актрис, кто снимался в фильме: "Миссия невыполнима: Последствия"</string>
+      </ListInfoQuestion>
       <Info>Выберите всех актеров/актрис, кто снимался в фильме: "Миссия невыполнима: Последствия"</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Christopher McQuarrie</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Tom Cruise</string>
+            <string>Том Круз</string>
+          </InfoList>
           <Info>Tom Cruise</Info>
           <TranslateInfo>Том Круз</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Daniel Craig</string>
+            <string>Дэниел Крейг</string>
+          </InfoList>
           <Info>Daniel Craig</Info>
           <TranslateInfo>Дэниел Крейг</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Rebecca Ferguson</string>
+            <string>Ребекка Фергюсон</string>
+          </InfoList>
           <Info>Rebecca Ferguson</Info>
           <TranslateInfo>Ребекка Фергюсон</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Lea Seydoux</string>
+            <string>Леа Сейду</string>
+          </InfoList>
           <Info>Lea Seydoux</Info>
           <TranslateInfo>Леа Сейду</TranslateInfo>
           <IsCorrect>false</IsCorrect>

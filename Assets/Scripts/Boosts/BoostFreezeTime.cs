@@ -19,10 +19,10 @@ namespace QuizCinema
         {
             if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
             {
-                _boostSO = boost.GetBoostSO;
+                _boostSO = boost.GetSetBoostSO;
             }
 
-            _buttonBoost.SetActive(true);
+           // _buttonBoost.SetActive(true);
             //SwitchInteractable(true, _buttonBoost);
             Debug.Log("ÇÀÕÎÄÈÌ Â ONCREATEANSWERS Â BOOSTFREEZE!");
         }

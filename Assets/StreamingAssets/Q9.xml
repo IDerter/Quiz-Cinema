@@ -4,32 +4,66 @@
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the film based on actors/actresses and their characters:
+Ralph Fiennes - Monsieur Gustav, Tony Revolori - Zero Mustafa
+Saoirse Ronan - Agatha, Tilda Swinton - Madame D.
+Willem Dafoe - Jopling, Edward Norton - Inspector Henkels
+      </string>
+        <string>
+Назовите фильм по актерам/актрисам и их персонажам:
+Рэйф Файнс - мсье Густав, Тони Револори - Зеро Мустафа
+Сирша Ронан - Агата, Тильда Суинтон - Мадам Д.
+Уиллем Дефо -	Джоплинг, Эдвард Нортон - инспектор Хенкельс
+      </string>
+      </ListInfoQuestion>
       <Info>
 Назовите фильм по актерам/актрисам и их персонажам:
 Рэйф Файнс - мсье Густав, Тони Револори - Зеро Мустафа
 Сирша Ронан - Агата, Тильда Суинтон - Мадам Д.
 Уиллем Дефо -	Джоплинг, Эдвард Нортон - инспектор Хенкельс
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Wes Anderson</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>The Lovely Bones</string>
+            <string>Милые кости</string>
+          </InfoList>
           <Info>The Lovely Bones</Info>
           <TranslateInfo>Милые кости</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Grand Budapest Hotel</string>
+            <string>Отель «Гранд Будапешт»</string>
+          </InfoList>
           <Info>The Grand Budapest Hotel</Info>
           <TranslateInfo>Отель «Гранд Будапешт»</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The French Dispatch</string>
+            <string>Французский вестник</string>
+          </InfoList>
           <Info>The French Dispatch</Info>
           <TranslateInfo>Французский вестник</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Lady Bird</string>
+            <string>Леди Берд</string>
+          </InfoList>
           <Info>Lady Bird</Info>
           <TranslateInfo>Леди Берд</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -39,31 +73,54 @@
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the film The French Dispatch</string>
+        <string>Выберите кадр из фильма Французский вестник</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Французский вестник</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Wes Anderson</Director>
       <_cadrCinemaName>The French Dispatch</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Asteroid City</string>
+            <string>Город астероидов</string>
+          </InfoList>
           <Info>Asteroid City</Info>
           <TranslateInfo>Город астероидов</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Moonrise Kingdom</string>
+            <string>Королевство полной луны</string>
+          </InfoList>
           <Info>Moonrise Kingdom</Info>
           <TranslateInfo>Королевство полной луны</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Royal Tenenbaums</string>
+            <string>Семейка Тененбаум</string>
+          </InfoList>
           <Info>The Royal Tenenbaums</Info>
           <TranslateInfo>Семейка Тененбаум</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The French Dispatch</string>
+            <string>Французский вестник</string>
+          </InfoList>
           <Info>The French Dispatch</Info>
           <TranslateInfo>Французский вестник</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -73,31 +130,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from Star Wars: Episode VI - Return of the Jedi</string>
+        <string>Выберите кадр из фильма Звёздные войны: Эпизод VI - Возвращение джедая</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Звёздные войны: Эпизод VI - Возвращение джедая</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
       <NoteFilm />
       <Director>Richard Marquand</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Star Wars. Episode VI Return of the Jedi</string>
+            <string>Звёздные войны. Эпизод VI: Возвращение джедая</string>
+          </InfoList>
           <Info>Star Wars. Episode VI Return of the Jedi</Info>
           <TranslateInfo>Звёздные войны. Эпизод VI: Возвращение джедая</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Star Wars. Episode IV A New Hope</string>
+            <string>Звёздные войны. Эпизод IV: Новая надежда</string>
+          </InfoList>
           <Info>Star Wars. Episode IV A New Hope</Info>
           <TranslateInfo>Звёздные войны. Эпизод IV: Новая надежда</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Star Wars Episode III - Revenge of the Sith</string>
+            <string>Звёздные войны: Эпизод 3 — Месть ситхов</string>
+          </InfoList>
           <Info>Star Wars Episode III - Revenge of the Sith</Info>
           <TranslateInfo>Звёздные войны: Эпизод 3 — Месть ситхов</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Star Wars. Episode V The Empire Strikes Back</string>
+            <string>Звёздные войны: Эпизод 5 — Империя наносит ответный удар</string>
+          </InfoList>
           <Info>Star Wars. Episode V The Empire Strikes Back</Info>
           <TranslateInfo>Звёздные войны: Эпизод 5 — Империя наносит ответный удар</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -107,31 +187,54 @@
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Ridley Scott</Director>
       <_cadrCinemaName>Alien</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Alien 3</string>
+            <string>Чужой 3</string>
+          </InfoList>
           <Info>Alien 3</Info>
           <TranslateInfo>Чужой 3</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Aliens</string>
+            <string>Чужие</string>
+          </InfoList>
           <Info>Aliens</Info>
           <TranslateInfo>Чужие</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Alien</string>
+            <string>Чужой</string>
+          </InfoList>
           <Info>Alien</Info>
           <TranslateInfo>Чужой</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Thing</string>
+            <string>Нечто</string>
+          </InfoList>
           <Info>The Thing</Info>
           <TranslateInfo>Нечто</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -141,10 +244,25 @@
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the movie based on facts:
+At Scorsese's request, Joe Pesci himself came up with and filmed the scene where his character Tommy DeVito loses his temper to his favorite line, “You think I'm Funny?”
+Film company Warner Bros. refused to produce a film if one of the leading roles did not include a single Hollywood superstar.
+Then Scorsese remembered his close friend Robert De Niro, showed him the script, and asked who he wanted to see in the role of Jimmy Conway.
+De Niro read it and replied, “Myself.” Soon Warner Bros. agreed to finance the film.
+      </string>
+        <string>
+Назовите фильм по фактам:
+По просьбе Скорсезе Джо Пеши сам придумал и снял сцену, где его герой Томми ДеВито выходит из себя под любимую фразу «Думаешь, я забавный?»
+Кинокомпания Warner Bros. отказывалась продюсировать фильм, если в одной из ведущих ролей не будет ни одной суперзвезды Голливуда. 
+Тогда Скорсезе вспомнил о близком друге Роберте Де Ниро, показал ему сценарий, и спросил, кого он хочет видеть в роли Джимми Конуэя. 
+Де Ниро прочитал и ответил: «Самого себя». Вскоре Warner Bros. согласилась финансировать фильм.
+      </string>
+      </ListInfoQuestion>
       <Info>
 Назовите фильм по фактам:
 По просьбе Скорсезе Джо Пеши сам придумал и снял сцену, где его герой Томми ДеВито выходит из себя под любимую фразу «Думаешь, я забавный?»
@@ -152,26 +270,46 @@
 Тогда Скорсезе вспомнил о близком друге Роберте Де Ниро, показал ему сценарий, и спросил, кого он хочет видеть в роли Джимми Конуэя. 
 Де Ниро прочитал и ответил: «Самого себя». Вскоре Warner Bros. согласилась финансировать фильм.
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Scorsese</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>The Godfather Part II</string>
+            <string>Крёстный отец 2</string>
+          </InfoList>
           <Info>The Godfather Part II</Info>
           <TranslateInfo>Крёстный отец 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Goodfellas</string>
+            <string>Славные парни</string>
+          </InfoList>
           <Info>Goodfellas</Info>
           <TranslateInfo>Славные парни</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Once Upon a Time in America</string>
+            <string>Однажды в Америке</string>
+          </InfoList>
           <Info>Once Upon a Time in America</Info>
           <TranslateInfo>Однажды в Америке</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Taxi Driver</string>
+            <string>Таксист</string>
+          </InfoList>
           <Info>Taxi Driver</Info>
           <TranslateInfo>Таксист</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -181,31 +319,54 @@
       <Timer>60</Timer>
       <AddScore>40</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a scene from the movie Eternal Sunshine of the Spotless Mind</string>
+        <string>Выберите кадр из фильма Вечное сияние чистого разума</string>
+      </ListInfoQuestion>
       <Info>Выберите кадр из фильма Вечное сияние чистого разума</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Michel Gondry</Director>
       <_cadrCinemaName>Eternal Sunshine of the Spotless Mind</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Eternal Sunshine of the Spotless Mind</string>
+            <string>Вечное сияние чистого разума</string>
+          </InfoList>
           <Info>Eternal Sunshine of the Spotless Mind</Info>
           <TranslateInfo>Вечное сияние чистого разума</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Bruce Almighty</string>
+            <string>Брюс Всемогущий</string>
+          </InfoList>
           <Info>Bruce Almighty</Info>
           <TranslateInfo>Брюс Всемогущий</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Yes Man</string>
+            <string>Всегда говори «да»</string>
+          </InfoList>
           <Info>Yes Man</Info>
           <TranslateInfo>Всегда говори «да»</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Me, Myself and Irene</string>
+            <string>Я, снова я и Ирэн</string>
+          </InfoList>
           <Info>Me, Myself and Irene</Info>
           <TranslateInfo>Я, снова я и Ирэн</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -215,35 +376,66 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Guess the movie by its slogan:
+How to stop a murderer if he is already behind bars?
+2009 film with Gerard Butler
+      </string>
+        <string>
+Угадай фильм по слогану:
+Как остановить убийцу, если он уже за решеткой?
+Фильм 2009 года с Джерардом Батлером
+      </string>
+      </ListInfoQuestion>
       <Info>
 Угадай фильм по слогану:
 Как остановить убийцу, если он уже за решеткой?
 Фильм 2009 года с Джерардом Батлером
       </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Gary Gray</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>The Silence of the Lambs</string>
+            <string>Молчание ягнят</string>
+          </InfoList>
           <Info>The Silence of the Lambs</Info>
           <TranslateInfo>Молчание ягнят</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>300</string>
+            <string>300 спартанцев</string>
+          </InfoList>
           <Info>300</Info>
           <TranslateInfo>300 спартанцев</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Zodiac</string>
+            <string>Зодиак</string>
+          </InfoList>
           <Info>Zodiac</Info>
           <TranslateInfo>Зодиак</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Law Abiding Citizen</string>
+            <string>Законопослушный гражданин</string>
+          </InfoList>
           <Info>Law Abiding Citizen</Info>
           <TranslateInfo>Законопослушный гражданин</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -253,31 +445,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>How many Middle-earth films has Peter Jackson made?</string>
+        <string>Сколько Питер Джексон снял фильмов о Средиземье?</string>
+      </ListInfoQuestion>
       <Info>Сколько Питер Джексон снял фильмов о Средиземье?</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Jackson</Director>
       <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>3</string>
+            <string>3</string>
+          </InfoList>
           <Info>3</Info>
           <TranslateInfo>3</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>6</string>
+            <string>6</string>
+          </InfoList>
           <Info>6</Info>
           <TranslateInfo>6</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>5</string>
+            <string>5</string>
+          </InfoList>
           <Info>5</Info>
           <TranslateInfo>5</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>4</string>
+            <string>4</string>
+          </InfoList>
           <Info>4</Info>
           <TranslateInfo>4</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -287,31 +502,54 @@
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Jackson</Director>
       <_cadrCinemaName>The Lord of the Rings The Return of the King</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Lord of the Rings The Fellowship of the ring</string>
+            <string>Властелин колец: Братство Кольца</string>
+          </InfoList>
           <Info>Lord of the Rings The Fellowship of the ring</Info>
           <TranslateInfo>Властелин колец: Братство Кольца</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Lord of the Rings The Return of the King</string>
+            <string>Властелин колец: Возвращение короля</string>
+          </InfoList>
           <Info>The Lord of the Rings The Return of the King</Info>
           <TranslateInfo>Властелин колец: Возвращение короля</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Lord of the Rings: The Two Towers</string>
+            <string>Властелин колец: Две крепости</string>
+          </InfoList>
           <Info>The Lord of the Rings: The Two Towers</Info>
           <TranslateInfo>Властелин колец: Две крепости</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>The Hobbit: An Unexpected Journey</string>
+            <string>Хоббит: Нежданное путешествие</string>
+          </InfoList>
           <Info>The Hobbit: An Unexpected Journey</Info>
           <TranslateInfo>Хоббит: Нежданное путешествие</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -321,31 +559,54 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Select the actors who appeared in all of Peter Jackson's Middle-earth films</string>
+        <string>Выберите тех актеров кто появлялся во всех фильмах про Средиземье Питера Джексона</string>
+      </ListInfoQuestion>
       <Info>Выберите тех актеров кто появлялся во всех фильмах про Средиземье Питера Джексона</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Jackson</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
+          <InfoList>
+            <string>Ian McKellen</string>
+            <string>Иэн Маккеллен</string>
+          </InfoList>
           <Info>Ian McKellen</Info>
           <TranslateInfo>Иэн Маккеллен</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Viggo Mortensen</string>
+            <string>Вигго Мортенсен</string>
+          </InfoList>
           <Info>Viggo Mortensen</Info>
           <TranslateInfo>Вигго Мортенсен</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Orlando Bloom</string>
+            <string>Орландо Блум</string>
+          </InfoList>
           <Info>Orlando Bloom</Info>
           <TranslateInfo>Орландо Блум</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
+          <InfoList>
+            <string>Martin Freeman</string>
+            <string>Мартин Фриман</string>
+          </InfoList>
           <Info>Martin Freeman</Info>
           <TranslateInfo>Мартин Фриман</TranslateInfo>
           <IsCorrect>false</IsCorrect>

@@ -12,31 +12,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Thomas Jahn</Director>
       <_cadrCinemaName>Knockin on Heavens Door</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Knockin' On Heaven's Door</string>
+            <string>Достучаться до небес</string>
+          </InfoList>
           <Info>Knockin' On Heaven's Door</Info>
           <TranslateInfo>Достучаться до небес</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Barefoot</string>
+            <string>Босиком по мостовой</string>
+          </InfoList>
           <Info>Barefoot</Info>
           <TranslateInfo>Босиком по мостовой</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Men in Black</string>
+            <string>Люди в черном 1</string>
+          </InfoList>
           <Info>Men in Black</Info>
           <TranslateInfo>Люди в черном 1</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Men in Black II</string>
+            <string>Люди в черном 2</string>
+          </InfoList>
           <Info>Men in Black II</Info>
           <TranslateInfo>Люди в черном 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -57,31 +70,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Guy Ritchie</Director>
       <_cadrCinemaName>Snatch</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Revolver</string>
+            <string>Револьвер</string>
+          </InfoList>
           <Info>Revolver</Info>
           <TranslateInfo>Револьвер</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>The Gentlemen</string>
+            <string>Джентльмены</string>
+          </InfoList>
           <Info>The Gentlemen</Info>
           <TranslateInfo>Джентльмены</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Lock, Stock and Two Smoking Barrels</string>
+            <string>Карты, деньги, два ствола</string>
+          </InfoList>
           <Info>Lock, Stock and Two Smoking Barrels</Info>
           <TranslateInfo>Карты, деньги, два ствола</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Snatch</string>
+            <string>Большой куш</string>
+          </InfoList>
           <Info>Snatch</Info>
           <TranslateInfo>Большой куш</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -102,31 +128,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Dunkan Jones</Director>
       <_cadrCinemaName>Warcraft</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>The Hobbit: The Battle of the Five Armies</string>
+            <string>Хоббит: Битва пяти воинств</string>
+          </InfoList>
           <Info>The Hobbit: The Battle of the Five Armies</Info>
           <TranslateInfo>Хоббит: Битва пяти воинств</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>The Hobbit: An Unexpected Journey</string>
+            <string>Хоббит: Нежданное путешествие</string>
+          </InfoList>
           <Info>The Hobbit: An Unexpected Journey</Info>
           <TranslateInfo>Хоббит: Нежданное путешествие</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Warcraft</string>
+            <string>Варкрафт</string>
+          </InfoList>
           <Info>Warcraft</Info>
           <TranslateInfo>Варкрафт</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>The Hobbit: The Desolation of Smaug</string>
+            <string>Хоббит: Пустошь Смауга</string>
+          </InfoList>
           <Info>The Hobbit: The Desolation of Smaug</Info>
           <TranslateInfo>Хоббит: Пустошь Смауга</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -147,31 +186,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Lasse Hallstrom</Director>
       <_cadrCinemaName>Hachi A Dog's Tale</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Eight Below</string>
+            <string>Белый плен</string>
+          </InfoList>
           <Info>Eight Below</Info>
           <TranslateInfo>Белый плен</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Marley and Me</string>
+            <string>Марли и я</string>
+          </InfoList>
           <Info>Marley and Me</Info>
           <TranslateInfo>Марли и я</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>A Dog's Purpose</string>
+            <string>Собачья жизнь</string>
+          </InfoList>
           <Info>A Dog's Purpose</Info>
           <TranslateInfo>Собачья жизнь</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Hachi A Dog's Tale</string>
+            <string>Хатико: Самый верный друг</string>
+          </InfoList>
           <Info>Hachi A Dog's Tale</Info>
           <TranslateInfo>Хатико: Самый верный друг</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -192,31 +244,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Andres Muschietti</Director>
       <_cadrCinemaName>It</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>It</string>
+            <string>Оно</string>
+          </InfoList>
           <Info>It</Info>
           <TranslateInfo>Оно</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Misery</string>
+            <string>Мизери</string>
+          </InfoList>
           <Info>Misery</Info>
           <TranslateInfo>Мизери</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Pet Sematary</string>
+            <string>Кладбище домашних животных</string>
+          </InfoList>
           <Info>Pet Sematary</Info>
           <TranslateInfo>Кладбище домашних животных</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Friday the 13th</string>
+            <string>Пятница 13-е</string>
+          </InfoList>
           <Info>Friday the 13th</Info>
           <TranslateInfo>Пятница 13-е</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -237,31 +302,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Gor Verbinski</Director>
       <_cadrCinemaName>Pirates of the Caribbean The Curse of The Black Pearl</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Pirates of the Caribbean The Curse of The Black Pearl</string>
+            <string>Пираты Карибского моря: Проклятие Черной жемчужины</string>
+          </InfoList>
           <Info>Pirates of the Caribbean The Curse of The Black Pearl</Info>
           <TranslateInfo>Пираты Карибского моря: Проклятие Черной жемчужины</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Pirates of the Caribbean: Dead Man's Chest</string>
+            <string>Пираты Карибского моря: Сундук мертвеца</string>
+          </InfoList>
           <Info>Pirates of the Caribbean: Dead Man's Chest</Info>
           <TranslateInfo>Пираты Карибского моря: Сундук мертвеца</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Pirates of the Caribbean: At World's End</string>
+            <string>Пираты Карибского моря: На краю света</string>
+          </InfoList>
           <Info>Pirates of the Caribbean: At World's End</Info>
           <TranslateInfo>Пираты Карибского моря: На краю света</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Pirates of the Caribbean: On Stranger Tides</string>
+            <string>Пираты Карибского моря: На странных берегах</string>
+          </InfoList>
           <Info>Pirates of the Caribbean: On Stranger Tides</Info>
           <TranslateInfo>Пираты Карибского моря: На странных берегах</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -282,31 +360,44 @@
       <ListNoteFilm>
         <string>-</string>
         <string>-</string>
+        <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <Director>Greta Gerwig</Director>
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Barbie</string>
+            <string>Барби</string>
+          </InfoList>
           <Info>Barbie</Info>
           <TranslateInfo>Барби</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)</string>
+            <string>Хищные птицы: Потрясающая история Харли Квинн</string>
+          </InfoList>
           <Info>Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)</Info>
           <TranslateInfo>Хищные птицы: Потрясающая история Харли Квинн</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Babylon</string>
+            <string>Вавилон</string>
+          </InfoList>
           <Info>Babylon</Info>
           <TranslateInfo>Вавилон</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Focus</string>
+            <string>Фокус</string>
+          </InfoList>
           <Info>Focus</Info>
           <TranslateInfo>Фокус</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -327,31 +418,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Ridley Scott</Director>
       <_cadrCinemaName>Gladiator</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Robin Hood</string>
+            <string>Робин Гуд</string>
+          </InfoList>
           <Info>Robin Hood</Info>
           <TranslateInfo>Робин Гуд</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>A Beautiful Mind</string>
+            <string>Игры разума</string>
+          </InfoList>
           <Info>A Beautiful Mind</Info>
           <TranslateInfo>Игры разума</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Ben-Hur</string>
+            <string>Бен Гур</string>
+          </InfoList>
           <Info>Ben-Hur</Info>
           <TranslateInfo>Бен Гур</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Gladiator</string>
+            <string>Гладиатор</string>
+          </InfoList>
           <Info>Gladiator</Info>
           <TranslateInfo>Гладиатор</TranslateInfo>
           <IsCorrect>true</IsCorrect>
@@ -372,31 +476,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Alejandro Gonzalez Iñarritu</Director>
       <_cadrCinemaName>The Revenant</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>The Revenant</string>
+            <string>Выживший</string>
+          </InfoList>
           <Info>The Revenant</Info>
           <TranslateInfo>Выживший</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Only the Brave</string>
+            <string>Дело храбрых</string>
+          </InfoList>
           <Info>Only the Brave</Info>
           <TranslateInfo>Дело храбрых</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Gone</string>
+            <string>Игра на выживание</string>
+          </InfoList>
           <Info>Gone</Info>
           <TranslateInfo>Игра на выживание</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Into the Wild</string>
+            <string>В диких условиях</string>
+          </InfoList>
           <Info>Into the Wild</Info>
           <TranslateInfo>В диких условиях</TranslateInfo>
           <IsCorrect>false</IsCorrect>
@@ -417,31 +534,44 @@
       <ListNoteFilm>
         <string />
         <string />
+        <string />
       </ListNoteFilm>
       <NoteFilm />
       <Director>Chris Columbus</Director>
       <_cadrCinemaName>Home-Alone-1</_cadrCinemaName>
       <Answers>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Home Alone 2: Lost in New York</string>
+            <string>Один дома 2: Затерянный в Нью-Йорке</string>
+          </InfoList>
           <Info>Home Alone 2: Lost in New York</Info>
           <TranslateInfo>Один дома 2: Затерянный в Нью-Йорке</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Home Alone 1</string>
+            <string>Один дома 1</string>
+          </InfoList>
           <Info>Home Alone 1</Info>
           <TranslateInfo>Один дома 1</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Home Alone 3</string>
+            <string>Один дома 3</string>
+          </InfoList>
           <Info>Home Alone 3</Info>
           <TranslateInfo>Один дома 3</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <InfoList />
+          <InfoList>
+            <string>Hugh Hefner</string>
+            <string>Хью Хефнер</string>
+          </InfoList>
           <Info>Hugh Hefner</Info>
           <TranslateInfo>Хью Хефнер</TranslateInfo>
           <IsCorrect>false</IsCorrect>

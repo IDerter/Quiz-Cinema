@@ -74,6 +74,72 @@ MonoBehaviour:
   - _episodeID: 1
     _stars: 0
     _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  _completionDataUnity:
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl1_1
+    _maxScoreLvl: 0
+  - _episodeID: 1
+    _stars: 0
+    _scoreLvl: 0
     _lvlName: Lvl1_2
     _maxScoreLvl: 0
   - _episodeID: 1
@@ -175,6 +241,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 97c344234f0594b4cbfcb635ccae5e00, type: 2}
   - {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}
   - {fileID: 11400000, guid: 5512489dc86362b4bb5b4b0dc476f6ef, type: 2}
+  - {fileID: 11400000, guid: 42582c2e79f398f42b9c53b92e7e8d60, type: 2}
 --- !u!114 &8104546772669979310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,28 +255,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
-  save:
-  - boostCorrectAnswerName: Correct Answer
-    countBoost: 0
-    costAllBost: 0
-  - boostCorrectAnswerName: Freeze Time
-    countBoost: 0
-    costAllBost: 0
-  - boostCorrectAnswerName: Stop Time
-    countBoost: 0
-    costAllBost: 0
+  _save:
   - boostCorrectAnswerName: 50 on 50
     countBoost: 0
     costAllBost: 0
+    countInInventory: 0
   - boostCorrectAnswerName: 50 percent
     countBoost: 0
     costAllBost: 0
+    countInInventory: 0
   - boostCorrectAnswerName: Add Score
     countBoost: 0
     costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: Correct Answer
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: Freeze Time
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
   - boostCorrectAnswerName: Info
     countBoost: 0
     costAllBost: 0
-  - boostCorrectAnswerName: Test5
+    countInInventory: 0
+  - boostCorrectAnswerName: Stop Time
     countBoost: 0
     costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: 
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  _mainSave:
+  - boostCorrectAnswerName: 50 on 50
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: 50 percent
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: Add Score
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: Correct Answer
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: Freeze Time
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: Info
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: Stop Time
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: 
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: 
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  - boostCorrectAnswerName: 
+    countBoost: 0
+    costAllBost: 0
+    countInInventory: 0
+  _saveBoosts:
+    _listBoosts:
+    - 
+    - 
+    - 
+  _mainSaveBoosts:
+    _listBoosts:
+    - 
+    - 
+    - 
+    - 

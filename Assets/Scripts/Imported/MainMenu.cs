@@ -1,3 +1,4 @@
+using QuizCinema;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -14,7 +15,7 @@ namespace TowerDefense
 
         private const string _sceneLevelMap = "LevelMap";
         private const string _sceneMainMenu = "MainMenu";
-        private const string _sceneMagazine = "Magazine";
+        private const string _sceneShop = "Shop";
 
         private void Start()
         {
@@ -26,6 +27,9 @@ namespace TowerDefense
         public void NewGame()
         {
             FileHandler.Reset(MapCompletion.Instance.FileName);
+
+            BoostsManager.Instance.ResetBoostSave();
+            BoostsManager.Instance.ResetListSaveBoosts();
 
             MapCompletion.ResetEpisodeResult();
             SceneManager.LoadScene(_sceneLevelMap);
@@ -46,7 +50,7 @@ namespace TowerDefense
 
         public void OpenSceneMagazine()
         {
-            SceneManager.LoadScene(_sceneMagazine);
+            SceneManager.LoadScene(_sceneShop);
         }
 
         public void OpenMainMenu()

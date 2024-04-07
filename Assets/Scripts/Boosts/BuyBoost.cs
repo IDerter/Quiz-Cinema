@@ -18,6 +18,11 @@ namespace QuizCinema
 
         private int _costNumber; // цена покупки улучшения
 
+        private void Start()
+        {
+            Initialize();
+        }
+
         public void Initialize()
         {
             Debug.Log(_asset.name.ToString());
