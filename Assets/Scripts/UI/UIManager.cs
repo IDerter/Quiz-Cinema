@@ -155,7 +155,7 @@ namespace QuizCinema
             var currentEpisode = LevelSequenceController.Instance.CurrentEpisode;
             var sceneName = SceneManager.GetActiveScene().name;
 
-            _uIElements.CountCurrentAnswer.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
+            _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
         }
 
         private void UpdateFinishScreen()
@@ -204,9 +204,9 @@ namespace QuizCinema
         private void UpdateScoreUI()
         {
             if (_gameManager.CountCorrectAnswer <= _questionMethods.Data.Questions.Length)
-                _uIElements.CountCurrentAnswer.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
+                _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
 
-            _uIElements.ScoreCurrentLvl.text = _score.CurrentLvlScore.ToString();
+            _uIElements.CountCurrentScore.text = _score.CurrentLvlScore.ToString();
 
             _uIElements.ScoreFinalLvl.text = _score.CurrentLvlScore.ToString();
         }
