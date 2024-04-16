@@ -40,7 +40,13 @@ namespace TowerDefense
         [SerializeField] private int _totalStars;
         public int TotalStars => _totalStars;
         [SerializeField] private int _totalScoreLvls;
-        public int TotalScoreLvls { get { return _totalScoreLvls; } set { _totalScoreLvls = value; } }
+        public int TotalScoreLvls { get { return _totalScoreLvls; } 
+            set 
+            {
+                _totalScoreLvls = Mathf.Clamp(_totalScoreLvls, 0, int.MaxValue);
+                _totalScoreLvls = value; 
+            }
+        }
 
         [SerializeField] private int _moneyShop;
         public int MoneyShop { get { return _moneyShop; } set { _moneyShop = value; } }
@@ -90,8 +96,8 @@ namespace TowerDefense
             {
                 for (int i = 0; i < _completionData.Length; i++)
                 {
-                    Debug.Log(_completionDataUnity[i].LvlName + _completionData[i].LvlName);
                     _completionDataUnity[i] = _completionData[i];
+
                     
                 }
             }
@@ -112,9 +118,9 @@ namespace TowerDefense
                 
                 foreach (var item in Instance._completionDataUnity)
                 {
-                    Debug.Log(i + " index of levels" + item.LvlName);
+                   // Debug.Log(i + " index of levels" + item.LvlName);
                     Episode episode = StorageEpisode.Instance.GetEpisodes[item.EpisodeID - 1];
-                    Debug.Log(episode.Levels.Length);
+                   // Debug.Log(episode.Levels.Length);
                     if (i >= 5)
                         i = 0;
 
@@ -140,9 +146,9 @@ namespace TowerDefense
 
                 foreach (var item in Instance._completionData)
                 {
-                    Debug.Log(i + " index of levels");
+                  //  Debug.Log(i + " index of levels");
                     Episode episode = StorageEpisode.Instance.GetEpisodes[item.EpisodeID - 1];
-                    Debug.Log(episode.Levels.Length);
+                  //  Debug.Log(episode.Levels.Length);
                     if (i >= 5)
                         i = 0;
 
@@ -153,7 +159,7 @@ namespace TowerDefense
 
                         var score = item.ScoreLvl;
                         item.MaxScoreLvl = score > item.MaxScoreLvl ? score : item.MaxScoreLvl;
-                        Debug.Log($"Current score {score} MaxScore {item.MaxScoreLvl}");
+                       // Debug.Log($"Current score {score} MaxScore {item.MaxScoreLvl}");
                     }
                     i++;
 

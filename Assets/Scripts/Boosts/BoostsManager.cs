@@ -70,8 +70,6 @@ namespace QuizCinema
 
         }
 
-
-
         private void Start()
         {
             if (BoostInventory.Instance != null)
@@ -86,22 +84,20 @@ namespace QuizCinema
 
         public void ResetBoostSave()
         {
-            foreach (var boost in Instance._mainSave)
+            ResetBoostValues(ref Instance._mainSave);
+
+            ResetBoostValues(ref Instance._save);
+        }
+
+        private void ResetBoostValues(ref BoostSave[] boostList)
+        {
+            for (int i = 0; i < boostList.Length; i++)
             {
-                boost.countBoost = 0;
-                boost.countInInventory = 0;
-                boost.costAllBost = 0;
+                boostList[i].costAllBost = 0;
+                boostList[i].countBoost = 0;
+                boostList[i].countInInventory = 0;
 
-                Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
-            }
-
-            foreach (var boost in Instance._save)
-            {
-                boost.countBoost = 0;
-                boost.countInInventory = 0;
-                boost.costAllBost = 0;
-
-                Saver<BoostSave[]>.Save(fileName, Instance._save);
+                Saver<BoostSave[]>.Save(fileName, boostList);
             }
         }
 
@@ -127,6 +123,8 @@ namespace QuizCinema
             Debug.Log("Save List Boosts");
             OnPressButtonBoost?.Invoke();
         }
+
+
 
         public static void BuyBoost(BoostSO asset)
         {

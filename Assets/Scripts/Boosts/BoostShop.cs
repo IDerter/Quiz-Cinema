@@ -22,8 +22,17 @@ namespace QuizCinema
             UpdateMoney();
         }
 
+        private void OnDestroy()
+        {
+            foreach (var slot in _sales)
+            {
+                slot.GetButton.onClick.RemoveListener(UpdateMoney);
+            }
+        }
+
         public void UpdateMoney()
         {
+            // Странная система, нужно сохранять MoneyShop и не пересчитывать его миллион раз
             MapCompletion.Instance.MoneyShop = 0;
             print("Update");
             _money = MapCompletion.Instance.TotalScoreLvls;

@@ -249,16 +249,16 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
         <string>
-Угадай фильм по краткому описанию сюжета:
-Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга.
-Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени.
-Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
-      </string>
-        <string>
 Guess the movie based on a brief description of the plot:
 A terrible car accident put an end to the career of a successful neurosurgeon.
 Desperate, he goes on a journey in search of healing and discovers incredible abilities to transform space and time.
 Now he is a link between parallel dimensions, and his mission is to protect the inhabitants of the Earth and counteract evil, whatever guise it may take.
+      </string>
+        <string>
+Угадай фильм по краткому описанию сюжета:
+Страшная автокатастрофа поставила крест на карьере успешного нейрохирурга.
+Отчаявшись, он отправляется в путешествие в поисках исцеления и открывает в себе невероятные способности к трансформации пространства и времени.
+Теперь он — связующее звено между параллельными измерениями, а его миссия — защищать жителей Земли и противодействовать злу, какое бы обличие оно ни принимало.
       </string>
       </ListInfoQuestion>
       <Info>
@@ -445,6 +445,7 @@ While the actor was working on the film, he remained “blind” even outside th
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -511,6 +512,7 @@ He refused to take part in the filming if the ending of the film was changed.</s
       <Timer>60</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>

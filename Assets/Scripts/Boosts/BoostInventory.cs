@@ -3,10 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using TowerDefense;
 using UnityEngine;
+using static QuizCinema.InterfaceBoost;
 
 namespace QuizCinema
 {
-    public class BoostInventory : SingletonBase<BoostInventory>
+    public class BoostInventory : SingletonBase<BoostInventory>, IBoostInventory
     {
         public event Action OnSaveListBoosts;
 
@@ -14,19 +15,20 @@ namespace QuizCinema
         public BoostUICount[] ListBoosts {get { return _listBoosts; } set { _listBoosts = value; } }
         [SerializeField] private BoostUICount[] _listInventoryBoosts;
 
+        [SerializeField] private BoostUICount[] _boostsActive;
+
+
         private int _lenListBoosts = 3;
 
         protected override void Awake()
         {
             base.Awake();
-
-           // _listBoosts = new BoostUICount[3];
             
         }
         private void Start()
         {
             Debug.Log("In BoostInventory LoadInventory - Start Method");
-            ActiveBoostsInLvl.Instance.LoadInventory();
+            LoadInventory();
 
             for (int i = 0; i < _listBoosts.Length; i++)
             {
@@ -74,6 +76,23 @@ namespace QuizCinema
 
                     OnSaveListBoosts?.Invoke();
                     break;
+                }
+            }
+        }
+
+        public void LoadInventory()
+        {
+            var boostsList = BoostsManager.Instance.MainSaveListBoosts._listBoosts;
+
+            for (int i = 0; i < _boostsActive.Length; i++)
+            {
+                for (int j = 0; j < _lenListBoosts; j++)
+                {
+                    if (_boostsActive[i].GetSetBoostSO.name == boostsList[j])
+                    {
+                        Instance.ListBoosts[j] = _boostsActive[i];
+                        Debug.Log(Instance.ListBoosts[j].GetSetBoostSO.ToString());
+                    }
                 }
             }
         }

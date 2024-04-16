@@ -26,19 +26,10 @@ namespace QuizCinema
         [SerializeField] private Animator _resolutionScreenAnimator;
         public Animator ResolutionScreenAnimator => _resolutionScreenAnimator;
 
-        [SerializeField] private Image _resolutionBG;
-        public Image ResolutionBG => _resolutionBG;
-        [SerializeField] private TextMeshProUGUI _resolutionStateInfoText;
-        public TextMeshProUGUI ResolutionStateInfoText => _resolutionStateInfoText;
-
-        [SerializeField] private TextMeshProUGUI _resolutionScoreText;
-        public TextMeshProUGUI ResolutionScoreText => _resolutionScoreText;
 
         [SerializeField] private TextMeshProUGUI _textFinalLvl;
         public TextMeshProUGUI TextFinalLvl { get { return _textFinalLvl; } set { _textFinalLvl = value; } }
 
-        [SerializeField] private TextMeshProUGUI _textSuccessLvl;
-        public TextMeshProUGUI TextSuccessLvl { get { return _textSuccessLvl; } set { _textSuccessLvl = value; } }
         [Space]
         [Header("Score")]
         [SerializeField] private TextMeshProUGUI _scoreFinalLvl;
@@ -46,9 +37,6 @@ namespace QuizCinema
 
         [SerializeField] private TextMeshProUGUI _scoreCurrentLvl;
         public TextMeshProUGUI ScoreCurrentLvl => _scoreCurrentLvl;
-
-        [SerializeField] private TextMeshProUGUI _highScoreText;
-        public TextMeshProUGUI HighScoreText => _highScoreText;
 
         [SerializeField] private RectTransform _finishUIElements;
         public RectTransform FinishUIElements => _finishUIElements;

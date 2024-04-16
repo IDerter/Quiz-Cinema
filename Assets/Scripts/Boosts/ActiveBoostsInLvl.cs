@@ -2,10 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static QuizCinema.InterfaceBoost;
 
 namespace QuizCinema
 {
-    public class ActiveBoostsInLvl : SingletonBase<ActiveBoostsInLvl>
+    public class ActiveBoostsInLvl : SingletonBase<ActiveBoostsInLvl>, IBoostInLvl
     {
         [SerializeField] private BoostUICount[] _boostsActive;
         [SerializeField] private Transform[] _sceneBoosts;
@@ -22,12 +23,17 @@ namespace QuizCinema
             _answersMethods.OnCreateAnswers += OnCreateAnswers;
         }
 
-        private void Start()
+        private void OnCreateAnswers(Question obj)
         {
-            
+            Activate();
         }
 
-        private void OnCreateAnswers(Question obj)
+        private void OnDestroy()
+        {
+            _answersMethods.OnCreateAnswers -= OnCreateAnswers;
+        }
+
+        public void Activate()
         {
             if (_isCreateBoost == false)
             {
@@ -43,18 +49,17 @@ namespace QuizCinema
                             var boost = Instantiate(_boostsActive[i], _sceneBoosts[j]);
 
 
-                             boost.gameObject.SetActive(true);
+                            boost.gameObject.SetActive(true);
                             // _boostsActive[i].gameObject.SetActive(true);
                         }
                     }
                 }
             }
-             _isCreateBoost = true;
+            _isCreateBoost = true;
         }
 
         public void LoadInventory()
         {
-            // ¡¿√ —Œ —œ¿¬ÕŒÃ _ —œ¿¬Õ À»ÿÕ»’ ›À≈Ã≈Õ“Œ¬ —ƒ≈À¿“‹ BREAK » Œ√–¿Õ»◊≈Õ»≈
             var boostsList = BoostsManager.Instance.MainSaveListBoosts._listBoosts;
 
             for (int i = 0; i < _boostsActive.Length; i++)
@@ -68,11 +73,6 @@ namespace QuizCinema
                     }
                 }
             }
-        }
-
-        private void OnDestroy()
-        {
-            _answersMethods.OnCreateAnswers -= OnCreateAnswers;
         }
     }
 }

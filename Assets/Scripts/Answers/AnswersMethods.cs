@@ -19,15 +19,14 @@ namespace QuizCinema
 
         [Header("UI Elements (Prefabs)")]
         [SerializeField] private AnswerData[] _answerPrefab;
-        [SerializeField] private UIElements _uIElements;
+        [SerializeField] private RectTransform[] _answerContentArea;
+        public RectTransform[] AnswerContentArea => _answerContentArea;
 
         public void Construct(AnswerData obj)
         {
             var index = obj.AnswerIndex;
             _answerPrefab[index] = obj;
         }
-
-
 
         public void CreateAnswers(Question question)
         {
@@ -70,7 +69,7 @@ namespace QuizCinema
             for (int i = 0; i < question.Answers.Length; i++)
             {
 
-                AnswerData newAnswer = Instantiate(_answerPrefab[index], _uIElements.AnswerContentArea[index]);
+                AnswerData newAnswer = Instantiate(_answerPrefab[index], _answerContentArea[index]);
                 newAnswer.UpdateData(question.Answers[i].InfoList[PlayerPrefs.GetInt("IndexLanguageSave")], i);
 
                 _currentAnswer.Add(newAnswer);
