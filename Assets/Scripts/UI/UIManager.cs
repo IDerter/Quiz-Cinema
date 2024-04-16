@@ -10,9 +10,8 @@ using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
-    public class UIManager : MonoBehaviour, IDependency<Score>
+    public class UIManager : MonoBehaviour
     {
-
         public enum ResolutionScreenType { Correct, Incorrect, Finish }
 
         [Header("References")]
@@ -42,22 +41,29 @@ namespace QuizCinema
 
         private ResolutionScreenType _typeAnswer;
 
-        public void Construct(Score obj) => _score = obj;
-
 
 
         private void OnEnable()
         {
             _questionMethods.OnUpdateQuestionUI += UpdateQuestionUI;
             _gameManager.UpdateDisplayScreenResolution += DisplayResolution;
+            _gameManager.OnFinishGame += OnFinishGame;
+
             _score.UpdateScore += UpdateScoreUI;
 
+        }
+
+        private void OnFinishGame()
+        {
+            UpdateFinishScreen();
         }
 
         private void OnDisable()
         {
             _questionMethods.OnUpdateQuestionUI -= UpdateQuestionUI;
             _gameManager.UpdateDisplayScreenResolution -= DisplayResolution;
+            _gameManager.OnFinishGame -= OnFinishGame;
+
             _score.UpdateScore -= UpdateScoreUI;
         }
 
@@ -91,6 +97,10 @@ namespace QuizCinema
             {
                 AnswersMethods.Instance.CreateAnswers(question);
                 Debug.Log("Вызываем CreateAnswers");
+            }
+            else
+            {
+                UpdateFinishScreen();
             }
         }
 
@@ -146,47 +156,26 @@ namespace QuizCinema
             var sceneName = SceneManager.GetActiveScene().name;
 
             _uIElements.CountCurrentAnswer.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
-
-            switch (type)
-            {
-                case ResolutionScreenType.Correct:
-                    _uIElements.ResolutionStateInfoText.text = "Correct!";
-                    _uIElements.ResolutionScoreText.text = "+" + score;
-                    break;
-                case ResolutionScreenType.Incorrect:
-                    _uIElements.ResolutionStateInfoText.text = "Wrong!";
-                    _uIElements.ResolutionScoreText.text = "-" + score;
-                    break;
-                case ResolutionScreenType.Finish:
-                    _uIElements.ResolutionStateInfoText.text = "Final Score!";
-
-                    StartCoroutine(CalculateScore());
-                    //_uIElements.FinishUIElements.gameObject.SetActive(true); // 
-                    UpdateFinishScreen(sceneName);
-
-                    break;
-            }
         }
 
-        private void UpdateFinishScreen(string sceneName)
+        private void UpdateFinishScreen()
         {
-            _uIElements.HighScoreText.gameObject.SetActive(true);
-            _uIElements.HighScoreText.text = MapCompletion.Instance.GetLvlScore(sceneName).ToString();
-            _uIElements.CountCorrectAnswer.text = "Кол-во правильных ответов: " + _gameManager.CountCorrectAnswer + " \nКол-во неправильных ответов: "
-                + (_questionMethods.GetFinishedLengthQuestions - _gameManager.CountCorrectAnswer);
+            Debug.Log("UpdateFinishScreen");
+            var sceneName = SceneManager.GetActiveScene().name;
 
-            var numberLvl = MapCompletion.Instance.GetLvlNumber(sceneName) + 1; // т.к нумерация с 0 (у номера 1 индекс 0)
-            _uIElements.TextFinalLvl.text = $"Уровень {numberLvl}";
+            _uIElements.CountCorrectAnswer.text = _gameManager.CountCorrectAnswer + "/10";
 
-            if (MapCompletion.Instance.GetLvlScore(sceneName) > 1)
+         //   var numberLvl = MapCompletion.Instance.GetLvlNumber(sceneName) + 1; // т.к нумерация с 0 (у номера 1 индекс 0)
+         //   _uIElements.TextFinalLvl.text = $"Уровень {numberLvl}";
+
+            if (_gameManager.CalculateLevelStars() > 0)
             {
                 _uIElements.EnableButtonFinishNextLvl.SetActive(true);
-                _uIElements.TextSuccessLvl.text = "ПРОЙДЕН";
+                Debug.Log("УРОВЕНЬ ПРОЙДЕН!!!");
             }
             else
             {
                 _uIElements.EnableButtonFinishReloadLvl.SetActive(true);
-                _uIElements.TextSuccessLvl.text = "НЕ ПРОЙДЕН";
             }
         }
 
@@ -211,7 +200,6 @@ namespace QuizCinema
             }
         }
 
-       
 
         private void UpdateScoreUI()
         {

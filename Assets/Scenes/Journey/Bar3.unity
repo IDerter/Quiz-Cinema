@@ -282,6 +282,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6776475251378688296, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 2102496946}
+    - target: {fileID: 8549448604662868372, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 2102496946}
     - target: {fileID: 8549448604901482393, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
       propertyPath: m_Name
       value: Lvl3_4
@@ -290,6 +298,14 @@ PrefabInstance:
       propertyPath: _episode
       value: 
       objectReference: {fileID: 11400000, guid: 5512489dc86362b4bb5b4b0dc476f6ef, type: 2}
+    - target: {fileID: 8549448605188857918, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 2102496946}
+    - target: {fileID: 8549448605274810187, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 2102496946}
     - target: {fileID: 8549448605389142755, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
       propertyPath: m_Name
       value: Lvl3_2
@@ -298,7 +314,19 @@ PrefabInstance:
       propertyPath: _episode
       value: 
       objectReference: {fileID: 11400000, guid: 5512489dc86362b4bb5b4b0dc476f6ef, type: 2}
+    - target: {fileID: 8549448605627652986, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 2102496946}
     - target: {fileID: 8549448605631153590, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 2102496946}
+    - target: {fileID: 8549448605677215220, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: _answersMethods
+      value: 
+      objectReference: {fileID: 2102496946}
+    - target: {fileID: 8549448605955355662, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
       propertyPath: _answersMethods
       value: 
       objectReference: {fileID: 2102496946}
@@ -318,6 +346,10 @@ PrefabInstance:
       propertyPath: _episode
       value: 
       objectReference: {fileID: 11400000, guid: 5512489dc86362b4bb5b4b0dc476f6ef, type: 2}
+    - target: {fileID: 8549448606422297289, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 941456804}
     - target: {fileID: 8549448606422297290, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -534,6 +566,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 0
   _completionData:
+  - _episodeID: 0
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: 
+    _maxScoreLvl: 0
+  - _episodeID: 0
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: 
+    _maxScoreLvl: 0
+  _completionDataUnity:
   - _episodeID: 0
     _stars: 0
     _scoreLvl: 0

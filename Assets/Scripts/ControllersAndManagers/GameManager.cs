@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
-    public class GameManager : MonoBehaviour, IDependency<QuestionMethods>, IDependency<Score>, IDependency<LvlData>, IDependency<TextMeshProUGUI>
+    public class GameManager : MonoBehaviour, IDependency<QuestionMethods>, IDependency<Score>, IDependency<LvlData>, IDependency<Timer>
     {
         public event Action<UIManager.ResolutionScreenType, int> UpdateDisplayScreenResolution;
         public event Action OnFinishGame;
@@ -23,24 +23,17 @@ namespace QuizCinema
         [SerializeField] private QuestionMethods _questionMethods;
         [SerializeField] private Score _score;
         [SerializeField] private Animator _timerAnimator;
+        [SerializeField] private Timer _timer;
         public Animator TimerAnimator { get { return _timerAnimator; } set { value = _timerAnimator; } }
 
         [SerializeField] private Animator _loadingScreenAnimator;
 
-        [SerializeField] private TextMeshProUGUI _timerText;
-
         private int levelCountStars = 3;
-        private Color _timerDefaultColor = Color.white;
 
         [Header("Lvl")]
         [SerializeField] private LvlData _lvl;
 
         private int _loadingScreenStateParaHash = 0;
-        private int _timerStateParaHash = 0;
-        public int GetTimerStateParaHash => _timerStateParaHash;
-
-        private IEnumerator IE_StartTimer = null;
-        public IEnumerator GetStartTimer { get { return IE_StartTimer; } set { value = IE_StartTimer; } }
 
         private IEnumerator IE_WaitTillNextRound = null;
 
@@ -68,25 +61,21 @@ namespace QuizCinema
         }
         public void Construct(LvlData obj) => _lvl = obj;
 
-        public void Construct(TextMeshProUGUI obj) 
-        { 
-            _timerText = obj;
-            Debug.Log("Construct in TextMeshProUGUI");
+        public void Construct(Timer obj)
+        {
+            _timer = obj;
         }
 
         private void Start()
         {
             _loadingScreenStateParaHash = Animator.StringToHash("Loading Screen");
            // _timerText.color = _timerDefaultColor;
-
-            _timerStateParaHash = Animator.StringToHash("Timer State");
    
             StartCoroutine(Downloader(_lvl.Level)); //Call download data
 
             var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
             UnityEngine.Random.InitState(seed);
         }
-
 
         IEnumerator Downloader(int level)
         {
@@ -128,11 +117,10 @@ namespace QuizCinema
 
         public void Accept()
         {
-            UpdateTimer(false); 
+            _timer.UpdateTimer(false);
 
             bool isCorrect =_questionMethods.CheckAnswers();
             Debug.Log(isCorrect + " Правильный ответ!");
-
 
             if (isCorrect)
             {
@@ -154,8 +142,6 @@ namespace QuizCinema
 
               _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore : -_questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
 
-
-
             if (IE_WaitTillNextRound != null)
             {
                 StopCoroutine(IE_WaitTillNextRound);
@@ -165,9 +151,6 @@ namespace QuizCinema
 
             var type = (isCorrect) ? UIManager.ResolutionScreenType.Correct : UIManager.ResolutionScreenType.Incorrect;
             UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
-
-            // _timerAnimator.SetInteger(_timerStateParaHash, 1);
-            //_timerAnimator.enabled = false;
         }
 
         public void NextQuestion()
@@ -189,16 +172,13 @@ namespace QuizCinema
                 Debug.Log(_countCurrentAnswer + " текущее кол-во вопросов!");
 
                 OnFinishGame?.Invoke();
+                Debug.Log("ПОДПИСЫВАЕМСЯ НА ONFINISHGAME!");
 
                 FinishGame();
-
-                var type = UIManager.ResolutionScreenType.Finish; 
-                UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
             }
             
             //_questionMethods.Display(); //TODO
         }
-
 
         private void FinishGame()
         {
@@ -217,72 +197,43 @@ namespace QuizCinema
                 Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5) + " - сколько нужно ответить на 2 звезды");
                 Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0) + " - сколько нужно ответить на 1 звезду");
 
-                if (_countCorrectAnswer == _questionMethods.FinishedQuestions.Count)
-                {
-                    levelCountStars = 3;
-                }
-                else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5))
-                {
-                    levelCountStars = 2;
-                }
-                else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0))
-                {
-                    levelCountStars = 1;
-                }
-                else
-                {
-                    levelCountStars = 0;
-                }
+                CalculateLevelStars();
 
                 MapCompletion.SaveEpisodeResult(levelCountStars, _score.CurrentLvlScore);
+
+                var type = UIManager.ResolutionScreenType.Finish;
+                UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
             }
         }
 
-        public void UpdateTimer(bool state)
+        public int CalculateLevelStars()
         {
-            switch (state)
+            if (_countCorrectAnswer == _questionMethods.FinishedQuestions.Count)
             {
-                case true:
-                    IE_StartTimer = StartTimer();
-                    StartCoroutine(IE_StartTimer);
-
-                    _timerAnimator.SetInteger(_timerStateParaHash, 0);
-                    break;
-
-                case false:
-                    if (IE_StartTimer != null)
-                    {
-                        StopCoroutine(IE_StartTimer);
-                    }
-
-                    _timerAnimator.SetInteger(_timerStateParaHash, 2);
-                    break;
+                levelCountStars = 3;
             }
-        }
-
-        IEnumerator StartTimer()
-        {
-            var totalTime = _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].Timer;
-            var timeLeft = totalTime;
-            _timerText.color = _timerDefaultColor;
-
-            while (timeLeft > 0)
+            else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5))
             {
-                timeLeft--;
-
-                AudioManager.Instance.PlaySound("CountdownSFX");
-
-                _timerText.text = timeLeft.ToString();
-                yield return new WaitForSeconds(1f);
+                levelCountStars = 2;
             }
-            Accept();
+            else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0))
+            {
+                levelCountStars = 1;
+            }
+            else
+            {
+                levelCountStars = 0;
+            }
+
+            return levelCountStars;
         }
 
         IEnumerator WaitTillNextRound()
         {
             yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
 
-            UpdateTimer(false);
+            _timer.UpdateTimer(false);
+
             _questionMethods._currentIndexNotRandom++; // TODO потом убрать
             _questionMethods.Display();
 

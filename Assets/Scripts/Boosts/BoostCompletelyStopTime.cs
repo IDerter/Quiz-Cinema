@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 namespace QuizCinema
 {
-    public class BoostCompletelyStopTime : BoostParent
+    public class BoostCompletelyStopTime : BoostParent, IDependency<Timer>
     {
         [SerializeField] private GameObject _buttonFreeze;
         [SerializeField] private BoostFreezeTime _boostFreezeTime;
+        [SerializeField] private Timer _timer;
 
         protected override void OnCreateAnswers(Question question)
         {
@@ -35,14 +36,17 @@ namespace QuizCinema
 
             if (_boostFreezeTime.ButtonPress == false)
             {
-                _gameManager.StopCoroutine(_gameManager.GetStartTimer);
-
-                _gameManager.TimerAnimator.SetInteger(_gameManager.GetTimerStateParaHash, 2);
+                _timer.UpdateTimer(false);
 
                 SwitchInteractable(false, _buttonBoost);
                 SwitchInteractable(false, _buttonFreeze);
                 BoostsManager.UseBoost(_boostSO);
             }
+        }
+
+        public void Construct(Timer obj)
+        {
+            _timer = obj;
         }
     }
 }

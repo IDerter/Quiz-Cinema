@@ -17,7 +17,7 @@ namespace QuizCinema
 
         protected BoostSO _boostSO;
 
-        protected bool _buttonPress = false;
+        [SerializeField] protected bool _buttonPress = false;
         public bool ButtonPress { get { return _buttonPress; } set { _buttonPress = value; } }
 
 

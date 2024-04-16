@@ -319,56 +319,57 @@ According to the director, the Guardians' colorful spacesuits were inspired by t
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
+
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
-        <string>Select a frame from the movie Guardians of the Galaxy 2</string>
-        <string>Выберите кадр из фильма Стражи Галактики 2</string>
+        <string>Select a scene from the movie Eternal Sunshine of the Spotless Mind</string>
+        <string>Выберите кадр из фильма Вечное сияние чистого разума</string>
       </ListInfoQuestion>
-      <Info>Выберите кадр из фильма Стражи Галактики 2</Info>
+      <Info>Выберите кадр из фильма Вечное сияние чистого разума</Info>
       <ListNoteFilm>
         <string>-</string>
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      <Director>James Gunn</Director>
-      <_cadrCinemaName>Guardians of the Galaxy Vol. 2</_cadrCinemaName>
+      <Director>Michel Gondry</Director>
+      <_cadrCinemaName>Eternal Sunshine of the Spotless Mind</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
-            <string>Guardians of the Galaxy Vol. 3</string>
-            <string>Стражи Галактики. Часть 3</string>
+            <string>Eternal Sunshine of the Spotless Mind</string>
+            <string>Вечное сияние чистого разума</string>
           </InfoList>
-          <Info>Guardians of the Galaxy Vol. 3</Info>
-          <TranslateInfo>Стражи Галактики. Часть 3</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <InfoList>
-            <string>Guardians of the Galaxy</string>
-            <string>Стражи Галактики</string>
-          </InfoList>
-          <Info>Guardians of the Galaxy</Info>
-          <TranslateInfo>Стражи Галактики</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <InfoList>
-            <string>Guardians of the Galaxy Vol. 2</string>
-            <string>Стражи Галактики. Часть 2</string>
-          </InfoList>
-          <Info>Guardians of the Galaxy Vol. 2</Info>
-          <TranslateInfo>Стражи Галактики. Часть 2</TranslateInfo>
+          <Info>Eternal Sunshine of the Spotless Mind</Info>
+          <TranslateInfo>Вечное сияние чистого разума</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Avengers Infinity War var 2</string>
-            <string>Мстители: Война бесконечности</string>
+            <string>Bruce Almighty</string>
+            <string>Брюс Всемогущий</string>
           </InfoList>
-          <Info>Avengers Infinity War var 2</Info>
-          <TranslateInfo>Мстители: Война бесконечности</TranslateInfo>
+          <Info>Bruce Almighty</Info>
+          <TranslateInfo>Брюс Всемогущий</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Yes Man</string>
+            <string>Всегда говори «да»</string>
+          </InfoList>
+          <Info>Yes Man</Info>
+          <TranslateInfo>Всегда говори «да»</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Me, Myself and Irene</string>
+            <string>Я, снова я и Ирэн</string>
+          </InfoList>
+          <Info>Me, Myself and Irene</Info>
+          <TranslateInfo>Я, снова я и Ирэн</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -376,6 +377,7 @@ According to the director, the Guardians' colorful spacesuits were inspired by t
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -485,10 +487,10 @@ Derek's independence and courage are admired by his younger brother Danny, who h
         <Answer>
           <InfoList>
             <string>8</string>
-            <string>4</string>
+            <string>8</string>
           </InfoList>
           <Info>8</Info>
-          <TranslateInfo>4</TranslateInfo>
+          <TranslateInfo>8</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>

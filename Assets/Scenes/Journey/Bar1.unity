@@ -1699,7 +1699,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Managers
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1666101225629734462, guid: 9219b3759fe062443a6965bd32eb5296, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9219b3759fe062443a6965bd32eb5296, type: 3}
 --- !u!114 &2931665664505179312 stripped
 MonoBehaviour:
@@ -1751,6 +1752,10 @@ PrefabInstance:
       propertyPath: _answersMethods
       value: 
       objectReference: {fileID: 1077518782}
+    - target: {fileID: 8549448606422297289, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 941456804}
     - target: {fileID: 8549448606422297290, guid: 8b7a60150e26ba94f8da0b1035f26efa, type: 3}
       propertyPath: m_Pivot.x
       value: 0
