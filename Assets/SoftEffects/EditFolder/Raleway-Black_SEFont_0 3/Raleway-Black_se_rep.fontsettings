@@ -9,9 +9,9 @@ Font:
   m_Name: Raleway-Black_se_rep
   serializedVersion: 5
   m_LineSpacing: 91.572
-  m_DefaultMaterial: {fileID: 2100000, guid: b12df51568b068d4986a845f70b9e582, type: 2}
+  m_DefaultMaterial: {fileID: 2100000, guid: 5052fa15386aa014399c44f05313bc21, type: 2}
   m_FontSize: 78
-  m_Texture: {fileID: 2800000, guid: cc24dc062db4ba94ca7854762729c511, type: 3}
+  m_Texture: {fileID: 2800000, guid: 94a5fb6a7a3763147bfed8af1f7af06b, type: 3}
   m_AsciiStartOffset: 0
   m_Tracking: 1
   m_CharacterSpacing: 0

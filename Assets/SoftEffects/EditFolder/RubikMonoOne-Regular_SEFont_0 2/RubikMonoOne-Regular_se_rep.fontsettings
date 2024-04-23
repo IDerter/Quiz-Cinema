@@ -9,7 +9,7 @@ Font:
   m_Name: RubikMonoOne-Regular_se_rep
   serializedVersion: 5
   m_LineSpacing: 60.662
-  m_DefaultMaterial: {fileID: 2100000, guid: ae47cd88f60469141bd36dc73a69658b, type: 2}
+  m_DefaultMaterial: {fileID: 2100000, guid: 7c7e0369afe629c4f93ededec9481da2, type: 2}
   m_FontSize: 49
   m_Texture: {fileID: 2800000, guid: 9c5871b2819817545a951bb8d65ce424, type: 3}
   m_AsciiStartOffset: 0

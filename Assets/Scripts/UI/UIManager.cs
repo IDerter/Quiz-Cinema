@@ -163,10 +163,18 @@ namespace QuizCinema
             Debug.Log("UpdateFinishScreen");
             var sceneName = SceneManager.GetActiveScene().name;
 
-            _uIElements.CountCorrectAnswer.text = _gameManager.CountCorrectAnswer + "/10";
+            if (_uIElements.CountCorrectAnswer.Length == 2)
+            {
+                _uIElements.CountCorrectAnswer[0].text = _gameManager.CountCorrectAnswer + "/10";
+                _uIElements.CountCorrectAnswer[1].text = _gameManager.CountCorrectAnswer + "/10";
+            }
+            else
+            {
+                Debug.LogError("Fill in the field CountCorrectAnswer");
+            }
 
-         //   var numberLvl = MapCompletion.Instance.GetLvlNumber(sceneName) + 1; // т.к нумерация с 0 (у номера 1 индекс 0)
-         //   _uIElements.TextFinalLvl.text = $"Уровень {numberLvl}";
+            //   var numberLvl = MapCompletion.Instance.GetLvlNumber(sceneName) + 1; // т.к нумерация с 0 (у номера 1 индекс 0)
+            //   _uIElements.TextFinalLvl.text = $"Уровень {numberLvl}";
 
             if (_gameManager.CalculateLevelStars() > 0)
             {
@@ -183,7 +191,11 @@ namespace QuizCinema
         {
             if (_score.CurrentLvlScore == 0)
             {
-                _uIElements.ScoreFinalLvl.text = 0.ToString();
+                if (_uIElements.ScoreFinalLvl.Length == 2)
+                {
+                    _uIElements.ScoreFinalLvl[0].text = 0.ToString();
+                    _uIElements.ScoreFinalLvl[1].text = 0.ToString();
+                }
                 yield break;
             }
 
@@ -194,8 +206,12 @@ namespace QuizCinema
             {
                 yield return new WaitForSeconds(0.001f);
                 scoreValue += scoreMoreThanZero ? 1 : -1;
-                _uIElements.ScoreFinalLvl.text = scoreValue.ToString();
 
+                if (_uIElements.ScoreFinalLvl.Length == 2)
+                {
+                    _uIElements.ScoreFinalLvl[0].text = scoreValue.ToString();
+                    _uIElements.ScoreFinalLvl[1].text = scoreValue.ToString();
+                }
                 yield return null;
             }
         }
@@ -208,7 +224,11 @@ namespace QuizCinema
 
             _uIElements.CountCurrentScore.text = _score.CurrentLvlScore.ToString();
 
-            _uIElements.ScoreFinalLvl.text = _score.CurrentLvlScore.ToString();
+            if (_uIElements.ScoreFinalLvl.Length == 2)
+            {
+                _uIElements.ScoreFinalLvl[0].text = _score.CurrentLvlScore.ToString();
+                _uIElements.ScoreFinalLvl[1].text = _score.CurrentLvlScore.ToString();
+            }
         }
     }
 }
