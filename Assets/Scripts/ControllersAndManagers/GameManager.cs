@@ -89,6 +89,12 @@ namespace QuizCinema
                 Debug.Log("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
             }
 
+            if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.OSXPlayer)
+            {
+                www = new WWW("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
+                Debug.Log("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
+            }
+
             if (Application.platform == RuntimePlatform.Android)
             {
                 www = new WWW("jar:file://" + Application.dataPath + $"!/assets/Q{SceneManager.GetActiveScene().buildIndex}.xml");
@@ -120,7 +126,7 @@ namespace QuizCinema
             _timer.UpdateTimer(false);
 
             bool isCorrect =_questionMethods.CheckAnswers();
-            Debug.Log(isCorrect + " Правильный ответ!");
+            Debug.Log(isCorrect + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!");
 
             if (isCorrect)
             {
@@ -132,7 +138,7 @@ namespace QuizCinema
                 OnUnCorrectAnswer?.Invoke();
             }
 
-            //TODOне забудь заменить _currentIndexNotRandom обратно на CurrentIndexQuestion в этом скрипте и потом в QUESTUINMETHODS!!!
+            //TODOпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ _currentIndexNotRandom пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ CurrentIndexQuestion пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ QUESTUINMETHODS!!!
             // !!! !!!!
             //  _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);
 
@@ -158,7 +164,7 @@ namespace QuizCinema
             bool isCorrect = _questionMethods.CheckAnswers();
             Debug.Log(_questionMethods.IsFinished);
 
-            Debug.Log(_questionMethods.GetLengthQuestions + "длина + " + _countCurrentAnswer);
+            Debug.Log(_questionMethods.GetLengthQuestions + "пїЅпїЅпїЅпїЅпїЅ + " + _countCurrentAnswer);
             if (_questionMethods.GetLengthQuestions > _countCurrentAnswer)
                 _countCurrentAnswer++;
 
@@ -169,10 +175,10 @@ namespace QuizCinema
             }
             else
             {
-                Debug.Log(_countCurrentAnswer + " текущее кол-во вопросов!");
+                Debug.Log(_countCurrentAnswer + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!");
 
                 OnFinishGame?.Invoke();
-                Debug.Log("ПОДПИСЫВАЕМСЯ НА ONFINISHGAME!");
+                Debug.Log("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ ONFINISHGAME!");
 
                 FinishGame();
             }
@@ -194,8 +200,8 @@ namespace QuizCinema
                 }
                 PlayerPrefs.SetInt(GameUtility.SavePrefLvlKey, _lvl.Level);
 
-                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5) + " - сколько нужно ответить на 2 звезды");
-                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0) + " - сколько нужно ответить на 1 звезду");
+                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5) + " - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 2 пїЅпїЅпїЅпїЅпїЅпїЅ");
+                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0) + " - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 1 пїЅпїЅпїЅпїЅпїЅпїЅ");
 
                 CalculateLevelStars();
 
@@ -234,7 +240,7 @@ namespace QuizCinema
 
             _timer.UpdateTimer(false);
 
-            _questionMethods._currentIndexNotRandom++; // TODO потом убрать
+            _questionMethods._currentIndexNotRandom++; // TODO пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
             _questionMethods.Display();
 
         }
