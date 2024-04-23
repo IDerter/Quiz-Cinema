@@ -49,6 +49,8 @@ namespace QuizCinema
 
         public void UpdateAnswers(AnswerData newAnswer)
         {
+            Debug.Log("UpdateAnswers");
+
             if (_data.Questions[_currentIndexNotRandom].GetAnswerType == AnswerType.Single)
             {
                 foreach (var answer in _pickedAnswers.ToList())

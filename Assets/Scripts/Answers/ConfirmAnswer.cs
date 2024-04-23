@@ -66,6 +66,8 @@ namespace QuizCinema
 
 
             answerData = obj;
+
+            AcceptAnswer(); // if not check swipe answer
         }
 
        
