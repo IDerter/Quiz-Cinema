@@ -9,8 +9,11 @@ namespace QuizCinema
     public class BoostsManager : SingletonBase<BoostsManager>
     {
         public static event Action OnPressButtonBoost;
+        public event Action OnAddInInventoryBoost;
 
         public const string fileName = "boost.dat";
+        [SerializeField] private int _moneyForBoosts;
+        public int GetMoneyForBoosts => _moneyForBoosts;
 
         [Serializable]
         private class BoostSave
@@ -49,14 +52,14 @@ namespace QuizCinema
         {
             bool flagSave = Saver<BoostSave[]>.TryLoad(fileName, ref _save);
             bool flagListSave = Saver<ListBoostsSave>.TryLoad(_fileNameListBoost, ref _saveBoosts);
-            
-            
+            _moneyForBoosts = 0;
 
             if (flagSave)
             {
                 for (int i = 0; i < _save.Length; i++)
                 {
                     _mainSave[i] = _save[i];
+                    _moneyForBoosts += _mainSave[i].costAllBost;
                 }
             }
 
@@ -120,6 +123,10 @@ namespace QuizCinema
         {
             Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._mainSaveBoosts);
             Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
+
+            Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
+            Saver<BoostSave[]>.Save(fileName, Instance._save);
+
             Debug.Log("Save List Boosts");
             OnPressButtonBoost?.Invoke();
         }
@@ -134,8 +141,7 @@ namespace QuizCinema
                 {
                     boost.countBoost += 1;
                     boost.costAllBost = boost.countBoost * asset.cost;
-
-                    Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
+                    Instance._moneyForBoosts += boost.costAllBost;
 
                     Instance.OnSaveListBoosts();
                 }
@@ -163,13 +169,11 @@ namespace QuizCinema
             {
                 if (asset.name.ToString() == boost.boostCorrectAnswerName)
                 {
+                    Instance.OnAddInInventoryBoost?.Invoke();
                     //boost.countBoost -= 1;
                     //Instance._saveBoosts._listBoosts = listBoosts;
                     boost.countInInventory += 1;
                    // Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
-
-                    Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
-                    Saver<BoostSave[]>.Save(fileName, Instance._save);
 
                     Instance.OnSaveListBoosts();
                 }
@@ -182,14 +186,12 @@ namespace QuizCinema
             {
                 if (asset.name.ToString() == boost.boostCorrectAnswerName)
                 {
+                    Debug.Log("Return from inventory" + asset.name);
                     // boost.countBoost += 1;
                     boost.countInInventory -= 1;
                     //Instance._saveBoosts._listBoosts = listBoosts;
 
                     //Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
-
-                    Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
-                    Saver<BoostSave[]>.Save(fileName, Instance._save);
 
                     Instance.OnSaveListBoosts();
                 }

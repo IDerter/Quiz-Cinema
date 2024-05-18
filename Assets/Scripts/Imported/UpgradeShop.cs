@@ -21,7 +21,7 @@ namespace TowerDefense {
 
         public void UpdateMoney()
         {
-            print("Update");
+            print("UpdateUPGRADESHOP");
             _money = MapCompletion.Instance.TotalScoreLvls;
             _money -= Upgrades.GetTotalCostUpgrade();
             MapCompletion.Instance.MoneyShop = Upgrades.GetTotalCostUpgrade();

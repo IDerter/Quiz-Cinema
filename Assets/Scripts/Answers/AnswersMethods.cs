@@ -21,11 +21,17 @@ namespace QuizCinema
         [SerializeField] private AnswerData[] _answerPrefab;
         [SerializeField] private RectTransform[] _answerContentArea;
         public RectTransform[] AnswerContentArea => _answerContentArea;
+        [SerializeField] private RectTransform _rectTransformStart;
 
         public void Construct(AnswerData obj)
         {
             var index = obj.AnswerIndex;
             _answerPrefab[index] = obj;
+        }
+
+        private void Start()
+        {
+            _rectTransformStart = _answerContentArea[3];
         }
 
         public void CreateAnswers(Question question)
@@ -59,6 +65,7 @@ namespace QuizCinema
             }
         }
 
+
         private void UpdateCorrectAnswerList(Question question)
         {
             var index = question.IndexPrefab;
@@ -68,6 +75,8 @@ namespace QuizCinema
 
             for (int i = 0; i < question.Answers.Length; i++)
             {
+                _answerContentArea[3].position = _rectTransformStart.position;
+                _answerContentArea[3].sizeDelta = _rectTransformStart.sizeDelta;
 
                 AnswerData newAnswer = Instantiate(_answerPrefab[index], _answerContentArea[index]);
                 newAnswer.UpdateData(question.Answers[i].InfoList[PlayerPrefs.GetInt("IndexLanguageSave")], i);

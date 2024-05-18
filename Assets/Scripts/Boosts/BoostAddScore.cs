@@ -2,41 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TowerDefense;
+using SpaceShooter;
+using System;
 
 namespace QuizCinema
 {
     public class BoostAddScore : BoostParent
     {
-        [SerializeField] private int _addValue = 1000;
+        [SerializeField] private int _addValue = 100;
 
 
         protected override void OnCreateAnswers(Question question)
         {
+            Debug.Log("Add Score");
             if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
             {
                 _boostSO = boost.GetSetBoostSO;
-            }
-
-
-            if (_buttonPress == false)
-            {
-                Debug.Log("ЗАХОДИМ В ONCREATEANSWERS В BOOSTInfo!");
-               // _buttonBoost.SetActive(true);
-                Debug.Log("Включаем кнопку!");
-               // SwitchInteractable(true, _buttonBoost);
             }
         }
 
         public override void ActivateBoost()
         {
             base.ActivateBoost();
+            Debug.Log("Add Score ACTIVE BOOST!");
 
             _buttonPress = true;
-            Debug.Log(MapCompletion.Instance.TotalScoreLvls);
-            MapCompletion.Instance.TotalScoreLvls += _addValue;
-            Debug.Log(MapCompletion.Instance.TotalScoreLvls);
 
-            SwitchInteractable(false, _buttonBoost);
+            var score = Score.Instance.CurrentLvlScore;
+            Score.Instance.CurrentLvlScore = score + _addValue;
+
             BoostsManager.UseBoost(_boostSO);
         }
     }

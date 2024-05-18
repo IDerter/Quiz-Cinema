@@ -7,6 +7,7 @@ namespace QuizCinema
 
     public class LanguageChanger : MonoBehaviour
     {
+        [SerializeField] private AudioClip _audioClipButtonClick;
         [SerializeField] private Language[] _buttonsLanguage;
 
         [SerializeField] private int _index = 0;
@@ -29,6 +30,7 @@ namespace QuizCinema
             else _index = 0;
 
             _buttonsLanguage[_index].gameObject.SetActive(true);
+            AudioManager.Instance.PlaySoundAudioClip(_audioClipButtonClick);
 
             PlayerPrefs.SetInt("IndexLanguageSave", _index);
         }
@@ -44,6 +46,7 @@ namespace QuizCinema
             else _index = _buttonsLanguage.Length - 1;
 
             _buttonsLanguage[_index].gameObject.SetActive(true);
+            AudioManager.Instance.PlaySoundAudioClip(_audioClipButtonClick);
 
             PlayerPrefs.SetInt("IndexLanguageSave", _index);
         }

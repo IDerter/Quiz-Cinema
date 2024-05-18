@@ -12,6 +12,7 @@ namespace QuizCinema
         [SerializeField] private LvlData _lvl;
         [SerializeField] private QuestionMethods _questionMethods;
         [SerializeField] private Timer _timer;
+        [SerializeField] private BoostIncreaseOn50PersentScore _boostIncrease50Percent;
 
         protected override void BindAll(MonoBehaviour monoBehaviourInScene)
         {
@@ -20,6 +21,7 @@ namespace QuizCinema
             Bind<LvlData>(_lvl, monoBehaviourInScene);
             Bind<QuestionMethods>(_questionMethods, monoBehaviourInScene);
             Bind<Timer>(_timer, monoBehaviourInScene);
+            Bind<BoostIncreaseOn50PersentScore>(_boostIncrease50Percent, monoBehaviourInScene);
         }
 
 

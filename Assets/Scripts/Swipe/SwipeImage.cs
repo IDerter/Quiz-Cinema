@@ -59,7 +59,7 @@ namespace QuizCinema
 
                     _cadrs[i].GetComponent<CadrsAnswers>().CurrentImage.sprite = sprite;
                    // _cadrs[i].sprite = sprite;
-                    _cadrs[i].gameObject.SetActive(false);
+                   // _cadrs[i].gameObject.SetActive(false);
                 }
             }
             SetAlphaTranslucent();
@@ -80,7 +80,7 @@ namespace QuizCinema
 
         private void OnSwipeInput(Vector2 direction)
         {
-            _cadrs[_currentIndex]?.gameObject.SetActive(false);
+          //  _cadrs[_currentIndex]?.gameObject.SetActive(false);
 
             SetAlphaTranslucent();
 
@@ -113,7 +113,7 @@ namespace QuizCinema
 
         public void ShowCadr(int index)
         {
-            _cadrs[_currentIndex]?.gameObject.SetActive(false);
+           // _cadrs[_currentIndex]?.gameObject.SetActive(false);
             SetAlphaTranslucent();
             StartCoroutine(DelayShowCadr(index));
         }

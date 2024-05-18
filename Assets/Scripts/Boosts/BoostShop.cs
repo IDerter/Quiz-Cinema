@@ -39,6 +39,7 @@ namespace QuizCinema
             foreach (var boost in _sales)
             {
                 _money -= BoostsManager.GetCostBoost(boost.BoostSO);
+
                 MapCompletion.Instance.MoneyShop += BoostsManager.GetCostBoost(boost.BoostSO);
             }
 

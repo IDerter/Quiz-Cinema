@@ -32,12 +32,12 @@ namespace QuizCinema
 
 
             _panelInfoBoost.SetActive(true);
-            var noteFilm = _panelInfoBoost.GetComponentInChildren<TextMeshProUGUI>();
-            if (noteFilm.TryGetComponent<TextMeshProUGUI>(out var text))
+            var descriptionFilm = _panelInfoBoost.GetComponentInChildren<TextMeshProUGUI>();
+            if (descriptionFilm.TryGetComponent<TextMeshProUGUI>(out var text))
             {
-                noteFilm.text = _currentQuestion.ListNoteFilm[PlayerPrefs.GetInt("IndexLanguageSave")].ToString();
+                descriptionFilm.text = _currentQuestion.ListDescriptionFilm[PlayerPrefs.GetInt("IndexLanguageSave")].ToString();
             }
-            Debug.Log(_currentQuestion.ListNoteFilm[PlayerPrefs.GetInt("IndexLanguageSave")].ToString());
+            Debug.Log(_currentQuestion.ListDescriptionFilm[PlayerPrefs.GetInt("IndexLanguageSave")].ToString());
             SwitchInteractable(false, _buttonBoost);
 
             BoostsManager.UseBoost(_boostSO);

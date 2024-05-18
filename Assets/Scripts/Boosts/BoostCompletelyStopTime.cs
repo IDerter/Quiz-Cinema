@@ -11,6 +11,7 @@ namespace QuizCinema
         [SerializeField] private GameObject _buttonFreeze;
         [SerializeField] private BoostFreezeTime _boostFreezeTime;
         [SerializeField] private Timer _timer;
+        [SerializeField] private TimerInLvl _timerInLvl;
 
         protected override void OnCreateAnswers(Question question)
         {
@@ -28,18 +29,13 @@ namespace QuizCinema
         {
             base.ActivateBoost();
 
-            if (_boostFreezeTime.ButtonPress)
+            if (!_buttonPress)
             {
-                SwitchInteractable(false, _buttonFreeze);
+                _buttonPress = true;
+                // _timer.UpdateTimer(false);
+                _timerInLvl.StopSlider();
+                _timerInLvl.IsStopTime = true;
 
-            }
-
-            if (_boostFreezeTime.ButtonPress == false)
-            {
-                _timer.UpdateTimer(false);
-
-                SwitchInteractable(false, _buttonBoost);
-                SwitchInteractable(false, _buttonFreeze);
                 BoostsManager.UseBoost(_boostSO);
             }
         }

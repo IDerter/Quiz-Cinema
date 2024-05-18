@@ -19,7 +19,7 @@ namespace QuizCinema
             {
                 for (int i = 0; i < stars; i++)
                 {
-                    ResultImages[i].color = Color.white;
+                    ResultImages[i].sprite = SpritesStarts[i];
                 }
             }
             else

@@ -17,6 +17,9 @@ namespace SpaceShooter
         [SerializeField] private Sprite _previewImage;
 
         public Sprite PreviewImage => _previewImage;
+
+        [SerializeField] private int _episodeID;
+        public int EpisodeID => _episodeID;
     }
 }
 

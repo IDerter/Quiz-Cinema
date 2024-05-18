@@ -129,6 +129,7 @@ namespace QuizCinema
             return true;
         }
 
+
         public bool CompareAnswers()
         {
             if (_pickedAnswers.Count > 0)

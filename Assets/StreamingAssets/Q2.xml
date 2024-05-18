@@ -20,6 +20,12 @@ after which the criminals gather in an abandoned warehouse on the outskirts of t
       <NoteFilm>Сюжет картины завязан на ограблении,
 после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
 1992 г. - США</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Quentin Tarantino
+1992</string>
+      <string>Квентин Тарантино
+1992</string>
+    </ListDescriptionFilm>
       <Director>Tarantino</Director>
       <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
       <Answers>
@@ -64,7 +70,6 @@ after which the criminals gather in an abandoned warehouse on the outskirts of t
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -84,6 +89,14 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
       <NoteFilm>Действие фильма происходит в 1969 году в Лос-Анджелесе, где бывшая звезда ТВ-вестернов Рик Далтон и его дублер
 Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии
 2019 г. - США</NoteFilm>
+  
+      <ListDescriptionFilm>
+      <string>Quentin Tarantino
+2019</string>
+      <string>Квентин Тарантино
+2019</string>
+    </ListDescriptionFilm>
+      
       <Director>Tarantino</Director>
       <_cadrCinemaName>Once Upon a Time in Hollywood</_cadrCinemaName>
       <Answers>
@@ -128,7 +141,6 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -142,6 +154,13 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+      <string>Ridley Scott
+2015</string>
+      <string>Ридли Скотт
+2015</string>
+    </ListDescriptionFilm>
       <Director>Ridley Scott</Director>
       <_cadrCinemaName>The Martian</_cadrCinemaName>
       <Answers>
@@ -199,8 +218,14 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      <Director>George Lucas</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <ListDescriptionFilm>
+      <string>Tim Miller
+2016</string>
+      <string>Тим Миллер
+2016</string>
+    </ListDescriptionFilm>
+      <Director>Tim Miller</Director>
+      <_cadrCinemaName>Deadpool</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -259,6 +284,12 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
       </ListNoteFilm>
       <NoteFilm>Киборги сходятся в напряженной схватке за жизнь подростка, от которого зависит судьба человечества. Культовый научно-фантастический боевик Джеймса Кэмерона получил 4 премии «Оскар»
 1991 г. - США</NoteFilm>
+      <ListDescriptionFilm>
+      <string>James Cameron
+1991</string>
+      <string>Джеймс Кемерон
+1991</string>
+    </ListDescriptionFilm>
       <Director>James Cameron</Director>
       <_cadrCinemaName>Terminator 2 Judgment Day</_cadrCinemaName>
       <Answers>
@@ -322,6 +353,12 @@ There he meets his future parents, still teenagers, and a professor friend, very
       <NoteFilm>Подросток Марти с помощью машины времени, сооруженной его другом профессором доком Брауном, попадает из 80-х в далекие 50-е.
 Там он встречается со своими будущими родителями, еще подростками, и другом-профессором, совсем молодым.
 1985 г. - США </NoteFilm>
+      <ListDescriptionFilm>
+      <string>Robert Zemekis
+1985</string>
+      <string>Роберт Земекис
+1985</string>
+    </ListDescriptionFilm>
       <Director>Zemekis</Director>
       <_cadrCinemaName>Back to the Future 1</_cadrCinemaName>
       <Answers>
@@ -390,8 +427,14 @@ Is he worthy to be what he was destined to be by birth - the king of the underwa
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      <ListDescriptionFilm>
+      <string>James Wan
+2018</string>
+      <string>Джеймс Ван
+2018</string>
+    </ListDescriptionFilm>
       <Director>James Wan</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Aquaman</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -453,6 +496,14 @@ One day he meets Mathilde Lando, a teenage girl who lives next door.
       <NoteFilm>Главный герой — профессиональный убийца Леон, живёт уединённой жизнью в Маленькой Италии, районе Нью-Йорка. 
 Однажды он встречает живущую по соседству Матильду Ландо, девочку-подростка.
 1994 г. - Франция</NoteFilm>
+      
+      <ListDescriptionFilm>
+      <string>Luc Besson
+1994</string>
+      <string>Люк Бессон
+1994</string>
+    </ListDescriptionFilm>
+      
       <Director>Besson</Director>
       <_cadrCinemaName>Leon</_cadrCinemaName>
       <Answers>
@@ -513,6 +564,12 @@ One day he meets Mathilde Lando, a teenage girl who lives next door.
       </ListNoteFilm>
       <NoteFilm>Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.
 2008 г. - США</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Christopher Nolan
+2008</string>
+      <string>Кристофер Нолан
+2008</string>
+    </ListDescriptionFilm>
       <Director>Nolan</Director>
       <_cadrCinemaName>The Dark Knight</_cadrCinemaName>
       <Answers>
@@ -573,6 +630,12 @@ The world premiere took place on June 29, 2012.</string>
       </ListNoteFilm>
       <NoteFilm>«Третий лишний» — американская комедия Сета Макфарлейна (его полнометражный дебют), в главных ролях Марк Уолберг и Мила Кунис.
 Мировая премьера состоялась 29 июня 2012 года.</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Seth MacFarlane
+2012</string>
+      <string>Сет Макфарлейн
+2012</string>
+    </ListDescriptionFilm>
       <Director>Seth MacFarlane</Director>
       <_cadrCinemaName>Ted</_cadrCinemaName>
       <Answers>

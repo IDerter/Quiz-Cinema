@@ -10,10 +10,11 @@ namespace QuizCinema
     public class BoostInventory : SingletonBase<BoostInventory>, IBoostInventory
     {
         public event Action OnSaveListBoosts;
+        public event Action<BoostUICount> OnPressButtonBoostInventory;
 
         [SerializeField] private BoostUICount[] _listBoosts = new BoostUICount[3];
         public BoostUICount[] ListBoosts {get { return _listBoosts; } set { _listBoosts = value; } }
-        [SerializeField] private BoostUICount[] _listInventoryBoosts;
+        [SerializeField] private BoostSlot[] _listInventoryBoosts;
 
         [SerializeField] private BoostUICount[] _boostsActive;
 
@@ -34,7 +35,6 @@ namespace QuizCinema
             {
                 if (_listBoosts[i] != null)
                 {
-                    _listInventoryBoosts[i].TextDesctiption.text = _listBoosts[i].TextDesctiption.text;
                     _listInventoryBoosts[i].GetSetBoostSO = _listBoosts[i].GetSetBoostSO;
                 }
             }
@@ -51,10 +51,32 @@ namespace QuizCinema
                     BoostsManager.Instance.MainSaveListBoosts._listBoosts[i] = inventoryBoost.GetSetBoostSO.name.ToString();
                     BoostsManager.Instance.SaveListBoosts._listBoosts[i] = inventoryBoost.GetSetBoostSO.name.ToString(); ;
                     //_saveBoosts._listBoosts[i] = inventoryBoost.GetSetBoostSO.name.ToString();
-                    _listInventoryBoosts[i].TextDesctiption.text = inventoryBoost.TextDesctiption.text;
-                    _listInventoryBoosts[i].GetSetBoostSO = _listBoosts[i].GetSetBoostSO;
+                    _listInventoryBoosts[i].GetSetBoostSO = inventoryBoost.GetSetBoostSO;
+                    _listInventoryBoosts[i].BoostImage.sprite = inventoryBoost.BoostImage.sprite;
+                    _listInventoryBoosts[i].WarningImage.gameObject.SetActive(false);
+
+                    Debug.Log(inventoryBoost.BoostImage.name);
+                    Debug.Log(_listInventoryBoosts[i].BoostImage.name);
+
                     BoostsManager.TakeFromInventory(_listInventoryBoosts[i].GetSetBoostSO, _listBoosts);
                     OnSaveListBoosts?.Invoke();
+                    OnPressButtonBoostInventory?.Invoke(inventoryBoost);
+
+                    break;
+                }
+            }
+        }
+
+        private void LoadSlotValues(BoostUICount inventoryBoost)
+        {
+            for (int i = 0; i < _listBoosts.Length; i++)
+            {
+                if (_listBoosts[i] == null && BoostsManager.GetCountBoost(inventoryBoost.GetSetBoostSO) > 0)
+                {
+                    _listBoosts[i] = inventoryBoost;
+                    
+                    _listInventoryBoosts[i].BoostImage.sprite = inventoryBoost.BoostImage.sprite;
+                    _listInventoryBoosts[i].WarningImage.gameObject.SetActive(false);
                     break;
                 }
             }
@@ -62,17 +84,20 @@ namespace QuizCinema
 
         public void ResetListSlot(BoostUICount inventoryBoost)
         {
-
+            Debug.Log("ResetListSlot");
             for (int i = 0; i < _listInventoryBoosts.Length; i++)
             {
                 if (_listInventoryBoosts[i] == inventoryBoost && _listBoosts[i] != null)
                 {
                     _listBoosts[i] = null;
-                    _listInventoryBoosts[i].TextDesctiption.text = "?";
+
                     BoostsManager.ReturnFromInventory(_listInventoryBoosts[i].GetSetBoostSO, _listBoosts);
 
                     BoostsManager.Instance.MainSaveListBoosts._listBoosts[i] = null;
                     BoostsManager.Instance.SaveListBoosts._listBoosts[i] = null;
+
+                    _listInventoryBoosts[i].BoostImage.sprite = _listInventoryBoosts[i].DefaultSprite;
+                    _listInventoryBoosts[i].WarningImage.gameObject.SetActive(true);
 
                     OnSaveListBoosts?.Invoke();
                     break;
@@ -90,8 +115,11 @@ namespace QuizCinema
                 {
                     if (_boostsActive[i].GetSetBoostSO.name == boostsList[j])
                     {
-                        Instance.ListBoosts[j] = _boostsActive[i];
-                        Debug.Log(Instance.ListBoosts[j].GetSetBoostSO.ToString());
+
+                        LoadSlotValues(_boostsActive[i]);
+
+
+                       // Debug.Log(Instance.ListBoosts[j].GetSetBoostSO.ToString());
                     }
                 }
             }

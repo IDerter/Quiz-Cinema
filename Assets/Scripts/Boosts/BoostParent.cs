@@ -19,7 +19,8 @@ namespace QuizCinema
 
         [SerializeField] protected bool _buttonPress = false;
         public bool ButtonPress { get { return _buttonPress; } set { _buttonPress = value; } }
-
+        [SerializeField] protected bool _isStartActiveBoost = false;
+        public bool IsStartActiveBoost { get { return _isStartActiveBoost; } set { _isStartActiveBoost = value; } }
 
         private void OnEnable()
         {

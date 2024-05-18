@@ -71,7 +71,7 @@ namespace QuizCinema
                     _swipeDelta = Input.GetTouch(0).position - _tapPosition;
                 }
             }
-
+         //   Debug.Log(_swipeDelta);
             if (_swipeDelta.magnitude > _deadZone)
             {
                 if (OnSwipeInput != null)

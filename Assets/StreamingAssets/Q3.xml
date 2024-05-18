@@ -15,7 +15,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Thomas Jahn
+1997</string>
+      <string>Томас Ян
+1997</string>
+    </ListDescriptionFilm>
+      
       <Director>Thomas Jahn</Director>
+      <Poster />
       <_cadrCinemaName>Knockin on Heavens Door</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -73,7 +82,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Guy Ritchie
+2000</string>
+      <string>Гай Ричи
+2000</string>
+    </ListDescriptionFilm>
+      
       <Director>Guy Ritchie</Director>
+      <Poster />
       <_cadrCinemaName>Snatch</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -131,7 +149,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Dunkan Jones
+2016</string>
+      <string>Дункан Джонс
+2016</string>
+    </ListDescriptionFilm>
+      
       <Director>Dunkan Jones</Director>
+      <Poster />
       <_cadrCinemaName>Warcraft</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -189,7 +216,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Lasse Hallstrom
+2009</string>
+      <string>Лассе Халльстрём
+2009</string>
+    </ListDescriptionFilm>
+      
       <Director>Lasse Hallstrom</Director>
+      <Poster />
       <_cadrCinemaName>Hachi A Dog's Tale</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -247,7 +283,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Andres Muschietti
+2017</string>
+      <string>Андрес Мускьетти
+2017</string>
+    </ListDescriptionFilm>
+      
       <Director>Andres Muschietti</Director>
+      <Poster />
       <_cadrCinemaName>It</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -305,43 +350,67 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Gor Verbinski
+2003</string>
+      <string>Гор Вербински
+2003</string>
+    </ListDescriptionFilm>
+      
       <Director>Gor Verbinski</Director>
+      <Poster />
       <_cadrCinemaName>Pirates of the Caribbean The Curse of The Black Pearl</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean The Curse of The Black Pearl</string>
-            <string>Пираты Карибского моря: Проклятие Черной жемчужины</string>
+            <string>Pirates of the Caribbean:
+The Curse of The Black Pearl</string>
+            <string>Пираты Карибского моря:
+Проклятие Черной жемчужины</string>
           </InfoList>
-          <Info>Pirates of the Caribbean The Curse of The Black Pearl</Info>
-          <TranslateInfo>Пираты Карибского моря: Проклятие Черной жемчужины</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+The Curse of The Black Pearl</Info>
+          <TranslateInfo>Пираты Карибского моря:
+Проклятие Черной жемчужины</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean: Dead Man's Chest</string>
+            <string>Pirates of the Caribbean:
+Dead Man's Chest</string>
             <string>Пираты Карибского моря: Сундук мертвеца</string>
           </InfoList>
-          <Info>Pirates of the Caribbean: Dead Man's Chest</Info>
-          <TranslateInfo>Пираты Карибского моря: Сундук мертвеца</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+Dead Man's Chest</Info>
+          <TranslateInfo>Пираты Карибского моря:
+Сундук мертвеца</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean: At World's End</string>
-            <string>Пираты Карибского моря: На краю света</string>
+            <string>Pirates of the Caribbean:
+At World's End</string>
+            <string>Пираты Карибского моря:
+На краю света</string>
           </InfoList>
-          <Info>Pirates of the Caribbean: At World's End</Info>
-          <TranslateInfo>Пираты Карибского моря: На краю света</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+At World's End</Info>
+          <TranslateInfo>Пираты Карибского моря:
+На краю света</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean: On Stranger Tides</string>
-            <string>Пираты Карибского моря: На странных берегах</string>
+            <string>Pirates of the Caribbean:
+On Stranger Tides</string>
+            <string>Пираты Карибского моря:
+На странных берегах</string>
           </InfoList>
-          <Info>Pirates of the Caribbean: On Stranger Tides</Info>
-          <TranslateInfo>Пираты Карибского моря: На странных берегах</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+On Stranger Tides</Info>
+          <TranslateInfo>Пираты Карибского моря:
+На странных берегах</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -363,8 +432,17 @@
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+      <string>Greta Gerwig
+2023</string>
+      <string>Грета Гервиг
+2023</string>
+    </ListDescriptionFilm>
+      
       <Director>Greta Gerwig</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Barbie</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -421,7 +499,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Ridley Scott
+2000</string>
+      <string>Ридли Скотт
+2000</string>
+    </ListDescriptionFilm>
+      
       <Director>Ridley Scott</Director>
+      <Poster />
       <_cadrCinemaName>Gladiator</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -479,7 +566,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Alejandro Gonzalez Iñarritu
+2015</string>
+      <string>Алехандро Гонсалес Иньярриту
+2015</string>
+    </ListDescriptionFilm>
+      
       <Director>Alejandro Gonzalez Iñarritu</Director>
+      <Poster />
       <_cadrCinemaName>The Revenant</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -537,7 +633,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+      <string>Chris Columbus
+1990</string>
+      <string>Крис Коламбус
+1990</string>
+    </ListDescriptionFilm>
+      
       <Director>Chris Columbus</Director>
+      <Poster />
       <_cadrCinemaName>Home-Alone-1</_cadrCinemaName>
       <Answers>
         <Answer>

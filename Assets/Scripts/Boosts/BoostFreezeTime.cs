@@ -12,6 +12,7 @@ namespace QuizCinema
         public static event Action OnEndStopTime;
 
         [SerializeField] private Timer _timer;
+        [SerializeField] private TimerInLvl _timerInLvl;
 
         private const float _timeFreeze = 5f;
 
@@ -23,7 +24,7 @@ namespace QuizCinema
             {
                 _boostSO = boost.GetSetBoostSO;
             }
-
+            _timerInLvl.IsStopTime = false;
            // _buttonBoost.SetActive(true);
             //SwitchInteractable(true, _buttonBoost);
             Debug.Log("«¿’Œƒ»Ã ¬ ONCREATEANSWERS ¬ BOOSTFREEZE!");
@@ -35,10 +36,8 @@ namespace QuizCinema
 
             if (!_buttonPress)
             {
-                _timer.StopCoroutine(_timer.GetStartTimer);
-
-                SwitchInteractable(false, _buttonBoost);
-
+                _timerInLvl.StopCoroutine(_timerInLvl.GetIESliderProgress);
+               // _timer.StopCoroutine(_timer.GetStartTimer);
                 _buttonPress = true;
 
                 StartCoroutine(StartFreezeTime());
@@ -50,7 +49,11 @@ namespace QuizCinema
         {
             yield return new WaitForSeconds(_timeFreeze);
 
-            _timer.StartCoroutine(_timer.GetStartTimer);
+            if (!_timerInLvl.IsStopTime)
+            {
+                Debug.Log(_timerInLvl.IsStopTime + "«¿œ”—“»À» «¿ÕŒ¬Œ —◊≈“◊» !");
+                _timerInLvl.StartCoroutine(_timerInLvl.GetIESliderProgress);
+            }
 
             _buttonPress = false;
         }

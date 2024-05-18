@@ -11,24 +11,31 @@ using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
-    public class GameManager : MonoBehaviour, IDependency<QuestionMethods>, IDependency<Score>, IDependency<LvlData>, IDependency<Timer>
+    public class GameManager : SingletonBase<GameManager>, IDependency<QuestionMethods>, IDependency<Score>, IDependency<LvlData>, IDependency<Timer>
     {
         public event Action<UIManager.ResolutionScreenType, int> UpdateDisplayScreenResolution;
         public event Action OnFinishGame;
 
         public event Action OnCorrectAnswer;
-        public event Action OnUnCorrectAnswer;
+        public event Action OnInCorrectAnswer;
 
         #region Variables
+        [SerializeField] private TimerInLvl _timerInLvl;
         [SerializeField] private QuestionMethods _questionMethods;
         [SerializeField] private Score _score;
         [SerializeField] private Animator _timerAnimator;
         [SerializeField] private Timer _timer;
+        [SerializeField] private GameObject _numberQuestionContainer;
+        [SerializeField] private GameObject _panelInfoQuiz;
         public Animator TimerAnimator { get { return _timerAnimator; } set { value = _timerAnimator; } }
 
         [SerializeField] private Animator _loadingScreenAnimator;
 
+        private bool _isCorrectAnswer;
         private int levelCountStars = 3;
+
+        private const string _correctSFX = "CorrectSFX";
+        private const string _inCorrectSFX = "IncorrectSFX";
 
         [Header("Lvl")]
         [SerializeField] private LvlData _lvl;
@@ -38,6 +45,8 @@ namespace QuizCinema
         private IEnumerator IE_WaitTillNextRound = null;
 
         private WWW www;
+
+        private bool _pressButtonAnswer = false;
 
         [SerializeField] private int _countCorrectAnswer = 0;
         public int CountCorrectAnswer { get { return _countCorrectAnswer; } set { _countCorrectAnswer = value; } }
@@ -66,6 +75,8 @@ namespace QuizCinema
             _timer = obj;
         }
 
+
+
         private void Start()
         {
             _loadingScreenStateParaHash = Animator.StringToHash("Loading Screen");
@@ -89,7 +100,14 @@ namespace QuizCinema
                 Debug.Log("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
             }
 
-            if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.OSXPlayer)
+            if  (Application.platform == RuntimePlatform.WebGLPlayer)
+            {
+                www = new WWW(Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
+                Debug.Log(Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
+                Debug.Log("Go to WEBGL Donwloader!");
+            }
+
+                if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.OSXPlayer)
             {
                 www = new WWW("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
                 Debug.Log("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
@@ -108,6 +126,10 @@ namespace QuizCinema
             _loadingScreenAnimator.SetInteger(_loadingScreenStateParaHash, 0);
             _timerAnimator.enabled = true;
 
+            _panelInfoQuiz.SetActive(true);
+            _timerInLvl.gameObject.SetActive(true);
+            _numberQuestionContainer.SetActive(true);
+
             Debug.Log("End download");
 
             if (www.isDone == true)
@@ -123,40 +145,62 @@ namespace QuizCinema
 
         public void Accept()
         {
-            _timer.UpdateTimer(false);
-
-            bool isCorrect =_questionMethods.CheckAnswers();
-            Debug.Log(isCorrect + " ���������� �����!");
-
-            if (isCorrect)
+            
+            if (!_pressButtonAnswer)
             {
-                OnCorrectAnswer?.Invoke();
-                _countCorrectAnswer++;
+                _timer.UpdateTimer(false);
+                _timerInLvl.StopSlider();
+
+                _isCorrectAnswer = _questionMethods.CheckAnswers();
+
+                if (_isCorrectAnswer)
+                {
+                    Debug.Log("Accept True");
+                    OnCorrectAnswer?.Invoke();
+                    _countCorrectAnswer++;
+                }
+                else
+                {
+                    Debug.Log("Accept False");
+                    OnInCorrectAnswer?.Invoke();
+                }
+                _questionMethods.FinishedQuestions.Add(_questionMethods._currentIndexNotRandom);
+
+                var numberBar = LevelSequenceController.Instance.CurrentEpisode.EpisodeID;
+                var numberLvlInBar = LevelSequenceController.Instance.CurrentLevel;
+
+                var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar] / _questionMethods.GetLengthQuestions;
+                Debug.Log(scoreAdd / 10 + " СКОЛЬКО НУЖНО ДОБАВИТЬ!");
+                _score.UpdateScoreGame(_isCorrectAnswer ? scoreAdd : -scoreAdd);
+                AudioManager.Instance.PlaySound((_isCorrectAnswer) ? _correctSFX : _inCorrectSFX);
+                //TODO�� ������ �������� _currentIndexNotRandom ������� �� CurrentIndexQuestion � ���� ������� � ����� � QUESTUINMETHODS!!!
+                // !!! !!!!
+                //  _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);
+
+                //  _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore : -_questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
+
+                Invoke("AfterAnswerСounted", 0.25f);
             }
-            else
-            {
-                OnUnCorrectAnswer?.Invoke();
-            }
+            _pressButtonAnswer = true;
+        }
 
-            //TODO�� ������ �������� _currentIndexNotRandom ������� �� CurrentIndexQuestion � ���� ������� � ����� � QUESTUINMETHODS!!!
-            // !!! !!!!
-            //  _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);
+        private void AfterAnswerСounted()
+        {
 
-            //  _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore : -_questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
+            var numberBar = LevelSequenceController.Instance.CurrentEpisode.EpisodeID;
+            var numberLvlInBar = LevelSequenceController.Instance.CurrentLevel;
 
-            _questionMethods.FinishedQuestions.Add(_questionMethods._currentIndexNotRandom);
+            var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar] / _questionMethods.GetLengthQuestions;
 
-              _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore : -_questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
 
             if (IE_WaitTillNextRound != null)
             {
                 StopCoroutine(IE_WaitTillNextRound);
             }
 
-            AudioManager.Instance.PlaySound((isCorrect) ? "CorrectSFX" : "IncorrectSFX");
+            var type = (_isCorrectAnswer) ? UIManager.ResolutionScreenType.Correct : UIManager.ResolutionScreenType.Incorrect;
+            UpdateDisplayScreenResolution?.Invoke(type, scoreAdd);
 
-            var type = (isCorrect) ? UIManager.ResolutionScreenType.Correct : UIManager.ResolutionScreenType.Incorrect;
-            UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
         }
 
         public void NextQuestion()
@@ -182,7 +226,7 @@ namespace QuizCinema
 
                 FinishGame();
             }
-            
+            _pressButtonAnswer = false;
             //_questionMethods.Display(); //TODO
         }
 
@@ -239,10 +283,13 @@ namespace QuizCinema
             yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
 
             _timer.UpdateTimer(false);
+            _timerInLvl.StopSlider();
 
             _questionMethods._currentIndexNotRandom++; // TODO ����� ������
             _questionMethods.Display();
 
+
+            _timerInLvl.StartSlider();
         }
     }
 }

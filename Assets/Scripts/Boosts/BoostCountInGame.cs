@@ -8,6 +8,7 @@ namespace QuizCinema
     public class BoostCountInGame : BoostUICount
     {
         [SerializeField] private bool _isPress = false;
+        [SerializeField] protected Button _buttonBoost;
 
         private void Start()
         {

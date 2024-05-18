@@ -10,9 +10,13 @@ namespace QuizCinema
         [SerializeField] private GameManager _gameManager;
         [SerializeField] private QuestionMethods _questionMethods;
         [SerializeField] private Animator _timerAnimator;
-        [SerializeField] private TextMeshProUGUI _timerText;
-        private Color _timerDefaultColor = Color.white;
         public Animator TimerAnimator { get { return _timerAnimator; } set { value = _timerAnimator; } }
+
+        [SerializeField] private TextMeshProUGUI _timerText;
+
+        private Color _timerDefaultColor = Color.white;
+
+        private const string _countdownSFX = "CountdownSFX";
 
         private int _timerStateParaHash = 0;
         public int GetTimerStateParaHash => _timerStateParaHash;
@@ -58,7 +62,7 @@ namespace QuizCinema
             {
                 timeLeft--;
 
-                AudioManager.Instance.PlaySound("CountdownSFX");
+                //AudioManager.Instance.PlaySound(_countdownSFX);
 
                 _timerText.text = timeLeft.ToString();
                 yield return new WaitForSeconds(1f);

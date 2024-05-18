@@ -48,8 +48,11 @@ namespace QuizCinema
                             // var test = Instantiate(_boostsActive[j], _sceneBoosts[j]);
                             var boost = Instantiate(_boostsActive[i], _sceneBoosts[j]);
 
-
                             boost.gameObject.SetActive(true);
+                            if (boost.isActiveAndEnabled)
+                            {
+                               // boost.
+                            }
                             // _boostsActive[i].gameObject.SetActive(true);
                         }
                     }

@@ -25,6 +25,12 @@ namespace QuizCinema
 
         public void LoadSceneByName(string scene)
         {
+            StartCoroutine(StartScene(scene));
+        }
+
+        IEnumerator StartScene(string scene)
+        {
+            yield return new WaitForSeconds(0.5f);
             SceneManager.LoadScene(scene);
         }
 

@@ -9,7 +9,8 @@ namespace QuizCinema
     public class BoostCorrectAnswer : BoostParent
     {
         [SerializeField] private Question _currentQuestion;
-        [SerializeField] private SwipeImage _swipeImage;
+        // [SerializeField] private SwipeImage _swipeImage;
+        [SerializeField] private SwipeMenu _swipeMenu;
 
         protected override void OnCreateAnswers(Question question)
         {
@@ -38,11 +39,13 @@ namespace QuizCinema
                 {
                     if (listIndexCorrectAnswer[0] == i && _currentQuestion.IndexPrefab != 3)
                     {
-                        currentAnswer[i].UpdateUI(true);
+                        currentAnswer[i].CorrectAnswer.SetActive(true);
+                        Debug.Log("Correct Answer");
                     }
                     else if (listIndexCorrectAnswer[0] == i)
                     {
-                        _swipeImage.ShowCadr(i);
+                        _swipeMenu.SetNearestPoint(i);
+                       // _swipeImage.ShowCadr(i);
                         Debug.Log(i + " текущий правильный индекс!");
                         //currentAnswer[i].
                     }

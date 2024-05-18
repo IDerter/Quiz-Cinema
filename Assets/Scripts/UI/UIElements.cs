@@ -8,8 +8,8 @@ namespace QuizCinema
     [Serializable]
     public struct UIElements
     {
-        [SerializeField] private RectTransform[] _answerContentArea;
-        public RectTransform[] AnswerContentArea => _answerContentArea;
+        [SerializeField] private RectTransform[] _answersHolder;
+        public RectTransform[] AnswersHolder => _answersHolder;
         [SerializeField] private TextMeshProUGUI[] _questionInfoTextObject;
         public TextMeshProUGUI[] QuestionInfoTextObject => _questionInfoTextObject;
 

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Correct Answer
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 47a1fc6c3fba5cd4bb1ee38463d21ca9, type: 3}
-  cost: 50
+  cost: 1

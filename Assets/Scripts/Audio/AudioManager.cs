@@ -5,9 +5,8 @@ using UnityEngine;
 namespace QuizCinema
 {
 
-    public class AudioManager : MonoBehaviour
+    public class AudioManager : SingletonBase<AudioManager>
     {
-        public static AudioManager Instance;
 
         [SerializeField] private Sound[] _sounds;
         [SerializeField] private AudioSource _sourcePrefabSFX;
@@ -15,17 +14,9 @@ namespace QuizCinema
 
         [SerializeField] private string _startupTrack;
 
-        private void Awake()
+        protected override void Awake()
         {
-            if (Instance != null)
-            {
-                Destroy(gameObject);
-            }
-            else
-            {
-                Instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
+            base.Awake();
 
             InitSounds();
         }
@@ -72,6 +63,20 @@ namespace QuizCinema
             }
         }
 
+        public void PlaySoundAudioClip(AudioClip audioClip)
+        {
+            var sound = GetSoundAudioClip(audioClip);
+
+            if (sound != null)
+            {
+                sound.Play();
+            }
+            else
+            {
+                Debug.LogWarningFormat("Sound by the name {0} is not found", name);
+            }
+        }
+
         public void StopSound(string name)
         {
             var sound = GetSound(name);
@@ -91,6 +96,19 @@ namespace QuizCinema
             foreach (var sound in _sounds)
             {
                 if (sound.Name == name)
+                {
+                    return sound;
+                }
+            }
+
+            return null;
+        }
+
+        public Sound GetSoundAudioClip (AudioClip audioClip)
+        {
+            foreach (var sound in _sounds)
+            {
+                if (sound.Clip == audioClip)
                 {
                     return sound;
                 }

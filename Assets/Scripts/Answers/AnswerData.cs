@@ -15,18 +15,14 @@ namespace QuizCinema
         [SerializeField] private TextMeshProUGUI _infoText;
         public TextMeshProUGUI InfoText => _infoText;
 
-        [SerializeField] private Image _toogle;
-        public Image Toogle { get { return _toogle; } set { _toogle = value; } }
 
         [Header("Textures")]
-        [SerializeField] private Sprite _uncheckedToggle;
-        [SerializeField] private Sprite _checkedToggle;
+        [SerializeField] private GameObject _correctAnswer;
+        public GameObject CorrectAnswer { get { return _correctAnswer; } set { _correctAnswer = value; } }
+        [SerializeField] private GameObject _inCorrectAnswer;
+        public GameObject InCorrectAnswer { get { return _inCorrectAnswer; } set { _inCorrectAnswer = value; } }
         [SerializeField] private Image _currentImage;
         public Image CurrentImage { get { return _currentImage; } set { _currentImage = value; } }
-
-        [Header("DisplayCorrect")]
-        [SerializeField] private Sprite _unCorrectAnswer;
-        [SerializeField] private Sprite _CorrectAnswer;
 
 
         private RectTransform _rect;
@@ -48,6 +44,48 @@ namespace QuizCinema
 
         private bool _checked = false;
         public bool Checked => _checked;
+
+
+        private void OnEnable()
+        {
+            GameManager.Instance.OnCorrectAnswer += OnCorrectAnswer;
+            GameManager.Instance.OnInCorrectAnswer += OnUnCorrectAnswer;
+        }
+
+        private void OnDisable()
+        {
+            GameManager.Instance.OnCorrectAnswer -= OnCorrectAnswer;
+            GameManager.Instance.OnInCorrectAnswer -= OnUnCorrectAnswer;
+        }
+
+        private void OnCorrectAnswer()
+        {
+            Debug.Log("Start CorrectAnswer!");
+            foreach (var i in QuestionMethods.Instance.PickedAnswers)
+           {
+                if (i == this)
+                {
+                    _correctAnswer.SetActive(true);
+                    Debug.Log("CorrectAnswer!");
+                }
+           }
+           
+        }
+
+        private void OnUnCorrectAnswer()
+        {
+            Debug.Log("Start InCorrectAnswer!");
+            foreach (var i in QuestionMethods.Instance.PickedAnswers)
+            {
+                if (i == this)
+                {
+                    _inCorrectAnswer.SetActive(true);
+                    _infoText.color = Color.white;
+                    Debug.Log("InCorrectAnswer!");
+                }
+            }
+
+        }
 
 
         public void UpdateData(string info, int index)
@@ -73,9 +111,16 @@ namespace QuizCinema
 
         public void UpdateUI(bool _checked)
         {
-            _toogle.gameObject.SetActive(true);
-            _toogle.sprite = (_checked) ? _checkedToggle : _uncheckedToggle;
-
+            /*if (_checked)
+            {
+                _correctAnswer.SetActive(true);
+            }
+            else
+            {
+                _inCorrectAnswer.SetActive(true);
+                _infoText.color = Color.white;
+            }
+            */
         }
     }
 }

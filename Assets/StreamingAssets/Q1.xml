@@ -21,6 +21,13 @@
 Американская эпическая романтическая драма и фильм-катастрофа, в котором показана гибель легендарного лайнера «Титаник».
 1997 г. - США
       </NoteFilm>
+      <ListDescriptionFilm>
+        <string>James Cameron
+1997
+</string>
+        <string>Джеймс Кэмерон
+1997г</string>
+      </ListDescriptionFilm>
       <Director>James Cameron</Director>
       <_cadrCinemaName>Titanic</_cadrCinemaName>
       <Answers>
@@ -97,6 +104,13 @@ An American Western set shortly after the American Civil War.
 Американский вестерн действие которого происходит вскоре после Гражданской войны в США.
 2015 г. - США
       </NoteFilm>
+      <ListDescriptionFilm>
+        <string>Quentin Tarantino
+2015
+</string>
+        <string>Квентин Тарантино
+2015</string>
+      </ListDescriptionFilm>
       <Director>Tarantino</Director>
       <_cadrCinemaName>The Hateful Eight</_cadrCinemaName>
       <Answers>
@@ -154,6 +168,15 @@ An American Western set shortly after the American Civil War.
         <string>Художественный фильм 2012 года режиссёра Квентина Тарантино в жанре спагетти-вестерн  </string>
       </ListNoteFilm>
       <NoteFilm>Художественный фильм 2012 года режиссёра Квентина Тарантино в жанре спагетти-вестерн  </NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Quentin Tarantino
+2012
+</string>
+        <string>Квентин Тарантино
+2012</string>
+      </ListDescriptionFilm>
+      
       <Director>Tarantino</Director>
       <_cadrCinemaName>django unchained</_cadrCinemaName>
       <Answers>
@@ -212,6 +235,15 @@ An American Western set shortly after the American Civil War.
         <string>Американский детективный триллер режиссёра Мартина Скорсезе по одноимённому роману Денниса Лихэйна, вышедший 19 февраля 2010 года в США.</string>
       </ListNoteFilm>
       <NoteFilm>Американский детективный триллер режиссёра Мартина Скорсезе по одноимённому роману Денниса Лихэйна, вышедший 19 февраля 2010 года в США.</NoteFilm>
+      
+        <ListDescriptionFilm>
+        <string>Martin Scorsese
+2010
+</string>
+        <string>Мартин Скорсезе
+2010</string>
+      </ListDescriptionFilm>
+      
       <Director>Scorsese</Director>
       <_cadrCinemaName>Shutter Island</_cadrCinemaName>
       <Answers>
@@ -275,6 +307,14 @@ An American Western set shortly after the American Civil War.
       <NoteFilm>Научно-фантастический триллер Кристофера Нолана, основанный на идее осознанных сновидений
 2010 г. - США
       </NoteFilm>
+      
+    <ListDescriptionFilm>
+      <string>Christopher Nolan
+2010</string>
+      <string>Кристофер Нолан
+2010</string>
+    </ListDescriptionFilm>
+      
       <Director>Nolan</Director>
       <_cadrCinemaName>Inception</_cadrCinemaName>
       <Answers>
@@ -332,6 +372,12 @@ An American Western set shortly after the American Civil War.
         <string>Американский фэнтезийный драматический фильм 1999 года режиссёра и сценариста Фрэнка Дарабонта, основанный на одноимённом романе Стивена Кинга</string>
       </ListNoteFilm>
       <NoteFilm>Американский фэнтезийный драматический фильм 1999 года режиссёра и сценариста Фрэнка Дарабонта, основанный на одноимённом романе Стивена Кинга</NoteFilm>
+    <ListDescriptionFilm>
+      <string>Frank Darabont
+1999</string>
+      <string>Фрэнка Дарабонт
+1999</string>
+    </ListDescriptionFilm>
       <Director>Darabont</Director>
       <_cadrCinemaName>Green mile</_cadrCinemaName>
       <Answers>
@@ -394,6 +440,12 @@ An American Western set shortly after the American Civil War.
       <NoteFilm>Научно-фантастический фильм, снятый Кристофером Ноланом по сценарию, написанному в соавторстве с Джонатаном Ноланом
 2014 г. - США
       </NoteFilm>
+    <ListDescriptionFilm>
+      <string>Christopher Nolan
+2014</string>
+      <string>Кристофер Нолан
+2014</string>
+    </ListDescriptionFilm>
       <Director>Nolan</Director>
       <_cadrCinemaName>Interstellar</_cadrCinemaName>
       <Answers>
@@ -451,6 +503,14 @@ An American Western set shortly after the American Civil War.
         <string>Американский психологический триллер 1999 года режиссёра Дэвида Финчера по мотивам одноимённого романа Чака Паланика, вышедшего тремя годами ранее</string>
       </ListNoteFilm>
       <NoteFilm>Американский психологический триллер 1999 года режиссёра Дэвида Финчера по мотивам одноимённого романа Чака Паланика, вышедшего тремя годами ранее</NoteFilm>
+      
+    <ListDescriptionFilm>
+      <string>David Fincher
+1999</string>
+      <string>Дэвида Финчер
+1999</string>
+    </ListDescriptionFilm>
+      
       <Director>Fincher</Director>
       <_cadrCinemaName>Fight club</_cadrCinemaName>
       <Answers>
@@ -508,6 +568,12 @@ An American Western set shortly after the American Civil War.
         <string>Двое бандитов Винсент Вега и Джулс Винфилд проводят время в философских беседах в перерыве между разборками с должниками своего криминального босса</string>
       </ListNoteFilm>
       <NoteFilm>Двое бандитов Винсент Вега и Джулс Винфилд проводят время в философских беседах в перерыве между разборками с должниками своего криминального босса</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Quentin Tarantino
+1994</string>
+      <string>Квентин Тарантино
+1994</string>
+    </ListDescriptionFilm>
       <Director>Tarantino</Director>
       <_cadrCinemaName>Pulp Fiction</_cadrCinemaName>
       <Answers>
@@ -565,6 +631,12 @@ An American Western set shortly after the American Civil War.
         <string>Приключенческий фильм в жанре эпического фэнтези 2001 года режиссёра Питера Джексона,основанный на первой части романа «Властелин колец» Дж. Р. Р. Толкина «Братство Кольца»</string>
       </ListNoteFilm>
       <NoteFilm>Приключенческий фильм в жанре эпического фэнтези 2001 года режиссёра Питера Джексона,основанный на первой части романа «Властелин колец» Дж. Р. Р. Толкина «Братство Кольца»</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Peter Jackson
+2001</string>
+      <string>Питер Джексон
+2001</string>
+    </ListDescriptionFilm>
       <Director>Jackson</Director>
       <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
       <Answers>

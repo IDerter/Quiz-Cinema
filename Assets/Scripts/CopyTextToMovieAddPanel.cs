@@ -33,7 +33,7 @@ namespace QuizCinema
 
         private void OnCreateAnswers(Question question)
         {
-            _textCinemaInfo.text = question.ListNoteFilm[PlayerPrefs.GetInt("IndexLanguageSave")];
+            _textCinemaInfo.text = question.ListDescriptionFilm[PlayerPrefs.GetInt("IndexLanguageSave")];
         }
     }
 }

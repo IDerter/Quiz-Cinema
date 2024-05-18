@@ -23,6 +23,7 @@ namespace QuizCinema
 
         [Header("UI Elements (Prefabs)")]
         [SerializeField] private AnswerData[] _answerPrefab;
+        [SerializeField] private RectTransform _panelInfoQuiz;
 
         [SerializeField] private UIElements _uIElements;
 
@@ -41,7 +42,7 @@ namespace QuizCinema
 
         private ResolutionScreenType _typeAnswer;
 
-
+        
 
         private void OnEnable()
         {
@@ -76,19 +77,38 @@ namespace QuizCinema
             _answerPrefab = _settingUIManager.AnswersPrefabs;
         }
 
+        public void SetPanelInfoValues(bool panelUp)
+        {
+            var valueY = panelUp ? 1 : 0;
+            _panelInfoQuiz.anchorMax = new Vector2(0.5f, valueY);
+            _panelInfoQuiz.anchorMin = new Vector2(0.5f, valueY);
+            _panelInfoQuiz.pivot = new Vector2(0.5f, valueY);
+          //  _panelInfoQuiz.localPosition = new Vector2(300, 200);
+        }
+
 
 
         private void UpdateQuestionUI(Question question)
         {
+
             UpdateScoreUI();
 
             var index = question.IndexPrefab;
+            if (index <= 1)
+            {
+                SetPanelInfoValues(false);
+            }
+            else if (index == 2 || index == 3)
+            {
+                SetPanelInfoValues(true);
+            }
+
 
             for (int i = 0; i < _answerPrefab.Length; i++)
             {
                 _uIElements.QuestionInfoTextObject[i].transform.parent.gameObject.SetActive(false);
                 _uIElements.CadrCinema[i].transform.parent.gameObject.SetActive(false);
-                _uIElements.AnswerContentArea[i].transform.parent.parent.gameObject.SetActive(false);
+                _uIElements.AnswersHolder[i].transform.gameObject.SetActive(false);
             }
 
             ActivateUIObjects(index, question);
@@ -102,13 +122,14 @@ namespace QuizCinema
             {
                 UpdateFinishScreen();
             }
+            SwipeMenu.Instance.ResetAllSwipeArguments();
         }
 
         private void ActivateUIObjects(int index, Question question)
         {
             _uIElements.QuestionInfoTextObject[index].transform.parent.gameObject.SetActive(true);
             _uIElements.CadrCinema[index].transform.parent.gameObject.SetActive(true);
-            _uIElements.AnswerContentArea[index].transform.parent.parent.gameObject.SetActive(true);
+            _uIElements.AnswersHolder[index].transform.gameObject.SetActive(true);
 
             _uIElements.QuestionInfoTextObject[index].text = question.ListInfoQuestion[PlayerPrefs.GetInt("IndexLanguageSave")];
 
@@ -187,6 +208,7 @@ namespace QuizCinema
             }
         }
 
+        // CalculateScore TODO
         IEnumerator CalculateScore()
         {
             if (_score.CurrentLvlScore == 0)

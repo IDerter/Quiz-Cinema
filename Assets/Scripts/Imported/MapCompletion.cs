@@ -33,6 +33,7 @@ namespace TowerDefense
         }
 
         [SerializeField] private EpisodeScore[] _completionData;
+
         [SerializeField] private EpisodeScore[] _completionDataUnity;
 
         private Episode _currentEpisode;
@@ -61,7 +62,10 @@ namespace TowerDefense
         private void Start()
         {
             LoadData();
+            _moneyShop = BoostsManager.Instance.GetMoneyForBoosts;
         }
+
+
 
         public virtual void LoadData()
         {
@@ -305,5 +309,19 @@ namespace TowerDefense
             }
             return 0;
         }
+
+        public int GetSumLvlScore(int episodeID)
+        {
+            int sum = 0;
+            foreach (var data in _completionDataUnity)
+            {
+                if (data.EpisodeID == episodeID)
+                {
+                    sum += data.ScoreLvl;
+                }
+            }
+            return sum;
+        }
+
     }
 }

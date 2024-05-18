@@ -11,6 +11,7 @@ namespace SpaceShooter
         public static string _mapMenuSceneNickname = "LevelMap";
         public static string _mainMenuSceneNickname = "MainMenu";
 
+        [SerializeField] private Episode _episodeForTest;
         public Episode CurrentEpisode { get; private set; }
 
         public int CurrentLevel { get; private set; }
@@ -33,6 +34,10 @@ namespace SpaceShooter
             _allKills = PlayerPrefs.GetInt("AllKills");
             _bestTime = PlayerPrefs.GetInt("BestTime");
             _maxScore = PlayerPrefs.GetInt("MaxScore");
+            if (_episodeForTest != null)
+            {
+                CurrentEpisode = _episodeForTest;
+            }
         }
 
         public void StartEpisode(Episode episode, int currentLevelIndex, string episodeName)

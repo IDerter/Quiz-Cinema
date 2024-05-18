@@ -8,9 +8,13 @@ namespace QuizCinema
 {
     public class BoostIncreaseOn50PersentScore : BoostParent
     {
+        public static event Action OnIncrease50PercentBooster;
+
         private void Start()
         {
             _gameManager.OnFinishGame += OnFinishGame;
+
+            
         }
 
         private void OnDestroy()
@@ -30,27 +34,23 @@ namespace QuizCinema
 
         protected override void OnCreateAnswers(Question question)
         {
+            Debug.Log("BoostIncrease");
             if (_buttonBoost.TryGetComponent<BoostUICount>(out var boost))
             {
                 _boostSO = boost.GetSetBoostSO;
             }
 
-            if (_buttonPress == false)
-            {
-                //_buttonBoost.SetActive(true);
-              //  SwitchInteractable(true, _buttonBoost);
-                Debug.Log("ÇÀÕÎÄÈÌ Â ONCREATEANSWERS Â BOOSTFREEZE!");
-            }
         }
 
         public override void ActivateBoost()
         {
             base.ActivateBoost();
+            Debug.Log("50 PERCENT ACTIVE BOOST!");
 
             _buttonPress = true;
 
             _gameManager.IsActivateBoost50Percent = true;
-            SwitchInteractable(false, _buttonBoost);
+           
             BoostsManager.UseBoost(_boostSO);
         }
     }

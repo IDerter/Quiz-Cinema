@@ -41,7 +41,11 @@ namespace QuizCinema
 
         public string NoteFilm = String.Empty;
 
+        public List<string> ListDescriptionFilm;
+
         public string Director = String.Empty;
+
+        public string Poster = String.Empty;
 
         public string _cadrCinemaName;
 
