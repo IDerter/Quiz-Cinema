@@ -52,6 +52,8 @@ namespace QuizCinema
         private void OnUnCorrectAnswer()
         {
             Debug.Log("Start InCorrectAnswer!");
+
+
             foreach (var i in QuestionMethods.Instance.PickedAnswers)
             {
                 if (i == this)

@@ -32,7 +32,8 @@ namespace QuizCinema
         [SerializeField] private Animator _loadingScreenAnimator;
 
         private bool _isCorrectAnswer;
-        private int levelCountStars = 3;
+        private int _levelCountStars = 3;
+        public int GetLevelCountStars => _levelCountStars;
 
         private const string _correctSFX = "CorrectSFX";
         private const string _inCorrectSFX = "IncorrectSFX";
@@ -51,7 +52,7 @@ namespace QuizCinema
         [SerializeField] private int _countCorrectAnswer = 0;
         public int CountCorrectAnswer { get { return _countCorrectAnswer; } set { _countCorrectAnswer = value; } }
         [SerializeField] private int _countCurrentAnswer = 1;
-        public int CountCurrenttAnswer { get { return _countCurrentAnswer; } set { _countCurrentAnswer = value; } }
+        public int CountCurrentAnswer { get { return _countCurrentAnswer; } set { _countCurrentAnswer = value; } }
 
         #endregion
         private bool _isActivateBoost50Percent = false;
@@ -152,6 +153,7 @@ namespace QuizCinema
                 _timerInLvl.StopSlider();
 
                 _isCorrectAnswer = _questionMethods.CheckAnswers();
+                Debug.Log("ISCORRECT" + _isCorrectAnswer);
 
                 if (_isCorrectAnswer)
                 {
@@ -169,7 +171,9 @@ namespace QuizCinema
                 var numberBar = LevelSequenceController.Instance.CurrentEpisode.EpisodeID;
                 var numberLvlInBar = LevelSequenceController.Instance.CurrentLevel;
 
-                var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar] / _questionMethods.GetLengthQuestions;
+                Debug.Log(numberBar + "number bar" + numberLvlInBar % 5 + "numberLvlInVar");
+
+                var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar % 5] / _questionMethods.GetLengthQuestions;
                 Debug.Log(scoreAdd / 10 + " СКОЛЬКО НУЖНО ДОБАВИТЬ!");
                 _score.UpdateScoreGame(_isCorrectAnswer ? scoreAdd : -scoreAdd);
                 AudioManager.Instance.PlaySound((_isCorrectAnswer) ? _correctSFX : _inCorrectSFX);
@@ -190,7 +194,7 @@ namespace QuizCinema
             var numberBar = LevelSequenceController.Instance.CurrentEpisode.EpisodeID;
             var numberLvlInBar = LevelSequenceController.Instance.CurrentLevel;
 
-            var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar] / _questionMethods.GetLengthQuestions;
+            var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar % 5] / _questionMethods.GetLengthQuestions;
 
 
             if (IE_WaitTillNextRound != null)
@@ -220,7 +224,7 @@ namespace QuizCinema
             else
             {
                 Debug.Log(_countCurrentAnswer + " ������� ���-�� ��������!");
-
+                CalculateLevelStars();
                 OnFinishGame?.Invoke();
                 Debug.Log("������������� �� ONFINISHGAME!");
 
@@ -244,12 +248,10 @@ namespace QuizCinema
                 }
                 PlayerPrefs.SetInt(GameUtility.SavePrefLvlKey, _lvl.Level);
 
-                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5) + " - ������� ����� �������� �� 2 ������");
-                Debug.Log(Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0) + " - ������� ����� �������� �� 1 ������");
 
-                CalculateLevelStars();
+                UIManager.Instance.StartCalculateScore();
 
-                MapCompletion.SaveEpisodeResult(levelCountStars, _score.CurrentLvlScore);
+                MapCompletion.SaveEpisodeResult(_levelCountStars, _score.CurrentLvlScore);
 
                 var type = UIManager.ResolutionScreenType.Finish;
                 UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
@@ -260,22 +262,22 @@ namespace QuizCinema
         {
             if (_countCorrectAnswer == _questionMethods.FinishedQuestions.Count)
             {
-                levelCountStars = 3;
+                _levelCountStars = 3;
             }
             else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5))
             {
-                levelCountStars = 2;
+                _levelCountStars = 2;
             }
             else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0))
             {
-                levelCountStars = 1;
+                _levelCountStars = 1;
             }
             else
             {
-                levelCountStars = 0;
+                _levelCountStars = 0;
             }
 
-            return levelCountStars;
+            return _levelCountStars;
         }
 
         IEnumerator WaitTillNextRound()

@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>The Hateful Eight</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Однажды в Голливуде</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Омерзительная восьмерка</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Джанго Освобожденный</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Страх и ненависть в Лас-Вегасе</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>django unchained</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Однаждый в Голливуде</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Омерзительная восьмерка</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Джанго Освобожденный</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Казино</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>Green mile</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Побег из Шоушенка</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Гарри Поттер и Узник Азкабана</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Сияние</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Зеленая миля</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>The Shawshank Redemption</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Побег из Шоушенка</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Список Шиндлера</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Зеленая миля</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Счастливое число Слевина</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>Forrest Gump</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Изгой</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Список Шиндлера</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Зеленая миля</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Форрест Гамп</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>Interstellar</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Большая игра</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Интерстеллар</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Довод</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Прислуга</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>Fight club</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Американская история X</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Карты, деньги, два ствола</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Бойцовский клуб</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Пролетая над гнездом кукушки</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>Pulp Fiction</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Бесславные ублюдки</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Криминальное чтиво</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Большой куш</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Однажды в Голливуде</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Властелин колец: Братство кольца</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Властелин колец: Две крепости</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Властелин колец: Возвращение короля</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Хроники Нарнии</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <Info>Угадай фильм по кадру</Info>
+      <_cadrCinemaName>Harry Potter and the Philosophers Stone</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Гарри Поттер и узник Азкабана</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Гарри Поттер и Тайная комната</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Гарри Поттер и философский камень</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Гарри Поттер и Кубок огня</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <Info>Сколько оскаров у фильма Титаник?</Info>
+      <_cadrCinemaName>Titanic</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>9</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>10</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>11</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>12</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <Info>В одном фильме главный герой рисует портрет девушки. Но рука, которая делает набросок вовсе не его. Назовите фильм в котором произошла такая подмена.</Info>
+      <_cadrCinemaName>Titanic</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <Info>Полночь в Париже</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Титаник</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Фрида</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Андрей Рублев</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <GetAnswerType>Single</GetAnswerType>
+      <AddScore>40</AddScore>
+    </Question>
+  </Questions>
+</Data>

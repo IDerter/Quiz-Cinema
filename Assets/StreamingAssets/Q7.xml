@@ -32,8 +32,17 @@ This technique was borrowed from the film's set design; More than 30,000 tiles w
         <string>Сама Джоан Роулинг решительно настояла, чтоб эльфа-домовика Кикимера оставили, так как это важно для дальнейшего повествования.</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>David Yates
+2007</string>
+        <string>Дэвид Йейтс
+2007</string>
+      </ListDescriptionFilm>
+      
       <Director>David Yates</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Harry Potter and the Order of the Phoenix</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -89,7 +98,16 @@ This technique was borrowed from the film's set design; More than 30,000 tiles w
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>John McTiernan
+1988</string>
+        <string>Джон Мактирнан
+1988</string>
+      </ListDescriptionFilm>
+      
       <Director>John McTiernan</Director>
+      <Poster />
       <_cadrCinemaName>Die Hard 1</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -146,7 +164,16 @@ This technique was borrowed from the film's set design; More than 30,000 tiles w
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Chris Columbus
+2002</string>
+        <string>Крис Коламбус
+2002</string>
+      </ListDescriptionFilm>
+      
       <Director>Chris Columbus</Director>
+      <Poster />
       <_cadrCinemaName>Harry Potter and the Chamber of Secrets</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -203,7 +230,16 @@ This technique was borrowed from the film's set design; More than 30,000 tiles w
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Joe Johnston
+1995</string>
+        <string>Джо Джонстон
+1995</string>
+      </ListDescriptionFilm>
+      
       <Director>Joe Johnston</Director>
+      <Poster />
       <_cadrCinemaName>Jumanji</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -277,8 +313,17 @@ Weir also shot the film in chronological order to allow the characters' relation
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Peter Weir
+1989</string>
+        <string>Питер Уир
+1989</string>
+      </ListDescriptionFilm>
+      
       <Director>Peter Weir</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Dead Poets Society</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -334,7 +379,16 @@ Weir also shot the film in chronological order to allow the characters' relation
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      <Director>Mark Herman</Director>
+      
+      <ListDescriptionFilm>
+        <string>Luc Besson
+1998</string>
+        <string>Люк Бессон
+1998</string>
+      </ListDescriptionFilm>
+      
+      <Director>Besson</Director>
+      <Poster />
       <_cadrCinemaName>Taxi</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -406,8 +460,17 @@ It's hard to believe that just five years after my beloved "The Agents of U.N.C.
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Guy Ritchie
+2021</string>
+        <string>Гай Ричи
+2021</string>
+      </ListDescriptionFilm>
+      
       <Director>Guy Ritchie</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Wrath of Man</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -463,7 +526,16 @@ It's hard to believe that just five years after my beloved "The Agents of U.N.C.
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Ian Lancaster Fleming
+2006-2021</string>
+        <string>Ян Флеминг
+2006-2021</string>
+      </ListDescriptionFilm>
+      
       <Director>Ian Lancaster Fleming</Director>
+      <Poster />
       <_cadrCinemaName>Casino Royale</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -520,7 +592,16 @@ It's hard to believe that just five years after my beloved "The Agents of U.N.C.
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Cary Fukunaga
+2021</string>
+        <string>Кэри Фукунага
+2021</string>
+      </ListDescriptionFilm>
+      
       <Director>Cary Fukunaga</Director>
+      <Poster />
       <_cadrCinemaName>No Time To Die</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -577,8 +658,17 @@ It's hard to believe that just five years after my beloved "The Agents of U.N.C.
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Todd Phililips
+2019</string>
+        <string>Тодд Филлипс
+2019</string>
+      </ListDescriptionFilm>
+      
       <Director>Todd Phililips</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Joker</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>

@@ -425,7 +425,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 425967bf32f92754c898c3189cc40c45, type: 3}
   type: 0
   _lockImage: {fileID: 6861210396806606154}
-  _buttonLoad: {fileID: 3220167384512052447}
+  _overlayImage: {fileID: 0}
 --- !u!1 &3220167383675273715
 GameObject:
   m_ObjectHideFlags: 0

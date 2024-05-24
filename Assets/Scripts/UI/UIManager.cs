@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
-    public class UIManager : MonoBehaviour
+    public class UIManager : SingletonBase<UIManager>
     {
         public enum ResolutionScreenType { Correct, Incorrect, Finish }
 
@@ -122,7 +122,8 @@ namespace QuizCinema
             {
                 UpdateFinishScreen();
             }
-            SwipeMenu.Instance.ResetAllSwipeArguments();
+
+            SwipeMenu.Instance?.ResetAllSwipeArguments();
         }
 
         private void ActivateUIObjects(int index, Question question)
@@ -158,6 +159,7 @@ namespace QuizCinema
 
             if (_typeAnswer == ResolutionScreenType.Finish)
             {
+               
                 _uIElements.FinishUIElements.gameObject.SetActive(true);
             }
 
@@ -176,13 +178,14 @@ namespace QuizCinema
             var currentEpisode = LevelSequenceController.Instance.CurrentEpisode;
             var sceneName = SceneManager.GetActiveScene().name;
 
-            _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
+            _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrentAnswer + "/" + _questionMethods.Data.Questions.Length;
         }
 
         private void UpdateFinishScreen()
         {
             Debug.Log("UpdateFinishScreen");
             var sceneName = SceneManager.GetActiveScene().name;
+
 
             if (_uIElements.CountCorrectAnswer.Length == 2)
             {
@@ -209,8 +212,14 @@ namespace QuizCinema
         }
 
         // CalculateScore TODO
+        public void StartCalculateScore()
+        {
+            StartCoroutine(CalculateScore());
+        }
+
         IEnumerator CalculateScore()
         {
+            Debug.Log("StartCalculate");
             if (_score.CurrentLvlScore == 0)
             {
                 if (_uIElements.ScoreFinalLvl.Length == 2)
@@ -224,6 +233,7 @@ namespace QuizCinema
             var scoreValue = 0;
             var scoreMoreThanZero = _score.CurrentLvlScore > 0;
 
+            Debug.Log("scoreMoreThanZero" + scoreMoreThanZero);
             while (scoreMoreThanZero ?  scoreValue < _score.CurrentLvlScore : scoreValue > _score.CurrentLvlScore)
             {
                 yield return new WaitForSeconds(0.001f);
@@ -242,7 +252,7 @@ namespace QuizCinema
         private void UpdateScoreUI()
         {
             if (_gameManager.CountCorrectAnswer <= _questionMethods.Data.Questions.Length)
-                _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrenttAnswer + "/" + _questionMethods.Data.Questions.Length;
+                _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrentAnswer + "/" + _questionMethods.Data.Questions.Length;
 
             _uIElements.CountCurrentScore.text = _score.CurrentLvlScore.ToString();
 
@@ -251,6 +261,8 @@ namespace QuizCinema
                 _uIElements.ScoreFinalLvl[0].text = _score.CurrentLvlScore.ToString();
                 _uIElements.ScoreFinalLvl[1].text = _score.CurrentLvlScore.ToString();
             }
+
+            
         }
     }
 }

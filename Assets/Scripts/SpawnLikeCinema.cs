@@ -18,7 +18,9 @@ namespace QuizCinema
             {
                 var spawnObj = Instantiate(_prefabLikeCinema, _spawnParent);
 
-                Sprite sprite = Resources.Load($"{likeCinema.Question._cadrCinemaName}", typeof(Sprite)) as Sprite;
+                Debug.Log($"Posters/{ likeCinema.CadrCinemaName}_poster");
+                Sprite sprite = Resources.Load($"Posters/{likeCinema.CadrCinemaName}_poster", typeof(Sprite)) as Sprite;
+               // Debug.Log(sprite.name);
                 spawnObj.GetComponent<Image>().sprite = sprite;
             }
         }

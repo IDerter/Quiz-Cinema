@@ -50,7 +50,6 @@ namespace QuizCinema
         public void UpdateAnswers(AnswerData newAnswer)
         {
             Debug.Log("UpdateAnswers");
-
             if (_data.Questions[_currentIndexNotRandom].GetAnswerType == AnswerType.Single)
             {
                 foreach (var answer in _pickedAnswers.ToList())
@@ -63,12 +62,13 @@ namespace QuizCinema
                 }
                 _pickedAnswers.Clear();
                 _pickedAnswers.Add(newAnswer);
-
+                CurrentAnswerList?.Invoke(_pickedAnswers);
                 _gameManager.Accept();
             }
             else
             {
                 bool alreadyPicked = _pickedAnswers.Exists(x => x == newAnswer);
+                
                 Debug.Log("Multiply");
                 if (alreadyPicked)
                 {
@@ -81,11 +81,12 @@ namespace QuizCinema
                 }
                 if (_pickedAnswers.Count == _data.Questions[_currentIndexNotRandom].GetCorrectAnswers().Count)
                 {
+                    CurrentAnswerList?.Invoke(_pickedAnswers);
                     _gameManager.Accept();
                 }
             }
 
-            CurrentAnswerList?.Invoke(_pickedAnswers);
+            
         }
 
         public void EraseAnswers()
@@ -139,10 +140,27 @@ namespace QuizCinema
 
                 var firstList = correctAnswersList.Except(pickedAnswersList).ToList();
                 var secondList = pickedAnswersList.Except(correctAnswersList).ToList();
+
                 return !firstList.Any() && !secondList.Any();
             }
             return false;
         }
+
+        public List<int> ReturnInCorrectAnswers(List<AnswerData> currentAnswers)
+        {
+            List<int> pickedAnswersList = currentAnswers.Select(x => x.AnswerIndex).ToList();
+            if (pickedAnswersList.Count > 0)
+            {
+                List<int> correctAnswersList = _data.Questions[_currentIndexNotRandom].GetCorrectAnswers();
+                
+
+                var firstList = correctAnswersList.Except(pickedAnswersList).ToList();
+                var secondList = pickedAnswersList.Except(correctAnswersList).ToList();
+                return secondList;
+            }
+            return pickedAnswersList;
+        }
+
 
         public void Display()
         {

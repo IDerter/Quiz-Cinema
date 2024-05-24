@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 2459965496055402300}
   - component: {fileID: 2459965496055402301}
   - component: {fileID: 5851112963267998563}
+  - component: {fileID: 810667276758895695}
   m_Layer: 5
   m_Name: AnswerPrefab_var0
   m_TagString: Untagged
@@ -276,6 +277,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 810667276758895695}
+        m_TargetAssemblyTypeName: QuizCinema.ClickAnimation, Assembly-CSharp
+        m_MethodName: StartAnim
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2459965496055402301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,6 +325,18 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &810667276758895695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459965496055402303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb00db1fc8163ab4d81eee8275eabc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2459965496400013112
 GameObject:
   m_ObjectHideFlags: 0

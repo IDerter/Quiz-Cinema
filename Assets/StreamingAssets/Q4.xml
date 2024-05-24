@@ -15,10 +15,10 @@
       </ListNoteFilm>
       <NoteFilm />
       <ListDescriptionFilm>
-        <string>Chris Columbus
-1990</string>
-        <string>Крис Коламбус
-1990</string>
+        <string>Robert Zemeckis
+1989</string>
+        <string>Роберт Земекис
+1989</string>
       </ListDescriptionFilm>
       <Director>Zemekis</Director>
       <Poster></Poster>
@@ -91,14 +91,14 @@ cartoon creature with a mischievous character.
       <ListNoteFilm />
       <NoteFilm>-</NoteFilm>
       <ListDescriptionFilm>
-        <string>Chris Columbus
-1990</string>
-        <string>Крис Коламбус
-1990</string>
+        <string>Chuck Russell
+1994</string>
+        <string>Чак Рассел
+1994</string>
       </ListDescriptionFilm>
       <Director>Chuck Russell</Director>
       <Poster />
-      <_cadrCinemaName>The Mask</_cadrCinemaName>
+      <_cadrCinemaName>Mask</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -111,10 +111,10 @@ cartoon creature with a mischievous character.
         </Answer>
         <Answer>
           <InfoList>
-            <string>The Mask</string>
+            <string>Mask</string>
             <string>Маска</string>
           </InfoList>
-          <Info>The Mask</Info>
+          <Info>Mask</Info>
           <TranslateInfo>Маска</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
@@ -411,14 +411,19 @@ cartoon creature with a mischievous character.
       </ListNoteFilm>
       <NoteFilm />
       <ListDescriptionFilm>
-        <string>Baz Luhrmann and Scott Kalvert
-2013 and 1995</string>
-        <string>Баз Лурман и Скотт Кэлверт
-2013 и 1995</string>
+        <string>Baz Luhrmann 
+2013
+!Scott Kalvert 
+1995
+        </string>
+        <string>Баз Лурман
+2013
+!Скотт Кэлверт
+1995</string>
       </ListDescriptionFilm>
       <Director>Leonardo DiCaprio</Director>
       <Poster />
-      <_cadrCinemaName>The Great Gatsby</_cadrCinemaName>
+      <_cadrCinemaName>The Great Gatsby!The Basketball Diaries</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
