@@ -16,12 +16,15 @@ namespace QuizCinema
         public class CinemaInfo
         {
             [SerializeField] private Question question;
-
+            [SerializeField] private string _cadrCinemaName;
+            [SerializeField] private string _description;
             public CinemaInfo (Question question)
             {
                 this.question = question;
             }
 
+            public string Description { get => _description; set => _description = value; }
+            public string CadrCinemaName { get => _cadrCinemaName; set => _cadrCinemaName = value; }
             public Question Question { get => question; set => question = value; }
         }
 
@@ -57,6 +60,40 @@ namespace QuizCinema
 
             if (uniqueCinema)
             {
+                cinema.CadrCinemaName = question._cadrCinemaName;
+
+                Instance._completionDataCinema.Add(cinema);
+                Saver<List<CinemaInfo>>.Save(_fileName, Instance._completionDataCinema);
+            }
+            else
+            {
+                Debug.LogWarning("This cinema already in List!");
+            }
+        }
+
+        public static void SaveCinema(Question question, string cadrName, string description)
+        {
+            Debug.Log("StartSave");
+            CinemaInfo cinema = new CinemaInfo(question);
+            bool uniqueCinema = true;
+
+            foreach (var i in Instance._completionDataCinema)
+            {
+                if (i.Question._cadrCinemaName == cadrName || i.CadrCinemaName == cadrName)
+                {
+                    Debug.Log("Есть совпадение!");
+                    Debug.Log(Instance._completionDataCinema.Contains(cinema));
+                    uniqueCinema = false;
+                }
+            }
+
+            if (uniqueCinema)
+            {
+                cinema.CadrCinemaName = cadrName;
+                cinema.Description = description;
+                //cinema.Question._cadrCinemaName = cadrName;
+                Debug.Log(cadrName);
+
                 Instance._completionDataCinema.Add(cinema);
                 Saver<List<CinemaInfo>>.Save(_fileName, Instance._completionDataCinema);
             }
@@ -71,6 +108,18 @@ namespace QuizCinema
             foreach (var i in Instance._completionDataCinema)
             {
                 if (i.Question == question)
+                {
+                    Instance._completionDataCinema.Remove(i);
+                    break;
+                }
+            }
+        }
+
+        public static void ResetCurrentCinema(Question question, string cadrName)
+        {
+            foreach (var i in Instance._completionDataCinema)
+            {
+                if (i.Question == question && (i.Question._cadrCinemaName == cadrName || i.CadrCinemaName == cadrName))
                 {
                     Instance._completionDataCinema.Remove(i);
                     break;

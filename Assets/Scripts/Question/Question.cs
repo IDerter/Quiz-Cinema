@@ -61,6 +61,7 @@ namespace QuizCinema
 
         public Question() { }
 
+
         public List<int> GetCorrectAnswers()
         {
             List<int> correctAnswers = new List<int>();

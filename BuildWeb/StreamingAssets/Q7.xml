@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the movie based on three facts:
+1) Artist Stuart Craig, winner of three Oscars, based the design of London Underground stations at the beginning of the 20th century.
+Craig liked how the designers of the old stations imitated classical architecture while using ceramic tiles for the walls.
+This technique was borrowed from the film's set design; More than 30,000 tiles were used to cover the walls of the atrium.
+2) The kissing scene between Harry Potter and Chang was filmed in only 24 takes.
+      </string>
+        <string>
+Назовите фильм по трем фактам:
+1) Художник Стюарт Крэйг, обладатель трех «Оскаров», взял за основу дизайн станций лондонского метро начала XX века.
+Крейгу понравилось, как проектировщики старых станций имитировали классическую архитектуру, при этом используя керамическую плитку для облицовки стен.
+Этот прием был позаимствован при работе над декорациями фильма; на облицовку стен атриума ушло более 30 000 плиток.
+2) Сцена поцелуя Гарри Поттера и Чанг была снята лишь с 24 дубля.
+      </string>
+      </ListInfoQuestion>
+      <Info>
+Назовите фильм по трем фактам:
+1) Художник Стюарт Крэйг, обладатель трех «Оскаров», взял за основу дизайн станций лондонского метро начала XX века.
+Крейгу понравилось, как проектировщики старых станций имитировали классическую архитектуру, при этом используя керамическую плитку для облицовки стен.
+Этот прием был позаимствован при работе над декорациями фильма; на облицовку стен атриума ушло более 30 000 плиток.
+2) Сцена поцелуя Гарри Поттера и Чанг была снята лишь с 24 дубля.
+      </Info>
+      <ListNoteFilm>
+        <string>JK Rowling herself strongly insisted that the house elf Kreacher be left in, as this was important for the further narrative.</string>
+        <string>Сама Джоан Роулинг решительно настояла, чтоб эльфа-домовика Кикимера оставили, так как это важно для дальнейшего повествования.</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>David Yates</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and the Half-Blood Prince</string>
+            <string>Гарри Поттер и Принц-полукровка</string>
+          </InfoList>
+          <Info>Harry Potter and the Half-Blood Prince</Info>
+          <TranslateInfo>Гарри Поттер и Принц-полукровка</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and the Order of the Phoenix</string>
+            <string>Гарри Поттер и Орден Феникса</string>
+          </InfoList>
+          <Info>Harry Potter and the Order of the Phoenix</Info>
+          <TranslateInfo>Гарри Поттер и Орден Феникса</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and the Prisoner of Azkaban</string>
+            <string>Гарри Поттер и узник Азкабана</string>
+          </InfoList>
+          <Info>Harry Potter and the Prisoner of Azkaban</Info>
+          <TranslateInfo>Гарри Поттер и узник Азкабана</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and the Goblet of Fire</string>
+            <string>Гарри Поттер и Кубок огня</string>
+          </InfoList>
+          <Info>Harry Potter and the Goblet of Fire</Info>
+          <TranslateInfo>Гарри Поттер и Кубок огня</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>60</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Die Hard 1</string>
+        <string>Выберите кадр из фильма Крепкий Орешек 1</string>
+      </ListInfoQuestion>
+      <Info>Выберите кадр из фильма Крепкий Орешек 1</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>John McTiernan</Director>
+      <_cadrCinemaName>Die Hard 1</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Die Hard 1</string>
+            <string>Крепкий Орешек 1</string>
+          </InfoList>
+          <Info>Die Hard 1</Info>
+          <TranslateInfo>Крепкий Орешек 1</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Die Hard 2</string>
+            <string>Крепкий Орешек 2</string>
+          </InfoList>
+          <Info>Die Hard 2</Info>
+          <TranslateInfo>Крепкий Орешек 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Die Hard 3</string>
+            <string>Крепкий Орешек 3</string>
+          </InfoList>
+          <Info>Die Hard 3</Info>
+          <TranslateInfo>Крепкий Орешек 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Die Hard 4.0</string>
+            <string>Крепкий Орешек 4.0</string>
+          </InfoList>
+          <Info>Die Hard 4.0</Info>
+          <TranslateInfo>Крепкий Орешек 4.0</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Harry Potter and the Chamber of Secrets</string>
+        <string>Выберите кадр из фильма Гарри Поттер и Тайная комната</string>
+      </ListInfoQuestion>
+      <Info>Выберите кадр из фильма Гарри Поттер и Тайная комната</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Chris Columbus</Director>
+      <_cadrCinemaName>Harry Potter and the Chamber of Secrets</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and the Chamber of Secrets</string>
+            <string>Гарри Поттер и Тайная комната</string>
+          </InfoList>
+          <Info>Harry Potter and the Chamber of Secrets</Info>
+          <TranslateInfo>Гарри Поттер и Тайная комната</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and the Prisoner of Azkaban</string>
+            <string>Гарри Поттер и узник Азкабана</string>
+          </InfoList>
+          <Info>Harry Potter and the Prisoner of Azkaban</Info>
+          <TranslateInfo>Гарри Поттер и узник Азкабана</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and The Philosopher Stone var2</string>
+            <string>Гарри Поттер и философский камень</string>
+          </InfoList>
+          <Info>Harry Potter and The Philosopher Stone var2</Info>
+          <TranslateInfo>Гарри Поттер и философский камень</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Harry Potter and the Goblet of Fire</string>
+            <string>Гарри Поттер и Кубок огня</string>
+          </InfoList>
+          <Info>Harry Potter and the Goblet of Fire</Info>
+          <TranslateInfo>Гарри Поттер и Кубок огня</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Joe Johnston</Director>
+      <_cadrCinemaName>Jumanji</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Mrs. Doubtfire</string>
+            <string>Миссис Даутфайр</string>
+          </InfoList>
+          <Info>Mrs. Doubtfire</Info>
+          <TranslateInfo>Миссис Даутфайр</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Jumanji</string>
+            <string>Джуманджи</string>
+          </InfoList>
+          <Info>Jumanji</Info>
+          <TranslateInfo>Джуманджи</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Dead Poets Society</string>
+            <string>Общество мёртвых поэтов</string>
+          </InfoList>
+          <Info>Dead Poets Society</Info>
+          <TranslateInfo>Общество мёртвых поэтов</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Good Will Hunting</string>
+            <string>Умница Уилл Хантинг</string>
+          </InfoList>
+          <Info>Good Will Hunting</Info>
+          <TranslateInfo>Умница Уилл Хантинг</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the movie based on facts from it:
+To establish a believable on-screen connection between the young characters that only boarding school could create,
+the director had his actors live together two weeks before and during filming, immersing themselves in everything that made up the 1950s era.
+He even forced them to write poetry and act out theatrical skits together. “By the time we started filming, we felt like we went to school together,” said actor Dylan Kussman.
+Weir also shot the film in chronological order to allow the characters' relationships to develop naturally.
+      </string>
+        <string>
+Назовите фильм по фактам из него:
+Чтобы установить правдоподобную экранную связь между молодыми героями, которую могла создать только школа-интернат,
+режиссер заставил своих актеров жить вместе за две недели до и во время съемок, погрузившись во все, что составляло эпоху 1950-х годов. 
+Он даже заставлял их вместе писать стихи и разыгрывать театральные сценки. «К моменту начала съемок мы чувствовали, будто вместе ходили в школу», – сказал актер Дилан Куссман.
+Кроме этого, Вейр снимал фильм в хронологическом порядке, чтобы отношения персонажей развивались естественным образом. 
+      </string>
+      </ListInfoQuestion>
+      <Info>
+Чтобы установить правдоподобную экранную связь между молодыми героями, которую могла создать только школа-интернат,
+режиссер заставил своих актеров жить вместе за две недели до и во время съемок, погрузившись во все, что составляло эпоху 1950-х годов. 
+Он даже заставлял их вместе писать стихи и разыгрывать театральные сценки. «К моменту начала съемок мы чувствовали, будто вместе ходили в школу», – сказал актер Дилан Куссман.
+Кроме этого, Вейр снимал фильм в хронологическом порядке, чтобы отношения персонажей развивались естественным образом.
+      </Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Peter Weir</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Faculty</string>
+            <string>Факультет</string>
+          </InfoList>
+          <Info>The Faculty</Info>
+          <TranslateInfo>Факультет</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Breakfast Club</string>
+            <string>Клуб Завтрак</string>
+          </InfoList>
+          <Info>The Breakfast Club</Info>
+          <TranslateInfo>Клуб Завтрак</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Dead Poets Society</string>
+            <string>Общество мертвых поэтов</string>
+          </InfoList>
+          <Info>Dead Poets Society</Info>
+          <TranslateInfo>Общество мертвых поэтов</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Detachment</string>
+            <string>Учитель на замену</string>
+          </InfoList>
+          <Info>Detachment</Info>
+          <TranslateInfo>Учитель на замену</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>60</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Taxi 1</string>
+        <string>Выберите кадр из фильма Такси 1</string>
+      </ListInfoQuestion>
+      <Info>Выберите кадр из фильма Такси 1</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Mark Herman</Director>
+      <_cadrCinemaName>Taxi</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Taxi</string>
+            <string>Такси</string>
+          </InfoList>
+          <Info>Taxi</Info>
+          <TranslateInfo>Такси</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Taxi 4</string>
+            <string>Такси 4</string>
+          </InfoList>
+          <Info>Taxi 4</Info>
+          <TranslateInfo>Такси 4</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Taxi 3</string>
+            <string>Такси 3</string>
+          </InfoList>
+          <Info>Taxi 3</Info>
+          <TranslateInfo>Такси 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Taxi 2</string>
+            <string>Такси 2</string>
+          </InfoList>
+          <Info>Taxi 2</Info>
+          <TranslateInfo>Такси 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Guess the movie based on the snippet of the negative review:
+I believe that this opus should cause righteous anger in any self-respecting Guy Ritchie fan (whatever, good movie!).
+The latter not only proved once again that any rise in his career is inevitably followed by a fall - but, it seems, he has seriously begun to hammer nails into the coffin of his career.
+It's hard to believe that just five years after my beloved "The Agents of U.N.C.L.E." Richie decided that it was time for him to move into the lucrative genre of serious male cinema.
+      </string>
+        <string>
+Угадай фильм по отрывку негативной рецензии:
+Я считаю, что этот опус должен вызвать праведный гнев у любого уважающего себя фаната Гая Ричи (да что там, хорошего кино!). 
+Последний не просто в очередной раз доказал, что за любым взлетом в его карьере неминуемо следует падение - но, кажется, всерьёз взялся забивать гвозди в крышку гроба своей карьеры.
+Трудно поверить, что через каких-то пять лет после горячо любимых мной «Агентов А.Н.К.Л.» Ричи решил, что пора ему податься в прибыльный жанр серьёзного мужского кино. 
+      </string>
+      </ListInfoQuestion>
+      <Info>
+Угадай фильм по отрывку негативной рецензии:
+Я считаю, что этот опус должен вызвать праведный гнев у любого уважающего себя фаната Гая Ричи (да что там, хорошего кино!). 
+Последний не просто в очередной раз доказал, что за любым взлетом в его карьере неминуемо следует падение - но, кажется, всерьёз взялся забивать гвозди в крышку гроба своей карьеры.
+Трудно поверить, что через каких-то пять лет после горячо любимых мной «Агентов А.Н.К.Л.» Ричи решил, что пора ему податься в прибыльный жанр серьёзного мужского кино. 
+      </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Guy Ritchie</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Operation Fortune: Ruse de Guerre</string>
+            <string>Операция «Фортуна»: Искусство побеждать</string>
+          </InfoList>
+          <Info>Operation Fortune: Ruse de Guerre</Info>
+          <TranslateInfo>Операция «Фортуна»: Искусство побеждать</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Gentlemen</string>
+            <string>Джентльмены</string>
+          </InfoList>
+          <Info>The Gentlemen</Info>
+          <TranslateInfo>Джентльмены</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Wrath of Man</string>
+            <string>Гнев человеческий</string>
+          </InfoList>
+          <Info>Wrath of Man</Info>
+          <TranslateInfo>Гнев человеческий</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Covenant</string>
+            <string>Переводчик</string>
+          </InfoList>
+          <Info>The Covenant</Info>
+          <TranslateInfo>Переводчик</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>60</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>How many Bond films have there been with Daniel Craig?</string>
+        <string>Сколько вышло фильмов Бондианы с Дениэлом Крейгом?</string>
+      </ListInfoQuestion>
+      <Info>Сколько вышло фильмов Бондианы с Дениэлом Крейгом?</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Ian Lancaster Fleming</Director>
+      <_cadrCinemaName>Casino Royale</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>7</string>
+            <string>7</string>
+          </InfoList>
+          <Info>7</Info>
+          <TranslateInfo>7</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>6</string>
+            <string>6</string>
+          </InfoList>
+          <Info>6</Info>
+          <TranslateInfo>6</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>4</string>
+            <string>4</string>
+          </InfoList>
+          <Info>4</Info>
+          <TranslateInfo>4</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>5</string>
+            <string>5</string>
+          </InfoList>
+          <Info>5</Info>
+          <TranslateInfo>5</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Cary Fukunaga</Director>
+      <_cadrCinemaName>No Time To Die</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Skyfall</string>
+            <string>007: Координаты „Скайфолл</string>
+          </InfoList>
+          <Info>Skyfall</Info>
+          <TranslateInfo>007: Координаты „Скайфолл</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>No Time To Die</string>
+            <string>Не время умирать</string>
+          </InfoList>
+          <Info>No Time To Die</Info>
+          <TranslateInfo>Не время умирать</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Quantum of Solace</string>
+            <string>Квант милосердия</string>
+          </InfoList>
+          <Info>Quantum of Solace</Info>
+          <TranslateInfo>Квант милосердия</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Night at the museum</string>
+            <string>007: Спектр</string>
+          </InfoList>
+          <Info>Night at the museum</Info>
+          <TranslateInfo>007: Спектр</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the frame from the movie Joker (2019)</string>
+        <string>Угадай кадр из фильма Джокер (2019 год)</string>
+      </ListInfoQuestion>
+      <Info>Угадай кадр из фильма Джокер (2019 год)</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Todd Phililips</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Joker 2</string>
+            <string>Джокер: Безумие на двоих</string>
+          </InfoList>
+          <Info>Joker 2</Info>
+          <TranslateInfo>Джокер: Безумие на двоих</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Dark Knight Joker</string>
+            <string>Темный рыцарь</string>
+          </InfoList>
+          <Info>Dark Knight Joker</Info>
+          <TranslateInfo>Темный рыцарь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Batman Begins</string>
+            <string>Бэтмен: Начало</string>
+          </InfoList>
+          <Info>Batman Begins</Info>
+          <TranslateInfo>Бэтмен: Начало</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Joker</string>
+            <string>Джокер</string>
+          </InfoList>
+          <Info>Joker</Info>
+          <TranslateInfo>Джокер</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

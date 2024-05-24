@@ -26,7 +26,16 @@ The project went on the shelf, where it remained for about 10 years.</string>
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Steven Spielberg
+2009</string>
+        <string>Стивен Спилберг
+2009</string>
+      </ListDescriptionFilm>
+      
       <Director>Steven Spielberg</Director>
+      <Poster />
       <_cadrCinemaName>Avatar</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -83,7 +92,16 @@ The project went on the shelf, where it remained for about 10 years.</string>
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Steven Spielberg
+2009</string>
+        <string>Стивен Спилберг
+2009</string>
+      </ListDescriptionFilm>
+      
       <Director>Barry Sonnenfeld</Director>
+      <Poster />
       <_cadrCinemaName>Men in Black 1</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -140,7 +158,16 @@ The project went on the shelf, where it remained for about 10 years.</string>
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Nancy Meyers
+2006</string>
+        <string>Нэнси Мейерс
+2006</string>
+      </ListDescriptionFilm>
+      
       <Director>Nancy Meyers</Director>
+      <Poster />
       <_cadrCinemaName>The Holiday</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -197,7 +224,16 @@ The project went on the shelf, where it remained for about 10 years.</string>
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      <Director>Fincher</Director>
+      
+      <ListDescriptionFilm>
+        <string>Stephenie Meyer
+2008-2012</string>
+        <string>Стефани Майер
+2008-2012</string>
+      </ListDescriptionFilm>
+      
+      <Director>Catherine Hardwicke</Director>
+      <Poster />
       <_cadrCinemaName>Twilight poster</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -269,8 +305,17 @@ Facts from which movie are you looking at?
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Milos Forman
+1975</string>
+        <string>Милош Форман
+1975</string>
+      </ListDescriptionFilm>
+      
       <Director>Milos Forman</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>One Flew Over the Cuckoo's Nest</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -326,7 +371,16 @@ Facts from which movie are you looking at?
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Mark Herman
+2008</string>
+        <string>Марк Херман
+2008</string>
+      </ListDescriptionFilm>
+      
       <Director>Mark Herman</Director>
+      <Poster />
       <_cadrCinemaName>Striped pajamas</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -401,8 +455,17 @@ Artists and decorators had to work hard to clean the walls of Parisian houses fr
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Jean-Pierre Jeunet
+2001</string>
+        <string>Жан-Пьер Жёне
+2001</string>
+      </ListDescriptionFilm>
+      
       <Director>Jean-Pierre Jeunet</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Amelie</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -458,7 +521,16 @@ Artists and decorators had to work hard to clean the walls of Parisian houses fr
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>J. K. Rowling
+2001-2011</string>
+        <string>Дж.К. Роулинг
+2001-2011</string>
+      </ListDescriptionFilm>
+      
       <Director>Rouling</Director>
+      <Poster />
       <_cadrCinemaName>Harry Potter and the Deathly Hallows 2</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -515,7 +587,16 @@ Artists and decorators had to work hard to clean the walls of Parisian houses fr
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      <Director>Shawn-Levy</Director>
+      
+      <ListDescriptionFilm>
+        <string>Shawn Levy
+2006</string>
+        <string>Шон Леви
+2006</string>
+      </ListDescriptionFilm>
+      
+      <Director>Shawn Levy</Director>
+      <Poster />
       <_cadrCinemaName>Night at the museum</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -572,8 +653,17 @@ Artists and decorators had to work hard to clean the walls of Parisian houses fr
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Christopher Nolan
+2012</string>
+        <string>Кристофер Нолан
+2012</string>
+      </ListDescriptionFilm>
+      
       <Director>Nolan</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>The Dark Knight Rises</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>

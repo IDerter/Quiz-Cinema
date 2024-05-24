@@ -26,8 +26,17 @@ Michelle Pfeiffer - Elvira Hancock
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Brian De Palma
+1983</string>
+        <string>Брайан де Пальма
+1983</string>
+      </ListDescriptionFilm>
+      
       <Director>Brian De Palma</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Scarface</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -83,7 +92,16 @@ Michelle Pfeiffer - Elvira Hancock
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Lasse Hallstrom
+2000</string>
+        <string>Лассе Халльстрём
+2000</string>
+      </ListDescriptionFilm>
+      
       <Director>Lasse Hallstrom</Director>
+      <Poster />
       <_cadrCinemaName>Chocolat</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -140,8 +158,17 @@ Michelle Pfeiffer - Elvira Hancock
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Gus Van Sant
+1997</string>
+        <string>Гас Ван Сент
+1997</string>
+      </ListDescriptionFilm>
+      
       <Director>Gus Van Sant</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Good Will Hunting</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -197,7 +224,16 @@ Michelle Pfeiffer - Elvira Hancock
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Park Chan Wook
+2003</string>
+        <string>Пак Чхан Ук
+2003</string>
+      </ListDescriptionFilm>
+      
       <Director>Park Chan Wook</Director>
+      <Poster />
       <_cadrCinemaName>Oldboy</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -272,8 +308,17 @@ Matthew decided to simply screw up the take, but Darren included this particular
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Darren Aronofsky
+2000</string>
+        <string>Даррен Аронофски
+2000</string>
+      </ListDescriptionFilm>
+      
       <Director>Darren Aronofsky</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Requiem for a Dream</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -329,7 +374,16 @@ Matthew decided to simply screw up the take, but Darren included this particular
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Richard Curtis
+2013</string>
+        <string>Ричард Кёртис
+2013</string>
+      </ListDescriptionFilm>
+      
       <Director>Richard Curtis</Director>
+      <Poster />
       <_cadrCinemaName>About Time</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -401,8 +455,17 @@ The writers didn't even bother with any kind of philosophical hook. In their opi
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Rob Reiner
+2007</string>
+        <string>Роб Райнер
+2007</string>
+      </ListDescriptionFilm>
+      
       <Director>Rob Reiner</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>The Bucket List</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -461,7 +524,16 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Night Shyamalan
+1999</string>
+        <string>М. Найт Шьямалан
+1999</string>
+      </ListDescriptionFilm>
+      
       <Director>Night Shyamalan</Director>
+      <Poster />
       <_cadrCinemaName>The Sixth Sense</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -518,7 +590,16 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Bong Joon-ho
+2019</string>
+        <string>Пон Чжун Хо
+2019</string>
+      </ListDescriptionFilm>
+      
       <Director>Bong Joon-ho</Director>
+      <Poster />
       <_cadrCinemaName>Parasite</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -575,8 +656,17 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Robert Rodriguez
+2005</string>
+        <string>Роберт Родригес
+2005</string>
+      </ListDescriptionFilm>
+      
       <Director>Robert Rodriguez</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Sin City</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>

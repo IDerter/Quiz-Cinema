@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -69,68 +70,57 @@ namespace QuizCinema
             }
             else
             {
-                _nearestPosIndex = NearestPoint();
-                Debug.Log(_nearestPosIndex + "NEAREST POINT!");
+                if (direction == Vector2.left)
+                {
+                    Debug.Log("Right");
+                }
+                else
+                {
+                    Debug.Log("Left");
+                }
+                NearestPoint(direction);
             }
         }
 
         //TODO//
-        private int NearestPoint()
+        private void NearestPoint(Vector2 direction)
         {
-            _minDistance = 100f;
-           
-            var minIndex = 0;
-
             for (int i = 0; i < _pos.Length; i++)
             {
-                if (Mathf.Abs(_pos[i] - _scrollPos) <= _minDistance && _currentPosIndex != i)
+                if (direction == Vector2.left && _currentPosIndex < _pos.Length - 1)
                 {
-                   
-                    _minDistance = Mathf.Abs(_pos[i] - _scrollPos);
-                    minIndex = i;
-                    Debug.Log(_pos[i] + " " + _scrollPos + " " + _minDistance + " " + _currentPosIndex + " " + i);
+                    _nearestPosIndex = _currentPosIndex + 1;
+                }
+                else if (direction == Vector2.right && _currentPosIndex > 0)
+                {
+                    _nearestPosIndex = _currentPosIndex - 1;
                 }
             }
 
-            return minIndex;
+    
         }
 
         private void Update()
         {
+
             _scrollPos = _scrollBar.GetComponent<Scrollbar>().value;
-
-
 
             if (Input.GetMouseButton(0))
             {
-                _scrollPos = _scrollBar.GetComponent<Scrollbar>().value;    
+                _scrollPos = _scrollBar.GetComponent<Scrollbar>().value;
             }
             else
             {
-                for (int i = 0; i <_pos.Length; i++)
+                for (int i = 0; i < _pos.Length; i++)
                 {
-                    if ((_scrollPos < _pos[i] + (_distance / 2f) && _scrollPos > _pos[i] - (_distance / 2f)) || (_currentPosIndex != _nearestPosIndex))
+                    if ((_scrollPos < _pos[i] + (_distance / 2f) && _scrollPos > _pos[i] - (_distance / 2f)))
                     {
                         _currentPosIndex = i;
                         _scrollBar.GetComponent<Scrollbar>().value = Mathf.Lerp(_scrollBar.GetComponent<Scrollbar>().value, _pos[_nearestPosIndex], 0.5f);
                     }
                 }
             }
-
-           /* for (int i = 0; i < _pos.Length; i++)
-            {
-                if (_scrollPos < _pos[i] + (distance / 2) && _scrollPos > _pos[i] - (distance / 2))
-                {
-                    transform.GetChild(i).localScale = Vector2.Lerp(transform.GetChild(i).localScale, new Vector2(1f, 1f), 0.1f);
-                    for (int a = 0; a < _pos.Length; a++)
-                    {
-                        if (a != i)
-                        {
-                            transform.GetChild(a).localScale = Vector2.Lerp(transform.GetChild(a).localScale, new Vector2(1f, 1f), 0.1f);
-                        }
-                    }
-                }
-           */
+            
         }
            
     }

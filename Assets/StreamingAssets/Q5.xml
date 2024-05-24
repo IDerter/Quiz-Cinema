@@ -98,14 +98,20 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
       
       <ListDescriptionFilm>
         <string>Robert Zemeckis
-1994</string>
-        <string>Роберт Земекис
-1994</string>
+1994
+!Frank Darabont
+1994
+        </string>
+        <string>Роберт Земекисы
+1994
+!Фрэнк Дарабонт
+1994
+        </string>
       </ListDescriptionFilm>
       
       <Director>Zemekis</Director>
       <Poster />
-      <_cadrCinemaName>Forrest Gump</_cadrCinemaName>
+      <_cadrCinemaName>Forrest Gump!The Shawshank Redemption</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>

@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Name the film based on an excerpt from the director's interview:
+“This is a story of survival, and above all, a film with a high level of suspense.
+Despite the constant tension, it is not necessarily caused by the bloody side of the war,
+as it was in many films. We tried to take a different approach and achieve tension in different ways."
+      </string>
+        <string>
+Назовите фильм по отрывку интервью режиссера:
+"Это история о выживании, и в первую очередь, фильм с высоким уровнем саспенса. 
+Несмотря на постоянное напряжение, оно необязательно вызвано кровавой стороной войны, 
+как это было во многих фильмах. Мы старались использовать другой подход и достичь напряжения иными путями."
+      </string>
+      </ListInfoQuestion>
+      <Info>
+Назовите фильм по отрывку интервью режиссера:
+"Это история о выживании, и в первую очередь, фильм с высоким уровнем саспенса. 
+Несмотря на постоянное напряжение, оно необязательно вызвано кровавой стороной войны, 
+как это было во многих фильмах. Мы старались использовать другой подход и достичь напряжения иными путями."
+      </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Nolan</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Saving Private Ryan</string>
+            <string>Спасти рядового Райана</string>
+          </InfoList>
+          <Info>Saving Private Ryan</Info>
+          <TranslateInfo>Спасти рядового Райана</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>1917</string>
+            <string>1917</string>
+          </InfoList>
+          <Info>1917</Info>
+          <TranslateInfo>1917</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Oppenheimer</string>
+            <string>Оппенгеймер</string>
+          </InfoList>
+          <Info>Oppenheimer</Info>
+          <TranslateInfo>Оппенгеймер</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Dunkirk</string>
+            <string>Дюнкерк</string>
+          </InfoList>
+          <Info>Dunkirk</Info>
+          <TranslateInfo>Дюнкерк</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>60</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Best Offer</string>
+        <string>Выберите кадр из фильма Лучшее предложение</string>
+      </ListInfoQuestion>
+      <Info>Выберите кадр из фильма Лучшее предложение</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Giuseppe Tornatore</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Legend of 1900</string>
+            <string>Легенда о пианисте</string>
+          </InfoList>
+          <Info>Legend of 1900</Info>
+          <TranslateInfo>Легенда о пианисте</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Candy</string>
+            <string>Кэнди</string>
+          </InfoList>
+          <Info>Candy</Info>
+          <TranslateInfo>Кэнди</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The King's Speech</string>
+            <string>Король говорит!</string>
+          </InfoList>
+          <Info>The King's Speech</Info>
+          <TranslateInfo>Король говорит!</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Best Offer</string>
+            <string>Лучшее предложение</string>
+          </InfoList>
+          <Info>The Best Offer</Info>
+          <TranslateInfo>Лучшее предложение</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Pick a scene from a movie that wasn't directed by Wes Anderson</string>
+        <string>Выберите кадр из фильма, который снят не Уэсом Андерсоном</string>
+      </ListInfoQuestion>
+      <Info>Выберите кадр из фильма, который снят не Уэсом Андерсоном</Info>
+      <ListNoteFilm>
+        <string />
+        <string />
+      </ListNoteFilm>
+      <NoteFilm />
+      <Director>Wes Anderson</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Grand Budapest Hotel</string>
+            <string>Отель «Гранд Будапешт»</string>
+          </InfoList>
+          <Info>The Grand Budapest Hotel</Info>
+          <TranslateInfo>Отель «Гранд Будапешт»</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Little Miss Sunshine</string>
+            <string>Маленькая мисс Счастье</string>
+          </InfoList>
+          <Info>Little Miss Sunshine</Info>
+          <TranslateInfo>Маленькая мисс Счастье</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Royal Tenenbaums</string>
+            <string>Семейка Тененбаум</string>
+          </InfoList>
+          <Info>The Royal Tenenbaums</Info>
+          <TranslateInfo>Семейка Тененбаум</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Rushmore</string>
+            <string>Академия Рашмор</string>
+          </InfoList>
+          <Info>Rushmore</Info>
+          <TranslateInfo>Академия Рашмор</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>30</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Jean-Marc Vallée</Director>
+      <_cadrCinemaName>Dallas Buyers Club</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Gentlemen</string>
+            <string>Джентльмены</string>
+          </InfoList>
+          <Info>The Gentlemen</Info>
+          <TranslateInfo>Джентльмены</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>How to Lose a Guy in 10 Days</string>
+            <string>Как отделаться от парня за 10 дней</string>
+          </InfoList>
+          <Info>How to Lose a Guy in 10 Days</Info>
+          <TranslateInfo>Как отделаться от парня за 10 дней</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Dallas Buyers Club</string>
+            <string>Далласский клуб покупателей</string>
+          </InfoList>
+          <Info>Dallas Buyers Club</Info>
+          <TranslateInfo>Далласский клуб покупателей</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Lincoln Lawyer</string>
+            <string>Линкольн для адвоката</string>
+          </InfoList>
+          <Info>The Lincoln Lawyer</Info>
+          <TranslateInfo>Линкольн для адвоката</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>1</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>What number do you get if you multiply the value from the movie with Matthew McConaughey and Kate Hudson?
+and the meaning from the movie with Will Smith and Rosario Dawson? (take a double photo with the first film)
+      </string>
+        <string>
+Какое число получится, если умножить значение из фильма с Мэттью Макконахи и Кейт Хадсон 
+и значение из фильма с Уиллом Смитом и Розарио Доусон? (сделать двойное фото с первым фильмом)
+      </string>
+      </ListInfoQuestion>
+      <Info>
+Какое число получится, если умножить значение из фильма с Мэттью Макконахи и Кейт Хадсон 
+и значение из фильма с Уиллом Смитом и Розарио Доусон? (сделать двойное фото с первым фильмом)
+      </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Gabriele Muccino</Director>
+      <_cadrCinemaName>Seven Pounds</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>35</string>
+            <string>35</string>
+          </InfoList>
+          <Info>35</Info>
+          <TranslateInfo>35</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>70</string>
+            <string>70</string>
+          </InfoList>
+          <Info>70</Info>
+          <TranslateInfo>70</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>50</string>
+            <string>50</string>
+          </InfoList>
+          <Info>50</Info>
+          <TranslateInfo>50</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>66</string>
+            <string>66</string>
+          </InfoList>
+          <Info>66</Info>
+          <TranslateInfo>66</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>60</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the film The Family Man</string>
+        <string>Выберите кадр из фильма Семьянин</string>
+      </ListInfoQuestion>
+      <Info>Выберите кадр из фильма Семьянин</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Brett Ratner</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Family Man</string>
+            <string>Семьянин</string>
+          </InfoList>
+          <Info>The Family Man</Info>
+          <TranslateInfo>Семьянин</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Face Off</string>
+            <string>Без лица</string>
+          </InfoList>
+          <Info>Face Off</Info>
+          <TranslateInfo>Без лица</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Lord of War</string>
+            <string>Оружейный барон</string>
+          </InfoList>
+          <Info>Lord of War</Info>
+          <TranslateInfo>Оружейный барон</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>National Treasure</string>
+            <string>Сокровище нации</string>
+          </InfoList>
+          <Info>National Treasure</Info>
+          <TranslateInfo>Сокровище нации</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+Guess the movie by its cast (you will need to add a photo instead of names and change it to 0 index prefab):
+Kevin Spacey - Lester Burnham
+Annette Bening - Caroline Burnham
+Thora Birch - Jane Burnham
+Wes Bentley - Ricky Fitts
+      </string>
+        <string>
+Угадай фильм по актерскому составу(нужно будет добавить фотку вместо имен и поменять на 0 index prefab):
+Кевин Спейси — Лестер Бёрнем
+Аннетт Бенинг — Кэролайн Бёрнем
+Тора Бёрч — Джейн Бёрнем
+Уэс Бэнтли — Рики Фиттс
+      </string>
+      </ListInfoQuestion>
+      <Info>
+Угадай фильм по актерскому составу(нужно будет добавить фотку вместо имен и поменять на 0 index prefab):
+Кевин Спейси — Лестер Бёрнем
+Аннетт Бенинг — Кэролайн Бёрнем
+Тора Бёрч — Джейн Бёрнем
+Уэс Бэнтли — Рики Фиттс
+      </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Sam Mendes</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Usual Suspects</string>
+            <string>Подозрительные лица</string>
+          </InfoList>
+          <Info>The Usual Suspects</Info>
+          <TranslateInfo>Подозрительные лица</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Baby Driver</string>
+            <string>Малыш на драйве</string>
+          </InfoList>
+          <Info>Baby Driver</Info>
+          <TranslateInfo>Малыш на драйве</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Life of David Gale</string>
+            <string>Жизнь Дэвида Гейла</string>
+          </InfoList>
+          <Info>The Life of David Gale</Info>
+          <TranslateInfo>Жизнь Дэвида Гейла</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>American Beauty</string>
+            <string>Красота по-американски</string>
+          </InfoList>
+          <Info>American Beauty</Info>
+          <TranslateInfo>Красота по-американски</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>60</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>
+This Hollywood actor collects THEM, and in his mansion you can find THEM in many rooms, so he does not invite the faint of heart to visit.
+The actor comments on his strange hobby as follows: “it’s better to keep THEM in sight than to hide them in closets.”
+In the 2003 film, his hero had to fight THEM. What was the name of his character in this film?</string>
+        <string>
+Этот актер Голливуда коллекционирует ИХ, и в его особняке можно встретить ИХ во многих комнатах, поэтому слабонервных он в гости не зовет. 
+Актер комментирует свое странное хобби так — "лучше держать ИХ в поле зрения, чем прятать в шкафах". 
+В фильме 2003 года его герою пришлось с НИМИ сражаться. А как звали его героя в этом фильме?</string>
+      </ListInfoQuestion>
+      <Info>
+Этот актер Голливуда коллекционирует ИХ, и в его особняке можно встретить ИХ во многих комнатах, поэтому слабонервных он в гости не зовет. 
+Актер комментирует свое странное хобби так — "лучше держать ИХ в поле зрения, чем прятать в шкафах". 
+В фильме 2003 года его герою пришлось с НИМИ сражаться. А как звали его героя в этом фильме?</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Gor Verbinski</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Jack Sparrow</string>
+            <string>Джек Воробей</string>
+          </InfoList>
+          <Info>Jack Sparrow</Info>
+          <TranslateInfo>Джек Воробей</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Indiana Jones</string>
+            <string>Индиана Джонс</string>
+          </InfoList>
+          <Info>Indiana Jones</Info>
+          <TranslateInfo>Индиана Джонс</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>James Bond</string>
+            <string>Джеймс Бонд</string>
+          </InfoList>
+          <Info>James Bond</Info>
+          <TranslateInfo>Джеймс Бонд</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Ethan Hunt</string>
+            <string>Итан Хант</string>
+          </InfoList>
+          <Info>Ethan Hunt</Info>
+          <TranslateInfo>Итан Хант</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>60</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Lone Scherfig</Director>
+      <_cadrCinemaName>One Day</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The wedding planner</string>
+            <string>Свадебный переполох</string>
+          </InfoList>
+          <Info>The wedding planner</Info>
+          <TranslateInfo>Свадебный переполох</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>One Day</string>
+            <string>Один день</string>
+          </InfoList>
+          <Info>One Day</Info>
+          <TranslateInfo>Один день</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Love and Other Drugs</string>
+            <string>Любовь и другие лекарства</string>
+          </InfoList>
+          <Info>Love and Other Drugs</Info>
+          <TranslateInfo>Любовь и другие лекарства</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Intern</string>
+            <string>Стажёр</string>
+          </InfoList>
+          <Info>The Intern</Info>
+          <TranslateInfo>Стажёр</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Multiply</_answerType>
+      <ListInfoQuestion>
+        <string>Select all the actors/actresses who starred in the film: "Mr. Nobody"</string>
+        <string>Выберите всех актеров/актрис, кто снимался в фильме: "Господин Никто"</string>
+      </ListInfoQuestion>
+      <Info>Выберите всех актеров/актрис, кто снимался в фильме: "Господин Никто"</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <Director>Jaco van Dormael</Director>
+      <_cadrCinemaName>-</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Jared Leto</string>
+            <string>Джаред Лето</string>
+          </InfoList>
+          <Info>Jared Leto</Info>
+          <TranslateInfo>Джаред Лето</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Leonardo DiCaprio</string>
+            <string>Леонардо Ди Каприо</string>
+          </InfoList>
+          <Info>Leonardo DiCaprio</Info>
+          <TranslateInfo>Леонардо Ди Каприо</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Diane Kruger</string>
+            <string>Диана Крюгер</string>
+          </InfoList>
+          <Info>Diane Kruger</Info>
+          <TranslateInfo>Диана Крюгер</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Jennifer Connelly</string>
+            <string>Дженнифер Коннелли</string>
+          </InfoList>
+          <Info>Jennifer Connelly</Info>
+          <TranslateInfo>Дженнифер Коннелли</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

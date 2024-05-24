@@ -62,29 +62,48 @@ namespace QuizCinema
         {
             Debug.Log("Start CorrectAnswer!");
             foreach (var i in QuestionMethods.Instance.PickedAnswers)
-           {
+            {
                 if (i == this)
                 {
                     _correctAnswer.SetActive(true);
                     Debug.Log("CorrectAnswer!");
                 }
-           }
+            }
            
         }
 
         private void OnUnCorrectAnswer()
         {
             Debug.Log("Start InCorrectAnswer!");
+            Question currentQuestion = AnswersMethods.Instance.GetCurrentQuestion;
+
+            if (currentQuestion._answerType == AnswerType.Multiply)
+            {
+                for (int i = 0; i < QuestionMethods.Instance.PickedAnswers.Count; i++)
+                {
+                    if ((QuestionMethods.Instance.PickedAnswers[i].AnswerIndex == currentQuestion.GetCorrectAnswers()[0]) ||
+                    QuestionMethods.Instance.PickedAnswers[i].AnswerIndex == currentQuestion.GetCorrectAnswers()[1])
+                    {
+                        if (i == AnswerIndex)
+                        {
+                            CorrectAnswer.SetActive(true);
+                            Debug.Log("InCORRECT!");
+                            return;
+                        }
+                        
+                    }
+
+                }
+            }
             foreach (var i in QuestionMethods.Instance.PickedAnswers)
             {
                 if (i == this)
                 {
                     _inCorrectAnswer.SetActive(true);
                     _infoText.color = Color.white;
-                    Debug.Log("InCorrectAnswer!");
+                    Debug.Log("InCorrectAnswer!" + this.name);
                 }
             }
-
         }
 
 
@@ -104,7 +123,7 @@ namespace QuizCinema
         {
             _checked = !_checked;
             UpdateUI(_checked);
-            
+
             UpdateQuestionAnswer?.Invoke(this);
             Debug.Log("Switch case");
         }

@@ -27,7 +27,9 @@ namespace QuizCinema
         private void OnEnable()
         {
             BoostsManager.OnPressButtonBoost += OnPressButtonBoost;
-            BoostInventory.Instance.OnPressButtonBoostInventory += OnPressButtonBoostInventory;
+
+            if (BoostInventory.Instance != null)
+                BoostInventory.Instance.OnPressButtonBoostInventory += OnPressButtonBoostInventory;
         }
 
         private void OnPressButtonBoostInventory(BoostUICount obj)
@@ -38,7 +40,9 @@ namespace QuizCinema
         private void OnDestroy()
         {
              BoostsManager.OnPressButtonBoost -= OnPressButtonBoost;
-             BoostInventory.Instance.OnPressButtonBoostInventory -= OnPressButtonBoostInventory;
+
+            if (BoostInventory.Instance != null)
+                BoostInventory.Instance.OnPressButtonBoostInventory -= OnPressButtonBoostInventory;
             //BoostsManager.Instance.OnAddInInventoryBoost -= OnAddInInventoryBoost;
         }
 

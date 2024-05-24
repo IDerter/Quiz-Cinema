@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>The plot of the picture is tied to a robbery,
+after which the criminals gather in an abandoned warehouse on the outskirts of the city - and try to find out who framed them
+1992 - USA</string>
+        <string>Сюжет картины завязан на ограблении,
+после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
+1992 г. - США</string>
+      </ListNoteFilm>
+      <NoteFilm>Сюжет картины завязан на ограблении,
+после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
+1992 г. - США</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Quentin Tarantino
+1992</string>
+      <string>Квентин Тарантино
+1992</string>
+    </ListDescriptionFilm>
+      <Director>Tarantino</Director>
+      <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Titanic</string>
+            <string>Титаник</string>
+          </InfoList>
+          <Info>Titanic</Info>
+          <TranslateInfo>Титаник</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Kill Bill: Volume 1</string>
+            <string>Убить Билла 1</string>
+          </InfoList>
+          <Info>Kill Bill: Volume 1</Info>
+          <TranslateInfo>Убить Билла 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Reservoir Dogs</string>
+            <string>Бешеные псы</string>
+          </InfoList>
+          <Info>Reservoir Dogs</Info>
+          <TranslateInfo>Бешеные псы</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Kill Bill: Volume 2</string>
+            <string>Убить Билла 2</string>
+          </InfoList>
+          <Info>Kill Bill: Volume 2</Info>
+          <TranslateInfo>Убить Билла 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>The film takes place in 1969 Los Angeles, where former TV Western star Rick Dalton and his stunt double
+Cliff Booth is trying to find his place in the rapidly changing world of the film industry
+2019 - USA</string>
+        <string>Действие фильма происходит в 1969 году в Лос-Анджелесе, где бывшая звезда ТВ-вестернов Рик Далтон и его дублер
+Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии
+2019 г. - США</string>
+      </ListNoteFilm>
+      <NoteFilm>Действие фильма происходит в 1969 году в Лос-Анджелесе, где бывшая звезда ТВ-вестернов Рик Далтон и его дублер
+Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии
+2019 г. - США</NoteFilm>
+  
+      <ListDescriptionFilm>
+      <string>Quentin Tarantino
+2019</string>
+      <string>Квентин Тарантино
+2019</string>
+    </ListDescriptionFilm>
+      
+      <Director>Tarantino</Director>
+      <_cadrCinemaName>Once Upon a Time in Hollywood</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Dunkirk</string>
+            <string>Дюнкерк</string>
+          </InfoList>
+          <Info>Dunkirk</Info>
+          <TranslateInfo>Дюнкерк</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Kill Bill: Volume 2</string>
+            <string>Убить Билла 2</string>
+          </InfoList>
+          <Info>Kill Bill: Volume 2</Info>
+          <TranslateInfo>Убить Билла 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>From Dusk till Dawn</string>
+            <string>От заката до рассвета</string>
+          </InfoList>
+          <Info>From Dusk till Dawn</Info>
+          <TranslateInfo>От заката до рассвета</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Once Upon a Time in... Hollywood</string>
+            <string>Однажды в Голливуде</string>
+          </InfoList>
+          <Info>Once Upon a Time in... Hollywood</Info>
+          <TranslateInfo>Однажды в Голливуде</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+      <string>Ridley Scott
+2015</string>
+      <string>Ридли Скотт
+2015</string>
+    </ListDescriptionFilm>
+      <Director>Ridley Scott</Director>
+      <_cadrCinemaName>The Martian</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Interstellar</string>
+            <string>Интерстеллар</string>
+          </InfoList>
+          <Info>Interstellar</Info>
+          <TranslateInfo>Интерстеллар</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>2001: A Space Odyssey</string>
+            <string>Космическая одиссея 2001 года</string>
+          </InfoList>
+          <Info>2001: A Space Odyssey</Info>
+          <TranslateInfo>Космическая одиссея 2001 года</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Martian</string>
+            <string>Марсианин</string>
+          </InfoList>
+          <Info>The Martian</Info>
+          <TranslateInfo>Марсианин</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Mission to Mars</string>
+            <string>Миссия на Марс</string>
+          </InfoList>
+          <Info>Mission to Mars</Info>
+          <TranslateInfo>Миссия на Марс</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>60</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>3</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Select a frame from the movie Deadpool 1</string>
+        <string>Выберите кадр из фильма Дэдпул 1</string>
+      </ListInfoQuestion>
+      <Info>Выберите кадр из фильма Дэдпул 1</Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Tim Miller
+2016</string>
+      <string>Тим Миллер
+2016</string>
+    </ListDescriptionFilm>
+      <Director>Tim Miller</Director>
+      <_cadrCinemaName>Deadpool</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Deadpool 2</string>
+            <string>Дэдпул 2</string>
+          </InfoList>
+          <Info>Deadpool 2</Info>
+          <TranslateInfo>Дэдпул 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Free Guy</string>
+            <string>Главный герой</string>
+          </InfoList>
+          <Info>Free Guy</Info>
+          <TranslateInfo>Главный герой</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Proposal</string>
+            <string>Предложение</string>
+          </InfoList>
+          <Info>The Proposal</Info>
+          <TranslateInfo>Предложение</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Deadpool</string>
+            <string>Дэдпул</string>
+          </InfoList>
+          <Info>Deadpool</Info>
+          <TranslateInfo>Дэдпул</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>Cyborgs converge in a tense battle for the life of a teenager, on whom the fate of humanity depends. James Cameron's cult sci-fi action film received 4 Oscars
+1991 - USA</string>
+        <string>Киборги сходятся в напряженной схватке за жизнь подростка, от которого зависит судьба человечества. Культовый научно-фантастический боевик Джеймса Кэмерона получил 4 премии «Оскар»
+1991 г. - США</string>
+      </ListNoteFilm>
+      <NoteFilm>Киборги сходятся в напряженной схватке за жизнь подростка, от которого зависит судьба человечества. Культовый научно-фантастический боевик Джеймса Кэмерона получил 4 премии «Оскар»
+1991 г. - США</NoteFilm>
+      <ListDescriptionFilm>
+      <string>James Cameron
+1991</string>
+      <string>Джеймс Кемерон
+1991</string>
+    </ListDescriptionFilm>
+      <Director>James Cameron</Director>
+      <_cadrCinemaName>Terminator 2 Judgment Day</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Terminator</string>
+            <string>Терминатор</string>
+          </InfoList>
+          <Info>The Terminator</Info>
+          <TranslateInfo>Терминатор</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Terminator 2 Judgment Day</string>
+            <string>Терминатор 2: Судный день</string>
+          </InfoList>
+          <Info>Terminator 2 Judgment Day</Info>
+          <TranslateInfo>Терминатор 2: Судный день</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Red Heat</string>
+            <string>Красная жара</string>
+          </InfoList>
+          <Info>Red Heat</Info>
+          <TranslateInfo>Красная жара</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Commando</string>
+            <string>Коммандо</string>
+          </InfoList>
+          <Info>Commando</Info>
+          <TranslateInfo>Коммандо</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>Teenager Marty, with the help of a time machine built by his friend Professor Doc Brown, finds himself from the 80s to the distant 50s.
+There he meets his future parents, still teenagers, and a professor friend, very young.
+1985 - USA</string>
+        <string>Подросток Марти с помощью машины времени, сооруженной его другом профессором доком Брауном, попадает из 80-х в далекие 50-е.
+Там он встречается со своими будущими родителями, еще подростками, и другом-профессором, совсем молодым.
+1985 г. - США </string>
+      </ListNoteFilm>
+      <NoteFilm>Подросток Марти с помощью машины времени, сооруженной его другом профессором доком Брауном, попадает из 80-х в далекие 50-е.
+Там он встречается со своими будущими родителями, еще подростками, и другом-профессором, совсем молодым.
+1985 г. - США </NoteFilm>
+      <ListDescriptionFilm>
+      <string>Robert Zemekis
+1985</string>
+      <string>Роберт Земекис
+1985</string>
+    </ListDescriptionFilm>
+      <Director>Zemekis</Director>
+      <_cadrCinemaName>Back to the Future 1</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Back To The Future, Part II</string>
+            <string>Назад в будущее 2</string>
+          </InfoList>
+          <Info>Back To The Future, Part II</Info>
+          <TranslateInfo>Назад в будущее 2</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Back to the Future, Part III</string>
+            <string>Назад в будущее 3</string>
+          </InfoList>
+          <Info>Back to the Future, Part III</Info>
+          <TranslateInfo>Назад в будущее 3</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Back to the Future</string>
+            <string>Назад в будущее </string>
+          </InfoList>
+          <Info>Back to the Future</Info>
+          <TranslateInfo>Назад в будущее </TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Addams Family</string>
+            <string>Семейка Аддамс</string>
+          </InfoList>
+          <Info>The Addams Family</Info>
+          <TranslateInfo>Семейка Аддамс</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>2</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Name the movie based on its description:
+The story of half-man, half-Atlantean Arthur Curry, who has to find out
+Is he worthy to be what he was destined to be by birth - the king of the underwater world.
+      </string>
+        <string>
+Назовите фильм по описанию:
+История получеловека-полуатланта Артура Карри, которому предстоит выяснить,
+достоин ли он быть тем, кем ему суждено по рождению — царём подводного мира.
+      </string>
+      </ListInfoQuestion>
+      <Info>
+Назовите фильм по описанию:
+История получеловека-полуатланта Артура Карри, которому предстоит выяснить,
+достоин ли он быть тем, кем ему суждено по рождению — царём подводного мира.
+      </Info>
+      <ListNoteFilm>
+        <string>-</string>
+        <string>-</string>
+      </ListNoteFilm>
+      <NoteFilm>-</NoteFilm>
+      <ListDescriptionFilm>
+      <string>James Wan
+2018</string>
+      <string>Джеймс Ван
+2018</string>
+    </ListDescriptionFilm>
+      <Director>James Wan</Director>
+      <_cadrCinemaName>Aquaman</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Aquaman</string>
+            <string>Аквамен</string>
+          </InfoList>
+          <Info>Aquaman</Info>
+          <TranslateInfo>Аквамен</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Titanic</string>
+            <string>Титаник</string>
+          </InfoList>
+          <Info>Titanic</Info>
+          <TranslateInfo>Титаник</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Shape of Water</string>
+            <string>Форма воды</string>
+          </InfoList>
+          <Info>The Shape of Water</Info>
+          <TranslateInfo>Форма воды</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Avatar: The Way of Water</string>
+            <string>Аватар: Путь воды</string>
+          </InfoList>
+          <Info>Avatar: The Way of Water</Info>
+          <TranslateInfo>Аватар: Путь воды</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>40</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>The main character is a professional killer Leon, who lives a secluded life in Little Italy, a neighborhood of New York.
+One day he meets Mathilde Lando, a teenage girl who lives next door.
+1994 - France</string>
+        <string>Главный герой — профессиональный убийца Леон, живёт уединённой жизнью в Маленькой Италии, районе Нью-Йорка. 
+Однажды он встречает живущую по соседству Матильду Ландо, девочку-подростка.
+1994 г. - Франция</string>
+      </ListNoteFilm>
+      <NoteFilm>Главный герой — профессиональный убийца Леон, живёт уединённой жизнью в Маленькой Италии, районе Нью-Йорка. 
+Однажды он встречает живущую по соседству Матильду Ландо, девочку-подростка.
+1994 г. - Франция</NoteFilm>
+      
+      <ListDescriptionFilm>
+      <string>Luc Besson
+1994</string>
+      <string>Люк Бессон
+1994</string>
+    </ListDescriptionFilm>
+      
+      <Director>Besson</Director>
+      <_cadrCinemaName>Leon</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Professional</string>
+            <string>Леон</string>
+          </InfoList>
+          <Info>The Professional</Info>
+          <TranslateInfo>Леон</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Taxi</string>
+            <string>Такси</string>
+          </InfoList>
+          <Info>Taxi</Info>
+          <TranslateInfo>Такси</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Fifth Element</string>
+            <string>Пятый элемент</string>
+          </InfoList>
+          <Info>The Fifth Element</Info>
+          <TranslateInfo>Пятый элемент</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Bram Stoker's Dracula</string>
+            <string>Дракула</string>
+          </InfoList>
+          <Info>Bram Stoker's Dracula</Info>
+          <TranslateInfo>Дракула</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>Batman raises the stakes in his war on crime. With the help of Lieutenant Jim Gordon and prosecutor Harvey Dent, he intends to cleanse the streets of the crime that is plaguing the city.
+2008 - USA</string>
+        <string>Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.
+2008 г. - США</string>
+      </ListNoteFilm>
+      <NoteFilm>Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.
+2008 г. - США</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Christopher Nolan
+2008</string>
+      <string>Кристофер Нолан
+2008</string>
+    </ListDescriptionFilm>
+      <Director>Nolan</Director>
+      <_cadrCinemaName>The Dark Knight</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>The Dark Knight</string>
+            <string>Темный рыцарь</string>
+          </InfoList>
+          <Info>The Dark Knight</Info>
+          <TranslateInfo>Темный рыцарь</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>The Italian Job</string>
+            <string>Ограбление по-итальянски</string>
+          </InfoList>
+          <Info>The Italian Job</Info>
+          <TranslateInfo>Ограбление по-итальянски</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Ocean's Eleven</string>
+            <string>11 друзей Оушена</string>
+          </InfoList>
+          <Info>Ocean's Eleven</Info>
+          <TranslateInfo>11 друзей Оушена</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Ocean's Twelve</string>
+            <string>12 друзей Оушена</string>
+          </InfoList>
+          <Info>Ocean's Twelve</Info>
+          <TranslateInfo>12 друзей Оушена</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+    <Question>
+      <IndexPrefab>0</IndexPrefab>
+      <_answerType>Single</_answerType>
+      <ListInfoQuestion>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
+      </ListInfoQuestion>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>"Ted" is an American comedy directed by Seth MacFarlane (his feature debut), starring Mark Wahlberg and Mila Kunis.
+The world premiere took place on June 29, 2012.</string>
+        <string>«Третий лишний» — американская комедия Сета Макфарлейна (его полнометражный дебют), в главных ролях Марк Уолберг и Мила Кунис.
+Мировая премьера состоялась 29 июня 2012 года.</string>
+      </ListNoteFilm>
+      <NoteFilm>«Третий лишний» — американская комедия Сета Макфарлейна (его полнометражный дебют), в главных ролях Марк Уолберг и Мила Кунис.
+Мировая премьера состоялась 29 июня 2012 года.</NoteFilm>
+      <ListDescriptionFilm>
+      <string>Seth MacFarlane
+2012</string>
+      <string>Сет Макфарлейн
+2012</string>
+    </ListDescriptionFilm>
+      <Director>Seth MacFarlane</Director>
+      <_cadrCinemaName>Ted</_cadrCinemaName>
+      <Answers>
+        <Answer>
+          <InfoList>
+            <string>Pain and Gain</string>
+            <string>Кровью и потом: Анаболики</string>
+          </InfoList>
+          <Info>Pain and Gain</Info>
+          <TranslateInfo>Кровью и потом: Анаболики</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Uncharted</string>
+            <string>Анчартед: На картах не значится</string>
+          </InfoList>
+          <Info>Uncharted</Info>
+          <TranslateInfo>Анчартед: На картах не значится</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Cocaine Bear</string>
+            <string>Кокаиновый медведь</string>
+          </InfoList>
+          <Info>Cocaine Bear</Info>
+          <TranslateInfo>Кокаиновый медведь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Ted</string>
+            <string>Третий лишний</string>
+          </InfoList>
+          <Info>Ted</Info>
+          <TranslateInfo>Третий лишний</TranslateInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <AddScore>50</AddScore>
+    </Question>
+  </Questions>
+</Data>

@@ -14,14 +14,17 @@ namespace QuizCinema
         private List<AnswerData> _currentAnswer = new List<AnswerData>();
         public List<AnswerData> GetCurrentAnswerList { get { return _currentAnswer; } set { _currentAnswer = value; } }
 
-        private List<AnswerData> _correctAnswer = new List<AnswerData>();
-        public List<AnswerData> GetCorrectAnswerList { get { return _correctAnswer; } set { _correctAnswer = value; } }
+        private List<AnswerData> _correctAnswerData = new List<AnswerData>();
+        public List<AnswerData> GetCorrectAnswerDataList { get { return _correctAnswerData; } set { _correctAnswerData = value; } }
+
 
         [Header("UI Elements (Prefabs)")]
         [SerializeField] private AnswerData[] _answerPrefab;
         [SerializeField] private RectTransform[] _answerContentArea;
         public RectTransform[] AnswerContentArea => _answerContentArea;
         [SerializeField] private RectTransform _rectTransformStart;
+        private Question _currentQuestion;
+        public Question GetCurrentQuestion => _currentQuestion;
 
         public void Construct(AnswerData obj)
         {
@@ -36,7 +39,9 @@ namespace QuizCinema
 
         public void CreateAnswers(Question question)
         {
-            _correctAnswer.Clear();
+            _currentQuestion = question;
+
+            _correctAnswerData.Clear();
 
             EraseAnswers();
 
@@ -46,9 +51,35 @@ namespace QuizCinema
 
             UpdateCorrectAnswerList(question);
 
-            OnCorrectAnswer?.Invoke(_correctAnswer);
+            OnCorrectAnswer?.Invoke(_correctAnswerData);
 
             OnCreateAnswers?.Invoke(question);
+        }
+
+        public List<Answer> GetInCorrectAnswers(Question question)
+        {
+            List<Answer> incorrectAnswerList = new List<Answer>();
+            for (int i = 0; i < question.Answers.Length; i++)
+            {
+                if (!question.Answers[i].IsCorrect)
+                {
+                    incorrectAnswerList.Add(question.Answers[i]);
+                }
+            }
+            return incorrectAnswerList;
+        }
+
+        public List<Answer> GetCorrectAnswerList(Question question)
+        {
+            List<Answer> correctAnswerList = new List<Answer>();
+            for (int i = 0; i < question.Answers.Length; i++)
+            {
+                if (question.Answers[i].IsCorrect)
+                {
+                    correctAnswerList.Add(question.Answers[i]);
+                }
+            }
+            return correctAnswerList;
         }
 
         public static void Shuffle<T>(T[] arr)
@@ -87,7 +118,7 @@ namespace QuizCinema
                 if (question.GetAnswerType == AnswerType.Single)
                 {
                     if (listIndexCorrectAnswer[0] == i)
-                        _correctAnswer.Add(newAnswer);
+                        _correctAnswerData.Add(newAnswer);
                 }
                 else if (question.GetAnswerType == AnswerType.Multiply)
                 {
@@ -95,7 +126,7 @@ namespace QuizCinema
                     {
                         if (i == listIndexCorrectAnswer[j])
                         {
-                            _correctAnswer.Add(newAnswer);
+                            _correctAnswerData.Add(newAnswer);
                         }
                     }
                 }

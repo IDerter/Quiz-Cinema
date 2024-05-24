@@ -12,7 +12,7 @@ namespace QuizCinema
         private Vector2 _tapPosition;
         private Vector2 _swipeDelta;
 
-        private float _deadZone = 100f;
+        private float _deadZone = 200f;
 
         private bool _isSwiping;
         private bool _isMobile;
