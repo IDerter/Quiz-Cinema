@@ -39,7 +39,7 @@ namespace QuizCinema
             }
         }
 
-        private int _answerIndex = -1;
+        [SerializeField] private int _answerIndex = -1;
         public int AnswerIndex => _answerIndex;
 
         private bool _checked = false;
@@ -84,13 +84,12 @@ namespace QuizCinema
                     if ((QuestionMethods.Instance.PickedAnswers[i].AnswerIndex == currentQuestion.GetCorrectAnswers()[0]) ||
                     QuestionMethods.Instance.PickedAnswers[i].AnswerIndex == currentQuestion.GetCorrectAnswers()[1])
                     {
-                        if (i == AnswerIndex)
+                        if (QuestionMethods.Instance.PickedAnswers[i].AnswerIndex == AnswerIndex)
                         {
                             CorrectAnswer.SetActive(true);
-                            Debug.Log("InCORRECT!");
+                            Debug.Log("InCORRECT!" + this.InfoText.text);
                             return;
                         }
-                        
                     }
 
                 }
@@ -101,7 +100,8 @@ namespace QuizCinema
                 {
                     _inCorrectAnswer.SetActive(true);
                     _infoText.color = Color.white;
-                    Debug.Log("InCorrectAnswer!" + this.name);
+                    Debug.Log("InCorrectAnswer!" + this.InfoText.text);
+                    return;
                 }
             }
         }

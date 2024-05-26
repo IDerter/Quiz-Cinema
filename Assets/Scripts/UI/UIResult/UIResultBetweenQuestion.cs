@@ -24,8 +24,7 @@ namespace QuizCinema
         [SerializeField] private Image _bgResultPanel;
         [SerializeField] private GameObject _textContainerCorrect;
         [SerializeField] private GameObject _textContainerInCorrect;
-        [SerializeField] private Button _buttonCorrectNext;
-        [SerializeField] private Button _buttonInCorrectGoOn;
+        [SerializeField] private Button[] _buttonCorrectNext;
 
         [SerializeField] private TextMeshProUGUI _correctAnswer1TextInfo;
         [SerializeField] private TextMeshProUGUI _inCorrectAnswer1TextInfo;
@@ -95,20 +94,19 @@ namespace QuizCinema
                 _correctAnswer1TextInfo.text = _translate.TextAnswer[_indexLang] + $" \"{_listAnswersCorrect[0].InfoList[_indexLang]}\" " + _translate.TextCorrect[_indexLang];
             }
 
-
-            Debug.Log("ENDCORRECTANSWERS!");
         }
 
         private void CorrectSetActive(bool correct)
         {
             _bgResultPanel.sprite = correct ? _correctBg : _inCorrectBg;
 
-            _buttonCorrectNext.enabled = correct;
-            _buttonCorrectNext.gameObject.SetActive(correct);
+            _buttonCorrectNext[0].enabled = true ;
+            _buttonCorrectNext[0].gameObject.SetActive(true);
+            _buttonCorrectNext[1].enabled = true;
+            _buttonCorrectNext[1].gameObject.SetActive(true);
+
             _textContainerCorrect.SetActive(correct);
 
-            _buttonInCorrectGoOn.enabled = !correct;
-            _buttonInCorrectGoOn.gameObject.SetActive(!correct);
             _textContainerInCorrect.SetActive(!correct);
         }
 

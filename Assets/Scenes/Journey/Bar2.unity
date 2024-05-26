@@ -158,6 +158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lvl2_4
       objectReference: {fileID: 0}
+    - target: {fileID: 7437008436111507125, guid: f2717c5ba26f30e40958b799df2af60c, type: 3}
+      propertyPath: _currentEpisode
+      value: 
+      objectReference: {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}
     - target: {fileID: 7437008436301435781, guid: f2717c5ba26f30e40958b799df2af60c, type: 3}
       propertyPath: _episode
       value: 

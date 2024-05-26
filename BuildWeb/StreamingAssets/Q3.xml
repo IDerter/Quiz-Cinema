@@ -364,38 +364,53 @@
       <Answers>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean The Curse of The Black Pearl</string>
-            <string>Пираты Карибского моря: Проклятие Черной жемчужины</string>
+            <string>Pirates of the Caribbean:
+The Curse of The Black Pearl</string>
+            <string>Пираты Карибского моря:
+Проклятие Черной жемчужины</string>
           </InfoList>
-          <Info>Pirates of the Caribbean The Curse of The Black Pearl</Info>
-          <TranslateInfo>Пираты Карибского моря: Проклятие Черной жемчужины</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+The Curse of The Black Pearl</Info>
+          <TranslateInfo>Пираты Карибского моря:
+Проклятие Черной жемчужины</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean: Dead Man's Chest</string>
+            <string>Pirates of the Caribbean:
+Dead Man's Chest</string>
             <string>Пираты Карибского моря: Сундук мертвеца</string>
           </InfoList>
-          <Info>Pirates of the Caribbean: Dead Man's Chest</Info>
-          <TranslateInfo>Пираты Карибского моря: Сундук мертвеца</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+Dead Man's Chest</Info>
+          <TranslateInfo>Пираты Карибского моря:
+Сундук мертвеца</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean: At World's End</string>
-            <string>Пираты Карибского моря: На краю света</string>
+            <string>Pirates of the Caribbean:
+At World's End</string>
+            <string>Пираты Карибского моря:
+На краю света</string>
           </InfoList>
-          <Info>Pirates of the Caribbean: At World's End</Info>
-          <TranslateInfo>Пираты Карибского моря: На краю света</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+At World's End</Info>
+          <TranslateInfo>Пираты Карибского моря:
+На краю света</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Pirates of the Caribbean: On Stranger Tides</string>
-            <string>Пираты Карибского моря: На странных берегах</string>
+            <string>Pirates of the Caribbean:
+On Stranger Tides</string>
+            <string>Пираты Карибского моря:
+На странных берегах</string>
           </InfoList>
-          <Info>Pirates of the Caribbean: On Stranger Tides</Info>
-          <TranslateInfo>Пираты Карибского моря: На странных берегах</TranslateInfo>
+          <Info>Pirates of the Caribbean:
+On Stranger Tides</Info>
+          <TranslateInfo>Пираты Карибского моря:
+На странных берегах</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
