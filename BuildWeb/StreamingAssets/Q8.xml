@@ -32,8 +32,17 @@ The director believed that the actress was too young for this role. As a result,
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Taylor Hackford
+1997</string>
+        <string>Тейлор Хэкфорд
+1997</string>
+      </ListDescriptionFilm>
+      
       <Director>Taylor Hackford</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>The Devil's Advocate</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -89,7 +98,16 @@ The director believed that the actress was too young for this role. As a result,
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      <Director>John McTiernan</Director>
+      
+      <ListDescriptionFilm>
+        <string>John Woo
+2009</string>
+        <string>Джон Ву
+2009</string>
+      </ListDescriptionFilm>
+      
+      <Director>John Woo</Director>
+      <Poster />
       <_cadrCinemaName>Mission Impossible 2</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -146,7 +164,16 @@ The director believed that the actress was too young for this role. As a result,
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Wolfgang Petersen
+2004</string>
+        <string>Вольфганг Петерсен
+2004</string>
+      </ListDescriptionFilm>
+      
       <Director>Wolfgang Petersen</Director>
+      <Poster />
       <_cadrCinemaName>Troy</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -203,7 +230,16 @@ The director believed that the actress was too young for this role. As a result,
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Alan Parker
+2003</string>
+        <string>Алан Паркер
+2003</string>
+      </ListDescriptionFilm>
+      
       <Director>Alan Parker</Director>
+      <Poster />
       <_cadrCinemaName>The Life of David Gale</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -275,8 +311,17 @@ According to the director, the Guardians' colorful spacesuits were inspired by t
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>James Gunn
+2023</string>
+        <string>Джеймс Ганн
+2023</string>
+      </ListDescriptionFilm>
+      
       <Director>James Gunn</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Guardians of the Galaxy Vol. 3</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -319,7 +364,6 @@ According to the director, the Guardians' colorful spacesuits were inspired by t
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
-
     <Question>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -333,7 +377,16 @@ According to the director, the Guardians' colorful spacesuits were inspired by t
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Michel Gondry
+2004</string>
+        <string>Мишель Гондри
+2004</string>
+      </ListDescriptionFilm>
+      
       <Director>Michel Gondry</Director>
+      <Poster />
       <_cadrCinemaName>Eternal Sunshine of the Spotless Mind</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -377,7 +430,6 @@ According to the director, the Guardians' colorful spacesuits were inspired by t
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -406,8 +458,17 @@ Derek's independence and courage are admired by his younger brother Danny, who h
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Tony Kaye
+1998</string>
+        <string>Тони Кэй
+1998</string>
+      </ListDescriptionFilm>
+      
       <Director>Tony Kaye</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>American History X</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -463,7 +524,16 @@ Derek's independence and courage are admired by his younger brother Danny, who h
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Christopher McQuarrie
+1996-2023</string>
+        <string>Кристофер Маккуорри
+1996-2023</string>
+      </ListDescriptionFilm>
+      
       <Director>Christopher McQuarrie</Director>
+      <Poster />
       <_cadrCinemaName>Mission Impossible – Dead Reckoning Part One</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -520,7 +590,16 @@ Derek's independence and courage are admired by his younger brother Danny, who h
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Ron Howard
+2013</string>
+        <string>Рон Ховард
+2013</string>
+      </ListDescriptionFilm>
+      
       <Director>Ron Howard</Director>
+      <Poster />
       <_cadrCinemaName>Rush</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -577,8 +656,22 @@ Derek's independence and courage are admired by his younger brother Danny, who h
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Ridley Scott
+2001
+!Bryan Fuller
+2013-2015
+        </string>
+        <string>Ридли Скотт
+2001
+!Брайан Фуллер
+2013-2015</string>
+      </ListDescriptionFilm>
+      
       <Director>Thomas Harris</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Anthony Hopkins!Mads Mikkelsen</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>

@@ -120,7 +120,7 @@ namespace QuizCinema
             {
 
                 var indexPicked = -1;
-                int correctIndex = 0;
+                int correctIndex = -1;
                 if (_currentQuestion._answerType == AnswerType.Multiply)
                 {
                     _bgResultPanel.sprite = _almostCorrectBg;
@@ -161,7 +161,7 @@ namespace QuizCinema
                         }
                         else
                         {
-                            if (indexPicked != -1)
+                            if (indexPicked != -1 || correctIndex == -1)
                             {
                                 Debug.Log("SETACTIVEINCORRECTALMOST!");
                                 _inCorrectAnswer1TextInfo.text = _translate.TextAnswer[_indexLang] + $" \"{_listAnswersPicked[i].InfoText.text}\" " + _translate.TextInCorrect[_indexLang];

@@ -14,11 +14,14 @@ namespace QuizCinema
         [SerializeField] private GameObject _bgBlack;
         [SerializeField] private GameObject _kaeruLogo;
         [SerializeField] private GameObject _particleSystem;
+        [SerializeField] private SpawnParticles _spawn;
+        private float _timeLeft = 0;
 
         private const string _sceneMainMenu = "MainMenu";
 
         private void Start()
         {
+            _timeLeft = 0;
             StartCoroutine(BgBlack());
         }
 
@@ -26,7 +29,7 @@ namespace QuizCinema
         {
             yield return new WaitForSeconds(1f);
 
-            _kaeruLogo.SetActive(true);
+          //  _kaeruLogo.SetActive(true);
 
         }
 
@@ -44,36 +47,38 @@ namespace QuizCinema
         public void StartSlider()
         {
             _slider.gameObject.SetActive(true);
-            _particleSystem.SetActive(true);
+            //_particleSystem.SetActive(true);
 
             StartCoroutine(StartTimer());
+            StartCoroutine(StartParticles());
         }
 
         IEnumerator StartTimer()
         {
             Debug.Log("Start Timer - «¿œ”—  “¿…Ã≈–¿!");
 
-            float timeLeft = 0;
-            // _timerText.color = _timerDefaultColor;
-
-            while (timeLeft <= 1)
+            while (_timeLeft <= 1)
             {
-                timeLeft += 0.01f;
-                _sliderFill.fillAmount = timeLeft;
+                _timeLeft += 0.01f;
+                _sliderFill.fillAmount = _timeLeft;
 
                 if (_slider.value <= 0.72f)
                     _slider.value += 0.008f;
-                //else if (_slider.value <= 0.72f && _slider.value >= 0.32f)
-                  //  _slider.value += 0.006f;
-                // slider.value = 1
-                //  AudioManager.Instance.PlaySound(_countdownSFX);
 
-                // _timerText.text = timeLeft.ToString();
                 yield return new WaitForSeconds(0.05f);
             }
 
             SceneManager.LoadScene(_sceneMainMenu);
             Debug.Log("Start Timer -  ÓÌÂˆ “¿…Ã≈–¿!");
+        }
+
+        IEnumerator StartParticles()
+        {
+            while (_timeLeft <= 1)
+            {
+                _spawn.Spawn();
+                yield return new WaitForSeconds(0.8f);
+            }
         }
         
     }

@@ -659,14 +659,20 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
       
       <ListDescriptionFilm>
         <string>Robert Rodriguez
-2005</string>
+2005!
+Robert Rodriguez
+2005!
+</string>
         <string>Роберт Родригес
-2005</string>
+2005!
+Роберт Родригес
+2005!
+</string>
       </ListDescriptionFilm>
       
       <Director>Robert Rodriguez</Director>
       <Poster />
-      <_cadrCinemaName>Sin City</_cadrCinemaName>
+      <_cadrCinemaName>Jessica Alba!Bruce Willis</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
