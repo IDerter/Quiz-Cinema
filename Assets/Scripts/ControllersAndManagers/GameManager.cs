@@ -212,7 +212,6 @@ namespace QuizCinema
             bool isCorrect = _questionMethods.CheckAnswers();
             Debug.Log(_questionMethods.IsFinished);
 
-            Debug.Log(_questionMethods.GetLengthQuestions + "����� + " + _countCurrentAnswer);
             if (_questionMethods.GetLengthQuestions > _countCurrentAnswer)
                 _countCurrentAnswer++;
 
@@ -223,10 +222,8 @@ namespace QuizCinema
             }
             else
             {
-                Debug.Log(_countCurrentAnswer + " ������� ���-�� ��������!");
                 CalculateLevelStars();
                 OnFinishGame?.Invoke();
-                Debug.Log("������������� �� ONFINISHGAME!");
 
                 FinishGame();
             }

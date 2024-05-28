@@ -254,8 +254,6 @@ namespace QuizCinema
             if (_gameManager.CountCorrectAnswer <= _questionMethods.Data.Questions.Length)
                 _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrentAnswer + "/" + _questionMethods.Data.Questions.Length;
 
-            _uIElements.CountCurrentScore.text = _score.CurrentLvlScore.ToString();
-
             if (_uIElements.ScoreFinalLvl.Length == 2)
             {
                 _uIElements.ScoreFinalLvl[0].text = _score.CurrentLvlScore.ToString();

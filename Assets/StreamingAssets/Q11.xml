@@ -29,8 +29,19 @@ This decision was largely due to the choice of the actor playing the main role. 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Francis Lawrence
+2005
+</string>
+        <string>Френсис Лоуренс
+2005
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Francis Lawrence</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Constantine</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -86,8 +97,19 @@ This decision was largely due to the choice of the actor playing the main role. 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Ethan Coen and Joel Coen
+2010
+</string>
+        <string>Итан Коэн и Джоэл Коэн
+2010
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Joel and Ethan Coen</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>True Grit</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -143,8 +165,19 @@ This decision was largely due to the choice of the actor playing the main role. 
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Neil Burger
+2006
+</string>
+        <string>Нил Бёргер
+2006
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Neil Burger</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>The Illusionist</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -187,6 +220,7 @@ This decision was largely due to the choice of the actor playing the main role. 
       <Timer>30</Timer>
       <AddScore>30</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -200,7 +234,18 @@ This decision was largely due to the choice of the actor playing the main role. 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Danny Boyle
+2008
+</string>
+        <string>Дэнни Бойл
+2008
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Danny Boyle</Director>
+      <Poster />
       <_cadrCinemaName>Slumdog Millionaire</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -257,7 +302,18 @@ This decision was largely due to the choice of the actor playing the main role. 
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Francis Ford Coppola
+1974
+</string>
+        <string>Фрэнсис Форд Коппола
+1974
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Coppola</Director>
+      <Poster />
       <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -314,8 +370,19 @@ This decision was largely due to the choice of the actor playing the main role. 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Paul Thomas Anderson
+2007
+</string>
+        <string>Пол Томас Андерсон
+2007
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Paul Thomas Anderson</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>There Will Be Blood</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -386,8 +453,19 @@ used during the filming of stunts, and for the prosthetic hand of the heroine Ch
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>George Miller
+2015
+</string>
+        <string>Джордж Миллер
+2015
+</string>
+      </ListDescriptionFilm>
+      
       <Director>George Miller</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Mad Max Fury Road</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -443,7 +521,18 @@ used during the filming of stunts, and for the prosthetic hand of the heroine Ch
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Patty Jenkins
+2020
+</string>
+        <string>Пэтти Дженкинс
+2020
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Patty Jenkins</Director>
+      <Poster />
       <_cadrCinemaName>Wonder Woman</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -500,7 +589,18 @@ used during the filming of stunts, and for the prosthetic hand of the heroine Ch
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>David Fincher
+2014
+</string>
+        <string>Дэвид Финчер
+2014
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Fincher</Director>
+      <Poster />
       <_cadrCinemaName>Gone Girl</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -557,8 +657,23 @@ used during the filming of stunts, and for the prosthetic hand of the heroine Ch
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      <Director>Robert Rodriguez</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      
+      <ListDescriptionFilm>
+        <string>Lasse Hallström
+1993!
+Lasse Hallström
+1993!
+</string>
+        <string>Лассе Халльстрём
+1993!
+Лассе Халльстрём
+1993
+</string>
+      </ListDescriptionFilm>
+      
+      <Director>Lasse Hallström</Director>
+      <Poster />
+      <_cadrCinemaName>Leonardo DiCaprio!Johnny Depp</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>

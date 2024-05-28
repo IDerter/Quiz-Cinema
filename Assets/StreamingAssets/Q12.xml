@@ -14,7 +14,18 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Frank Darabont
+1994
+</string>
+        <string>Фрэнк Дарабонт
+1994
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Darabont</Director>
+      <Poster />
       <_cadrCinemaName>The Shawshank Redemption</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -71,8 +82,19 @@
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Anne Fletcher
+2006
+</string>
+        <string>Энн Флетчер
+2006
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Joel and Ethan Coen</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Step Up</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -128,8 +150,19 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Michael Bay
+2007
+</string>
+        <string>Майкл Бэй
+2007
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Michael Bay</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Transformers</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -185,7 +218,18 @@
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>The Wachowski sisters and Tom Tykwer
+2012
+</string>
+        <string>Сестры Вачовски и Том Тыквер
+2012
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Cloud Atlas directors</Director>
+      <Poster />
       <_cadrCinemaName>Cloud Atlas</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -242,8 +286,23 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Francis Ford Coppola
+1974!
+Francis Ford Coppola
+1972!
+</string>
+        <string>Фрэнсис Форд Коппола
+1974!
+Фрэнсис Форд Коппола
+1974!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Francis Ford Coppola</Director>
-      <_cadrCinemaName>The Godfather 2</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Robert De Niro!Marlon Brando</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -299,7 +358,18 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>James Cameron
+1984
+</string>
+        <string>Джеймс Кэмерон
+1984
+</string>
+      </ListDescriptionFilm>
+      
       <Director>James Cameron</Director>
+      <Poster />
       <_cadrCinemaName>Terminator</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -371,8 +441,19 @@ In February 2004, the film became the second in cinema history to gross over a b
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Peter Jackson
+2003
+</string>
+        <string>Питер Джексон
+2003
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Jackson</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>The Lord of the Rings The Return of the King</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -437,8 +518,19 @@ Thus Mangold explained why there is no such scene in this film.</string>
       </ListNoteFilm>
       <NoteFilm>Сцены после титров, обычно намекающие на продолжение — фишка фильмов MCU, к которой относится и «Логан».
 Таким образом Мэнголд объяснял, почему в этом фильме такой сцены нет.</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>James Mangold
+2017
+</string>
+        <string>Джеймс Мэнголд
+2017
+</string>
+      </ListDescriptionFilm>
+      
       <Director>James Mangold</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Logan</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -494,7 +586,18 @@ Thus Mangold explained why there is no such scene in this film.</string>
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>David Yates
+2016
+</string>
+        <string>Дэвид Йейтс
+2016
+</string>
+      </ListDescriptionFilm>
+      
       <Director>David Yates</Director>
+      <Poster />
       <_cadrCinemaName>Fantastic Beasts and Where to Find Them</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -551,8 +654,23 @@ Thus Mangold explained why there is no such scene in this film.</string>
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Christopher McQuarrie
+2018!
+Christopher McQuarrie
+2018!
+</string>
+       <string>Кристофер Маккуорри
+2018!
+Кристофер Маккуорри
+2018!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Christopher McQuarrie</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Tom Cruise!Rebecca Ferguson</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
