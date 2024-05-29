@@ -32,8 +32,19 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Roland Emmerich
+1996
+</string>
+        <string>Роланд Эммерих
+1996
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Roland Emmerich</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Independence Day</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -89,8 +100,19 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>George Lucas
+1999
+</string>
+        <string>Джордж Лукас
+1999
+</string>
+      </ListDescriptionFilm>
+      
       <Director>George Lucas</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>Star Wars. Episode I The Phantom Menace</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -146,8 +168,19 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Andrew Adamson
+2005
+</string>
+        <string>Эндрю Адамсон
+2005
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Andrew Adamson</Director>
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <Poster />
+      <_cadrCinemaName>The Chronicles of Narnia The Lion, the Witch and the Wardrobe</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -203,7 +236,22 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Alfonso Cuaron
+2005!
+Robert Rodriguez
+2005!
+</string>
+        <string>Роберт Родригес
+2005!
+Роберт Родригес
+2005!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Alfonso Cuaron</Director>
+      <Poster />
       <_cadrCinemaName>Gravity</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -269,7 +317,22 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Robert Rodriguez
+2005!
+Robert Rodriguez
+2005!
+</string>
+        <string>Роберт Родригес
+2005!
+Роберт Родригес
+2005!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Martin Campbell</Director>
+      <Poster />
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -326,7 +389,22 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Robert Rodriguez
+2005!
+Robert Rodriguez
+2005!
+</string>
+        <string>Роберт Родригес
+2005!
+Роберт Родригес
+2005!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Steven Spielberg</Director>
+      <Poster />
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -383,7 +461,22 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
         <string />
       </ListNoteFilm>
       <NoteFilm />
+      
+      <ListDescriptionFilm>
+        <string>Robert Rodriguez
+2005!
+Robert Rodriguez
+2005!
+</string>
+        <string>Роберт Родригес
+2005!
+Роберт Родригес
+2005!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Lumiere brothers</Director>
+      <Poster />
       <_cadrCinemaName>First film</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -455,7 +548,22 @@ In the United States, pinks were a disparaging term for those who may not have b
 Мистер Розовый запомнился в числе прочего тем, что никогда не давал чаевые. Бушеми говорит, что теперь ему приходится давать на чай больше, 
 чтобы люди перестали ассоциировать его с героем фильма. На самом деле привычка не оставлять чаевые была у самого Тарантино. 
 Розовыми в США пренебрежительно называли тех, кто мог не быть коммунистом (то есть красным), но сочувствовал коммунистическим идеям.</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Robert Rodriguez
+2005!
+Robert Rodriguez
+2005!
+</string>
+        <string>Роберт Родригес
+2005!
+Роберт Родригес
+2005!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Tarantino</Director>
+      <Poster />
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -512,7 +620,22 @@ In the United States, pinks were a disparaging term for those who may not have b
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Robert Rodriguez
+2005!
+Robert Rodriguez
+2005!
+</string>
+        <string>Роберт Родригес
+2005!
+Роберт Родригес
+2005!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Ang Lee</Director>
+      <Poster />
       <_cadrCinemaName>Life of Pi</_cadrCinemaName>
       <Answers>
         <Answer>
@@ -569,7 +692,22 @@ In the United States, pinks were a disparaging term for those who may not have b
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
+      
+      <ListDescriptionFilm>
+        <string>Robert Rodriguez
+2005!
+Robert Rodriguez
+2005!
+</string>
+        <string>Роберт Родригес
+2005!
+Роберт Родригес
+2005!
+</string>
+      </ListDescriptionFilm>
+      
       <Director>James Gunn</Director>
+      <Poster />
       <_cadrCinemaName>-</_cadrCinemaName>
       <Answers>
         <Answer>
