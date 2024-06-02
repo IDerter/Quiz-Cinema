@@ -239,14 +239,10 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
       
       <ListDescriptionFilm>
         <string>Alfonso Cuaron
-2005!
-Robert Rodriguez
-2005!
+2013
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Альфонсо Куарон
+2013
 </string>
       </ListDescriptionFilm>
       
@@ -319,21 +315,17 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Martin Campbell
+2006
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Martin Campbell
+2006
 </string>
       </ListDescriptionFilm>
       
       <Director>Martin Campbell</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Casino Royale</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -391,21 +383,17 @@ Robert Rodriguez
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Steven Spielberg
+2018
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Стивена Спилберга
+2018
 </string>
       </ListDescriptionFilm>
       
       <Director>Steven Spielberg</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Ready Player One</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -463,15 +451,11 @@ Robert Rodriguez
       <NoteFilm />
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Lumiere brothers
+1895
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Братья Люмьер
+1895
 </string>
       </ListDescriptionFilm>
       
@@ -550,21 +534,17 @@ In the United States, pinks were a disparaging term for those who may not have b
 Розовыми в США пренебрежительно называли тех, кто мог не быть коммунистом (то есть красным), но сочувствовал коммунистическим идеям.</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Quentin Tarantino
+1992
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Квентин Тарантино
+1992
 </string>
       </ListDescriptionFilm>
       
       <Director>Tarantino</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -622,15 +602,11 @@ Robert Rodriguez
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Ang Lee
+2012
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Энг Ли
+2012
 </string>
       </ListDescriptionFilm>
       
@@ -694,21 +670,21 @@ Robert Rodriguez
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>James Gunn
+2017
+!James Gunn
+2017
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Джеймс Ганн
+2017
+!Джеймс Ганн
+2017
 </string>
       </ListDescriptionFilm>
       
       <Director>James Gunn</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Kurt Russell!David Bautista</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>

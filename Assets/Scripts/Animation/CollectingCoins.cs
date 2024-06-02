@@ -51,7 +51,7 @@ namespace QuizCinema
         {
             MapCompletion.OnScoreUpdate += OnScoreUpdate;
             coinStart = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop;
-                        _coinText.text = coinStart.ToString();
+            _coinText.text = coinStart.ToString();
         }
 
         private void OnDestroy()
@@ -61,7 +61,7 @@ namespace QuizCinema
 
         private void OnScoreUpdate()
         {
-            coinEnd = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop;
+            coinEnd = MapCompletion.Instance.TotalScoreLvls;
             needToSum = coinEnd - coinStart;
            // _coinText.text = (coinEnd - coinStart).ToString();
             if (needToSum > 0)
