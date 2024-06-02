@@ -31,21 +31,17 @@ as it was in many films. We tried to take a different approach and achieve tensi
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Christopher Nolan
+2017
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Кристофер Нолан
+2017
 </string>
       </ListDescriptionFilm>
       
       <Director>Nolan</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Dunkirk</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -103,21 +99,17 @@ Robert Rodriguez
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Giuseppe Tornatore
+2013
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Джузеппе Торнаторе
+2013
 </string>
       </ListDescriptionFilm>
       
       <Director>Giuseppe Tornatore</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>The Best Offer</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -175,21 +167,17 @@ Robert Rodriguez
       <NoteFilm />
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Valerie Jean Faris and Jonathan Dayton
+2006
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Валери Фэрис и Джонатан Дэйтон
+2006
 </string>
       </ListDescriptionFilm>
       
-      <Director>Wes Anderson</Director>
+      <Director>Valerie Jean Faris and Jonathan Dayton</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Little Miss Sunshine</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -247,15 +235,11 @@ Robert Rodriguez
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Jean-Marc Vallée
+2013
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Жан-Марк Валле
+2013
 </string>
       </ListDescriptionFilm>
       
@@ -327,15 +311,11 @@ and the meaning from the movie with Will Smith and Rosario Dawson? (take a doubl
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Gabriele Muccino
+2008
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Габриеле Муччино
+2008
 </string>
       </ListDescriptionFilm>
       
@@ -399,21 +379,17 @@ Robert Rodriguez
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Brett Ratner
+2000
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Бретт Ратнер
+2000
 </string>
       </ListDescriptionFilm>
       
       <Director>Brett Ratner</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>The Family Man</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -489,21 +465,17 @@ Wes Bentley - Ricky Fitts
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Sam Mendes
+1999
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Сэм Мендес
+1999
 </string>
       </ListDescriptionFilm>
       
       <Director>Sam Mendes</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>American Beauty</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -570,21 +542,17 @@ In the 2003 film, his hero had to fight THEM. What was the name of his character
       <NoteFilm>-</NoteFilm>
       
       <ListDescriptionFilm>
-        <string>Robert Rodriguez
-2005!
-Robert Rodriguez
-2005!
+        <string>Gor Verbinski
+2003-2007
 </string>
-        <string>Роберт Родригес
-2005!
-Роберт Родригес
-2005!
+        <string>Гор Вербински
+2003-2007
 </string>
       </ListDescriptionFilm>
       
       <Director>Gor Verbinski</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Pirates of the Caribbean The Curse of The Black Pearl</_cadrCinemaName>
       <Answers>
         <Answer>
           <InfoList>
@@ -640,7 +608,16 @@ Robert Rodriguez
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      <ListDescriptionFilm />
+      
+      <ListDescriptionFilm>
+        <string>Gor Verbinski
+2003-2007
+</string>
+        <string>Гор Вербински
+2003-2007
+</string>
+      </ListDescriptionFilm>
+      
       <Director>Lone Scherfig</Director>
       <Poster />
       <_cadrCinemaName>One Day</_cadrCinemaName>
