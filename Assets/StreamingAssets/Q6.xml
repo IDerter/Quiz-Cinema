@@ -394,11 +394,11 @@ Facts from which movie are you looking at?
         </Answer>
         <Answer>
           <InfoList>
-            <string>Sobibor</string>
-            <string>Собибор</string>
+            <string>Hacksaw Ridge_new</string>
+            <string>По соображениям совести</string>
           </InfoList>
-          <Info>Sobibor</Info>
-          <TranslateInfo>Собибор</TranslateInfo>
+          <Info>Hacksaw Ridge_new</Info>
+          <TranslateInfo>По соображениям совести</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
