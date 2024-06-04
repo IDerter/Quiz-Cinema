@@ -401,8 +401,8 @@ cartoon creature with a mischievous character.
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select movies starring Leonardo DiCaprio</string>
-        <string>Выберите фильмы с участие Леонардо ДиКаприо</string>
+        <string>Select movies starring Leonardo DiCaprio (two answers)</string>
+        <string>Выберите фильмы с участие Леонардо ДиКаприо (два ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите фильмы с участие Леонардо ДиКаприо</Info>
       <ListNoteFilm>

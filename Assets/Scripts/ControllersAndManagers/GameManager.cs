@@ -183,7 +183,7 @@ namespace QuizCinema
 
                 //  _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore : -_questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
 
-                Invoke("AfterAnswerСounted", 0.25f);
+                Invoke("AfterAnswerСounted", 0.5f);
             }
             _pressButtonAnswer = true;
         }

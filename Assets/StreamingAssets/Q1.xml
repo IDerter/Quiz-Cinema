@@ -51,20 +51,20 @@
         </Answer>
         <Answer>
           <InfoList>
-            <string>brilliantovaya-ruka</string>
-            <string>Бриллиантовая рука</string>
+            <string>Twilight1</string>
+            <string>Сумерки 1</string>
           </InfoList>
-          <Info>brilliantovaya-ruka</Info>
-          <TranslateInfo>Бриллиантовая рука</TranslateInfo>
+          <Info>Twilight1</Info>
+          <TranslateInfo>Сумерки 1</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Brother 1</string>
-            <string>Брат 1</string>
+            <string>Avatar</string>
+            <string>Аватар</string>
           </InfoList>
-          <Info>Brother 1</Info>
-          <TranslateInfo>Брат 1</TranslateInfo>
+          <Info>Avatar</Info>
+          <TranslateInfo>Аватар</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -347,11 +347,11 @@ An American Western set shortly after the American Civil War.
         </Answer>
         <Answer>
           <InfoList>
-            <string>Annie Hall</string>
-            <string>Энни Холл</string>
+            <string>Terminator</string>
+            <string>Терминатор</string>
           </InfoList>
-          <Info>Annie Hall</Info>
-          <TranslateInfo>Энни Холл</TranslateInfo>
+          <Info>Terminator</Info>
+          <TranslateInfo>Терминатор</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>

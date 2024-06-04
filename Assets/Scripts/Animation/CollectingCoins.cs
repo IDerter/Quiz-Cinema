@@ -49,8 +49,12 @@ namespace QuizCinema
 
         private void Start()
         {
+            Debug.Log("StartCollectingCoins");
             MapCompletion.OnScoreUpdate += OnScoreUpdate;
             coinStart = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop;
+
+            Debug.Log(MapCompletion.Instance.TotalScoreLvls);
+
             _coinText.text = coinStart.ToString();
         }
 
