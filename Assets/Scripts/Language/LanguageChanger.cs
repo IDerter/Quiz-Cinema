@@ -17,6 +17,7 @@ namespace QuizCinema
         {
             _index = PlayerPrefs.GetInt("IndexLanguageSave", 0);
             _buttonsLanguage[_index].gameObject.SetActive(true);
+            LocaleSelector.Instance.ChangeLocale(_index);
         }
 
         public void ChooseNextLanguage()
@@ -28,6 +29,8 @@ namespace QuizCinema
                 _index++;
             }
             else _index = 0;
+
+            LocaleSelector.Instance.ChangeLocale(_index);
 
             _buttonsLanguage[_index].gameObject.SetActive(true);
             AudioManager.Instance.PlaySoundAudioClip(_audioClipButtonClick);
@@ -44,6 +47,8 @@ namespace QuizCinema
                 _index--;
             }
             else _index = _buttonsLanguage.Length - 1;
+
+            LocaleSelector.Instance.ChangeLocale(_index);
 
             _buttonsLanguage[_index].gameObject.SetActive(true);
             AudioManager.Instance.PlaySoundAudioClip(_audioClipButtonClick);
