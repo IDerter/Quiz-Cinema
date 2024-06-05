@@ -13,9 +13,9 @@ namespace QuizCinema
         [SerializeField] private AudioMixerGroup _musicAudioMixer;
 
 
-        [SerializeField] private Toggle _toogleMusic;
-        [SerializeField] private Toggle _toogleSFX;
-        [SerializeField] private Slider _silderMasterVolume;
+     //   [SerializeField] private Toggle _toogleMusic;
+     //   [SerializeField] private Toggle _toogleSFX;
+        [SerializeField] private Slider _silderSoundsVolume;
         [SerializeField] private Slider _silderMusicVolume;
 
         private float minVolumeValue = -80f;
@@ -24,11 +24,16 @@ namespace QuizCinema
         private void Start()
         {
             Debug.Log("Load volume data");
-           // _toogleMusic.isOn = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
-            _toogleSFX.isOn = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
+            // _toogleMusic.isOn = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
+            //    _toogleSFX.isOn = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
+            //Debug.Log(PlayerPrefs.GetFloat("SoundsVolumeSave"));
+            _silderSoundsVolume.value = PlayerPrefs.GetFloat("SoundsVolumeSave", 1);
 
-            _silderMasterVolume.value = PlayerPrefs.GetFloat("MasterVolumeSave", 1);
+          //  Debug.Log(PlayerPrefs.GetFloat("MusicVolumeSave"));
             _silderMusicVolume.value = PlayerPrefs.GetFloat("MusicVolumeSave", 1);
+
+            _audioMixerGroup.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, _silderMusicVolume.value));
+            _audioMixerGroup.audioMixer.SetFloat("SoundsVolume", Mathf.Lerp(-80, 0, _silderSoundsVolume.value));
         }
 
         private void OnEnable()
@@ -79,9 +84,9 @@ namespace QuizCinema
 
         public void ChangeVolume(float volume)
         {
-            _audioMixerGroup.audioMixer.SetFloat("MasterVolume", Mathf.Lerp(-80, 0, volume));
+            _audioMixerGroup.audioMixer.SetFloat("SoundsVolume", Mathf.Lerp(-80, 0, volume));
 
-            PlayerPrefs.SetFloat("MasterVolumeSave", volume);
+            PlayerPrefs.SetFloat("SoundsVolumeSave", volume);
         }
 
     }

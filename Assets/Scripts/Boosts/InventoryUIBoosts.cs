@@ -15,6 +15,7 @@ namespace QuizCinema
         [SerializeField] protected TextMeshProUGUI _textCountBoost;
         public TextMeshProUGUI TextCountBoost { get { return _textCountBoost; } set { _textCountBoost = value; } }
         [SerializeField] protected Button _buttonBoost;
+        [SerializeField] private BoostInventory _boostInventory;
 
         private void Start()
         {
@@ -28,21 +29,22 @@ namespace QuizCinema
         {
             BoostsManager.OnPressButtonBoost += OnPressButtonBoost;
 
-            if (BoostInventory.Instance != null)
-                BoostInventory.Instance.OnPressButtonBoostInventory += OnPressButtonBoostInventory;
+            if (_boostInventory != null)
+                _boostInventory.OnPressButtonBoostInventory += OnPressButtonBoostInventory;
         }
 
         private void OnPressButtonBoostInventory(BoostUICount obj)
         {
             TextDescription.Instance.ActivateTextDescription(obj);
+            Debug.Log("OnPressButtonBOost");
         }
 
         private void OnDestroy()
         {
              BoostsManager.OnPressButtonBoost -= OnPressButtonBoost;
 
-            if (BoostInventory.Instance != null)
-                BoostInventory.Instance.OnPressButtonBoostInventory -= OnPressButtonBoostInventory;
+            if (_boostInventory != null)
+                _boostInventory.OnPressButtonBoostInventory -= OnPressButtonBoostInventory;
             //BoostsManager.Instance.OnAddInInventoryBoost -= OnAddInInventoryBoost;
         }
 
@@ -54,11 +56,9 @@ namespace QuizCinema
         protected override void CheckButtonInteractable()
         {
            // _textDesriptionBoost.gameObject.SetActive(false);
-            Debug.Log(gameObject.name);
             int countBoost = Mathf.Clamp(BoostsManager.GetCountBoost(_boostSO) - BoostsManager.GetCountInInventoryBoost(_boostSO), 0, 1000); // think about maxvalues
             _textCountBoost.text = countBoost.ToString();
             //  _boostImage = 
-            Debug.Log(countBoost + _boostSO.name);
             if (countBoost <= 0)
             {
                 _zeroBoosts?.gameObject.SetActive(true);
