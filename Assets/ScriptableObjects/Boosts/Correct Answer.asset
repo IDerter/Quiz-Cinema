@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34723522300f0cf48882522ecd5d2c8d, type: 3}
   m_Name: Correct Answer
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 47a1fc6c3fba5cd4bb1ee38463d21ca9, type: 3}
+  sprite: {fileID: 21300000, guid: 515267d9a39109b41b239185e15e801a, type: 3}
   cost: 1
+  DictionaryNumberOfBoosts:
+    _serializedList:
+    - Key: 1
+      Value: 2
+    - Key: 5
+      Value: 6
+    - Key: 10
+      Value: 10

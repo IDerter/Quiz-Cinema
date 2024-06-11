@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: Support
     m_Metadata:
       m_Items: []
+  - m_Id: 280908332077056
+    m_Key: ExitQuiz
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

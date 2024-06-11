@@ -351,28 +351,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182535232}
   m_CullTransparentMesh: 1
---- !u!114 &189439738 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4630224328324073150, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
-  m_PrefabInstance: {fileID: 4630224328513443908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &214558386 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4630224328450096886, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
-  m_PrefabInstance: {fileID: 4630224328513443908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &253139561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,17 +1234,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620460984}
   m_CullTransparentMesh: 1
---- !u!114 &786900311 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4630224327878212883, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
-  m_PrefabInstance: {fileID: 4630224328513443908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &884602200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,7 +1298,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884602200}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbf87d83a8f7fdf468d85142755f77b3, type: 3}
   m_Name: 
@@ -1339,9 +1306,7 @@ MonoBehaviour:
   _audioMixerGroup: {fileID: 24300002, guid: 30c6407b67ff7c54baac91b85f49b211, type: 2}
   _SFXAudioMixer: {fileID: 694113120676089610, guid: 30c6407b67ff7c54baac91b85f49b211, type: 2}
   _musicAudioMixer: {fileID: 4693719797117086574, guid: 30c6407b67ff7c54baac91b85f49b211, type: 2}
-  _toogleMusic: {fileID: 189439738}
-  _toogleSFX: {fileID: 786900311}
-  _silderMasterVolume: {fileID: 214558386}
+  _silderSoundsVolume: {fileID: 0}
   _silderMusicVolume: {fileID: 1399881930}
 --- !u!114 &884602204
 MonoBehaviour:

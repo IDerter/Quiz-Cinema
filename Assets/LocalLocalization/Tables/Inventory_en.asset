@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: 'Select boosters:'
     m_Metadata:
       m_Items: []
+  - m_Id: 1425782636875776
+    m_Localized: 'Buy boosters:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

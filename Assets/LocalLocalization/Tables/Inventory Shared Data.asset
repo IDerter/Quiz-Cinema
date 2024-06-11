@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: SelectBoosters
     m_Metadata:
       m_Items: []
+  - m_Id: 1425782636875776
+    m_Key: BuyBoosters
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

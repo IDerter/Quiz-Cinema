@@ -1,3 +1,4 @@
+using SpaceShooter;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -26,6 +27,11 @@ namespace QuizCinema
         public void LoadSceneByName(string scene)
         {
             StartCoroutine(StartScene(scene));
+        }
+
+        public void LoadSceneBar()
+        {
+            LevelSequenceController.Instance.ExitToBar();
         }
 
         IEnumerator StartScene(string scene)

@@ -37,6 +37,10 @@ MonoBehaviour:
     m_Address: Assets/LocalLocalization/Tables/Settings Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 13ae44aeb1d9f104ab4451f25975f829
+    m_Address: Assets/LocalLocalization/Tables/DeffaultButtons Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 8544a3b3869787f4ba819d8a9bbee30e, type: 2}
   m_SchemaSet:
