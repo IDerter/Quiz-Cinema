@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
+  _episodeForTest: {fileID: 0}
   _maxScore: 0
   _allKills: 0
   _bestTime: 2147483647
@@ -207,6 +208,16 @@ MonoBehaviour:
     _scoreLvl: 0
     _lvlName: Lvl3_5
     _maxScoreLvl: 0
+  - _episodeID: 4
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl4_1
+    _maxScoreLvl: 0
+  - _episodeID: 4
+    _stars: 0
+    _scoreLvl: 0
+    _lvlName: Lvl4_2
+    _maxScoreLvl: 0
   _totalStars: 0
   _totalScoreLvls: 0
   _moneyShop: 0
@@ -255,6 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
+  _moneyForBoosts: 0
   _save:
   - boostCorrectAnswerName: 50 on 50
     countBoost: 0

@@ -56,16 +56,27 @@ namespace TowerDefense
         private new void Awake()
         {
             base.Awake();
-            SaveNewInUnityProgress();
+            
         }
 
         private void Start()
         {
-            LoadData();
+            SaveNewInUnityProgress();
             _moneyShop = BoostsManager.Instance.GetMoneyForBoosts;
+            
+
+            BoostsManager.Instance.OnBuyBoost += OnBuyBoost;
         }
 
+        private void OnDestroy()
+        {
+            BoostsManager.Instance.OnBuyBoost -= OnBuyBoost;
+        }
 
+        private void OnBuyBoost()
+        {
+            OnScoreUpdate?.Invoke();
+        }
 
         public virtual void LoadData()
         {
@@ -85,7 +96,8 @@ namespace TowerDefense
                 ResetEpisodeResult();
             }
 
-            _totalScoreLvls -= _moneyShop;
+           // _totalScoreLvls -= _moneyShop;
+            OnScoreUpdate?.Invoke();
             Debug.Log(_totalStars);
         }
 
@@ -94,21 +106,22 @@ namespace TowerDefense
             bool flag = Saver<EpisodeScore[]>.TryLoad(_fileName, ref _completionData);
             
 
-            Debug.Log(flag + " произошло попытка получени€ сохранение!");
+            Debug.Log(flag + " произошло попытка получени€ сохранение! " + _completionData.Length);
 
             if (flag)
             {
                 for (int i = 0; i < _completionData.Length; i++)
                 {
+                    Debug.Log(i + " index");
                     _completionDataUnity[i] = _completionData[i];
-
-                    
                 }
             }
             else
             {
                 ResetEpisodeResult();
             }
+
+            LoadData();
         }
 
         public static void SaveEpisodeResult(int levelStars, int levelScore)
@@ -144,31 +157,6 @@ namespace TowerDefense
                 }
             }
 
-            if (Instance)
-            {
-                int i = 0;
-
-                foreach (var item in Instance._completionData)
-                {
-                  //  Debug.Log(i + " index of levels");
-                    Episode episode = StorageEpisode.Instance.GetEpisodes[item.EpisodeID - 1];
-                  //  Debug.Log(episode.Levels.Length);
-                    if (i >= 5)
-                        i = 0;
-
-                    if (episode == LevelSequenceController.Instance.CurrentEpisode && episode.Levels[i] == currentSceneName)
-                    {
-                        if (episode.Levels.Length > i)
-                            item.LvlName = currentSceneName;
-
-                        var score = item.ScoreLvl;
-                        item.MaxScoreLvl = score > item.MaxScoreLvl ? score : item.MaxScoreLvl;
-                       // Debug.Log($"Current score {score} MaxScore {item.MaxScoreLvl}");
-                    }
-                    i++;
-
-                }
-            }
 
 
         }
@@ -176,25 +164,20 @@ namespace TowerDefense
 
         private static void SaveStarsAndScoreLvls(EpisodeScore item, int levelStars, int levelScore)
         {
-            if (item.Stars < levelStars)
-            {
-                Instance._totalStars += levelStars - item.Stars; // к примеру было 2 звезды. станет _totalStars += 3 - 2
-                item.Stars = levelStars;
-
-                Saver<EpisodeScore[]>.Save(_fileName, Instance._completionDataUnity);
-                Debug.Log("ѕроизошел сейв" + levelStars);
-            }
 
             if (item.ScoreLvl < levelScore)
             {
                 Instance._totalScoreLvls += levelScore - item.ScoreLvl; // к примеру было 2 очка. станет _totalScore += 3 - 2
                 item.ScoreLvl = levelScore;
 
+                Instance._totalStars += levelStars - item.Stars;
+                item.Stars = levelStars;
+
                 Saver<EpisodeScore[]>.Save(_fileName, Instance._completionDataUnity);
                 Debug.Log("ѕроизошел сейв" + levelScore);
             }
 
-            Instance._totalScoreLvls -= Instance._moneyShop;
+            //Instance._totalScoreLvls -= Instance._moneyShop;
             OnScoreUpdate?.Invoke();
         }
 

@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: Support
     m_Metadata:
       m_Items: []
+  - m_Id: 280908332077056
+    m_Localized: Exit Quiz
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

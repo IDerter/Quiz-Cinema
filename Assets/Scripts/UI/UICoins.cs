@@ -27,7 +27,7 @@ namespace QuizCinema
 
         private void OnScoreUpdate()
         {
-            //_textCoins.text = MapCompletion.Instance.TotalScoreLvls.ToString();
+            _textCoins.text = (MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop).ToString();
             Debug.Log("ONSCOREUPDATE!");
 
             //CollectingCoins.Instance.CollectCoins();

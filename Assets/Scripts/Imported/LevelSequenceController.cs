@@ -85,6 +85,14 @@ namespace SpaceShooter
             }
         }
 
+        public void ExitToBar()
+        {
+            if (CurrentEpisode != null)
+            {
+                SceneManager.LoadScene(CurrentEpisode.EpisodeName);
+            }
+        }
+
         public void FinishCurrentLevel(bool success)
         {
             Debug.Log("FINISH");

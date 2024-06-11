@@ -32,16 +32,9 @@ namespace QuizCinema
 
         public void UpdateMoney()
         {
-            // Странная система, нужно сохранять MoneyShop и не пересчитывать его миллион раз
-            MapCompletion.Instance.MoneyShop = 0;
             print("Update");
-            _money = MapCompletion.Instance.TotalScoreLvls;
-            foreach (var boost in _sales)
-            {
-                _money -= BoostsManager.GetCostBoost(boost.BoostSO);
+            _money = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop;
 
-                MapCompletion.Instance.MoneyShop += BoostsManager.GetCostBoost(boost.BoostSO);
-            }
 
             _textMoney.text = _money.ToString();
             foreach (var slot in _sales)
@@ -52,7 +45,7 @@ namespace QuizCinema
 
         public void Buy(BoostSO boostAsset)
         {
-            BoostsManager.BuyBoost(boostAsset);
+            //BoostsManager.BuyBoost(boostAsset, _sales);
         }
     }
 }

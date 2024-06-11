@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: DeffaultButtonsAndText Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: DeffaultButtonsAndText
+  m_TableCollectionNameGuidString: 13ae44aeb1d9f104ab4451f25975f829
+  m_Entries:
+  - m_Id: 5831725056
+    m_Key: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353289507508224
+    m_Key: Wrong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353336630513664
+    m_Key: Correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357586538401792
+    m_Key: Almost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671205100687360
+    m_Key: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671330774618112
+    m_Key: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671772778762240
+    m_Key: 'Correct answers:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671912994344960
+    m_Key: 'Score:'
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2507053832165654530
+  references:
+    version: 2
+    RefIds:
+    - rid: 2507053832165654530
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1717864046380

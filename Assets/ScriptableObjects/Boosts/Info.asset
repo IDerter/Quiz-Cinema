@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34723522300f0cf48882522ecd5d2c8d, type: 3}
   m_Name: Info
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 5679a74364f6b4440ab7e7aed55cd95e, type: 3}
+  sprite: {fileID: 21300000, guid: 716b9cba5cea7df409b69814787a1318, type: 3}
   cost: 1
+  DictionaryNumberOfBoosts:
+    _serializedList:
+    - Key: 1
+      Value: 2
+    - Key: 5
+      Value: 6
+    - Key: 10
+      Value: 10

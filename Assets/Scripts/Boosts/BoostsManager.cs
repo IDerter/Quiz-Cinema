@@ -10,6 +10,7 @@ namespace QuizCinema
     {
         public static event Action OnPressButtonBoost;
         public event Action OnAddInInventoryBoost;
+        public event Action OnBuyBoost;
 
         public const string fileName = "boost.dat";
         [SerializeField] private int _moneyForBoosts;
@@ -122,45 +123,54 @@ namespace QuizCinema
         private void OnSaveListBoosts()
         {
             Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._mainSaveBoosts);
-            Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
+            //Saver<ListBoostsSave>.Save(_fileNameListBoost, Instance._saveBoosts);
 
             Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
-            Saver<BoostSave[]>.Save(fileName, Instance._save);
+            //Saver<BoostSave[]>.Save(fileName, Instance._save);
 
             Debug.Log("Save List Boosts");
             OnPressButtonBoost?.Invoke();
+
+            Debug.Log(_moneyForBoosts);
         }
 
 
 
-        public static void BuyBoost(BoostSO asset)
+        public static void BuyBoost(BoostSO asset, int numberOfBoosts)
         {
             foreach (var boost in Instance._mainSave)
             {
                 if (asset.name.ToString() == boost.boostCorrectAnswerName)
                 {
-                    boost.countBoost += 1;
-                    boost.costAllBost = boost.countBoost * asset.cost;
+                    boost.countBoost += numberOfBoosts;
+                    Instance._moneyForBoosts -= boost.costAllBost;
+                    boost.costAllBost +=  asset.DictionaryNumberOfBoosts[numberOfBoosts];
                     Instance._moneyForBoosts += boost.costAllBost;
+                    Debug.Log("Кол-во бустеров: " + numberOfBoosts);
+                    Debug.Log("Цена за это кол-во бустеров: " + asset.DictionaryNumberOfBoosts[numberOfBoosts]);
 
+                    MapCompletion.Instance.MoneyShop = Instance._moneyForBoosts;
+
+                    Instance.OnBuyBoost?.Invoke();
                     Instance.OnSaveListBoosts();
                 }
             }
-           
 
-          /*  foreach (var boost in Instance._save)
-            {
-                if (asset.name.ToString() == boost.boostCorrectAnswerName)
-                {
-                    boost.countBoost += 1;
-                    boost.costAllBost = boost.countBoost * asset.cost;
 
-                    Saver<BoostSave[]>.Save(fileName, Instance._save);
 
-                    Instance.OnSaveListBoosts();
-                }
-            }
-          */
+            /*  foreach (var boost in Instance._save)
+              {
+                  if (asset.name.ToString() == boost.boostCorrectAnswerName)
+                  {
+                      boost.countBoost += 1;
+                      boost.costAllBost = boost.countBoost * asset.cost;
+
+                      Saver<BoostSave[]>.Save(fileName, Instance._save);
+
+                      Instance.OnSaveListBoosts();
+                  }
+              }
+            */
         }
 
         public static void TakeFromInventory(BoostSO asset, BoostUICount[] listBoosts)
@@ -207,7 +217,7 @@ namespace QuizCinema
                     boost.countBoost -= 1;
                     boost.countInInventory -= 1;
 
-                    boost.costAllBost = boost.countBoost * asset.cost;
+                    //boost.costAllBost = boost.countBoost * asset.cost;
                     DeleteSaveInventoryBoost(asset);
 
                     Saver<BoostSave[]>.Save(fileName, Instance._mainSave);
@@ -237,16 +247,14 @@ namespace QuizCinema
 
         public static int GetCostBoost(BoostSO asset)
         {
-            int result = 0;
             foreach (var boost in Instance._mainSave)
             {
                 if (asset.name.ToString() == boost.boostCorrectAnswerName)
                 {
-                    result += boost.countBoost * asset.cost;
-                    //Saver<BoostSave[]>.Save(fileName, Instance.save);
+                    return boost.costAllBost;
                 }
             }
-            return result;
+            return 0;
         }
 
         public static int GetCountBoost(BoostSO asset)
