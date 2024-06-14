@@ -27,6 +27,9 @@ namespace QuizCinema
         [SerializeField] private Timer _timer;
         [SerializeField] private GameObject _numberQuestionContainer;
         [SerializeField] private GameObject _panelInfoQuiz;
+        [SerializeField] private Animator _loadLvlBgAnimator;
+        [SerializeField] private float _timeLoadLvl = 2f;
+        public float GetTimeLoadLvl => _timeLoadLvl;
         public Animator TimerAnimator { get { return _timerAnimator; } set { value = _timerAnimator; } }
 
         [SerializeField] private Animator _loadingScreenAnimator;
@@ -123,7 +126,10 @@ namespace QuizCinema
             {
                 www = new WWW("file://" + Application.dataPath + "/Raw" + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
             }
-            yield return new WaitForSeconds(2f); //will wait until the download finishes
+
+            yield return new WaitForSeconds(_timeLoadLvl); //will wait until the download finishes
+            _loadLvlBgAnimator.enabled = true;
+
             _loadingScreenAnimator.SetInteger(_loadingScreenStateParaHash, 0);
             _timerAnimator.enabled = true;
 
