@@ -9,10 +9,12 @@ namespace QuizCinema
     public class MoveSlider : MonoBehaviour
     {
         [SerializeField] private Slider _sliderVolume;
-        [SerializeField] private Image _sliderFillVolime;
+        [SerializeField] private Image _sliderFillVolume;
+        public Image SliderFillVolume { get { return _sliderFillVolume; } set { _sliderFillVolume = value; } }
 
         [SerializeField] private Slider _sliderMusic;
         [SerializeField] private Image _sliderFillMusic;
+        public Image SliderFillMusic { get { return _sliderFillMusic; } set { _sliderFillMusic = value; } }
 
         private void Start()
         {
@@ -22,7 +24,7 @@ namespace QuizCinema
 
         private void ValueChangeVolume()
         {
-            _sliderFillVolime.fillAmount = _sliderVolume.value;
+            _sliderFillVolume.fillAmount = _sliderVolume.value;
         }
 
         private void ValueChangeMusic()

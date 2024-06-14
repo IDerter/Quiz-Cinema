@@ -12,6 +12,8 @@ namespace QuizCinema
         [SerializeField] private AudioMixerGroup _SFXAudioMixer;
         [SerializeField] private AudioMixerGroup _musicAudioMixer;
 
+        [SerializeField] private MoveSlider _slidersSettings;
+
 
      //   [SerializeField] private Toggle _toogleMusic;
      //   [SerializeField] private Toggle _toogleSFX;
@@ -28,9 +30,11 @@ namespace QuizCinema
             //    _toogleSFX.isOn = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
             //Debug.Log(PlayerPrefs.GetFloat("SoundsVolumeSave"));
             _silderSoundsVolume.value = PlayerPrefs.GetFloat("SoundsVolumeSave", 1);
+            _slidersSettings.SliderFillVolume.fillAmount = _silderSoundsVolume.value;
 
-          //  Debug.Log(PlayerPrefs.GetFloat("MusicVolumeSave"));
+            //  Debug.Log(PlayerPrefs.GetFloat("MusicVolumeSave"));
             _silderMusicVolume.value = PlayerPrefs.GetFloat("MusicVolumeSave", 1);
+            _slidersSettings.SliderFillMusic.fillAmount = _silderMusicVolume.value;
 
             _audioMixerGroup.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, _silderMusicVolume.value));
             _audioMixerGroup.audioMixer.SetFloat("SoundsVolume", Mathf.Lerp(-80, 0, _silderSoundsVolume.value));

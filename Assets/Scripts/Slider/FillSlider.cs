@@ -9,8 +9,8 @@ namespace QuizCinema
     {
         [SerializeField] private Image _fiilLoadingBar;
         [SerializeField] private float _step = 0.00001f;
-        [SerializeField] private float _delay = 1f;
-        [SerializeField] private float _time = 30f;
+        [SerializeField] protected float _delay = 1f;
+        [SerializeField] protected float _time = 30f;
         [SerializeField] private AudioClip _audioTimer;
 
         private IEnumerator IE_SliderProgress = null;
@@ -46,18 +46,19 @@ namespace QuizCinema
             var step = delay / time;
             float timeLeft = 0;
             _fiilLoadingBar.fillAmount = 0;
-            Debug.Log(_fiilLoadingBar.name + " " +  timeLeft + time);
-            // _timerText.color = _timerDefaultColor;
+            //Debug.Log(_fiilLoadingBar.name + " " +  timeLeft + time);
 
             while (timeLeft <= time)
             {
-                timeLeft += step;
-                _fiilLoadingBar.fillAmount = timeLeft;
-                var sound = AudioManager.Instance.GetSoundAudioClip(_audioTimer);
-                sound.Play();
-                //  Debug.Log(timeLeft + " " + step);
+                //Debug.Log(timeLeft + " CurrentTime" + " " + timeLeft / time + " current percent");
+                timeLeft += Time.deltaTime;
+                _fiilLoadingBar.fillAmount = timeLeft / time;
 
-                yield return new WaitForSeconds(delay);
+                 var sound = AudioManager.Instance.GetSoundAudioClip(_audioTimer);
+                if (sound != null)
+                    sound.Play();
+
+                yield return null;
             }
         }   
     }

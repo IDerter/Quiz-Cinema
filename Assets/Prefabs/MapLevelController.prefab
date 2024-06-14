@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5732681921516635380}
   - component: {fileID: 5732681921516635381}
   - component: {fileID: 5732681921366584381}
-  - component: {fileID: 5732681921366584382}
   - component: {fileID: 8104546772669979310}
   m_Layer: 0
   m_Name: MapLevelController
@@ -235,24 +234,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
   _completionDataCinema: []
---- !u!114 &5732681921366584382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5732681921516635382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1ae734c5cc7f64488974c31d6baff05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dontDestroyOnLoad: 0
-  _episodes:
-  - {fileID: 11400000, guid: 97c344234f0594b4cbfcb635ccae5e00, type: 2}
-  - {fileID: 11400000, guid: 72fd156a0e2cf09458d62b2c9801ade7, type: 2}
-  - {fileID: 11400000, guid: 5512489dc86362b4bb5b4b0dc476f6ef, type: 2}
-  - {fileID: 11400000, guid: 42582c2e79f398f42b9c53b92e7e8d60, type: 2}
 --- !u!114 &8104546772669979310
 MonoBehaviour:
   m_ObjectHideFlags: 0
