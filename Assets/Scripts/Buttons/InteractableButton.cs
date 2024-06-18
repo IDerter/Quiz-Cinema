@@ -16,18 +16,24 @@ namespace QuizCinema
 
         public void InteractableOn()
         {
-            for (int i = 0; i < _imagesButton.Length; i++)
+            if (_imagesButton is not null)
             {
-                _imagesButton[i].color = new Color(1f, 1f, 1f, 1f);
+                for (int i = 0; i < _imagesButton.Length; i++)
+                {
+                    _imagesButton[i].color = new Color(1f, 1f, 1f, 1f);
+                }
             }
         }
 
         public void InteractableOff()
         {
-            for (int i = 0; i < _imagesButton.Length; i++)
+            if (_imagesButton is not null)
             {
-                //_imagesButton[i].color = Color.black;
-                _imagesButton[i].color = new Color(0f, 0f, 0f, 0.5f);
+                for (int i = 0; i < _imagesButton.Length; i++)
+                {
+                    //_imagesButton[i].color = Color.black;
+                    _imagesButton[i].color = new Color(0f, 0f, 0f, 0.5f);
+                }
             }
         }
     }

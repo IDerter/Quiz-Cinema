@@ -5761,7 +5761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sliderVolume: {fileID: 4970085738553574847}
-  _sliderFillVolime: {fileID: 4970085738674988420}
+  _sliderFillVolume: {fileID: 4970085738674988420}
   _sliderMusic: {fileID: 1584649235172764330}
   _sliderFillMusic: {fileID: 1584649233752101105}
 --- !u!1 &4630224327870815738
@@ -6208,6 +6208,7 @@ MonoBehaviour:
   _audioMixerGroup: {fileID: 24300002, guid: 30c6407b67ff7c54baac91b85f49b211, type: 2}
   _SFXAudioMixer: {fileID: 694113120676089610, guid: 30c6407b67ff7c54baac91b85f49b211, type: 2}
   _musicAudioMixer: {fileID: 4693719797117086574, guid: 30c6407b67ff7c54baac91b85f49b211, type: 2}
+  _slidersSettings: {fileID: 0}
   _silderSoundsVolume: {fileID: 4970085738553574847}
   _silderMusicVolume: {fileID: 1584649235172764330}
 --- !u!1 &4630224328324073148

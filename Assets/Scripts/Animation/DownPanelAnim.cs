@@ -13,13 +13,14 @@ namespace QuizCinema
         public string GetSceneLastAnim => _sceneLastAnim;
 
 
-        public void ActivateAnim(SkeletonGraphic graphic, Image _overlay)
+        public void ActivateAnim(SkeletonGraphic graphic, Image _overlay, bool sceneLoad)
         {
             graphic.AnimationState.SetAnimation(1, "profile_select", false);
             graphic.freeze = false;
             _overlay.gameObject.SetActive(true);
 
-            _sceneLastAnim = SceneManager.GetActiveScene().name;
+            if (sceneLoad)
+                _sceneLastAnim = SceneManager.GetActiveScene().name;
         }
 
         public void DisableAnim(SkeletonGraphic graphic, Image _overlay)
