@@ -47,12 +47,15 @@ namespace QuizCinema
                 _buttonBuy.interactable = money >= _costNumber;
                 if (_viewButton != null)
                 {
-                    if (_buttonBuy.interactable)
-                        _viewButton.InteractableOn();
-                    else
+                    if (_viewButton.isActiveAndEnabled)
                     {
-                        _viewButton.InteractableOff();
-                        Debug.Log("CHECKCOST " + _buttonBuy.interactable);
+                        if (_buttonBuy.interactable)
+                            _viewButton.InteractableOn();
+                        else
+                        {
+                            _viewButton.InteractableOff();
+                            Debug.Log("CHECKCOST " + _buttonBuy.interactable);
+                        }
                     }
                 }
 

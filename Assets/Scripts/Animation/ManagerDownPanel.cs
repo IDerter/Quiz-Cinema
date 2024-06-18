@@ -26,14 +26,14 @@ namespace QuizCinema
             {
                 case _sceneMap:
                     Debug.Log("CURRENT SCENE IS LVLMAP");
-                    DownPanelAnim.Instance.ActivateAnim(_mapGraphic, _overlaySelectMap);
+                    DownPanelAnim.Instance.ActivateAnim(_mapGraphic, _overlaySelectMap, true);
                     if (DownPanelAnim.Instance.GetSceneLastAnim == _sceneProfile)
                         DownPanelAnim.Instance.DisableAnim(_profileGraphic, _overlaySelectProfile);
 
                     break;
                 case _sceneProfile:
                     Debug.Log("CURRENT SCENE IS Profile");
-                    DownPanelAnim.Instance.ActivateAnim(_profileGraphic, _overlaySelectProfile);
+                    DownPanelAnim.Instance.ActivateAnim(_profileGraphic, _overlaySelectProfile, true);
                     if (DownPanelAnim.Instance.GetSceneLastAnim == _sceneMap)
                         DownPanelAnim.Instance.DisableAnim(_mapGraphic, _overlaySelectMap);
                     break;
@@ -41,8 +41,8 @@ namespace QuizCinema
                 default:
                     break;
             }
-
-            //if (SceneManager.GetActiveScene() == _sceneMap)
         }
+
+
     }
 }
