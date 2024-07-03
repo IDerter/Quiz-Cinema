@@ -34,8 +34,7 @@ namespace TowerDefense
             {
                 // _levels[i].gameObject.SetActive(false);
                 ActivateBar(false, i);
-                
-                
+
             }
 
             for (int i = 0; i < _branchLevels.Length; i++)
@@ -51,8 +50,20 @@ namespace TowerDefense
 
         private void ActivateBar(bool activate, int index)
         {
-            _levels[index].GetLockImage.gameObject.SetActive(!activate);
-            _levels[index].OverlayImage.gameObject.SetActive(!activate);
+            if (activate)
+            {
+                Debug.Log(_levels[index].name + " " + activate);
+                if (_levels[index].BarAnim != null)
+                    _levels[index].StartCoroutine(_levels[index].BarAnim.TestIenum());
+            }
+            else
+            {
+                if (_levels[index].BarAnim != null)
+                    _levels[index].BarAnim.BarInActive();
+            }
+
+            _levels[index].GetLockImage?.gameObject.SetActive(!activate);
+            _levels[index].OverlayImage?.gameObject.SetActive(!activate);
         }
 
     }

@@ -1,0 +1,17 @@
+Bar1_idle_press.png
+size:1616,765
+filter:Linear,Linear
+pma:true
+Bar1
+bounds:1026,112,588,651
+offsets:79,135,790,790
+Garbage
+bounds:477,13,287,212
+offsets:1,1,289,214
+Generative Fill 4
+bounds:2,227,1022,536
+offsets:1,1,1024,539
+Light
+bounds:2,2,223,473
+offsets:33,30,666,522
+rotate:90

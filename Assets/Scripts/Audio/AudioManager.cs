@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace QuizCinema
 {
-
     public class AudioManager : SingletonBase<AudioManager>
     {
 

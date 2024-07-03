@@ -26,6 +26,10 @@ namespace TowerDefense
 
         [SerializeField] private Image _overlayImage;
         public Image OverlayImage => _overlayImage;
+        [SerializeField] private BarAnim _barAnim;
+        public BarAnim BarAnim => _barAnim;
+        [SerializeField] private bool _locked = true;
+        public bool Lock { get { return _locked; } set { _locked = value; } }
 
         public virtual void LoadLevel()
         {
@@ -36,8 +40,6 @@ namespace TowerDefense
 
         public virtual int Initialize()
         {
-            
-
             var indexEpisode = _episode.EpisodeID;
             var starsEpisode = MapCompletion.Instance.GetEpisodeStars(indexEpisode);
 
@@ -47,13 +49,9 @@ namespace TowerDefense
 
             var check = sumLvlScore > needSumToOpenBar ? score : 0;
             Debug.Log(check + " Можно ли открыть бар!");
-
-           
             Debug.Log(starsEpisode + "Кол-во звезд!");
 
             int stars = MapCompletion.Instance.GetLvlStars(gameObject.name);
-
-          //  Debug.Log(score + "Важная инфа!");
 
             if (type == TypeStarts.Lvl)
             {
@@ -87,6 +85,5 @@ namespace TowerDefense
 
             return value;
         }
-
     }
 }
