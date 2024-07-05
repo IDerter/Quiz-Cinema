@@ -14,8 +14,17 @@ namespace QuizCinema
         private const string _sceneLevelMap = "LevelMap";
         private const string _sceneMainMenu = "MainMenu";
 
+        private float _animDelay = 1f;
+
         public void ReturnToMainMenu()
         {
+            StartCoroutine(LoadSceneWithDelay());
+        }
+
+        private IEnumerator LoadSceneWithDelay()
+        {
+            yield return new WaitForSeconds(_animDelay);
+
             SceneManager.LoadScene(_sceneMainMenu);
         }
 

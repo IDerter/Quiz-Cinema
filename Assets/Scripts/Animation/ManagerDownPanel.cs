@@ -22,7 +22,7 @@ namespace QuizCinema
         private void Start()
         {
             Debug.Log(SceneManager.GetActiveScene().name);
-            switch (SceneManager.GetActiveScene().name)
+        /*    switch (SceneManager.GetActiveScene().name)
             {
                 case _sceneMap:
                     Debug.Log("CURRENT SCENE IS LVLMAP");
@@ -41,6 +41,7 @@ namespace QuizCinema
                 default:
                     break;
             }
+        */
         }
 
 

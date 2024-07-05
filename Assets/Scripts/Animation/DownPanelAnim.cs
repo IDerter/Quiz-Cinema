@@ -7,27 +7,35 @@ using UnityEngine.UI;
 
 namespace QuizCinema
 {
-    public class DownPanelAnim : SingletonBase<DownPanelAnim>
+    public class DownPanelAnim : MonoBehaviour
     {
-        [SerializeField] private string _sceneLastAnim;
-        public string GetSceneLastAnim => _sceneLastAnim;
+        [SerializeField] private SkeletonGraphic _graphicAnimButton;
+        public SkeletonGraphic GetGraphicButton => _graphicAnimButton;
 
+        [SerializeField] private string _nameAnimDeselect;
+        [SerializeField] private string _nameAnimSelect;
 
-        public void ActivateAnim(SkeletonGraphic graphic, Image _overlay, bool sceneLoad)
+        [SerializeField] private bool _isSelect = false;
+        public bool IsSelect => _isSelect;
+
+        private void Start()
         {
-            graphic.AnimationState.SetAnimation(1, "profile_select", false);
-            graphic.freeze = false;
-            _overlay.gameObject.SetActive(true);
-
-            if (sceneLoad)
-                _sceneLastAnim = SceneManager.GetActiveScene().name;
+            var animSpineArray = _graphicAnimButton.Skeleton.Data.Animations.ToArray();
+            _nameAnimDeselect = animSpineArray[0].ToString();
+            _nameAnimSelect = animSpineArray[1].ToString();
         }
 
-        public void DisableAnim(SkeletonGraphic graphic, Image _overlay)
+
+        public void ActivateAnim(SkeletonGraphic graphic)
         {
-            graphic.AnimationState.SetAnimation(1, "profile_deselect", false);
-            graphic.freeze = false;
-            _overlay.gameObject.SetActive(false);
+            _isSelect = true;
+            graphic.AnimationState.SetAnimation(1, _nameAnimSelect, false);
+        }
+
+        public void DisableAnim(SkeletonGraphic graphic)
+        {
+            _isSelect = false;
+            graphic.AnimationState.SetAnimation(1, _nameAnimDeselect, false);
         }
     }
 }

@@ -22,16 +22,23 @@ namespace QuizCinema
         public void BarInActive()
         {
             Debug.Log("BarInActivate");
-            _bar.Skeleton.SetSkin("locked");
+            if (_bar.Skeleton.Data.FindSkin("locked") != null)
+                _bar.Skeleton.SetSkin("locked");
+
             _bar.AnimationState.SetAnimation(1, "locked", false);
-            _lock.AnimationState.SetAnimation(1, "idle", false);
+
+            if (_bar.Skeleton.Data.FindAnimation("idle") != null)
+                _lock.AnimationState.SetAnimation(1, "idle", false);
         }
 
         public void BarActive()
         {
             Debug.Log("BarActivate");
-            _bar.Skeleton.SetSkin("unlocked");
-            _bar.AnimationState.SetAnimation(1, "idle", true);
+            if (_bar.Skeleton.Data.FindSkin("unlocked") != null)
+                _bar.Skeleton.SetSkin("unlocked");
+
+            if (_bar.Skeleton.Data.FindAnimation("idle") != null)
+                _bar.AnimationState.SetAnimation(1, "idle", true);
             _lock.AnimationState.SetAnimation(1, "none", false);
         }
 
