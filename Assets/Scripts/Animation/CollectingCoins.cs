@@ -15,8 +15,6 @@ namespace QuizCinema
 {
     public class CollectingCoins : SingletonBase<CollectingCoins>
     {
-        [SerializeField] private UICoins _allCoins;
-
         [SerializeField] private GameObject coinPrefab;
 
         [SerializeField] private Transform coinParent;
@@ -49,9 +47,9 @@ namespace QuizCinema
 
         private void Start()
         {
-            Debug.Log("StartCollectingCoins");
+            
             MapCompletion.OnScoreUpdate += OnScoreUpdate;
-            coinStart = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop;
+            coinStart = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
 
             Debug.Log(MapCompletion.Instance.TotalScoreLvls);
 
@@ -65,6 +63,7 @@ namespace QuizCinema
 
         private void OnScoreUpdate()
         {
+            Debug.Log("StartCollectingCoins");
             coinEnd = MapCompletion.Instance.TotalScoreLvls;
             needToSum = coinEnd - coinStart;
            // _coinText.text = (coinEnd - coinStart).ToString();
@@ -130,9 +129,13 @@ namespace QuizCinema
             coins.Remove(coinInstance);
             Destroy(temp);
 
+            Debug.Log("MoveCoinTask");
+            if (coinStart + (needToSum / coinAmount) <= coinEnd) //TODO
+                SetCoin(needToSum / coinAmount);
             await ReactToCollectionCoin();
+
            // Debug.Log("SETCOINMOVECOINTASK!" + needToSum / coinAmount);
-            SetCoin(needToSum / coinAmount);
+
         }
 
         private async UniTask ReactToCollectionCoin()

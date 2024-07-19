@@ -34,10 +34,6 @@ namespace SpaceShooter
             _allKills = PlayerPrefs.GetInt("AllKills");
             _bestTime = PlayerPrefs.GetInt("BestTime");
             _maxScore = PlayerPrefs.GetInt("MaxScore");
-            if (_episodeForTest != null)
-            {
-                CurrentEpisode = _episodeForTest;
-            }
         }
 
         public void StartEpisode(Episode episode, int currentLevelIndex, string episodeName)
@@ -81,6 +77,7 @@ namespace SpaceShooter
             }
             else
             {
+                Debug.Log(correctIndex + " " + CurrentEpisode.Levels[correctIndex].ToString());
                 SceneManager.LoadScene(CurrentEpisode.Levels[correctIndex]);
             }
         }

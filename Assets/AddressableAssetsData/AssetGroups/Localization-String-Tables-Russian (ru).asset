@@ -54,7 +54,19 @@ MonoBehaviour:
     - Locale-ru
     - Preload
   - m_GUID: 4907b09044ef904478804f64a2203d78
-    m_Address: ShopPanel_ru
+    m_Address: SkinPanel_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    - Preload
+  - m_GUID: 311bd6394932bc0498a017b35a0f7798
+    m_Address: BoosterPanel_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    - Preload
+  - m_GUID: cf4607999301e384790924ed3ac45be1
+    m_Address: ShopUpPanel_ru
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru

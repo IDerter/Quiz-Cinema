@@ -54,7 +54,19 @@ MonoBehaviour:
     - Locale-en
     - Preload
   - m_GUID: 4bbdf8cd1ffa4e344a60baf9eac40c0a
-    m_Address: ShopPanel_en
+    m_Address: SkinPanel_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 056ee77cd66dd74419cd0f4c5c2d77fa
+    m_Address: BoosterPanel_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 20b8cd6bca0c4ec4f921177f256a5f7f
+    m_Address: ShopUpPanel_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

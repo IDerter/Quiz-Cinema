@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726cca68fe15ac648b994a948afb3011, type: 3}
+  m_Name: Banker
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: df27aae62453a0e439fd47dac94a038c, type: 3}
+  cost: 50
+  boost: {fileID: 11400000, guid: 10ed59d18f778374fa4f87dd42739d07, type: 2}

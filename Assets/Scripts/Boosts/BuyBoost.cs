@@ -6,18 +6,16 @@ using UnityEngine.UI;
 
 namespace QuizCinema
 {
-    
-
-    public class BuyBoost : MonoBehaviour
+    public class BuyBoost : BuyParent
     {
         [SerializeField] private BoostSO _asset;
         public BoostSO BoostSO { get { return _asset; } set { _asset = value ; } }
         [SerializeField] private Image _upgradeIcon;
         [SerializeField] private TextMeshProUGUI _textCount;
         [SerializeField] private TextMeshProUGUI _textCost;
-        [SerializeField] private Button _buttonBuy;
+        [SerializeField] private Button _buttonBuyBoost;
         [SerializeField] private InteractableButton _viewButton;
-        public Button GetButton => _buttonBuy;
+        //public Button GetButton => _buttonBuy;
         [SerializeField] private int _numberOfBoosters = 1;
 
         private int _costNumber; // цена покупки улучшения
@@ -25,9 +23,10 @@ namespace QuizCinema
         private void Awake()
         {
             Initialize();
+            ButtonBuy = _buttonBuyBoost;
         }
 
-        public void Initialize()
+        public override void Initialize()
         {
             Debug.Log(_asset.name.ToString());
             _upgradeIcon.sprite = _asset.sprite;
@@ -40,26 +39,24 @@ namespace QuizCinema
             Debug.Log("Initiliaze" + " " + _costNumber);
         }
 
-        public void CheckCost(int money)
+        public override void CheckCost(int money)
         {
             if (_numberOfBoosters > 0)
             {
-                _buttonBuy.interactable = money >= _costNumber;
+                ButtonBuy.interactable = money >= _costNumber;
                 if (_viewButton != null)
                 {
                     if (_viewButton.isActiveAndEnabled)
                     {
-                        if (_buttonBuy.interactable)
+                        if (ButtonBuy.interactable)
                             _viewButton.InteractableOn();
                         else
                         {
                             _viewButton.InteractableOff();
-                            Debug.Log("CHECKCOST " + _buttonBuy.interactable);
+                            Debug.Log("CHECKCOST " + ButtonBuy.interactable);
                         }
                     }
                 }
-
-                
             }
             else
             {
@@ -67,7 +64,7 @@ namespace QuizCinema
             }
         }
 
-        public void Buy()
+        public override void Buy()
         {
             BoostsManager.BuyBoost(_asset, _numberOfBoosters);
             Initialize(); // очень важное действие, иначе не будет обновляться результат покупки апдейтов в игре

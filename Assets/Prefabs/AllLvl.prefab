@@ -9113,7 +9113,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
-  _allCoins: {fileID: 0}
   coinPrefab: {fileID: 802705215096250053, guid: baf328cca04818343b7c9a337c1a39ed, type: 3}
   coinParent: {fileID: 2537113750213874845}
   spawnLocation: {fileID: 5558102220391340774}
@@ -9142,7 +9141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde20661201c3464a81d68d228da698a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _textCoins: {fileID: 0}
+  _textCoins: {fileID: 1473596413317239102}
 --- !u!1 &1516074510
 GameObject:
   m_ObjectHideFlags: 0
@@ -18947,7 +18946,7 @@ RectTransform:
   - {fileID: 1671027190951038684}
   - {fileID: 1749148241312266021}
   m_Father: {fileID: 4462214291878761682}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -23930,7 +23929,7 @@ RectTransform:
   - {fileID: 3170909621990755980}
   - {fileID: 590520727}
   m_Father: {fileID: 4462214291878761682}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -35753,7 +35752,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4462214291878761682}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -36063,7 +36062,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4462214291878761682}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -36189,7 +36188,7 @@ MonoBehaviour:
   _lvl: {fileID: 4462214292470188445}
   _questionMethods: {fileID: 4462214292470188442}
   _timer: {fileID: 4462214292053662318}
-  _boostIncrease50Percent: {fileID: 0}
+  _boostIncrease50Percent: {fileID: 1517564333}
 --- !u!1 &4462214291616047637
 GameObject:
   m_ObjectHideFlags: 0
@@ -36535,12 +36534,12 @@ RectTransform:
   - {fileID: 5144065353474236737}
   - {fileID: 347019568}
   - {fileID: 4462214291395585720}
+  - {fileID: 2099940608133212388}
   - {fileID: 2537113750213874845}
   - {fileID: 1749148240661676458}
   - {fileID: 4462214291282638853}
   - {fileID: 4462214293131440575}
   - {fileID: 4462214291426382843}
-  - {fileID: 2099940608133212388}
   m_Father: {fileID: 4462214292688857472}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -36944,7 +36943,6 @@ MonoBehaviour:
   _loadLvlBgAnimator: {fileID: 0}
   _timeLoadLvl: 2
   _loadingScreenAnimator: {fileID: 0}
-  _lvl: {fileID: 0}
   _countCorrectAnswer: 0
   _countCurrentAnswer: 1
 --- !u!1 &4462214292035577114
@@ -37426,7 +37424,6 @@ MonoBehaviour:
   _loadLvlBgAnimator: {fileID: 2821059054483318113}
   _timeLoadLvl: 2
   _loadingScreenAnimator: {fileID: 4462214291426382842}
-  _lvl: {fileID: 0}
   _countCorrectAnswer: 0
   _countCurrentAnswer: 1
 --- !u!114 &4462214292470188441
@@ -52942,7 +52939,7 @@ RectTransform:
   - {fileID: 5402272037026738330}
   - {fileID: 412421897108823875}
   m_Father: {fileID: 4462214291878761682}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -63734,7 +63731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7026111645017038762, guid: 33d8b34f6466f5c4a8e90a18f93b0def, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7026111645017038762, guid: 33d8b34f6466f5c4a8e90a18f93b0def, type: 3}
       propertyPath: m_AnchorMax.x

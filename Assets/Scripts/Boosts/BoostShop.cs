@@ -10,14 +10,15 @@ namespace QuizCinema
     {
         [SerializeField] private int _money;
         [SerializeField] private TextMeshProUGUI _textMoney;
-        [SerializeField] private BuyBoost[] _sales;
+        [SerializeField] private BuyParent[] _sales;
 
         private void Start()
         {
             foreach (var slot in _sales)
             {
                 slot.Initialize();
-                slot.GetButton.onClick.AddListener(UpdateMoney);
+                slot.ButtonBuy.onClick.AddListener(UpdateMoney);
+                //Debug.Log(slot.ButtonBuy.name);
             }
             UpdateMoney();
         }
@@ -26,14 +27,14 @@ namespace QuizCinema
         {
             foreach (var slot in _sales)
             {
-                slot.GetButton.onClick.RemoveListener(UpdateMoney);
+                slot.ButtonBuy.onClick.RemoveListener(UpdateMoney);
             }
         }
 
         public void UpdateMoney()
         {
             print("Update");
-            _money = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop;
+            _money = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
 
 
             _textMoney.text = _money.ToString();

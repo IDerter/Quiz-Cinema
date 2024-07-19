@@ -52,28 +52,32 @@ namespace TowerDefense
         [SerializeField] private int _moneyShop;
         public int MoneyShop { get { return _moneyShop; } set { _moneyShop = value; } }
 
+        [SerializeField] private int _skinShop;
+        public int SkinShop { get { return _skinShop; } set { _skinShop = value; } }
+
 
         private new void Awake()
         {
             base.Awake();
-            
         }
 
         private void Start()
         {
             SaveNewInUnityProgress();
             _moneyShop = BoostsManager.Instance.GetMoneyForBoosts;
-            
+            _skinShop = SkinManager.Instance.GetMoneyForSkins;
 
-            BoostsManager.Instance.OnBuyBoost += OnBuyBoost;
+			SkinManager.Instance.OnBuySkin += OnBuy;
+            BoostsManager.Instance.OnBuyBoost += OnBuy;
         }
 
-        private void OnDestroy()
+		private void OnDestroy()
         {
-            BoostsManager.Instance.OnBuyBoost -= OnBuyBoost;
+            SkinManager.Instance.OnBuySkin -= OnBuy;
+            BoostsManager.Instance.OnBuyBoost -= OnBuy;
         }
 
-        private void OnBuyBoost()
+        private void OnBuy()
         {
             OnScoreUpdate?.Invoke();
         }
@@ -112,7 +116,7 @@ namespace TowerDefense
             {
                 for (int i = 0; i < _completionData.Length; i++)
                 {
-                    Debug.Log(i + " index");
+                    //Debug.Log(i + " index");
                     _completionDataUnity[i] = _completionData[i];
                 }
             }
@@ -146,6 +150,7 @@ namespace TowerDefense
                         if (episode.Levels.Length > i)
                             item.LvlName = currentSceneName;
 
+                        Debug.Log("Level stars: " + levelStars);
                         SaveStarsAndScoreLvls(item, levelStars, levelScore);
 
                         var score = item.ScoreLvl;
@@ -156,9 +161,7 @@ namespace TowerDefense
                  
                 }
             }
-
-
-
+            OnScoreUpdate?.Invoke();
         }
 
 
@@ -201,6 +204,7 @@ namespace TowerDefense
                 Instance._totalStars = 0;
                 Instance._totalScoreLvls = 0;
                 Instance._moneyShop = 0;
+                Instance._skinShop = 0;
 
                 OnScoreUpdate?.Invoke();
             }
@@ -223,6 +227,7 @@ namespace TowerDefense
                 Instance._totalStars = 0;
                 Instance._totalScoreLvls = 0;
                 Instance._moneyShop = 0;
+                Instance._skinShop = 0;
 
                 OnScoreUpdate?.Invoke();
             }

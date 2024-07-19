@@ -45,6 +45,14 @@ MonoBehaviour:
     m_Address: Assets/LocalLocalization/Tables/ShopPanel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 44a3388b7660fe94695775db3db66487
+    m_Address: Assets/LocalLocalization/Tables/BoosterPanel Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 26143e3a9998b404e88dd3c43bca7109
+    m_Address: Assets/LocalLocalization/Tables/ShopUpPanel Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 8544a3b3869787f4ba819d8a9bbee30e, type: 2}
   m_SchemaSet:
