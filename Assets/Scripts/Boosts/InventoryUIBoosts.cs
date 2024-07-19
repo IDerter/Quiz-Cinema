@@ -61,14 +61,16 @@ namespace QuizCinema
             //  _boostImage = 
             if (countBoost <= 0)
             {
-                _zeroBoosts?.gameObject.SetActive(true);
+                if (_zeroBoosts != null)
+                    _zeroBoosts?.gameObject.SetActive(true);
                 _buttonBoost.enabled = false;
                 _textCountBoost.enabled = false;
 
             }
             else
             {
-                _zeroBoosts?.gameObject.SetActive(false);
+                if (_zeroBoosts != null)
+                    _zeroBoosts?.gameObject.SetActive(false);
                 _buttonBoost.enabled = true;
                 _textCountBoost.enabled = true;
             }

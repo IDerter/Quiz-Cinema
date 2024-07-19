@@ -48,7 +48,7 @@ namespace TowerDefense
             int score = Convert.ToInt32(Math.Round((double)(starsEpisode / _episode.Levels.Length)));
 
             var check = sumLvlScore > needSumToOpenBar ? score : 0;
-            Debug.Log(check + " Можно ли открыть бар!");
+            Debug.Log(check + " Можно ли открыть бар! " + gameObject.name + $"SumLvlScore : {sumLvlScore} needSumToOpenBar: {needSumToOpenBar} " + indexEpisode);
             Debug.Log(starsEpisode + "Кол-во звезд!");
 
             int stars = MapCompletion.Instance.GetLvlStars(gameObject.name);

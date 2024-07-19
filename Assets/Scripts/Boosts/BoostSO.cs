@@ -7,13 +7,8 @@ namespace QuizCinema
 {
     [CreateAssetMenu]
     [System.Serializable()]
-    public sealed class BoostSO : ScriptableObject
+    public sealed class BoostSO : BuySO 
     {
-
-        public Sprite sprite;
-
-        public int cost;
-
         [SerializedDictionary("CountBoostsInOffer", "CostByOffer")]
         public SerializedDictionary<int, int> DictionaryNumberOfBoosts;
         [SerializedDictionary] public Dictionary<int, int> costBuyNumberOfBoosts;

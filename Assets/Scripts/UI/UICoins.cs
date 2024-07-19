@@ -12,7 +12,7 @@ namespace QuizCinema
 
         private void Start()
         {
-            _textCoins.text = (MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop).ToString();
+            _textCoins.text = (MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop).ToString();
         }
 
         private void OnEnable()
@@ -27,10 +27,8 @@ namespace QuizCinema
 
         private void OnScoreUpdate()
         {
-            _textCoins.text = (MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop).ToString();
+            _textCoins.text = (MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop).ToString();
             Debug.Log("ONSCOREUPDATE!");
-
-            //CollectingCoins.Instance.CollectCoins();
         }
     }
 }

@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
-    public class GameManager : SingletonBase<GameManager>, IDependency<QuestionMethods>, IDependency<Score>, IDependency<LvlData>, IDependency<Timer>
+    public class GameManager : SingletonBase<GameManager>, IDependency<QuestionMethods>, IDependency<Score>,  IDependency<Timer>
     {
         public event Action<UIManager.ResolutionScreenType, int> UpdateDisplayScreenResolution;
         public event Action OnFinishGame;
@@ -42,7 +42,6 @@ namespace QuizCinema
         private const string _inCorrectSFX = "IncorrectSFX";
 
         [Header("Lvl")]
-        [SerializeField] private LvlData _lvl;
 
         private int _loadingScreenStateParaHash = 0;
 
@@ -72,7 +71,6 @@ namespace QuizCinema
             _score = obj;
             Debug.Log("Construct in Score");
         }
-        public void Construct(LvlData obj) => _lvl = obj;
 
         public void Construct(Timer obj)
         {
@@ -86,13 +84,13 @@ namespace QuizCinema
             _loadingScreenStateParaHash = Animator.StringToHash("Loading Screen");
            // _timerText.color = _timerDefaultColor;
    
-            StartCoroutine(Downloader(_lvl.Level)); //Call download data
+            StartCoroutine(Downloader()); //Call download data
 
             var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
             UnityEngine.Random.InitState(seed);
         }
 
-        IEnumerator Downloader(int level)
+        IEnumerator Downloader()
         {
            
             _loadingScreenAnimator.SetInteger(_loadingScreenStateParaHash, 1);
@@ -228,10 +226,9 @@ namespace QuizCinema
             }
             else
             {
-                CalculateLevelStars();
-                OnFinishGame?.Invoke();
-
+                _levelCountStars = CalculateLevelStars();
                 FinishGame();
+                OnFinishGame?.Invoke();
             }
             _pressButtonAnswer = false;
             //_questionMethods.Display(); //TODO
@@ -242,22 +239,16 @@ namespace QuizCinema
             if (_questionMethods.IsFinished)
             {
                 Debug.Log("FINISH GAME!");
-                _lvl.Level++;
-
-                Debug.Log(_lvl.Level);
-                if (_lvl.Level > _lvl.MaxLevel)
-                {
-                    _lvl.Level = 1;
-                }
-                PlayerPrefs.SetInt(GameUtility.SavePrefLvlKey, _lvl.Level);
 
 
                 UIManager.Instance.StartCalculateScore();
 
+                Debug.Log(_levelCountStars + " " + _score.CurrentLvlScore);
                 MapCompletion.SaveEpisodeResult(_levelCountStars, _score.CurrentLvlScore);
 
                 var type = UIManager.ResolutionScreenType.Finish;
                 UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);
+
             }
         }
 
@@ -279,7 +270,6 @@ namespace QuizCinema
             {
                 _levelCountStars = 0;
             }
-
             return _levelCountStars;
         }
 

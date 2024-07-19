@@ -14,18 +14,18 @@ namespace QuizCinema
         private const string _sceneLevelMap = "LevelMap";
         private const string _sceneMainMenu = "MainMenu";
 
-        private float _animDelay = 1f;
+        private float _animDelay = 0.5f;
 
         public void ReturnToMainMenu()
         {
-            StartCoroutine(LoadSceneWithDelay());
+            StartCoroutine(LoadSceneWithDelay(_sceneMainMenu));
         }
 
-        private IEnumerator LoadSceneWithDelay()
+        private IEnumerator LoadSceneWithDelay(string sceneName)
         {
             yield return new WaitForSeconds(_animDelay);
 
-            SceneManager.LoadScene(_sceneMainMenu);
+            SceneManager.LoadScene(sceneName);
         }
 
         public void LoadLevelMap()
@@ -35,7 +35,7 @@ namespace QuizCinema
 
         public void LoadSceneByName(string scene)
         {
-            StartCoroutine(StartScene(scene));
+            StartCoroutine(LoadSceneWithDelay(scene));
         }
 
         public void LoadSceneBar()

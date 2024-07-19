@@ -540,6 +540,7 @@ GameObject:
   - component: {fileID: 6441790279549315116}
   - component: {fileID: 6441790279549315117}
   - component: {fileID: 6441790279549315119}
+  - component: {fileID: 555990812}
   m_Layer: 5
   m_Name: ButtonMap
   m_TagString: Untagged
@@ -668,6 +669,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &555990812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441790279549315539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c0807f41a4ad64586987ed33f1e2c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _graphicAnimButton: {fileID: 6441790279806553110}
+  _nameAnimDeselect: 
+  _nameAnimSelect: 
+  _isSelect: 0
 --- !u!1 &6441790279627980943
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,10 +759,10 @@ MonoBehaviour:
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
-  startingAnimation: select
+  startingAnimation: 
   startingLoop: 0
   timeScale: 1
-  freeze: 1
+  freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
   referenceScale: 1
@@ -787,6 +804,7 @@ GameObject:
   - component: {fileID: 6441790279646191163}
   - component: {fileID: 6441790279646191160}
   - component: {fileID: 6441790279646191161}
+  - component: {fileID: 1774032471}
   m_Layer: 5
   m_Name: ButtonProfile
   m_TagString: Untagged
@@ -905,16 +923,32 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 9112948086835648358}
         m_TargetAssemblyTypeName: QuizCinema.LevelMapButtonController, Assembly-CSharp
-        m_MethodName: LoadSceneByName
-        m_Mode: 5
+        m_MethodName: ReturnToMainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainMenu
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1774032471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441790279646191167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c0807f41a4ad64586987ed33f1e2c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _graphicAnimButton: {fileID: 6441790280753987387}
+  _nameAnimDeselect: 
+  _nameAnimSelect: 
+  _isSelect: 0
 --- !u!1 &6441790279679726404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,7 +1451,7 @@ MonoBehaviour:
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
-  startingAnimation: map_select
+  startingAnimation: 
   startingLoop: 0
   timeScale: 1
   freeze: 0
@@ -1942,6 +1976,7 @@ GameObject:
   - component: {fileID: 6441790280527174149}
   - component: {fileID: 6441790280527174154}
   - component: {fileID: 6441790280527174155}
+  - component: {fileID: 1482678982}
   m_Layer: 5
   m_Name: ButtonShop
   m_TagString: Untagged
@@ -2057,17 +2092,33 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: QuizCinema.LevelMapButtonController, Assembly-CSharp
-        m_MethodName: LoadSceneByName
-        m_Mode: 5
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Shop
-          m_BoolArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &1482678982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441790280527174153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c0807f41a4ad64586987ed33f1e2c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _graphicAnimButton: {fileID: 6441790279627980937}
+  _nameAnimDeselect: 
+  _nameAnimSelect: 
+  _isSelect: 0
 --- !u!1 &6441790280545895754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,6 +2132,7 @@ GameObject:
   - component: {fileID: 6441790280545895748}
   - component: {fileID: 6441790280545895750}
   - component: {fileID: 9112948086835648358}
+  - component: {fileID: 1939548781}
   m_Layer: 5
   m_Name: PanelButtonsScreens
   m_TagString: Untagged
@@ -2180,6 +2232,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eda46a4d08bcde4ca0cdc85dddae2fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1939548781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441790280545895754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083f0d3ed4254524792a606d044b7c54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonProfile: {fileID: 6441790279646191161}
+  _buttonMap: {fileID: 6441790279549315119}
+  _buttonShop: {fileID: 6441790280527174155}
+  _buttonBattle: {fileID: 6441790281229411404}
+  _currentAnimButton: {fileID: 0}
 --- !u!1 &6441790280621439638
 GameObject:
   m_ObjectHideFlags: 0

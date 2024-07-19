@@ -10,7 +10,7 @@ namespace QuizCinema
         [SerializeField] private Scrollbar scrollbar;
         [SerializeField] private GameObject _overlayTop;
         [SerializeField] private GameObject _overlayBottom;
-
+        [SerializeField] private float _prevValue;
 
         void Start()
         {
@@ -19,19 +19,23 @@ namespace QuizCinema
 
         void ScrollbarCallback(float value)
         {
-            if (value > 0.8f)
+            if (_prevValue - value > 0)
+            {
+                _overlayBottom.SetActive(false);
+                _overlayTop.SetActive(true);
+            }
+            else if (_prevValue - value < 0)
             {
                 _overlayBottom.SetActive(true);
-            }
-            else if (value < 0.2f)
-            {
-                _overlayTop.SetActive(true);
+                _overlayTop.SetActive(false);
             }
             else
             {
                 _overlayBottom.SetActive(false);
                 _overlayTop.SetActive(false);
             }
+
+            _prevValue = value;
         }
     }
 }
