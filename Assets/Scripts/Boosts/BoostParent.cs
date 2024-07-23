@@ -36,7 +36,7 @@ namespace QuizCinema
         {
         }
 
-        public virtual void ActivateBoost() 
+        public virtual void ActivateBoost(bool everyQuestionActivate) 
         {
             OnActivateBoost?.Invoke();
         }

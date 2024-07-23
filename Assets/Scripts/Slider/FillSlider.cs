@@ -57,7 +57,7 @@ namespace QuizCinema
                  var sound = AudioManager.Instance.GetSoundAudioClip(_audioTimer);
                 if (sound != null)
                     sound.Play();
-
+               // Debug.Log(timeLeft);
                 yield return null;
             }
         }   

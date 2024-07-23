@@ -25,9 +25,9 @@ namespace QuizCinema
            // SwitchInteractable(true, _buttonBoost);
         }
 
-        public override void ActivateBoost()
+        public override void ActivateBoost(bool everyQuestionActivate)
         {
-            base.ActivateBoost();
+            //base.ActivateBoost();
 
             var currentAnswer = AnswersMethods.Instance.GetCurrentAnswerList;
 
@@ -62,7 +62,9 @@ namespace QuizCinema
             }
 
             SwitchInteractable(false, _buttonBoost);
-            BoostsManager.UseBoost(_boostSO);
+
+            if (!everyQuestionActivate)
+                BoostsManager.UseBoost(_boostSO);
         }
     }
 }

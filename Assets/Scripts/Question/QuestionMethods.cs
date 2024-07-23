@@ -6,13 +6,12 @@ using UnityEngine;
 
 namespace QuizCinema
 {
-    public class QuestionMethods : SingletonBase<QuestionMethods>, IDependency<Timer>, IDependency<GameManager>
+    public class QuestionMethods : SingletonBase<QuestionMethods>, IDependency<GameManager>
     {
         public event Action<Question> OnUpdateQuestionUI;
         public event Action<List<AnswerData>> CurrentAnswerList;
 
         [SerializeField] private GameManager _gameManager;
-        [SerializeField] private Timer _timer;
 
         private Data _data = new Data();
         public Data Data { get { return _data; } set { _data = value; } }
@@ -174,15 +173,6 @@ namespace QuizCinema
 
             OnUpdateQuestionUI?.Invoke(question);
 
-            if (question.UseTimer)
-            {
-                _timer.UpdateTimer(question.UseTimer);
-            }
-        }
-
-        public void Construct(Timer obj)
-        {
-            _timer = obj;
         }
 
         public void Construct(GameManager obj)

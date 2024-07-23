@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using System;
 using UnityEngine.SceneManagement;
 using QuizCinema;
+using System.Collections;
 
 namespace TowerDefense
 {
@@ -31,10 +32,18 @@ namespace TowerDefense
         [SerializeField] private bool _locked = true;
         public bool Lock { get { return _locked; } set { _locked = value; } }
 
+        private float _animDelay = 0.5f;
+
         public virtual void LoadLevel()
         {
             Debug.Log("LoadLevel" + gameObject.name);
-            
+
+            StartCoroutine(LoadSceneWithDelay());
+        }
+
+        private IEnumerator LoadSceneWithDelay()
+        {
+            yield return new WaitForSeconds(_animDelay);
             LevelSequenceController.Instance.StartEpisode(_episode, MapCompletion.Instance.GetLvlNumber(gameObject.name), gameObject.name);
         }
 

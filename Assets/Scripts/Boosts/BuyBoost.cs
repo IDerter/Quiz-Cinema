@@ -23,7 +23,11 @@ namespace QuizCinema
         private void Awake()
         {
             Initialize();
-            ButtonBuy = _buttonBuyBoost;
+
+            if (ButtonBuy == null)
+                ButtonBuy = _buttonBuyBoost;
+            if (_buttonBuyBoost == null)
+                _buttonBuyBoost = ButtonBuy;
         }
 
         public override void Initialize()
@@ -41,8 +45,9 @@ namespace QuizCinema
 
         public override void CheckCost(int money)
         {
-            if (_numberOfBoosters > 0)
+            if (_numberOfBoosters > 0 && ButtonBuy != null)
             {
+                Debug.Log(money + " " + _costNumber + " ");
                 ButtonBuy.interactable = money >= _costNumber;
                 if (_viewButton != null)
                 {
@@ -60,7 +65,7 @@ namespace QuizCinema
             }
             else
             {
-                Debug.LogError("Mistake with numberOfBoosters - less 0 value");
+                Debug.LogError("Mistake with numberOfBoosters - less 0 value or Button Buy is null");
             }
         }
 

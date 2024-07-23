@@ -63,7 +63,8 @@ namespace QuizCinema
             {
                 if (_zeroBoosts != null)
                     _zeroBoosts?.gameObject.SetActive(true);
-                _buttonBoost.enabled = false;
+                if (_buttonBoost != null)
+                    _buttonBoost.enabled = false;
                 _textCountBoost.enabled = false;
 
             }
@@ -71,7 +72,8 @@ namespace QuizCinema
             {
                 if (_zeroBoosts != null)
                     _zeroBoosts?.gameObject.SetActive(false);
-                _buttonBoost.enabled = true;
+                if (_buttonBoost != null)
+                    _buttonBoost.enabled = true;
                 _textCountBoost.enabled = true;
             }
 

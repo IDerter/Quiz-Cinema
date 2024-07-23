@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 namespace QuizCinema
 {
-    public class GameManager : SingletonBase<GameManager>, IDependency<QuestionMethods>, IDependency<Score>,  IDependency<Timer>
+    public class GameManager : SingletonBase<GameManager>, IDependency<QuestionMethods>, IDependency<Score>
     {
         public event Action<UIManager.ResolutionScreenType, int> UpdateDisplayScreenResolution;
         public event Action OnFinishGame;
@@ -19,12 +19,13 @@ namespace QuizCinema
         public event Action OnCorrectAnswer;
         public event Action OnInCorrectAnswer;
 
+        public event Action OnNextQuestion;
+
         #region Variables
         [SerializeField] private TimerInLvl _timerInLvl;
         [SerializeField] private QuestionMethods _questionMethods;
         [SerializeField] private Score _score;
         [SerializeField] private Animator _timerAnimator;
-        [SerializeField] private Timer _timer;
         [SerializeField] private GameObject _numberQuestionContainer;
         [SerializeField] private GameObject _panelInfoQuiz;
         [SerializeField] private Animator _loadLvlBgAnimator;
@@ -71,12 +72,6 @@ namespace QuizCinema
             _score = obj;
             Debug.Log("Construct in Score");
         }
-
-        public void Construct(Timer obj)
-        {
-            _timer = obj;
-        }
-
 
 
         private void Start()
@@ -153,7 +148,6 @@ namespace QuizCinema
             
             if (!_pressButtonAnswer)
             {
-                _timer.UpdateTimer(false);
                 _timerInLvl.StopSlider();
 
                 _isCorrectAnswer = _questionMethods.CheckAnswers();
@@ -221,6 +215,8 @@ namespace QuizCinema
 
             if (!_questionMethods.IsFinished)
             {
+                OnNextQuestion?.Invoke();
+
                 IE_WaitTillNextRound = WaitTillNextRound();
                 StartCoroutine(IE_WaitTillNextRound);
             }
@@ -277,7 +273,6 @@ namespace QuizCinema
         {
             yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
 
-            _timer.UpdateTimer(false);
             _timerInLvl.StopSlider();
 
             _questionMethods._currentIndexNotRandom++; // TODO ����� ������
