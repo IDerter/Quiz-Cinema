@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: df27aae62453a0e439fd47dac94a038c, type: 3}
   cost: 50
-  boost: {fileID: 11400000, guid: 10ed59d18f778374fa4f87dd42739d07, type: 2}
+  _boost: {fileID: 11400000, guid: 0b7d1059f6e58fc4596232dd2d585d4c, type: 2}

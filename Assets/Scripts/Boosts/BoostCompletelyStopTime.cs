@@ -25,9 +25,9 @@ namespace QuizCinema
            // SwitchInteractable(true, _buttonBoost);
         }
 
-        public override void ActivateBoost()
+        public override void ActivateBoost(bool everyQuestionActivate)
         {
-            base.ActivateBoost();
+           // base.ActivateBoost();
 
             if (!_buttonPress)
             {
@@ -36,7 +36,8 @@ namespace QuizCinema
                 _timerInLvl.StopSlider();
                 _timerInLvl.IsStopTime = true;
 
-                BoostsManager.UseBoost(_boostSO);
+                if (!everyQuestionActivate)
+                    BoostsManager.UseBoost(_boostSO);
             }
         }
 

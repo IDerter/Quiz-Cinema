@@ -42,16 +42,17 @@ namespace QuizCinema
 
         }
 
-        public override void ActivateBoost()
+        public override void ActivateBoost(bool everyQuestionActivate)
         {
-            base.ActivateBoost();
+            //base.ActivateBoost();
             Debug.Log("50 PERCENT ACTIVE BOOST!");
 
             _buttonPress = true;
 
             _gameManager.IsActivateBoost50Percent = true;
            
-            BoostsManager.UseBoost(_boostSO);
+            if (!everyQuestionActivate)
+                BoostsManager.UseBoost(_boostSO);
         }
     }
 }

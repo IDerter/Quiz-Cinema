@@ -21,9 +21,9 @@ namespace QuizCinema
             }
         }
 
-        public override void ActivateBoost()
+        public override void ActivateBoost(bool everyQuestionActivate)
         {
-            base.ActivateBoost();
+            //base.ActivateBoost();
             Debug.Log("Add Score ACTIVE BOOST!");
 
             _buttonPress = true;
@@ -31,7 +31,8 @@ namespace QuizCinema
             var score = Score.Instance.CurrentLvlScore;
             Score.Instance.CurrentLvlScore = score + _addValue;
 
-            BoostsManager.UseBoost(_boostSO);
+            if (!everyQuestionActivate)
+                BoostsManager.UseBoost(_boostSO);
         }
     }
 }

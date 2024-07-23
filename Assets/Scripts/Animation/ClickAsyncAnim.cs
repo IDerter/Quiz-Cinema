@@ -23,28 +23,16 @@ namespace QuizCinema
         }
 
         [Button()]
-        public async void ClickAnim()
+        public virtual async void ClickAnim()
         {
             //objTween = _objAnim.DOPunchScale(new Vector3(0.2f, 0.2f, 0.2f), 1f).SetEase(Ease.InOutElastic);
             objTween = _objAnim.DOScale(new Vector3(0.95f, 0.95f, 0.95f), 0.25f);
             await objTween.ToUniTask();
 
             objTween = _objAnim.DOScale(new Vector3(1f, 1f, 1f), 0.25f);
-            await objTween.ToUniTask();
-
-           
-            //if (_viewBluePutOn != null && _viewBlueTakeOff != null)
-            //{
-            //    if (_viewBluePutOn.activeSelf)
-            //        await TakeOffShow();
-            //    else if (_viewBlueTakeOff.activeSelf || _viewGreenBuySkin.activeSelf)
-            //        await PutOnShow();
-            //}
-                       
+            await objTween.ToUniTask();       
         }
 
-
-        [Button()]
         public async void ClickAnimBuy(bool putOn)
         {
             //objTween = _objAnim.DOPunchScale(new Vector3(0.2f, 0.2f, 0.2f), 1f).SetEase(Ease.InOutElastic);
@@ -58,13 +46,6 @@ namespace QuizCinema
                 await TakeOffShow();
             else
                 await PutOnShow();
-            //if (_viewBluePutOn != null && _viewBlueTakeOff != null)
-            //{
-            //    if (_viewBluePutOn.activeSelf)
-            //        await TakeOffShow();
-            //    else if (_viewBlueTakeOff.activeSelf || _viewGreenBuySkin.activeSelf)
-            //        await PutOnShow();
-            //}
 
         }
 

@@ -27,6 +27,8 @@ namespace QuizCinema
 
             [SerializeField] private int _costSkin;
             public int CostSkin { get { return _costSkin; } set { _costSkin = value; } }
+            [SerializeField] private string _boostName;
+            public string BoostName { get { return _boostName; } set { _boostName = value; } }
         }
         [SerializeField] private SkinSave[] _save;
         [SerializeField] private SkinSave[] _mainSave;
@@ -94,6 +96,7 @@ namespace QuizCinema
                     skin.SkinName = asset.name;
                     Instance._moneyForSkins += asset.cost;
                     skin.CostSkin = asset.cost;
+                    skin.BoostName = asset.GetBoostName;
 
                     MapCompletion.Instance.SkinShop = Instance._moneyForSkins;
                     SkinLoader.Instance.UpdateSkinSave(skin);
@@ -134,6 +137,18 @@ namespace QuizCinema
             }
             
             Instance.OnSaveSkins();
+        }
+
+        public static SkinSave GetPutOnSkin()
+		{
+            foreach (var skin in Instance._mainSave)
+			{
+                if (skin.PutOn)
+				{
+                    return skin;
+				}
+			}
+            return null;
         }
     }
 }

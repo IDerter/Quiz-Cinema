@@ -7,6 +7,7 @@ namespace QuizCinema
     [CreateAssetMenu]
     public sealed class SkinSO : BuySO
     {
-        [SerializeField] private BoostSO boost;
+        [SerializeField] private BoostSO _boost;
+        public string GetBoostName => _boost.name;
     }
 }

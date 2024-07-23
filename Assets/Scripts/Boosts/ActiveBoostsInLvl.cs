@@ -11,6 +11,9 @@ namespace QuizCinema
         [SerializeField] private BoostUICount[] _boostsActive;
         [SerializeField] private Transform[] _sceneBoosts;
 
+        [SerializeField] private Transform _skinTransform;
+        [SerializeField] private BoostInGame[] _boostsActiveForSkins;
+
         [SerializeField] private AnswersMethods _answersMethods;
 
         private const int _maxBoostInLvl = 3;
@@ -37,6 +40,18 @@ namespace QuizCinema
         {
             if (_isCreateBoost == false)
             {
+                var skinPutOn = SkinManager.GetPutOnSkin();
+                Debug.Log(skinPutOn.SkinName);
+                foreach (var boostSkin in _boostsActiveForSkins)
+				{
+                    Debug.Log(boostSkin.GetSetBoostSO.name);
+                    if (boostSkin.GetSetBoostSO.name == skinPutOn.BoostName)
+					{
+                        boostSkin.gameObject.SetActive(true);
+                        _skinTransform.gameObject.SetActive(true);
+                    }
+				}
+
                 var boostsList = BoostsManager.Instance.MainSaveListBoosts._listBoosts;
 
                 for (int i = 0; i < _boostsActive.Length; i++)
@@ -47,6 +62,7 @@ namespace QuizCinema
                         {
                             // var test = Instantiate(_boostsActive[j], _sceneBoosts[j]);
                             var boost = Instantiate(_boostsActive[i], _sceneBoosts[j]);
+                            _sceneBoosts[j].gameObject.SetActive(true);
 
                             boost.gameObject.SetActive(true);
                             if (boost.isActiveAndEnabled)

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Wizard
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 9a7ef5f583d88f64095c239dba95fd2a, type: 3}
-  cost: 10000
-  boost: {fileID: 11400000, guid: ae1e963bca2554943abbcf96cf8f14d9, type: 2}
+  cost: 100
+  _boost: {fileID: 11400000, guid: a54f763d295f3aa4fbaea5a0b2d1c3ca, type: 2}
