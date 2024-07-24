@@ -53,6 +53,8 @@ namespace QuizCinema
                 {
                     if (_viewButton.isActiveAndEnabled)
                     {
+                        Debug.Log("_viewButton.isActiveAndEnabled ");
+
                         if (ButtonBuy.interactable)
                             _viewButton.InteractableOn();
                         else
