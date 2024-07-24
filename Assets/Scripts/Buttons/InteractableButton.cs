@@ -32,7 +32,7 @@ namespace QuizCinema
                 for (int i = 0; i < _imagesButton.Length; i++)
                 {
                     //_imagesButton[i].color = Color.black;
-                    _imagesButton[i].color = new Color(0f, 0f, 0f, 0.5f);
+                    _imagesButton[i].color = new Color(_imagesButton[i].color.r, _imagesButton[i].color.g, _imagesButton[i].color.b, 0.5f);
                 }
             }
         }

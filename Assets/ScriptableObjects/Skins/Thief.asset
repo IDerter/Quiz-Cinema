@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Thief
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 3bbfbe108f0775345ac2f77bd040afb6, type: 3}
-  cost: 30
+  cost: 3000
   _boost: {fileID: 11400000, guid: 854c6f492bcb67c429534433c60f859e, type: 2}

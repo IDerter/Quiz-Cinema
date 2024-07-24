@@ -26,9 +26,18 @@ namespace QuizCinema
         [SerializeField] private Button _buttonMoney;
         [SerializeField] private Button _buttonBoosters;
 
+        [SerializeField] private ScrollBarOverlay _scrollSkinsPanel;
+        [SerializeField] private ScrollBarOverlay _scrollBoostersPanel;
+
+
         private float _sizeScaleButton = 1.2f;
 
-        private void Start()
+		private void OnEnable()
+		{
+            ResetScrollPanels();
+        }
+
+		private void Start()
         {
             _buttonSkins.onClick.AddListener(() => MoveToButton(_buttonSkins));
             _buttonOffers.onClick.AddListener(() => MoveToButton(_buttonOffers));
@@ -37,15 +46,23 @@ namespace QuizCinema
         }
 
         public void MoveToButton(Button button)
-        {
-            _chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
-                .SetEase(Ease.Linear).ToUniTask();
+		{
+			ResetScrollPanels();
 
-            _chooseImage.transform.DOScale(new Vector3(button.GetComponent<RectTransform>().localScale.x, button.GetComponent<RectTransform>().localScale.y), duration)
-                .SetEase(Ease.Linear).ToUniTask();
-        }
+			_chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
+				.SetEase(Ease.Linear).ToUniTask();
 
-        public void MoveAndScaleButton(Button button)
+			_chooseImage.transform.DOScale(new Vector3(button.GetComponent<RectTransform>().localScale.x, button.GetComponent<RectTransform>().localScale.y), duration)
+				.SetEase(Ease.Linear).ToUniTask();
+		}
+
+		private void ResetScrollPanels()
+		{
+			_scrollSkinsPanel.ResetState();
+			_scrollBoostersPanel.ResetState();
+		}
+
+		public void MoveAndScaleButton(Button button)
         {
             _chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
                 .SetEase(Ease.Linear).ToUniTask();
