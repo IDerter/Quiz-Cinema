@@ -11,6 +11,10 @@ namespace QuizCinema
         [SerializeField] protected Button _buttonBoost;
         [SerializeField] private bool _everyQuestionActivate = false;
         public bool GetEveryQuestionActivate => _everyQuestionActivate;
+        [SerializeField] private bool _isSkinBooster = false;
+        public bool IsSkinBooster => _isSkinBooster;
+        [SerializeField] private GameObject _overlayBooster;
+        [SerializeField] private bool _isAllLvlActive = false;
 
         private void Start()
         {
@@ -26,9 +30,25 @@ namespace QuizCinema
 		private void OnNextQuestion()
 		{
             if (_everyQuestionActivate)
-                _buttonBoost.interactable = true;
+                _overlayBooster.SetActive(false);
         }
 
+        public void BoostActivate()
+		{
+            if (!_isSkinBooster && !_isAllLvlActive)
+            {
+                Debug.Log(GetComponentInParent<RectTransform>().gameObject.GetComponentInParent<RectTransform>().gameObject);
+                Destroy(GetComponentInParent<RectTransform>().gameObject);
+            }
+
+            else
+            {
+                Debug.Log("_overlayBooster is true");
+                _overlayBooster.SetActive(true);
+            }
+        }
+
+        /*
 		private void OnEnable()
         {
             if (_boostScript.IsStartActiveBoost)
@@ -37,9 +57,14 @@ namespace QuizCinema
                 _buttonBoost.interactable = false;
 
                 _boostScript.ActivateBoost(_everyQuestionActivate);
+                if (!_isSkinBooster)
+                    Destroy(gameObject);
+				else
+				{
+                    _overlayBooster.SetActive(true);
+                }
             }
         }
-
-
+        */
     }
 }

@@ -74,26 +74,22 @@ namespace QuizCinema
 
                     if (skinSave.Buy && skinSave.PutOn == false && buttonGreen.activeSelf)
                     {
-                        Debug.Log(buttonPutOn.ToString() + " " + skinSave.SkinName);
                         buttonGreen.GetComponent<ClickAsyncAnim>().ClickAnimBuy(false);
 
                     }
                     else if (!skinSave.Buy)
                     {
-                        Debug.Log(buttonGreen.ToString() + " " + skinSave.SkinName);
                         //buttonGreen.GetComponent<ClickAsyncAnim>().ClickAnim(false);
 
                     }
                     else if (skinSave.Buy && skinSave.PutOn == true)
                     {
-                        Debug.Log(buttonPutOn.ToString() + " " + skinSave.SkinName);
                         buttonTakeOff.GetComponent<ClickAsyncAnim>().ClickAnimBuy(true);
 
                     }
 
                     else if (skinSave.Buy && skinSave.PutOn == false && buttonGreen.activeSelf == false)
                     {
-                        Debug.Log(buttonPutOn.ToString() + " " + skinSave.SkinName);
                         buttonPutOn.GetComponent<ClickAsyncAnim>().ClickAnimBuy(false);
 
                     }
