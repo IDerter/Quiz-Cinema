@@ -9,6 +9,7 @@ namespace QuizCinema
     public class SkinManager : SingletonBase<SkinManager>
     {
         public event Action OnBuySkin;
+        public event Action OnPutOn;
 
         [SerializeField] private int _moneyForSkins;
         public int GetMoneyForSkins => _moneyForSkins;
@@ -115,6 +116,7 @@ namespace QuizCinema
                 {
                     skin.PutOn = true;
                     SkinLoader.Instance.UpdateSkinSave(skin);
+                    Instance.OnPutOn?.Invoke();
                 }
 				else
 				{

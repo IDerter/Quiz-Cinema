@@ -17,6 +17,8 @@ namespace QuizCinema
         [SerializeField] private InteractableButton _viewButton;
         //public Button GetButton => _buttonBuy;
         [SerializeField] private int _numberOfBoosters = 1;
+        [SerializeField] private GameObject _overlayButton;
+        [SerializeField] private GameObject _overlayCardBooster;
 
         private int _costNumber; // цена покупки улучшения
 
@@ -47,24 +49,25 @@ namespace QuizCinema
         {
             if (_numberOfBoosters > 0 && ButtonBuy != null)
             {
-                Debug.Log(money + " " + _costNumber + " ");
                 ButtonBuy.interactable = money >= _costNumber;
-                if (_viewButton != null)
-                {
-                    if (_viewButton.isActiveAndEnabled)
-                    {
-                        Debug.Log("_viewButton.isActiveAndEnabled ");
 
-                        if (ButtonBuy.interactable)
-                            _viewButton.InteractableOn();
-                        else
-                        {
-                            _viewButton.InteractableOff();
-                            Debug.Log("CHECKCOST " + ButtonBuy.interactable);
-                        }
+                if (_overlayButton != null && _overlayCardBooster != null)
+                {
+                    if (ButtonBuy.interactable)
+                    {
+                        _overlayButton.SetActive(false);
+                        _overlayCardBooster.SetActive(false);
+                    }
+
+                    else
+                    {
+                        _overlayButton.SetActive(true);
+                        _overlayCardBooster.SetActive(true);
+                        Debug.Log("CHECKCOST " + ButtonBuy.interactable);
                     }
                 }
             }
+            
             else
             {
                 Debug.LogError("Mistake with numberOfBoosters - less 0 value or Button Buy is null");

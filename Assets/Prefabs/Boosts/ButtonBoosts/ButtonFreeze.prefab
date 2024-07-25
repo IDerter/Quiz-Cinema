@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mainDopBuyBoost: {fileID: 0}
   _boost: {fileID: 0}
+  _inventoryPanel: {fileID: 0}
 --- !u!1 &2931665664313817541
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +241,7 @@ GameObject:
   - component: {fileID: 2931665665117683637}
   - component: {fileID: 2931665665117683640}
   - component: {fileID: 2931665665117683639}
-  - component: {fileID: 7027425778325115925}
+  - component: {fileID: 7766084457542672137}
   m_Layer: 5
   m_Name: ButtonFreeze
   m_TagString: Untagged
@@ -310,7 +311,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7027425778325115925
+--- !u!114 &7766084457542672137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -319,13 +320,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2931665665117683636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ae17fef9ac7c584484f91ee6813d570, type: 3}
+  m_Script: {fileID: 11500000, guid: b26a2d0ceeadc604995d84c2fc8fc45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _boostSO: {fileID: 11400000, guid: a54f763d295f3aa4fbaea5a0b2d1c3ca, type: 2}
   _boostImage: {fileID: 4625025053901657789}
-  _textDesriptionBoost: {fileID: 0}
+  _boostScript: {fileID: 0}
   _buttonBoost: {fileID: 4625025053901657787}
+  _everyQuestionActivate: 0
+  _isSkinBooster: 0
+  _overlayBooster: {fileID: 0}
+  _isAllLvlActive: 0
 --- !u!1 &2931665665245834571
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,22 +740,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: QuizCinema.BoostFreezeTime, Assembly-CSharp
-        m_MethodName: ActivateBoost
+      - m_Target: {fileID: 7766084457542672137}
+        m_TargetAssemblyTypeName: QuizCinema.BoostInGame, Assembly-CSharp
+        m_MethodName: BoostActivate
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 4625025053901657787}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
-        m_MethodName: set_interactable
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

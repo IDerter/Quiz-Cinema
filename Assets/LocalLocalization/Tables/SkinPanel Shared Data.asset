@@ -50,11 +50,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4587936449892352
-    m_Key: "Every game gets an answer for a random question. \r\nBut which one?"
+    m_Key: "Gets an answer\nfor one question. \r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 4589013446496256
     m_Key: Gets 1K coins after each game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7190255368736768
+    m_Key: Put on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7190317616402432
+    m_Key: Take off
     m_Metadata:
       m_Items: []
   m_Metadata:

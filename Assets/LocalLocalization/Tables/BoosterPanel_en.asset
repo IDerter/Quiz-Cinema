@@ -19,7 +19,9 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 168759463936
-    m_Localized: Stops timer for 10 sec
+    m_Localized: 'Stops timer
+
+      for 10 sec'
     m_Metadata:
       m_Items: []
   - m_Id: 328570834944
@@ -59,7 +61,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2622934814720
-    m_Localized: Adds 1000 coins at the end of each game
+    m_Localized: 'Adds 1000 coins
+
+      at the end of each game'
     m_Metadata:
       m_Items: []
   references:

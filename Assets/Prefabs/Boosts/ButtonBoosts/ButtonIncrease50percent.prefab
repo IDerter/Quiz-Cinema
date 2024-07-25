@@ -31,7 +31,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3439201349678600915}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -201,18 +201,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: QuizCinema.BoostIncreaseOn50PersentScore, Assembly-CSharp
         m_MethodName: ActivateBoost
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 38294236306010212}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
-        m_MethodName: set_interactable
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -523,6 +511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mainDopBuyBoost: {fileID: 0}
   _boost: {fileID: 0}
+  _inventoryPanel: {fileID: 0}
 --- !u!1 &3439201348232981773
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,7 +746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3439201349678600915
 RectTransform:
   m_ObjectHideFlags: 0
@@ -774,6 +763,7 @@ RectTransform:
   - {fileID: 38294236306010213}
   - {fileID: 38294236543888699}
   - {fileID: 38294237488551551}
+  - {fileID: 4729494718792996545}
   - {fileID: 979456271}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -835,9 +825,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _boostSO: {fileID: 11400000, guid: 10ed59d18f778374fa4f87dd42739d07, type: 2}
   _boostImage: {fileID: 38294236306010235}
-  _textDesriptionBoost: {fileID: 0}
-  _buttonBoost: {fileID: 38294236306010212}
   _boostScript: {fileID: 0}
+  _buttonBoost: {fileID: 38294236306010212}
+  _everyQuestionActivate: 0
+  _isSkinBooster: 0
+  _overlayBooster: {fileID: 8879863881128523648}
+  _isAllLvlActive: 1
 --- !u!114 &4969587241423326760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -852,5 +845,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _boostSO: {fileID: 11400000, guid: 10ed59d18f778374fa4f87dd42739d07, type: 2}
   _boostImage: {fileID: 38294236306010235}
-  _textDesriptionBoost: {fileID: 0}
-  _buttonBoost: {fileID: 38294236306010212}
+--- !u!1 &8879863881128523648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4729494718792996545}
+  - component: {fileID: 3407941050364203658}
+  - component: {fileID: 2254746740655291648}
+  m_Layer: 5
+  m_Name: BoosterOverlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4729494718792996545
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879863881128523648}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.999912, y: 0.999912, z: 0.999912}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3439201349678600915}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.3999939, y: -0.3999939}
+  m_SizeDelta: {x: 203.38, y: 203.38}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3407941050364203658
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879863881128523648}
+  m_CullTransparentMesh: 1
+--- !u!114 &2254746740655291648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8879863881128523648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5281c26df8915104a936d095cd8aefd7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
