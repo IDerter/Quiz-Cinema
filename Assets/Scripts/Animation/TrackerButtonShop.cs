@@ -23,7 +23,7 @@ namespace QuizCinema
         [SerializeField] private float duration = 2f;
         [SerializeField] private Button _buttonOffers;
         [SerializeField] private Button _buttonSkins;
-        [SerializeField] private Button _buttonMoney;
+        [SerializeField] private Button _buttonCoins;
         [SerializeField] private Button _buttonBoosters;
 
         [SerializeField] private ScrollBarOverlay _scrollSkinsPanel;
@@ -41,20 +41,32 @@ namespace QuizCinema
         {
             _buttonSkins.onClick.AddListener(() => MoveToButton(_buttonSkins));
             _buttonOffers.onClick.AddListener(() => MoveToButton(_buttonOffers));
-            _buttonMoney.onClick.AddListener(() => MoveToButton(_buttonMoney));
+            _buttonCoins.onClick.AddListener(() => MoveToButton(_buttonCoins));
             _buttonBoosters.onClick.AddListener(() => MoveAndScaleButton(_buttonBoosters));
+        }
+
+        public void InitState()
+		{
+            _buttonSkins.GetComponent<UpTextShop>().DisableText();
+            _buttonOffers.GetComponent<UpTextShop>().DisableText();
+            _buttonCoins.GetComponent<UpTextShop>().DisableText();
+            _buttonBoosters.GetComponent<UpTextShop>().DisableText();
         }
 
         public void MoveToButton(Button button)
 		{
-			ResetScrollPanels();
+            ResetScrollPanels();
+            InitState();
 
-			_chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
+
+            _chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
 				.SetEase(Ease.Linear).ToUniTask();
 
 			_chooseImage.transform.DOScale(new Vector3(button.GetComponent<RectTransform>().localScale.x, button.GetComponent<RectTransform>().localScale.y), duration)
 				.SetEase(Ease.Linear).ToUniTask();
-		}
+
+            button.GetComponent<UpTextShop>().ActivateText();
+        }
 
 		private void ResetScrollPanels()
 		{
@@ -64,11 +76,15 @@ namespace QuizCinema
 
 		public void MoveAndScaleButton(Button button)
         {
+            InitState();
+
             _chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
                 .SetEase(Ease.Linear).ToUniTask();
 
             _chooseImage.transform.DOScale(new Vector3(_sizeScaleButton, button.GetComponent<RectTransform>().localScale.y), duration)
                 .SetEase(Ease.Linear).ToUniTask();
+
+            button.GetComponent<UpTextShop>().ActivateText();
         }
     }
 }

@@ -41,7 +41,7 @@ namespace QuizCinema
                 _textCount.text = BoostsManager.GetCountBoost(_asset).ToString();
 
             _costNumber = _asset.DictionaryNumberOfBoosts[_numberOfBoosters];
-             _textCost.text = _costNumber.ToString();
+            _textCost.text = _costNumber.ToString();
             Debug.Log("Initiliaze" + " " + _costNumber);
         }
 
@@ -50,19 +50,23 @@ namespace QuizCinema
             if (_numberOfBoosters > 0 && ButtonBuy != null)
             {
                 ButtonBuy.interactable = money >= _costNumber;
-
-                if (_overlayButton != null && _overlayCardBooster != null)
+                Debug.Log(money + " " + _costNumber);
+                if (_overlayButton != null || _overlayCardBooster != null)
                 {
                     if (ButtonBuy.interactable)
                     {
-                        _overlayButton.SetActive(false);
-                        _overlayCardBooster.SetActive(false);
+                        if (_overlayButton != null)
+                            _overlayButton.SetActive(false);
+                        if (_overlayCardBooster != null)
+                            _overlayCardBooster.SetActive(false);
                     }
 
                     else
                     {
-                        _overlayButton.SetActive(true);
-                        _overlayCardBooster.SetActive(true);
+                        if (_overlayButton != null)
+                            _overlayButton.SetActive(true);
+                        if (_overlayCardBooster != null)
+                            _overlayCardBooster.SetActive(true);
                         Debug.Log("CHECKCOST " + ButtonBuy.interactable);
                     }
                 }

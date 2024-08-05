@@ -1577,6 +1577,7 @@ GameObject:
   - component: {fileID: 8082265012014879410}
   - component: {fileID: 9106282457169090557}
   - component: {fileID: 1735333756112586535}
+  - component: {fileID: 9106282457169090558}
   m_Layer: 5
   m_Name: TableImage
   m_TagString: Untagged
@@ -3880,6 +3881,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!224 &1499751931149686378
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4567,6 +4570,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!114 &2001118204838364802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4708,6 +4713,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!224 &2261499941598495244
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5986,6 +5993,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &3852253529224411485
 GameObject:
   m_ObjectHideFlags: 0
@@ -10539,6 +10548,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5783721969128275385}
+        m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
+        m_MethodName: ClickAnim
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5738044623637464894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10899,6 +10920,7 @@ GameObject:
   - component: {fileID: 3860785427214299600}
   - component: {fileID: 2627334098921565492}
   - component: {fileID: 2577358104622607005}
+  - component: {fileID: 5783721969128275385}
   m_Layer: 5
   m_Name: TableImage
   m_TagString: Untagged
@@ -10906,6 +10928,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5783721969128275385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5783721969128275384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59a3e17d4ef946bc441555423f729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objAnim: {fileID: 3860785427214299600}
+  _viewGreenBuySkin: {fileID: 0}
+  _viewBluePutOn: {fileID: 0}
+  _viewBlueTakeOff: {fileID: 0}
 --- !u!114 &5799709176884835730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10926,6 +10964,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!114 &5956399478785147974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11046,6 +11086,7 @@ GameObject:
   - component: {fileID: 9089478120375065827}
   - component: {fileID: 72241122469294707}
   - component: {fileID: 4191054593280675230}
+  - component: {fileID: 9089478120375065828}
   m_Layer: 5
   m_Name: TableImage
   m_TagString: Untagged
@@ -11145,6 +11186,7 @@ GameObject:
   - component: {fileID: 2684239122733745067}
   - component: {fileID: 614199562289389377}
   - component: {fileID: 2350296393817488499}
+  - component: {fileID: 6283422812257318133}
   m_Layer: 5
   m_Name: TableImage
   m_TagString: Untagged
@@ -11152,6 +11194,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6283422812257318133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6283422812257318132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59a3e17d4ef946bc441555423f729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objAnim: {fileID: 2684239122733745067}
+  _viewGreenBuySkin: {fileID: 0}
+  _viewBluePutOn: {fileID: 0}
+  _viewBlueTakeOff: {fileID: 0}
 --- !u!114 &6315478040748769644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11292,6 +11350,7 @@ GameObject:
   - component: {fileID: 3717711047106439466}
   - component: {fileID: 8689902526273646414}
   - component: {fileID: 2001118204838364802}
+  - component: {fileID: 8689902526273646415}
   m_Layer: 5
   m_Name: TableImage
   m_TagString: Untagged
@@ -11400,6 +11459,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!114 &6883790271870624869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16868,6 +16929,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &7677171845361701535
 GameObject:
   m_ObjectHideFlags: 0
@@ -17016,6 +17079,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8160391841960622524}
         m_TargetAssemblyTypeName: TowerDefense.MapLevel, Assembly-CSharp
         m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9089478120375065828}
+        m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
+        m_MethodName: ClickAnim
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17606,6 +17681,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8160391842282851694}
         m_TargetAssemblyTypeName: TowerDefense.MapLevel, Assembly-CSharp
         m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9106282457169090558}
+        m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
+        m_MethodName: ClickAnim
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18248,6 +18335,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8160391843629756052}
         m_TargetAssemblyTypeName: TowerDefense.MapLevel, Assembly-CSharp
         m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6283422812257318133}
+        m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
+        m_MethodName: ClickAnim
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24574,6 +24673,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8689902526273646415}
+        m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
+        m_MethodName: ClickAnim
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8160391843135616757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29694,6 +29805,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6465261274803843340}
   m_CullTransparentMesh: 1
+--- !u!114 &8689902526273646415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6465261274803843340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59a3e17d4ef946bc441555423f729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objAnim: {fileID: 3717711047106439466}
+  _viewGreenBuySkin: {fileID: 0}
+  _viewBluePutOn: {fileID: 0}
+  _viewBlueTakeOff: {fileID: 0}
 --- !u!114 &8829174986111441182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30114,6 +30241,22 @@ RectTransform:
   m_AnchoredPosition: {x: 281, y: -279}
   m_SizeDelta: {x: 623, y: 627}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9089478120375065828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6030333465792973653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59a3e17d4ef946bc441555423f729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objAnim: {fileID: 9089478120375065827}
+  _viewGreenBuySkin: {fileID: 0}
+  _viewBluePutOn: {fileID: 0}
+  _viewBlueTakeOff: {fileID: 0}
 --- !u!222 &9106282457169090557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30122,3 +30265,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63044094584207474}
   m_CullTransparentMesh: 1
+--- !u!114 &9106282457169090558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63044094584207474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59a3e17d4ef946bc441555423f729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objAnim: {fileID: 8082265012014879410}
+  _viewGreenBuySkin: {fileID: 0}
+  _viewBluePutOn: {fileID: 0}
+  _viewBlueTakeOff: {fileID: 0}
