@@ -10,6 +10,7 @@ namespace TowerDefense
     public class MapCompletion : SingletonBase<MapCompletion>
     {
         public static event Action OnScoreUpdate;
+        public static event Action OnBarOpenInfoUpdate;
 
         private const string _fileName = "savelvls.dat";
         public string FileName => _fileName;
@@ -54,6 +55,8 @@ namespace TowerDefense
 
         [SerializeField] private int _skinShop;
         public int SkinShop { get { return _skinShop; } set { _skinShop = value; } }
+        [SerializeField] private bool[] _isOpenBar;
+        public bool[] GetOpensBar => _isOpenBar;
 
 
         private new void Awake()
@@ -86,6 +89,7 @@ namespace TowerDefense
         {
             bool flag =  Saver<EpisodeScore[]>.TryLoad(_fileName, ref _completionData);
             Debug.Log(flag + " произошло сохранение!");
+            
 
             if (flag)
             {
@@ -103,6 +107,22 @@ namespace TowerDefense
            // _totalScoreLvls -= _moneyShop;
             OnScoreUpdate?.Invoke();
             Debug.Log(_totalStars);
+            Instance._isOpenBar = new bool[StorageEpisode.Instance.GetEpisodes.Length];
+            _isOpenBar[0] = true;
+            for (int i = 1; i < Instance._isOpenBar.Length; i++)
+			{
+                var episodeScore = GetSumLvlScore(i + 1);
+                var needToOpen = StorageBarsInfo.Instance.InfoBars[i].NeedSumScore;
+                Debug.Log(episodeScore + " " + needToOpen);
+                if (episodeScore >= needToOpen)
+				{
+                    _isOpenBar[i] = true;
+				}
+				else
+				{
+                    _isOpenBar[i] = false;
+                }
+            }
         }
 
         public void SaveNewInUnityProgress()
@@ -151,6 +171,7 @@ namespace TowerDefense
                             item.LvlName = currentSceneName;
 
                         Debug.Log("Level stars: " + levelStars);
+
                         SaveStarsAndScoreLvls(item, levelStars, levelScore);
 
                         var score = item.ScoreLvl;

@@ -47,28 +47,35 @@ MonoBehaviour:
   _dontDestroyOnLoad: 1
   _moneyForSkins: 0
   _save:
-  - skinName: 
-    buy: 0
-    putOn: 0
-    costSkin: 0
-  - skinName: 
-    buy: 0
-    putOn: 0
-    costSkin: 0
+  - _skinName: 
+    _buy: 0
+    _putOn: 0
+    _costSkin: 0
+    _boostName: 
+  - _skinName: 
+    _buy: 0
+    _putOn: 0
+    _costSkin: 0
+    _boostName: 
   _mainSave:
-  - skinName: Simple Guy
-    buy: 0
-    putOn: 0
-    costSkin: 0
-  - skinName: Wizard
-    buy: 0
-    putOn: 0
-    costSkin: 0
-  - skinName: Thief
-    buy: 0
-    putOn: 0
-    costSkin: 0
-  - skinName: Banker
-    buy: 0
-    putOn: 0
-    costSkin: 0
+  - _skinName: SimpleGuy
+    _buy: 1
+    _putOn: 1
+    _costSkin: 0
+    _boostName: 
+  - _skinName: Wizard
+    _buy: 0
+    _putOn: 0
+    _costSkin: 0
+    _boostName: 
+  - _skinName: Thief
+    _buy: 0
+    _putOn: 0
+    _costSkin: 0
+    _boostName: 
+  - _skinName: Banker
+    _buy: 0
+    _putOn: 0
+    _costSkin: 0
+    _boostName: 
+  _deffaultSkinSO: {fileID: 11400000, guid: e6ce5810fb121a842a5e3abb7851e288, type: 2}

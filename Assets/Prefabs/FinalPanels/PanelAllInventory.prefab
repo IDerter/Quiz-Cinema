@@ -101,6 +101,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &789368002431442293
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,6 +360,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &789368003840019520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4841,6 +4845,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &3751236099780212294
 GameObject:
   m_ObjectHideFlags: 0
@@ -5464,6 +5470,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &4844552622231074150
 GameObject:
   m_ObjectHideFlags: 0
@@ -5700,6 +5708,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &5645511377923459529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5801,6 +5811,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &5854375896952119105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7633,6 +7645,8 @@ MonoBehaviour:
   _buttonBuyBoost: {fileID: 0}
   _viewButton: {fileID: 0}
   _numberOfBoosters: 1
+  _overlayButton: {fileID: 0}
+  _overlayCardBooster: {fileID: 0}
 --- !u!1 &7690447251288709547
 GameObject:
   m_ObjectHideFlags: 0
@@ -16914,6 +16928,10 @@ PrefabInstance:
       propertyPath: _asset
       value: 
       objectReference: {fileID: 11400000, guid: a54f763d295f3aa4fbaea5a0b2d1c3ca, type: 2}
+    - target: {fileID: 3006963387775272491, guid: 5eb01a8b6996be7418dba872a63fa9fe, type: 3}
+      propertyPath: _textCost
+      value: 
+      objectReference: {fileID: 4224221867734164703}
     - target: {fileID: 3006963387775272494, guid: 5eb01a8b6996be7418dba872a63fa9fe, type: 3}
       propertyPath: m_Name
       value: DeffaultCoinsPanelOfferX1
@@ -17024,6 +17042,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3006963387775272495, guid: 5eb01a8b6996be7418dba872a63fa9fe, type: 3}
   m_PrefabInstance: {fileID: 3890697716141692123}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4224221867734164703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1108443638892326916, guid: 5eb01a8b6996be7418dba872a63fa9fe, type: 3}
+  m_PrefabInstance: {fileID: 3890697716141692123}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4246284685615348168
 PrefabInstance:
   m_ObjectHideFlags: 0

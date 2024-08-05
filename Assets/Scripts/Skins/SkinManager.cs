@@ -33,6 +33,7 @@ namespace QuizCinema
         }
         [SerializeField] private SkinSave[] _save;
         [SerializeField] private SkinSave[] _mainSave;
+        [SerializeField] private SkinSO _deffaultSkinSO;
         public SkinSave[] MainSave => _mainSave;
 
         private const string _fileNameSkin = "skinSave.dat";
@@ -138,6 +139,10 @@ namespace QuizCinema
                 }
             }
             
+            if (CheckNoEquippedSkin() == true)
+			{
+                PutOnSkin(Instance?._deffaultSkinSO);
+			}
             Instance.OnSaveSkins();
         }
 
@@ -152,5 +157,15 @@ namespace QuizCinema
 			}
             return null;
         }
+
+        public static bool CheckNoEquippedSkin()
+		{
+            foreach (var skin in Instance._mainSave)
+			{
+                if (skin.PutOn)
+                    return false;
+			}
+            return true;
+		}
     }
 }
