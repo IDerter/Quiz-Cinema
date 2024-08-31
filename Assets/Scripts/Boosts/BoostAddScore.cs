@@ -9,7 +9,7 @@ namespace QuizCinema
 {
     public class BoostAddScore : BoostParent
     {
-        [SerializeField] private int _addValue = 100;
+        [SerializeField] private int _addValue = 1000;
 
 
         protected override void OnCreateAnswers(Question question)

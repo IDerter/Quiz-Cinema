@@ -28,6 +28,8 @@ namespace SpaceShooter
         [SerializeField] private int _allKills = 0;
 
         [SerializeField] private int _bestTime = int.MaxValue;
+        [SerializeField] private float _timeAnimClick = 0.5f;
+        public float TimeAnimClick => _timeAnimClick;
 
         private void Start()
         {

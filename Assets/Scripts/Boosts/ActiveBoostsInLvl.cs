@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using static QuizCinema.InterfaceBoost;
 
 namespace QuizCinema
@@ -48,6 +49,15 @@ namespace QuizCinema
                     if (boostSkin.GetSetBoostSO.name == skinPutOn.BoostName)
 					{
                         boostSkin.gameObject.SetActive(true);
+                        if (boostSkin.TryGetComponent(out BoostInGame boostComponent))
+						{
+                            Debug.Log("component - " + boostComponent);
+                            if (boostComponent.IsAllLvlActive)
+                            {
+                                boostSkin.GetComponentInChildren<Button>().onClick.Invoke();
+                                Debug.Log("Active all lvl skin!!!");
+                            }
+                        }
                         _skinTransform.gameObject.SetActive(true);
                     }
 				}
@@ -65,9 +75,13 @@ namespace QuizCinema
                             _sceneBoosts[j].gameObject.SetActive(true);
 
                             boost.gameObject.SetActive(true);
-                            if (boost.isActiveAndEnabled)
+                            if (boost.TryGetComponent(out BoostInGame boostComponent))
                             {
-                               // boost.
+                                if (boostComponent.IsAllLvlActive)
+                                {
+                                    boost.GetComponentInChildren<Button>().onClick.Invoke();
+                                    Debug.Log("Active all lvl booster!!!");
+                                }
                             }
                             // _boostsActive[i].gameObject.SetActive(true);
                         }

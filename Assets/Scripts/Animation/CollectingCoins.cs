@@ -41,9 +41,9 @@ namespace QuizCinema
 
         private Tween coinReactionTween;
 
-        [SerializeField] private int coinStart;
-        [SerializeField] private int coinEnd;
-        [SerializeField] private int needToSum;
+        [SerializeField] private float coinStart;
+        [SerializeField] private float coinEnd;
+        [SerializeField] private float needToSum;
 
         private void Start()
         {
@@ -63,8 +63,8 @@ namespace QuizCinema
 
         private void OnScoreUpdate()
         {
-            Debug.Log("StartCollectingCoins");
-            coinEnd = MapCompletion.Instance.TotalScoreLvls;
+            Debug.Log("StartCollectingCoins " + coinStart);
+            coinEnd = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
             needToSum = coinEnd - coinStart;
            // _coinText.text = (coinEnd - coinStart).ToString();
             if (needToSum > 0)
@@ -105,11 +105,11 @@ namespace QuizCinema
             // Animation the reaction when collecting coin
         }
 
-        private void SetCoin(int value)
+        private void SetCoin(float value)
         {
             Debug.Log("SETCOIN! " + coinStart);
             coinStart += value;
-            _coinText.text = coinStart.ToString();
+            _coinText.text = ((int)coinStart).ToString();
         }
         private async UniTask MoveCoinsTask()
         {
@@ -146,7 +146,7 @@ namespace QuizCinema
                 await coinReactionTween.ToUniTask();
                 coinReactionTween = null;
             }
-
+            //coinStart = coinEnd;
         }
     }
 }

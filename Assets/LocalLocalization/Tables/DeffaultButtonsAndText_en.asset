@@ -50,6 +50,10 @@ MonoBehaviour:
     m_Localized: 'Score:'
     m_Metadata:
       m_Items: []
+  - m_Id: 30350351555420160
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

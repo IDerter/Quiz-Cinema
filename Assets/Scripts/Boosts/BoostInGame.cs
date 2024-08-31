@@ -1,3 +1,4 @@
+using SpaceShooter;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,10 +16,13 @@ namespace QuizCinema
         public bool IsSkinBooster => _isSkinBooster;
         [SerializeField] private GameObject _overlayBooster;
         [SerializeField] private bool _isAllLvlActive = false;
+        public bool IsAllLvlActive => _isAllLvlActive;
+        [SerializeField] private FadeImage _fadeImage;
 
         private void Start()
         {
 			GameManager.Instance.OnNextQuestion += OnNextQuestion;
+            _fadeImage = GetComponent<FadeImage>();
            // if (_boostScript.IsStartActiveBoost)
            //     _boostScript.ActivateBoost();
         }
@@ -34,17 +38,33 @@ namespace QuizCinema
         }
 
         public void BoostActivate()
-		{
+        {
             if (!_isSkinBooster && !_isAllLvlActive)
             {
-                Debug.Log(GetComponentInParent<RectTransform>().gameObject.GetComponentInParent<RectTransform>().gameObject);
-                Destroy(GetComponentInParent<RectTransform>().gameObject);
-            }
+                Transform firstParent = transform.parent;
+                if (firstParent != null)
+                {
+                    // Получаем второго родителя
+                    Debug.Log("Компонент найден 1: " + firstParent.name);
+                    var myComponent = firstParent.GetComponent<RectTransform>();
 
-            else
-            {
-                Debug.Log("_overlayBooster is true");
-                _overlayBooster.SetActive(true);
+                    if (myComponent != null)
+                    {
+                        _fadeImage.FadeStartAnim();
+                        Destroy(myComponent.gameObject, LevelSequenceController.Instance.TimeAnimClick * 2);
+                        Debug.Log("Компонент найден: " + myComponent.ToString());
+                    }
+                    else
+                    {
+                        Debug.Log("Компонент не найден на втором родителе.");
+                    }
+                }
+
+                else
+                {
+                    Debug.Log("_overlayBooster is true");
+                    _overlayBooster.SetActive(true);
+                }
             }
         }
 
