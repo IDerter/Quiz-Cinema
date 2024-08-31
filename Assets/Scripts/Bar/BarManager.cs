@@ -1,3 +1,4 @@
+using SpaceShooter;
 using System.Collections;
 using System.Collections.Generic;
 using TowerDefense;
@@ -9,14 +10,13 @@ namespace QuizCinema
 	{
 		[SerializeField] private MapLevel _level;
 		[SerializeField] private GameObject _panelOpenNextBar;
-		private float duration = 1f;
 		[SerializeField] private bool _isOpen = false;
 
 
 		private void Start()
 		{
-			ResetProgress();
-			Debug.Log(PlayerPrefs.GetInt(_level.Episode.EpisodeName));
+			//ResetProgress();
+			Debug.Log(PlayerPrefs.GetInt(_level.Episode.EpisodeName) + " открыт ли следующий бар!");
 			if (PlayerPrefs.GetInt(_level.Episode.EpisodeName) == 0)
 				OnBarOpenInfoUpdate();
 			else if (PlayerPrefs.GetInt(_level.Episode.EpisodeName) == 0)
@@ -39,7 +39,7 @@ namespace QuizCinema
 
 		private IEnumerator ActivateNewBarPanel()
 		{
-			yield return new WaitForSeconds(duration);
+			yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
 			ShowOpenNewBar();
 		}
 

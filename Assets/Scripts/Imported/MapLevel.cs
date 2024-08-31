@@ -32,7 +32,6 @@ namespace TowerDefense
         [SerializeField] private bool _locked = true;
         public bool Lock { get { return _locked; } set { _locked = value; } }
 
-        private float _animDelay = 0.5f;
 
         public virtual void LoadLevel()
         {
@@ -43,7 +42,7 @@ namespace TowerDefense
 
         private IEnumerator LoadSceneWithDelay()
         {
-            yield return new WaitForSeconds(_animDelay);
+            yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
             LevelSequenceController.Instance.StartEpisode(_episode, MapCompletion.Instance.GetLvlNumber(gameObject.name), gameObject.name);
         }
 

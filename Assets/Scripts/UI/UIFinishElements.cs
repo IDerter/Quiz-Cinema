@@ -11,6 +11,8 @@ namespace QuizCinema
         [SerializeField] private GameManager _gameManager;
         [SerializeField] private GameObject _nextButton;
 
+        private float _animDelay = 0.5f;
+
         private void Start()
         {
             _gameManager.OnFinishGame += OnFinishGame;
@@ -37,6 +39,12 @@ namespace QuizCinema
         public void NextLvl()
         {
             Debug.Log("next lvl");
+            StartCoroutine(LoadSceneWithDelay());
+        }
+
+        private IEnumerator LoadSceneWithDelay()
+        {
+            yield return new WaitForSeconds(_animDelay);
             LevelSequenceController.Instance.NextLevel();
         }
 
