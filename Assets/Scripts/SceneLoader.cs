@@ -36,6 +36,8 @@ namespace QuizCinema
             BoostsManager.Instance.ResetListSaveBoosts();
 
             MapCompletion.ResetEpisodeResult();
+            MapCompletion.ResetLearningAndBarProgress();
+
             SceneManager.LoadScene(_sceneLevelMap);
             //FileHandler.Reset(Upgrades.fileName);
         }

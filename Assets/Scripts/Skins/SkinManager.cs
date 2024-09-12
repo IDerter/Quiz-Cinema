@@ -9,7 +9,7 @@ namespace QuizCinema
     public class SkinManager : SingletonBase<SkinManager>
     {
         public event Action OnBuySkin;
-        public event Action OnPutOn;
+        public event Action<SkinSave> OnPutOn;
 
         [SerializeField] private int _moneyForSkins;
         public int GetMoneyForSkins => _moneyForSkins;
@@ -34,6 +34,7 @@ namespace QuizCinema
         [SerializeField] private SkinSave[] _save;
         [SerializeField] private SkinSave[] _mainSave;
         [SerializeField] private SkinSO _deffaultSkinSO;
+        public SkinSO DeffaultSkinSO => _deffaultSkinSO;
         public SkinSave[] MainSave => _mainSave;
 
         private const string _fileNameSkin = "skinSave.dat";
@@ -117,7 +118,7 @@ namespace QuizCinema
                 {
                     skin.PutOn = true;
                     SkinLoader.Instance.UpdateSkinSave(skin);
-                    Instance.OnPutOn?.Invoke();
+                    Instance.OnPutOn?.Invoke(skin);
                 }
 				else
 				{

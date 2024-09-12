@@ -1,6 +1,7 @@
 using SpaceShooter;
 using System.Collections;
 using System.Collections.Generic;
+using TowerDefense;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,8 +11,6 @@ namespace QuizCinema
     {
         [SerializeField] private GameManager _gameManager;
         [SerializeField] private GameObject _nextButton;
-
-        private float _animDelay = 0.5f;
 
         private void Start()
         {
@@ -39,12 +38,17 @@ namespace QuizCinema
         public void NextLvl()
         {
             Debug.Log("next lvl");
-            StartCoroutine(LoadSceneWithDelay());
+            if (MapCompletion.Instance.CompleteLearning)
+                StartCoroutine(LoadSceneWithDelay());
+			else
+			{
+                LevelSequenceController.Instance.ExitToBar();
+			}
         }
 
         private IEnumerator LoadSceneWithDelay()
         {
-            yield return new WaitForSeconds(_animDelay);
+            yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
             LevelSequenceController.Instance.NextLevel();
         }
 

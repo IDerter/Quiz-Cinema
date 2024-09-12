@@ -48,10 +48,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dontDestroyOnLoad: 1
-  _episodeForTest: {fileID: 0}
+  _episodeForTest: {fileID: 11400000, guid: 97c344234f0594b4cbfcb635ccae5e00, type: 2}
   _maxScore: 0
   _allKills: 0
   _bestTime: 2147483647
+  _timeAnimClick: 0.5
 --- !u!114 &5732681921516635381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc426d89e05309d43b8fef8730e70dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dontDestroyOnLoad: 1
+  _dontDestroyOnLoad: 0
   _completionData:
   - _episodeID: 1
     _stars: 0
@@ -220,6 +221,10 @@ MonoBehaviour:
   _totalStars: 0
   _totalScoreLvls: 0
   _moneyShop: 0
+  _skinShop: 0
+  _isOpenBar: 00000000000000000000
+  _completeLearning: 0
+  _learnSteps: 0000000000
 --- !u!114 &5732681921366584381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,7 +334,6 @@ MonoBehaviour:
     - 
   _mainSaveBoosts:
     _listBoosts:
-    - 
     - 
     - 
     - 

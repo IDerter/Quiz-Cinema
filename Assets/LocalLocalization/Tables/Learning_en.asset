@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Learning_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 30979a1cad302a04bb5d348e0a40400a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7420043264
+    m_Localized: 'Welcome
+
+      in Movie Quizzers!
+
+      This is your card!
+
+      Go
+      to the first bar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 381799424000
+    m_Localized: 'Each bar hosts quizzes.
+
+      Click on the tables
+
+      to play
+      and earn coins!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9653656543232
+    m_Localized: Click Select.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11680381984768
+    m_Localized: "You don't have \nany boosters right now. \nClick play."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23491248447488
+    m_Localized: 'The time to respond
+
+      is limited by a timer.
+
+      Hurry
+      up!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57966611193856
+    m_Localized: "To earn coins - \nbeat your best score."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1333185455906816
+    m_Localized: 'Collect 10 stars
+
+      to open the next bar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1333557377425408
+    m_Localized: "\rClick on the second table."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1853473385930752
+    m_Localized: 'Before starting the game,
+
+      you can choose boosters.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1863523835895808
+    m_Localized: "\rDon't forget that each skin\nhas an ability.\nExcept the Simple
+      Guy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1864202113572864
+    m_Localized: "\rYou can change the skin\nin the store or in your profile."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

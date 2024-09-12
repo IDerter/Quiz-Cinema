@@ -17,12 +17,25 @@ namespace QuizCinema
         [SerializeField] private GameObject _viewBluePutOn;
         [SerializeField] private GameObject _viewBlueTakeOff;
 
+        [SerializeField] private GameObject _openObject;
+        [SerializeField] private GameObject _closeObject;
+        [SerializeField] private bool _isDisable;
+        [SerializeField] private bool _isLoop;
+
         private void Start()
         {
             _objAnim = GetComponent<RectTransform>();
+            if (_isLoop)
+			{
+                if (TryGetComponent(out Animator anim))
+				{
+                    Debug.Log("Animator test!");
+                    anim.enabled = true;
+				}
+			}
         }
 
-        [Button()]
+		[Button()]
         public virtual async void ClickAnim()
         {
             //objTween = _objAnim.DOPunchScale(new Vector3(0.2f, 0.2f, 0.2f), 1f).SetEase(Ease.InOutElastic);
@@ -30,7 +43,14 @@ namespace QuizCinema
             await objTween.ToUniTask();
 
             objTween = _objAnim.DOScale(new Vector3(1f, 1f, 1f), 0.25f);
-            await objTween.ToUniTask();       
+            await objTween.ToUniTask();
+
+            if (_openObject != null)
+                _openObject.SetActive(true);
+            if (_closeObject != null)
+                _closeObject.SetActive(false);
+            if (_isDisable)
+                gameObject.transform.parent.gameObject.SetActive(false);
         }
 
         public async void ClickAnimBuy(bool putOn)

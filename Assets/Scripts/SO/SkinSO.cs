@@ -9,5 +9,7 @@ namespace QuizCinema
     {
         [SerializeField] private BoostSO _boost;
         public string GetBoostName => _boost.name;
+        [SerializeField] private string _descriptionSkinBooster;
+        public string DescriptionSkinBooster => _descriptionSkinBooster;
     }
 }

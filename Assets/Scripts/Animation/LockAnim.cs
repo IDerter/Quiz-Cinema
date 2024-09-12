@@ -22,7 +22,7 @@ namespace QuizCinema
 
 		public void LockBar()
 		{
-            if (_barAnim.IsOpen == 0)
+            if (!_barAnim.IsOpen)
 			{
                 _lock.AnimationState.SetAnimation(1, _namePress, false);
             }

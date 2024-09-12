@@ -11,8 +11,10 @@ namespace TowerDefense
     {
         public static event Action OnScoreUpdate;
         public static event Action OnBarOpenInfoUpdate;
+        public static event Action OnLearningSave;
 
         private const string _fileName = "savelvls.dat";
+        private const string _fileLearningName = "saveLearning.dat";
         public string FileName => _fileName;
 
         [Serializable]
@@ -57,6 +59,10 @@ namespace TowerDefense
         public int SkinShop { get { return _skinShop; } set { _skinShop = value; } }
         [SerializeField] private bool[] _isOpenBar;
         public bool[] GetOpensBar => _isOpenBar;
+        [SerializeField] private bool _completeLearning;
+        public bool CompleteLearning => _completeLearning;
+        [SerializeField] private bool[] _learnSteps = new bool[10];
+        public bool[] LearnSteps { get { return _learnSteps; } set { _learnSteps = value; } }
 
 
         private new void Awake()
@@ -109,6 +115,7 @@ namespace TowerDefense
             Debug.Log(_totalStars);
             Instance._isOpenBar = new bool[StorageEpisode.Instance.GetEpisodes.Length];
             _isOpenBar[0] = true;
+
             for (int i = 1; i < Instance._isOpenBar.Length; i++)
 			{
                 var episodeScore = GetSumLvlScore(i + 1);
@@ -123,14 +130,16 @@ namespace TowerDefense
                     _isOpenBar[i] = false;
                 }
             }
+            Saver<bool[]>.Save(_fileLearningName, Instance._isOpenBar);
         }
 
         public void SaveNewInUnityProgress()
         {
             bool flag = Saver<EpisodeScore[]>.TryLoad(_fileName, ref _completionData);
-            
+            bool flagLearing = Saver<bool[]>.TryLoad(_fileLearningName, ref _learnSteps);
 
             Debug.Log(flag + " произошло попытка получения сохранение! " + _completionData.Length);
+            Debug.Log(flagLearing + " произошло попытка получения сохранение обучения! " + _learnSteps.Length);
 
             if (flag)
             {
@@ -145,7 +154,31 @@ namespace TowerDefense
                 ResetEpisodeResult();
             }
 
+            if (flagLearing)
+			{
+                for (int i = 0; i < _learnSteps.Length; i++)
+				{
+                    Debug.Log(_learnSteps[i] + " checkMapCompletion");
+				}
+			}
+
             LoadData();
+        }
+
+        public static void SaveLearningProgress()
+		{
+            Saver<bool[]>.Save(_fileLearningName, Instance._learnSteps);
+        }
+
+        public static void ResetLearningAndBarProgress()
+		{
+            Instance._learnSteps = new bool[Instance._learnSteps.Length];
+            Instance._isOpenBar = new bool[Instance._isOpenBar.Length];
+        }
+
+        public static void SaveBarProgress()
+        {
+            Saver<bool[]>.Save(_fileLearningName, Instance._isOpenBar);
         }
 
         public static void SaveEpisodeResult(int levelStars, int levelScore)
@@ -313,6 +346,7 @@ namespace TowerDefense
             {
                 if (data.LvlName == episodeName)
                 {
+                    Debug.Log("Max Lvl");
                     return data.MaxScoreLvl;
                 }
             }

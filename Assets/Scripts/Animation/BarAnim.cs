@@ -1,6 +1,8 @@
 using Spine.Unity;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TowerDefense;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,8 +14,8 @@ namespace QuizCinema
         [SerializeField] private SkeletonGraphic _lock;
         [SerializeField] private LockAnim _lockAnim;
 
-        [SerializeField] private int _isOpen = 0;
-        public int IsOpen { get { return _isOpen; } set { _isOpen = value; } }
+        [SerializeField] private bool _isOpen;
+        public bool IsOpen { get { return _isOpen; } set { _isOpen = value; } }
 
         [SerializeField] private string _nameIdle;
         [SerializeField] private string _namePress;
@@ -25,8 +27,9 @@ namespace QuizCinema
         private void Start()
         {
             // ResetProgress();
-            _isOpen = PlayerPrefs.GetInt(gameObject.name);
-            if (_isOpen == 1)
+            var numberBar = int.Parse(gameObject.name.Substring(gameObject.name.Length - 1));
+            _isOpen = MapCompletion.Instance.GetOpensBar[numberBar];
+            if (_isOpen)
                 BarActive();
 
             var animSpineArray = _bar.Skeleton.Data.Animations.ToArray();
@@ -85,15 +88,15 @@ namespace QuizCinema
 
         public void BarOpen()
         {
-            _isOpen = PlayerPrefs.GetInt(gameObject.name);
-            
-            if (_isOpen == 0)
+            var numberBar = int.Parse(gameObject.name.Substring(gameObject.name.Length - 1));
+            _isOpen = MapCompletion.Instance.GetOpensBar[numberBar];
+
+            if (!_isOpen)
             {
                 BarActive();
                 Debug.Log("BarOpen");
                 _lock.AnimationState.SetAnimation(1, "unlocking", false);
                 PlayerPrefs.SetInt(gameObject.name, 1);
-                _isOpen = PlayerPrefs.GetInt(gameObject.name);
 
                 if (_lockAnim != null)
                     _lockAnim.LockBar();

@@ -12,6 +12,13 @@ namespace QuizCinema
 
         private void Start()
         {
+            Debug.Log(_isStopTime);
+            if (!_isStopTime)
+                StartTimer();
+        }
+
+        public void StartTimer()
+		{
             InitiliazeSlider();
             StartSlider();
         }

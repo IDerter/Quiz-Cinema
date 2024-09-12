@@ -22,7 +22,7 @@ namespace QuizCinema
             {
                 _boostSO = boost.GetSetBoostSO;
             }
-            _timerInLvl.IsStopTime = false;
+            //_timerInLvl.IsStopTime = false;
            // _buttonBoost.SetActive(true);
             //SwitchInteractable(true, _buttonBoost);
             Debug.Log("ÇÀÕÎÄÈÌ Â ONCREATEANSWERS Â BOOSTFREEZE!");
@@ -30,6 +30,7 @@ namespace QuizCinema
 
         public override void ActivateBoost(bool everyQuestionActivate)
         {
+            _timerInLvl.IsStopTime = false;
             //base.ActivateBoost();
             Debug.Log("Activate boost freeze");
             if (!_buttonPress)

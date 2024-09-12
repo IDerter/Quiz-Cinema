@@ -214,6 +214,8 @@ namespace QuizCinema
         // CalculateScore TODO
         public void StartCalculateScore()
         {
+            Debug.Log("StartCalculateScore " + MapCompletion.Instance.LearnSteps[1]);
+
             StartCoroutine(CalculateScore());
         }
 
@@ -232,11 +234,18 @@ namespace QuizCinema
 
             var scoreValue = 0;
             var scoreMoreThanZero = _score.CurrentLvlScore > 0;
+            var maxScoreCurrentLvl = MapCompletion.Instance.GetLvlMaxScore(SceneManager.GetActiveScene().name);
+            var maxScoreMoreThanZero = maxScoreCurrentLvl > _score.CurrentLvlScore;
+            if (maxScoreMoreThanZero)
+			{
+                _uIElements.MaxScoreFinalLvl[0].text = maxScoreCurrentLvl.ToString();
+                _uIElements.MaxScoreFinalLvl[1].text = maxScoreCurrentLvl.ToString();
+            }
 
             Debug.Log("scoreMoreThanZero" + scoreMoreThanZero);
             while (scoreMoreThanZero ?  scoreValue < _score.CurrentLvlScore : scoreValue > _score.CurrentLvlScore)
             {
-                yield return new WaitForSeconds(0.001f);
+                yield return new WaitForSeconds(0.00001f);
                 scoreValue += scoreMoreThanZero ? 1 : -1;
 
                 if (_uIElements.ScoreFinalLvl.Length == 2)
@@ -244,8 +253,17 @@ namespace QuizCinema
                     _uIElements.ScoreFinalLvl[0].text = scoreValue.ToString();
                     _uIElements.ScoreFinalLvl[1].text = scoreValue.ToString();
                 }
+                if (_uIElements.MaxScoreFinalLvl.Length == 2 && !maxScoreMoreThanZero)
+                {
+                    _uIElements.MaxScoreFinalLvl[0].text = scoreValue.ToString();
+                    _uIElements.MaxScoreFinalLvl[1].text = scoreValue.ToString();
+                }
+
                 yield return null;
             }
+
+
+
         }
 
 
@@ -254,11 +272,13 @@ namespace QuizCinema
             if (_gameManager.CountCorrectAnswer <= _questionMethods.Data.Questions.Length)
                 _uIElements.NumberCurrentQuestion.text = _gameManager.CountCurrentAnswer + "/" + _questionMethods.Data.Questions.Length;
 
+
             if (_uIElements.ScoreFinalLvl.Length == 2)
             {
                 _uIElements.ScoreFinalLvl[0].text = _score.CurrentLvlScore.ToString();
                 _uIElements.ScoreFinalLvl[1].text = _score.CurrentLvlScore.ToString();
             }
+            
 
             
         }

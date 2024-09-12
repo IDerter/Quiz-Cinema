@@ -30,6 +30,18 @@ MonoBehaviour:
     m_Localized: 'Buy boosters:'
     m_Metadata:
       m_Items: []
+  - m_Id: 33546341418590208
+    m_Localized: Level 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33546403158745088
+    m_Localized: Level 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33546447408652288
+    m_Localized: Level 3
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

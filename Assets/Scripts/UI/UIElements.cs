@@ -31,6 +31,8 @@ namespace QuizCinema
         [Header("Score")]
         [SerializeField] private TextMeshProUGUI[] _scoreFinalLvl;
         public TextMeshProUGUI[] ScoreFinalLvl => _scoreFinalLvl;
+        [SerializeField] private TextMeshProUGUI[] _maxScoreFinalLvl;
+        public TextMeshProUGUI[] MaxScoreFinalLvl => _maxScoreFinalLvl;
 
         [SerializeField] private TextMeshProUGUI _countCurrentScore;
         public TextMeshProUGUI CountCurrentScore => _countCurrentScore;

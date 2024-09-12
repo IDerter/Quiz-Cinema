@@ -58,7 +58,7 @@ MonoBehaviour:
     _costSkin: 0
     _boostName: 
   _mainSave:
-  - _skinName: SimpleGuy
+  - _skinName: Simple Guy
     _buy: 1
     _putOn: 1
     _costSkin: 0
