@@ -33,8 +33,6 @@ namespace QuizCinema
         public float GetTimeLoadLvl => _timeLoadLvl;
         public Animator TimerAnimator { get { return _timerAnimator; } set { value = _timerAnimator; } }
 
-        [SerializeField] private Animator _loadingScreenAnimator;
-
         private bool _isCorrectAnswer;
         private int _levelCountStars = 3;
         public int GetLevelCountStars => _levelCountStars;
@@ -87,9 +85,6 @@ namespace QuizCinema
 
         IEnumerator Downloader()
         {
-           
-            _loadingScreenAnimator.SetInteger(_loadingScreenStateParaHash, 1);
-
             Debug.Log("StartDownloader");
             if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
             {
@@ -122,12 +117,20 @@ namespace QuizCinema
 
             yield return new WaitForSeconds(_timeLoadLvl); //will wait until the download finishes
             _loadLvlBgAnimator.enabled = true;
-
-            _loadingScreenAnimator.SetInteger(_loadingScreenStateParaHash, 0);
             _timerAnimator.enabled = true;
 
+            if (!MapCompletion.Instance.CompleteLearning)
+                _timerInLvl.IsStopTime = true;
+
+            if (_timerInLvl.IsStopTime)
+                _timerInLvl.StopSlider();
+
             _panelInfoQuiz.SetActive(true);
+
+            Debug.Log(_timerInLvl.IsStopTime + " gameManager");
+
             _timerInLvl.gameObject.SetActive(true);
+
             _numberQuestionContainer.SetActive(true);
 
             Debug.Log("End download");
@@ -145,7 +148,6 @@ namespace QuizCinema
 
         public void Accept()
         {
-            
             if (!_pressButtonAnswer)
             {
                 _timerInLvl.StopSlider();

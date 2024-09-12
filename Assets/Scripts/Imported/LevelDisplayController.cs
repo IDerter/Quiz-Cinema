@@ -54,20 +54,26 @@ namespace TowerDefense
             {
                 if (_levels[index].BarAnim != null)
                 {
-                    _levels[index].BarAnim.IsOpen = 1;
+                    _levels[index].BarAnim.IsOpen = true;
                     _levels[index].StartCoroutine(_levels[index].BarAnim.DelayBarActive());
+                    MapCompletion.SaveBarProgress();
+                    Debug.Log("LevelDisController " + activate);
                 }
             }
             else
             {
                 if (_levels[index].BarAnim != null)
                 {
-                    _levels[index].BarAnim.IsOpen = 0;
+                    _levels[index].BarAnim.IsOpen = false;
                     _levels[index].BarAnim.BarInActive();
                 }
             }
 
-            _levels[index].GetLockImage?.gameObject.SetActive(!activate);
+            if (_levels[index].LockAnim != null)
+                _levels[index].LockAnim.AnimationState.SetAnimation(1, "unlocking", false);
+
+            else _levels[index].GetLockImage?.gameObject.SetActive(!activate);
+
             _levels[index].OverlayImage?.gameObject.SetActive(!activate);
         }
 

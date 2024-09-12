@@ -3,6 +3,7 @@ using Spine.Unity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static QuizCinema.SkinManager;
 
 namespace QuizCinema
 {
@@ -17,12 +18,12 @@ namespace QuizCinema
 
 		private void OnDestroy()
 		{
-			SkinManager.Instance.OnBuySkin -= OnPutOn;
+			SkinManager.Instance.OnPutOn -= OnPutOn;
 		}
 
-		private void OnPutOn()
+		private void OnPutOn(SkinSave skinSave)
 		{
-			var skin = SkinManager.GetPutOnSkin();
+			var skin = GetPutOnSkin();
 			Debug.Log(skin.SkinName);
 			_profileData.Skeleton.SetSkin(skin.SkinName);
 		}

@@ -54,6 +54,14 @@ MonoBehaviour:
     m_Localized: Play
     m_Metadata:
       m_Items: []
+  - m_Id: 32112602679402496
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32999915005468672
+    m_Localized: 'Max Score:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

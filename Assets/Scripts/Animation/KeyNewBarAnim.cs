@@ -42,6 +42,8 @@ namespace QuizCinema
         [SerializeField] private int coinStart;
         [SerializeField] private int coinEnd;
         [SerializeField] private int needToSum;
+        [SerializeField] private GameObject _starObj;
+        [SerializeField] private BarSliderProgress _sliderProgress;
 
         private void Start()
         {
@@ -62,7 +64,6 @@ namespace QuizCinema
         public async void KeyAnimStart()
         {
             Debug.Log("StartKeyAnim");
-            
             GameObject keyInstance = Instantiate(keyPrefab, keyParent);
             float xPosition = spawnLocation.position.x + Random.Range(minX, maxX);
             float yPosition = spawnLocation.position.y + Random.Range(minY, maxY);
@@ -74,8 +75,9 @@ namespace QuizCinema
 
             await key.transform.GetComponent<Image>().DOFade(1, duration);
             await UniTask.Delay(TimeSpan.FromSeconds(0.01f));
-            
 
+            Destroy(_sliderProgress.gameObject);
+            Destroy(_starObj);
             MoveKeyTask();
             // Animation the reaction when collecting coin
         }

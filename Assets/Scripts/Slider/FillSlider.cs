@@ -1,5 +1,5 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +7,8 @@ namespace QuizCinema
 {
     public abstract class FillSlider : MonoBehaviour
     {
+        public event Action OnEndFillSlider;
+
         [SerializeField] private Image _fiilLoadingBar;
         [SerializeField] private float _step = 0.00001f;
         [SerializeField] protected float _delay = 1f;
@@ -60,6 +62,7 @@ namespace QuizCinema
                // Debug.Log(timeLeft);
                 yield return null;
             }
+            OnEndFillSlider?.Invoke();
         }   
     }
 }

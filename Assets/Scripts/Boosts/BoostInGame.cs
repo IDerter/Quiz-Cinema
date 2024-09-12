@@ -21,14 +21,17 @@ namespace QuizCinema
 
         private void Start()
         {
-			GameManager.Instance.OnNextQuestion += OnNextQuestion;
+            if (GameManager.Instance != null)
+			    GameManager.Instance.OnNextQuestion += OnNextQuestion;
+
             _fadeImage = GetComponent<FadeImage>();
            // if (_boostScript.IsStartActiveBoost)
            //     _boostScript.ActivateBoost();
         }
 		private void OnDestroy()
 		{
-            GameManager.Instance.OnNextQuestion -= OnNextQuestion;
+            if (GameManager.Instance != null)
+                GameManager.Instance.OnNextQuestion -= OnNextQuestion;
         }
 
 		private void OnNextQuestion()

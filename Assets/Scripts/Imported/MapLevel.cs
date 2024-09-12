@@ -5,6 +5,7 @@ using System;
 using UnityEngine.SceneManagement;
 using QuizCinema;
 using System.Collections;
+using Spine.Unity;
 
 namespace TowerDefense
 {
@@ -24,6 +25,8 @@ namespace TowerDefense
         [SerializeField] private TypeStarts type;
         [SerializeField] private Image _lockImage;
         public Image GetLockImage => _lockImage;
+        [SerializeField] private SkeletonGraphic _lockAnim;
+        public SkeletonGraphic LockAnim { get { return _lockAnim; } set { _lockAnim = value; } }
 
         [SerializeField] private Image _overlayImage;
         public Image OverlayImage => _overlayImage;

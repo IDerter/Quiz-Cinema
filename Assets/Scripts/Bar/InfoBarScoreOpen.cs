@@ -15,5 +15,7 @@ namespace QuizCinema
 
         [SerializeField] private int _needSumScore;
         public int NeedSumScore => _needSumScore;
+        [SerializeField] private int _needStarsScore;
+        public int NeedStarsScore => _needStarsScore;
     }
 }
