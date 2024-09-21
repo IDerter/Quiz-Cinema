@@ -57,6 +57,7 @@ namespace QuizCinema
 
                     if (myComponent != null)
                     {
+                        //Debug.Log()
                         if (_isLearningBooster && MapCompletion.Instance.LearnSteps[3] && !MapCompletion.Instance.LearnSteps[4])
                             _learningLvlManager.ShowGoodJobAfterClickBooster();
 
