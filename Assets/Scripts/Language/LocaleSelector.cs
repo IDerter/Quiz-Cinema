@@ -9,7 +9,7 @@ namespace QuizCinema
 {
     public class LocaleSelector : SingletonBase<LocaleSelector>
     {
-        private bool _active;
+        [SerializeField] private bool _active;
         [SerializeField] private int _localeId;
         [SerializeField] private string tableName = "SkinPanel";
         [SerializeField] private string key = "Simple Guy";
@@ -22,21 +22,23 @@ namespace QuizCinema
 
         public void ChangeLocale(int localeID)
         {
-            if (_active)
-                return;
-
-            StartCoroutine(SetLocale(localeID));
+            // if (_active)
+            //    return;
+            Debug.Log(localeID);
+            SetLocale(localeID);
         }
 
-        IEnumerator SetLocale(int localeID)
+        public void SetLocale(int localeID)
         {
             _active = true;
-            yield return LocalizationSettings.InitializationOperation;
+
             LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
             PlayerPrefs.SetInt("IndexLanguageSave", localeID);
+            Debug.Log(localeID);
+
             _localeId = localeID;
             _active = false;
-            var test = LoadLocalizedString(tableName, key);
+           // var test = LoadLocalizedString(tableName, key);
         }
 
         public async Task<string> LoadLocalizedString(string tableName, string key)

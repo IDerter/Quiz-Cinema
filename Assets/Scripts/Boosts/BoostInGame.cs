@@ -1,6 +1,6 @@
 using SpaceShooter;
-using System.Collections;
-using System.Collections.Generic;
+using System;
+using TowerDefense;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +8,8 @@ namespace QuizCinema
 {
     public class BoostInGame : BoostUICount
     {
+        public event Action OnLearningBooster;
+
         [SerializeField] protected BoostParent _boostScript;
         [SerializeField] protected Button _buttonBoost;
         [SerializeField] private bool _everyQuestionActivate = false;
@@ -18,6 +20,8 @@ namespace QuizCinema
         [SerializeField] private bool _isAllLvlActive = false;
         public bool IsAllLvlActive => _isAllLvlActive;
         [SerializeField] private FadeImage _fadeImage;
+        [SerializeField] private bool _isLearningBooster;
+        [SerializeField] private LearningLvlManager _learningLvlManager;
 
         private void Start()
         {
@@ -53,6 +57,9 @@ namespace QuizCinema
 
                     if (myComponent != null)
                     {
+                        if (_isLearningBooster && MapCompletion.Instance.LearnSteps[3] && !MapCompletion.Instance.LearnSteps[4])
+                            _learningLvlManager.ShowGoodJobAfterClickBooster();
+
                         _fadeImage.FadeStartAnim();
                         Destroy(myComponent.gameObject, LevelSequenceController.Instance.TimeAnimClick * 2);
                         Debug.Log("Компонент найден: " + myComponent.ToString());

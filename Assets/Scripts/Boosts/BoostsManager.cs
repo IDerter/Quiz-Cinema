@@ -245,6 +245,19 @@ namespace QuizCinema
             }
         }
 
+        public static void SetBoostLearningInInventory(BoostSO asset)
+		{
+            foreach (var boost in Instance._mainSave)
+            {
+                if (asset.name.ToString() == boost.boostCorrectAnswerName)
+                {
+                    boost.countBoost = 1;
+
+                    Instance.OnSaveListBoosts();
+                }
+            }
+        }
+
         public static int GetCostBoost(BoostSO asset)
         {
             foreach (var boost in Instance._mainSave)

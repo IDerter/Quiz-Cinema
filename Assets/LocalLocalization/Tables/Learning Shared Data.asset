@@ -59,6 +59,38 @@ MonoBehaviour:
     m_Key: ChangeSkin
     m_Metadata:
       m_Items: []
+  - m_Id: 2806796226191360
+    m_Key: ClickBooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2807986028601344
+    m_Key: ClickCancelBooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2824860665700352
+    m_Key: ClickBoosterAgain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2846014990245888
+    m_Key: GiftBooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3869252260257792
+    m_Key: StartPlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3871365732294656
+    m_Key: BoosterDesc1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3876744457412608
+    m_Key: ClickBoosterLvl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3877405609746432
+    m_Key: GreatJob
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

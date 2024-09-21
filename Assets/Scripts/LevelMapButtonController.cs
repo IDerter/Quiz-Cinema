@@ -29,7 +29,7 @@ namespace QuizCinema
 
         public void LoadLevelMap()
         {
-            SceneManager.LoadScene(_sceneLevelMap);
+            StartCoroutine(LoadSceneWithDelay(_sceneLevelMap));
         }
 
         public void LoadSceneByName(string scene)

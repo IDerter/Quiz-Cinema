@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 4884036852138336366}
   - component: {fileID: 3163314434473614592}
   - component: {fileID: 1659361233948787809}
+  - component: {fileID: 522663175983612819}
   m_Layer: 5
   m_Name: AnswerPrefabImage_var3
   m_TagString: Untagged
@@ -402,6 +403,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _objAnim: {fileID: 0}
+  _viewGreenBuySkin: {fileID: 0}
+  _viewBluePutOn: {fileID: 0}
+  _viewBlueTakeOff: {fileID: 0}
+  _openObject: {fileID: 0}
+  _closeObject: {fileID: 0}
+  _isDisable: 0
+  _isLoop: 0
+--- !u!114 &522663175983612819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459965496055402303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be196fa402d03c646ada6715cdd09ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objAnim: {fileID: 0}
+  _isLoop: 0
 --- !u!1 &2459965496400013112
 GameObject:
   m_ObjectHideFlags: 0

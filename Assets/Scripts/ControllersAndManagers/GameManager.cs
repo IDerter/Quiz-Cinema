@@ -15,6 +15,7 @@ namespace QuizCinema
     {
         public event Action<UIManager.ResolutionScreenType, int> UpdateDisplayScreenResolution;
         public event Action OnFinishGame;
+        public event Action OnDownloadedQuestions;
 
         public event Action OnCorrectAnswer;
         public event Action OnInCorrectAnswer;
@@ -58,6 +59,7 @@ namespace QuizCinema
         #endregion
         private bool _isActivateBoost50Percent = false;
         public bool IsActivateBoost50Percent { get { return _isActivateBoost50Percent; } set { _isActivateBoost50Percent = value; } }
+        
 
         public void Construct(QuestionMethods obj) 
         { 
@@ -75,15 +77,42 @@ namespace QuizCinema
         private void Start()
         {
             _loadingScreenStateParaHash = Animator.StringToHash("Loading Screen");
-           // _timerText.color = _timerDefaultColor;
-   
+			// _timerText.color = _timerDefaultColor;
+			_timerInLvl.OnEndFillSlider += TimerOnEndFillSlider;
+
+
             StartCoroutine(Downloader()); //Call download data
 
             var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
             UnityEngine.Random.InitState(seed);
         }
 
-        IEnumerator Downloader()
+		private void TimerOnEndFillSlider()
+		{
+ 
+            Debug.Log("Accept False");
+           // OnInCorrectAnswer?.Invoke();
+
+            _questionMethods.FinishedQuestions.Add(_questionMethods._currentIndexNotRandom);
+
+            var numberBar = LevelSequenceController.Instance.CurrentEpisode.EpisodeID;
+            var numberLvlInBar = LevelSequenceController.Instance.CurrentLevel;
+
+
+            Debug.Log("TimerOnEndFillSlider");
+            var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar % 5] / _questionMethods.GetLengthQuestions;
+            Debug.Log(scoreAdd / 10 + " СКОЛЬКО НУЖНО ДОБАВИТЬ!");
+            _score.UpdateScoreGame(_isCorrectAnswer ? scoreAdd : -scoreAdd);
+            AudioManager.Instance.PlaySound((_isCorrectAnswer) ? _correctSFX : _inCorrectSFX);
+            //TODO�� ������ �������� _currentIndexNotRandom ������� �� CurrentIndexQuestion � ���� ������� � ����� � QUESTUINMETHODS!!!
+            // !!! !!!!
+            //  _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);
+
+            //  _score.UpdateScoreGame(isCorrect ? _questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore : -_questionMethods.Data.Questions[_questionMethods.CurrentIndexQuestion].AddScore);
+            NextQuestion();
+        }
+
+		IEnumerator Downloader()
         {
             Debug.Log("StartDownloader");
             if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
@@ -134,6 +163,7 @@ namespace QuizCinema
             _numberQuestionContainer.SetActive(true);
 
             Debug.Log("End download");
+            OnDownloadedQuestions?.Invoke();
 
             if (www.isDone == true)
             {
@@ -143,7 +173,6 @@ namespace QuizCinema
                 _questionMethods.Display();
                 Debug.Log("TryToDisplay");
             }
-           
         }
 
         public void Accept()
