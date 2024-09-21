@@ -12,7 +12,7 @@ namespace QuizCinema
         [SerializeField] private Image _fiilLoadingBar;
         [SerializeField] private float _step = 0.00001f;
         [SerializeField] protected float _delay = 1f;
-        [SerializeField] protected float _time = 30f;
+        [SerializeField] protected float _time = 10f;
         [SerializeField] private AudioClip _audioTimer;
 
         private IEnumerator IE_SliderProgress = null;
@@ -62,6 +62,7 @@ namespace QuizCinema
                // Debug.Log(timeLeft);
                 yield return null;
             }
+            Debug.Log("EndFillSlider");
             OnEndFillSlider?.Invoke();
         }   
     }

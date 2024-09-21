@@ -224,7 +224,7 @@ MonoBehaviour:
   _skinShop: 0
   _isOpenBar: 00000000000000000000
   _completeLearning: 0
-  _learnSteps: 0000000000
+  _learnSteps: 00000000000000000000
 --- !u!114 &5732681921366584381
 MonoBehaviour:
   m_ObjectHideFlags: 0

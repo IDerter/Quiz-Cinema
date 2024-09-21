@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96090960970936812}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae0db5f314ac4a4db71c071142ff167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 0
   _sounds:
   - _typeMixer: 1
     _name: CorrectSFX
@@ -71,7 +72,7 @@ MonoBehaviour:
     _source: {fileID: 0}
   - _typeMixer: 0
     _name: GameMusic
-    _clip: {fileID: 8300000, guid: 1ff0aa8067833b646ac563411ed60e3b, type: 3}
+    _clip: {fileID: 8300000, guid: 809fc68855bcdce4b9bce94b58ad1153, type: 3}
     _parameters:
       _volume: 0.2
       _pitch: 1

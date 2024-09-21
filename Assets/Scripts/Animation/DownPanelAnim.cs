@@ -17,6 +17,9 @@ namespace QuizCinema
 
         [SerializeField] private bool _isSelect = false;
         public bool IsSelect => _isSelect;
+        [SerializeField] private bool _isLoadLevel;
+        public bool IsLoadLevel => _isLoadLevel;
+        [SerializeField] private LevelMapButtonController _buttonController;
 
         private void Start()
         {
@@ -29,7 +32,18 @@ namespace QuizCinema
         public void ActivateAnim(SkeletonGraphic graphic)
         {
             _isSelect = true;
-            graphic.AnimationState.SetAnimation(1, _nameAnimSelect, false);
+
+            if (_isLoadLevel)
+			{
+                if (_buttonController != null)
+				{
+                    _buttonController.LoadLevelMap();
+				}
+			}
+			else
+			{
+                graphic.AnimationState.SetAnimation(1, _nameAnimSelect, false);
+            }
         }
 
         public void DisableAnim(SkeletonGraphic graphic)

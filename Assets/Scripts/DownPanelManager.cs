@@ -1,3 +1,4 @@
+using SpaceShooter;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace QuizCinema
         [SerializeField] private Button _buttonShop;
         [SerializeField] private Button _buttonBattle;
 
+        //[SerializeField] private bool _
         [SerializeField] private DownPanelAnim _currentAnimButton;
         private const string _levelMap = "LevelMap";
 
@@ -24,7 +26,10 @@ namespace QuizCinema
             _buttonShop.onClick.AddListener(() => AnimButton(_buttonShop.GetComponent<DownPanelAnim>()));
 
             if (SceneManager.GetActiveScene().name == _levelMap)
-                AnimButton(_buttonMap.GetComponent<DownPanelAnim>());
+			{
+                StartCoroutine(LoadAnimWithDelay());
+			}
+               
             //_buttonBattle.onClick.AddListener(() => MoveAndScaleButton(_buttonBoosters));
         }
 
@@ -43,6 +48,13 @@ namespace QuizCinema
         {
             if (_currentAnimButton != null)
                 _currentAnimButton.DisableAnim(_currentAnimButton.GetGraphicButton);
+        }
+
+        private IEnumerator LoadAnimWithDelay()
+        {
+            yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
+
+            AnimButton(_buttonMap.GetComponent<DownPanelAnim>());
         }
     }
 }

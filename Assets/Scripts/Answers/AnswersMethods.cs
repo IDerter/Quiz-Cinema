@@ -115,6 +115,16 @@ namespace QuizCinema
                 _currentAnswer.Add(newAnswer);
                 Debug.Log(question._cadrCinemaName);
 
+                if (index == 3 && i == 0)
+				{
+                    if (newAnswer.TryGetComponent(out ImageQuestionAnim rect))
+                    {
+                       // newAnswer.GetComponent<ImageQuestionAnim>().IsLoop = true;
+                       // newAnswer.GetComponent<ImageQuestionAnim>().ClickAnim();
+                    }
+                    
+                }
+
                 if (question.GetAnswerType == AnswerType.Single)
                 {
                     if (listIndexCorrectAnswer[0] == i)

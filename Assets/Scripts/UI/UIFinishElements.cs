@@ -42,8 +42,14 @@ namespace QuizCinema
                 StartCoroutine(LoadSceneWithDelay());
 			else
 			{
-                LevelSequenceController.Instance.ExitToBar();
-			}
+                StartCoroutine(LoadExitBarWithDelay());
+            }
+        }
+
+        private IEnumerator LoadExitBarWithDelay()
+        {
+            yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
+            LevelSequenceController.Instance.ExitToBar();
         }
 
         private IEnumerator LoadSceneWithDelay()

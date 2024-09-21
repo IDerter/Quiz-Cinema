@@ -88,7 +88,7 @@ namespace QuizCinema
 
 
 
-        private void UpdateQuestionUI(Question question)
+        public void UpdateQuestionUI(Question question)
         {
 
             UpdateScoreUI();

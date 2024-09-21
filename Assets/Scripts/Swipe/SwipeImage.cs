@@ -80,7 +80,14 @@ namespace QuizCinema
 
         private void OnSwipeInput(Vector2 direction)
         {
-          //  _cadrs[_currentIndex]?.gameObject.SetActive(false);
+            //  _cadrs[_currentIndex]?.gameObject.SetActive(false);
+            
+            if (_cadrs[0].TryGetComponent(out ImageQuestionAnim rect))
+            {
+                _cadrs[0].GetComponent<ImageQuestionAnim>().IsLoop = false;
+                _cadrs[0].GetComponent<ImageQuestionAnim>().SetStartPos();
+            }
+            
 
             SetAlphaTranslucent();
 
