@@ -35,33 +35,33 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4583775574495232
-    m_Localized: 'Choose wisely
+    m_Localized: 'Choose wisely.
 
-      Every skin has an unlimited special power'
+      Every skin has an unlimited special power.'
     m_Metadata:
       m_Items: []
   - m_Id: 4587075615133696
-    m_Localized: 'No powers
+    m_Localized: 'No powers.
 
-      Just a simple guy'
+      Just a Simple Guy.'
     m_Metadata:
       m_Items: []
   - m_Id: 4587533511495680
-    m_Localized: 'Can stops timer for
+    m_Localized: 'Can stop timer for
 
-      10 sec every question'
+      10 sec every question.'
     m_Metadata:
       m_Items: []
   - m_Id: 4587936449892352
     m_Localized: 'Gets an answer
 
-      for one question
+      for one question.
 
 '
     m_Metadata:
       m_Items: []
   - m_Id: 4589013446496256
-    m_Localized: Gets 1K coins after each game
+    m_Localized: Gets 1K coins after each game.
     m_Metadata:
       m_Items: []
   - m_Id: 7190255368736768

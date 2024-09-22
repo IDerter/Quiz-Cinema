@@ -35,6 +35,8 @@ namespace QuizCinema
             BoostsManager.Instance.ResetBoostSave();
             BoostsManager.Instance.ResetListSaveBoosts();
 
+            SkinManager.Instance.ResetSkinSave();
+
             MapCompletion.ResetEpisodeResult();
             MapCompletion.ResetLearningAndBarProgress();
 

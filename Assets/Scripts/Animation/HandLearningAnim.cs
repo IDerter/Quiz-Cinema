@@ -15,6 +15,7 @@ namespace QuizCinema
         private Tween objTween;
         [SerializeField] private bool _directionRight = true;
         [SerializeField] private bool _isLoop = true;
+        [SerializeField] private float _moveValue = 0.25f;
 
 		private void Start()
 		{
@@ -32,11 +33,13 @@ namespace QuizCinema
                 _objAnim.transform.rotation = Quaternion.Euler(rotate);
             }
             objTween = _objAnim.DOScale(new Vector3(0.95f, 0.95f, 0.95f), 1f);
-            objTween = _directionRight ? _objAnim.DOMoveX(0.25f, 1f) : _objAnim.DOMoveX(-0.25f, 1f);
+            objTween = _directionRight ? _objAnim.DOMove(new Vector3(transform.position.x + _moveValue, transform.position.y, transform.position.z), 1f) 
+                : _objAnim.DOMove(new Vector3(transform.position.x - _moveValue, transform.position.y, transform.position.z), 1f);
             await objTween.ToUniTask();
 
             objTween = _objAnim.DOScale(new Vector3(1f, 1f, 1f), 1f);
-            objTween = _directionRight ? _objAnim.DOMoveX(-0.25f, 1f) : _objAnim.DOMoveX(0.25f, 1f);
+            objTween = _directionRight ? _objAnim.DOMove(new Vector3(transform.position.x - _moveValue, transform.position.y, transform.position.z), 1f)
+                : _objAnim.DOMove(new Vector3(transform.position.x + _moveValue, transform.position.y, transform.position.z), 1f);
             await objTween.ToUniTask();
             if (_isLoop)
                 ClickAnim();

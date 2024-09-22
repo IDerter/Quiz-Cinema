@@ -49,6 +49,10 @@ MonoBehaviour:
     m_Localized: Stops time completely
     m_Metadata:
       m_Items: []
+  - m_Id: 39612327318052864
+    m_Localized: No booster selected.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
