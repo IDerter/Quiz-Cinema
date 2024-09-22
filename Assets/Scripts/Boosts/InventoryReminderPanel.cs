@@ -52,6 +52,7 @@ namespace QuizCinema
 					Debug.Log(LocaleSelector.Instance.LoadLocalizedString("SkinPanel", skin.name).Result);
 
 					_textDescriptionSkin.text = LocaleSelector.Instance.LoadLocalizedString("SkinPanel", skin.DescriptionSkinBooster).Result;
+					Debug.Log(LocaleSelector.Instance.LoadLocalizedString("SkinPanel", skin.DescriptionSkinBooster).Result);
 				}
 				if (skinSave.SkinName == SkinManager.Instance.DeffaultSkinSO.name)
 				{

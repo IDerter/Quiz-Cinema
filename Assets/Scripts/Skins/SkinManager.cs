@@ -65,9 +65,11 @@ namespace QuizCinema
 
         private void ResetSkinValues(ref SkinSave[] skinSave)
         {
-            for (int i = 0; i < _save.Length; i++)
+            _save[0].Buy = true;
+            _save[0].PutOn = true;
+
+            for (int i = 1; i < _save.Length; i++)
             {
-                _save[i].SkinName = "";
                 _save[i].Buy = false;
                 _save[i].PutOn = false;
                 _save[i].CostSkin = 0;

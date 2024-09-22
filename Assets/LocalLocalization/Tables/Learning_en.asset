@@ -21,25 +21,22 @@ MonoBehaviour:
   - m_Id: 7420043264
     m_Localized: 'Welcome
 
-      in Movie Quizzers!
+      to Movie Quizzers!
 
-      This is your card!
+      This is your map!
 
-      Go
-      to the first bar.'
+      Enter
+      the first bar.'
     m_Metadata:
       m_Items: []
   - m_Id: 381799424000
-    m_Localized: 'Each bar hosts quizzes.
+    m_Localized: 'Every bar has quiz games.
 
-      Click on the tables
-
-      to play
-      and earn coins!'
+      Tap the table to play.'
     m_Metadata:
       m_Items: []
   - m_Id: 9653656543232
-    m_Localized: Click Select.
+    m_Localized: For now tap Select.
     m_Metadata:
       m_Items: []
   - m_Id: 11680381984768
