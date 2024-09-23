@@ -87,6 +87,10 @@ namespace TowerDefense
                 for (int i = 0; i < value; i++)
                 {
                     _resultImages[i].sprite = _spritesStarsYellow[i];
+                    if (_resultImages[i].TryGetComponent(out StarsTableAnim starsTableAnim))
+                    {
+                        starsTableAnim.StarAnimStart();
+					}
                 }
             }
             else

@@ -32,17 +32,20 @@ namespace QuizCinema
                 rotate.z = _directionRight ? -90 : 90;
                 _objAnim.transform.rotation = Quaternion.Euler(rotate);
             }
-            objTween = _objAnim.DOScale(new Vector3(0.95f, 0.95f, 0.95f), 1f);
-            objTween = _directionRight ? _objAnim.DOMove(new Vector3(transform.position.x + _moveValue, transform.position.y, transform.position.z), 1f) 
-                : _objAnim.DOMove(new Vector3(transform.position.x - _moveValue, transform.position.y, transform.position.z), 1f);
-            await objTween.ToUniTask();
+            if (_objAnim != null)
+			{
+                objTween = _objAnim.DOScale(new Vector3(0.95f, 0.95f, 0.95f), 1f);
+                objTween = _directionRight ? _objAnim.DOMove(new Vector3(_objAnim.transform.position.x + _moveValue, _objAnim.transform.position.y, _objAnim.transform.position.z), 1f)
+                    : _objAnim.DOMove(new Vector3(_objAnim.transform.position.x - _moveValue, _objAnim.transform.position.y, _objAnim.transform.position.z), 1f);
+                await objTween.ToUniTask();
 
-            objTween = _objAnim.DOScale(new Vector3(1f, 1f, 1f), 1f);
-            objTween = _directionRight ? _objAnim.DOMove(new Vector3(transform.position.x - _moveValue, transform.position.y, transform.position.z), 1f)
-                : _objAnim.DOMove(new Vector3(transform.position.x + _moveValue, transform.position.y, transform.position.z), 1f);
-            await objTween.ToUniTask();
-            if (_isLoop)
-                ClickAnim();
+                objTween = _objAnim.DOScale(new Vector3(1f, 1f, 1f), 1f);
+                objTween = _directionRight ? _objAnim.DOMove(new Vector3(_objAnim.transform.position.x - _moveValue, _objAnim.transform.position.y, _objAnim.transform.position.z), 1f)
+                    : _objAnim.DOMove(new Vector3(_objAnim.transform.position.x + _moveValue, _objAnim.transform.position.y, _objAnim.transform.position.z), 1f);
+                await objTween.ToUniTask();
+                if (_isLoop)
+                    ClickAnim();
+            }
         }
     }
 }

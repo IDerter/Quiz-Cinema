@@ -8,6 +8,7 @@ namespace QuizCinema
     public class TextDescription : SingletonBase<TextDescription>
     {
         [SerializeField] private InventoryUIBoosts[] _inventoryUIBoosts;
+        [SerializeField] private TextMeshProUGUI _textNoBooster;
 
         public void ActivateTextDescription(BoostUICount inventoryUIBoosts)
         {
@@ -18,6 +19,7 @@ namespace QuizCinema
                 if (_inventoryUIBoosts[i].name == inventoryUIBoosts.name)
                 {
                     _inventoryUIBoosts[i].ShowTextDesription();
+                    _textNoBooster.gameObject.SetActive(false);
                 }
                 else
                 {
