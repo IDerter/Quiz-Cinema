@@ -46,6 +46,7 @@ namespace TowerDefense
         private IEnumerator LoadSceneWithDelay()
         {
             yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
+            Debug.Log("LoadLevel" + MapCompletion.Instance.GetLvlNumber(gameObject.name));
             LevelSequenceController.Instance.StartEpisode(_episode, MapCompletion.Instance.GetLvlNumber(gameObject.name), gameObject.name);
         }
 

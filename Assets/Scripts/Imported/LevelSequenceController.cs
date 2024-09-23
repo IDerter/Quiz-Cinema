@@ -9,7 +9,7 @@ namespace SpaceShooter
         public static string _mainMenuSceneNickname = "MainMenu";
 
         [SerializeField] private Episode _episodeForTest;
-        public Episode CurrentEpisode { get; private set; }
+        public Episode CurrentEpisode { get; set; }
 
         public int CurrentLevel { get; private set; }
 
@@ -43,7 +43,7 @@ namespace SpaceShooter
 
             LevelStatisics = new PlayerStatistics();
             LevelStatisics.Reset();
-
+            Debug.Log(CurrentEpisode + " " + CurrentLevel);
             SceneManager.LoadScene(episodeName);
         }
 

@@ -40,16 +40,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11680381984768
-    m_Localized: "You don't have \nany boosters right now. \nClick play."
+    m_Localized: "You don't have any\nboosters right now. \nTap Play."
     m_Metadata:
       m_Items: []
   - m_Id: 23491248447488
-    m_Localized: 'The time to respond
+    m_Localized: 'Every question
 
-      is limited by a timer.
+      has a timer.
 
-      Hurry
-      up!'
+      Hurry up!'
     m_Metadata:
       m_Items: []
   - m_Id: 57966611193856
