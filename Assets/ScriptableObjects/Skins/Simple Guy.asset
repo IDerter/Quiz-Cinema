@@ -15,4 +15,4 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: f340683173739524e8716336a0b98dfd, type: 3}
   cost: 0
   _boost: {fileID: 0}
-  _descriptionSkinBooster: No powers. Just a simple guy.
+  _descriptionSkinBooster: No powers. Just a Simple guy.

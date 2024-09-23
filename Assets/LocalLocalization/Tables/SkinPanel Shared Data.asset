@@ -38,13 +38,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4587075615133696
-    m_Key: 'No powers.
-
-      Just a simple guy.'
+    m_Key: No powers. Just a Simple guy.
     m_Metadata:
       m_Items: []
   - m_Id: 4587533511495680
-    m_Key: 'Can stops timer for
+    m_Key: 'Can stop timer for
 
       10 sec every question.'
     m_Metadata:
