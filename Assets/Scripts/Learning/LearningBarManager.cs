@@ -25,6 +25,7 @@ namespace QuizCinema
 		[SerializeField] private BoostSO _boostCorrectAnswer;
 		[SerializeField] private GameObject _overlay50Percent;
 		[SerializeField] private GameObject _overlayTimeStop;
+		[SerializeField] private GameObject _handBoost50Percent;
 
 		private void Start()
 		{
@@ -69,7 +70,6 @@ namespace QuizCinema
 			{
 				MapCompletion.Instance.LearnSteps[2] = true;
 				MapCompletion.SaveLearningProgress();
-				BoostsManager.SetBoostLearningInInventory(_boostCorrectAnswer);
 				_imageOverlayBooster1.SetActive(false);
 				_imageOverlayBooster2.SetActive(true);
 				_imageAnimProfile2.SetActive(true);
@@ -80,6 +80,7 @@ namespace QuizCinema
 				_imageOverlayBooster2.SetActive(false);
 				_imageAnimProfile4.SetActive(true);
 				BoostsManager.SetBoostLearningInInventory(_boost50Percent);
+				_handBoost50Percent.SetActive(true);
 				//_overlay50Percent.SetActive(true);
 				_overlayTimeStop.SetActive(true);
 			}
@@ -89,6 +90,11 @@ namespace QuizCinema
 		{
 			MapCompletion.Instance.LearnSteps[3] = true;
 			MapCompletion.SaveLearningProgress();
+		}
+
+		public void CorrectAnswerGift()
+		{
+			BoostsManager.SetBoostLearningInInventory(_boostCorrectAnswer);
 		}
 	}
 }

@@ -62,7 +62,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1333557377425408
-    m_Localized: "\rClick on the second table."
+    m_Localized: Tap second table.
     m_Metadata:
       m_Items: []
   - m_Id: 1853473385930752
@@ -72,12 +72,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1863523835895808
-    m_Localized: "\rDon't forget that each skin\nhas an ability.\nExcept the Simple
+    m_Localized: "\rDon't forget that \neach skin has an ability.\nExcept the Simple
       Guy."
     m_Metadata:
       m_Items: []
   - m_Id: 1864202113572864
-    m_Localized: "\rYou can change the skin\nin the store or in your profile."
+    m_Localized: "\rYou can change skin\ninside the store\nor in your profile."
     m_Metadata:
       m_Items: []
   - m_Id: 2806796226191360
@@ -124,6 +124,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3877405609746432
     m_Localized: You're doing great, keep playing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410299494424576
+    m_Localized: Tap Select.
     m_Metadata:
       m_Items: []
   references:
