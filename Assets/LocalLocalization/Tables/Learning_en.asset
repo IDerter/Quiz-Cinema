@@ -81,7 +81,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2806796226191360
-    m_Localized: 'Click on the booster
+    m_Localized: 'Tap on the booster
 
       to take it into the game.'
     m_Metadata:
@@ -93,18 +93,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2824860665700352
-    m_Localized: 'In the upper left corner of the booster,
-
-      its quantity is
-      displayed.
-
-      Press again.'
+    m_Localized: "In the upper left corner\nof the booster, \ndisplayed its amount.\nPress
+      again."
     m_Metadata:
       m_Items: []
   - m_Id: 2846014990245888
-    m_Localized: 'Keep the gift!
+    m_Localized: 'Here is your gift!
 
-      Note that each booster has a description
+      Note that each booster has a description.
 
 '
     m_Metadata:
@@ -119,11 +115,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3876744457412608
-    m_Localized: "\rClick on the booster to use it."
+    m_Localized: 'Tap on the booster
+
+      to use it.'
     m_Metadata:
       m_Items: []
   - m_Id: 3877405609746432
-    m_Localized: You're doing great, keep playing!
+    m_Localized: 'You''re doing great,
+
+      keep playing!'
     m_Metadata:
       m_Items: []
   - m_Id: 6410299494424576
