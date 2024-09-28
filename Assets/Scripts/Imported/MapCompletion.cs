@@ -174,6 +174,7 @@ namespace TowerDefense
 		{
             Instance._learnSteps = new bool[Instance._learnSteps.Length];
             Instance._isOpenBar = new bool[Instance._isOpenBar.Length];
+            Instance._isOpenBar[0] = true;
         }
 
         public static void SaveBarProgress()

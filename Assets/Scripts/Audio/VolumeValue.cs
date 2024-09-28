@@ -26,28 +26,29 @@ namespace QuizCinema
         private void Start()
         {
             Debug.Log("Load volume data");
-            // _toogleMusic.isOn = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
-            //    _toogleSFX.isOn = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
-            //Debug.Log(PlayerPrefs.GetFloat("SoundsVolumeSave"));
+
+            _audioMixerGroup.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-40, 0, PlayerPrefs.GetFloat("MusicVolumeSave", 1)));
+            _audioMixerGroup.audioMixer.SetFloat("SoundsVolume", Mathf.Lerp(-40, 0,  PlayerPrefs.GetFloat("SoundsVolumeSave", 1)));
+        }
+
+        public void GameStop()
+        {
+            Time.timeScale = 0;
+        }
+
+        public void GameStart()
+        {
+            Time.timeScale = 1;
+        }
+
+        public void SetSliderValue()
+		{
             _silderSoundsVolume.value = PlayerPrefs.GetFloat("SoundsVolumeSave", 1);
             _slidersSettings.SliderFillVolume.fillAmount = _silderSoundsVolume.value;
 
             //  Debug.Log(PlayerPrefs.GetFloat("MusicVolumeSave"));
             _silderMusicVolume.value = PlayerPrefs.GetFloat("MusicVolumeSave", 1);
             _slidersSettings.SliderFillMusic.fillAmount = _silderMusicVolume.value;
-
-            _audioMixerGroup.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, _silderMusicVolume.value));
-            _audioMixerGroup.audioMixer.SetFloat("SoundsVolume", Mathf.Lerp(-80, 0, _silderSoundsVolume.value));
-        }
-
-        private void OnEnable()
-        {
-            Time.timeScale = 0;
-        }
-
-        private void OnDisable()
-        {
-            Time.timeScale = 1;
         }
 
       /*  public void ToogleMusic(bool enabled)
@@ -81,14 +82,14 @@ namespace QuizCinema
 
         public void SliderMusic(float volume)
         {
-            _musicAudioMixer.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0, volume));
+            _musicAudioMixer.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-40, 0, volume));
 
             PlayerPrefs.SetFloat("MusicVolumeSave", volume);
         }
 
         public void ChangeVolume(float volume)
         {
-            _audioMixerGroup.audioMixer.SetFloat("SoundsVolume", Mathf.Lerp(-80, 0, volume));
+            _audioMixerGroup.audioMixer.SetFloat("SoundsVolume", Mathf.Lerp(-40, 0, volume));
 
             PlayerPrefs.SetFloat("SoundsVolumeSave", volume);
         }

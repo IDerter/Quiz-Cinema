@@ -79,7 +79,10 @@ namespace QuizCinema
 
 		public void ShowGoodJobAfterClickBooster()
 		{
+			_overlayHintsBoosterDescription.SetActive(false);
 			_overlayHintsBoosterAfterClick.SetActive(true);
+			MapCompletion.Instance.LearnSteps[4] = true;
+			MapCompletion.SaveLearningProgress();
 		}
 	}
 }
