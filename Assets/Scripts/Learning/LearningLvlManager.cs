@@ -83,6 +83,7 @@ namespace QuizCinema
 			_overlayHintsBoosterAfterClick.SetActive(true);
 			MapCompletion.Instance.LearnSteps[4] = true;
 			MapCompletion.SaveLearningProgress();
+			MapCompletion.SaveFinishLearining();
 		}
 	}
 }

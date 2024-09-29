@@ -68,15 +68,26 @@ namespace QuizCinema
             AnswersMethods.Instance.OnCreateAnswers += OnCreateAnswers;
 
             QuestionMethods.Instance.CurrentAnswerList += UpdateCurrentAnswerList;
+
+            if (LanguageChanger.Instance != null)
+			    LanguageChanger.Instance.OnChangeLanguage += OnChangeLanguage;
         }
 
-        private void OnDestroy()
+		private void OnChangeLanguage()
+		{
+			
+		}
+
+		private void OnDestroy()
         {
             AnswerData.UpdateQuestionAnswer -= UpdateQuestionAnswer;
 
             AnswersMethods.Instance.OnCreateAnswers -= OnCreateAnswers;
 
             QuestionMethods.Instance.CurrentAnswerList -= UpdateCurrentAnswerList;
+
+            if (LanguageChanger.Instance != null)
+                LanguageChanger.Instance.OnChangeLanguage -= OnChangeLanguage;
         }
 
         private void UpdateQuestionAnswer(AnswerData answerData)
@@ -87,6 +98,7 @@ namespace QuizCinema
 
         private void OnCorrectAnswer()
         {
+            _indexLang = PlayerPrefs.GetInt("IndexLanguageSave");
             CorrectSetActive(true);
             Debug.Log("ONCORRECTANSWERS");
             if (_currentQuestion._answerType == AnswerType.Single && _currentQuestion.IndexPrefab != 3)
@@ -113,6 +125,7 @@ namespace QuizCinema
 
         private void OnInCorrectAnswer()
         {
+            _indexLang = PlayerPrefs.GetInt("IndexLanguageSave");
             Debug.Log("STARTONINCORRECTANSWER! " + _currentQuestion.IndexPrefab);
             CorrectSetActive(false);
             if (_currentQuestion.IndexPrefab < 3 && _currentQuestion._answerType == AnswerType.Single)

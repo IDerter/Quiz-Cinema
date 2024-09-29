@@ -14,7 +14,9 @@ namespace TowerDefense
         public static event Action OnLearningSave;
 
         private const string _fileName = "savelvls.dat";
-        private const string _fileLearningName = "saveLearning.dat";
+        private const string _fileBarsSave = "saveBars.dat";
+        private const string _fileLearningStepsName = "saveLearningSteps.dat";
+        public string FileLearning => _fileLearningStepsName;
         public string FileName => _fileName;
 
         [Serializable]
@@ -95,7 +97,8 @@ namespace TowerDefense
         {
             bool flag =  Saver<EpisodeScore[]>.TryLoad(_fileName, ref _completionData);
             Debug.Log(flag + " произошло сохранение!");
-            
+
+            //bool flagLearningSteps = Saver<bool[]>.TryLoad(_fileLearningStepsName, ref _learnSteps);
 
             if (flag)
             {
@@ -115,13 +118,16 @@ namespace TowerDefense
             Debug.Log(_totalStars);
             Instance._isOpenBar = new bool[StorageEpisode.Instance.GetEpisodes.Length];
             _isOpenBar[0] = true;
-
+            bool flagOpenBar = Saver<bool[]>.TryLoad(_fileBarsSave, ref Instance._isOpenBar);
+            Saver<bool[]>.Save(_fileBarsSave, Instance._isOpenBar);
+            /*
             for (int i = 1; i < Instance._isOpenBar.Length; i++)
 			{
-                var episodeScore = GetSumLvlScore(i + 1);
-                var needToOpen = StorageBarsInfo.Instance.InfoBars[i].NeedSumScore;
-                Debug.Log(episodeScore + " " + needToOpen);
-                if (episodeScore >= needToOpen)
+                var episodeStars = GetEpisodeStars(i);
+                var needToOpenStars = StorageBarsInfo.Instance.InfoBars[i].NeedStarsScore;
+
+                Debug.Log(episodeStars + " " + needToOpenStars);
+                if (episodeStars >= needToOpenStars)
 				{
                     _isOpenBar[i] = true;
 				}
@@ -130,16 +136,19 @@ namespace TowerDefense
                     _isOpenBar[i] = false;
                 }
             }
-            Saver<bool[]>.Save(_fileLearningName, Instance._isOpenBar);
+            */
+            Saver<bool[]>.Save(_fileBarsSave, Instance._isOpenBar);
+            Saver<bool[]>.Save(_fileLearningStepsName, Instance._learnSteps);
         }
 
         public void SaveNewInUnityProgress()
         {
             bool flag = Saver<EpisodeScore[]>.TryLoad(_fileName, ref _completionData);
-            bool flagLearing = Saver<bool[]>.TryLoad(_fileLearningName, ref _learnSteps);
+            bool flagBarsSave = Saver<bool[]>.TryLoad(_fileBarsSave, ref _isOpenBar);
+            bool flagLearningSteps = Saver<bool[]>.TryLoad(_fileLearningStepsName, ref _learnSteps);
 
             Debug.Log(flag + " произошло попытка получения сохранение! " + _completionData.Length);
-            Debug.Log(flagLearing + " произошло попытка получения сохранение обучения! " + _learnSteps.Length);
+            Debug.Log(flagLearningSteps + " произошло попытка получения сохранение обучения! " + _learnSteps.Length);
 
             if (flag)
             {
@@ -153,13 +162,10 @@ namespace TowerDefense
             {
                 ResetEpisodeResult();
             }
-
-            if (flagLearing)
+            if (flagLearningSteps)
 			{
-                for (int i = 0; i < _learnSteps.Length; i++)
-				{
-                    Debug.Log(_learnSteps[i] + " checkMapCompletion");
-				}
+                if (_learnSteps[4])
+                    SaveFinishLearining();
 			}
 
             LoadData();
@@ -167,7 +173,12 @@ namespace TowerDefense
 
         public static void SaveLearningProgress()
 		{
-            Saver<bool[]>.Save(_fileLearningName, Instance._learnSteps);
+            Saver<bool[]>.Save(_fileLearningStepsName, Instance._learnSteps);
+        }
+
+        public static void SaveFinishLearining()
+        {
+            Instance._completeLearning = true;
         }
 
         public static void ResetLearningAndBarProgress()
@@ -175,11 +186,13 @@ namespace TowerDefense
             Instance._learnSteps = new bool[Instance._learnSteps.Length];
             Instance._isOpenBar = new bool[Instance._isOpenBar.Length];
             Instance._isOpenBar[0] = true;
+            Saver<bool[]>.Save(_fileLearningStepsName, Instance._learnSteps);
+            Saver<bool[]>.Save(_fileBarsSave, Instance._isOpenBar);
         }
 
         public static void SaveBarProgress()
         {
-            Saver<bool[]>.Save(_fileLearningName, Instance._isOpenBar);
+            Saver<bool[]>.Save(_fileBarsSave, Instance._isOpenBar);
         }
 
         public static void SaveEpisodeResult(int levelStars, int levelScore)

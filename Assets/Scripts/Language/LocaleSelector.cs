@@ -32,7 +32,7 @@ namespace QuizCinema
         {
             _active = true;
 
-            //LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
             PlayerPrefs.SetInt("IndexLanguageSave", localeID);
             Debug.Log(localeID);
 

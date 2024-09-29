@@ -12,6 +12,7 @@ namespace QuizCinema
         [SerializeField] private GameObject _overlaySecondOpenHint;
 		[SerializeField] private GameObject _lvl_1Bar1;
 		[SerializeField] private GameObject _lvl_2Bar1;
+		[SerializeField] private Button _lvl1_1Table;
 		[SerializeField] private GameObject _lvl_2_Overlay;
 		[SerializeField] private SkeletonGraphic _lockLvl2;
 		[SerializeField] private Button _lvl_2Button;
@@ -27,22 +28,34 @@ namespace QuizCinema
 		[SerializeField] private GameObject _overlayTimeStop;
 		[SerializeField] private GameObject _handBoost50Percent;
 
+		private void Awake()
+		{
+			if (MapCompletion.Instance.CompleteLearning)
+			{
+				_lvl_1Bar1.SetActive(true);
+				_lvl_2Bar1.SetActive(true);
+				_lvl1_1Table.interactable = true;
+			}
+		}
+
 		private void Start()
 		{
 			Debug.Log("StartLearning");
 			if (MapCompletion.Instance.LearnSteps[0] == true && MapCompletion.Instance.LearnSteps[1] == true && MapCompletion.Instance.LearnSteps[2] == false)
 			{
-				StartCoroutine(DelayOverlaySetActive(_overlaySecondOpenHint, 3.5f, true));
+				StartCoroutine(DelayOverlaySetActive(_overlaySecondOpenHint, 3f, true));
 				_overlayFirstOpenHint.SetActive(false);
 			}
 			else if (MapCompletion.Instance.LearnSteps[0] == true && MapCompletion.Instance.LearnSteps[1] == false)
 			{
+				_lvl1_1Table.interactable = false;
 				StartCoroutine(DelayOverlaySetActive(_overlayFirstOpenHint, 1.5f, false));
 				_overlaySecondOpenHint.SetActive(false);
 				Debug.Log("first hint");
 			}
 			else
 			{
+				_lvl1_1Table.interactable = true;
 				_lvl_1Bar1.SetActive(true);
 				_lvl_2Bar1.SetActive(true);
 			}

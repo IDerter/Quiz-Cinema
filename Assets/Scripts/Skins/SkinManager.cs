@@ -116,6 +116,7 @@ namespace QuizCinema
 		{
             foreach (var skin in Instance._mainSave)
             {
+                Debug.Log(asset.name + " " + skin.SkinName);
                 if (asset.name.ToString() == skin.SkinName)
                 {
                     skin.PutOn = true;

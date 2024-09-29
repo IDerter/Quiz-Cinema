@@ -27,18 +27,31 @@ namespace QuizCinema
 			{
                 if (_prevValue - value > 0)
                 {
-                    _overlayBottom.SetActive(false);
-                    _overlayTop.SetActive(true);
+                    //_overlayBottom.SetActive(false);
+                    //_overlayTop.SetActive(true);
+                    if (_overlayTop.TryGetComponent(out FadeImage fadeOverlayTopImage))
+                        fadeOverlayTopImage.FadeInStartAnim();
+                    if (_overlayBottom.TryGetComponent(out FadeImage fadeOverlayBottomImage))
+                        fadeOverlayBottomImage.FadeOutStartAnim();
                 }
                 else if (_prevValue - value < 0)
                 {
-                    _overlayBottom.SetActive(true);
-                    _overlayTop.SetActive(false);
+                    // _overlayBottom.SetActive(true);
+                    // _overlayTop.SetActive(false);
+                    if (_overlayTop.TryGetComponent(out FadeImage fadeOverlayTopImage))
+                        fadeOverlayTopImage.FadeOutStartAnim();
+                    if (_overlayBottom.TryGetComponent(out FadeImage fadeOverlayBottomImage))
+                        fadeOverlayBottomImage.FadeInStartAnim();
+
                 }
                 else
                 {
-                    _overlayBottom.SetActive(false);
-                    _overlayTop.SetActive(false);
+                    // _overlayBottom.SetActive(false);
+                    // _overlayTop.SetActive(false);
+                    if (_overlayTop.TryGetComponent(out FadeImage fadeOverlayTopImage))
+                        fadeOverlayTopImage.FadeOutStartAnim();
+                    if (_overlayBottom.TryGetComponent(out FadeImage fadeOverlayBottomImage))
+                        fadeOverlayBottomImage.FadeOutStartAnim();
                 }
 
                 _prevValue = value;
@@ -48,8 +61,12 @@ namespace QuizCinema
 
         public void ResetState()
 		{
-            _overlayBottom.SetActive(true);
-            _overlayTop.SetActive(false);
+            //_overlayBottom.SetActive(true);
+            //_overlayTop.SetActive(false);
+            if (_overlayTop.TryGetComponent(out FadeImage fadeOverlayTopImage))
+                fadeOverlayTopImage.FadeOutStartAnim();
+            if (_overlayBottom.TryGetComponent(out FadeImage fadeOverlayBottomImage))
+                fadeOverlayBottomImage.FadeInStartAnim();
             scrollbar.value = 1;
         }
     }

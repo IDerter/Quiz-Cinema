@@ -61,7 +61,7 @@ namespace QuizCinema
                         if (_isLearningBooster && MapCompletion.Instance.LearnSteps[3] && !MapCompletion.Instance.LearnSteps[4])
                             _learningLvlManager.ShowGoodJobAfterClickBooster();
 
-                        _fadeImage.FadeStartAnim();
+                        _fadeImage.FadeOutStartAnim();
                         Destroy(myComponent.gameObject, LevelSequenceController.Instance.TimeAnimClick * 2);
                         Debug.Log("Компонент найден: " + myComponent.ToString());
                     }

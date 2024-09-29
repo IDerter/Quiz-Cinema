@@ -27,6 +27,7 @@ namespace QuizCinema
             {
                 foreach (var elem in DictionarySkinButtons.Keys)
 				{
+                    Debug.Log(skinList[i].SkinName + " " + elem.name);
                     if (skinList[i].SkinName == elem.name.ToString())
 					{
                         var buttonGreen = DictionarySkinButtons[elem].GetValue(0) as GameObject;
@@ -64,8 +65,10 @@ namespace QuizCinema
 
         public void UpdateSkinSave(SkinManager.SkinSave skinSave)
         {
+            Debug.Log(skinSave.SkinName + " SKINLOADER");
             foreach (var elem in DictionarySkinButtons.Keys)
             {
+                Debug.Log(skinSave.SkinName + " " + elem.name);
                 if (skinSave.SkinName == elem.name.ToString())
                 {
                     var buttonGreen = DictionarySkinButtons[elem].GetValue(0) as GameObject;

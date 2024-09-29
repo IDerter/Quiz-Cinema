@@ -6062,6 +6062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edbb6659becb1b7469f13daf0c6d83c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 0
   _audioClipButtonClick: {fileID: 8300000, guid: 822811e1568d2e243b03cf1ac6886630, type: 3}
   _buttonsLanguage:
   - {fileID: 4630224329342323475}
@@ -6580,7 +6581,7 @@ RectTransform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 26.599976, y: 0.00020599365}
   m_SizeDelta: {x: 145.6, y: -128.80005}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10044,7 +10045,7 @@ RectTransform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 26.600006, y: -0.39977264}
   m_SizeDelta: {x: 145.6, y: -128.80005}
   m_Pivot: {x: 0.5, y: 0.5}

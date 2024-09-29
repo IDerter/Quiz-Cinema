@@ -95,6 +95,10 @@ MonoBehaviour:
     m_Key: Press Select
     m_Metadata:
       m_Items: []
+  - m_Id: 7628562182234112
+    m_Key: ChooseLanguage
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

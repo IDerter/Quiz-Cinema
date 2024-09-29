@@ -212,14 +212,14 @@ namespace QuizCinema
         }
 
         // CalculateScore TODO
-        public void StartCalculateScore()
+        public void StartCalculateScore(int levelCountsStars)
         {
             Debug.Log("StartCalculateScore " + MapCompletion.Instance.LearnSteps[1]);
 
-            StartCoroutine(CalculateScore());
+            StartCoroutine(CalculateScore(levelCountsStars));
         }
 
-        IEnumerator CalculateScore()
+        IEnumerator CalculateScore(int levelCountsStars)
         {
             Debug.Log("StartCalculate");
             if (_score.CurrentLvlScore == 0)
@@ -263,7 +263,7 @@ namespace QuizCinema
             }
 
 
-
+            MapCompletion.SaveEpisodeResult(levelCountsStars, _score.CurrentLvlScore);
         }
 
 
