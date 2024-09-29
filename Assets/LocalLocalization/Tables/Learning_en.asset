@@ -130,6 +130,11 @@ MonoBehaviour:
     m_Localized: Tap Select.
     m_Metadata:
       m_Items: []
+  - m_Id: 7628562182234112
+    m_Localized: "These are your settings. \nHere you can change\nthe volume and
+      select \nthe game language."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

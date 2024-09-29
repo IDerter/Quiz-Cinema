@@ -23,9 +23,9 @@ namespace QuizCinema
 
 		private void OnPutOn(SkinSave skinSave)
 		{
-			var skin = GetPutOnSkin();
-			Debug.Log(skin.SkinName);
-			_profileData.Skeleton.SetSkin(skin.SkinName);
+			//var skin = GetPutOnSkin();
+			//Debug.Log(skin.SkinName);
+			//_profileData.Skeleton.SetSkin(skin.SkinName);
 		}
 	}
 }

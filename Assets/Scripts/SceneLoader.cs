@@ -18,13 +18,15 @@ namespace QuizCinema
         private const string _sceneLevelMap = "LevelMap";
         private const string _sceneMainMenu = "MainMenu";
         private const string _sceneShop = "Shop";
+        [SerializeField] private string[] _lvls;
+        [SerializeField] private string[] _stars;
 
         [SerializeField] private AudioClip _audioClipButtonClick;
 
         private void Start()
         {
             if (_buttonContinue != null)
-               _buttonContinue.interactable = FileHandler.HasFile(MapCompletion.Instance.FileName);
+               _buttonContinue.interactable = (FileHandler.HasFile(MapCompletion.Instance.FileName) || FileHandler.HasFile(MapCompletion.Instance.FileLearning));
         }
 
 
@@ -41,6 +43,13 @@ namespace QuizCinema
             MapCompletion.ResetLearningAndBarProgress();
 
             SceneManager.LoadScene(_sceneLevelMap);
+
+            foreach (var lvl in _lvls)
+			{
+                PlayerPrefs.SetInt(lvl, 0);
+                foreach (var star in _stars)
+                    PlayerPrefs.SetInt(lvl + star, 0);
+            }
             //FileHandler.Reset(Upgrades.fileName);
         }
 

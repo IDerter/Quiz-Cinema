@@ -46,7 +46,7 @@ namespace QuizCinema
             starPrefab = gameObject;
             starParent = GetComponent<RectTransform>();
             spawnLocation = GetComponent<RectTransform>();
-            ResetSaveUIStars();
+            //ResetSaveUIStars();
         }
 
         private void OnDestroy()
@@ -83,6 +83,7 @@ namespace QuizCinema
         public bool IsSaveUIStarProgress()
 		{
             var nameStar = GetParentName();
+            Debug.Log(nameStar);
             if (nameStar.Length == 0)
 			{
                 return false;

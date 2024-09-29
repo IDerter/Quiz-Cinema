@@ -14,15 +14,16 @@ namespace TowerDefense
         [SerializeField] private Episode _episode;
         public Episode Episode { get { return _episode; } set { _episode = value; } }
         [SerializeField] private GameObject _resultPanel;
-        public GameObject ResultPanel { get {return _resultPanel; } set { _resultPanel = value; } }
+        public GameObject ResultPanel { get { return _resultPanel; } set { _resultPanel = value; } }
         [SerializeField] private Image[] _resultImages;
-        public Image[] ResultImages { get {return _resultImages; } set {_resultImages = value; } }
+        public Image[] ResultImages { get { return _resultImages; } set { _resultImages = value; } }
         [SerializeField] private Sprite[] _spritesStarsYellow;
         public Sprite[] SpritesStarts { get { return _spritesStarsYellow; } set { _spritesStarsYellow = value; } }
 
         public bool IsComplete => gameObject.activeSelf && _resultPanel.activeSelf;
 
-        [SerializeField] private TypeStarts type;
+        [SerializeField] private TypeStarts _type;
+        public TypeStarts GetType => _type;
         [SerializeField] private Image _lockImage;
         public Image GetLockImage => _lockImage;
         [SerializeField] private SkeletonGraphic _lockAnim;
@@ -56,23 +57,40 @@ namespace TowerDefense
             var starsEpisode = MapCompletion.Instance.GetEpisodeStars(indexEpisode);
 
             var sumLvlScore = MapCompletion.Instance.GetSumLvlScore(indexEpisode);
-            var needSumToOpenBar = StorageBarsInfo.Instance.InfoBars[indexEpisode - 1].NeedSumScore;
-            int score = Convert.ToInt32(Math.Round((double)(starsEpisode / _episode.Levels.Length)));
+            //var needSumToOpenBar = StorageBarsInfo.Instance.InfoBars[indexEpisode - 1].NeedSumScore;
+            //int score = Convert.ToInt32(Math.Round((double)(starsEpisode / _episode.Levels.Length)));
+            var needStarsToOpenBar = StorageBarsInfo.Instance.InfoBars[indexEpisode - 1].NeedStarsScore;
+            var scoreBar = starsEpisode - needStarsToOpenBar;
 
-            var check = sumLvlScore > needSumToOpenBar ? score : 0;
-            Debug.Log(check + " Можно ли открыть бар! " + gameObject.name + $"SumLvlScore : {sumLvlScore} needSumToOpenBar: {needSumToOpenBar} " + indexEpisode);
+            var starUpBar = 0;
+            if (scoreBar == 0)
+                starUpBar = 1;
+            else if (scoreBar > 0 && scoreBar <= 2)
+                starUpBar = 2;
+            else
+                starUpBar = 3;
+
+            var checkBarOpen = starsEpisode >= needStarsToOpenBar ? starUpBar : 0;
+
+            //var check = sumLvlScore > needSumToOpenBar ? score : 0;
+            Debug.Log(checkBarOpen + " Можно ли открыть бар! " + gameObject.name + $"SumLvlScore : {sumLvlScore} needStarsToOpenBar: {needStarsToOpenBar} " + indexEpisode);
             Debug.Log(starsEpisode + "Кол-во звезд!");
+
+           // if(checkBarOpen > 0)
+             //   MapCompletion.Instance.GetOpensBar[indexEpisode] = true;
 
             int stars = MapCompletion.Instance.GetLvlStars(gameObject.name);
 
-            if (type == TypeStarts.Lvl)
+
+            if (_type == TypeStarts.Lvl)
             {
-               return ShowStarsResult(stars);
+                Debug.Log(starsEpisode + "Кол-во звезд за стол");
+                return ShowStarsResult(stars);
             }
 
-            else if (type == TypeStarts.Bar)
+            else if (_type == TypeStarts.Bar)
             {
-               return ShowStarsResult(check);
+                return ShowStarsResult(checkBarOpen);
             }
 
             return 0;
@@ -89,9 +107,23 @@ namespace TowerDefense
                     _resultImages[i].sprite = _spritesStarsYellow[i];
                     if (_resultImages[i].TryGetComponent(out StarsTableAnim starsTableAnim))
                     {
-                        starsTableAnim.StarAnimStart();
-					}
+                        if (_resultImages[i].TryGetComponent(out FadeImage fadeImage))
+                        {
+                            fadeImage.FadeInStartAnim();
+                        }
+                        StartCoroutine(AnimStartDelay(starsTableAnim));
+                    }
                 }
+                if (value > 0)
+				{
+                    for (int i = value; i < 3; i++)
+					{
+                        if (_resultImages[i].TryGetComponent(out FadeImage fadeImage))
+                        {
+                            fadeImage.FadeInStartAnim();
+                        }
+                    }
+				}
             }
             else
             {
@@ -100,6 +132,13 @@ namespace TowerDefense
             }
 
             return value;
+        }
+
+        private IEnumerator AnimStartDelay(StarsTableAnim starsTableAnim)
+		{
+            yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
+
+            starsTableAnim.StarAnimStart();
         }
     }
 }

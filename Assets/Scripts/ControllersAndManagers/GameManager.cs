@@ -268,10 +268,9 @@ namespace QuizCinema
                 Debug.Log("FINISH GAME!");
 
 
-                UIManager.Instance.StartCalculateScore();
+                UIManager.Instance.StartCalculateScore(_levelCountStars);
 
                 Debug.Log(_levelCountStars + " " + _score.CurrentLvlScore);
-                MapCompletion.SaveEpisodeResult(_levelCountStars, _score.CurrentLvlScore);
 
                 var type = UIManager.ResolutionScreenType.Finish;
                 UpdateDisplayScreenResolution?.Invoke(type, _questionMethods.Data.Questions[_questionMethods._currentIndexNotRandom].AddScore);

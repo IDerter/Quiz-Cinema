@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,8 +6,10 @@ using UnityEngine;
 namespace QuizCinema
 {
 
-    public class LanguageChanger : MonoBehaviour
+    public class LanguageChanger : SingletonBase<LanguageChanger>
     {
+        public event Action OnChangeLanguage;
+
         [SerializeField] private AudioClip _audioClipButtonClick;
         [SerializeField] private Language[] _buttonsLanguage;
 
