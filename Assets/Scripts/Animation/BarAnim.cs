@@ -28,9 +28,10 @@ namespace QuizCinema
         {
             // ResetProgress();
             var numberBar = int.Parse(gameObject.name.Substring(gameObject.name.Length - 1));
-            _isOpen = MapCompletion.Instance.GetOpensBar[numberBar];
+            _isOpen = MapCompletion.Instance.GetOpensBar[numberBar - 1];
+            Debug.Log(numberBar + " " + _isOpen);
             if (_isOpen)
-                BarActive();
+                BarActive(numberBar);
 
             var animSpineArray = _bar.Skeleton.Data.Animations.ToArray();
             foreach (var anim in animSpineArray)
@@ -60,17 +61,27 @@ namespace QuizCinema
             _buttonActivLvl.gameObject.SetActive(false);
         }
 
-        public void BarActive()
+        public void BarActive(int numberBar)
         {
-            Debug.Log("BarActivate" + " " + gameObject.name);
-            if (_bar.Skeleton.Data.FindSkin("unlocked") != null)
-                _bar.Skeleton.SetSkin("unlocked");
+            Debug.Log("BarActivate" + " " + gameObject.name + " BarAnimScript");
+            if (numberBar != 1)
+			{
+                if (_bar.Skeleton.Data.FindSkin("unlocked") != null)
+                    _bar.Skeleton.SetSkin("unlocked");
+                Debug.Log(_bar.Skeleton.Data.FindSkin("unlocked"));
+                _bar.Skeleton.SetSlotsToSetupPose();
+                _bar.LateUpdate();
 
-            if (_bar.Skeleton.Data.FindAnimation(_nameIdle) != null)
-                _bar.AnimationState.SetAnimation(1, _nameIdle, true);
-            _lock.AnimationState.SetAnimation(1, "none", false);
+                _bar.Update(0);
+                if (_bar.Skeleton.Data.FindAnimation(_nameIdle) != null)
+                    _bar.AnimationState.SetAnimation(1, _nameIdle, true);
+                _bar.Skeleton.SetSlotsToSetupPose();
+                _bar.LateUpdate();
 
-            _buttonActivLvl.gameObject.SetActive(true);
+                _lock.AnimationState.SetAnimation(1, "none", false);
+
+                _buttonActivLvl.gameObject.SetActive(true);
+            }
         }
 
         public void BarPress()
@@ -89,17 +100,19 @@ namespace QuizCinema
         public void BarOpen()
         {
             var numberBar = int.Parse(gameObject.name.Substring(gameObject.name.Length - 1));
-            _isOpen = MapCompletion.Instance.GetOpensBar[numberBar];
-
-            if (!_isOpen)
+            Debug.Log(numberBar + " baropen");
+            if (!MapCompletion.Instance.GetOpensBar[numberBar - 1])
             {
-                BarActive();
+                Debug.Log("Bar Open " + numberBar);
+                BarActive(numberBar);
                 Debug.Log("BarOpen");
                 _lock.AnimationState.SetAnimation(1, "unlocking", false);
-                PlayerPrefs.SetInt(gameObject.name, 1);
+                _isOpen = MapCompletion.Instance.GetOpensBar[numberBar - 1];
+                MapCompletion.Instance.GetOpensBar[numberBar - 1] = true;
+                MapCompletion.SaveBarProgress();
 
-                if (_lockAnim != null)
-                    _lockAnim.LockBar();
+                //if (_lockAnim != null)
+                 //   _lockAnim.LockBar();
             }
 			else
 			{

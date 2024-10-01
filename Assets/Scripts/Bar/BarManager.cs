@@ -16,8 +16,10 @@ namespace QuizCinema
 		private void Start()
 		{
 			//ResetProgress();
-			Debug.Log(PlayerPrefs.GetInt(_level.Episode.EpisodeName) + " открыт ли следующий бар!");
-			if (PlayerPrefs.GetInt(_level.Episode.EpisodeName) == 0)
+			var numberBar = int.Parse((_level.Episode.EpisodeName.Substring(gameObject.name.Length - 1)));
+
+			Debug.Log(MapCompletion.Instance.GetOpensBar + " открыт ли следующий бар!");
+			if (CheckBarOpen(numberBar) && PlayerPrefs.GetInt(_level.Episode.EpisodeName) == 0)
 				OnBarOpenInfoUpdate();
 			else if (PlayerPrefs.GetInt(_level.Episode.EpisodeName) == 0)
 			{
@@ -25,15 +27,20 @@ namespace QuizCinema
 			}
 		}
 
+		public bool CheckBarOpen(int indexEpisode)
+		{
+			var starsEpisode = MapCompletion.Instance.GetEpisodeStars(indexEpisode);
+			var needStarsToOpenBar = StorageBarsInfo.Instance.InfoBars[indexEpisode - 1].NeedStarsScore;
+			if (starsEpisode >= needStarsToOpenBar)
+				return true;
+			return false;
+		}
 
 		private void OnBarOpenInfoUpdate()
 		{
-
-			if (MapCompletion.Instance.GetOpensBar[_level.Episode.EpisodeID - 1])
-			{
-				StartCoroutine(ActivateNewBarPanel());
-				Debug.Log(MapCompletion.Instance.GetOpensBar[_level.Episode.EpisodeID - 1] + " ... " + (_level.Episode.EpisodeID - 1));
-			}
+			StartCoroutine(ActivateNewBarPanel());
+			Debug.Log(MapCompletion.Instance.GetOpensBar[_level.Episode.EpisodeID - 1] + " ... " + (_level.Episode.EpisodeID - 1));
+			
 		}
 
 

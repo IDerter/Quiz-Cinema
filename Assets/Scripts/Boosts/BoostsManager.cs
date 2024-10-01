@@ -78,12 +78,17 @@ namespace QuizCinema
         {
             if (BoostInventory.Instance != null)
                 BoostInventory.Instance.OnSaveListBoosts += OnSaveListBoosts;
+            if (BoostInventoryPreBooster.Instance != null)
+                BoostInventoryPreBooster.Instance.OnSaveListBoosts += OnSaveListBoosts;
         }
 
         private void OnDestroy()
         {
             if (BoostInventory.Instance != null)
                 BoostInventory.Instance.OnSaveListBoosts -= OnSaveListBoosts;
+
+            if (BoostInventoryPreBooster.Instance != null)
+                BoostInventoryPreBooster.Instance.OnSaveListBoosts -= OnSaveListBoosts;
         }
 
         public void ResetBoostSave()

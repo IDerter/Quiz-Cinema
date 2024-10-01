@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using TowerDefense;
 using UnityEngine;
 using static QuizCinema.InterfaceBoost;
@@ -17,6 +18,7 @@ namespace QuizCinema
         [SerializeField] private BoostSlot[] _listInventoryBoosts;
 
         [SerializeField] private BoostUICount[] _boostsActive;
+        [SerializeField] private TextMeshProUGUI _textDescription;
 
 
         private int _lenListBoosts = 3;
@@ -77,6 +79,10 @@ namespace QuizCinema
                     
                     _listInventoryBoosts[i].BoostImage.sprite = inventoryBoost.BoostImage.sprite;
                     _listInventoryBoosts[i].WarningImage.gameObject.SetActive(false);
+                    if (_listBoosts[i].TryGetComponent(out InventoryUIBoosts inventoryUIBoosts) && _textDescription != null)
+					{
+                        _textDescription.text = inventoryUIBoosts.TextDesctiption.text;
+					}
                     break;
                 }
             }

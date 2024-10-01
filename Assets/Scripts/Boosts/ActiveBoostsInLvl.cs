@@ -16,6 +16,7 @@ namespace QuizCinema
         [SerializeField] private BoostInGame[] _boostsActiveForSkins;
 
         [SerializeField] private AnswersMethods _answersMethods;
+        [SerializeField] private BoostInventory _boostInventory;
 
         private const int _maxBoostInLvl = 3;
         public int GetMaxBoostInLvl => _maxBoostInLvl;
@@ -101,8 +102,7 @@ namespace QuizCinema
                 {
                     if (_boostsActive[i].GetSetBoostSO.name == boostsList[j])
                     {
-                        BoostInventory.Instance.ListBoosts[j] = _boostsActive[i];
-                        Debug.Log(BoostInventory.Instance.ListBoosts[j].GetSetBoostSO.ToString());
+                        _boostInventory.ListBoosts[j] = _boostsActive[i];
                     }
                 }
             }
