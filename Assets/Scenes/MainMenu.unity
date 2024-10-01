@@ -1420,6 +1420,17 @@ MonoBehaviour:
   - LeftStar
   - MiddleStar
   - RightStar
+  _bars:
+  - Bar1
+  - Bar2
+  - Bar3
+  - Bar4
+  - Bar5
+  - Bar6
+  - Bar7
+  - Bar8
+  - Bar9
+  - Bar10
   _audioClipButtonClick: {fileID: 8300000, guid: 822811e1568d2e243b03cf1ac6886630, type: 3}
 --- !u!114 &884602203
 MonoBehaviour:

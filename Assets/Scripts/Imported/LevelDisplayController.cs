@@ -54,7 +54,7 @@ namespace TowerDefense
 
         private void ActivateBarAndLvl(bool activate, int index)
         {
-            Debug.Log(_levels[index].name + " " + activate);
+            Debug.Log(_levels[index].name + " " + activate + " " + index);
             _levels[index].Lock = PlayerPrefs.GetInt(_levels[index].name) == 1 ? false : true;
             if (activate)
             {
@@ -62,7 +62,6 @@ namespace TowerDefense
                 {
                     _levels[index].BarAnim.IsOpen = true;
                     _levels[index].StartCoroutine(_levels[index].BarAnim.DelayBarActive());
-                    MapCompletion.SaveBarProgress();
                     Debug.Log("LevelDisController " + activate);
                 }
                 if (_levels[index].GetType == TypeStarts.Lvl && _levels[index].Lock)
@@ -90,8 +89,8 @@ namespace TowerDefense
             {
                 if (_levels[index].BarAnim != null && _levels[index].GetType == TypeStarts.Bar)
                 {
-                    _levels[index].BarAnim.IsOpen = false;
-                    _levels[index].BarAnim.BarInActive();
+                  //  _levels[index].BarAnim.IsOpen = false;
+                  //  _levels[index].BarAnim.BarInActive();
                 }
 
                 if (_levels[index].GetType == TypeStarts.Lvl)

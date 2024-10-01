@@ -15,7 +15,6 @@ namespace QuizCinema
         [SerializeField] protected TextMeshProUGUI _textCountBoost;
         public TextMeshProUGUI TextCountBoost { get { return _textCountBoost; } set { _textCountBoost = value; } }
         [SerializeField] protected Button _buttonBoost;
-        [SerializeField] private BoostInventory _boostInventory;
 
         private void Start()
         {
@@ -29,8 +28,11 @@ namespace QuizCinema
         {
             BoostsManager.OnPressButtonBoost += OnPressButtonBoost;
 
-            if (_boostInventory != null)
-                _boostInventory.OnPressButtonBoostInventory += OnPressButtonBoostInventory;
+            if (BoostInventory.Instance != null)
+                BoostInventory.Instance.OnPressButtonBoostInventory += OnPressButtonBoostInventory;
+
+            if (BoostInventoryPreBooster.Instance != null)
+                BoostInventoryPreBooster.Instance.OnPressButtonBoostInventory += OnPressButtonBoostInventory;
         }
 
         private void OnPressButtonBoostInventory(BoostUICount obj)
@@ -43,8 +45,11 @@ namespace QuizCinema
         {
              BoostsManager.OnPressButtonBoost -= OnPressButtonBoost;
 
-            if (_boostInventory != null)
-                _boostInventory.OnPressButtonBoostInventory -= OnPressButtonBoostInventory;
+            if (BoostInventory.Instance != null)
+                BoostInventory.Instance.OnPressButtonBoostInventory -= OnPressButtonBoostInventory;
+
+            if (BoostInventoryPreBooster.Instance != null)
+                BoostInventoryPreBooster.Instance.OnPressButtonBoostInventory -= OnPressButtonBoostInventory;
             //BoostsManager.Instance.OnAddInInventoryBoost -= OnAddInInventoryBoost;
         }
 

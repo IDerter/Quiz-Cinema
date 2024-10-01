@@ -20,6 +20,7 @@ namespace QuizCinema
         private const string _sceneShop = "Shop";
         [SerializeField] private string[] _lvls;
         [SerializeField] private string[] _stars;
+        [SerializeField] private string[] _bars;
 
         [SerializeField] private AudioClip _audioClipButtonClick;
 
@@ -50,6 +51,11 @@ namespace QuizCinema
                 foreach (var star in _stars)
                     PlayerPrefs.SetInt(lvl + star, 0);
             }
+
+            foreach (var bar in _bars)
+			{
+                PlayerPrefs.SetInt(bar, 0);
+			}
             //FileHandler.Reset(Upgrades.fileName);
         }
 
