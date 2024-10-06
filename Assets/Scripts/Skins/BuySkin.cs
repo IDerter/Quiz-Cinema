@@ -18,6 +18,7 @@ namespace QuizCinema
 		[SerializeField] private GameObject _overlayCardSkin;
 
 		[SerializeField] private Button _buttonBuySkin;
+		[SerializeField] private GameObject _viewSelect;
 
 		private int _costSkin; // цена покупки улучшения
 
@@ -73,6 +74,8 @@ namespace QuizCinema
 		public void PutOn()
 		{
 			SkinManager.PutOnSkin(_asset);
+			if (_viewSelect != null)
+				_viewSelect.SetActive(true);
 		}
 
 		public void TakeOff()

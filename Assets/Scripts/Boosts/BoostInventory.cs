@@ -15,9 +15,13 @@ namespace QuizCinema
 
         [SerializeField] private BoostUICount[] _listBoosts = new BoostUICount[3];
         public BoostUICount[] ListBoosts {get { return _listBoosts; } set { _listBoosts = value; } }
+
         [SerializeField] private BoostSlot[] _listInventoryBoosts;
+        public BoostSlot[] ListInventoryBoosts => _listInventoryBoosts;
 
         [SerializeField] private BoostUICount[] _boostsActive;
+        public InventoryUIBoosts[] BoostActive => (InventoryUIBoosts[])_boostsActive;
+
         [SerializeField] private TextMeshProUGUI _textDescription;
 
 

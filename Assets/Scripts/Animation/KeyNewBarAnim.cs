@@ -47,18 +47,9 @@ namespace QuizCinema
 
         private void Start()
         {
-
+            KeyAnimStart();
         }
 
-        private void OnDestroy()
-        {
-            MapCompletion.OnScoreUpdate -= OnScoreUpdate;
-        }
-
-        private void OnScoreUpdate()
-        {
-
-        }
 
         [Button()]
         public async void KeyAnimStart()

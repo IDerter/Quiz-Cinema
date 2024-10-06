@@ -33,7 +33,8 @@ namespace QuizCinema
                         var buttonGreen = DictionarySkinButtons[elem].GetValue(0) as GameObject;
                         var buttonPutOn = DictionarySkinButtons[elem].GetValue(1) as GameObject;
                         var buttonTakeOff = DictionarySkinButtons[elem].GetValue(2) as GameObject;
-
+                        var viewSelect = DictionarySkinButtons[elem]?.GetValue(3) as GameObject;
+                        
                         if (skinList[i].Buy && skinList[i].PutOn == false)
 						{
                             Debug.Log(buttonPutOn.ToString() + " " + skinList[i].SkinName);
@@ -41,7 +42,9 @@ namespace QuizCinema
 							buttonPutOn.SetActive(true);
 							buttonGreen.SetActive(false);
 							buttonTakeOff.SetActive(false);
-						}
+                            if (viewSelect != null)
+                                viewSelect.SetActive(false);
+                        }
                         if (!skinList[i].Buy)
                         {
                             Debug.Log(buttonGreen.ToString() + " " + skinList[i].SkinName);
@@ -49,7 +52,9 @@ namespace QuizCinema
 							buttonPutOn.SetActive(false);
 							buttonGreen.SetActive(true);
 							buttonTakeOff.SetActive(false);
-						}
+                            if (viewSelect != null)
+                                viewSelect.SetActive(false);
+                        }
                         if (skinList[i].Buy && skinList[i].PutOn == true)
                         {
                             Debug.Log(buttonTakeOff.ToString() + " " + skinList[i].SkinName);
@@ -57,7 +62,9 @@ namespace QuizCinema
 							buttonPutOn.SetActive(false);
 							buttonGreen.SetActive(false);
 							buttonTakeOff.SetActive(true);
-						}
+                            if (viewSelect != null)
+                                viewSelect.SetActive(true);
+                        }
                     }
 				}
              }
@@ -74,6 +81,7 @@ namespace QuizCinema
                     var buttonGreen = DictionarySkinButtons[elem].GetValue(0) as GameObject;
                     var buttonPutOn = DictionarySkinButtons[elem].GetValue(1) as GameObject;
                     var buttonTakeOff = DictionarySkinButtons[elem].GetValue(2) as GameObject;
+                    var viewSelect = DictionarySkinButtons[elem]?.GetValue(3) as GameObject;
 
                     if (skinSave.Buy && skinSave.PutOn == false && buttonGreen.activeSelf)
                     {
@@ -88,13 +96,13 @@ namespace QuizCinema
                     else if (skinSave.Buy && skinSave.PutOn == true)
                     {
                         buttonTakeOff.GetComponent<ClickAsyncAnim>().ClickAnimBuy(true);
-
+                        viewSelect.SetActive(false);
                     }
 
                     else if (skinSave.Buy && skinSave.PutOn == false && buttonGreen.activeSelf == false)
                     {
                         buttonPutOn.GetComponent<ClickAsyncAnim>().ClickAnimBuy(false);
-
+                        viewSelect.SetActive(false);
                     }
                 }
             }

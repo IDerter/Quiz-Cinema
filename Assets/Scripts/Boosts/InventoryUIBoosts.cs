@@ -15,6 +15,7 @@ namespace QuizCinema
         [SerializeField] protected TextMeshProUGUI _textCountBoost;
         public TextMeshProUGUI TextCountBoost { get { return _textCountBoost; } set { _textCountBoost = value; } }
         [SerializeField] protected Button _buttonBoost;
+        public Button GetButtonBoost => _buttonBoost;
 
         private void Start()
         {

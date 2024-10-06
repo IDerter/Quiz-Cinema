@@ -65,9 +65,9 @@ namespace TowerDefense
             var starUpBar = 0;
             if (scoreBar == 0)
                 starUpBar = 1;
-            else if (scoreBar > 0 && scoreBar <= 2)
+            else if (scoreBar > 0 && scoreBar <= 3)
                 starUpBar = 2;
-            else
+            else if (starsEpisode == 15)
                 starUpBar = 3;
 
             var checkBarOpen = starsEpisode >= needStarsToOpenBar ? starUpBar : 0;

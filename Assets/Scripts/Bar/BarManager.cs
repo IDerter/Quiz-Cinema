@@ -12,13 +12,12 @@ namespace QuizCinema
 		[SerializeField] private GameObject _panelOpenNextBar;
 		[SerializeField] private bool _isOpen = false;
 
-
 		private void Start()
 		{
 			//ResetProgress();
-			var numberBar = int.Parse((_level.Episode.EpisodeName.Substring(gameObject.name.Length - 1)));
+			var numberBar = int.Parse((_level.Episode.EpisodeName.Substring(_level.Episode.EpisodeName.Length - 1)));
 
-			Debug.Log(MapCompletion.Instance.GetOpensBar + " открыт ли следующий бар!");
+			Debug.Log(CheckBarOpen(numberBar) + " открыт ли следующий бар! " + PlayerPrefs.GetInt(_level.Episode.EpisodeName));
 			if (CheckBarOpen(numberBar) && PlayerPrefs.GetInt(_level.Episode.EpisodeName) == 0)
 				OnBarOpenInfoUpdate();
 			else if (PlayerPrefs.GetInt(_level.Episode.EpisodeName) == 0)
@@ -47,6 +46,7 @@ namespace QuizCinema
 		private IEnumerator ActivateNewBarPanel()
 		{
 			yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
+
 			ShowOpenNewBar();
 		}
 

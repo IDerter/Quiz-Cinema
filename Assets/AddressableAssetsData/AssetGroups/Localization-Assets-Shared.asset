@@ -57,6 +57,10 @@ MonoBehaviour:
     m_Address: Assets/LocalLocalization/Tables/Learning Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 096261203d0a32d4892f3103a9d21fa9
+    m_Address: Assets/LocalLocalization/Tables/PanelOpenNextBar Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 8544a3b3869787f4ba819d8a9bbee30e, type: 2}
   m_SchemaSet:

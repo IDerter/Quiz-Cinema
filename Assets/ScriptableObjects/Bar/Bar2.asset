@@ -15,4 +15,4 @@ MonoBehaviour:
   _scoreLvlsInBar: c80000002c01000090010000f401000058020000
   _maxSumScore: 2000
   _needSumScore: 1500
-  _needStarsScore: 10
+  _needStarsScore: 8
