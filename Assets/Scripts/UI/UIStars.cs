@@ -28,6 +28,7 @@ namespace QuizCinema
                   _imagesStarsInLvl[i].sprite = _spritesStars[i];
               }
             */
+            Debug.Log("stars UISTARS " + $"{stars}");
             _spineAnim.ChangeSkinAnim(stars);
         }
 

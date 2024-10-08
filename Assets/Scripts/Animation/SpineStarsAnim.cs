@@ -30,6 +30,7 @@ namespace QuizCinema
                     break;
             }
 
+            Debug.Log(_skeletonStars.Skeleton.Skin);
             _skeletonStars.AnimationState.SetAnimation(1, "anima_stars_level_complete", false);
             _skeletonStars.freeze = false;
             _skeletonRays.freeze = false;

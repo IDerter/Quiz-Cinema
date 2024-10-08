@@ -24,9 +24,14 @@ namespace QuizCinema
 
         private void OnFinishGame()
         {
+            Debug.Log(_gameManager.GetLevelCountStars + " Кол-во звезд за уровень");
             if (_gameManager.GetLevelCountStars >= 1)
             {
                 _nextButton.SetActive(true);
+            }
+			else
+			{
+                _nextButton.SetActive(false);
             }
         }
 

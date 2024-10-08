@@ -96,7 +96,7 @@ namespace QuizCinema
                     else if (skinSave.Buy && skinSave.PutOn == true)
                     {
                         buttonTakeOff.GetComponent<ClickAsyncAnim>().ClickAnimBuy(true);
-                        viewSelect.SetActive(false);
+                        viewSelect.SetActive(true);
                     }
 
                     else if (skinSave.Buy && skinSave.PutOn == false && buttonGreen.activeSelf == false)
