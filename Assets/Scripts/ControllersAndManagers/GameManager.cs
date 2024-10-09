@@ -280,15 +280,15 @@ namespace QuizCinema
 
         public int CalculateLevelStars()
         {
-            if (_countCorrectAnswer == _questionMethods.FinishedQuestions.Count)
+            if (_countCorrectAnswer >= (_countCurrentAnswer - 1))
             {
                 _levelCountStars = 3;
             }
-            else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 1.5))
+            else if (_countCorrectAnswer >= Math.Ceiling(_countCurrentAnswer / 1.5))
             {
                 _levelCountStars = 2;
             }
-            else if (_countCorrectAnswer >= Math.Ceiling(_questionMethods.FinishedQuestions.Count / 3.0))
+            else if (_countCorrectAnswer >= Math.Ceiling(_countCurrentAnswer / 2.0))
             {
                 _levelCountStars = 1;
             }

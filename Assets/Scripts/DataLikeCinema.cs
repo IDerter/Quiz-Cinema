@@ -110,6 +110,7 @@ namespace QuizCinema
                 if (i.Question == question)
                 {
                     Instance._completionDataCinema.Remove(i);
+                    Saver<List<CinemaInfo>>.Save(_fileName, Instance._completionDataCinema);
                     break;
                 }
             }

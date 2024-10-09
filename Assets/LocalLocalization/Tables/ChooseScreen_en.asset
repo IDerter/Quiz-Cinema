@@ -34,6 +34,10 @@ MonoBehaviour:
     m_Localized: Shop
     m_Metadata:
       m_Items: []
+  - m_Id: 45146128953696256
+    m_Localized: Movies
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -31,6 +31,10 @@ MonoBehaviour:
     m_Key: Shop
     m_Metadata:
       m_Items: []
+  - m_Id: 45146128953696256
+    m_Key: Movies
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

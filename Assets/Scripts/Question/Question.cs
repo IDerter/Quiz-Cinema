@@ -48,6 +48,7 @@ namespace QuizCinema
         public string Poster = String.Empty;
 
         public string _cadrCinemaName;
+        public string _cadrCinemaNameTranslateRu;
 
         public Answer[] Answers = null;
 

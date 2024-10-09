@@ -77,6 +77,12 @@ namespace QuizCinema
                     _overlayBooster.SetActive(true);
                 }
             }
+
+            else if (_isSkinBooster)
+            {
+                Debug.Log("_overlayBooster is true Skin");
+                _overlayBooster.SetActive(true);
+            }
         }
 
         /*
