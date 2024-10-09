@@ -1615,7 +1615,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -538, y: 41.649963}
-  m_SizeDelta: {x: 375.4, y: 375.4}
+  m_SizeDelta: {x: 375.4, y: 750.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330877396
 MonoBehaviour:
@@ -15054,7 +15054,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 425967bf32f92754c898c3189cc40c45, type: 3}
   _type: 0
   _lockImage: {fileID: 0}
-  _lockAnim: {fileID: 0}
+  _lockAnim: {fileID: 113608576}
   _overlayImage: {fileID: 0}
   _barAnim: {fileID: 3220167383436926238}
   _locked: 1
@@ -15575,7 +15575,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 425967bf32f92754c898c3189cc40c45, type: 3}
   _type: 0
   _lockImage: {fileID: 0}
-  _lockAnim: {fileID: 0}
+  _lockAnim: {fileID: 73267538}
   _overlayImage: {fileID: 0}
   _barAnim: {fileID: 3220167384582309336}
   _locked: 1

@@ -288,7 +288,7 @@ namespace QuizCinema
             {
                 _levelCountStars = 2;
             }
-            else if (_countCorrectAnswer >= Math.Ceiling(_countCurrentAnswer / 3.0))
+            else if (_countCorrectAnswer >= Math.Ceiling(_countCurrentAnswer / 2.0))
             {
                 _levelCountStars = 1;
             }

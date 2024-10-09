@@ -62,6 +62,8 @@ namespace TowerDefense
             var needStarsToOpenBar = StorageBarsInfo.Instance.InfoBars[indexEpisode - 1].NeedStarsScore;
             var scoreBar = starsEpisode - needStarsToOpenBar;
 
+            Debug.Log("StarsEpisode: " + starsEpisode + " Need stars to open bar: " + needStarsToOpenBar);
+
             var starUpBar = 0;
             if (scoreBar == 0)
                 starUpBar = 1;

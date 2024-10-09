@@ -39,7 +39,7 @@ namespace QuizCinema
             {
                 DisableAnim();
 
-                if (_buttonMap.GetComponent<DownPanelAnim>() != button && SceneManager.GetActiveScene().name != _levelMap)
+                if (_buttonMap.GetComponent<DownPanelAnim>() != button || SceneManager.GetActiveScene().name != _levelMap)
 				{
                     button.ActivateAnim(button.GetGraphicButton);
                     _currentAnimButton = button;
@@ -57,7 +57,7 @@ namespace QuizCinema
 
         public void DisableAnim()
         {
-            if (_currentAnimButton != null)
+            if (_currentAnimButton != null && _currentAnimButton.IsSelect)
                 _currentAnimButton.DisableAnim(_currentAnimButton.GetGraphicButton);
         }
 

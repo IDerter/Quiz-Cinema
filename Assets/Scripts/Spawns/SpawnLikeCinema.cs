@@ -23,9 +23,16 @@ namespace QuizCinema
                 Debug.Log($"Posters/{ likeCinema.CadrCinemaName}_poster");
                 Sprite sprite = Resources.Load($"Posters/{likeCinema.CadrCinemaName}_poster", typeof(Sprite)) as Sprite;
                 // Debug.Log(sprite.name);
+                foreach (var answer in likeCinema.Question.Answers)
+				{
+                    if (answer.IsCorrect)
+					{
+                        spawnObj.GetComponent<LikeCinemaPanel>().TextCinemaName.text = answer.InfoList[PlayerPrefs.GetInt("IndexLanguageSave")];
+                    }
+				}
+
                 spawnObj.GetComponent<LikeCinemaPanel>().PosterImage.sprite = sprite;
-                spawnObj.GetComponent<LikeCinemaPanel>().TextCinemaName.text = likeCinema.CadrCinemaName;
-                spawnObj.GetComponent<LikeCinemaPanel>().TextCinemaInfo.text = likeCinema.Question.Director;
+                spawnObj.GetComponent<LikeCinemaPanel>().TextCinemaInfo.text = likeCinema.Question.ListDescriptionFilm[PlayerPrefs.GetInt("IndexLanguageSave")];
                 spawnObj.GetComponent<LikeCinemaPanel>().CinemaInfo = likeCinema;
             }
         }

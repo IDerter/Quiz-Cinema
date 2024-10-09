@@ -29,7 +29,9 @@
 1997</string>
       </ListDescriptionFilm>
       <Director>James Cameron</Director>
+      <Poster />
       <_cadrCinemaName>Titanic</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Титаник</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -112,7 +114,9 @@ An American Western set shortly after the American Civil War.
 2015</string>
       </ListDescriptionFilm>
       <Director>Tarantino</Director>
+      <Poster />
       <_cadrCinemaName>The Hateful Eight</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Омерзительная восьмерка</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -168,7 +172,6 @@ An American Western set shortly after the American Civil War.
         <string>Художественный фильм 2012 года режиссёра Квентина Тарантино в жанре спагетти-вестерн  </string>
       </ListNoteFilm>
       <NoteFilm>Художественный фильм 2012 года режиссёра Квентина Тарантино в жанре спагетти-вестерн  </NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Quentin Tarantino
 2012
@@ -176,9 +179,10 @@ An American Western set shortly after the American Civil War.
         <string>Квентин Тарантино
 2012</string>
       </ListDescriptionFilm>
-      
       <Director>Tarantino</Director>
+      <Poster />
       <_cadrCinemaName>Django unchained</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Джанго Освобожденный</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -235,17 +239,17 @@ An American Western set shortly after the American Civil War.
         <string>Американский детективный триллер режиссёра Мартина Скорсезе по одноимённому роману Денниса Лихэйна, вышедший 19 февраля 2010 года в США.</string>
       </ListNoteFilm>
       <NoteFilm>Американский детективный триллер режиссёра Мартина Скорсезе по одноимённому роману Денниса Лихэйна, вышедший 19 февраля 2010 года в США.</NoteFilm>
-      
-        <ListDescriptionFilm>
+      <ListDescriptionFilm>
         <string>Martin Scorsese
 2010
 </string>
         <string>Мартин Скорсезе
 2010</string>
       </ListDescriptionFilm>
-      
       <Director>Scorsese</Director>
+      <Poster />
       <_cadrCinemaName>Shutter Island</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Остров проклятых</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -307,16 +311,16 @@ An American Western set shortly after the American Civil War.
       <NoteFilm>Научно-фантастический триллер Кристофера Нолана, основанный на идее осознанных сновидений
 2010 г. - США
       </NoteFilm>
-      
-    <ListDescriptionFilm>
-      <string>Christopher Nolan
+      <ListDescriptionFilm>
+        <string>Christopher Nolan
 2010</string>
-      <string>Кристофер Нолан
+        <string>Кристофер Нолан
 2010</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Nolan</Director>
+      <Poster />
       <_cadrCinemaName>Inception</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Начало</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -372,14 +376,16 @@ An American Western set shortly after the American Civil War.
         <string>Американский фэнтезийный драматический фильм 1999 года режиссёра и сценариста Фрэнка Дарабонта, основанный на одноимённом романе Стивена Кинга</string>
       </ListNoteFilm>
       <NoteFilm>Американский фэнтезийный драматический фильм 1999 года режиссёра и сценариста Фрэнка Дарабонта, основанный на одноимённом романе Стивена Кинга</NoteFilm>
-    <ListDescriptionFilm>
-      <string>Frank Darabont
+      <ListDescriptionFilm>
+        <string>Frank Darabont
 1999</string>
-      <string>Фрэнка Дарабонт
+        <string>Фрэнка Дарабонт
 1999</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Darabont</Director>
+      <Poster />
       <_cadrCinemaName>Green mile</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Зеленая миля</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -440,14 +446,16 @@ An American Western set shortly after the American Civil War.
       <NoteFilm>Научно-фантастический фильм, снятый Кристофером Ноланом по сценарию, написанному в соавторстве с Джонатаном Ноланом
 2014 г. - США
       </NoteFilm>
-    <ListDescriptionFilm>
-      <string>Christopher Nolan
+      <ListDescriptionFilm>
+        <string>Christopher Nolan
 2014</string>
-      <string>Кристофер Нолан
+        <string>Кристофер Нолан
 2014</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Nolan</Director>
+      <Poster />
       <_cadrCinemaName>Interstellar</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Интерстеллар</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -503,16 +511,16 @@ An American Western set shortly after the American Civil War.
         <string>Американский психологический триллер 1999 года режиссёра Дэвида Финчера по мотивам одноимённого романа Чака Паланика, вышедшего тремя годами ранее</string>
       </ListNoteFilm>
       <NoteFilm>Американский психологический триллер 1999 года режиссёра Дэвида Финчера по мотивам одноимённого романа Чака Паланика, вышедшего тремя годами ранее</NoteFilm>
-      
-    <ListDescriptionFilm>
-      <string>David Fincher
+      <ListDescriptionFilm>
+        <string>David Fincher
 1999</string>
-      <string>Дэвида Финчер
+        <string>Дэвида Финчер
 1999</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Fincher</Director>
+      <Poster />
       <_cadrCinemaName>Fight club</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Бойцовский клуб</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -569,13 +577,15 @@ An American Western set shortly after the American Civil War.
       </ListNoteFilm>
       <NoteFilm>Двое бандитов Винсент Вега и Джулс Винфилд проводят время в философских беседах в перерыве между разборками с должниками своего криминального босса</NoteFilm>
       <ListDescriptionFilm>
-      <string>Quentin Tarantino
+        <string>Quentin Tarantino
 1994</string>
-      <string>Квентин Тарантино
+        <string>Квентин Тарантино
 1994</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Tarantino</Director>
+      <Poster />
       <_cadrCinemaName>Pulp Fiction</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Криминальное чтиво</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -632,13 +642,15 @@ An American Western set shortly after the American Civil War.
       </ListNoteFilm>
       <NoteFilm>Приключенческий фильм в жанре эпического фэнтези 2001 года режиссёра Питера Джексона,основанный на первой части романа «Властелин колец» Дж. Р. Р. Толкина «Братство Кольца»</NoteFilm>
       <ListDescriptionFilm>
-      <string>Peter Jackson
+        <string>Peter Jackson
 2001</string>
-      <string>Питер Джексон
+        <string>Питер Джексон
 2001</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Jackson</Director>
+      <Poster />
       <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Властелин колец: Братство кольца</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
