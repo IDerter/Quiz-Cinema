@@ -21,13 +21,15 @@ after which the criminals gather in an abandoned warehouse on the outskirts of t
 после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
 1992 г. - США</NoteFilm>
       <ListDescriptionFilm>
-      <string>Quentin Tarantino
+        <string>Quentin Tarantino
 1992</string>
-      <string>Квентин Тарантино
+        <string>Квентин Тарантино
 1992</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Tarantino</Director>
+      <Poster />
       <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Бешеные псы</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -89,16 +91,16 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
       <NoteFilm>Действие фильма происходит в 1969 году в Лос-Анджелесе, где бывшая звезда ТВ-вестернов Рик Далтон и его дублер
 Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии
 2019 г. - США</NoteFilm>
-  
       <ListDescriptionFilm>
-      <string>Quentin Tarantino
+        <string>Quentin Tarantino
 2019</string>
-      <string>Квентин Тарантино
+        <string>Квентин Тарантино
 2019</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Tarantino</Director>
+      <Poster />
       <_cadrCinemaName>Once Upon a Time in Hollywood</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Однажды в Голливуде</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -154,15 +156,16 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
-      <string>Ridley Scott
+        <string>Ridley Scott
 2015</string>
-      <string>Ридли Скотт
+        <string>Ридли Скотт
 2015</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Ridley Scott</Director>
+      <Poster />
       <_cadrCinemaName>The Martian</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Марсианин</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -219,13 +222,15 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <ListDescriptionFilm>
-      <string>Tim Miller
+        <string>Tim Miller
 2016</string>
-      <string>Тим Миллер
+        <string>Тим Миллер
 2016</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Tim Miller</Director>
+      <Poster />
       <_cadrCinemaName>Deadpool</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Дэдпул</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -285,13 +290,15 @@ Cliff Booth is trying to find his place in the rapidly changing world of the fil
       <NoteFilm>Киборги сходятся в напряженной схватке за жизнь подростка, от которого зависит судьба человечества. Культовый научно-фантастический боевик Джеймса Кэмерона получил 4 премии «Оскар»
 1991 г. - США</NoteFilm>
       <ListDescriptionFilm>
-      <string>James Cameron
+        <string>James Cameron
 1991</string>
-      <string>Джеймс Кемерон
+        <string>Джеймс Кемерон
 1991</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>James Cameron</Director>
+      <Poster />
       <_cadrCinemaName>Terminator 2 Judgment Day</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Терминатор 2: Судный день</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -354,13 +361,15 @@ There he meets his future parents, still teenagers, and a professor friend, very
 Там он встречается со своими будущими родителями, еще подростками, и другом-профессором, совсем молодым.
 1985 г. - США </NoteFilm>
       <ListDescriptionFilm>
-      <string>Robert Zemekis
+        <string>Robert Zemekis
 1985</string>
-      <string>Роберт Земекис
+        <string>Роберт Земекис
 1985</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Zemekis</Director>
+      <Poster />
       <_cadrCinemaName>Back to the Future 1</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Назад в будущее </_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -428,13 +437,15 @@ Is he worthy to be what he was destined to be by birth - the king of the underwa
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <ListDescriptionFilm>
-      <string>James Wan
+        <string>James Wan
 2018</string>
-      <string>Джеймс Ван
+        <string>Джеймс Ван
 2018</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>James Wan</Director>
+      <Poster />
       <_cadrCinemaName>Aquaman</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Аквамен</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -496,16 +507,16 @@ One day he meets Mathilde Lando, a teenage girl who lives next door.
       <NoteFilm>Главный герой — профессиональный убийца Леон, живёт уединённой жизнью в Маленькой Италии, районе Нью-Йорка. 
 Однажды он встречает живущую по соседству Матильду Ландо, девочку-подростка.
 1994 г. - Франция</NoteFilm>
-      
       <ListDescriptionFilm>
-      <string>Luc Besson
+        <string>Luc Besson
 1994</string>
-      <string>Люк Бессон
+        <string>Люк Бессон
 1994</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Besson</Director>
+      <Poster />
       <_cadrCinemaName>Leon</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Леон</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -565,13 +576,15 @@ One day he meets Mathilde Lando, a teenage girl who lives next door.
       <NoteFilm>Бэтмен поднимает ставки в войне с криминалом. С помощью лейтенанта Джима Гордона и прокурора Харви Дента он намерен очистить улицы от преступности, отравляющей город.
 2008 г. - США</NoteFilm>
       <ListDescriptionFilm>
-      <string>Christopher Nolan
+        <string>Christopher Nolan
 2008</string>
-      <string>Кристофер Нолан
+        <string>Кристофер Нолан
 2008</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Nolan</Director>
+      <Poster />
       <_cadrCinemaName>The Dark Knight</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Темный рыцарь</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -631,13 +644,15 @@ The world premiere took place on June 29, 2012.</string>
       <NoteFilm>«Третий лишний» — американская комедия Сета Макфарлейна (его полнометражный дебют), в главных ролях Марк Уолберг и Мила Кунис.
 Мировая премьера состоялась 29 июня 2012 года.</NoteFilm>
       <ListDescriptionFilm>
-      <string>Seth MacFarlane
+        <string>Seth MacFarlane
 2012</string>
-      <string>Сет Макфарлейн
+        <string>Сет Макфарлейн
 2012</string>
-    </ListDescriptionFilm>
+      </ListDescriptionFilm>
       <Director>Seth MacFarlane</Director>
+      <Poster />
       <_cadrCinemaName>Ted</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Третий лишний</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

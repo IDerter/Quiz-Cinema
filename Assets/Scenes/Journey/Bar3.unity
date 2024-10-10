@@ -1718,6 +1718,10 @@ PrefabInstance:
       propertyPath: _textMoney
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7094954988614967773, guid: d90c3dd663002d24bb019e101cd0e045, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7690447251290243722, guid: d90c3dd663002d24bb019e101cd0e045, type: 3}
       propertyPath: m_IsActive
       value: 0

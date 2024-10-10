@@ -15,17 +15,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Thomas Jahn
+        <string>Thomas Jahn
 1997</string>
-      <string>Томас Ян
+        <string>Томас Ян
 1997</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Thomas Jahn</Director>
       <Poster />
       <_cadrCinemaName>Knockin on Heavens Door</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Достучаться до небес</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -82,17 +81,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Guy Ritchie
+        <string>Guy Ritchie
 2000</string>
-      <string>Гай Ричи
+        <string>Гай Ричи
 2000</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Guy Ritchie</Director>
       <Poster />
       <_cadrCinemaName>Snatch</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Большой куш</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -149,17 +147,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Dunkan Jones
+        <string>Dunkan Jones
 2016</string>
-      <string>Дункан Джонс
+        <string>Дункан Джонс
 2016</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Dunkan Jones</Director>
       <Poster />
       <_cadrCinemaName>Warcraft</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Варкрафт</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -216,17 +213,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Lasse Hallstrom
+        <string>Lasse Hallstrom
 2009</string>
-      <string>Лассе Халльстрём
+        <string>Лассе Халльстрём
 2009</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Lasse Hallstrom</Director>
       <Poster />
       <_cadrCinemaName>Hachi A Dog's Tale</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Хатико: Самый верный друг</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -283,17 +279,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Andres Muschietti
+        <string>Andres Muschietti
 2017</string>
-      <string>Андрес Мускьетти
+        <string>Андрес Мускьетти
 2017</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Andres Muschietti</Director>
       <Poster />
       <_cadrCinemaName>It</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Оно</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -350,17 +345,16 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Gor Verbinski
+        <string>Gor Verbinski
 2003</string>
-      <string>Гор Вербински
+        <string>Гор Вербински
 2003</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Gor Verbinski</Director>
       <Poster />
       <_cadrCinemaName>Pirates of the Caribbean The Curse of The Black Pearl</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Пираты Карибского моря: Проклятие Черной жемчужины</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -432,17 +426,16 @@ On Stranger Tides</Info>
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
-      <string>Greta Gerwig
+        <string>Greta Gerwig
 2023</string>
-      <string>Грета Гервиг
+        <string>Грета Гервиг
 2023</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Greta Gerwig</Director>
       <Poster />
       <_cadrCinemaName>Barbie</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Барби</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -499,17 +492,16 @@ On Stranger Tides</Info>
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Ridley Scott
+        <string>Ridley Scott
 2000</string>
-      <string>Ридли Скотт
+        <string>Ридли Скотт
 2000</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Ridley Scott</Director>
       <Poster />
       <_cadrCinemaName>Gladiator</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Гладиатор</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -566,17 +558,16 @@ On Stranger Tides</Info>
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Alejandro Gonzalez Iñarritu
+        <string>Alejandro Gonzalez Iñarritu
 2015</string>
-      <string>Алехандро Гонсалес Иньярриту
+        <string>Алехандро Гонсалес Иньярриту
 2015</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Alejandro Gonzalez Iñarritu</Director>
       <Poster />
       <_cadrCinemaName>The Revenant</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Выживший</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -633,17 +624,16 @@ On Stranger Tides</Info>
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
-      <string>Chris Columbus
+        <string>Chris Columbus
 1990</string>
-      <string>Крис Коламбус
+        <string>Крис Коламбус
 1990</string>
-    </ListDescriptionFilm>
-      
+      </ListDescriptionFilm>
       <Director>Chris Columbus</Director>
       <Poster />
-      <_cadrCinemaName>Home-Alone-1</_cadrCinemaName>
+      <_cadrCinemaName>Home Alone 1</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Один дома 1</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
