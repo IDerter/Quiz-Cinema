@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726cca68fe15ac648b994a948afb3011, type: 3}
   m_Name: Banker
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: df27aae62453a0e439fd47dac94a038c, type: 3}
+  sprite: {fileID: 1580038314, guid: 9b9b61bfec53bb64a8838e6969d0de84, type: 3}
   cost: 10
   _boost: {fileID: 11400000, guid: 0b7d1059f6e58fc4596232dd2d585d4c, type: 2}
   _descriptionSkinBooster: Gets 1K coins after each game.

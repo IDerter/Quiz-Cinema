@@ -29,17 +29,16 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Baz Luhrmann
 2013</string>
         <string>Баз Лурман
 2013</string>
       </ListDescriptionFilm>
-      
       <Director>Baz Luhrmann</Director>
       <Poster />
       <_cadrCinemaName>The Great Gatsby</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Великий Гэтсби</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -95,7 +94,6 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Robert Zemeckis
 1994
@@ -108,10 +106,10 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
 1994
         </string>
       </ListDescriptionFilm>
-      
       <Director>Zemekis</Director>
       <Poster />
       <_cadrCinemaName>Forrest Gump!The Shawshank Redemption</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Форрест Гамп!Побег из Шоушенка</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -167,17 +165,16 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Steven Spielberg
 2004</string>
         <string>Стивен Спилберг
 2004</string>
       </ListDescriptionFilm>
-      
       <Director>Steven Spielberg</Director>
       <Poster />
       <_cadrCinemaName>Terminal</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Терминал</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -233,17 +230,16 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>David Fincher
 1999</string>
         <string>Дэвид Финчер
 1999</string>
       </ListDescriptionFilm>
-      
       <Director>Fincher</Director>
       <Poster />
       <_cadrCinemaName>Fight club wallpaper</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Бойцовский клуб</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -314,17 +310,16 @@ Now he is a link between parallel dimensions, and his mission is to protect the 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Scott Derrickson
 2016</string>
         <string>Скотт Дерриксон
 2016</string>
       </ListDescriptionFilm>
-      
       <Director>Scott Derrickson</Director>
       <Poster />
       <_cadrCinemaName>Doctor Strange</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Доктор Стрэндж</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -380,17 +375,16 @@ Now he is a link between parallel dimensions, and his mission is to protect the 
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Sam Raimi
 2002</string>
         <string>Сэм Рейми
 2002</string>
       </ListDescriptionFilm>
-      
       <Director>Sam Raimi</Director>
       <Poster />
       <_cadrCinemaName>Spider Man 1</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Человек-паук 1</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -461,17 +455,16 @@ While the actor was working on the film, he remained “blind” even outside th
       </ListNoteFilm>
       <NoteFilm>За роль полковника Слэйда Аль Пачино наконец-то получил свой долгожданный и единственный «Оскар» за лучшую мужскую роль.
  До этого он номинировался 6 раз, но академики год за годом лишали актера этой престижной награды.</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Martin Brest
 1992</string>
         <string>Мартин Брест
 1992</string>
       </ListDescriptionFilm>
-      
       <Director>Martin Brest</Director>
       <Poster />
       <_cadrCinemaName>Scent of a Woman</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Запах женщины</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -536,17 +529,16 @@ He refused to take part in the filming if the ending of the film was changed.</s
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>David Fincher
 1995</string>
         <string>Дэвид Финчер
 1995</string>
       </ListDescriptionFilm>
-      
       <Director>Fincher</Director>
       <Poster />
       <_cadrCinemaName>Seven</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Семь</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -602,17 +594,16 @@ He refused to take part in the filming if the ending of the film was changed.</s
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Harold Ramis
 1993</string>
         <string>Гарольд Рамис
 1993</string>
       </ListDescriptionFilm>
-      
       <Director>Harold Ramis</Director>
       <Poster />
       <_cadrCinemaName>Groundhog-Day</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>День сурка</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -668,17 +659,16 @@ He refused to take part in the filming if the ending of the film was changed.</s
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Garry Marshall
 1990</string>
         <string>Гарри Маршалл
 1990</string>
       </ListDescriptionFilm>
-      
       <Director>Garry Marshall</Director>
       <Poster />
       <_cadrCinemaName>Pretty Woman</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Красотка</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

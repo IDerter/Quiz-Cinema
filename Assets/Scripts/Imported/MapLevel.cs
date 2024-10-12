@@ -69,14 +69,14 @@ namespace TowerDefense
                 starUpBar = 1;
             else if (scoreBar > 0 && scoreBar <= 3)
                 starUpBar = 2;
-            else if (starsEpisode == 15)
+            else if (starsEpisode <= 15)
                 starUpBar = 3;
 
             var checkBarOpen = starsEpisode >= needStarsToOpenBar ? starUpBar : 0;
 
             //var check = sumLvlScore > needSumToOpenBar ? score : 0;
             Debug.Log(checkBarOpen + " Можно ли открыть бар! " + gameObject.name + $"SumLvlScore : {sumLvlScore} needStarsToOpenBar: {needStarsToOpenBar} " + indexEpisode);
-            Debug.Log(starsEpisode + "Кол-во звезд!");
+            Debug.Log(starsEpisode + "Кол-во звезд!" + " ScoreBar: " + scoreBar);
 
            // if(checkBarOpen > 0)
              //   MapCompletion.Instance.GetOpensBar[indexEpisode] = true;

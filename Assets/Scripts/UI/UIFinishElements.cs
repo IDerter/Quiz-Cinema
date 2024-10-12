@@ -11,28 +11,37 @@ namespace QuizCinema
     {
         [SerializeField] private GameManager _gameManager;
         [SerializeField] private GameObject _nextButton;
+        [SerializeField] private GameObject _retryButton;
 
         private void Start()
         {
             _gameManager.OnFinishGame += OnFinishGame;
+			UIManager.Instance.OnFinishScoreCalculating += OnFinishScoreCalculating;
         }
 
-        private void OnDestroy()
+		private void OnFinishScoreCalculating()
+		{
+            _retryButton.SetActive(true);
+
+            if (_gameManager.GetLevelCountStars >= 1)
+            {
+                _nextButton.SetActive(true);
+            }
+            else
+            {
+                _nextButton.SetActive(false);
+            }
+        }
+
+		private void OnDestroy()
         {
             _gameManager.OnFinishGame -= OnFinishGame;
+            UIManager.Instance.OnFinishScoreCalculating -= OnFinishScoreCalculating;
         }
 
         private void OnFinishGame()
         {
             Debug.Log(_gameManager.GetLevelCountStars + " Кол-во звезд за уровень");
-            if (_gameManager.GetLevelCountStars >= 1)
-            {
-                _nextButton.SetActive(true);
-            }
-			else
-			{
-                _nextButton.SetActive(false);
-            }
         }
 
         public void RestartGame()

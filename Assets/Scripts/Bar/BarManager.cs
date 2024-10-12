@@ -45,7 +45,7 @@ namespace QuizCinema
 
 		private IEnumerator ActivateNewBarPanel()
 		{
-			yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick);
+			yield return new WaitForSeconds(LevelSequenceController.Instance.TimeAnimClick * 2);
 
 			ShowOpenNewBar();
 		}
