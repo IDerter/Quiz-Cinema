@@ -1,0 +1,3082 @@
+fileFormatVersion: 2
+guid: 2350ecafb942a444a84aca0cb4a966d3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1947
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e6afb91750d154c8ccebd225026e64
+      internalID: 473939248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_0
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1968
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75517a0bc8a6a2642a5ae87d1a12eaa5
+      internalID: -578441596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_2
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1956
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a897dbb312117cd4d83171dbd40d2832
+      internalID: -590831681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1948
+        width: 60
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03d38c37b8c823408cf418f0c3a7abd
+      internalID: 2037582151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1946
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fad501e77ee98c499bfe8079b95ac58
+      internalID: -2034361050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 2048
+        height: 1580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f6043008aac9b47bf15f132261022b
+      internalID: 238666511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1926
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7ce495e6508cd4ca5a552d01fc1a1a
+      internalID: -1200833179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1920
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33138331ca97d1044863b88c11d9eb78
+      internalID: 1510756270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_9
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1910
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77557c72e039ce946b9008f9f681ec43
+      internalID: 1729039460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1827
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b781ba143648d4baad2d8fec1c355b
+      internalID: -440595441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_15
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1821
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c29da1f618a99479ed6b8ba1f564ce
+      internalID: -101272674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1814
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9241fd76333c18468b928a641fe8d71
+      internalID: -75139153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_17
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1814
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49111142291ff243a1679d889173ca0
+      internalID: -1644634012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_18
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1798
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c901798d1e6a5c4e92ed9a68d2b478a
+      internalID: -1939264371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1782
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da16385766b957543830c46ee951bb85
+      internalID: 706999422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1754
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01ccce9751ced4409e4691493fa143d
+      internalID: -1942915907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1714
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3a1e549a14c034e81c24d13767637a
+      internalID: 1863600593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_22
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1742
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5823e84e0d1bc1b4b84194e1ac3a4df6
+      internalID: 536220052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_26
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1689
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fad8874db3eaa4d8794ee658bc6706
+      internalID: 636869612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1652
+        width: 6
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9f43361c405114b9c64b4f83f25010
+      internalID: 1507834573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1510
+        width: 63
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3781f3809ff44843b57bb3661b1eb3d
+      internalID: -1233116347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_39
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1458
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be60a3f990778458ec2db0c4efd1af
+      internalID: 1872943019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_40
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1483
+        width: 4
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf6256e894a51479665beaa43e6851
+      internalID: -1353266532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_41
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1471
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464082aa986bcae42b70c5dbf20e000a
+      internalID: 614018528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_42
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1434
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9467a10f35b89fd4db25e4b2a2f56eff
+      internalID: -2144887587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_43
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1431
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eaaaace7d58d14383cae071e89f82f
+      internalID: 332949909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_44
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1417
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab826cfd70f242408f5aa3e8e3f095d
+      internalID: 1036673793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_45
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1414
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe0f928cf5ec7c46b3ca76a945ffbe3
+      internalID: 1600725210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_46
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1392
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae8c5b75d16b8e4ab765bcfb5751239
+      internalID: 223454630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_47
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1405
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334d3f2797107d446ad0103921df3aa5
+      internalID: 1836610146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_48
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1401
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8146fae9bbb8ff74abab7be92752660f
+      internalID: -592628981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1378
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93432ffabbfcd7f4a97e45d398880653
+      internalID: 700954021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_50
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1369
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982614dff9bb0bd43b5826eab004c216
+      internalID: -669056106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_51
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1374
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3166a77ce27ff45a4adbffe57c2c96
+      internalID: 860684367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_52
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1365
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60426204fb07d094c871c5005187f0d5
+      internalID: 2050234600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_53
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1365
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c12e52037be874cbaa0aafa0a6c440
+      internalID: -810115593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_54
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1365
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798335567e681384c90b400465a5fa40
+      internalID: -563514474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_55
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1368
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11277c8759fb3c249abc3e385c37b741
+      internalID: -310526520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_56
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1334
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54b1163b7536474c8f117650a54e0df
+      internalID: -1469792744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_57
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1332
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4552a4b98b0694a41ab52c10dbd03f18
+      internalID: 1802578612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_58
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1320
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b78218368146b4dbc4e78bee9f9d1f
+      internalID: -837403411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_59
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1312
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8851c6e82ae054ab7fc95e623f50d8
+      internalID: -395182811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_60
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1315
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42983d21df6506749b22b8f0b5a8476c
+      internalID: -401018521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_61
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1280
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c016eece49deb844bdf44b7a27bd717
+      internalID: 1436931406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_62
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1275
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad4825d13ea8694480a744f40b896d2
+      internalID: -1141277339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_63
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1278
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b326fbf8053abc4a895814f7c94b2c5
+      internalID: 1363752441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_64
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1273
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275edf5dd429dc846b35115f40802f76
+      internalID: 1935922829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_65
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1268
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f490690f85c29504f9620910df7000aa
+      internalID: -2140312579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_66
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1250
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80866c5097052c49993c92a963fb6af
+      internalID: 224888939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_67
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1249
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e6920a19d36d842b44dd9504d1efaa
+      internalID: 98836783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_68
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1218
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d89cce20fb734438474c73e73cce46
+      internalID: -771789321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_69
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1243
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edba45e64841f0846b492834d3080b5e
+      internalID: -46337471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_70
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6be2312ee857c408d8f58bd8dc23b1
+      internalID: 1768162700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_71
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1228
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5405a32de85e4fae740f1fc955077
+      internalID: 1902248444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_72
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1204
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12faccfbbab6e594b881f5c704cf4b77
+      internalID: 551495489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_73
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1218
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b52cc6160575c46b64db38cbb95214
+      internalID: -1950533461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_74
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1207
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeed2005359eb6408ad97ca647f47af
+      internalID: -1416435239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_75
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1194
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b4103aa85ab344a2e270d70470fd9
+      internalID: -698276765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_76
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1206
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c7b352096d53d4db38e63bba9efc47
+      internalID: 1677381942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_77
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1185
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a59ee2a2e96ef84489bfa6a24d6dec9
+      internalID: -812391295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_78
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1149
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aadb62e9bb43874fbbb84ee17200f83
+      internalID: -1749449009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_79
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1176
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b8de16e8dc6d34ba949c6a60e73fc0
+      internalID: 308681495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_80
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1161
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46bf842c5b62d645993c482114c3777
+      internalID: -451514555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_81
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1177
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d2d8d7d10b8d34ea9bb04c4fd7e03a
+      internalID: 332757027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_82
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1146
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bdfb6f6e33d5341a39bcaae306c16e
+      internalID: -1401328386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_83
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1150
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04be52b77d9c5914794b7ba9c9a8be69
+      internalID: -977766896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_84
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1164
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3010cfc35a270c45bab717242f97a1f
+      internalID: 2115066961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_85
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1171
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459bb9fac8b331049a87a4fa436be945
+      internalID: 872885305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_86
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1169
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd741d2b5221eda46bc7ec69b08cec12
+      internalID: 1290234147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_87
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f6f38e017675544be279dbed89fc4d
+      internalID: -71689241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_88
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1127
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e10581d62e084249862c95a9d7baef6
+      internalID: -912654262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_89
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1140
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa0cefa2f02364eafe977431af92b1
+      internalID: 1193445907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1129
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e388d6822b3d74b9e18dc2da63b465
+      internalID: 768650669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_91
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1120
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1709033f7cd64d97ad7cbf3e1c66b
+      internalID: 1608623393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_92
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1103
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abf2df9465a0074eae1101052b30b68
+      internalID: -1870613882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_93
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1110
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e02e4b31099ccc429f973ba5d8e20f0
+      internalID: 1960691816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_94
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1096
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966155b72cae64e44a6928636c4f4767
+      internalID: 1048820357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_95
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1108
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea50133e166c130478f8926dd5d742cd
+      internalID: -1796248447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_96
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1091
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76af9ed5dd9fd049b02832835bf3fa3
+      internalID: -628529992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_97
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1085
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b29799f0163eec47a4734c061468540
+      internalID: -187222822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 967
+        width: 23
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc707b5c5f54464099019b1336cad52
+      internalID: 483356933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_99
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1077
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5da8945f2d92743879d33a7bc63a92
+      internalID: 993015724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_100
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1032
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3a254bfac30824e9368afa91ab023f
+      internalID: -2126782030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_101
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 944
+        width: 30
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa435c7bd16b2a42a0f28b63779e6ca
+      internalID: 625741716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_102
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 990
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a609af0a66f064f8a57147b5615e59
+      internalID: 1843637358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_103
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1040
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f17357c98006b941923fc09ac93032d
+      internalID: -2139593548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_104
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1024
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bc08214047a03499b319ee1b5ef9c8
+      internalID: 1285941175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_105
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1017
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9f1a969c630b149bc3a07507ec86a9
+      internalID: 119238462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_106
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1010
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2ff1cb68e604340957216c8efb0660
+      internalID: 253279025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_107
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 999
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a160f43e75a6274aabe7cf251979083
+      internalID: 1525666426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_108
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1002
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698c02562d106ea438ef4e7d13b7b45f
+      internalID: -229591966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_109
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 915
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec752da67ea002e4da36099a38520e38
+      internalID: -493055693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_110
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 874
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f6fb819289e3643a459f5d190a196a
+      internalID: 277759479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_111
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 833
+        width: 7
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e876308db17a74d8e6786e3409d25c
+      internalID: -762350768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_112
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 864
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fd97d36b8c1004cb167411ffd66d95
+      internalID: -906272610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_113
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 835
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec54f20946750fb4ca9a6eb17b927b17
+      internalID: -1221876167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_114
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 819
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4b92905266ecf49afbb1b6af0ace3e
+      internalID: 2103609365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_115
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 826
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f24463487c56ca44bdc01397c8ccbdb
+      internalID: 1990726659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_116
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 818
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cf12f073345ed42a4b232c9051f227
+      internalID: -1308487024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_117
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 787
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365227888a01da8449c0c72dffeaf350
+      internalID: 1105922164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_118
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 784
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82172241c80dca0498b33506b47720e3
+      internalID: 581790162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_119
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 760
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172c35b677425254182789b301979de3
+      internalID: 1683777015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_120
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 770
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50fcf655b28e414582b4f8ddeab6b79
+      internalID: -1977232574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_121
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 780
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9271ec435887ec940a653569f1f2b4d7
+      internalID: 1409572527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_122
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 768
+        width: 46
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac45a91b3ab9aaf4db68777ca66e7903
+      internalID: 574127738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_123
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 741
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd2a19530e1994a895fa9af188f891
+      internalID: -744541654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_124
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 753
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de16574f5d8c4745b9876ac4d94856b
+      internalID: 1811863155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_125
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 725
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a27134f860dfe54e81072196f79e2ce
+      internalID: -804607287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_126
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 718
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bd459ca54e1b544a5a0b9f9cf7afda
+      internalID: 1647919205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_127
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 714
+        width: 34
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab7cc7ac0d50ae469f194852a12b8f8
+      internalID: -1469604417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_128
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 710
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c767b47710a854cbaeea24c53230f1
+      internalID: -1410530206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_129
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 666
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cf2c7358b9162439459ae59e1ac88a
+      internalID: -1735219312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_130
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 686
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dab99b02bf71746bbf0ca37f38313c
+      internalID: -586460920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_131
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 644
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff85073dab87b7d40bc97a9175860f08
+      internalID: 664994198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_132
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 636
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b790b5bd602a024479bca984281d3ee2
+      internalID: 1941205320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_133
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 173
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3a7de8cf23feb4a97e9c13902d2461
+      internalID: -909844363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_134
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 160
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02da31d4b91bf8040954a2ae452f3930
+      internalID: -23762953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_135
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 159
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ee86c979eacc74bb471918f8d74605
+      internalID: -194717941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_136
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 142
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0221c3e76ccaf4190b02fe0c9bf4bd
+      internalID: 1796890015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_137
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 124
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10864546d5498974385f0d30eec55190
+      internalID: 1801490329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_138
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 116
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1173b2cc9eb7f19408e33b325d22f00e
+      internalID: 890890113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_139
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 96
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7103e34e05f613c48a5465ccbd49fbcd
+      internalID: 309951216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_140
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 94
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef9f659565d5ee4f95d2aea8e5f65b2
+      internalID: -1696581651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_141
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 102
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04556d3cb2089ef49b6480e8e35d9e26
+      internalID: 1381866848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_142
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 94
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b1492007a3fb24db1cbbe109cfc6c5
+      internalID: -365038336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_143
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 81
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c537140b2b636f428285a0701ac4533
+      internalID: -155110484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_144
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 74
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921248a34784b67419782570c330c9aa
+      internalID: -1704228752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_145
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 91
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5ef7011a1f3b24c87818903dad3cd9
+      internalID: -1930416767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_146
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 78
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7682283ecfc8744b12afd4102788b8
+      internalID: -2047371100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_147
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 82
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3c220c8ea514a4da227d4e596bbded
+      internalID: -716773813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_148
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 18
+        width: 696
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84b96232cb7876418b8e027174a21fb
+      internalID: 910088682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple_Guy_Skin_149
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 18
+        width: 174
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a0a728923547840bd5f3d67b6f5b34
+      internalID: 1017342109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Simple_Guy_Skin_55: -310526520
+      Simple_Guy_Skin_115: 1990726659
+      Simple_Guy_Skin_51: 860684367
+      Simple_Guy_Skin_43: 332949909
+      Simple_Guy_Skin_11: -653939677
+      Simple_Guy_Skin_146: -2047371100
+      Simple_Guy_Skin_126: 1647919205
+      Simple_Guy_Skin_85: 872885305
+      Simple_Guy_Skin_92: -1870613882
+      Simple_Guy_Skin_94: 1048820357
+      Simple_Guy_Skin_96: -628529992
+      Simple_Guy_Skin_132: 1941205320
+      Simple_Guy_Skin_31: 1507834573
+      Simple_Guy_Skin_148: 910088682
+      Simple_Guy_Skin_141: 1381866848
+      Simple_Guy_Skin_114: 2103609365
+      Simple_Guy_Skin_29: -1112629981
+      Simple_Guy_Skin_24: -1525090652
+      Simple_Guy_Skin_81: 332757027
+      Simple_Guy_Skin_100: -2126782030
+      Simple_Guy_Skin_145: -1930416767
+      Simple_Guy_Skin_52: 2050234600
+      Simple_Guy_Skin_63: 1363752441
+      Simple_Guy_Skin_88: -912654262
+      Simple_Guy_Skin_66: 224888939
+      Simple_Guy_Skin_59: -395182811
+      Simple_Guy_Skin_61: 1436931406
+      Simple_Guy_Skin_64: 1935922829
+      Simple_Guy_Skin_23: -1140927620
+      Simple_Guy_Skin_68: -771789321
+      Simple_Guy_Skin_113: -1221876167
+      Simple_Guy_Skin_112: -906272610
+      Simple_Guy_Skin_57: 1802578612
+      Simple_Guy_Skin_60: -401018521
+      Simple_Guy_Skin_107: 1525666426
+      Simple_Guy_Skin_7: -187910689
+      Simple_Guy_Skin_137: 1801490329
+      Simple_Guy_Skin_41: 614018528
+      Simple_Guy_Skin_118: 581790162
+      Simple_Guy_Skin_139: 309951216
+      Simple_Guy_Skin_101: 625741716
+      Simple_Guy_Skin_149: 1017342109
+      Simple_Guy_Skin_65: -2140312579
+      Simple_Guy_Skin_86: 1290234147
+      Simple_Guy_Skin_17: -1644634012
+      Simple_Guy_Skin_104: 1285941175
+      Simple_Guy_Skin_28: 78282641
+      Simple_Guy_Skin_32: -424281092
+      Simple_Guy_Skin_69: -46337471
+      Simple_Guy_Skin_82: -1401328386
+      Simple_Guy_Skin_36: -913724837
+      Simple_Guy_Skin_71: 1902248444
+      Simple_Guy_Skin_135: -194717941
+      Simple_Guy_Skin_49: 700954021
+      Simple_Guy_Skin_131: 664994198
+      Simple_Guy_Skin_111: -762350768
+      Simple_Guy_Skin_35: 915144707
+      Simple_Guy_Skin_10: -352098270
+      Simple_Guy_Skin_73: -1950533461
+      Simple_Guy_Skin_26: 636869612
+      Simple_Guy_Skin_108: -229591966
+      Simple_Guy_Skin_34: -2132711778
+      Simple_Guy_Skin_83: -977766896
+      Simple_Guy_Skin_117: 1105922164
+      Simple_Guy_Skin_78: -1749449009
+      Simple_Guy_Skin_4: -2034361050
+      Simple_Guy_Skin_150: 511045836
+      Simple_Guy_Skin_75: -698276765
+      Simple_Guy_Skin_143: -155110484
+      Simple_Guy_Skin_70: 1768162700
+      Simple_Guy_Skin_2: -590831681
+      Simple_Guy_Skin_124: 1811863155
+      Simple_Guy_Skin_58: -837403411
+      Simple_Guy_Skin_22: 536220052
+      Simple_Guy_Skin_33: -1233116347
+      Simple_Guy_Skin_76: 1677381942
+      Simple_Guy_Skin_21: 1863600593
+      Simple_Guy_Skin_97: -187222822
+      Simple_Guy_Skin_5: 238666511
+      Simple_Guy_Skin_3: 2037582151
+      Simple_Guy_Skin_46: 223454630
+      Simple_Guy_Skin_102: 1843637358
+      Simple_Guy_Skin_74: -1416435239
+      Simple_Guy_Skin_106: 253279025
+      Simple_Guy_Skin_8: 1510756270
+      Simple_Guy_Skin_12: -2111634623
+      Simple_Guy_Skin_105: 119238462
+      Simple_Guy_Skin_42: -2144887587
+      Simple_Guy_Skin_25: 294522176
+      Simple_Guy_Skin_90: 768650669
+      Simple_Guy_Skin_14: -440595441
+      Simple_Guy_Skin_77: -812391295
+      Simple_Guy_Skin_79: 308681495
+      Simple_Guy_Skin_93: 1960691816
+      Simple_Guy_Skin_20: -1942915907
+      Simple_Guy_Skin_120: -1977232574
+      Simple_Guy_Skin_1: 473939248
+      Simple_Guy_Skin_13: -1669419755
+      Simple_Guy_Skin_53: -810115593
+      Simple_Guy_Skin_72: 551495489
+      Simple_Guy_Skin_80: -451514555
+      Simple_Guy_Skin_16: -75139153
+      Simple_Guy_Skin_40: -1353266532
+      Simple_Guy_Skin_89: 1193445907
+      Simple_Guy_Skin_134: -23762953
+      Simple_Guy_Skin_122: 574127738
+      Simple_Guy_Skin_128: -1410530206
+      Simple_Guy_Skin_6: -1200833179
+      Simple_Guy_Skin_30: 252380906
+      Simple_Guy_Skin_47: 1836610146
+      Simple_Guy_Skin_18: -1939264371
+      Simple_Guy_Skin_98: 483356933
+      Simple_Guy_Skin_119: 1683777015
+      Simple_Guy_Skin_140: -1696581651
+      Simple_Guy_Skin_136: 1796890015
+      Simple_Guy_Skin_123: -744541654
+      Simple_Guy_Skin_9: 1729039460
+      Simple_Guy_Skin_138: 890890113
+      Simple_Guy_Skin_103: -2139593548
+      Simple_Guy_Skin_62: -1141277339
+      Simple_Guy_Skin_91: 1608623393
+      Simple_Guy_Skin_121: 1409572527
+      Simple_Guy_Skin_110: 277759479
+      Simple_Guy_Skin_56: -1469792744
+      Simple_Guy_Skin_27: -1060840108
+      Simple_Guy_Skin_50: -669056106
+      Simple_Guy_Skin_109: -493055693
+      Simple_Guy_Skin_44: 1036673793
+      Simple_Guy_Skin_38: -41953008
+      Simple_Guy_Skin_127: -1469604417
+      Simple_Guy_Skin_130: -586460920
+      Simple_Guy_Skin_95: -1796248447
+      Simple_Guy_Skin_116: -1308487024
+      Simple_Guy_Skin_0: -578441596
+      Simple_Guy_Skin_142: -365038336
+      Simple_Guy_Skin_129: -1735219312
+      Simple_Guy_Skin_15: -101272674
+      Simple_Guy_Skin_144: -1704228752
+      Simple_Guy_Skin_84: 2115066961
+      Simple_Guy_Skin_87: -71689241
+      Simple_Guy_Skin_45: 1600725210
+      Simple_Guy_Skin_48: -592628981
+      Simple_Guy_Skin_133: -909844363
+      Simple_Guy_Skin_39: 1872943019
+      Simple_Guy_Skin_37: 376705331
+      Simple_Guy_Skin_67: 98836783
+      Simple_Guy_Skin_19: 706999422
+      Simple_Guy_Skin_54: -563514474
+      Simple_Guy_Skin_99: 993015724
+      Simple_Guy_Skin_125: -804607287
+      Simple_Guy_Skin_147: -716773813
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

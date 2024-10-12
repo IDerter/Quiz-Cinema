@@ -6,12 +6,16 @@ using TowerDefense;
 using SpaceShooter;
 using TMPro;
 using UnityEngine.UI;
+using Cysharp.Threading.Tasks;
+using NaughtyAttributes;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 namespace QuizCinema
 {
     public class UIManager : SingletonBase<UIManager>
     {
+        public event Action OnFinishScoreCalculating;
         public enum ResolutionScreenType { Correct, Incorrect, Finish }
 
         [Header("References")]
@@ -199,27 +203,17 @@ namespace QuizCinema
 
             //   var numberLvl = MapCompletion.Instance.GetLvlNumber(sceneName) + 1; // т.к нумерация с 0 (у номера 1 индекс 0)
             //   _uIElements.TextFinalLvl.text = $"Уровень {numberLvl}";
-
-            if (_gameManager.CalculateLevelStars() > 0)
-            {
-                _uIElements.EnableButtonFinishNextLvl.SetActive(true);
-                Debug.Log("УРОВЕНЬ ПРОЙДЕН!!!");
-            }
-            else
-            {
-                _uIElements.EnableButtonFinishReloadLvl.SetActive(true);
-            }
         }
 
         // CalculateScore TODO
-        public void StartCalculateScore(int levelCountsStars)
+        public async void StartCalculateScore(int levelCountsStars)
         {
             Debug.Log("StartCalculateScore " + MapCompletion.Instance.LearnSteps[1]);
 
-            StartCoroutine(CalculateScore(levelCountsStars));
+            await CalculateScore(levelCountsStars);
         }
 
-        IEnumerator CalculateScore(int levelCountsStars)
+        public async UniTask CalculateScore(int levelCountsStars)
         {
             Debug.Log("StartCalculate");
             if (_score.CurrentLvlScore == 0)
@@ -229,7 +223,6 @@ namespace QuizCinema
                     _uIElements.ScoreFinalLvl[0].text = 0.ToString();
                     _uIElements.ScoreFinalLvl[1].text = 0.ToString();
                 }
-                yield break;
             }
 
             var scoreValue = 0;
@@ -245,7 +238,8 @@ namespace QuizCinema
             Debug.Log("scoreMoreThanZero" + scoreMoreThanZero);
             while (scoreMoreThanZero ?  scoreValue < _score.CurrentLvlScore : scoreValue > _score.CurrentLvlScore)
             {
-                yield return new WaitForSeconds(0.00001f);
+                await UniTask.Delay(TimeSpan.FromSeconds(0.0001f));
+
                 scoreValue += scoreMoreThanZero ? 1 : -1;
 
                 if (_uIElements.ScoreFinalLvl.Length == 2)
@@ -259,11 +253,11 @@ namespace QuizCinema
                     _uIElements.MaxScoreFinalLvl[1].text = scoreValue.ToString();
                 }
 
-                yield return null;
             }
 
 
             MapCompletion.SaveEpisodeResult(levelCountsStars, _score.CurrentLvlScore);
+            OnFinishScoreCalculating?.Invoke();
         }
 
 
@@ -278,9 +272,6 @@ namespace QuizCinema
                 _uIElements.ScoreFinalLvl[0].text = _score.CurrentLvlScore.ToString();
                 _uIElements.ScoreFinalLvl[1].text = _score.CurrentLvlScore.ToString();
             }
-            
-
-            
         }
     }
 }

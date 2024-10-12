@@ -21,8 +21,9 @@
 1989</string>
       </ListDescriptionFilm>
       <Director>Zemekis</Director>
-      <Poster></Poster>
+      <Poster />
       <_cadrCinemaName>Back to the Future 2</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Назад в будущее 2</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -99,6 +100,7 @@ cartoon creature with a mischievous character.
       <Director>Chuck Russell</Director>
       <Poster />
       <_cadrCinemaName>Mask</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Маска</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -163,6 +165,7 @@ cartoon creature with a mischievous character.
       <Director>Jackson</Director>
       <Poster />
       <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Властелин колец: Братство кольца</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -227,6 +230,7 @@ cartoon creature with a mischievous character.
       <Director>Jonathan Demme</Director>
       <Poster />
       <_cadrCinemaName>The Silence of the Lambs Poster</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Молчание ягнят</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -291,6 +295,7 @@ cartoon creature with a mischievous character.
       <Director>Paul King</Director>
       <Poster />
       <_cadrCinemaName>Paddington 1</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Приключение Паддингтона</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -355,6 +360,7 @@ cartoon creature with a mischievous character.
       <Director>Castellano  Pipolo</Director>
       <Poster />
       <_cadrCinemaName>The Taming of the Scoundrel</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Укрощение строптивого</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -424,6 +430,7 @@ cartoon creature with a mischievous character.
       <Director>Leonardo DiCaprio</Director>
       <Poster />
       <_cadrCinemaName>The Great Gatsby!The Basketball Diaries</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Великий Гэтсби!Дневник Баскетболиста</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -500,6 +507,7 @@ What is the name of this movie?</string>
       <Director>James Mangold</Director>
       <Poster />
       <_cadrCinemaName>Ford v Ferrari</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Форд против Феррари</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -564,6 +572,7 @@ What is the name of this movie?</string>
       <Director>Jon Favreau</Director>
       <Poster />
       <_cadrCinemaName>Iron Man</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Железный Человек</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -628,6 +637,7 @@ What is the name of this movie?</string>
       <Director>Fincher</Director>
       <Poster />
       <_cadrCinemaName>The Curious Case of Benjamin Button</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Загадочная история Бенджамина Баттона </_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

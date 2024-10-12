@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726cca68fe15ac648b994a948afb3011, type: 3}
   m_Name: Thief
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 3bbfbe108f0775345ac2f77bd040afb6, type: 3}
+  sprite: {fileID: -1467683918, guid: 5f623cfcfeb95eb48a95ca48abc6eb85, type: 3}
   cost: 554
   _boost: {fileID: 11400000, guid: 854c6f492bcb67c429534433c60f859e, type: 2}
   _descriptionSkinBooster: Every game gets an answer for a random question.  But

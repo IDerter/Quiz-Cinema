@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726cca68fe15ac648b994a948afb3011, type: 3}
   m_Name: Simple Guy
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: f340683173739524e8716336a0b98dfd, type: 3}
+  sprite: {fileID: 238666511, guid: 2350ecafb942a444a84aca0cb4a966d3, type: 3}
   cost: 0
   _boost: {fileID: 0}
   _descriptionSkinBooster: No powers. Just a Simple guy.

@@ -70,8 +70,6 @@ namespace QuizCinema
 
 		private void ResetScrollPanels()
 		{
-			_scrollSkinsPanel.ResetState();
-			_scrollBoostersPanel.ResetState();
 		}
 
 		public void MoveAndScaleButton(Button button)
