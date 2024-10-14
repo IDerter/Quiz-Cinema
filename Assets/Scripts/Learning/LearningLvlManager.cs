@@ -71,10 +71,30 @@ namespace QuizCinema
 			overlayHints.SetActive(true);
 		}
 
-		public void StartTimer()
+		public void StartTimer(GameObject overlay)
 		{
-			_timerInLvl.IsStopTime = false;
+			StartCoroutine(DelayOverlayTimer(overlay, 0.5f));
+		}
+
+		private IEnumerator DelayOverlayTimer(GameObject overlayHints, float time)
+		{
+			yield return new WaitForSeconds(time);
+
+			overlayHints.SetActive(false);
 			_timerInLvl.StartTimer();
+			_timerInLvl.IsStopTime = false;
+		}
+
+		public void SetOverlayOff(GameObject overlayHints)
+		{
+			StartCoroutine(DelayOverlayOff(overlayHints, 0.5f));
+		}
+
+		private IEnumerator DelayOverlayOff(GameObject overlayHints, float time)
+		{
+			yield return new WaitForSeconds(time);
+
+			overlayHints.SetActive(false);
 		}
 
 		public void ShowGoodJobAfterClickBooster()

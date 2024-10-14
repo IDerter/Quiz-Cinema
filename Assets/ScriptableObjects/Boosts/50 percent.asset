@@ -17,8 +17,8 @@ MonoBehaviour:
   DictionaryNumberOfBoosts:
     _serializedList:
     - Key: 1
-      Value: 25
+      Value: 300
     - Key: 5
-      Value: 6
+      Value: 1400
     - Key: 10
-      Value: 10
+      Value: 2500

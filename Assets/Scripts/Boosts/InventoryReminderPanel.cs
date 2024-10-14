@@ -14,7 +14,7 @@ namespace QuizCinema
 		[SerializeField] private Image _currentSkinImage;
 		[SerializeField] private TextMeshProUGUI _textSkinName;
 		[SerializeField] private TextMeshProUGUI _textDescriptionSkin;
-		[SerializeField] private GameObject _buttonBooster;
+		[SerializeField] private BoostInGame _skinBooster;
 
 		private void Start()
 		{
@@ -47,6 +47,11 @@ namespace QuizCinema
 				if (skinSave.SkinName == skin.name)
 				{
 					_currentSkinImage.sprite = skin.sprite;
+					if (_skinBooster.GetSetBoostSO != null && skin.Boost != null)
+						_skinBooster.GetSetBoostSO = skin.Boost;
+
+					if (_skinBooster.BoostImage != null && skin.Boost != null)
+						_skinBooster.BoostImage.sprite = skin.Boost.sprite;
 
 					_textSkinName.text = LocaleSelector.Instance.LoadLocalizedString("SkinPanel", skin.name).Result;
 					Debug.Log(LocaleSelector.Instance.LoadLocalizedString("SkinPanel", skin.name).Result);
@@ -56,7 +61,11 @@ namespace QuizCinema
 				}
 				if (skinSave.SkinName == SkinManager.Instance.DeffaultSkinSO.name)
 				{
-					_buttonBooster.SetActive(false);
+					_skinBooster.gameObject.SetActive(false);
+				}
+				else
+				{
+					_skinBooster.gameObject.SetActive(true);
 				}
 			}
 		}

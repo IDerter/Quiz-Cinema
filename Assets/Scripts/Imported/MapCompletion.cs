@@ -188,6 +188,7 @@ namespace TowerDefense
             Instance._isOpenBar[0] = true;
             Saver<bool[]>.Save(_fileLearningStepsName, Instance._learnSteps);
             Saver<bool[]>.Save(_fileBarsSave, Instance._isOpenBar);
+            Instance._completeLearning = false;
         }
 
         public static void SaveBarProgress()

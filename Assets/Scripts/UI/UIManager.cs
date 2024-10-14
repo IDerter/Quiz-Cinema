@@ -225,6 +225,8 @@ namespace QuizCinema
                 }
             }
 
+            MapCompletion.SaveEpisodeResult(levelCountsStars, _score.CurrentLvlScore);
+
             var scoreValue = 0;
             var scoreMoreThanZero = _score.CurrentLvlScore > 0;
             var maxScoreCurrentLvl = MapCompletion.Instance.GetLvlMaxScore(SceneManager.GetActiveScene().name);
@@ -238,7 +240,7 @@ namespace QuizCinema
             Debug.Log("scoreMoreThanZero" + scoreMoreThanZero);
             while (scoreMoreThanZero ?  scoreValue < _score.CurrentLvlScore : scoreValue > _score.CurrentLvlScore)
             {
-                await UniTask.Delay(TimeSpan.FromSeconds(0.0001f));
+                await UniTask.Delay(TimeSpan.FromSeconds(0.0000001f));
 
                 scoreValue += scoreMoreThanZero ? 1 : -1;
 
@@ -255,8 +257,6 @@ namespace QuizCinema
 
             }
 
-
-            MapCompletion.SaveEpisodeResult(levelCountsStars, _score.CurrentLvlScore);
             OnFinishScoreCalculating?.Invoke();
         }
 

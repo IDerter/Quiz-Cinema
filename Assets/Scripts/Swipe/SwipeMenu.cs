@@ -16,6 +16,8 @@ namespace QuizCinema
         [SerializeField] private float _minDistance;
         [SerializeField] private int _currentPosIndex = 0;
         [SerializeField] private int _nearestPosIndex = 0;
+        [SerializeField] private RectTransform _startPos;
+
 
         private void OnEnable()
         {
@@ -46,6 +48,8 @@ namespace QuizCinema
             _scrollPos = 0f;
             _currentPosIndex = 0;
             _nearestPosIndex = 0;
+
+            _startPos.transform.position = new Vector3(-632.15f, _startPos.transform.position.y, _startPos.transform.position.z);
         }
 
         public void SetNearestPoint(int index)

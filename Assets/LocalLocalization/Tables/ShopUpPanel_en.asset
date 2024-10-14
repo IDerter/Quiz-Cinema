@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: Saved movies
     m_Metadata:
       m_Items: []
+  - m_Id: 31458217113325568
+    m_Localized: Buy coins
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
