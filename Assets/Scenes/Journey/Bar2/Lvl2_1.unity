@@ -130,10 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2195834187910752435, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Bar2
-      objectReference: {fileID: 0}
     - target: {fileID: 4149649758060230444, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -177,10 +173,6 @@ PrefabInstance:
     - target: {fileID: 4149649758060230444, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4462214293013645238, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -48.257004
       objectReference: {fileID: 0}
     - target: {fileID: 8876940638087169836, guid: 2ceb44d0ab92f524db73a255d93a025e, type: 3}
       propertyPath: m_Name

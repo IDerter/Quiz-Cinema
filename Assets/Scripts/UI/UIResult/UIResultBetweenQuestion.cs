@@ -159,7 +159,6 @@ namespace QuizCinema
 
         private void OnCreateAnswers(Question question)
         {
-            LikeFilm.SetDefaultValue(_likeImage);
 
             _flagShowPanelResult = false;
             _listAnswersCorrect.Clear();
@@ -186,7 +185,7 @@ namespace QuizCinema
             yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
             _textQuestionNumberResult[0].text = _textQuestionNumberInLvl.text;
             _textQuestionNumberResult[1].text = _textQuestionNumberInLvl.text;
-
+            LikeFilm.SetDefaultValue(_likeImage);
             SetAllInfoQuestion(question);
         }
 

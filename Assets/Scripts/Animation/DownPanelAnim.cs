@@ -15,7 +15,7 @@ namespace QuizCinema
         [SerializeField] private string _nameAnimDeselect;
         [SerializeField] private string _nameAnimSelect;
 
-        [SerializeField] private bool _isSelect = false;
+        [SerializeField] private bool _isSelect = true;
         public bool IsSelect => _isSelect;
         [SerializeField] private bool _isLoadLevel;
         public bool IsLoadLevel => _isLoadLevel;
@@ -48,8 +48,11 @@ namespace QuizCinema
 
         public void DisableAnim(SkeletonGraphic graphic)
         {
-            _isSelect = false;
-            graphic.AnimationState.SetAnimation(1, _nameAnimDeselect, false);
+            if (_isSelect)
+			{
+                _isSelect = false;
+                graphic.AnimationState.SetAnimation(1, _nameAnimDeselect, false);
+            }
         }
     }
 }

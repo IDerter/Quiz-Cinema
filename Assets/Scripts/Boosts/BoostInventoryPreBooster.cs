@@ -28,10 +28,18 @@ namespace QuizCinema
             base.Awake();
 
         }
-        private void Start()
+
+        IEnumerator LoadInventoryDelay()
         {
-            Debug.Log("In BoostInventory LoadInventory - Start Method");
+            yield return new WaitForSeconds(0.005f);
+
             LoadInventory();
+        }
+
+        private void OnEnable()
+		{
+            Debug.Log("In BoostInventory LoadInventory - Start Method");
+            StartCoroutine(LoadInventoryDelay());
 
             for (int i = 0; i < _listBoosts.Length; i++)
             {
@@ -42,7 +50,7 @@ namespace QuizCinema
             }
         }
 
-        public void FillList(BoostUICount inventoryBoost)
+		public void FillList(BoostUICount inventoryBoost)
         {
             for (int i = 0; i < _listBoosts.Length; i++)
             {
@@ -85,6 +93,17 @@ namespace QuizCinema
                     }
                     break;
                 }
+				else
+				{
+                    if (_listBoosts[i] != null)
+                    {
+                        if (_listBoosts[i].TryGetComponent(out InventoryUIBoosts inventoryUIBoosts))
+                        {
+                            Debug.Log(_listBoosts[i].name + " != null");
+                            _textDescription.text = inventoryUIBoosts.TextDesctiption.text;
+                        }
+                    }
+                }
             }
         }
 
@@ -110,6 +129,8 @@ namespace QuizCinema
                 }
             }
         }
+
+
 
         public void LoadInventory()
         {

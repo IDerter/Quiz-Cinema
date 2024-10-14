@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: Saved movies
     m_Metadata:
       m_Items: []
+  - m_Id: 31458217113325568
+    m_Key: Buy coins
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

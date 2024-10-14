@@ -12,7 +12,14 @@ namespace QuizCinema
         [SerializeField] private GameObject _overlaySecondOpenHint;
 		[SerializeField] private GameObject _lvl_1Bar1;
 		[SerializeField] private GameObject _lvl_2Bar1;
+
+		[SerializeField] private Button _tableLearningLvl1;
+
+		[SerializeField] private ClickAsyncAnim _tableLvl1;
+
 		[SerializeField] private Button _lvl1_1Table;
+		[SerializeField] private Button _lvl1_2Table;
+
 		[SerializeField] private GameObject _lvl_2_Overlay;
 		[SerializeField] private SkeletonGraphic _lockLvl2;
 		[SerializeField] private Button _lvl_2Button;
@@ -35,6 +42,7 @@ namespace QuizCinema
 				_lvl_1Bar1.SetActive(true);
 				_lvl_2Bar1.SetActive(true);
 				_lvl1_1Table.interactable = true;
+				_lvl1_2Table.interactable = true;
 			}
 		}
 
@@ -43,6 +51,7 @@ namespace QuizCinema
 			Debug.Log("StartLearning");
 			if (MapCompletion.Instance.LearnSteps[0] == true && MapCompletion.Instance.LearnSteps[1] == true && MapCompletion.Instance.LearnSteps[2] == false)
 			{
+				_lvl1_2Table.interactable = false;
 				StartCoroutine(DelayOverlaySetActive(_overlaySecondOpenHint, 3f, true));
 				_overlayFirstOpenHint.SetActive(false);
 			}
@@ -56,6 +65,7 @@ namespace QuizCinema
 			else
 			{
 				_lvl1_1Table.interactable = true;
+				_lvl1_2Table.interactable = true;
 				_lvl_1Bar1.SetActive(true);
 				_lvl_2Bar1.SetActive(true);
 			}
@@ -66,6 +76,9 @@ namespace QuizCinema
 			yield return new WaitForSeconds(time);
 			_lvl_1Bar1.SetActive(isActive1Bar);
 			_lvl_2Bar1.SetActive(false);
+			_tableLearningLvl1.enabled = !isActive1Bar;
+
+			_tableLvl1.enabled = !isActive1Bar;
 
 			overlayHints.SetActive(true);
 		}
