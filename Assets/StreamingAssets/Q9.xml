@@ -29,17 +29,16 @@ Willem Dafoe - Jopling, Edward Norton - Inspector Henkels
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Wes Anderson
 2014</string>
         <string>Уэс Андерсон
 2014</string>
       </ListDescriptionFilm>
-      
       <Director>Wes Anderson</Director>
       <Poster />
       <_cadrCinemaName>The Grand Budapest Hotel</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu />
       <Answers>
         <Answer>
           <InfoList>
@@ -95,17 +94,16 @@ Willem Dafoe - Jopling, Edward Norton - Inspector Henkels
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Wes Anderson
 2021</string>
         <string>Уэс Андерсон
 2021</string>
       </ListDescriptionFilm>
-      
       <Director>Wes Anderson</Director>
       <Poster />
       <_cadrCinemaName>The French Dispatch</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Французский вестник</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -161,17 +159,16 @@ Willem Dafoe - Jopling, Edward Norton - Inspector Henkels
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Richard Marquand
 1983</string>
         <string>Ричард Маркуанд
 1983</string>
       </ListDescriptionFilm>
-      
       <Director>Richard Marquand</Director>
       <Poster />
       <_cadrCinemaName>Star Wars. Episode VI Return of the Jedi</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Звёздные войны. Эпизод VI: Возвращение джедая</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -227,17 +224,16 @@ Willem Dafoe - Jopling, Edward Norton - Inspector Henkels
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Ridley Scott
 1979</string>
         <string>Ридли Скотт
 1979</string>
       </ListDescriptionFilm>
-      
       <Director>Ridley Scott</Director>
       <Poster />
       <_cadrCinemaName>Alien</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Чужой</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -311,17 +307,16 @@ De Niro read it and replied, “Myself.” Soon Warner Bros. agreed to finance t
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Martin Scorsese
 1990</string>
         <string>Мартин Скорсезе
 1990</string>
       </ListDescriptionFilm>
-      
       <Director>Scorsese</Director>
       <Poster />
       <_cadrCinemaName>Goodfellas</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Славные парни</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -377,17 +372,16 @@ De Niro read it and replied, “Myself.” Soon Warner Bros. agreed to finance t
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>James Gunn
 2017</string>
         <string>Джеймс Ганн
 2017</string>
       </ListDescriptionFilm>
-      
       <Director>James Gunn</Director>
       <Poster />
       <_cadrCinemaName>Guardians of the Galaxy Vol. 2</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Стражи Галактики. Часть 2</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -455,17 +449,16 @@ How to stop a murderer if he is already behind bars?
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Gary Gray
 2009</string>
         <string>Феликс Гэри Грей
 2009</string>
       </ListDescriptionFilm>
-      
       <Director>Gary Gray</Director>
       <Poster />
       <_cadrCinemaName>Law Abiding Citizen</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Законопослушный гражданин</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -521,17 +514,16 @@ How to stop a murderer if he is already behind bars?
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Peter Jackson
 2001-2003 and 2012-2014</string>
         <string>Питер Джексон
 2001-2003 b 2012-2014</string>
       </ListDescriptionFilm>
-      
       <Director>Jackson</Director>
       <Poster />
       <_cadrCinemaName>Lord of the Rings The Fellowship of the ring</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Властелин колец: Братство кольца</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -587,17 +579,16 @@ How to stop a murderer if he is already behind bars?
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Peter Jackson
 2003</string>
         <string>Питер Джексон
 2003</string>
       </ListDescriptionFilm>
-      
       <Director>Jackson</Director>
       <Poster />
       <_cadrCinemaName>The Lord of the Rings The Return of the King</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Властелин колец: Возвращение короля</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -653,7 +644,6 @@ How to stop a murderer if he is already behind bars?
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Peter Jackson
 2001-2003
@@ -664,10 +654,10 @@ How to stop a murderer if he is already behind bars?
 !Питер Джексон
 2012-2014</string>
       </ListDescriptionFilm>
-      
       <Director>Jackson</Director>
       <Poster />
       <_cadrCinemaName>Ian McKellen!Orlando Bloom</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Иэн Маккеллен!Орландо Блум</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

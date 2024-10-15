@@ -100,47 +100,6 @@ namespace SpaceShooter
             //ResultPanelController.Instance.ShowResults(success);
         }
 
-        /*private void CalculateLevelStatistics()
-        {
-            if (LastLevelResult)
-                _multiplierScore = LevelController.Instance.StandartTimeToWin / LevelController.Instance.LevelTime;
-
-            if (_multiplierScore <= 1)
-                _multiplierScore = 1;
-
-            LevelStatisics.Score = Player.Instance.Score * (int) _multiplierScore;
-            LevelStatisics.Multiplier = (int) _multiplierScore;
-            LevelStatisics.NumKills = Player.Instance.NumKills;
-            LevelStatisics.Time = (int) LevelController.Instance.LevelTime;
-
-            if (_maxScore < LevelStatisics.Score)
-            {
-                _maxScore = LevelStatisics.Score;
-                Save("MaxScore", _maxScore);
-                Debug.Log("SaveMaxScore");
-            }
-
-            _allKills += LevelStatisics.NumKills;
-            Save("AllKills", _allKills);
-
-            if (_bestTime > LevelStatisics.Time)
-            {
-                _bestTime = LevelStatisics.Time;
-                Save("BestTime", _bestTime);
-                Debug.Log("SaveBestTime");
-            }
-
-        }
-        */
-        private void Save(string key, int value)
-        {
-            PlayerPrefs.SetInt(key, value);
-        }
-
-        private void Load(string key, int value)
-        {
-            _maxScore = PlayerPrefs.GetInt(key, value);
-        }
     }
 
 }
