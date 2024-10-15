@@ -34,6 +34,8 @@ namespace QuizCinema
 		[SerializeField] private GameObject _overlay50Percent;
 		[SerializeField] private GameObject _overlayTimeStop;
 		[SerializeField] private GameObject _handBoost50Percent;
+		[SerializeField] private Button _slot1;
+		[SerializeField] private Button _slot2;
 
 		private void Awake()
 		{
@@ -51,6 +53,8 @@ namespace QuizCinema
 			Debug.Log("StartLearning");
 			if (MapCompletion.Instance.LearnSteps[0] == true && MapCompletion.Instance.LearnSteps[1] == true && MapCompletion.Instance.LearnSteps[2] == false)
 			{
+				_slot1.interactable = true;
+				_slot2.interactable = true;
 				_lvl1_2Table.interactable = false;
 				StartCoroutine(DelayOverlaySetActive(_overlaySecondOpenHint, 3f, true));
 				_overlayFirstOpenHint.SetActive(false);
@@ -106,6 +110,8 @@ namespace QuizCinema
 				_imageOverlayBooster2.SetActive(false);
 				_imageAnimProfile4.SetActive(true);
 				BoostsManager.SetBoostLearningInInventory(_boost50Percent);
+				_slot1.interactable = false;
+				_slot2.interactable = false;
 				_handBoost50Percent.SetActive(true);
 				//_overlay50Percent.SetActive(true);
 				_overlayTimeStop.SetActive(true);

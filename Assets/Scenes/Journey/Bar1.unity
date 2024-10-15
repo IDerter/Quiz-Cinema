@@ -201,7 +201,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 3963952226638407653}
   m_OnClick:
     m_PersistentCalls:
@@ -2590,7 +2590,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 5830375409077519187}
   m_OnClick:
     m_PersistentCalls:
@@ -13344,6 +13344,8 @@ MonoBehaviour:
   _overlay50Percent: {fileID: 1844940906}
   _overlayTimeStop: {fileID: 1113238179}
   _handBoost50Percent: {fileID: 193678573}
+  _slot1: {fileID: 844957132530581550}
+  _slot2: {fileID: 844957134490848126}
 --- !u!4 &224189799
 Transform:
   m_ObjectHideFlags: 0
@@ -20031,7 +20033,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2420056317891143229}
   m_OnClick:
     m_PersistentCalls:
@@ -25933,7 +25935,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2877926377371902187}
   m_OnClick:
     m_PersistentCalls:
@@ -44328,6 +44330,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808951354}
   m_CullTransparentMesh: 1
+--- !u!1001 &815457163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7679628104100586065, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_Name
+      value: AdsManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679628104100586079, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
 --- !u!1 &819122547
 GameObject:
   m_ObjectHideFlags: 0
@@ -51487,7 +51546,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2752690993621349472}
   m_OnClick:
     m_PersistentCalls:
@@ -64667,7 +64726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2648148, y: 0.86660767}
   m_AnchorMax: {x: 0.46662095, y: 0.90900004}
-  m_AnchoredPosition: {x: 2.7647705, y: 13}
+  m_AnchoredPosition: {x: 2.7646484, y: 13}
   m_SizeDelta: {x: 0.2617798, y: 16}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1222355790
@@ -82652,7 +82711,7 @@ MonoBehaviour:
   _currentSkinImage: {fileID: 1871233853}
   _textSkinName: {fileID: 1967087789}
   _textDescriptionSkin: {fileID: 691967363}
-  _skinBooster: {fileID: 0}
+  _skinBooster: {fileID: 2108483815}
 --- !u!114 &1558426200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87839,7 +87898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2648148, y: 0.86660767}
   m_AnchorMax: {x: 0.46662095, y: 0.90900004}
-  m_AnchoredPosition: {x: 2.7647705, y: 13}
+  m_AnchoredPosition: {x: 2.7646484, y: 13}
   m_SizeDelta: {x: 0.2617798, y: 16}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1626347473
@@ -101457,7 +101516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1658887179, guid: 894f4b47132a79940be0511a2bf892be, type: 3}
+  m_Sprite: {fileID: 238666511, guid: 2350ecafb942a444a84aca0cb4a966d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -106365,7 +106424,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2473917659995393749}
   m_OnClick:
     m_PersistentCalls:
@@ -115431,7 +115490,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 7353764711583558942}
   m_OnClick:
     m_PersistentCalls:
@@ -129041,6 +129100,10 @@ PrefabInstance:
       propertyPath: _textMoney
       value: 
       objectReference: {fileID: 1588089378406376238}
+    - target: {fileID: 8985793858844060282, guid: d90c3dd663002d24bb019e101cd0e045, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.7646484
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d90c3dd663002d24bb019e101cd0e045, type: 3}
 --- !u!224 &7165229094488548874 stripped

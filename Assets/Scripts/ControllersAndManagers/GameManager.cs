@@ -59,7 +59,9 @@ namespace QuizCinema
         #endregion
         private bool _isActivateBoost50Percent = false;
         public bool IsActivateBoost50Percent { get { return _isActivateBoost50Percent; } set { _isActivateBoost50Percent = value; } }
-        
+        [SerializeField] private bool _isRewarded;
+        public bool IsRewarded { get { return _isRewarded; } set { _isRewarded = value; } }
+
 
         public void Construct(QuestionMethods obj) 
         { 
@@ -79,12 +81,20 @@ namespace QuizCinema
             _loadingScreenStateParaHash = Animator.StringToHash("Loading Screen");
 			// _timerText.color = _timerDefaultColor;
 			_timerInLvl.OnEndFillSlider += TimerOnEndFillSlider;
-
+			RewardedAds.RewardOn += RewardOn;
 
             StartCoroutine(Downloader()); //Call download data
 
             var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
             UnityEngine.Random.InitState(seed);
+        }
+
+		private void RewardOn()
+		{
+            _score.UpdateScoreGame((int)(_score.CurrentLvlScore * 1.5f));
+            Debug.Log($"UPDATE SCORE : {(int)(_score.CurrentLvlScore * 1.5f)}");
+            _isRewarded = false;
+            UIManager.Instance.StartCalculateScore(_levelCountStars);
         }
 
 		private void TimerOnEndFillSlider()
@@ -128,7 +138,7 @@ namespace QuizCinema
                 Debug.Log("Go to WEBGL Donwloader!");
             }
 
-                if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.OSXPlayer)
+            if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.OSXPlayer)
             {
                 www = new WWW("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
                 Debug.Log("file://" + Application.streamingAssetsPath + $"/Q{SceneManager.GetActiveScene().buildIndex}.xml");
