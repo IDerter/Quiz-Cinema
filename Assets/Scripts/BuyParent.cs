@@ -15,7 +15,7 @@ namespace QuizCinema
 
 		}
 
-		public virtual void CheckCost(int money)
+		public virtual void CheckCost(int money, bool _isBuy = false)
 		{
 			
 		}

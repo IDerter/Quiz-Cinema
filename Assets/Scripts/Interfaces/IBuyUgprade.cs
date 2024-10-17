@@ -7,7 +7,7 @@ namespace QuizCinema
     public interface IBuyUgprade
     {
         public void Initialize();
-        public void CheckCost(int money);
+        public void CheckCost(int money, bool _isBuy = false);
         public void Buy();
     }
 }

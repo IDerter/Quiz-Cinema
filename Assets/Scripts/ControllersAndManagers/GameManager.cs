@@ -91,8 +91,8 @@ namespace QuizCinema
 
 		private void RewardOn()
 		{
-            _score.UpdateScoreGame((int)(_score.CurrentLvlScore * 1.5f));
-            Debug.Log($"UPDATE SCORE : {(int)(_score.CurrentLvlScore * 1.5f)}");
+            _score.UpdateScoreGame(_score.CurrentLvlScore / 2);
+            Debug.Log($"UPDATE SCORE : {_score.CurrentLvlScore / 2}");
             _isRewarded = false;
             UIManager.Instance.StartCalculateScore(_levelCountStars);
         }

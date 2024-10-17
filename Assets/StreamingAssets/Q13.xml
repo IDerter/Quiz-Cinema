@@ -32,7 +32,6 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Roland Emmerich
 1996
@@ -41,10 +40,10 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
 1996
 </string>
       </ListDescriptionFilm>
-      
       <Director>Roland Emmerich</Director>
       <Poster />
       <_cadrCinemaName>Independence Day</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu />
       <Answers>
         <Answer>
           <InfoList>
@@ -100,7 +99,6 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>George Lucas
 1999
@@ -109,10 +107,10 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
 1999
 </string>
       </ListDescriptionFilm>
-      
       <Director>George Lucas</Director>
       <Poster />
       <_cadrCinemaName>Star Wars. Episode I The Phantom Menace</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Звёздные войны: Эпизод 1 — Скрытая угроза</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -168,7 +166,6 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Andrew Adamson
 2005
@@ -177,10 +174,10 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
 2005
 </string>
       </ListDescriptionFilm>
-      
       <Director>Andrew Adamson</Director>
       <Poster />
       <_cadrCinemaName>The Chronicles of Narnia The Lion, the Witch and the Wardrobe</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Хроники Нарнии: Лев, колдунья и волшебный шкаф</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -236,7 +233,6 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Alfonso Cuaron
 2013
@@ -245,10 +241,10 @@ When the wind rises, it stirs up the lake, and the smell of decaying brine shrim
 2013
 </string>
       </ListDescriptionFilm>
-      
       <Director>Alfonso Cuaron</Director>
       <Poster />
       <_cadrCinemaName>Gravity</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Гравитация</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -313,7 +309,6 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Martin Campbell
 2006
@@ -322,10 +317,10 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
 2006
 </string>
       </ListDescriptionFilm>
-      
       <Director>Martin Campbell</Director>
       <Poster />
       <_cadrCinemaName>Casino Royale</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Казино Рояль</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -381,7 +376,6 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Steven Spielberg
 2018
@@ -390,10 +384,10 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
 2018
 </string>
       </ListDescriptionFilm>
-      
       <Director>Steven Spielberg</Director>
       <Poster />
       <_cadrCinemaName>Ready Player One</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Первому игроку приготовиться</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -449,7 +443,6 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Lumiere brothers
 1895
@@ -458,10 +451,10 @@ Everyone has a past. Every legend has a beginning. On November 17, find out how 
 1895
 </string>
       </ListDescriptionFilm>
-      
       <Director>Lumiere brothers</Director>
       <Poster />
       <_cadrCinemaName>First film</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Первый фильм</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -532,7 +525,6 @@ In the United States, pinks were a disparaging term for those who may not have b
 Мистер Розовый запомнился в числе прочего тем, что никогда не давал чаевые. Бушеми говорит, что теперь ему приходится давать на чай больше, 
 чтобы люди перестали ассоциировать его с героем фильма. На самом деле привычка не оставлять чаевые была у самого Тарантино. 
 Розовыми в США пренебрежительно называли тех, кто мог не быть коммунистом (то есть красным), но сочувствовал коммунистическим идеям.</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Quentin Tarantino
 1992
@@ -541,10 +533,10 @@ In the United States, pinks were a disparaging term for those who may not have b
 1992
 </string>
       </ListDescriptionFilm>
-      
       <Director>Tarantino</Director>
       <Poster />
       <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Бешеные псы</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -600,7 +592,6 @@ In the United States, pinks were a disparaging term for those who may not have b
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Ang Lee
 2012
@@ -609,10 +600,10 @@ In the United States, pinks were a disparaging term for those who may not have b
 2012
 </string>
       </ListDescriptionFilm>
-      
       <Director>Ang Lee</Director>
       <Poster />
       <_cadrCinemaName>Life of Pi</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Жизнь Пи</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -668,7 +659,6 @@ In the United States, pinks were a disparaging term for those who may not have b
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>James Gunn
 2017
@@ -681,10 +671,10 @@ In the United States, pinks were a disparaging term for those who may not have b
 2017
 </string>
       </ListDescriptionFilm>
-      
       <Director>James Gunn</Director>
       <Poster />
       <_cadrCinemaName>Kurt Russell!David Bautista</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Курт Рассел!Дэйв Батиста</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

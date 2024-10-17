@@ -16,7 +16,6 @@ namespace QuizCinema
 		private void Start()
 		{
             LoadSkinsSave();
-            Debug.Log(DictionarySkinButtons.Count);
 		}
 
 		public void LoadSkinsSave()

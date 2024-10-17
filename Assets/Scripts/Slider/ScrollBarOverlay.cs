@@ -38,7 +38,6 @@ namespace QuizCinema
         {
             if (!_startLvl && _countScrollBarCallback > 1)
 			{
-                Debug.Log(_startLvl + " scrollbarOverlay");
                 if (_prevValue - value > 0)
                 {
                     //_overlayBottom.SetActive(false);
@@ -71,7 +70,6 @@ namespace QuizCinema
                 _prevValue = value;
             }
             _countScrollBarCallback++;
-            Debug.Log(_countScrollBarCallback);
             _startLvl = false;
         }
 

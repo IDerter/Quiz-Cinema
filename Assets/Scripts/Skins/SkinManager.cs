@@ -171,5 +171,17 @@ namespace QuizCinema
 			}
             return true;
 		}
+
+        public static bool CheckIsBuySkin(SkinSO skinSO)
+		{
+            foreach (var skin in Instance._mainSave)
+			{
+                if (skin.SkinName == skinSO.name)
+				{
+                    return skin.Buy;
+				}
+			}
+            return false;
+        }
     }
 }

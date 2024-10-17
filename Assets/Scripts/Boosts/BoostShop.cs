@@ -37,10 +37,20 @@ namespace QuizCinema
             _money = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
 
 
-            _textMoney.text = _money.ToString();
+            //_textMoney.text = _money.ToString();
             foreach (var slot in _sales)
             {
-                slot.CheckCost(_money);
+                if (slot.TryGetComponent(out BuySkin buySkin))
+                {
+                    Debug.Log(SkinManager.CheckIsBuySkin(buySkin.SkinSO) + $" {buySkin.SkinSO.name}");
+
+                    slot.CheckCost(_money, SkinManager.CheckIsBuySkin(buySkin.SkinSO));
+                    
+                }
+                else
+                {
+                    slot.CheckCost(_money, false);
+                }
             }
         }
 

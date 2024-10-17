@@ -26,17 +26,16 @@ Michelle Pfeiffer - Elvira Hancock
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Brian De Palma
 1983</string>
         <string>Брайан де Пальма
 1983</string>
       </ListDescriptionFilm>
-      
       <Director>Brian De Palma</Director>
       <Poster />
       <_cadrCinemaName>Scarface</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu />
       <Answers>
         <Answer>
           <InfoList>
@@ -92,17 +91,16 @@ Michelle Pfeiffer - Elvira Hancock
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Lasse Hallstrom
 2000</string>
         <string>Лассе Халльстрём
 2000</string>
       </ListDescriptionFilm>
-      
       <Director>Lasse Hallstrom</Director>
       <Poster />
       <_cadrCinemaName>Chocolat</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Шоколад</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -158,17 +156,16 @@ Michelle Pfeiffer - Elvira Hancock
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Gus Van Sant
 1997</string>
         <string>Гас Ван Сент
 1997</string>
       </ListDescriptionFilm>
-      
       <Director>Gus Van Sant</Director>
       <Poster />
       <_cadrCinemaName>Good Will Hunting</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Умница Уилл Хантинг</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -224,17 +221,16 @@ Michelle Pfeiffer - Elvira Hancock
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Park Chan Wook
 2003</string>
         <string>Пак Чхан Ук
 2003</string>
       </ListDescriptionFilm>
-      
       <Director>Park Chan Wook</Director>
       <Poster />
       <_cadrCinemaName>Oldboy</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Олдбой</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -308,17 +304,16 @@ Matthew decided to simply screw up the take, but Darren included this particular
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Darren Aronofsky
 2000</string>
         <string>Даррен Аронофски
 2000</string>
       </ListDescriptionFilm>
-      
       <Director>Darren Aronofsky</Director>
       <Poster />
       <_cadrCinemaName>Requiem for a Dream</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Реквием по мечте</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -374,17 +369,16 @@ Matthew decided to simply screw up the take, but Darren included this particular
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Richard Curtis
 2013</string>
         <string>Ричард Кёртис
 2013</string>
       </ListDescriptionFilm>
-      
       <Director>Richard Curtis</Director>
       <Poster />
       <_cadrCinemaName>About Time</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Бойфренд из будущего</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -455,17 +449,16 @@ The writers didn't even bother with any kind of philosophical hook. In their opi
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Rob Reiner
 2007</string>
         <string>Роб Райнер
 2007</string>
       </ListDescriptionFilm>
-      
       <Director>Rob Reiner</Director>
       <Poster />
       <_cadrCinemaName>The Bucket List</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Пока не сыграл в ящик</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -524,17 +517,16 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Night Shyamalan
 1999</string>
         <string>М. Найт Шьямалан
 1999</string>
       </ListDescriptionFilm>
-      
       <Director>Night Shyamalan</Director>
       <Poster />
       <_cadrCinemaName>The Sixth Sense</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Шестое чувство</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -590,17 +582,16 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Bong Joon-ho
 2019</string>
         <string>Пон Чжун Хо
 2019</string>
       </ListDescriptionFilm>
-      
       <Director>Bong Joon-ho</Director>
       <Poster />
       <_cadrCinemaName>Parasite</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Паразиты</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -656,7 +647,6 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Robert Rodriguez
 2005!
@@ -669,10 +659,10 @@ Robert Rodriguez
 2005!
 </string>
       </ListDescriptionFilm>
-      
       <Director>Robert Rodriguez</Director>
       <Poster />
       <_cadrCinemaName>Jessica Alba!Bruce Willis</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Джессика Альба!Брюс Уиллис</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

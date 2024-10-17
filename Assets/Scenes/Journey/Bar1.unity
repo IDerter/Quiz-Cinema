@@ -82630,7 +82630,7 @@ MonoBehaviour:
   _currentSkinImage: {fileID: 61654552}
   _textSkinName: {fileID: 93227557}
   _textDescriptionSkin: {fileID: 436152058}
-  _skinBooster: {fileID: 0}
+  _skinBooster: {fileID: 1041558475}
 --- !u!222 &1556045487
 CanvasRenderer:
   m_ObjectHideFlags: 0

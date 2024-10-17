@@ -43,13 +43,13 @@ namespace QuizCinema
 			}
 		}
 
-		public override void CheckCost(int money)
+		public override void CheckCost(int money, bool _isBuy = false)
 		{
 			ButtonBuy.interactable = money >= _costSkin;
 
 			if (_overlayButton != null && _overlayCardSkin != null)
 			{
-				if (ButtonBuy.interactable)
+				if (ButtonBuy.interactable || _isBuy)
 				{
 					_overlayButton.SetActive(false);
 					_overlayCardSkin.SetActive(false);
