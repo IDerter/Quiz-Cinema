@@ -14,7 +14,6 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Frank Darabont
 1994
@@ -23,10 +22,10 @@
 1994
 </string>
       </ListDescriptionFilm>
-      
       <Director>Darabont</Director>
       <Poster />
       <_cadrCinemaName>The Shawshank Redemption</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu />
       <Answers>
         <Answer>
           <InfoList>
@@ -82,7 +81,6 @@
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Anne Fletcher
 2006
@@ -91,10 +89,10 @@
 2006
 </string>
       </ListDescriptionFilm>
-      
       <Director>Joel and Ethan Coen</Director>
       <Poster />
       <_cadrCinemaName>Step Up</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Шаг вперед</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -150,7 +148,6 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Michael Bay
 2007
@@ -159,10 +156,10 @@
 2007
 </string>
       </ListDescriptionFilm>
-      
       <Director>Michael Bay</Director>
       <Poster />
       <_cadrCinemaName>Transformers</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Трансформеры</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -218,7 +215,6 @@
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>The Wachowski sisters and Tom Tykwer
 2012
@@ -227,10 +223,10 @@
 2012
 </string>
       </ListDescriptionFilm>
-      
       <Director>Cloud Atlas directors</Director>
       <Poster />
       <_cadrCinemaName>Cloud Atlas</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Облачный атлас</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -286,7 +282,6 @@
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Francis Ford Coppola
 1974!
@@ -299,10 +294,10 @@ Francis Ford Coppola
 1974!
 </string>
       </ListDescriptionFilm>
-      
       <Director>Francis Ford Coppola</Director>
       <Poster />
       <_cadrCinemaName>Robert De Niro!Marlon Brando</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Роберт Де Ниро!Марлон Брандо</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -358,7 +353,6 @@ Francis Ford Coppola
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>James Cameron
 1984
@@ -367,10 +361,10 @@ Francis Ford Coppola
 1984
 </string>
       </ListDescriptionFilm>
-      
       <Director>James Cameron</Director>
       <Poster />
       <_cadrCinemaName>Terminator</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Терминатор</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -441,7 +435,6 @@ In February 2004, the film became the second in cinema history to gross over a b
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Peter Jackson
 2003
@@ -450,10 +443,10 @@ In February 2004, the film became the second in cinema history to gross over a b
 2003
 </string>
       </ListDescriptionFilm>
-      
       <Director>Jackson</Director>
       <Poster />
       <_cadrCinemaName>The Lord of the Rings The Return of the King</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Властелин колец: Возвращение короля</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -518,7 +511,6 @@ Thus Mangold explained why there is no such scene in this film.</string>
       </ListNoteFilm>
       <NoteFilm>Сцены после титров, обычно намекающие на продолжение — фишка фильмов MCU, к которой относится и «Логан».
 Таким образом Мэнголд объяснял, почему в этом фильме такой сцены нет.</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>James Mangold
 2017
@@ -527,10 +519,10 @@ Thus Mangold explained why there is no such scene in this film.</string>
 2017
 </string>
       </ListDescriptionFilm>
-      
       <Director>James Mangold</Director>
       <Poster />
       <_cadrCinemaName>Logan</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Логан</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -586,7 +578,6 @@ Thus Mangold explained why there is no such scene in this film.</string>
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>David Yates
 2016
@@ -595,10 +586,10 @@ Thus Mangold explained why there is no such scene in this film.</string>
 2016
 </string>
       </ListDescriptionFilm>
-      
       <Director>David Yates</Director>
       <Poster />
       <_cadrCinemaName>Fantastic Beasts and Where to Find Them</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Фантастические твари и где они обитают</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -654,23 +645,22 @@ Thus Mangold explained why there is no such scene in this film.</string>
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Christopher McQuarrie
 2018!
 Christopher McQuarrie
 2018!
 </string>
-       <string>Кристофер Маккуорри
+        <string>Кристофер Маккуорри
 2018!
 Кристофер Маккуорри
 2018!
 </string>
       </ListDescriptionFilm>
-      
       <Director>Christopher McQuarrie</Director>
       <Poster />
       <_cadrCinemaName>Tom Cruise!Rebecca Ferguson</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Том Круз!Ребекка Фергюсон</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

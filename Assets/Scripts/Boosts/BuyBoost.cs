@@ -45,7 +45,7 @@ namespace QuizCinema
             Debug.Log("Initiliaze" + " " + _costNumber);
         }
 
-        public override void CheckCost(int money)
+        public override void CheckCost(int money, bool _isBuy = false)
         {
             if (_numberOfBoosters > 0 && ButtonBuy != null)
             {

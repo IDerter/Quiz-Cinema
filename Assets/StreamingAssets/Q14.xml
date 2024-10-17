@@ -23,7 +23,6 @@ Mr. White (Reservoir Dogs), Winsten Wolf (Pulp Fiction)
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Quentin Tarantino
 1992
@@ -32,10 +31,10 @@ Mr. White (Reservoir Dogs), Winsten Wolf (Pulp Fiction)
 1992
 </string>
       </ListDescriptionFilm>
-      
       <Director>Tarantino</Director>
       <Poster />
       <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu />
       <Answers>
         <Answer>
           <InfoList>
@@ -103,7 +102,6 @@ He needs to somehow get settled in life, and then, to his misfortune, he meets N
 Надо как-то устраиваться в жизни, а тут еще он на свою беду встречает Нолу, типичную роковую женщину.
 2005 г. - США
       </NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Woody Allen
 2005
@@ -112,10 +110,10 @@ He needs to somehow get settled in life, and then, to his misfortune, he meets N
 2005
 </string>
       </ListDescriptionFilm>
-      
       <Director>Allen</Director>
       <Poster />
       <_cadrCinemaName>Match Point</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Матч Поинт</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -171,7 +169,6 @@ He needs to somehow get settled in life, and then, to his misfortune, he meets N
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Christopher Nolan
 2008
@@ -180,10 +177,10 @@ He needs to somehow get settled in life, and then, to his misfortune, he meets N
 2008
 </string>
       </ListDescriptionFilm>
-      
       <Director>Nolan</Director>
       <Poster />
       <_cadrCinemaName>The Dark Knight</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Темный рыцарь</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -251,7 +248,6 @@ He skeptically analyzes his failures in his personal life, in which he had sever
 Он скептически анализирует свои неудачи в личной жизни, в которой было несколько любимых женщин.
 1977 г. - США
       </NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Woody Allen
 1977
@@ -260,10 +256,10 @@ He skeptically analyzes his failures in his personal life, in which he had sever
 1977
 </string>
       </ListDescriptionFilm>
-      
       <Director>Allen</Director>
       <Poster />
       <_cadrCinemaName>Annie Hall</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Энни Холл</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -334,7 +330,6 @@ And at the same time, albeit reluctantly, he somehow fulfills his superhero duti
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Peter Berg
 2008
@@ -343,10 +338,10 @@ And at the same time, albeit reluctantly, he somehow fulfills his superhero duti
 2008
 </string>
       </ListDescriptionFilm>
-      
       <Director>Peter Berg</Director>
       <Poster />
       <_cadrCinemaName>Hancock</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Хэнкок</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -402,7 +397,6 @@ And at the same time, albeit reluctantly, he somehow fulfills his superhero duti
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Steven Spielberg
 1982
@@ -411,10 +405,10 @@ And at the same time, albeit reluctantly, he somehow fulfills his superhero duti
 1982
 </string>
       </ListDescriptionFilm>
-      
       <Director>Steven Spielberg</Director>
       <Poster />
       <_cadrCinemaName>E.T. the Extra-Terrestrial</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Инопланетянин</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -479,7 +473,6 @@ The working title of the film was “Scary Movie”. Four years later, a parody 
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Wes Craven
 1996
@@ -488,10 +481,10 @@ The working title of the film was “Scary Movie”. Four years later, a parody 
 1996
 </string>
       </ListDescriptionFilm>
-      
       <Director>Wes Craven</Director>
       <Poster />
       <_cadrCinemaName>Scream</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Крик</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -550,17 +543,16 @@ Name the record-breaking actor for the number of THIS in the 21st century</strin
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Sean Bean
 </string>
         <string>Шон Бин
 </string>
       </ListDescriptionFilm>
-      
       <Director>-</Director>
       <Poster />
       <_cadrCinemaName>Sean Bean</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Шон Бин</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -616,7 +608,6 @@ Name the record-breaking actor for the number of THIS in the 21st century</strin
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Edward Zwick
 2003
@@ -625,10 +616,10 @@ Name the record-breaking actor for the number of THIS in the 21st century</strin
 2003
 </string>
       </ListDescriptionFilm>
-      
       <Director>Edward Zwick</Director>
       <Poster />
       <_cadrCinemaName>The Last Samurai</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Последний самурай</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -684,7 +675,6 @@ Name the record-breaking actor for the number of THIS in the 21st century</strin
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>George Lucas
 2002!
@@ -697,10 +687,10 @@ George Lucas
 2002
 </string>
       </ListDescriptionFilm>
-      
       <Director>George Lucas</Director>
       <Poster />
       <_cadrCinemaName>Natalie Portman!Christopher Lee</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Натали Портман!Кристофер Ли</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

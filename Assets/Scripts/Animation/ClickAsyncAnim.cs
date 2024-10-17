@@ -56,11 +56,13 @@ namespace QuizCinema
         public async void ClickAnimBuy(bool putOn)
         {
             //objTween = _objAnim.DOPunchScale(new Vector3(0.2f, 0.2f, 0.2f), 1f).SetEase(Ease.InOutElastic);
+            
             objTween = _objAnim.DOScale(new Vector3(0.95f, 0.95f, 0.95f), 0.25f);
             await objTween.ToUniTask();
 
             objTween = _objAnim.DOScale(new Vector3(1f, 1f, 1f), 0.25f);
             await objTween.ToUniTask();
+            
 
             if (putOn)
                 await TakeOffShow();
@@ -72,7 +74,8 @@ namespace QuizCinema
         public async UniTask PutOnShow()
 		{
             Debug.Log("Put On Show");
-            await objTween.ToUniTask();
+            if (objTween != null)
+                await objTween.ToUniTask();
 
             _viewGreenBuySkin.SetActive(false);
             _viewBluePutOn.SetActive(true);
@@ -82,7 +85,8 @@ namespace QuizCinema
         public async UniTask TakeOffShow()
         {
             Debug.Log("Take Off Show");
-            await objTween.ToUniTask();
+            if (objTween != null)
+                await objTween.ToUniTask();
 
             _viewGreenBuySkin.SetActive(false);
             _viewBluePutOn.SetActive(false);

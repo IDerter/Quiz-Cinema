@@ -29,7 +29,6 @@ as it was in many films. We tried to take a different approach and achieve tensi
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Christopher Nolan
 2017
@@ -38,10 +37,10 @@ as it was in many films. We tried to take a different approach and achieve tensi
 2017
 </string>
       </ListDescriptionFilm>
-      
       <Director>Nolan</Director>
       <Poster />
       <_cadrCinemaName>Dunkirk</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu />
       <Answers>
         <Answer>
           <InfoList>
@@ -97,7 +96,6 @@ as it was in many films. We tried to take a different approach and achieve tensi
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Giuseppe Tornatore
 2013
@@ -106,10 +104,10 @@ as it was in many films. We tried to take a different approach and achieve tensi
 2013
 </string>
       </ListDescriptionFilm>
-      
       <Director>Giuseppe Tornatore</Director>
       <Poster />
       <_cadrCinemaName>The Best Offer</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Лучшее предложение</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -165,7 +163,6 @@ as it was in many films. We tried to take a different approach and achieve tensi
         <string />
       </ListNoteFilm>
       <NoteFilm />
-      
       <ListDescriptionFilm>
         <string>Valerie Jean Faris and Jonathan Dayton
 2006
@@ -174,10 +171,10 @@ as it was in many films. We tried to take a different approach and achieve tensi
 2006
 </string>
       </ListDescriptionFilm>
-      
       <Director>Valerie Jean Faris and Jonathan Dayton</Director>
       <Poster />
       <_cadrCinemaName>Little Miss Sunshine</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Маленькая мисс Счастье</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -233,7 +230,6 @@ as it was in many films. We tried to take a different approach and achieve tensi
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Jean-Marc Vallée
 2013
@@ -242,10 +238,10 @@ as it was in many films. We tried to take a different approach and achieve tensi
 2013
 </string>
       </ListDescriptionFilm>
-      
       <Director>Jean-Marc Vallée</Director>
       <Poster />
       <_cadrCinemaName>Dallas Buyers Club</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Далласский клуб покупателей</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -309,7 +305,6 @@ and the meaning from the movie with Will Smith and Rosario Dawson? (take a doubl
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Gabriele Muccino
 2008
@@ -318,10 +313,10 @@ and the meaning from the movie with Will Smith and Rosario Dawson? (take a doubl
 2008
 </string>
       </ListDescriptionFilm>
-      
       <Director>Gabriele Muccino</Director>
       <Poster />
       <_cadrCinemaName>Seven Pounds</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>7 жизней</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -377,7 +372,6 @@ and the meaning from the movie with Will Smith and Rosario Dawson? (take a doubl
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Brett Ratner
 2000
@@ -386,10 +380,10 @@ and the meaning from the movie with Will Smith and Rosario Dawson? (take a doubl
 2000
 </string>
       </ListDescriptionFilm>
-      
       <Director>Brett Ratner</Director>
       <Poster />
       <_cadrCinemaName>The Family Man</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Семьянин</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -463,7 +457,6 @@ Wes Bentley - Ricky Fitts
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Sam Mendes
 1999
@@ -472,10 +465,10 @@ Wes Bentley - Ricky Fitts
 1999
 </string>
       </ListDescriptionFilm>
-      
       <Director>Sam Mendes</Director>
       <Poster />
       <_cadrCinemaName>American Beauty</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Красота по-американски</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -540,7 +533,6 @@ In the 2003 film, his hero had to fight THEM. What was the name of his character
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Gor Verbinski
 2003-2007
@@ -549,10 +541,10 @@ In the 2003 film, his hero had to fight THEM. What was the name of his character
 2003-2007
 </string>
       </ListDescriptionFilm>
-      
       <Director>Gor Verbinski</Director>
       <Poster />
       <_cadrCinemaName>Pirates of the Caribbean The Curse of The Black Pearl</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Пираты Карибского моря: Проклятие Черной жемчужины</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -608,7 +600,6 @@ In the 2003 film, his hero had to fight THEM. What was the name of his character
         <string>-</string>
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Lone Scherfig
 2011
@@ -617,10 +608,10 @@ In the 2003 film, his hero had to fight THEM. What was the name of his character
 2011
 </string>
       </ListDescriptionFilm>
-      
       <Director>Lone Scherfig</Director>
       <Poster />
       <_cadrCinemaName>One Day</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Один день</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -673,10 +664,9 @@ In the 2003 film, his hero had to fight THEM. What was the name of his character
       <Info>Выберите всех актеров/актрис, кто снимался в фильме: "Господин Никто"</Info>
       <ListNoteFilm>
         <string>-</string>
-        <string>-</string>
+        <string />
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
-      
       <ListDescriptionFilm>
         <string>Robert Rodriguez
 2005!
@@ -689,10 +679,10 @@ Robert Rodriguez
 2005!
 </string>
       </ListDescriptionFilm>
-      
       <Director>Jaco van Dormael</Director>
       <Poster />
-      <_cadrCinemaName>-</_cadrCinemaName>
+      <_cadrCinemaName>Jared Leto!Diane Kruger</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Джаред Лето!Диана Крюгер</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

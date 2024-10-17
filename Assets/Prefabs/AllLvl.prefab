@@ -2264,6 +2264,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textCoins: {fileID: 1473596413317239102}
+  _coins: 0
+  _coinImage: {fileID: 0}
 --- !u!1 &1517564332
 GameObject:
   m_ObjectHideFlags: 0
@@ -13323,6 +13325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81be431bc361e83499dd8b742d76ff9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _buttonClickRewarded: {fileID: 8948401297319435154}
 --- !u!1 &2599288010664080586
 GameObject:
   m_ObjectHideFlags: 0
@@ -52973,7 +52976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5756196914467940113, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1737
+      value: 1949
       objectReference: {fileID: 0}
     - target: {fileID: 5756196914467940113, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53012,12 +53015,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1152297664}
     - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClickAnim
       objectReference: {fileID: 0}
     - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Multiplier
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -53028,8 +53039,16 @@ PrefabInstance:
       value: QuizCinema.ButtonsRewarded, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: QuizCinema.ButtonsRewarded, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8948401297399636082, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
       propertyPath: m_text
@@ -53125,6 +53144,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5756196914467940113, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
   m_PrefabInstance: {fileID: 906076166}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8948401297319435154 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8948401296547724180, guid: b6fbfcfa91aa9894ba203c14cd4bfc4f, type: 3}
+  m_PrefabInstance: {fileID: 906076166}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1899602046
 PrefabInstance:
   m_ObjectHideFlags: 0
