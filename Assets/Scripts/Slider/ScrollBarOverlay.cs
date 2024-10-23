@@ -14,19 +14,59 @@ namespace QuizCinema
         [SerializeField] private bool _startLvl = true;
         [SerializeField] private RectTransform _contentScroll;
         [SerializeField] private int _countScrollBarCallback = 0;
-
+        [SerializeField] private bool _isMove = true;
+         
         void Start()
         {
-            if (_contentScroll != null)
-                _contentScroll.transform.position = new Vector3(_contentScroll.transform.position.x, -680, _contentScroll.transform.position.z);
+            if (_isMove)
+            {
+                TrackerDownShop.OnScrollbarStart += OnScrollbarStart;
+                TrackerDownShop.OnScrollbarEnd += OnScrollbarEnd;
+            }
 
             scrollbar.onValueChanged.AddListener((float val) => {
                 ScrollbarCallback(val);
             });
+
+
+            if (_contentScroll != null)
+                _contentScroll.transform.position = new Vector3(_contentScroll.transform.position.x, -680, _contentScroll.transform.position.z);
+
             _startLvl = true;
+            _countScrollBarCallback = 0;
+            _prevValue = 1;
         }
 
-		private void OnEnable()
+		private void OnDestroy()
+		{
+            if (_isMove)
+            {
+                TrackerDownShop.OnScrollbarStart -= OnScrollbarStart;
+                TrackerDownShop.OnScrollbarEnd -= OnScrollbarEnd;
+            }
+        }
+
+		private void OnScrollbarStart()
+        {
+            scrollbar.onValueChanged.RemoveAllListeners();
+            scrollbar.onValueChanged.AddListener((float val) => {
+                ScrollbarCallback(val);
+            });
+
+            _countScrollBarCallback = 0;
+            _startLvl = true;
+            _prevValue = 1;
+
+        }
+
+        private void OnScrollbarEnd()
+        {
+
+            if (_contentScroll != null)
+                _contentScroll.transform.position = new Vector3(_contentScroll.transform.position.x, -680, _contentScroll.transform.position.z);
+        }
+
+        private void OnEnable()
 		{
             _countScrollBarCallback = 0;
             if (_contentScroll != null)
@@ -34,9 +74,10 @@ namespace QuizCinema
             _startLvl = true;
         }
 
-		void ScrollbarCallback(float value)
+
+        void ScrollbarCallback(float value)
         {
-            if (!_startLvl && _countScrollBarCallback > 1)
+            if (!_startLvl && _countScrollBarCallback > 2)
 			{
                 if (_prevValue - value > 0)
                 {

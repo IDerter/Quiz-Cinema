@@ -49,7 +49,8 @@ namespace QuizCinema
             _currentPosIndex = 0;
             _nearestPosIndex = 0;
 
-            _startPos.transform.position = new Vector3(-632.15f, _startPos.transform.position.y, _startPos.transform.position.z);
+            if (_startPos != null)
+                _startPos.transform.position = new Vector3(-632.15f, _startPos.transform.position.y, _startPos.transform.position.z);
         }
 
         public void SetNearestPoint(int index)

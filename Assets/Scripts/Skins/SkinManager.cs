@@ -162,6 +162,16 @@ namespace QuizCinema
             return null;
         }
 
+        public static int GetIndexPutOnSkin()
+        {
+            for (int i = 0; i < Instance._mainSave.Length; i++)
+			{
+                if (Instance._mainSave[i].PutOn)
+                    return i;
+			}
+            return 0;
+        }
+
         public static bool CheckNoEquippedSkin()
 		{
             foreach (var skin in Instance._mainSave)
