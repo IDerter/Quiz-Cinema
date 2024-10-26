@@ -31,13 +31,19 @@ namespace QuizCinema
 
         IEnumerator LoadInventoryDelay()
         {
-            yield return new WaitForSeconds(0.005f);
+            yield return new WaitForSeconds(0.0000005f);
 
             LoadInventory();
         }
 
         private void OnEnable()
 		{
+            for (int i = 0; i < _listBoosts.Length; i++)
+            {
+                _listBoosts[i] = null;
+                _listInventoryBoosts[i].BoostImage.sprite = _listInventoryBoosts[i].DefaultSprite;
+            }
+
             Debug.Log("In BoostInventory LoadInventory - Start Method");
             StartCoroutine(LoadInventoryDelay());
 
@@ -90,6 +96,7 @@ namespace QuizCinema
                     if (_listBoosts[i].TryGetComponent(out InventoryUIBoosts inventoryUIBoosts))
                     {
                         _textDescription.text = inventoryUIBoosts.TextDesctiption.text;
+                        _textDescription.gameObject.SetActive(true);
                     }
                     break;
                 }
@@ -101,6 +108,7 @@ namespace QuizCinema
                         {
                             Debug.Log(_listBoosts[i].name + " != null");
                             _textDescription.text = inventoryUIBoosts.TextDesctiption.text;
+                            _textDescription.gameObject.SetActive(true);
                         }
                     }
                 }

@@ -56,7 +56,7 @@ MonoBehaviour:
     _source: {fileID: 0}
   - _typeMixer: 1
     _name: IncorrectSFX
-    _clip: {fileID: 8300000, guid: 6bd8e8352a3b0cd4c975168526332f18, type: 3}
+    _clip: {fileID: 8300000, guid: 6282de375cdc7674d82697406b29c3de, type: 3}
     _parameters:
       _volume: 0.4
       _pitch: 1
@@ -70,6 +70,14 @@ MonoBehaviour:
       _pitch: 1
       _loop: 0
     _source: {fileID: 0}
+  - _typeMixer: 1
+    _name: ClickSFX
+    _clip: {fileID: 8300000, guid: eb5efa2dfedf2ec4982bc4e4c114229a, type: 3}
+    _parameters:
+      _volume: 0.2
+      _pitch: 1
+      _loop: 0
+    _source: {fileID: 0}
   - _typeMixer: 0
     _name: GameMusic
     _clip: {fileID: 8300000, guid: 809fc68855bcdce4b9bce94b58ad1153, type: 3}
@@ -77,6 +85,30 @@ MonoBehaviour:
       _volume: 0.2
       _pitch: 1
       _loop: 1
+    _source: {fileID: 0}
+  - _typeMixer: 1
+    _name: Swipe
+    _clip: {fileID: 8300000, guid: 3fe987f5310d20b4fa5a45718991f493, type: 3}
+    _parameters:
+      _volume: 0.2
+      _pitch: 1
+      _loop: 0
+    _source: {fileID: 0}
+  - _typeMixer: 1
+    _name: ClickSwipe
+    _clip: {fileID: 8300000, guid: 87d80714106701e45b871c966491295e, type: 3}
+    _parameters:
+      _volume: 0.2
+      _pitch: 1
+      _loop: 0
+    _source: {fileID: 0}
+  - _typeMixer: 1
+    _name: Lock
+    _clip: {fileID: 8300000, guid: 89ad670de86d6c04ab629aa8627fc39d, type: 3}
+    _parameters:
+      _volume: 0.2
+      _pitch: 1
+      _loop: 0
     _source: {fileID: 0}
   _sourcePrefabSFX: {fileID: 7569559025098685476, guid: c8eb1ef16fab092438e4614deff8e9f5, type: 3}
   _sourcePrefabMusic: {fileID: 7569559025098685476, guid: fe92b04ed6220034a91eeca84d76780c, type: 3}

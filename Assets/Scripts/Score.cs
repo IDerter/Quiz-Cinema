@@ -27,6 +27,8 @@ namespace QuizCinema
         public void UpdateScoreGame(int add)
         {
             _currentLvlScore += add;
+            if (_currentLvlScore <= 0)
+                _currentLvlScore = 0;
             Debug.Log(add + " Сколько добавили к счету!");
 
             UpdateScore?.Invoke();

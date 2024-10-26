@@ -25,6 +25,7 @@ namespace QuizCinema
             if (!_barAnim.IsOpen)
 			{
                 _lock.AnimationState.SetAnimation(1, _namePress, false);
+                AudioManager.Instance.PlaySound("Lock");
             }
 			else
 			{

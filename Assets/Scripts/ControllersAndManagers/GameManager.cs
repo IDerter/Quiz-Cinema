@@ -40,6 +40,7 @@ namespace QuizCinema
 
         private const string _correctSFX = "CorrectSFX";
         private const string _inCorrectSFX = "IncorrectSFX";
+        private const string _inCorrectTimeEndSFX = "TimerEnd";
 
         [Header("Lvl")]
 
@@ -112,9 +113,9 @@ namespace QuizCinema
 
             Debug.Log("TimerOnEndFillSlider");
             var scoreAdd = StorageBarsInfo.Instance.InfoBars[numberBar - 1].ScoreLvlsInBar[numberLvlInBar % 5] / _questionMethods.GetLengthQuestions;
-            Debug.Log(scoreAdd / 10 + " СКОЛЬКО НУЖНО ДОБАВИТЬ!");
-            _score.UpdateScoreGame(_isCorrectAnswer ? scoreAdd : -scoreAdd);
-            AudioManager.Instance.PlaySound((_isCorrectAnswer) ? _correctSFX : _inCorrectSFX);
+            Debug.Log(scoreAdd / 10 + " СКОЛЬКО НУЖНО ОТНЯТЬ");
+            _score.UpdateScoreGame(-scoreAdd);
+            AudioManager.Instance.PlaySound(_inCorrectTimeEndSFX);
             //TODO�� ������ �������� _currentIndexNotRandom ������� �� CurrentIndexQuestion � ���� ������� � ����� � QUESTUINMETHODS!!!
             // !!! !!!!
             //  _questionMethods.FinishedQuestions.Add(_questionMethods.CurrentIndexQuestion);

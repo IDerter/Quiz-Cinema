@@ -2776,6 +2776,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSFX
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &259190179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3157,6 +3169,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSFX
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &286145183
@@ -6039,9 +6063,45 @@ PrefabInstance:
     m_TransformParent: {fileID: 904861522}
     m_Modifications:
     - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 467489223344238092}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2076650294}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySound
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: QuizCinema.AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: ClickSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926931488199121830, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 9143133459659459760, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
       propertyPath: m_Name
       value: CoinContainer
@@ -8658,6 +8718,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873353348}
   m_CullTransparentMesh: 1
+--- !u!114 &883976122 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 535437229, guid: 162cd5bdae0fb4d4eb1a9c52c572cadb, type: 3}
+  m_PrefabInstance: {fileID: 535437225}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde20661201c3464a81d68d228da698a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &886524341
 GameObject:
   m_ObjectHideFlags: 0
@@ -12301,6 +12372,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSFX
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1177203416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14981,6 +15064,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622764328}
   m_CullTransparentMesh: 1
+--- !u!1 &1624401191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3006886903642866367, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+  m_PrefabInstance: {fileID: 3056963582961184943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1634348071
 GameObject:
   m_ObjectHideFlags: 0
@@ -19011,6 +19099,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068898710}
   m_CullTransparentMesh: 1
+--- !u!114 &2076650294 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 96090960970936813, guid: 93a3bbea256fa444e88f2ee8c5743425, type: 3}
+  m_PrefabInstance: {fileID: 1318186814}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae0db5f314ac4a4db71c071142ff167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2089725553
 GameObject:
   m_ObjectHideFlags: 0
@@ -46390,10 +46489,78 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 904861522}
     m_Modifications:
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 96090960970936813, guid: 93a3bbea256fa444e88f2ee8c5743425, type: 3}
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlaySound
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuizCinema.AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ClickSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234556422177, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2076650294}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySound
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: QuizCinema.AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: ClickSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584649234784328505, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2355402205734601065, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -63.700195
       objectReference: {fileID: 0}
+    - target: {fileID: 4630224327980774172, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: _audioClipButtonClick
+      value: 
+      objectReference: {fileID: 8300000, guid: eb5efa2dfedf2ec4982bc4e4c114229a, type: 3}
     - target: {fileID: 4630224328285464579, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
       propertyPath: m_Name
       value: PanelSettings
@@ -46481,6 +46648,114 @@ PrefabInstance:
     - target: {fileID: 4630224328285464588, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 96090960970936813, guid: 93a3bbea256fa444e88f2ee8c5743425, type: 3}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlaySound
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuizCinema.AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ClickSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630224329342323472, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2076650294}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1624401191}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6177833043063912224}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlaySound
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetSliderValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: GameStop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuizCinema.AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: QuizCinema.VolumeValue, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ClickSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471107730017000335, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
@@ -50994,6 +51269,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSwipe
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!224 &3418758980157050084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -52938,6 +53225,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9187014453285139918}
     m_Modifications:
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 5992031422243206098}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Multiplier
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: QuizCinema.ButtonsRewarded, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4761461689380839522, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
       propertyPath: m_Name
       value: ButtonGreenAds
@@ -77630,6 +77945,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Swipe
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5992031421143341127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77941,6 +78268,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSwipe
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &5992031421547571694
@@ -78587,6 +78926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _buttonClickRewarded: {fileID: 8325283489543228191}
+  _isDelete: 0
 --- !u!1 &5992031422256348041
 GameObject:
   m_ObjectHideFlags: 0
@@ -78926,6 +79266,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Swipe
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &5992031422416163945
@@ -79424,6 +79776,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Swipe
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5992031422765024791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79596,6 +79960,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Swipe
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &5992031422830731850
@@ -80267,10 +80643,34 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5992031420863399110}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSFX
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8442678055317377388}
+        m_TargetAssemblyTypeName: QuizCinema.TrackerDownShop, Assembly-CSharp
+        m_MethodName: MovePanelDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8442678055317377389}
+        m_TargetAssemblyTypeName: QuizCinema.TrackerDownShop, Assembly-CSharp
+        m_MethodName: MovePanelDown
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -81628,6 +82028,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSwipe
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &6079955508260700808
@@ -83577,6 +83989,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4630224328285464588, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
   m_PrefabInstance: {fileID: 3056963582961184943}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6177833043063912224 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5708113586254842128, guid: 03c0b970e2f6db844ab4bba55ab7cba8, type: 3}
+  m_PrefabInstance: {fileID: 3056963582961184943}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbf87d83a8f7fdf468d85142755f77b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6179226900499344373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100476,7 +100899,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 4106422268671078900}
   m_Direction: 3
   m_Value: 0.99999964
-  m_Size: 0
+  m_Size: 0.7148966
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -110811,6 +111234,7 @@ GameObject:
   - component: {fileID: 8119265022323708190}
   - component: {fileID: 8442678055317377388}
   - component: {fileID: 8442678055317377389}
+  - component: {fileID: 8442678055317377390}
   m_Layer: 5
   m_Name: PanelDownPanel
   m_TagString: Untagged
@@ -110833,7 +111257,7 @@ MonoBehaviour:
   _panelToMove: {fileID: 5992031420863399110}
   _posUp: {fileID: 1483773435}
   _posDown: {fileID: 745522523}
-  duration: 1
+  duration: 0.5
 --- !u!114 &8442678055317377389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110849,7 +111273,21 @@ MonoBehaviour:
   _panelToMove: {fileID: 9212060941488944339}
   _posUp: {fileID: 1483773435}
   _posDown: {fileID: 745522523}
-  duration: 1
+  duration: 0.5
+--- !u!114 &8442678055317377390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8442678055317377387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3240e45209eb844d816cb722d561b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _score: {fileID: 883976122}
+  _isRewarded: 0
 --- !u!224 &8444728557919109777
 RectTransform:
   m_ObjectHideFlags: 0
@@ -127500,6 +127938,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2076650294}
+        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ClickSwipe
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!224 &9212060941167756879
