@@ -21,7 +21,8 @@ namespace QuizCinema
 
         private void Start()
         {
-            _coins = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
+            Debug.Log(MapCompletion.Instance.TotalScoreLvls + " " + MapCompletion.Instance.TotalAdsMoney + " " + MapCompletion.Instance.MoneyShop + MapCompletion.Instance.SkinShop);
+            _coins = (MapCompletion.Instance.TotalScoreLvls + MapCompletion.Instance.TotalAdsMoney) - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
             _coinsEnd = _coins;
             _textCoins.text = _coins.ToString();
         }
@@ -38,28 +39,31 @@ namespace QuizCinema
 
         private async void OnScoreUpdate()
         {
-            _coinsEnd = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
+            _coinsEnd = (MapCompletion.Instance.TotalScoreLvls + MapCompletion.Instance.TotalAdsMoney) - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
 
             await CalculateScore();
 
-            Debug.Log("ONSCOREUPDATE!");
+            Debug.Log("ONSCOREUPDATE! " + _coinsEnd + " " + _coins);
         }
+
+
 
         private async UniTask CalculateScore()
 		{
-            if (_coins > _coinsEnd)
-			{
-                var taskReact = ReactCoins();
-                Debug.Log("CalculateScore");
-                while (_coins > _coinsEnd)
-                {
-                    Debug.Log("CalculateScore" + _coins);
-                    await UniTask.Delay(TimeSpan.FromSeconds(0.0001f));
-                    _coins--;
-                    _textCoins.text = _coins.ToString();
-                }
-                await UniTask.WhenAll(taskReact);
+            var scoreMoreThanZero = _coinsEnd - _coins > 0;
+
+            var taskReact = ReactCoins();
+            Debug.Log("CalculateScore");
+            while (scoreMoreThanZero ? _coins < _coinsEnd : _coins > _coinsEnd)
+            {
+                Debug.Log("CalculateScore" + _coins + " " +  _coinsEnd + " " + scoreMoreThanZero);    
+                await UniTask.Delay(TimeSpan.FromSeconds(0.0001f));
+                _coins += scoreMoreThanZero ? 1 : -1;
+                _textCoins.text = _coins.ToString();
             }
+            Debug.Log("CalculateScore" + _coins + " " + _coinsEnd + " after while");
+            await UniTask.WhenAll(taskReact);
+            
         }
 
         private async UniTask ReactCoins()
@@ -72,5 +76,12 @@ namespace QuizCinema
             }
             //coinStart = coinEnd;
         }
+
+        public void AddCoins(int coins)
+		{
+            MapCompletion.Instance.TotalAdsMoney += coins;
+            OnScoreUpdate();
+            MapCompletion.SaveAds();
+		}
     }
 }

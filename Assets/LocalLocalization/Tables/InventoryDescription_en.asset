@@ -33,8 +33,7 @@ MonoBehaviour:
   - m_Id: 6070912749568
     m_Localized: 'Shows information about the movie
 
-      (year of release, director,
-      brief description)'
+      (year of release, director)'
     m_Metadata:
       m_Items: []
   - m_Id: 6738926964736

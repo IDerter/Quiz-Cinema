@@ -23,7 +23,7 @@ namespace QuizCinema
         public InventoryUIBoosts[] BoostActive => (InventoryUIBoosts[])_boostsActive;
 
         [SerializeField] private TextMeshProUGUI _textDescription;
-
+        [SerializeField] private TextMeshProUGUI _textDescriptionDefault;
 
         private int _lenListBoosts = 3;
 
@@ -32,18 +32,26 @@ namespace QuizCinema
             base.Awake();
             
         }
-        private void Start()
-        {
-            Debug.Log("In BoostInventory LoadInventory - Start Method");
-            LoadInventory();
 
+
+        IEnumerator LoadInventoryDelay()
+        {
+            yield return new WaitForSeconds(0.0000005f);
+
+            LoadInventory();
+        }
+
+        private void OnEnable()
+        {
             for (int i = 0; i < _listBoosts.Length; i++)
             {
-                if (_listBoosts[i] != null)
-                {
-                    _listInventoryBoosts[i].GetSetBoostSO = _listBoosts[i].GetSetBoostSO;
-                }
+                _listBoosts[i] = null;
+                _listInventoryBoosts[i].BoostImage.sprite = _listInventoryBoosts[i].DefaultSprite;
             }
+
+            Debug.Log("In BoostInventory LoadInventory - Start Method");
+            StartCoroutine(LoadInventoryDelay());
+
         }
 
         public void FillList(BoostUICount inventoryBoost)
@@ -68,6 +76,10 @@ namespace QuizCinema
                     OnSaveListBoosts?.Invoke();
                     OnPressButtonBoostInventory?.Invoke(inventoryBoost);
 
+                    if (_listBoosts[i].TryGetComponent(out InventoryUIBoosts inventoryUIBoosts) && _textDescription != null)
+                    {
+                        _textDescription.text = inventoryUIBoosts.TextDesctiption.text;
+                    }
                     break;
                 }
             }
@@ -80,14 +92,29 @@ namespace QuizCinema
                 if (_listBoosts[i] == null && BoostsManager.GetCountBoost(inventoryBoost.GetSetBoostSO) > 0)
                 {
                     _listBoosts[i] = inventoryBoost;
-                    
+
+                    _listInventoryBoosts[i].GetSetBoostSO = _listBoosts[i].GetSetBoostSO;
+
                     _listInventoryBoosts[i].BoostImage.sprite = inventoryBoost.BoostImage.sprite;
                     _listInventoryBoosts[i].WarningImage.gameObject.SetActive(false);
                     if (_listBoosts[i].TryGetComponent(out InventoryUIBoosts inventoryUIBoosts) && _textDescription != null)
 					{
+                        Debug.Log("LoadSlot" + _listBoosts[i].name);
                         _textDescription.text = inventoryUIBoosts.TextDesctiption.text;
 					}
                     break;
+                }
+                else
+                {
+                    if (_listBoosts[i] != null)
+                    {
+                        if (_listBoosts[i].TryGetComponent(out InventoryUIBoosts inventoryUIBoosts))
+                        {
+                            Debug.Log(_listBoosts[i].name + " != null");
+                            _textDescription.text = inventoryUIBoosts.TextDesctiption.text;
+                            _textDescription.gameObject.SetActive(true);
+                        }
+                    }
                 }
             }
         }
@@ -108,6 +135,13 @@ namespace QuizCinema
 
                     _listInventoryBoosts[i].BoostImage.sprite = _listInventoryBoosts[i].DefaultSprite;
                     _listInventoryBoosts[i].WarningImage.gameObject.SetActive(true);
+
+                    if (_listBoosts[0] == null && _listBoosts[1] == null && _listBoosts[2] == null)
+                    {
+                        _textDescription.text = _textDescriptionDefault.text;
+                        Debug.Log("ALL ZERO VALUES!");
+                    }
+
 
                     OnSaveListBoosts?.Invoke();
                     break;

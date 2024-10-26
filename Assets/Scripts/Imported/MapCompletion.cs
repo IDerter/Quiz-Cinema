@@ -16,6 +16,8 @@ namespace TowerDefense
         private const string _fileName = "savelvls.dat";
         private const string _fileBarsSave = "saveBars.dat";
         private const string _fileLearningStepsName = "saveLearningSteps.dat";
+        private const string _fileAdsSave = "fileAdsSave.dat";
+
         public string FileLearning => _fileLearningStepsName;
         public string FileName => _fileName;
 
@@ -51,6 +53,17 @@ namespace TowerDefense
             {
                 _totalScoreLvls = Mathf.Clamp(_totalScoreLvls, 0, int.MaxValue);
                 _totalScoreLvls = value; 
+            }
+        }
+
+        [SerializeField] private int _totalAdsMoney;
+        public int TotalAdsMoney
+        {
+            get { return _totalAdsMoney; }
+            set
+            {
+                _totalAdsMoney = Mathf.Clamp(_totalAdsMoney, 0, int.MaxValue);
+                _totalAdsMoney = value;
             }
         }
 
@@ -107,6 +120,7 @@ namespace TowerDefense
                     _totalStars += episodeScore.Stars;
                     _totalScoreLvls += episodeScore.ScoreLvl;
                 }
+                _totalScoreLvls += _totalAdsMoney;
             }
             else
             {
@@ -114,12 +128,14 @@ namespace TowerDefense
             }
 
            // _totalScoreLvls -= _moneyShop;
-            OnScoreUpdate?.Invoke();
             Debug.Log(_totalStars);
             Instance._isOpenBar = new bool[StorageEpisode.Instance.GetEpisodes.Length];
             _isOpenBar[0] = true;
             bool flagOpenBar = Saver<bool[]>.TryLoad(_fileBarsSave, ref Instance._isOpenBar);
             Saver<bool[]>.Save(_fileBarsSave, Instance._isOpenBar);
+
+            bool fladAdsMoney = Saver<int>.TryLoad(_fileAdsSave, ref Instance._totalAdsMoney);
+            Saver<int>.Save(_fileAdsSave, Instance._totalAdsMoney);
             /*
             for (int i = 1; i < Instance._isOpenBar.Length; i++)
 			{
@@ -180,6 +196,10 @@ namespace TowerDefense
         {
             Instance._completeLearning = true;
         }
+        public static void SaveAds()
+        {
+            Saver<int>.Save(_fileAdsSave, Instance._totalAdsMoney);
+        }
 
         public static void ResetLearningAndBarProgress()
 		{
@@ -230,6 +250,8 @@ namespace TowerDefense
                  
                 }
             }
+
+            SaveAds();
             OnScoreUpdate?.Invoke();
         }
 
@@ -297,6 +319,7 @@ namespace TowerDefense
                 Instance._totalScoreLvls = 0;
                 Instance._moneyShop = 0;
                 Instance._skinShop = 0;
+                Instance._totalAdsMoney = 0;
 
                 OnScoreUpdate?.Invoke();
             }
