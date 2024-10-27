@@ -23,6 +23,8 @@ namespace QuizCinema
         private float minVolumeValue = -80f;
         private float maxVolumeValue = 0f;
 
+        private const string _clickSFX = "ClickSFX";
+
         private void Start()
         {
             Debug.Log("Load volume data");
@@ -33,12 +35,14 @@ namespace QuizCinema
 
         public void GameStop()
         {
+            AudioManager.Instance.PlaySound(_clickSFX);
             Time.timeScale = 0;
         }
 
         public void GameStart()
         {
             Time.timeScale = 1;
+            AudioManager.Instance.PlaySound(_clickSFX);
         }
 
         public void SetSliderValue()

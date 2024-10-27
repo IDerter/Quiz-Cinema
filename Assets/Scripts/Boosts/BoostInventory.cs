@@ -25,6 +25,8 @@ namespace QuizCinema
         [SerializeField] private TextMeshProUGUI _textDescription;
         [SerializeField] private TextMeshProUGUI _textDescriptionDefault;
 
+        private const string _clickSFX = "ClickSFX";
+
         private int _lenListBoosts = 3;
 
         protected override void Awake()
@@ -61,6 +63,8 @@ namespace QuizCinema
                 if (_listBoosts[i] == null && BoostsManager.GetCountBoost(inventoryBoost.GetSetBoostSO) > 0)
                 {
                     _listBoosts[i] = inventoryBoost;
+
+                    AudioManager.Instance.PlaySound(_clickSFX);
 
                     BoostsManager.Instance.MainSaveListBoosts._listBoosts[i] = inventoryBoost.GetSetBoostSO.name.ToString();
                     BoostsManager.Instance.SaveListBoosts._listBoosts[i] = inventoryBoost.GetSetBoostSO.name.ToString(); ;
@@ -127,6 +131,8 @@ namespace QuizCinema
                 if (_listInventoryBoosts[i] == inventoryBoost && _listBoosts[i] != null)
                 {
                     _listBoosts[i] = null;
+
+                    AudioManager.Instance.PlaySound(_clickSFX);
 
                     BoostsManager.ReturnFromInventory(_listInventoryBoosts[i].GetSetBoostSO, _listBoosts);
 

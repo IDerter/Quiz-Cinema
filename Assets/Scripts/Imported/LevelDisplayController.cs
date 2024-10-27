@@ -115,6 +115,7 @@ namespace TowerDefense
 		{
             lockObj.AnimationState.SetAnimation(1, "press", false);
 
+            AudioManager.Instance.PlaySound("Lock");
         }
     }
 }

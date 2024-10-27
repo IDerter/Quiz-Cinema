@@ -16,6 +16,8 @@ namespace QuizCinema
 		[SerializeField] private TextMeshProUGUI _textDescriptionSkin;
 		[SerializeField] private BoostInGame _skinBooster;
 
+		private const string _clickSFX = "ClickSFX";
+
 		private void Start()
 		{
 			SkinManager.Instance.OnPutOn += OnPutOn;
@@ -32,6 +34,11 @@ namespace QuizCinema
 			SkinSave skin = GetPutOnSkin();
 			SetInventoryReminderInfo(skin);
 			Debug.Log("Load Info Skin" + skin.SkinName);
+		}
+
+		public void ClickSound()
+		{
+			AudioManager.Instance.PlaySound(_clickSFX);
 		}
 
 		private void OnPutOn(SkinSave skinSave)

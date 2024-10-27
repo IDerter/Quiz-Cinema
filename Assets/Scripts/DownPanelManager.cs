@@ -19,6 +19,8 @@ namespace QuizCinema
         [SerializeField] private DownPanelAnim _currentAnimButton;
         private const string _levelMap = "LevelMap";
 
+
+
         private void Start()
         {
             _buttonProfile.onClick.AddListener(() => AnimButton(_buttonProfile.GetComponent<DownPanelAnim>()));

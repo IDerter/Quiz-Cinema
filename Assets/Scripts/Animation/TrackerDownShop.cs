@@ -21,12 +21,14 @@ namespace QuizCinema
         [SerializeField] private Transform _posDown;
 
         [SerializeField] private float duration = 1f;
-
+        private const string _clickSwipeAudio = "ClickSwipe";
 
         public async void MovePanelUp()
 		{
             var task = _panelToMove.transform.DOMove(new Vector3(_posUp.position.x, _posUp.transform.position.y, 0), duration)
-                .SetEase(Ease.Linear).ToUniTask();
+                .SetEase(Ease.OutBack).ToUniTask();
+
+            AudioManager.Instance.PlaySound(_clickSwipeAudio);
 
             await UniTask.WhenAll(task);
             OnScrollbarStart?.Invoke();
@@ -35,7 +37,9 @@ namespace QuizCinema
         public void MovePanelDown()
         {
             var task = _panelToMove.transform.DOMove(new Vector3(_posDown.position.x, _posDown.transform.position.y, 0), duration)
-                .SetEase(Ease.Linear).ToUniTask();
+                .SetEase(Ease.InBack).ToUniTask();
+
+            AudioManager.Instance.PlaySound(_clickSwipeAudio);
 
             OnScrollbarEnd?.Invoke();
         }
