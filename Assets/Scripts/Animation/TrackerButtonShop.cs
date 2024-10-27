@@ -29,6 +29,7 @@ namespace QuizCinema
         [SerializeField] private ScrollBarOverlay _scrollSkinsPanel;
         [SerializeField] private ScrollBarOverlay _scrollBoostersPanel;
 
+        private const string _clickSwipeAudio = "ClickSwipe";
 
         private float _sizeScaleButton = 1.2f;
 
@@ -58,6 +59,7 @@ namespace QuizCinema
             ResetScrollPanels();
             InitState();
 
+            AudioManager.Instance.PlaySound(_clickSwipeAudio);
 
             _chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
 				.SetEase(Ease.Linear).ToUniTask();
@@ -75,6 +77,8 @@ namespace QuizCinema
 		public void MoveAndScaleButton(Button button)
         {
             InitState();
+
+            AudioManager.Instance.PlaySound(_clickSwipeAudio);
 
             _chooseImage.transform.DOMove(new Vector3(button.GetComponent<RectTransform>().position.x, _chooseImage.transform.position.y), duration)
                 .SetEase(Ease.Linear).ToUniTask();

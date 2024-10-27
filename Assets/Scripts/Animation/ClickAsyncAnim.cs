@@ -22,6 +22,8 @@ namespace QuizCinema
         [SerializeField] private bool _isDisable;
         [SerializeField] private bool _isLoop;
 
+        private const string _clickSFX = "ClickSFX";
+
         private void Start()
         {
             _objAnim = GetComponent<RectTransform>();
@@ -39,6 +41,8 @@ namespace QuizCinema
         public virtual async void ClickAnim()
         {
             //objTween = _objAnim.DOPunchScale(new Vector3(0.2f, 0.2f, 0.2f), 1f).SetEase(Ease.InOutElastic);
+            AudioManager.Instance.PlaySound(_clickSFX);
+
             objTween = _objAnim.DOScale(new Vector3(0.95f, 0.95f, 0.95f), 0.25f);
             await objTween.ToUniTask();
 
