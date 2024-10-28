@@ -62,6 +62,10 @@ MonoBehaviour:
     m_Localized: 'Max Score:'
     m_Metadata:
       m_Items: []
+  - m_Id: 51471693223202816
+    m_Localized: One, two, three ... sound check...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

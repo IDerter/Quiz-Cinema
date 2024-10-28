@@ -1144,6 +1144,10 @@ MonoBehaviour:
   _viewGreenBuySkin: {fileID: 0}
   _viewBluePutOn: {fileID: 0}
   _viewBlueTakeOff: {fileID: 0}
+  _openObject: {fileID: 0}
+  _closeObject: {fileID: 0}
+  _isDisable: 0
+  _isLoop: 0
 --- !u!114 &8480549886793777192
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Wizard
   m_EditorClassIdentifier: 
   sprite: {fileID: 1658887179, guid: 894f4b47132a79940be0511a2bf892be, type: 3}
-  cost: 500
+  cost: 1000
   _boost: {fileID: 11400000, guid: a54f763d295f3aa4fbaea5a0b2d1c3ca, type: 2}
   _descriptionSkinBooster: Can stop timer for 10 sec every question.

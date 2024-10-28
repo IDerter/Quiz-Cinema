@@ -501,6 +501,7 @@ How to stop a murderer if he is already behind bars?
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -566,6 +567,7 @@ How to stop a murderer if he is already behind bars?
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
+
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -580,57 +582,62 @@ How to stop a murderer if he is already behind bars?
       </ListNoteFilm>
       <NoteFilm>-</NoteFilm>
       <ListDescriptionFilm>
-        <string>Peter Jackson
-2003</string>
-        <string>Питер Джексон
-2003</string>
+        <string>
+          Danny Boyle
+          2008
+        </string>
+        <string>
+          Дэнни Бойл
+          2008
+        </string>
       </ListDescriptionFilm>
-      <Director>Jackson</Director>
+      <Director>Danny Boyle</Director>
       <Poster />
-      <_cadrCinemaName>The Lord of the Rings The Return of the King</_cadrCinemaName>
-      <_cadrCinemaNameTranslateRu>Властелин колец: Возвращение короля</_cadrCinemaNameTranslateRu>
+      <_cadrCinemaName>Slumdog Millionaire</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Миллионер из трущоб</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
-            <string>Lord of the Rings The Fellowship of the ring</string>
-            <string>Властелин колец: Братство Кольца</string>
+            <string>Who Wants to Be a Millionaire?</string>
+            <string>Кто хочет стать миллионером?</string>
           </InfoList>
-          <Info>Lord of the Rings The Fellowship of the ring</Info>
-          <TranslateInfo>Властелин колец: Братство Кольца</TranslateInfo>
+          <Info>Who Wants to Be a Millionaire?</Info>
+          <TranslateInfo>Кто хочет стать миллионером?</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>The Lord of the Rings The Return of the King</string>
-            <string>Властелин колец: Возвращение короля</string>
+            <string>Lion</string>
+            <string>Лев</string>
           </InfoList>
-          <Info>The Lord of the Rings The Return of the King</Info>
-          <TranslateInfo>Властелин колец: Возвращение короля</TranslateInfo>
+          <Info>Lion</Info>
+          <TranslateInfo>Лев</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Slumdog Millionaire</string>
+            <string>Миллионер из трущоб</string>
+          </InfoList>
+          <Info>Slumdog Millionaire</Info>
+          <TranslateInfo>Миллионер из трущоб</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>The Lord of the Rings: The Two Towers</string>
-            <string>Властелин колец: Две крепости</string>
+            <string>The Green Knight</string>
+            <string>Легенда о Зелёном рыцаре</string>
           </InfoList>
-          <Info>The Lord of the Rings: The Two Towers</Info>
-          <TranslateInfo>Властелин колец: Две крепости</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <InfoList>
-            <string>The Hobbit: An Unexpected Journey</string>
-            <string>Хоббит: Нежданное путешествие</string>
-          </InfoList>
-          <Info>The Hobbit: An Unexpected Journey</Info>
-          <TranslateInfo>Хоббит: Нежданное путешествие</TranslateInfo>
+          <Info>The Green Knight</Info>
+          <TranslateInfo>Легенда о Зелёном рыцаре</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>30</Timer>
-      <AddScore>50</AddScore>
+      <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>

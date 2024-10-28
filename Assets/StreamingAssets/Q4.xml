@@ -66,83 +66,89 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+
     <Question>
-      <IndexPrefab>2</IndexPrefab>
+      <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
-        <string>
-Name the movie based on its description:
-A modest and shy bank employee feels insecure around beautiful girls and around people in general.
-By the will of fate, a magic mask falls into his hands, and Stanley Ipkiss acquires the ability to turn into an invulnerable
-cartoon creature with a mischievous character.
-      </string>
-        <string>
-Назовите фильм по описанию:
-Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
-Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
-мультяшное существо с озорным характером.
-      </string>
+        <string>Guess the movie by frame</string>
+        <string>Угадай фильм по кадру</string>
       </ListInfoQuestion>
-      <Info>
-Назовите фильм по описанию:
-Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
-Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
-мультяшное существо с озорным характером.
-      </Info>
-      <ListNoteFilm />
-      <NoteFilm>-</NoteFilm>
+      <Info>Угадай фильм по кадру</Info>
+      <ListNoteFilm>
+        <string>
+          The plot of the picture is tied to a robbery,
+          after which the criminals gather in an abandoned warehouse on the outskirts of the city - and try to find out who framed them
+          1992 - USA
+        </string>
+        <string>
+          Сюжет картины завязан на ограблении,
+          после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
+          1992 г. - США
+        </string>
+      </ListNoteFilm>
+      <NoteFilm>
+        Сюжет картины завязан на ограблении,
+        после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
+        1992 г. - США
+      </NoteFilm>
       <ListDescriptionFilm>
-        <string>Chuck Russell
-1994</string>
-        <string>Чак Рассел
-1994</string>
+        <string>
+          Quentin Tarantino
+          1992
+        </string>
+        <string>
+          Квентин Тарантино
+          1992
+        </string>
       </ListDescriptionFilm>
-      <Director>Chuck Russell</Director>
+      <Director>Tarantino</Director>
       <Poster />
-      <_cadrCinemaName>Mask</_cadrCinemaName>
-      <_cadrCinemaNameTranslateRu>Маска</_cadrCinemaNameTranslateRu>
+      <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Бешеные псы</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
-            <string>Bruce Almighty</string>
-            <string>Брюс Всемогущий</string>
+            <string>Titanic</string>
+            <string>Титаник</string>
           </InfoList>
-          <Info>Bruce Almighty</Info>
-          <TranslateInfo>Брюс Всемогущий</TranslateInfo>
+          <Info>Titanic</Info>
+          <TranslateInfo>Титаник</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Mask</string>
-            <string>Маска</string>
+            <string>Kill Bill: Volume 1</string>
+            <string>Убить Билла 1</string>
           </InfoList>
-          <Info>Mask</Info>
-          <TranslateInfo>Маска</TranslateInfo>
+          <Info>Kill Bill: Volume 1</Info>
+          <TranslateInfo>Убить Билла 1</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Reservoir Dogs</string>
+            <string>Бешеные псы</string>
+          </InfoList>
+          <Info>Reservoir Dogs</Info>
+          <TranslateInfo>Бешеные псы</TranslateInfo>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Liar Liar</string>
-            <string>Лжец, лжец</string>
+            <string>Kill Bill: Volume 2</string>
+            <string>Убить Билла 2</string>
           </InfoList>
-          <Info>Liar Liar</Info>
-          <TranslateInfo>Лжец, лжец</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <InfoList>
-            <string>Who Framed Roger Rabbit</string>
-            <string>Кто подставил кролика Роджера</string>
-          </InfoList>
-          <Info>Who Framed Roger Rabbit</Info>
-          <TranslateInfo>Кто подставил кролика Роджера</TranslateInfo>
+          <Info>Kill Bill: Volume 2</Info>
+          <TranslateInfo>Убить Билла 2</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>30</Timer>
-      <AddScore>40</AddScore>
+      <AddScore>50</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>

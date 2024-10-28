@@ -24,6 +24,8 @@ namespace QuizCinema
 
         [SerializeField] private float _timeDelay = 1f;
 
+        private const string _clickSFX = "ClickSFX";
+
         private void Start()
         {
             // ResetProgress();
@@ -86,6 +88,8 @@ namespace QuizCinema
 
         public void BarPress()
         {
+            AudioManager.Instance.PlaySound(_clickSFX);
+
             _bar.AnimationState.SetAnimation(1, _namePress, false);
             Debug.Log("Bar Press!");
         }

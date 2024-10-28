@@ -199,72 +199,89 @@
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
+
     <Question>
-      <IndexPrefab>0</IndexPrefab>
+      <IndexPrefab>2</IndexPrefab>
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
-        <string>Guess the movie by frame</string>
-        <string>Угадай фильм по кадру</string>
+        <string>
+          Name the movie based on its description:
+          A modest and shy bank employee feels insecure around beautiful girls and around people in general.
+          By the will of fate, a magic mask falls into his hands, and Stanley Ipkiss acquires the ability to turn into an invulnerable
+          cartoon creature with a mischievous character.
+        </string>
+        <string>
+          Назовите фильм по описанию:
+          Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
+          Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
+          мультяшное существо с озорным характером.
+        </string>
       </ListInfoQuestion>
-      <Info>Угадай фильм по кадру</Info>
-      <ListNoteFilm>
-        <string />
-        <string />
-        <string />
-      </ListNoteFilm>
-      <NoteFilm />
+      <Info>
+        Назовите фильм по описанию:
+        Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
+        Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
+        мультяшное существо с озорным характером.
+      </Info>
+      <ListNoteFilm />
+      <NoteFilm>-</NoteFilm>
       <ListDescriptionFilm>
-        <string>Lasse Hallstrom
-2009</string>
-        <string>Лассе Халльстрём
-2009</string>
+        <string>
+Chuck Russell
+1994
+        </string>
+        <string>
+Чак Рассел
+1994
+        </string>
       </ListDescriptionFilm>
-      <Director>Lasse Hallstrom</Director>
+      <Director>Chuck Russell</Director>
       <Poster />
-      <_cadrCinemaName>Hachi A Dog's Tale</_cadrCinemaName>
-      <_cadrCinemaNameTranslateRu>Хатико: Самый верный друг</_cadrCinemaNameTranslateRu>
+      <_cadrCinemaName>Mask</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Маска</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
-            <string>Eight Below</string>
-            <string>Белый плен</string>
+            <string>Bruce Almighty</string>
+            <string>Брюс Всемогущий</string>
           </InfoList>
-          <Info>Eight Below</Info>
-          <TranslateInfo>Белый плен</TranslateInfo>
+          <Info>Bruce Almighty</Info>
+          <TranslateInfo>Брюс Всемогущий</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Marley and Me</string>
-            <string>Марли и я</string>
+            <string>Mask</string>
+            <string>Маска</string>
           </InfoList>
-          <Info>Marley and Me</Info>
-          <TranslateInfo>Марли и я</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <InfoList>
-            <string>A Dog's Purpose</string>
-            <string>Собачья жизнь</string>
-          </InfoList>
-          <Info>A Dog's Purpose</Info>
-          <TranslateInfo>Собачья жизнь</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <InfoList>
-            <string>Hachi A Dog's Tale</string>
-            <string>Хатико: Самый верный друг</string>
-          </InfoList>
-          <Info>Hachi A Dog's Tale</Info>
-          <TranslateInfo>Хатико: Самый верный друг</TranslateInfo>
+          <Info>Mask</Info>
+          <TranslateInfo>Маска</TranslateInfo>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Liar Liar</string>
+            <string>Лжец, лжец</string>
+          </InfoList>
+          <Info>Liar Liar</Info>
+          <TranslateInfo>Лжец, лжец</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Who Framed Roger Rabbit</string>
+            <string>Кто подставил кролика Роджера</string>
+          </InfoList>
+          <Info>Who Framed Roger Rabbit</Info>
+          <TranslateInfo>Кто подставил кролика Роджера</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>30</Timer>
-      <AddScore>60</AddScore>
+      <AddScore>40</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>

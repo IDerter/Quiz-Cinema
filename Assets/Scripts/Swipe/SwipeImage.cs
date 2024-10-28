@@ -17,6 +17,8 @@ namespace QuizCinema
         private float _alphaTranslucent = 0.5f;
         private float _alphaNotTransparent = 1f;
 
+        private const string _swipeSFX = "Swipe";
+
         private void Awake()
         {
             AnswersMethods.Instance.OnCreateAnswers += OnCreateAnswers;
@@ -87,7 +89,8 @@ namespace QuizCinema
                 _cadrs[0].GetComponent<ImageQuestionAnim>().IsLoop = false;
                 _cadrs[0].GetComponent<ImageQuestionAnim>().SetStartPos();
             }
-            
+
+            AudioManager.Instance.PlaySound(_swipeSFX);
 
             SetAlphaTranslucent();
 

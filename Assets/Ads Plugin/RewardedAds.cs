@@ -60,8 +60,6 @@ public class RewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLi
 		if (placementId == _adUnitId && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED))
 		{
 			Debug.Log("Ads Fully Watched .....");
-			if (GameManager.Instance != null)
-				GameManager.Instance.IsRewarded = true;
 
 			RewardOn?.Invoke();
 		}

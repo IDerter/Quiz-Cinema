@@ -59,6 +59,10 @@ MonoBehaviour:
     m_Key: MaxScore
     m_Metadata:
       m_Items: []
+  - m_Id: 51471693223202816
+    m_Key: One, two, three ... sound check...
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

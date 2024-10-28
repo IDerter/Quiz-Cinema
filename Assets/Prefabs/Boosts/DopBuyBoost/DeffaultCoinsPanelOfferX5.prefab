@@ -1099,8 +1099,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22.86, y: 3.14}
-  m_SizeDelta: {x: 97.23, y: 90.59}
+  m_AnchoredPosition: {x: 38.5, y: 3.14}
+  m_SizeDelta: {x: 128.51, y: 90.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5440258989160912262
 CanvasRenderer:
@@ -1164,7 +1164,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -21.9
@@ -2083,6 +2083,10 @@ MonoBehaviour:
   _viewGreenBuySkin: {fileID: 0}
   _viewBluePutOn: {fileID: 0}
   _viewBlueTakeOff: {fileID: 0}
+  _openObject: {fileID: 0}
+  _closeObject: {fileID: 0}
+  _isDisable: 0
+  _isLoop: 0
 --- !u!114 &7643840744320615123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2140,8 +2144,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22.86, y: 3.14}
-  m_SizeDelta: {x: 97.23, y: 90.59}
+  m_AnchoredPosition: {x: 38.5, y: 3.14}
+  m_SizeDelta: {x: 128.51, y: 90.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5440258989780365937
 CanvasRenderer:
@@ -2205,7 +2209,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -21.9
@@ -2639,8 +2643,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22.86, y: 0.75}
-  m_SizeDelta: {x: 97.23, y: 90.59}
+  m_AnchoredPosition: {x: 38.5, y: 0.75}
+  m_SizeDelta: {x: 128.51, y: 90.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5440258990209254489
 CanvasRenderer:
@@ -2704,7 +2708,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -21.9

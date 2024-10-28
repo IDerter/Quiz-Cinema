@@ -110,6 +110,22 @@ MonoBehaviour:
       _pitch: 1
       _loop: 0
     _source: {fileID: 0}
+  - _typeMixer: 1
+    _name: Coins
+    _clip: {fileID: 8300000, guid: 85312922c99edda47ba339c14f60d0d4, type: 3}
+    _parameters:
+      _volume: 0.2
+      _pitch: 1
+      _loop: 0
+    _source: {fileID: 0}
+  - _typeMixer: 1
+    _name: CompleteLvl
+    _clip: {fileID: 8300000, guid: 59dbf47e74949a44881d144513b53e56, type: 3}
+    _parameters:
+      _volume: 0.2
+      _pitch: 1
+      _loop: 0
+    _source: {fileID: 0}
   _sourcePrefabSFX: {fileID: 7569559025098685476, guid: c8eb1ef16fab092438e4614deff8e9f5, type: 3}
   _sourcePrefabMusic: {fileID: 7569559025098685476, guid: fe92b04ed6220034a91eeca84d76780c, type: 3}
   _startupTrack: GameMusic

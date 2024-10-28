@@ -2776,18 +2776,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2076650294}
-        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ClickSFX
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &259190179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3169,18 +3157,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2076650294}
-        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ClickSFX
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &286145183
@@ -4853,7 +4829,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3220167383436926236}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8217,7 +8193,7 @@ RectTransform:
   - {fileID: 1058095230}
   - {fileID: 113608575}
   m_Father: {fileID: 3220167383436926236}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12372,18 +12348,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2076650294}
-        m_TargetAssemblyTypeName: QuizCinema.AudioManager, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ClickSFX
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1177203416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13264,7 +13228,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3220167384582309334}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19297,7 +19261,7 @@ RectTransform:
   - {fileID: 1989365019}
   - {fileID: 73267537}
   m_Father: {fileID: 3220167384582309334}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -49342,9 +49306,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3220167383452013380}
   - {fileID: 410364731}
   - {fileID: 841036920}
+  - {fileID: 3220167383452013380}
   - {fileID: 1198857208801794056}
   m_Father: {fileID: 14073278}
   m_RootOrder: 1
@@ -49427,7 +49391,7 @@ RectTransform:
   - {fileID: 3220167383385183279}
   - {fileID: 3220167383649078375}
   m_Father: {fileID: 3220167383436926236}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -49704,9 +49668,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3220167384587930510}
   - {fileID: 1410989232}
   - {fileID: 2094930514}
+  - {fileID: 3220167384587930510}
   - {fileID: 1198857209812959426}
   m_Father: {fileID: 14073278}
   m_RootOrder: 3
@@ -49865,7 +49829,7 @@ RectTransform:
   - {fileID: 3220167384654695653}
   - {fileID: 3220167384391128237}
   m_Father: {fileID: 3220167384582309334}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -100351,7 +100315,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9212060939846600400}
   m_HandleRect: {fileID: 9212060939846600401}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -100570,7 +100534,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -679.9999}
+  m_AnchoredPosition: {x: 0, y: -680}
   m_SizeDelta: {x: 0, y: 2385.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &6904146965122268096
@@ -100674,8 +100638,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4106422268671078907}
   m_HandleRect: {fileID: 4106422268671078900}
   m_Direction: 3
-  m_Value: 0.99999964
-  m_Size: 0
+  m_Value: 1.0000004
+  m_Size: 0.7148966
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
