@@ -20,7 +20,7 @@ namespace QuizCinema
 
         public static void PressButtonLike(Image likeImage, Question _currentQuestion, bool flagLike)
         {
-            flagLike = !flagLike;
+            //flagLike = !flagLike;
 
             if (flagLike)
             {

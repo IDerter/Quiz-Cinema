@@ -23,6 +23,8 @@ namespace QuizCinema
         [SerializeField] private bool _isLearningBooster;
         [SerializeField] private LearningLvlManager _learningLvlManager;
 
+        private const string _clickSFX = "ClickSFX";
+
         private void Start()
         {
             if (GameManager.Instance != null)
@@ -60,6 +62,8 @@ namespace QuizCinema
                         //Debug.Log()
                         if (_isLearningBooster && MapCompletion.Instance.LearnSteps[3] && !MapCompletion.Instance.LearnSteps[4])
                             _learningLvlManager.ShowGoodJobAfterClickBooster();
+
+                        AudioManager.Instance.PlaySound(_clickSFX);
 
                         _fadeImage.FadeOutStartAnim();
                         Destroy(myComponent.gameObject, LevelSequenceController.Instance.TimeAnimClick * 2);

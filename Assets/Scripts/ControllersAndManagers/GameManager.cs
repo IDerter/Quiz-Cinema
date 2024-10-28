@@ -41,6 +41,7 @@ namespace QuizCinema
         private const string _correctSFX = "CorrectSFX";
         private const string _inCorrectSFX = "IncorrectSFX";
         private const string _inCorrectTimeEndSFX = "TimerEnd";
+        private const string _winLvlSFX = "WinLvl";
 
         [Header("Lvl")]
 
@@ -92,10 +93,8 @@ namespace QuizCinema
 
 		private void RewardOn()
 		{
-            
             _score.UpdateScoreGame(_score.CurrentLvlScore / 2);
             Debug.Log($"UPDATE SCORE : {_score.CurrentLvlScore / 2}");
-            _isRewarded = false;
             UIManager.Instance.StartCalculateScore(_levelCountStars);
         }
 
@@ -266,6 +265,9 @@ namespace QuizCinema
             else
             {
                 _levelCountStars = CalculateLevelStars();
+                if (_levelCountStars > 0)
+                    AudioManager.Instance.PlaySound(_winLvlSFX);
+
                 FinishGame();
                 OnFinishGame?.Invoke();
             }

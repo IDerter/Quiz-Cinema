@@ -59,6 +59,9 @@ namespace QuizCinema
         private bool _flagShowPanelResult = false;
         private int _indexLang;
 
+        private const string _clickSFX = "ClickSFX";
+
+
         private void Start()
         {
             _indexLang = PlayerPrefs.GetInt("IndexLanguageSave");
@@ -192,7 +195,7 @@ namespace QuizCinema
         private void SetAllInfoQuestion(Question question)
         {
             Debug.Log("SetCorrectQuestionText");
-
+            _flagLike = false;
             string questionText = question.ListInfoQuestion[_indexLang];
             string correctText = null;
 
@@ -229,6 +232,8 @@ namespace QuizCinema
 
         public void PressLikeButton()
         {
+
+            AudioManager.Instance.PlaySound(_clickSFX);
             _flagLike = !_flagLike;
             LikeFilm.PressButtonLike(_likeImage, _currentQuestion, _flagLike);
         }

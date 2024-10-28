@@ -45,6 +45,9 @@ namespace QuizCinema
         [SerializeField] private float coinEnd;
         [SerializeField] private float needToSum;
 
+        private const string _coinSFX = "Coins";
+
+
         private void Start()
         {
             
@@ -86,6 +89,7 @@ namespace QuizCinema
             // Spawn the coin to a specific location with random value
 
             List<UniTask> spawnCoinTaskList = new List<UniTask>();
+            AudioManager.Instance.PlaySound(_coinSFX);
             for (int i = 0; i < coinAmount; i++)
             {
                 GameObject coinInstance = Instantiate(coinPrefab, coinParent);
@@ -132,6 +136,8 @@ namespace QuizCinema
             Debug.Log("MoveCoinTask");
             if (coinStart + (needToSum / coinAmount) <= coinEnd) //TODO
                 SetCoin(needToSum / coinAmount);
+
+            AudioManager.Instance.PlaySound(_coinSFX);
             await ReactToCollectionCoin();
 
            // Debug.Log("SETCOINMOVECOINTASK!" + needToSum / coinAmount);

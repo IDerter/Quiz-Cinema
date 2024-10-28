@@ -10,68 +10,68 @@
       </ListInfoQuestion>
       <Info>Угадай фильм по кадру</Info>
       <ListNoteFilm>
-        <string>The plot of the picture is tied to a robbery,
-after which the criminals gather in an abandoned warehouse on the outskirts of the city - and try to find out who framed them
-1992 - USA</string>
-        <string>Сюжет картины завязан на ограблении,
-после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
-1992 г. - США</string>
+        <string />
+        <string />
+        <string />
       </ListNoteFilm>
-      <NoteFilm>Сюжет картины завязан на ограблении,
-после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
-1992 г. - США</NoteFilm>
+      <NoteFilm />
       <ListDescriptionFilm>
-        <string>Quentin Tarantino
-1992</string>
-        <string>Квентин Тарантино
-1992</string>
+        <string>
+Lasse Hallstrom
+2009
+        </string>
+        <string>
+Лассе Халльстрём
+2009
+        </string>
       </ListDescriptionFilm>
-      <Director>Tarantino</Director>
+      <Director>Lasse Hallstrom</Director>
       <Poster />
-      <_cadrCinemaName>Reservoir Dogs</_cadrCinemaName>
-      <_cadrCinemaNameTranslateRu>Бешеные псы</_cadrCinemaNameTranslateRu>
+      <_cadrCinemaName>Hachi A Dog's Tale</_cadrCinemaName>
+      <_cadrCinemaNameTranslateRu>Хатико: Самый верный друг</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
-            <string>Titanic</string>
-            <string>Титаник</string>
+            <string>Eight Below</string>
+            <string>Белый плен</string>
           </InfoList>
-          <Info>Titanic</Info>
-          <TranslateInfo>Титаник</TranslateInfo>
+          <Info>Eight Below</Info>
+          <TranslateInfo>Белый плен</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Kill Bill: Volume 1</string>
-            <string>Убить Билла 1</string>
+            <string>Marley and Me</string>
+            <string>Марли и я</string>
           </InfoList>
-          <Info>Kill Bill: Volume 1</Info>
-          <TranslateInfo>Убить Билла 1</TranslateInfo>
+          <Info>Marley and Me</Info>
+          <TranslateInfo>Марли и я</TranslateInfo>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <InfoList>
-            <string>Reservoir Dogs</string>
-            <string>Бешеные псы</string>
+            <string>A Dog's Purpose</string>
+            <string>Собачья жизнь</string>
           </InfoList>
-          <Info>Reservoir Dogs</Info>
-          <TranslateInfo>Бешеные псы</TranslateInfo>
+          <Info>A Dog's Purpose</Info>
+          <TranslateInfo>Собачья жизнь</TranslateInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <InfoList>
+            <string>Hachi A Dog's Tale</string>
+            <string>Хатико: Самый верный друг</string>
+          </InfoList>
+          <Info>Hachi A Dog's Tale</Info>
+          <TranslateInfo>Хатико: Самый верный друг</TranslateInfo>
           <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <InfoList>
-            <string>Kill Bill: Volume 2</string>
-            <string>Убить Билла 2</string>
-          </InfoList>
-          <Info>Kill Bill: Volume 2</Info>
-          <TranslateInfo>Убить Билла 2</TranslateInfo>
-          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>30</Timer>
-      <AddScore>50</AddScore>
+      <AddScore>60</AddScore>
     </Question>
+    
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>

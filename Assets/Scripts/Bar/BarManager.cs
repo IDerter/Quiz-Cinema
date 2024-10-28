@@ -12,6 +12,8 @@ namespace QuizCinema
 		[SerializeField] private GameObject _panelOpenNextBar;
 		[SerializeField] private bool _isOpen = false;
 
+		private const string _completeLvlSFX = "CompleteLvl";
+
 		private void Start()
 		{
 			//ResetProgress();
@@ -53,6 +55,8 @@ namespace QuizCinema
 		public void ShowOpenNewBar()
 		{
 			_panelOpenNextBar.SetActive(true);
+			AudioManager.Instance.PlaySound(_completeLvlSFX);
+
 			PlayerPrefs.SetInt(_level.Episode.EpisodeName, 1);
 		}
 

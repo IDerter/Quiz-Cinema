@@ -17,7 +17,7 @@ namespace QuizCinema
         [SerializeField] private SpawnParticles _spawn;
         private float _timeLeft = 0;
 
-        private const string _sceneMainMenu = "MainMenu";
+        private const string _sceneMap = "LevelMap";
 
         private void Start()
         {
@@ -68,7 +68,7 @@ namespace QuizCinema
                 yield return new WaitForSeconds(0.05f);
             }
 
-            SceneManager.LoadScene(_sceneMainMenu);
+            SceneManager.LoadScene(_sceneMap);
             Debug.Log("Start Timer - Êîíåö ÒÀÉÌÅĞÀ!");
         }
 
