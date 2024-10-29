@@ -19,6 +19,8 @@ namespace QuizCinema
 
         private Tween coinReactionTween;
 
+        private const string _coinSFX = "Coins";
+
         private void Start()
         {
             Debug.Log(MapCompletion.Instance.TotalScoreLvls + " " + MapCompletion.Instance.TotalAdsMoney + " " + MapCompletion.Instance.MoneyShop + MapCompletion.Instance.SkinShop);
@@ -52,6 +54,8 @@ namespace QuizCinema
 		{
             var scoreMoreThanZero = _coinsEnd - _coins > 0;
 
+            AudioManager.Instance.PlaySound(_coinSFX);
+
             var taskReact = ReactCoins();
             Debug.Log("CalculateScore");
             while (scoreMoreThanZero ? _coins < _coinsEnd : _coins > _coinsEnd)
@@ -79,6 +83,7 @@ namespace QuizCinema
 
         public void AddCoins(int coins)
 		{
+
             MapCompletion.Instance.TotalAdsMoney += coins;
             OnScoreUpdate();
             MapCompletion.SaveAds();

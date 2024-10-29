@@ -658,8 +658,8 @@ In the 2003 film, his hero had to fight THEM. What was the name of his character
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select all the actors/actresses who starred in the film: "Mr. Nobody"</string>
-        <string>Выберите всех актеров/актрис, кто снимался в фильме: "Господин Никто"</string>
+        <string>Select all the actors/actresses who starred in the film: "Mr. Nobody" (2 answers)</string>
+        <string>Выберите всех актеров/актрис, кто снимался в фильме: "Господин Никто" (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите всех актеров/актрис, кто снимался в фильме: "Господин Никто"</Info>
       <ListNoteFilm>

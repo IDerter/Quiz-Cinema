@@ -264,6 +264,7 @@ namespace QuizCinema
             }
             else
             {
+                AudioManager.Instance.StopSound("BGLvl");
                 _levelCountStars = CalculateLevelStars();
                 if (_levelCountStars > 0)
                     AudioManager.Instance.PlaySound(_winLvlSFX);

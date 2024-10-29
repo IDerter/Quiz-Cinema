@@ -15,7 +15,7 @@ namespace QuizCinema
         [SerializeField] private GameManager _gameManager;
         [SerializeField] private TextMeshProUGUI[] _textQuestionNumberResult;
         [SerializeField] private TextMeshProUGUI _textQuestionNumberInLvl;
-        
+
         [Header("Correct and Incorrect")]
         [SerializeField] private Sprite _correctBg;
         [SerializeField] private Sprite _inCorrectBg;
@@ -73,15 +73,15 @@ namespace QuizCinema
             QuestionMethods.Instance.CurrentAnswerList += UpdateCurrentAnswerList;
 
             if (LanguageChanger.Instance != null)
-			    LanguageChanger.Instance.OnChangeLanguage += OnChangeLanguage;
+                LanguageChanger.Instance.OnChangeLanguage += OnChangeLanguage;
         }
 
-		private void OnChangeLanguage()
-		{
-			
-		}
+        private void OnChangeLanguage()
+        {
 
-		private void OnDestroy()
+        }
+
+        private void OnDestroy()
         {
             AnswerData.UpdateQuestionAnswer -= UpdateQuestionAnswer;
 
@@ -113,7 +113,21 @@ namespace QuizCinema
 
         private void CorrectSetActive(bool correct)
         {
+            var countCorrectAnswer = 0;
+            if (_currentQuestion._answerType == AnswerType.Multiply)
+            {
+                foreach (var answer in _listAnswersPicked)
+                {
+                    if (answer.AnswerIndex == _correctAnswersIndex[0] || answer.AnswerIndex == _correctAnswersIndex[1])
+                        countCorrectAnswer++;
+                }
+            }
+
             _bgResultPanel.sprite = correct ? _correctBg : _inCorrectBg;
+            if (_currentQuestion._answerType == AnswerType.Multiply && !correct && countCorrectAnswer == 1)
+            {
+                _bgResultPanel.sprite = _almostCorrectBg;
+            }
 
             _buttonCorrectNext[0].enabled = true ;
             _buttonCorrectNext[0].gameObject.SetActive(true);

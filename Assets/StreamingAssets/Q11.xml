@@ -640,8 +640,8 @@ used during the filming of stunts, and for the prosthetic hand of the heroine Ch
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select all the young actors who starred in the film: "What's Eating Gilbert Grape?"</string>
-        <string>Выберите всех молодых актеров, кто снимался в фильме: "Что Гложет Гилберта Грейпа?"</string>
+        <string>Select all the young actors who starred in the film: "What's Eating Gilbert Grape?" (2 answers)</string>
+        <string>Выберите всех молодых актеров, кто снимался в фильме: "Что Гложет Гилберта Грейпа?" (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите всех молодых актеров, кто снимался в фильме: "Что Гложет Гилберта Грейпа?"</Info>
       <ListNoteFilm>

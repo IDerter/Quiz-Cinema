@@ -85,8 +85,8 @@ a hopeless romantic, an obsessive madman or a dangerous gangster clinging to wea
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select films that have a literary source</string>
-        <string>Выберите фильмы у которых есть литературный источник</string>
+        <string>Select films that have a literary source (2 answers)</string>
+        <string>Выберите фильмы у которых есть литературный источник (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите фильмы у которых есть литературный источник</Info>
       <ListNoteFilm>
