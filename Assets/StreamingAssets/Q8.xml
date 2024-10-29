@@ -638,8 +638,8 @@ Derek's independence and courage are admired by his younger brother Danny, who h
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select all the actors who played the role of Hannibal Lecter</string>
-        <string>Выберите всех актеров кто играл роль Ганнибала Лектера</string>
+        <string>Select all the actors who played the role of Hannibal Lecter (2 answers)</string>
+        <string>Выберите всех актеров кто играл роль Ганнибала Лектера (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите всех актеров кто играл роль Ганнибала Лектера</Info>
       <ListNoteFilm>

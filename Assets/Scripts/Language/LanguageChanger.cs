@@ -9,12 +9,12 @@ namespace QuizCinema
     public class LanguageChanger : SingletonBase<LanguageChanger>
     {
         public event Action OnChangeLanguage;
-
-        [SerializeField] private AudioClip _audioClipButtonClick;
         [SerializeField] private Language[] _buttonsLanguage;
 
         [SerializeField] private int _index = 0;
         public int GetLanguageIndex => _index;
+
+        private const string _clickSFX = "ClickSFX";
 
         private void Start()
         {
@@ -36,7 +36,7 @@ namespace QuizCinema
             LocaleSelector.Instance.ChangeLocale(_index);
 
             _buttonsLanguage[_index].gameObject.SetActive(true);
-            AudioManager.Instance.PlaySoundAudioClip(_audioClipButtonClick);
+            AudioManager.Instance.PlaySound(_clickSFX);
 
             PlayerPrefs.SetInt("IndexLanguageSave", _index);
         }
@@ -54,7 +54,7 @@ namespace QuizCinema
             LocaleSelector.Instance.ChangeLocale(_index);
 
             _buttonsLanguage[_index].gameObject.SetActive(true);
-            AudioManager.Instance.PlaySoundAudioClip(_audioClipButtonClick);
+            AudioManager.Instance.PlaySound(_clickSFX);
 
             PlayerPrefs.SetInt("IndexLanguageSave", _index);
         }

@@ -275,8 +275,8 @@ Tom Tykwer
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select all the actors who played Vito Corleone</string>
-        <string>Выберите всех актеров игравших Вито Корлеоне</string>
+        <string>Select all the actors who played Vito Corleone (2 answers)</string>
+        <string>Выберите всех актеров игравших Вито Корлеоне (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите всех актеров игравших Вито Корлеоне</Info>
       <ListNoteFilm>

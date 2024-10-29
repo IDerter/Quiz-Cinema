@@ -66,7 +66,7 @@ MonoBehaviour:
     _name: CountdownSFX
     _clip: {fileID: 8300000, guid: b5fb19f17a947c94dba06dc4ad687324, type: 3}
     _parameters:
-      _volume: 0.009
+      _volume: 0.2
       _pitch: 1
       _loop: 0
     _source: {fileID: 0}
@@ -82,7 +82,7 @@ MonoBehaviour:
     _name: GameMusic
     _clip: {fileID: 8300000, guid: 809fc68855bcdce4b9bce94b58ad1153, type: 3}
     _parameters:
-      _volume: 0.2
+      _volume: 0.4
       _pitch: 1
       _loop: 1
     _source: {fileID: 0}

@@ -41817,8 +41817,16 @@ PrefabInstance:
       value: Buy booster
       objectReference: {fileID: 0}
     - target: {fileID: 2043730435366818964, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043730435366818964, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043730435366818964, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
       propertyPath: m_characterSpacing
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4821717327123183882, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
       propertyPath: m_Pivot.x
@@ -41917,8 +41925,16 @@ PrefabInstance:
       value: Buy booster
       objectReference: {fileID: 0}
     - target: {fileID: 4821717327225716846, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821717327225716846, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821717327225716846, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
       propertyPath: m_characterSpacing
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4821717327899919116, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -41929,8 +41945,16 @@ PrefabInstance:
       value: Buy booster
       objectReference: {fileID: 0}
     - target: {fileID: 4821717327899919119, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821717327899919119, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821717327899919119, guid: da9da100176d8fe4388918683ed9b40d, type: 3}
       propertyPath: m_characterSpacing
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da9da100176d8fe4388918683ed9b40d, type: 3}

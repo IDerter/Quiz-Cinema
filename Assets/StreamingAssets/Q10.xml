@@ -638,8 +638,8 @@ and the meaning from the David Fincher movie with Brad Pitt and Morgan Freeman?<
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select all the actors/actresses who starred in the first part of Sin City</string>
-        <string>Выберите всех актеров/актрис, кто снимался в первой части Города Грехов</string>
+        <string>Select all the actors/actresses who starred in the first part of Sin City (2 answers)</string>
+        <string>Выберите всех актеров/актрис, кто снимался в первой части Города Грехов (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите всех актеров/актрис, кто снимался в первой части Города Грехов </Info>
       <ListNoteFilm>

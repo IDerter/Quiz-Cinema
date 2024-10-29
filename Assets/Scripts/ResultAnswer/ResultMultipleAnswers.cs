@@ -56,6 +56,8 @@ namespace QuizCinema
         private int _indexLang;
         private int correctIndex = 0;
 
+        private const string _clickSFX = "ClickSFX";
+
         private void Start()
         {
             _indexLang = PlayerPrefs.GetInt("IndexLanguageSave");
@@ -246,6 +248,8 @@ namespace QuizCinema
 
         public void PressLikeButton(int index)
         {
+            AudioManager.Instance.PlaySound(_clickSFX);
+
             _flagLikes[index] = !_flagLikes[index];
             _posterImage[index].sprite.name = _posterImage[index].sprite.name.Replace("_poster", "");
 

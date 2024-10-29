@@ -650,8 +650,8 @@ In the United States, pinks were a disparaging term for those who may not have b
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select all the actors who starred in the film: "Guardians of the Galaxy Vol. 2"</string>
-        <string>Выберите всех актеров, кто снимался в фильме: "Стражи Галактики. Часть 2"</string>
+        <string>Select all the actors who starred in the film: "Guardians of the Galaxy Vol. 2" (2 answers)</string>
+        <string>Выберите всех актеров, кто снимался в фильме: "Стражи Галактики. Часть 2" (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите всех актеров, кто снимался в фильме: "Стражи Галактики. Часть 2"</Info>
       <ListNoteFilm>

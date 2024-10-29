@@ -22,6 +22,8 @@ namespace QuizCinema
 
         private int _costNumber; // цена покупки улучшения
 
+        private const string _coinSFX = "Coins";
+
         private void Awake()
         {
             Initialize();
@@ -80,6 +82,7 @@ namespace QuizCinema
 
         public override void Buy()
         {
+            //AudioManager.Instance.PlaySound(_coinSFX);
             BoostsManager.BuyBoost(_asset, _numberOfBoosters);
             Initialize(); // очень важное действие, иначе не будет обновляться результат покупки апдейтов в игре
         }

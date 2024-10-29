@@ -8,9 +8,6 @@ namespace QuizCinema
 	{
 		[SerializeField] private UICoins _score;
 
-		[SerializeField] private bool _isRewarded;
-		public bool IsRewarded { get { return _isRewarded; } set { _isRewarded = value; } }
-
 
 		private void Start()
 		{
@@ -26,7 +23,6 @@ namespace QuizCinema
 		{
 			_score.AddCoins(50);
 			Debug.Log($"UPDATE SCORE : {50}");
-			_isRewarded = false;
 		}
 	}
 }

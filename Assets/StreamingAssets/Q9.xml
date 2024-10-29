@@ -642,8 +642,8 @@ How to stop a murderer if he is already behind bars?
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select the actors who appeared in all of Peter Jackson's Middle-earth films</string>
-        <string>Выберите тех актеров кто появлялся во всех фильмах про Средиземье Питера Джексона</string>
+        <string>Select the actors who appeared in all of Peter Jackson's Middle-earth films (2 answers)</string>
+        <string>Выберите тех актеров кто появлялся во всех фильмах про Средиземье Питера Джексона (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите тех актеров кто появлялся во всех фильмах про Средиземье Питера Джексона</Info>
       <ListNoteFilm>

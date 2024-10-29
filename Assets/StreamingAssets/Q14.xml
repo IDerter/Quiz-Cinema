@@ -666,8 +666,8 @@ Name the record-breaking actor for the number of THIS in the 21st century</strin
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>
       <ListInfoQuestion>
-        <string>Select all the actors/actresses who starred in the movie: "Star Wars Episode II: Attack of the Clones"</string>
-        <string>Выберите всех актеров/актрис, кто снимался в фильме: "Звёздные войны. Эпизод II: Атака клонов"</string>
+        <string>Select all the actors/actresses who starred in the movie: "Star Wars Episode II: Attack of the Clones" (2 answers)</string>
+        <string>Выберите всех актеров/актрис, кто снимался в фильме: "Звёздные войны. Эпизод II: Атака клонов" (2 ответа)</string>
       </ListInfoQuestion>
       <Info>Выберите всех актеров/актрис, кто снимался в фильме: "Звёздные войны. Эпизод II: Атака клонов"</Info>
       <ListNoteFilm>
