@@ -151,7 +151,7 @@ namespace QuizCinema
         {
             if (fillSliderReactionTween == null)
             {
-                fillSliderReactionTween = endPositionToPunch.DOPunchScale(new Vector3(0.1f, 0.1f, 0.1f), duration / 4).SetEase(Ease.InOutElastic);
+                fillSliderReactionTween = endPositionToPunch.DOPunchScale(new Vector3(0.05f, 0.05f, 0.05f), duration / 2).SetEase(Ease.InOutElastic);
                 await fillSliderReactionTween.ToUniTask();
                 fillSliderReactionTween = null;
             }

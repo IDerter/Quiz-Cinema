@@ -57,6 +57,15 @@ namespace QuizCinema {
                     }
                 }
 
+				else
+				{
+                    if ((listIndexCorrectAnswer[0] != i && listIndexCorrectAnswer[1] != i) && currentAnswerIndex < _countRemoveAnswer && indexPrefab != _indexPrefabImageQuestions)
+                    {
+                        currentAnswer[i].gameObject.SetActive(false);
+                        currentAnswerIndex++;
+                    }
+                } 
+
             }
 
             SwitchInteractable(false, _buttonBoost);

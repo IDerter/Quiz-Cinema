@@ -77,14 +77,14 @@
       <Info>Угадай фильм по кадру</Info>
       <ListNoteFilm>
         <string>
-          The plot of the picture is tied to a robbery,
-          after which the criminals gather in an abandoned warehouse on the outskirts of the city - and try to find out who framed them
-          1992 - USA
+The plot of the picture is tied to a robbery,
+after which the criminals gather in an abandoned warehouse on the outskirts of the city - and try to find out who framed them
+1992 - USA
         </string>
         <string>
-          Сюжет картины завязан на ограблении,
-          после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
-          1992 г. - США
+Сюжет картины завязан на ограблении,
+после которого преступники собираются в заброшенном складе на окраине города — и пытаются выяснить, кто их подставил
+1992 г. - США
         </string>
       </ListNoteFilm>
       <NoteFilm>
@@ -94,12 +94,12 @@
       </NoteFilm>
       <ListDescriptionFilm>
         <string>
-          Quentin Tarantino
-          1992
+Quentin Tarantino
+1992
         </string>
         <string>
-          Квентин Тарантино
-          1992
+Квентин Тарантино
+1992
         </string>
       </ListDescriptionFilm>
       <Director>Tarantino</Director>
