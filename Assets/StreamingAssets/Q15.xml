@@ -289,16 +289,16 @@ as it was in many films. We tried to take a different approach and achieve tensi
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
         <string>What number do you get if you multiply the value from the movie with Matthew McConaughey and Kate Hudson?
-and the meaning from the movie with Will Smith and Rosario Dawson? (take a double photo with the first film)
+and the meaning from the movie with Will Smith and Rosario Dawson?
       </string>
         <string>
 Какое число получится, если умножить значение из фильма с Мэттью Макконахи и Кейт Хадсон 
-и значение из фильма с Уиллом Смитом и Розарио Доусон? (сделать двойное фото с первым фильмом)
+и значение из фильма с Уиллом Смитом и Розарио Доусон?
       </string>
       </ListInfoQuestion>
       <Info>
 Какое число получится, если умножить значение из фильма с Мэттью Макконахи и Кейт Хадсон 
-и значение из фильма с Уиллом Смитом и Розарио Доусон? (сделать двойное фото с первым фильмом)
+и значение из фильма с Уиллом Смитом и Розарио Доусон?
       </Info>
       <ListNoteFilm>
         <string>-</string>
@@ -431,14 +431,14 @@ and the meaning from the movie with Will Smith and Rosario Dawson? (take a doubl
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
         <string>
-Guess the movie by its cast (you will need to add a photo instead of names and change it to 0 index prefab):
+Guess the movie by its cast
 Kevin Spacey - Lester Burnham
 Annette Bening - Caroline Burnham
 Thora Birch - Jane Burnham
 Wes Bentley - Ricky Fitts
       </string>
         <string>
-Угадай фильм по актерскому составу(нужно будет добавить фотку вместо имен и поменять на 0 index prefab):
+Угадай фильм по актерскому составу
 Кевин Спейси — Лестер Бёрнем
 Аннетт Бенинг — Кэролайн Бёрнем
 Тора Бёрч — Джейн Бёрнем
@@ -446,7 +446,7 @@ Wes Bentley - Ricky Fitts
       </string>
       </ListInfoQuestion>
       <Info>
-Угадай фильм по актерскому составу(нужно будет добавить фотку вместо имен и поменять на 0 index prefab):
+Угадай фильм по актерскому составу
 Кевин Спейси — Лестер Бёрнем
 Аннетт Бенинг — Кэролайн Бёрнем
 Тора Бёрч — Джейн Бёрнем

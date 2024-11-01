@@ -3508,6 +3508,8 @@ MonoBehaviour:
   _directionRight: 1
   _isLoop: 1
   _moveValue: 0.25
+  _isDelete: 0
+  _fadeImage: {fileID: 0}
 --- !u!95 &330877397
 Animator:
   serializedVersion: 4
@@ -8433,7 +8435,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 122376823}
   m_HandleRect: {fileID: 122376821}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -19732,7 +19734,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 525301800}
   m_Direction: 3
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9799944
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -49414,7 +49416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -12, y: 537.9494}
+  m_AnchoredPosition: {x: -201.70001, y: 537.9494}
   m_SizeDelta: {x: -417.7948, y: -869.38086}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3220167383452013381
@@ -49490,7 +49492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 145, y: -37.6}
+  m_AnchoredPosition: {x: 154.8, y: -37.6}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3220167383649078376
@@ -49880,7 +49882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152, y: -41}
+  m_AnchoredPosition: {x: -125, y: -41}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3220167384634554663
@@ -68490,6 +68492,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7679628104100586064, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7679628104100586065, guid: 0114d7605b5ac3b498d03f4a4a03140b, type: 3}
       propertyPath: m_Name
       value: AdsManager
@@ -128466,7 +128472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00012207031}
+  m_AnchoredPosition: {x: 117.24966, y: -0.00012207031}
   m_SizeDelta: {x: -0.0000076293945, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &9212060941629867212

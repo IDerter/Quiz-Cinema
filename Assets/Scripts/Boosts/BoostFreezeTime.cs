@@ -12,7 +12,7 @@ namespace QuizCinema
         public static event Action OnEndStopTime;
         [SerializeField] private TimerInLvl _timerInLvl;
 
-        private const float _timeFreeze = 5f;
+        private const float _timeFreeze = 10f;
 
 
 

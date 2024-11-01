@@ -66,18 +66,14 @@ namespace QuizCinema
             }
             else
             {
-                bool alreadyPicked = _pickedAnswers.Exists(x => x == newAnswer);
+                Debug.Log("Multiple");
+                _pickedAnswers.Add(newAnswer);
+                if (_pickedAnswers.Count == 1)
+				{
+                    Debug.Log("Multiple count = 1");
+                    //_gameManager.Accept();
+                }
                 
-                Debug.Log("Multiply");
-                if (alreadyPicked)
-                {
-                    _pickedAnswers.Remove(newAnswer);
-                }
-                else
-                {
-                    Debug.Log("Add Multiply");
-                    _pickedAnswers.Add(newAnswer);
-                }
                 if (_pickedAnswers.Count == _data.Questions[_currentIndexNotRandom].GetCorrectAnswers().Count)
                 {
                     CurrentAnswerList?.Invoke(_pickedAnswers);
