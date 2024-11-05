@@ -15,6 +15,8 @@ public class RewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLi
 
 	private string _adUnitId = null;
 
+	[SerializeField] private GameObject _toDelete;
+
     private void Awake()
     {
         #if UNITY_IOS
@@ -25,17 +27,18 @@ public class RewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLi
 	}
 
 
-	public void LoadRewardedAd()
+	public void LoadRewardedAd(GameObject toDelete = null)
 	{
 		Advertisement.Load(_adUnitId, this);
 		Debug.Log("Ad Loaded: " + _adUnitId);
 	}
 
-	public void ShowRewardedAd()
+	public void ShowRewardedAd(GameObject toDelete = null)
 	{
+		_toDelete = toDelete;
 		LoadRewardedAd();
-		Advertisement.Show(_adUnitId, this);
 
+		StartCoroutine(RewardedDelayShow());
 	}
 
 	#region LoadCallback
@@ -75,10 +78,17 @@ public class RewardedAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowLi
 		{
 			Debug.Log("Ads Fully Watched .....");
 
+			if (_toDelete != null)
+				Destroy(_toDelete.gameObject, 1f);
+
 			RewardOn?.Invoke();
 		}
 	}
 	#endregion
 
-
+	public IEnumerator RewardedDelayShow()
+	{
+		yield return new WaitForSeconds(1f);
+		ShowAd();
+	}
 }

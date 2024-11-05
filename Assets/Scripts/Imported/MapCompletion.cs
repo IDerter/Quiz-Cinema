@@ -17,6 +17,7 @@ namespace TowerDefense
         private const string _fileBarsSave = "saveBars.dat";
         private const string _fileLearningStepsName = "saveLearningSteps.dat";
         private const string _fileAdsSave = "fileAdsSave.dat";
+        private const string _fileCountLvlFinished = "fileCountLvlFinished.dat";
 
         public string FileLearning => _fileLearningStepsName;
         public string FileName => _fileName;
@@ -69,6 +70,8 @@ namespace TowerDefense
 
         [SerializeField] private int _moneyShop;
         public int MoneyShop { get { return _moneyShop; } set { _moneyShop = value; } }
+        [SerializeField] private int _countLvlFinished = 0;
+        public int CountLvlFinished { get { return _countLvlFinished; } set { _countLvlFinished = value; } }
 
         [SerializeField] private int _skinShop;
         public int SkinShop { get { return _skinShop; } set { _skinShop = value; } }
@@ -136,6 +139,9 @@ namespace TowerDefense
 
             bool fladAdsMoney = Saver<int>.TryLoad(_fileAdsSave, ref Instance._totalAdsMoney);
             Saver<int>.Save(_fileAdsSave, Instance._totalAdsMoney);
+
+            bool flagCountLvlFinished = Saver<int>.TryLoad(_fileCountLvlFinished, ref Instance._countLvlFinished);
+            Saver<int>.Save(_fileCountLvlFinished, Instance._countLvlFinished);
             /*
             for (int i = 1; i < Instance._isOpenBar.Length; i++)
 			{
@@ -196,6 +202,12 @@ namespace TowerDefense
         {
             Instance._completeLearning = true;
         }
+
+        public static void SaveLvlFinished()
+		{
+            Saver<int>.Save(_fileCountLvlFinished, Instance._countLvlFinished);
+		}
+
         public static void SaveAds()
         {
             Saver<int>.Save(_fileAdsSave, Instance._totalAdsMoney);

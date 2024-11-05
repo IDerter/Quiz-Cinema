@@ -65,6 +65,7 @@ namespace QuizCinema
         public bool IsRewarded { get { return _isRewarded; } set { _isRewarded = value; } }
         private int _countAnswers = 0;
 
+
         public void Construct(QuestionMethods obj) 
         { 
             _questionMethods = obj;
@@ -270,7 +271,18 @@ namespace QuizCinema
                 AudioManager.Instance.StopSound("BGLvl");
                 _levelCountStars = CalculateLevelStars();
                 if (_levelCountStars > 0)
+                {
                     AudioManager.Instance.PlaySound(_winLvlSFX);
+
+                    if (MapCompletion.Instance.CountLvlFinished % 2 != 0)
+                        AdsManager.Instance._interstitialAds.ShowInterstitialAd();
+					else
+					{
+                        MapCompletion.Instance.CountLvlFinished++;
+                        MapCompletion.SaveLvlFinished();
+                    }
+
+                }
 
                 FinishGame();
                 OnFinishGame?.Invoke();

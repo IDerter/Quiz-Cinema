@@ -60804,6 +60804,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4069046564023444569}
@@ -60812,7 +60816,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1152297664}
     - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1152297664}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
@@ -60824,6 +60836,10 @@ PrefabInstance:
       value: Multiplier
       objectReference: {fileID: 0}
     - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Multiplier
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: QuizCinema.ClickAsyncAnim, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -60832,7 +60848,15 @@ PrefabInstance:
       value: QuizCinema.ButtonsRewarded, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: QuizCinema.ButtonsRewarded, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761461689380839520, guid: 0d3df765392332f499ae6570327e6c06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4761461689380839522, guid: 0d3df765392332f499ae6570327e6c06, type: 3}

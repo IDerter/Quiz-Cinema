@@ -1143,7 +1143,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5838,8 +5838,8 @@ RectTransform:
   m_Father: {fileID: 267882817}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -8496,9 +8496,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: 3, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &872987069
 GameObject:
@@ -14994,9 +14994,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 3, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1622764330
 MonoBehaviour:
@@ -15930,6 +15930,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685472165}
   m_CullTransparentMesh: 1
+--- !u!1 &1690052466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1690052467}
+  m_Layer: 5
+  m_Name: MoveBoosterTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1690052467
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690052466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1041328830914756635}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 267, y: -1431}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1691485593
 GameObject:
   m_ObjectHideFlags: 0
@@ -19666,9 +19702,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -17}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &2123938393
 MonoBehaviour:
@@ -19734,7 +19770,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 525301800}
   m_Direction: 3
   m_Value: 0
-  m_Size: 0.9799944
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -26273,6 +26309,7 @@ RectTransform:
   - {fileID: 6079955508135264085}
   - {fileID: 1483773435}
   - {fileID: 745522523}
+  - {fileID: 1690052467}
   m_Father: {fileID: 904861522}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -55210,6 +55247,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5992031422107711771}
+        m_TargetAssemblyTypeName: QuizCinema.BuyBoosterAnim, Assembly-CSharp
+        m_MethodName: BoosterAnimStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3979012708554344393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56326,6 +56375,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5992031422092815791}
+        m_TargetAssemblyTypeName: QuizCinema.BuyBoosterAnim, Assembly-CSharp
+        m_MethodName: BoosterAnimStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &3979012709070238625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -57224,6 +57285,18 @@ MonoBehaviour:
       - m_Target: {fileID: 4739429809199079443}
         m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
         m_MethodName: ClickAnim
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5992031422416163947}
+        m_TargetAssemblyTypeName: QuizCinema.BuyBoosterAnim, Assembly-CSharp
+        m_MethodName: BoosterAnimStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -58148,6 +58221,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5992031421818449936}
+        m_TargetAssemblyTypeName: QuizCinema.BuyBoosterAnim, Assembly-CSharp
+        m_MethodName: BoosterAnimStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3979012709996475818
 RectTransform:
   m_ObjectHideFlags: 0
@@ -58441,6 +58526,18 @@ MonoBehaviour:
       - m_Target: {fileID: 4739429809713873197}
         m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
         m_MethodName: ClickAnim
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5992031422327024432}
+        m_TargetAssemblyTypeName: QuizCinema.BuyBoosterAnim, Assembly-CSharp
+        m_MethodName: BoosterAnimStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -59337,6 +59434,18 @@ MonoBehaviour:
       - m_Target: {fileID: 4739429810075469547}
         m_TargetAssemblyTypeName: QuizCinema.ClickAsyncAnim, Assembly-CSharp
         m_MethodName: ClickAnim
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5992031422701867088}
+        m_TargetAssemblyTypeName: QuizCinema.BuyBoosterAnim, Assembly-CSharp
+        m_MethodName: BoosterAnimStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -78201,6 +78310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992031421818449920}
+  - component: {fileID: 5992031421818449936}
   m_Layer: 5
   m_Name: BoosterStopTime
   m_TagString: Untagged
@@ -78208,6 +78318,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5992031421818449936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992031421818449935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210cc65de59b24b9516392ccdfe391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boosterPrefab: {fileID: 6563484033610667795}
+  boosterParent: {fileID: 5992031421951181936}
+  spawnLocation: {fileID: 6563484033610667794}
+  endPosition: {fileID: 1690052467}
+  duration: 2
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!1 &5992031421855474588
 GameObject:
   m_ObjectHideFlags: 0
@@ -78407,6 +78538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992031422092815790}
+  - component: {fileID: 5992031422092815791}
   m_Layer: 5
   m_Name: Booster50Percent
   m_TagString: Untagged
@@ -78440,6 +78572,27 @@ RectTransform:
   m_AnchoredPosition: {x: 982, y: -944}
   m_SizeDelta: {x: 320.6, y: 588}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5992031422092815791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992031422092815789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210cc65de59b24b9516392ccdfe391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boosterPrefab: {fileID: 5992031421656574108}
+  boosterParent: {fileID: 5992031421951181936}
+  spawnLocation: {fileID: 5992031421656574109}
+  endPosition: {fileID: 1690052467}
+  duration: 2
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!1 &5992031422107711769
 GameObject:
   m_ObjectHideFlags: 0
@@ -78449,6 +78602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992031422107711770}
+  - component: {fileID: 5992031422107711771}
   m_Layer: 5
   m_Name: BoosterInfo
   m_TagString: Untagged
@@ -78482,6 +78636,27 @@ RectTransform:
   m_AnchoredPosition: {x: 286.00012, y: -944}
   m_SizeDelta: {x: 320.6, y: 588}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5992031422107711771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992031422107711769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210cc65de59b24b9516392ccdfe391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boosterPrefab: {fileID: 5992031422758581742}
+  boosterParent: {fileID: 5992031421951181936}
+  spawnLocation: {fileID: 5992031422758581743}
+  endPosition: {fileID: 1690052467}
+  duration: 2
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!1 &5992031422118321608
 GameObject:
   m_ObjectHideFlags: 0
@@ -78491,6 +78666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992031422118321609}
+  - component: {fileID: 5992031422118321610}
   m_Layer: 5
   m_Name: BoosterFreezeTime
   m_TagString: Untagged
@@ -78521,6 +78697,27 @@ RectTransform:
   m_AnchoredPosition: {x: 287.3601, y: -326.2002}
   m_SizeDelta: {x: 320.6, y: 588}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5992031422118321610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992031422118321608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210cc65de59b24b9516392ccdfe391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boosterPrefab: {fileID: 6904146965377150450}
+  boosterParent: {fileID: 5992031421951181936}
+  spawnLocation: {fileID: 6904146965377150451}
+  endPosition: {fileID: 1690052467}
+  duration: 2
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!1 &5992031422169752258
 GameObject:
   m_ObjectHideFlags: 0
@@ -78734,6 +78931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992031422327024416}
+  - component: {fileID: 5992031422327024432}
   m_Layer: 5
   m_Name: BoosterCorrect
   m_TagString: Untagged
@@ -78741,6 +78939,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5992031422327024432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992031422327024431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210cc65de59b24b9516392ccdfe391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boosterPrefab: {fileID: 5992031421395484742}
+  boosterParent: {fileID: 5992031421951181936}
+  spawnLocation: {fileID: 5992031421395484743}
+  endPosition: {fileID: 1690052467}
+  duration: 2
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!1 &5992031422370796873
 GameObject:
   m_ObjectHideFlags: 0
@@ -79001,6 +79220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992031422416163946}
+  - component: {fileID: 5992031422416163947}
   m_Layer: 5
   m_Name: Booster1K
   m_TagString: Untagged
@@ -79033,6 +79253,27 @@ RectTransform:
   m_AnchoredPosition: {x: 287.00006, y: -1561}
   m_SizeDelta: {x: 320.6, y: 588}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5992031422416163947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992031422416163945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210cc65de59b24b9516392ccdfe391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boosterPrefab: {fileID: 5992031421000544413}
+  boosterParent: {fileID: 5992031421951181936}
+  spawnLocation: {fileID: 5992031421000544414}
+  endPosition: {fileID: 1690052467}
+  duration: 2
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!1 &5992031422588753624
 GameObject:
   m_ObjectHideFlags: 0
@@ -79159,6 +79400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992031422701867087}
+  - component: {fileID: 5992031422701867088}
   m_Layer: 5
   m_Name: Booster50on50
   m_TagString: Untagged
@@ -79191,6 +79433,27 @@ RectTransform:
   m_AnchoredPosition: {x: 982, y: -326.2002}
   m_SizeDelta: {x: 320.6, y: 588}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5992031422701867088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992031422701867086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0210cc65de59b24b9516392ccdfe391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boosterPrefab: {fileID: 5992031422370796873}
+  boosterParent: {fileID: 5992031421951181936}
+  spawnLocation: {fileID: 5992031422370796874}
+  endPosition: {fileID: 1690052467}
+  duration: 2
+  minX: 0
+  maxX: 0
+  minY: 0
+  maxY: 0
 --- !u!222 &5992031422722321496
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -91574,7 +91837,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -693.30005}
+  m_AnchoredPosition: {x: 0, y: -693.3002}
   m_SizeDelta: {x: 0, y: 2385.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!224 &6563484033892647196
@@ -91700,7 +91963,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6563484034634861700}
   m_Direction: 3
   m_Value: 1
-  m_Size: 0.7093203
+  m_Size: 0.00000005118037
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -95983,8 +96246,8 @@ RectTransform:
   m_Father: {fileID: 6563484034467935070}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.7093203}
+  m_AnchorMin: {x: 0, y: 0.000000008424276}
+  m_AnchorMax: {x: 1, y: 0.000000059604645}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -99298,6 +99561,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5992031422118321610}
+        m_TargetAssemblyTypeName: QuizCinema.BuyBoosterAnim, Assembly-CSharp
+        m_MethodName: BoosterAnimStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &6793396317311541087
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -100457,7 +100732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -679.9999}
+  m_AnchoredPosition: {x: 0, y: -680.00073}
   m_SizeDelta: {x: 0, y: 2385.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &6904146965122268096
@@ -100561,8 +100836,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4106422268671078907}
   m_HandleRect: {fileID: 4106422268671078900}
   m_Direction: 3
-  m_Value: 0.99999964
-  m_Size: 0
+  m_Value: 1.0000004
+  m_Size: 0.00000056298404
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -127550,10 +127825,10 @@ RectTransform:
   m_Father: {fileID: 259322010}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 92.95044, y: 0}
-  m_SizeDelta: {x: -210.2, y: 37.4}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -541.04956, y: 935}
+  m_SizeDelta: {x: 1057.8, y: 1907.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &9212060941167405262
 GameObject:
@@ -128330,7 +128605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &9212060941538586205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -128429,7 +128704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
+  m_HorizontalFit: 1
   m_VerticalFit: 2
 --- !u!114 &9212060941629867202
 MonoBehaviour:
@@ -128470,10 +128745,10 @@ RectTransform:
   m_Father: {fileID: 9212060941167405261}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 117.24966, y: -0.00012207031}
-  m_SizeDelta: {x: -0.0000076293945, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 12.149597, y: 953.4499}
+  m_SizeDelta: {x: 657, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &9212060941629867212
 GameObject:
