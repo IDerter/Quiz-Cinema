@@ -55,7 +55,7 @@ namespace QuizCinema
                 {
                     if ((listIndexCorrectAnswer[0] == i || listIndexCorrectAnswer[1] == i) && _currentQuestion.IndexPrefab != 3)
                     {
-                        currentAnswer[i].UpdateUI(true);
+                        currentAnswer[i].CorrectAnswer.SetActive(true);
                         Debug.Log("Multiply");
                     }
                 }

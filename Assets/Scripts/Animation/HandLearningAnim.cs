@@ -16,11 +16,28 @@ namespace QuizCinema
         [SerializeField] private bool _directionRight = true;
         [SerializeField] private bool _isLoop = true;
         [SerializeField] private float _moveValue = 0.25f;
+        [SerializeField] private bool _isDelete = false;
+        [SerializeField] private FadeImage _fadeImage;
 
 		private void Start()
 		{
             if (_isLoop)
                 ClickAnim();
+
+			SwipeDetection.OnSwipeInput += OnSwipeInput;
+		}
+
+		private void OnDestroy()
+		{
+            SwipeDetection.OnSwipeInput -= OnSwipeInput;
+        }
+
+		private void OnSwipeInput(Vector2 arg0)
+		{
+            if (_isDelete)
+                _fadeImage?.FadeOutStartAnim();
+            Destroy(gameObject, 1f);
+
 		}
 
 		[Button()]

@@ -63,6 +63,7 @@ namespace QuizCinema
         public bool IsActivateBoost50Percent { get { return _isActivateBoost50Percent; } set { _isActivateBoost50Percent = value; } }
         [SerializeField] private bool _isRewarded;
         public bool IsRewarded { get { return _isRewarded; } set { _isRewarded = value; } }
+        private int _countAnswers = 0;
 
 
         public void Construct(QuestionMethods obj) 
@@ -188,17 +189,19 @@ namespace QuizCinema
 
         public void Accept()
         {
+            Debug.Log("ACCEPT");
             if (!_pressButtonAnswer)
             {
-                _timerInLvl.StopSlider();
-
                 _isCorrectAnswer = _questionMethods.CheckAnswers();
+                _countAnswers++;
                 Debug.Log("ISCORRECT" + _isCorrectAnswer);
-
+                _timerInLvl.StopSlider();
                 if (_isCorrectAnswer)
                 {
+
                     Debug.Log("Accept True");
                     OnCorrectAnswer?.Invoke();
+
                     _countCorrectAnswer++;
                 }
                 else
@@ -230,7 +233,7 @@ namespace QuizCinema
 
         private void AfterAnswerСounted()
         {
-
+            _countAnswers = 0;
             var numberBar = LevelSequenceController.Instance.CurrentEpisode.EpisodeID;
             var numberLvlInBar = LevelSequenceController.Instance.CurrentLevel;
 
@@ -249,6 +252,7 @@ namespace QuizCinema
 
         public void NextQuestion()
         {
+            _countAnswers = 0;
             bool isCorrect = _questionMethods.CheckAnswers();
             Debug.Log(_questionMethods.IsFinished);
 
@@ -267,7 +271,18 @@ namespace QuizCinema
                 AudioManager.Instance.StopSound("BGLvl");
                 _levelCountStars = CalculateLevelStars();
                 if (_levelCountStars > 0)
+                {
                     AudioManager.Instance.PlaySound(_winLvlSFX);
+
+                    if (MapCompletion.Instance.CountLvlFinished % 2 != 0)
+                        AdsManager.Instance._interstitialAds.ShowInterstitialAd();
+					else
+					{
+                        MapCompletion.Instance.CountLvlFinished++;
+                        MapCompletion.SaveLvlFinished();
+                    }
+
+                }
 
                 FinishGame();
                 OnFinishGame?.Invoke();

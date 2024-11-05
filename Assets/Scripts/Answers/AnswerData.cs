@@ -45,11 +45,18 @@ namespace QuizCinema
         private bool _checked = false;
         public bool Checked => _checked;
 
+        [SerializeField] private Question _currentQuestion;
+
+        [SerializeField] private List<int> _correctAnswersIndex;
+
+
 
         private void OnEnable()
         {
             GameManager.Instance.OnCorrectAnswer += OnCorrectAnswer;
             GameManager.Instance.OnInCorrectAnswer += OnUnCorrectAnswer;
+
+            _currentQuestion = AnswersMethods.Instance.GetCurrentQuestion;
         }
 
         private void OnDisable()
@@ -126,10 +133,21 @@ namespace QuizCinema
 
             UpdateQuestionAnswer?.Invoke(this);
             Debug.Log("Switch case");
+
+            _correctAnswersIndex = _currentQuestion.GetCorrectAnswers();
+
+            for (int i = 0; i < _correctAnswersIndex.Count; i++)
+            {
+                if (_answerIndex == _correctAnswersIndex[i])
+                    OnCorrectAnswer();
+            }
+            if (_correctAnswer.activeSelf == false)
+                OnUnCorrectAnswer();
         }
 
         public void UpdateUI(bool _checked)
         {
+
             /*if (_checked)
             {
                 _correctAnswer.SetActive(true);

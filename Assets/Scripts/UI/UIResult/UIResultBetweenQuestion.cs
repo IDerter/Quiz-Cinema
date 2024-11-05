@@ -35,7 +35,7 @@ namespace QuizCinema
         [SerializeField] private TextMeshProUGUI _textCinemaInfo;
         [SerializeField] private Image _directorImage;
         private string _directorName;
-        private Question _currentQuestion;
+        [SerializeField] private Question _currentQuestion;
 
         [SerializeField] LikeFilm _like;
 
@@ -60,6 +60,7 @@ namespace QuizCinema
         private int _indexLang;
 
         private const string _clickSFX = "ClickSFX";
+
 
 
         private void Start()
@@ -240,7 +241,12 @@ namespace QuizCinema
             _directorName = question.Director;
             _directorImage.sprite = sprite;
 
-            _textCinemaName.text = _listAnswersCorrect[0].InfoList[_indexLang];
+            if (_indexLang == 0)
+                _textCinemaName.text = question._cadrCinemaName;
+            else
+                _textCinemaName.text = question._cadrCinemaNameTranslateRu;
+
+            //_textCinemaName.text = _listAnswersCorrect[0].InfoList[_indexLang];
         }
 
 

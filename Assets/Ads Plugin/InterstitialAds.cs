@@ -1,5 +1,7 @@
+using QuizCinema;
 using System.Collections;
 using System.Collections.Generic;
+using TowerDefense;
 using UnityEngine;
 using UnityEngine.Advertisements;
 
@@ -26,8 +28,15 @@ public class InterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 
 	public void ShowInterstitialAd()
 	{
-		Advertisement.Show(_adUnitId, this);
 		LoadInterstitialAd();
+
+		StartCoroutine(InterstitialDelayShow());
+
+	}
+
+	public void ShowAd()
+	{
+		Advertisement.Show(_adUnitId, this);
 	}
 
 	#region LoadCallback
@@ -51,7 +60,18 @@ public class InterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 
 	public void OnUnityAdsShowComplete(string placementId, UnityAdsShowCompletionState showCompletionState)
 	{
-		Debug.Log("Interstitial Ad Ñompleted");
+		if (placementId == _adUnitId && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED))
+		{
+			Debug.Log("Interstitial Ad Ñompleted");
+			MapCompletion.Instance.CountLvlFinished++;
+			MapCompletion.SaveLvlFinished();
+		}
 	}
 	#endregion
+
+	public IEnumerator InterstitialDelayShow()
+	{
+		yield return new WaitForSeconds(1f);
+		ShowAd();
+	}
 }

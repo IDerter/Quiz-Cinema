@@ -205,23 +205,23 @@
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
         <string>
-          Name the movie based on its description:
-          A modest and shy bank employee feels insecure around beautiful girls and around people in general.
-          By the will of fate, a magic mask falls into his hands, and Stanley Ipkiss acquires the ability to turn into an invulnerable
-          cartoon creature with a mischievous character.
+Name the movie based on its description:
+A modest and shy bank employee feels insecure around beautiful girls and around people in general.
+By the will of fate, a magic mask falls into his hands, and Stanley Ipkiss acquires the ability to turn into an invulnerable
+cartoon creature with a mischievous character.
         </string>
         <string>
-          Назовите фильм по описанию:
-          Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
-          Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
-          мультяшное существо с озорным характером.
+Назовите фильм по описанию:
+Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
+Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
+мультяшное существо с озорным характером.
         </string>
       </ListInfoQuestion>
       <Info>
-        Назовите фильм по описанию:
-        Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
-        Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
-        мультяшное существо с озорным характером.
+Назовите фильм по описанию:
+Скромный и застенчивый служащий банка чувствует себя неуверенно с красивыми девушками и вообще рядом с людьми.
+Волей судьбы к нему попадает волшебная маска, и Стенли Ипкис приобретает способность превращаться в неуязвимое
+мультяшное существо с озорным характером.
       </Info>
       <ListNoteFilm />
       <NoteFilm>-</NoteFilm>
@@ -433,7 +433,7 @@ On Stranger Tides</Info>
       <IndexPrefab>3</IndexPrefab>
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
-        <string>Select a movie from the movie Barbie</string>
+        <string>Select a frame from the movie Barbie</string>
         <string>Выберите кадр из фильма Барби</string>
       </ListInfoQuestion>
       <Info>Выберите кадр из фильма Барби</Info>

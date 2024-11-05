@@ -11401,6 +11401,8 @@ MonoBehaviour:
   _directionRight: 1
   _isLoop: 1
   _moveValue: 0.25
+  _isDelete: 0
+  _fadeImage: {fileID: 0}
 --- !u!95 &193678576
 Animator:
   serializedVersion: 4
@@ -34264,6 +34266,8 @@ MonoBehaviour:
   _directionRight: 1
   _isLoop: 1
   _moveValue: 0.25
+  _isDelete: 0
+  _fadeImage: {fileID: 0}
 --- !u!95 &631240028
 Animator:
   serializedVersion: 4
@@ -64466,6 +64470,8 @@ MonoBehaviour:
   _directionRight: 1
   _isLoop: 1
   _moveValue: 0.25
+  _isDelete: 0
+  _fadeImage: {fileID: 0}
 --- !u!114 &1207767696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66075,6 +66081,8 @@ MonoBehaviour:
   _directionRight: 1
   _isLoop: 1
   _moveValue: 0.25
+  _isDelete: 0
+  _fadeImage: {fileID: 0}
 --- !u!95 &1231947867
 Animator:
   serializedVersion: 4
@@ -99938,6 +99946,8 @@ MonoBehaviour:
   _directionRight: 0
   _isLoop: 1
   _moveValue: 0.25
+  _isDelete: 0
+  _fadeImage: {fileID: 0}
 --- !u!1 &1844865052
 GameObject:
   m_ObjectHideFlags: 0
@@ -119199,7 +119209,7 @@ PrefabInstance:
       objectReference: {fileID: 1588089378406376240}
     - target: {fileID: 2649187008951887522, guid: 6f717b9064880364493e1af9a1a33b3f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -680.00024
+      value: -679.9999
       objectReference: {fileID: 0}
     - target: {fileID: 3134475459097924613, guid: 6f717b9064880364493e1af9a1a33b3f, type: 3}
       propertyPath: m_Name
@@ -119383,10 +119393,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4349965740824104479, guid: 6f717b9064880364493e1af9a1a33b3f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4349965740824104479, guid: 6f717b9064880364493e1af9a1a33b3f, type: 3}
-      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4944097305061962045, guid: 6f717b9064880364493e1af9a1a33b3f, type: 3}

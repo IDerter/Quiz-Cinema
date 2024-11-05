@@ -15,7 +15,7 @@ namespace QuizCinema
 
         private void OnEnable()
         {
-            _spawnParent.transform.position = new Vector3(0, 0, 0);
+            _spawnParent.transform.position = new Vector3(_spawnParent.transform.position.x, _spawnParent.transform.position.y, _spawnParent.transform.position.z);
             var list = DataLikeCinema.Instance.CompletionDataCinema;
             var likeCinemaPanels = _spawnParent.GetComponentsInChildren<LikeCinemaPanel>();
             foreach (var likeCinema in likeCinemaPanels)

@@ -16,6 +16,7 @@ namespace QuizCinema
 		[SerializeField] private TimerInLvl _timerInLvl;
 		[SerializeField] private Button _buttonPlay;
 		[SerializeField] private Button _buttonRetry;
+		[SerializeField] private GameObject _handHintSwipe;
 
 		private void Start()
 		{
@@ -59,9 +60,14 @@ namespace QuizCinema
 
 		private void OnEndFillSlider()
 		{
-			if(MapCompletion.Instance.LearnSteps[1] == false)
+			if (MapCompletion.Instance.LearnSteps[1] == false)
+			{
 				if (_overlayHintsTimer != null)
+				{
 					StartCoroutine(DelayOverlaySetActive(_overlayHintsTimer, 1.5f));
+					_handHintSwipe.SetActive(true);
+				}
+			}
 		}
 
 		private IEnumerator DelayOverlaySetActive(GameObject overlayHints, float time)
