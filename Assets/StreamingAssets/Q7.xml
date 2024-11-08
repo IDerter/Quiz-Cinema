@@ -6,14 +6,14 @@
       <_answerType>Single</_answerType>
       <ListInfoQuestion>
         <string>
-Name the movie based on three facts:
+Name the movie based on two facts:
 1) Artist Stuart Craig, winner of three Oscars, based the design of London Underground stations at the beginning of the 20th century.
 Craig liked how the designers of the old stations imitated classical architecture while using ceramic tiles for the walls.
 This technique was borrowed from the film's set design; More than 30,000 tiles were used to cover the walls of the atrium.
 2) The kissing scene between Harry Potter and Chang was filmed in only 24 takes.
       </string>
         <string>
-Назовите фильм по трем фактам:
+Назовите фильм по двум фактам:
 1) Художник Стюарт Крэйг, обладатель трех «Оскаров», взял за основу дизайн станций лондонского метро начала XX века.
 Крейгу понравилось, как проектировщики старых станций имитировали классическую архитектуру, при этом используя керамическую плитку для облицовки стен.
 Этот прием был позаимствован при работе над декорациями фильма; на облицовку стен атриума ушло более 30 000 плиток.
@@ -21,7 +21,7 @@ This technique was borrowed from the film's set design; More than 30,000 tiles w
       </string>
       </ListInfoQuestion>
       <Info>
-Назовите фильм по трем фактам:
+Назовите фильм по двум фактам:
 1) Художник Стюарт Крэйг, обладатель трех «Оскаров», взял за основу дизайн станций лондонского метро начала XX века.
 Крейгу понравилось, как проектировщики старых станций имитировали классическую архитектуру, при этом используя керамическую плитку для облицовки стен.
 Этот прием был позаимствован при работе над декорациями фильма; на облицовку стен атриума ушло более 30 000 плиток.
@@ -41,7 +41,7 @@ This technique was borrowed from the film's set design; More than 30,000 tiles w
       <Director>David Yates</Director>
       <Poster />
       <_cadrCinemaName>Harry Potter and the Order of the Phoenix</_cadrCinemaName>
-      <_cadrCinemaNameTranslateRu />
+      <_cadrCinemaNameTranslateRu>Гарри Поттер и Орден Феникса</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>

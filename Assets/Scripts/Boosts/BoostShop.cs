@@ -34,7 +34,7 @@ namespace QuizCinema
         public void UpdateMoney()
         {
             print("Update");
-            _money = MapCompletion.Instance.TotalScoreLvls - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
+            _money = (MapCompletion.Instance.TotalScoreLvls + MapCompletion.Instance.TotalAdsMoney) - MapCompletion.Instance.MoneyShop - MapCompletion.Instance.SkinShop;
 
 
             //_textMoney.text = _money.ToString();

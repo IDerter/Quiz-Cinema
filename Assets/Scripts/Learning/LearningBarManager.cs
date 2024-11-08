@@ -56,13 +56,13 @@ namespace QuizCinema
 				_slot1.interactable = true;
 				_slot2.interactable = true;
 				_lvl1_2Table.interactable = false;
-				StartCoroutine(DelayOverlaySetActive(_overlaySecondOpenHint, 3f, true));
+				StartCoroutine(DelayOverlaySetActive(_overlaySecondOpenHint, 4f, true));
 				_overlayFirstOpenHint.SetActive(false);
 			}
 			else if (MapCompletion.Instance.LearnSteps[0] == true && MapCompletion.Instance.LearnSteps[1] == false)
 			{
 				_lvl1_1Table.interactable = false;
-				StartCoroutine(DelayOverlaySetActive(_overlayFirstOpenHint, 1.5f, false));
+				StartCoroutine(DelayOverlaySetActive(_overlayFirstOpenHint, 1f, false));
 				_overlaySecondOpenHint.SetActive(false);
 				Debug.Log("first hint");
 			}

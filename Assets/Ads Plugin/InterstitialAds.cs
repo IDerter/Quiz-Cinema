@@ -63,8 +63,6 @@ public class InterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 		if (placementId == _adUnitId && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED))
 		{
 			Debug.Log("Interstitial Ad Ñompleted");
-			MapCompletion.Instance.CountLvlFinished++;
-			MapCompletion.SaveLvlFinished();
 		}
 	}
 	#endregion
@@ -73,5 +71,7 @@ public class InterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 	{
 		yield return new WaitForSeconds(1f);
 		ShowAd();
+		MapCompletion.Instance.CountLvlFinished++;
+		MapCompletion.SaveLvlFinished();
 	}
 }
