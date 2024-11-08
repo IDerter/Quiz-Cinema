@@ -82,6 +82,7 @@ namespace TowerDefense
 					{
                         _levels[index].LockAnim?.gameObject.SetActive(false);
                         _levels[index].OverlayImage?.gameObject.SetActive(false);
+                       // DeleteLockAndOverlay(index);
                     }
 				}
             }
@@ -93,7 +94,7 @@ namespace TowerDefense
                   //  _levels[index].BarAnim.BarInActive();
                 }
 
-                if (_levels[index].GetType == TypeStarts.Lvl)
+                if (_levels[index].GetType == TypeStarts.Lvl && PlayerPrefs.GetInt(_levels[index].name) == 0)
                 {
                     _levels[index].GetLockImage?.gameObject.SetActive(true);
                     _levels[index].OverlayImage?.gameObject.SetActive(true);
@@ -110,6 +111,11 @@ namespace TowerDefense
          */
         }
 
+        public void DeleteLockAndOverlay(int index)
+		{
+            Destroy(_levels[index].LockAnim?.gameObject, 1f);
+            Destroy(_levels[index].OverlayImage?.gameObject, 1f);
+        }
 
         public void SetPressAnimLock(SkeletonGraphic lockObj)
 		{

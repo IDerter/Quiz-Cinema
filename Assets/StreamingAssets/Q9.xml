@@ -38,7 +38,7 @@ Willem Dafoe - Jopling, Edward Norton - Inspector Henkels
       <Director>Wes Anderson</Director>
       <Poster />
       <_cadrCinemaName>The Grand Budapest Hotel</_cadrCinemaName>
-      <_cadrCinemaNameTranslateRu />
+      <_cadrCinemaNameTranslateRu>Отель «Гранд Будапешт»</_cadrCinemaNameTranslateRu>
       <Answers>
         <Answer>
           <InfoList>
@@ -501,7 +501,6 @@ How to stop a murderer if he is already behind bars?
       <Timer>30</Timer>
       <AddScore>50</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>1</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -567,7 +566,6 @@ How to stop a murderer if he is already behind bars?
       <Timer>30</Timer>
       <AddScore>40</AddScore>
     </Question>
-
     <Question>
       <IndexPrefab>0</IndexPrefab>
       <_answerType>Single</_answerType>
@@ -637,7 +635,6 @@ How to stop a murderer if he is already behind bars?
       <Timer>30</Timer>
       <AddScore>60</AddScore>
     </Question>
-    
     <Question>
       <IndexPrefab>2</IndexPrefab>
       <_answerType>Multiply</_answerType>

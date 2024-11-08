@@ -78334,7 +78334,7 @@ MonoBehaviour:
   boosterParent: {fileID: 5992031421951181936}
   spawnLocation: {fileID: 6563484033610667794}
   endPosition: {fileID: 1690052467}
-  duration: 2
+  duration: 1
   minX: 0
   maxX: 0
   minY: 0
@@ -78588,7 +78588,7 @@ MonoBehaviour:
   boosterParent: {fileID: 5992031421951181936}
   spawnLocation: {fileID: 5992031421656574109}
   endPosition: {fileID: 1690052467}
-  duration: 2
+  duration: 1
   minX: 0
   maxX: 0
   minY: 0
@@ -78652,7 +78652,7 @@ MonoBehaviour:
   boosterParent: {fileID: 5992031421951181936}
   spawnLocation: {fileID: 5992031422758581743}
   endPosition: {fileID: 1690052467}
-  duration: 2
+  duration: 1
   minX: 0
   maxX: 0
   minY: 0
@@ -78713,7 +78713,7 @@ MonoBehaviour:
   boosterParent: {fileID: 5992031421951181936}
   spawnLocation: {fileID: 6904146965377150451}
   endPosition: {fileID: 1690052467}
-  duration: 2
+  duration: 1
   minX: 0
   maxX: 0
   minY: 0
@@ -78955,7 +78955,7 @@ MonoBehaviour:
   boosterParent: {fileID: 5992031421951181936}
   spawnLocation: {fileID: 5992031421395484743}
   endPosition: {fileID: 1690052467}
-  duration: 2
+  duration: 1
   minX: 0
   maxX: 0
   minY: 0
@@ -79269,7 +79269,7 @@ MonoBehaviour:
   boosterParent: {fileID: 5992031421951181936}
   spawnLocation: {fileID: 5992031421000544414}
   endPosition: {fileID: 1690052467}
-  duration: 2
+  duration: 1
   minX: 0
   maxX: 0
   minY: 0
@@ -79449,7 +79449,7 @@ MonoBehaviour:
   boosterParent: {fileID: 5992031421951181936}
   spawnLocation: {fileID: 5992031422370796874}
   endPosition: {fileID: 1690052467}
-  duration: 2
+  duration: 1
   minX: 0
   maxX: 0
   minY: 0
@@ -91837,7 +91837,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -693.3002}
+  m_AnchoredPosition: {x: 0, y: -693.30005}
   m_SizeDelta: {x: 0, y: 2385.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!224 &6563484033892647196
@@ -100732,7 +100732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -680.00073}
+  m_AnchoredPosition: {x: 0, y: -679.9999}
   m_SizeDelta: {x: 0, y: 2385.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &6904146965122268096
@@ -100836,8 +100836,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4106422268671078907}
   m_HandleRect: {fileID: 4106422268671078900}
   m_Direction: 3
-  m_Value: 1.0000004
-  m_Size: 0.00000056298404
+  m_Value: 0.99999964
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
