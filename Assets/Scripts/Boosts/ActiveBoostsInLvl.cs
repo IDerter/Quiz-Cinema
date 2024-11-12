@@ -84,6 +84,10 @@ namespace QuizCinema
                                     Debug.Log("Active all lvl booster!!!");
                                 }
                             }
+
+                            if (boost.GetSetBoostSO.name == "Freeze Time")
+							{
+                            }
                             // _boostsActive[i].gameObject.SetActive(true);
                         }
                     }
