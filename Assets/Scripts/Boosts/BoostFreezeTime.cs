@@ -32,6 +32,7 @@ namespace QuizCinema
 
 		private void OnNextQuestion()
 		{
+            _buttonPress = false;
             if (_freezeBoosterIce1.TryGetComponent<FadeImage>(out var fade))
             {
                 fade.FadeOutStartAnim();

@@ -75,6 +75,7 @@ namespace TowerDefense
                         fadeOverlay.GetComponent<Image>().raycastTarget = false;
                     }
                     PlayerPrefs.SetInt(_levels[index].name, 1);
+                    _levels[index].Lock = PlayerPrefs.GetInt(_levels[index].name) == 1 ? false : true;
                 }
 				else
 				{

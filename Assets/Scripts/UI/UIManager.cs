@@ -31,6 +31,9 @@ namespace QuizCinema
 
         [SerializeField] private UIElements _uIElements;
 
+        [SerializeField] private bool _isCalculating;
+        public bool IsCalculating { get { return _isCalculating; } set { _isCalculating = value; } }
+
         private List<int> _finishedAnswers = new List<int>();
         public List<int> FinishedAnswers => _finishedAnswers;
 
@@ -237,6 +240,8 @@ namespace QuizCinema
                 _uIElements.MaxScoreFinalLvl[1].text = maxScoreCurrentLvl.ToString();
             }
 
+            _isCalculating = true;
+
             Debug.Log("scoreMoreThanZero" + scoreMoreThanZero);
             while (scoreMoreThanZero ?  scoreValue < _score.CurrentLvlScore : scoreValue > _score.CurrentLvlScore)
             {
@@ -258,6 +263,7 @@ namespace QuizCinema
             }
 
             OnFinishScoreCalculating?.Invoke();
+            _isCalculating = false;
         }
 
 
