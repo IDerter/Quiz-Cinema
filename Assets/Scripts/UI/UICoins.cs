@@ -6,6 +6,7 @@ using TowerDefense;
 using Cysharp.Threading.Tasks;
 using System;
 using DG.Tweening;
+using System.Threading.Tasks;
 
 namespace QuizCinema
 {
@@ -32,11 +33,18 @@ namespace QuizCinema
         private void OnEnable()
         {
             MapCompletion.OnScoreUpdate += OnScoreUpdate;
+			UIManager.Instance.OnFinishScoreCalculating += OnFinishScoreCalculating;
         }
 
-        private void OnDestroy()
+		private void OnDestroy()
         {
             MapCompletion.OnScoreUpdate -= OnScoreUpdate;
+            UIManager.Instance.OnFinishScoreCalculating -= OnFinishScoreCalculating;
+        }
+
+        private async void OnFinishScoreCalculating()
+        {
+            await CalculateCoins();
         }
 
         private async void OnScoreUpdate()
@@ -52,25 +60,33 @@ namespace QuizCinema
 
         private async UniTask CalculateScore()
 		{
-            var scoreMoreThanZero = _coinsEnd - _coins > 0;
+            if (UIManager.Instance == null)
+			{
+				await CalculateCoins();
+			}
 
-            AudioManager.Instance.PlaySound(_coinSFX);
+		}
 
-            var taskReact = ReactCoins();
-            Debug.Log("CalculateScore");
-            while (scoreMoreThanZero ? _coins < _coinsEnd : _coins > _coinsEnd)
-            {
-                Debug.Log("CalculateScore" + _coins + " " +  _coinsEnd + " " + scoreMoreThanZero);    
-                await UniTask.Delay(TimeSpan.FromSeconds(0.0001f));
-                _coins += scoreMoreThanZero ? 1 : -1;
-                _textCoins.text = _coins.ToString();
-            }
-            Debug.Log("CalculateScore" + _coins + " " + _coinsEnd + " after while");
-            await UniTask.WhenAll(taskReact);
-            
-        }
+		private async Task CalculateCoins()
+		{
+			var scoreMoreThanZero = _coinsEnd - _coins > 0;
 
-        private async UniTask ReactCoins()
+			AudioManager.Instance.PlaySound(_coinSFX);
+
+			var taskReact = ReactCoins();
+			Debug.Log("CalculateScore");
+			while (scoreMoreThanZero ? _coins < _coinsEnd : _coins > _coinsEnd)
+			{
+				Debug.Log("CalculateScore" + _coins + " " + _coinsEnd + " " + scoreMoreThanZero);
+				await UniTask.Delay(TimeSpan.FromSeconds(0.0001f));
+				_coins += scoreMoreThanZero ? 1 : -1;
+				_textCoins.text = _coins.ToString();
+			}
+			Debug.Log("CalculateScore" + _coins + " " + _coinsEnd + " after while");
+			await UniTask.WhenAll(taskReact);
+		}
+
+		private async UniTask ReactCoins()
         {
             if (coinReactionTween == null)
             {

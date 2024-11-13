@@ -5836,6 +5836,7 @@ RectTransform:
   - {fileID: 1980939024155852412}
   - {fileID: 1980939025684699625}
   - {fileID: 1980939025287280423}
+  - {fileID: 1475046581229838429}
   m_Father: {fileID: 5675001620149396702}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6312,7 +6313,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5675001620149396702}
-  - {fileID: 1475046581229838429}
   m_Father: {fileID: 7787128588130067412}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7106,7 +7106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edbb6659becb1b7469f13daf0c6d83c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioClipButtonClick: {fileID: 8300000, guid: 822811e1568d2e243b03cf1ac6886630, type: 3}
+  _dontDestroyOnLoad: 0
   _buttonsLanguage:
   - {fileID: 5675001620046058876}
   - {fileID: 1980939024232748623}
@@ -7699,12 +7699,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 502178204510677891}
-  m_Father: {fileID: 4735306900203731221}
-  m_RootOrder: 1
+  m_Father: {fileID: 7382419927530527542}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -158.22705, y: -791.319}
+  m_AnchoredPosition: {x: -45, y: -54}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &8171925277364301135
