@@ -23,6 +23,8 @@ namespace QuizCinema
         [SerializeField] private Image[] _posterImage;
         private string _directorName;
 
+        [SerializeField] private Button[] _buttonCorrectNext;
+
         [SerializeField] private List<AnswerData> _listCorrectAnswers;
 
         private Question _currentQuestion;
@@ -109,6 +111,12 @@ namespace QuizCinema
                     _textCinemaName[0].text = _listAnswersCorrect[1].InfoList[_indexLang];
                     _textCinemaName[1].text = _listAnswersCorrect[0].InfoList[_indexLang];
                 }
+            }
+
+            foreach (var buttonCorrect in _buttonCorrectNext)
+            {
+                buttonCorrect.enabled = true;
+                buttonCorrect.gameObject.SetActive(true);
             }
         }
 
