@@ -130,7 +130,7 @@ namespace QuizCinema
                 _bgResultPanel.sprite = _almostCorrectBg;
             }
 
-            _buttonCorrectNext[0].enabled = true ;
+            _buttonCorrectNext[0].enabled = true;
             _buttonCorrectNext[0].gameObject.SetActive(true);
             _buttonCorrectNext[1].enabled = true;
             _buttonCorrectNext[1].gameObject.SetActive(true);

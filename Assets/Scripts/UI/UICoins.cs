@@ -33,13 +33,15 @@ namespace QuizCinema
         private void OnEnable()
         {
             MapCompletion.OnScoreUpdate += OnScoreUpdate;
-			UIManager.Instance.OnFinishScoreCalculating += OnFinishScoreCalculating;
+            if (UIManager.Instance != null)
+			    UIManager.Instance.OnFinishScoreCalculating += OnFinishScoreCalculating;
         }
 
 		private void OnDestroy()
         {
             MapCompletion.OnScoreUpdate -= OnScoreUpdate;
-            UIManager.Instance.OnFinishScoreCalculating -= OnFinishScoreCalculating;
+            if (UIManager.Instance != null)
+                UIManager.Instance.OnFinishScoreCalculating -= OnFinishScoreCalculating;
         }
 
         private async void OnFinishScoreCalculating()
