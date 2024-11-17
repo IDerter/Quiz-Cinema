@@ -18372,7 +18372,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0006103516, y: 0}
+  m_AnchoredPosition: {x: 0.00061035156, y: 0}
   m_SizeDelta: {x: 3783, y: 876}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3000054505981891430
@@ -36161,6 +36161,7 @@ MonoBehaviour:
     _finishUIElements: {fileID: 2537113750213874845}
     _buttonFinishNextLvl: {fileID: 1088909625322910627}
     _buttonFinishReloadLvl: {fileID: 2798459120421773897}
+  _isCalculating: 0
 --- !u!114 &4462214292470188442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38199,6 +38200,9 @@ MonoBehaviour:
   - {fileID: 3000054506047268097}
   - {fileID: 7661326172020635262}
   - {fileID: 4530920728391520277}
+  _buttonCorrectNext:
+  - {fileID: 4298427272328633476}
+  - {fileID: 6164669484610272069}
   _listCorrectAnswers: []
   _namesFilms: []
   _namesDescriptions: []
@@ -58521,7 +58525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5675001618393871687, guid: 519a72d57249aa141a5047cd6be77d9d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5675001618989135459, guid: 519a72d57249aa141a5047cd6be77d9d, type: 3}
       propertyPath: m_Pivot.x
@@ -58641,7 +58645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8496175968665616197, guid: 519a72d57249aa141a5047cd6be77d9d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 519a72d57249aa141a5047cd6be77d9d, type: 3}
